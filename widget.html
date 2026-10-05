@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#11223a">
+  <title>Cài widget · JLPT N3</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#0b1729;color:#f5f2e9;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}main{max-width:520px;margin:auto;padding:42px 24px 65px}.back{color:#eabb76;text-decoration:none;font-size:14px}h1{font-family:Georgia,serif;font-weight:400;font-size:44px;line-height:1.1;margin:38px 0 16px}p{color:#a9b6c8}h2{font-size:16px;margin-top:32px}.sample{width:166px;height:166px;border:1px solid #304662;border-radius:28px;background:#13243c;padding:17px 18px;display:flex;flex-direction:column;margin:27px 0;color:#eabb76;box-shadow:0 20px 35px #0005}.sample b{font-size:12px;letter-spacing:.1em}.sample strong{font-size:56px;line-height:1.1;color:#f5f2e9;margin-top:auto}.sample small{font-size:10px}.sample span{font-size:9px;color:#a9b6c8;margin-top:7px}.button{display:block;width:100%;border:0;border-radius:13px;background:#eabb76;color:#16243a;text-align:center;text-decoration:none;font-size:16px;font-weight:700;padding:15px;cursor:pointer;margin:12px 0}.button.secondary{background:#20334e;color:#f5f2e9;border:1px solid #304662}ol{padding-left:22px}li{margin:10px 0}.note{font-size:13px;border-top:1px solid #304662;padding-top:20px;margin-top:35px}code{color:#f5f2e9}textarea{position:absolute;left:-9999px}
+  </style>
+</head>
+<body><main>
+  <a class="back" href="./">← Về countdown</a>
+  <h1>Đếm ngược ngay<br>trên Home Screen.</h1>
+  <p>Widget hiển thị số ngày còn lại đến JLPT N3. Bạn không cần mở web app để xem.</p>
+  <div class="sample" aria-label="Ví dụ widget"><b>JLPT / N3</b><strong id="sample-days">--</strong><small>NGÀY CÒN LẠI</small><span>06.12.2026 · 日本語能力試験</span></div>
+  <h2>Cài đặt một lần trên iPhone</h2>
+  <ol>
+    <li>Cài ứng dụng <a class="back" href="https://apps.apple.com/app/scriptable/id1405459188">Scriptable</a> từ App Store.</li>
+    <li>Nhấn <b>Sao chép mã widget</b> bên dưới.</li>
+    <li>Mở Scriptable → nhấn <b>+</b> → đặt tên <b>JLPT N3</b> → dán mã → nhấn <b>Done</b>. Chạy một lần để xem bản xem trước.</li>
+    <li>Giữ ngón tay trên Home Screen → nhấn <b>Sửa/Edit → Thêm Widget</b> → tìm <b>Scriptable</b> → chọn cỡ nhỏ → <b>Thêm Widget</b>.</li>
+    <li>Giữ ngón tay trên widget mới → <b>Sửa Widget/Edit Widget</b> → mục <b>Script</b> chọn <b>JLPT N3</b>.</li>
+  </ol>
+  <button class="button" id="copy" type="button">Sao chép mã widget</button>
+  <a class="button secondary" href="scriptable:///add">Mở Scriptable</a>
+  <textarea id="fallback" aria-hidden="true"></textarea>
+  <p class="note">Widget xin cập nhật sau nửa đêm giờ Việt Nam. iOS quyết định thời điểm làm mới thực tế nên số ngày có thể cập nhật muộn. Chạm widget sẽ mở trang countdown đầy đủ.</p>
+</main>
+<script>
+  document.getElementById('sample-days').textContent=Math.max(0,Math.ceil((Date.parse('2026-12-06T00:00:00+07:00')-Date.now())/86400000));
+  document.getElementById('copy').addEventListener('click',async()=>{
+    const button=document.getElementById('copy');
+    try{
+      const response=await fetch('./widget.js');if(!response.ok)throw new Error('Không tải được mã');
+      const code=await response.text();
+      try{await navigator.clipboard.writeText(code)}catch(e){const field=document.getElementById('fallback');field.value=code;field.select();if(!document.execCommand('copy'))throw e}
+      button.textContent='Đã sao chép ✓';
+    }catch(e){button.textContent='Không sao chép được, hãy thử lại';}
+  });
+</script>
+</body></html>
