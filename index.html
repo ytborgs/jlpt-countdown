@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#11223a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="JLPT N3">
+  <meta name="description" content="Đếm ngược đến kỳ thi JLPT N3 ngày 06/12/2026.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="./icon.svg">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <title>JLPT N3 · Countdown</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b1729;--card:#13243c;--line:#304662;--text:#f5f2e9;--muted:#a9b6c8;--accent:#eabb76;--green:#a8d6ba}
+    *{box-sizing:border-box}html{min-height:100%;background:var(--bg)}body{margin:0;min-height:100svh;font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:radial-gradient(circle at 80% 5%,#263b56 0,transparent 36%),radial-gradient(circle at 0 100%,#183247 0,transparent 42%),var(--bg)}
+    main{width:min(100%,520px);min-height:100svh;margin:auto;padding:calc(30px + env(safe-area-inset-top)) 24px calc(30px + env(safe-area-inset-bottom));display:flex;flex-direction:column}
+    .top{display:flex;justify-content:space-between;align-items:center;gap:12px}.brand{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:750;letter-spacing:.16em}.seal{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;background:var(--accent);color:var(--bg);font-weight:900;letter-spacing:0}.date{border:1px solid var(--line);padding:8px 10px;border-radius:999px;color:var(--muted);font-size:11px;white-space:nowrap}
+    .hero{padding:clamp(45px,10vh,85px) 0 36px}.eyebrow{font-size:12px;letter-spacing:.21em;color:var(--accent);font-weight:800}.hero h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(47px,12vw,71px);font-weight:400;line-height:1.05;letter-spacing:-.045em;margin:15px 0}.hero p{color:var(--muted);font-size:15px;line-height:1.6;margin:0}
+    .count{border:1px solid var(--line);background:linear-gradient(155deg,#1b304b,var(--card));border-radius:28px;padding:29px 27px;box-shadow:0 22px 50px #040a1480}.count-label{font-size:12px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted);font-weight:700}.days{display:flex;align-items:baseline;gap:10px;margin:12px 0 8px}.days strong{font-size:clamp(90px,24vw,128px);font-weight:650;letter-spacing:-.09em;line-height:1;font-variant-numeric:tabular-nums;color:var(--accent)}.days span{font-size:18px;color:var(--muted)}.clock{font-size:16px;font-variant-numeric:tabular-nums;letter-spacing:.04em;color:var(--text)}.clock span{color:var(--muted)}
+    .progress-head{display:flex;justify-content:space-between;gap:10px;margin-top:31px;font-size:12px;color:var(--muted)}.progress-head strong{color:var(--green)}.track{margin-top:12px;height:8px;border-radius:99px;background:#34465b;overflow:hidden}.fill{height:100%;width:0;background:linear-gradient(90deg,#9dd2bb,var(--accent));border-radius:99px;transition:width .5s}
+    .footer{margin-top:auto;padding-top:38px}.quote{border-left:2px solid var(--accent);padding-left:16px;font-family:Georgia,"Times New Roman",serif;font-size:20px;line-height:1.45}.sub{color:var(--muted);font-size:12px;line-height:1.6;margin:18px 0 0}.exam{display:flex;justify-content:space-between;gap:15px;align-items:center;margin-top:32px;padding-top:20px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}.exam b{color:var(--text);font-size:13px}
+    @media(prefers-color-scheme:light){:root{color-scheme:light;--bg:#f5f0e6;--card:#fffbf4;--line:#d9d6cb;--text:#18283b;--muted:#617084;--accent:#a2611e;--green:#44745c}body{background:radial-gradient(circle at 90% 0%,#f5d9b8 0,transparent 32%),var(--bg)}.count{background:linear-gradient(155deg,#fffaf1,#f1eee7);box-shadow:0 22px 45px #36312818}.seal{color:#fff}.track{background:#dfded5}}
+    @media(max-width:360px){main{padding-left:19px;padding-right:19px}.count{padding:25px 21px}}
+  </style>
+</head>
+<body>
+  <main>
+    <header class="top"><div class="brand"><div class="seal">日</div><span>JLPT / N3</span></div><div class="date">CHỦ NHẬT · 06.12.2026</div></header>
+    <section class="hero"><div class="eyebrow">日本語能力試験</div><h1>Ngày thi<br>đang đến gần.</h1><p>Đếm từng ngày, học từng chút.<br>Hành trình N3 của bạn bắt đầu từ hôm nay.</p></section>
+    <section class="count" aria-label="Đếm ngược đến ngày thi JLPT N3"><div class="count-label">Còn lại đến ngày thi</div><div class="days"><strong id="days">--</strong><span>ngày</span></div><div class="clock" aria-live="off"><b id="hours">--</b><span> giờ · </span><b id="minutes">--</b><span> phút · </span><b id="seconds">--</b><span> giây</span></div><div class="progress-head"><span>Chặng nước rút từ 05/10</span><strong id="percent">0%</strong></div><div class="track" role="progressbar" aria-label="Tiến độ đến ngày thi" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="fill" id="fill"></div></div></section>
+    <div class="footer"><div class="quote">「継続は力なり」<br>Kiên trì tạo nên sức mạnh.</div><p class="sub">Mỗi ngày thêm một bài nghe, một trang đọc, một chút tự tin.</p><div class="exam"><span>ĐÍCH ĐẾN</span><b>JLPT N3 · 06/12/2026</b></div></div>
+  </main>
+  <script>
+    (()=>{
+      // The calendar is shown in Vietnam time; the exact exam session time is not assumed.
+      const exam=Date.parse('2026-12-06T00:00:00+07:00');
+      const start=Date.parse('2026-10-05T00:00:00+07:00');
+      const $=id=>document.getElementById(id), pad=n=>String(n).padStart(2,'0');
+      function update(){
+        const now=Date.now(), left=Math.max(0,exam-now);
+        $('days').textContent=Math.floor(left/86400000);
+        $('hours').textContent=pad(Math.floor(left/3600000)%24);
+        $('minutes').textContent=pad(Math.floor(left/60000)%60);
+        $('seconds').textContent=pad(Math.floor(left/1000)%60);
+        const pct=Math.min(100,Math.max(0,(now-start)/(exam-start)*100));
+        $('percent').textContent=Math.floor(pct)+'%';$('fill').style.width=pct+'%';
+        document.querySelector('[role="progressbar"]').setAttribute('aria-valuenow',Math.floor(pct));
+        if(!left){document.querySelector('.count-label').textContent='Đã đến ngày thi · 頑張って！';}
+      }
+      update();setInterval(update,1000);
+      if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+    })();
+  </script>
+</body>
+</html>
