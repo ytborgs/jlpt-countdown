@@ -6,10 +6,6 @@ Mở URL GitHub Pages bằng Safari trên iPhone, chạm **Chia sẻ → Thêm v
 
 GitHub Pages: **Settings → Pages → Build and deployment → Source: GitHub Actions**. Workflow sẽ triển khai từ nhánh `main`.
 
-## Widget trên Home Screen iPhone
-
-Mở `/widget.html` trên website và làm theo hướng dẫn để cài widget Scriptable. Script ở `widget.js` không cần internet khi chạy, hiển thị số ngày còn lại và mở website khi chạm. iOS quyết định thời điểm làm mới widget nên số ngày có thể cập nhật muộn hơn nửa đêm.
-
 ## Cá nhân hóa
 
 Trên trang chính, chọn **Cài đặt** để nhập tên. Tên được lưu bằng `localStorage` trên thiết bị hiện tại; để xóa, để trống ô tên rồi nhấn **Lưu tên**. Mỗi lần mở hoặc quay lại trang, app chọn một câu ngạn ngữ Nhật–Việt và tránh lặp ngay câu trước đó.
