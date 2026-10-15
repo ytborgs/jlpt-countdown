@@ -14,11 +14,12 @@
   <script type="module" src="./grammar.js"></script>
 </head>
 <body class="grammar-library-page"><main id="library-grammar">
-  <a href="./settings.html" class="back">← Cài đặt</a>
-  <header><h1>Tất cả ngữ pháp N3</h1><p class="grammar-status">Tra cứu bộ 80 mẫu ngữ pháp và các ví dụ Nhật–Việt.</p></header>
-  <label class="grammar-search-label" for="grammar-search">Tìm mẫu ngữ pháp hoặc ý nghĩa</label>
-  <input class="grammar-search" id="grammar-search" type="search" placeholder="Ví dụ: うちに, nhờ có, trong lúc…" autocomplete="off">
-  <p class="grammar-status" id="grammar-status" role="status">Đang tải ngữ pháp…</p>
+  <header class="library-toolbar">
+    <div class="library-toolbar-row"><a href="./settings.html" class="back" aria-label="Về Cài đặt" title="Về Cài đặt">←</a><h1>Tất cả ngữ pháp N3</h1></div>
+    <label class="grammar-search-label" for="grammar-search">Tìm mẫu ngữ pháp hoặc ý nghĩa</label>
+    <input class="grammar-search" id="grammar-search" type="search" placeholder="Tìm mẫu ngữ pháp hoặc ý nghĩa…" autocomplete="off">
+    <p class="grammar-status" id="grammar-status" role="status">Đang tải ngữ pháp…</p>
+  </header>
   <button class="grammar-retry" id="grammar-retry" type="button" hidden>Thử tải lại</button>
   <div class="grammar-list" id="grammar-list" aria-busy="true"></div>
   <noscript>Bật JavaScript để xem danh sách ngữ pháp.</noscript>
