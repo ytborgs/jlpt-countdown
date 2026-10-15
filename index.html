@@ -12,6 +12,8 @@
   <link rel="icon" type="image/svg+xml" href="./icon.svg">
   <link rel="apple-touch-icon" href="./apple-touch-icon.png">
   <title>JLPT N3 · Countdown</title>
+  <link rel="stylesheet" href="./grammar.css">
+  <script type="module" src="./grammar.js"></script>
   <style>
     :root{color-scheme:dark;--bg:#0b1729;--card:#13243c;--line:#304662;--text:#f5f2e9;--muted:#a9b6c8;--accent:#eabb76;--green:#a8d6ba}
     *{box-sizing:border-box}html{min-height:100%;background:var(--bg)}body{margin:0;min-height:100svh;font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:radial-gradient(circle at 80% 5%,#263b56 0,transparent 36%),radial-gradient(circle at 0 100%,#183247 0,transparent 42%),var(--bg)}
@@ -28,12 +30,13 @@
 </head>
 <body>
   <main>
-    <header class="top"><div class="brand"><div class="seal">日</div><span>JLPT / N3</span></div><button class="settings" id="open-settings" type="button" aria-label="Mở cài đặt tên">⚙ Cài đặt</button></header>
+    <header class="top"><div class="brand"><div class="seal">日</div><span>JLPT / N3</span></div><button class="settings" id="open-settings" type="button" aria-label="Mở cài đặt">⚙ Cài đặt</button></header>
     <section class="hero"><div class="eyebrow">日本語能力試験 · 06.12.2026</div><div class="greeting" id="greeting" hidden></div><h1>Ngày thi<br>đang đến gần.</h1><p>Đếm từng ngày, học từng chút.<br>Hành trình N3 của bạn bắt đầu từ hôm nay.</p></section>
     <section class="count" aria-label="Đếm ngược đến ngày thi JLPT N3"><div class="count-label">Còn lại đến ngày thi</div><div class="days"><strong id="days">--</strong><span>ngày</span></div><div class="clock" aria-live="off"><b id="hours">--</b><span> giờ · </span><b id="minutes">--</b><span> phút · </span><b id="seconds">--</b><span> giây</span></div><div class="progress-head"><span>Chặng nước rút từ 05/10</span><strong id="percent">0%</strong></div><div class="track" role="progressbar" aria-label="Tiến độ đến ngày thi" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="fill" id="fill"></div></div></section>
+    <section class="grammar-panel" id="daily-grammar" aria-labelledby="grammar-title"><div class="eyebrow">ÔN MỖI LẦN MỞ APP</div><h2 class="grammar-heading" id="grammar-title">5 mẫu ngữ pháp N3</h2><p class="grammar-status" id="grammar-status" role="status">Đang tải ngữ pháp…</p><button class="grammar-retry" id="grammar-retry" type="button" hidden>Thử tải lại</button><div class="grammar-list" id="grammar-list" aria-busy="true"></div></section>
     <div class="footer"><div class="quote" aria-live="polite"><span class="jp" id="quote-jp">「継続は力なり」</span><span class="vi" id="quote-vi">Kiên trì tạo nên sức mạnh.</span></div><p class="sub">Mỗi ngày thêm một bài nghe, một trang đọc, một chút tự tin.</p><div class="exam"><span>ĐÍCH ĐẾN</span><b>JLPT N3 · 06/12/2026</b></div></div>
   </main>
-  <dialog id="settings-dialog" aria-labelledby="settings-title"><form id="settings-form"><h2 id="settings-title">Cài đặt cá nhân</h2><p>Tên chỉ lưu trên thiết bị này và hiện khi bạn mở trang countdown.</p><label for="username">Tên của bạn</label><input id="username" name="username" type="text" maxlength="40" autocomplete="nickname" placeholder="Ví dụ: Tiên"><p class="error" id="settings-error" role="alert" hidden></p><div class="actions"><button class="cancel" id="cancel-settings" type="button">Hủy</button><button class="save" type="submit">Lưu tên</button></div></form></dialog>
+  <dialog id="settings-dialog" aria-labelledby="settings-title"><form id="settings-form"><h2 id="settings-title">Cài đặt cá nhân</h2><p>Tên chỉ lưu trên thiết bị này và hiện khi bạn mở trang countdown.</p><label for="username">Tên của bạn</label><input id="username" name="username" type="text" maxlength="40" autocomplete="nickname" placeholder="Ví dụ: Tiên"><p class="error" id="settings-error" role="alert" hidden></p><div class="actions"><button class="cancel" id="cancel-settings" type="button">Hủy</button><button class="save" type="submit">Lưu tên</button></div></form><div class="grammar-settings"><a class="grammar-settings-link" href="./grammar.html">Xem tất cả ngữ pháp N3 →</a></div></dialog>
   <script>
     (()=>{
       // The calendar is shown in Vietnam time; the exact exam session time is not assumed.
@@ -101,3 +104,4 @@
   </script>
 </body>
 </html>
+
