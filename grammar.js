@@ -51,7 +51,6 @@ export const createGrammarCard = item => {
   example.append(text('p', item.example_vi));
   content.append(example);
   if (item.note) content.append(text('p', 'Lưu ý: ' + item.note, 'grammar-note'));
-  if (item.source_page) content.append(text('small', 'Tài liệu gốc · trang ' + item.source_page, 'grammar-source'));
   details.append(content);
   card.append(details);
   return card;
