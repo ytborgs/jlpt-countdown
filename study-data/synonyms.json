@@ -31,7 +31,7 @@
       "source_page": 2,
       "knowledge_id": "nearmiss:山田さんは-適当なことばかり言っている",
       "no": 1,
-      "stem_jp": "山田さんは 適当なことばかり言っている。",
+      "stem_jp": "山田さんは適当なことばかり言っている。",
       "stem_gloss_vi": "toàn nói những điều qua loa, nói bừa",
       "choices": [
         {
@@ -506,7 +506,7 @@
       "source_page": 2,
       "knowledge_id": "nearmiss:図書館には-文法関係の本がそろっている",
       "no": 6,
-      "stem_jp": "図書館には 文法関係の本がそろっている 。",
+      "stem_jp": "図書館には文法関係の本がそろっている 。",
       "stem_gloss_vi": "tập hợp đầy đủ",
       "choices": [
         {
@@ -1450,7 +1450,7 @@
       "source_page": 3,
       "knowledge_id": "nearmiss:この本は-何回読んでも内容がまったく-理解できない",
       "no": 16,
-      "stem_jp": "この本は 何回読んでも、内容がまったく 理解できない。",
+      "stem_jp": "この本は何回読んでも、内容がまったく理解できない。",
       "stem_gloss_vi": "hoàn toàn",
       "choices": [
         {
@@ -1557,7 +1557,7 @@
       "source_page": 3,
       "knowledge_id": "nearmiss:たぶん彼は-来ないだろう",
       "no": 17,
-      "stem_jp": "たぶん、彼は 来ないだろう。",
+      "stem_jp": "たぶん、彼は来ないだろう。",
       "stem_gloss_vi": "có lẽ",
       "choices": [
         {
@@ -1735,7 +1735,7 @@
       "source_page": 3,
       "knowledge_id": "nearmiss:使えるものを-捨てるなんてもったいない",
       "no": 19,
-      "stem_jp": "使えるものを 捨てるなんてもったいない。",
+      "stem_jp": "使えるものを捨てるなんてもったいない。",
       "stem_gloss_vi": "lãng phí (vô ích)",
       "choices": [
         {
@@ -2326,7 +2326,7 @@
       "source_page": 4,
       "knowledge_id": "nearmiss:あの人はわざと-私にぶつかったのだ",
       "no": 25,
-      "stem_jp": "あの人は、わざと 私にぶつかったのだ。",
+      "stem_jp": "あの人は、わざと私にぶつかったのだ。",
       "stem_gloss_vi": "cố tình",
       "choices": [
         {
@@ -2415,7 +2415,7 @@
       "source_page": 4,
       "knowledge_id": "nearmiss:使えるものを-捨てるなんてもったいない",
       "no": 26,
-      "stem_jp": "使えるものを 捨てるなんてもったいない。",
+      "stem_jp": "使えるものを捨てるなんてもったいない。",
       "stem_gloss_vi": "lãng phí (đáng tiếc)",
       "choices": [
         {
@@ -2501,7 +2501,7 @@
       "source_page": 4,
       "knowledge_id": "nearmiss:これは大切なことなのでじっくり-考えて返事したい",
       "no": 27,
-      "stem_jp": "これは大切なことなので、じっくり 考えて返事したい。",
+      "stem_jp": "これは大切なことなので、じっくり考えて返事したい。",
       "stem_gloss_vi": "kỹ càng, cẩn thận",
       "choices": [
         {

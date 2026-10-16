@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '38';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '39';
 const SESSION_SHORT = 20;
 const CATALOG_STATE_KEY = 'jlpt-study-catalog-v1';
 
@@ -117,10 +117,23 @@ export function loadStudyProgress() {
   try { return record(JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}')); }
   catch { return {}; }
 }
-export function saveStudyProgress(topicId, selections, results) {
+export function saveStudyProgress(topicId, selections, results, { replace = false } = {}) {
   try {
     const all = loadStudyProgress();
-    all[topicId] = { selections: Object.fromEntries(selections), results: Object.fromEntries(results), updatedAt: new Date().toISOString() };
+    const prev = record(all[topicId]);
+    const nextSelections = replace
+      ? Object.fromEntries(selections)
+      : { ...record(prev.selections), ...Object.fromEntries(selections) };
+    const nextResults = replace
+      ? Object.fromEntries(results)
+      : { ...record(prev.results), ...Object.fromEntries(results) };
+    all[topicId] = {
+      selections: nextSelections,
+      results: nextResults,
+      updatedAt: new Date().toISOString(),
+      ...(replace ? { resetAt: new Date().toISOString() } : {}),
+    };
+    if (!replace && prev.resetAt) all[topicId].resetAt = prev.resetAt;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
   } catch { /* Storage may be unavailable or full; in-memory practice still works. */ }
 }
@@ -147,12 +160,66 @@ export function hydrateStudyKnown(items, saved) {
   const stored = record(saved);
   return new Set(items.filter(item => Object.hasOwn(stored, item.id) && stored[item.id] === true).map(item => item.id));
 }
-export function saveStudyKnown(topicId, known) {
+export function saveStudyKnown(topicId, known, { replace = false } = {}) {
   try {
     const all = loadStudyKnown();
-    all[topicId] = Object.fromEntries([...known].map(id => [id, true]));
+    if (replace) {
+      all[topicId] = Object.fromEntries([...known].map(id => [id, true]));
+    } else {
+      const prev = { ...record(all[topicId]) };
+      for (const id of known) prev[id] = true;
+      all[topicId] = prev;
+    }
     localStorage.setItem(KNOWN_KEY, JSON.stringify(all));
   } catch { /* Keep the current session usable if local storage is unavailable. */ }
+}
+
+/** Patch a single known flag after re-reading storage (multi-tab safe). */
+export function patchStudyKnown(topicId, itemId, value) {
+  try {
+    const all = loadStudyKnown();
+    const topic = { ...record(all[topicId]) };
+    if (value) topic[itemId] = true;
+    else delete topic[itemId];
+    all[topicId] = topic;
+    localStorage.setItem(KNOWN_KEY, JSON.stringify(all));
+  } catch { /* Keep the current session usable if local storage is unavailable. */ }
+}
+
+/** Drop stale item ids that are no longer in the topic payload. */
+export function pruneStudyProgress(topicId, items) {
+  const valid = new Set(items.map(item => item.id));
+  const saved = record(loadStudyProgress()[topicId]);
+  const selections = record(saved.selections);
+  const results = record(saved.results);
+  let changed = false;
+  for (const id of Object.keys(selections)) {
+    if (!valid.has(id)) { delete selections[id]; changed = true; }
+  }
+  for (const id of Object.keys(results)) {
+    if (!valid.has(id)) { delete results[id]; changed = true; }
+  }
+  if (!changed) return;
+  try {
+    const all = loadStudyProgress();
+    all[topicId] = { ...saved, selections, results, updatedAt: new Date().toISOString() };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
+  } catch { /* ignore */ }
+}
+
+export function pruneStudyKnown(topicId, items) {
+  const valid = new Set(items.map(item => item.id));
+  const saved = { ...record(loadStudyKnown()[topicId]) };
+  let changed = false;
+  for (const id of Object.keys(saved)) {
+    if (!valid.has(id)) { delete saved[id]; changed = true; }
+  }
+  if (!changed) return;
+  try {
+    const all = loadStudyKnown();
+    all[topicId] = saved;
+    localStorage.setItem(KNOWN_KEY, JSON.stringify(all));
+  } catch { /* ignore */ }
 }
 
 /** Progress chip for catalog cards — reads localStorage only (no topic JSON load). */
@@ -163,21 +230,23 @@ export function topicCatalogProgress(topic) {
     const selections = record(saved.selections);
     const ok = Object.values(results).filter(value => value === 'ok').length;
     const wrong = Object.values(results).filter(value => value === 'wrong').length;
-    const selected = Object.keys(selections).length;
+    const selected = Math.min(Object.keys(selections).length, topic.count);
+    const okCount = Math.min(ok, topic.count);
+    const wrongCount = Math.min(wrong, Math.max(0, topic.count - okCount));
     if (topic.gradable === false) {
       if (!selected) return { kind: 'idle', text: 'Chưa chọn', ratio: 0 };
       return { kind: selected >= topic.count ? 'done' : 'partial', text: `Đã chọn ${selected} / ${topic.count}`, ratio: selected / topic.count };
     }
-    const done = ok + wrong;
+    const done = Math.min(okCount + wrongCount, topic.count);
     if (!done) return { kind: 'idle', text: 'Chưa làm', ratio: 0 };
     return {
       kind: done >= topic.count ? 'done' : 'partial',
-      text: `Đúng ${ok} · Sai ${wrong} · Còn ${Math.max(0, topic.count - done)}`,
+      text: `Đúng ${okCount} · Sai ${wrongCount} · Còn ${Math.max(0, topic.count - done)}`,
       ratio: done / topic.count,
     };
   }
   const knownMap = record(loadStudyKnown()[topic.id]);
-  const done = Object.values(knownMap).filter(Boolean).length;
+  const done = Math.min(Object.values(knownMap).filter(Boolean).length, topic.count);
   if (!done) return { kind: 'idle', text: 'Chưa đánh dấu', ratio: 0 };
   return {
     kind: done >= topic.count ? 'done' : 'partial',
@@ -224,9 +293,10 @@ const addKnownToggle = (card, item, state) => {
     card.dataset.known = String(known);
   };
   button.addEventListener('click', () => {
-    if (state.known.has(item.id)) state.known.delete(item.id);
-    else state.known.add(item.id);
-    update(); state.onChange();
+    const next = !state.known.has(item.id);
+    if (next) state.known.add(item.id);
+    else state.known.delete(item.id);
+    update(); state.onChange(item.id, next);
   });
   update(); card.append(button);
   return card;
@@ -529,12 +599,15 @@ async function startStudy() {
     knownFill.style.width = (total ? done / total * 100 : 0) + '%';
     for (const button of knownFilterButtons) button.setAttribute('aria-pressed', String(button.dataset.filter === knownFilter));
   };
-  const onKnownChange = () => {
-    saveStudyKnown(topic.id, known); updateKnownProgress();
+  const onKnownChange = (itemId, value) => {
+    if (itemId != null) patchStudyKnown(topic.id, itemId, value);
+    else saveStudyKnown(topic.id, known, { replace: true });
+    known = hydrateStudyKnown(items, loadStudyKnown()[topic.id]);
+    updateKnownProgress();
     if (flashActive) return;
     if (knownFilter !== 'all') {
       render();
-      knownFilterButtons.find(button => button.dataset.filter === knownFilter).focus({ preventScroll: true });
+      knownFilterButtons.find(button => button.dataset.filter === knownFilter)?.focus({ preventScroll: true });
     }
   };
   const buildFlashQueue = ({ all = false } = {}) => {
@@ -665,7 +738,7 @@ async function startStudy() {
     const item = flashQueue[flashIndex];
     if (!item) return;
     known.add(item.id);
-    onKnownChange();
+    onKnownChange(item.id, true);
     advanceFlash();
   });
   flashMarkUnknown.addEventListener('click', event => {
@@ -673,7 +746,7 @@ async function startStudy() {
     const item = flashQueue[flashIndex];
     if (!item) return;
     known.delete(item.id);
-    onKnownChange();
+    onKnownChange(item.id, false);
     advanceFlash();
   });
   flashNext.addEventListener('click', event => {
@@ -696,7 +769,23 @@ async function startStudy() {
   const filterSummary = document.getElementById('study-filter-summary');
   const viewModeButtons = [];
   const filterLabels = { all: 'Tất cả', todo: 'Chưa làm', wrong: 'Câu sai', ok: 'Câu đúng' };
-  const persist = () => { if (topic) saveStudyProgress(topic.id, selections, results); };
+  const persist = ({ replace = false } = {}) => {
+    if (!topic) return;
+    saveStudyProgress(topic.id, selections, results, { replace });
+  };
+  const syncProgressFromStorage = () => {
+    if (!topic || !ready) return;
+    ({ selections, results } = hydrateStudyProgress(items, loadStudyProgress()[topic.id]));
+    if (knownMode) known = hydrateStudyKnown(items, loadStudyKnown()[topic.id]);
+    updateProgress();
+    updateKnownProgress();
+    if (viewMode === 'session') refreshSessionQueue({ keepIndex: true, preferTodo: false });
+    render();
+  };
+  window.addEventListener('storage', event => {
+    if (event.key !== STORAGE_KEY && event.key !== KNOWN_KEY) return;
+    syncProgressFromStorage();
+  });
   const isPracticeTopic = () => practiceItems.length > 0;
   const wrongCount = () => practiceItems.filter(item => results.get(item.id) === 'wrong').length;
   const practiceAllDone = () => practiceItems.length > 0 && practiceItems.every(item => isPracticeAnswered(item, selections, results));
@@ -957,7 +1046,7 @@ async function startStudy() {
   });
   resetTopic.addEventListener('click', () => {
     if (!window.confirm('Xóa toàn bộ tiến độ của bộ tài liệu này?')) return;
-    selections.clear(); results.clear(); persist(); progressMenu.open = false; filterMode = 'all';
+    selections.clear(); results.clear(); persist({ replace: true }); progressMenu.open = false; filterMode = 'all';
     sessionLimit = null; viewMode = 'list'; sessionQueue = []; sessionIndex = 0; render();
   });
   window.addEventListener('keydown', event => {
@@ -976,7 +1065,13 @@ async function startStudy() {
       return;
     }
     if (!isPracticeTopic() || viewMode !== 'session') return;
-    if (event.target.closest('input, textarea, select')) return;
+    if (event.target.closest('input, textarea, select, a, [contenteditable="true"]')) return;
+    const focusedOption = event.target.closest?.('.study-option');
+    if (event.key === 'Enter' && focusedOption) {
+      // Let the focused answer button handle Enter (native button activation).
+      return;
+    }
+    if (event.target.closest('button') && event.key === 'Enter') return;
     if (event.key >= '1' && event.key <= '9') {
       const option = list.querySelectorAll('.study-option')[Number(event.key) - 1];
       if (!option) return;
@@ -1163,6 +1258,10 @@ async function startStudy() {
         notice.hidden = !topicNotice(selected);
       } else items = topics;
       topic = selected;
+      if (topic) {
+        pruneStudyProgress(topic.id, items);
+        pruneStudyKnown(topic.id, items);
+      }
       ({ selections, results } = hydrateStudyProgress(items, topic ? loadStudyProgress()[topic.id] : {}));
       practiceItems = topic ? items.filter(item => item.type === 'practice') : [];
       gradable = practiceItems.filter(hasAnswer);

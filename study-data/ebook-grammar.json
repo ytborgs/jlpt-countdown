@@ -31,7 +31,7 @@
       "meaning": "Trong lúc",
       "structure": "～うちに",
       "usage": "～間… : Khi một hành động xảy ra trong một thời gian dài, một hành động khác ～間に: Khi một hành động xảy ra trong một thời gian dài, một hành động khác",
-      "example_jp": "お母さんが昼寝をしている間、 子どもたちはテレビを見ていた。",
+      "example_jp": "お母さんが昼寝をしている間、子どもたちはテレビを見ていた。",
       "example_vi": "Trong khi người mẹ đang ngủ trưa thì bọn trẻ ngồi xem tivi.",
       "example_hira": null,
       "pattern_ruby": [
@@ -97,7 +97,7 @@
       "meaning": "Trong khoảng thời gian (kéo dài)",
       "structure": "～間…",
       "usage": "Khi một hành động xảy ra trong một thời gian dài, một hành động khác",
-      "example_jp": "お母さんが昼寝をしている間、 子どもたちはテレビを見ていた。",
+      "example_jp": "お母さんが昼寝をしている間、子どもたちはテレビを見ていた。",
       "example_vi": "Trong khi người mẹ đang ngủ trưa thì bọn trẻ ngồi xem tivi.",
       "example_hira": null,
       "pattern_ruby": [
@@ -607,7 +607,7 @@
       "source_file": "Ebook N3.pdf",
       "source_page": 8,
       "knowledge_id": "grammar:～に限る …",
-      "pattern": "～に限る …",
+      "pattern": "～に限る…",
       "meaning": "Nhất",
       "structure": "～に限る …",
       "usage": "Thể hiện sự đối lập giữa hai hành động hoặc sự vật cùng loại",
@@ -733,7 +733,7 @@
       "source_file": "Ebook N3.pdf",
       "source_page": 9,
       "knowledge_id": "grammar:～ 一方 (で)…",
-      "pattern": "～ 一方 (で)…",
+      "pattern": "～一方(で)…",
       "meaning": "Đồng thời, ở mặt khác",
       "structure": "～ 一方 (で)…",
       "usage": "Mẫu câu này thể hiện hai mặt đối lập của một vấn đề",
@@ -1351,7 +1351,7 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～とか」"
+          "text": "～とか"
         }
       ],
       "example_ruby": [
@@ -1526,7 +1526,7 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～ないことはない」"
+          "text": "～ないことはない"
         }
       ],
       "example_ruby": [
@@ -1575,7 +1575,7 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～ことは～が、・・・」"
+          "text": "～ことは～が、・・・"
         }
       ],
       "example_ruby": [
@@ -1830,7 +1830,7 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～ことになる」"
+          "text": "～ことになる"
         }
       ],
       "example_ruby": [
@@ -1886,7 +1886,7 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～ことになっている」"
+          "text": "～ことになっている"
         }
       ],
       "example_ruby": [
@@ -1935,7 +1935,7 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～そうだ」"
+          "text": "～そうだ"
         }
       ],
       "example_ruby": [
@@ -1991,7 +1991,7 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～っぽい」"
+          "text": "～っぽい"
         }
       ],
       "example_ruby": [
@@ -2036,7 +2036,7 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～たばかり」"
+          "text": "～たばかり"
         }
       ],
       "example_ruby": [
@@ -2085,7 +2085,7 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～たところ」"
+          "text": "～たところ"
         }
       ],
       "example_ruby": [
