@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '26';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '27';
 
 const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);

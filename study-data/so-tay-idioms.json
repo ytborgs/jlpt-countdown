@@ -1,22 +1,22 @@
 {
   "schema_version": "1.0",
-  "document_id": "so-tay-tieng-nhat",
+  "document_id": "so-tay-n3-idioms-onoma",
   "type": "vocabulary",
   "level": "N3",
   "source_file": "Sổ tay tiếng Nhật.pdf",
-  "source_path": "study-materials/so-tay-tieng-nhat.pdf",
-  "title": "Sổ tay N3 quán dụng & từ láy",
-  "page_count": null,
-  "item_count": 44,
-  "content_source": "visual_transcription",
-  "produced_at": "2026-10-16T07:13:32+00:00",
-  "producer": "n3-study-extractor/phase-c-so-tay-partial",
+  "source_path": "study-materials/Sổ tay tiếng Nhật.pdf",
+  "title": "Sổ tay N3 — quán dụng ngữ & từ láy",
+  "page_count": 41,
+  "item_count": 70,
+  "content_source": "pdf_extract",
+  "produced_at": "2026-10-16T09:16:34+00:00",
+  "producer": "n3-study-extractor/parse_so_tay_idioms",
   "status": "partial",
-  "needs_verify_count": 0,
+  "needs_verify_count": 9,
   "notes": [
-    "Phase C partial: quán dụng + từ láy cho UI vocabulary.",
-    "Chưa full sổ tay N5–N4.",
-    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
+    "Trích bảng 慣用句 (p22–23) + オノマトペ (p27–29); cột Ví dụ → example_jp.",
+    "example_jp 70/70; meaning_vi 61/70.",
+    "Ô Nghĩa trống trên PDF → null + needs_verify (không bịa)."
   ],
   "items": [
     {
@@ -25,310 +25,13 @@
       "subtype": "body_idiom",
       "level": "N3",
       "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:気が重い",
-      "lemma_jp": "気が重い",
-      "reading": null,
-      "meaning_vi": "Cảm giác nặng nề, không muốn làm",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
-        {
-          "text": "気が",
-          "reading": "きが"
-        },
-        {
-          "text": "重い",
-          "reading": "おもい"
-        }
-      ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-002",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:気を配る",
-      "lemma_jp": "気を配る",
-      "reading": null,
-      "meaning_vi": "Quan tâm, chú ý tới chi tiết",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
-        {
-          "text": "気を",
-          "reading": "きを"
-        },
-        {
-          "text": "配る",
-          "reading": "くばる"
-        }
-      ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-003",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:気が短い",
-      "lemma_jp": "気が短い",
-      "reading": null,
-      "meaning_vi": "Nóng tính, thiếu kiên nhẫn",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
-        {
-          "text": "気が",
-          "reading": "きが"
-        },
-        {
-          "text": "短い",
-          "reading": "みじかい"
-        }
-      ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-004",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:気が合う",
-      "lemma_jp": "気が合う",
-      "reading": null,
-      "meaning_vi": "Hợp nhau, ăn ý",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
-        {
-          "text": "気が",
-          "reading": "きが"
-        },
-        {
-          "text": "合う",
-          "reading": "あう"
-        }
-      ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-005",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:気がする",
-      "lemma_jp": "気がする",
-      "reading": null,
-      "meaning_vi": "Có linh cảm / cảm giác",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
-        {
-          "text": "気が",
-          "reading": "きが"
-        },
-        {
-          "text": "する"
-        }
-      ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-006",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:気がつく",
-      "lemma_jp": "気がつく",
-      "reading": null,
-      "meaning_vi": "Nhận ra",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
-        {
-          "text": "気が",
-          "reading": "きが"
-        },
-        {
-          "text": "つく"
-        }
-      ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-007",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:気に入る",
-      "lemma_jp": "気に入る",
-      "reading": null,
-      "meaning_vi": "Thích",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
-        {
-          "text": "気に入る",
-          "reading": "きにいる"
-        }
-      ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-008",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:気にする",
-      "lemma_jp": "気にする",
-      "reading": null,
-      "meaning_vi": "Bận tâm, để ý",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
-        {
-          "text": "気に",
-          "reading": "きに"
-        },
-        {
-          "text": "する"
-        }
-      ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-009",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:気になる",
-      "lemma_jp": "気になる",
-      "reading": null,
-      "meaning_vi": "Quan tâm, tò mò",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
-        {
-          "text": "気に",
-          "reading": "きに"
-        },
-        {
-          "text": "なる"
-        }
-      ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-010",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:気を使う",
-      "lemma_jp": "気を使う",
-      "reading": null,
-      "meaning_vi": "Chu đáo, khách sáo",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
-        {
-          "text": "気を",
-          "reading": "きを"
-        },
-        {
-          "text": "使う",
-          "reading": "つかう"
-        }
-      ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-011",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
+      "source_page": 22,
       "knowledge_id": "vocab:頭が痛い",
       "lemma_jp": "頭が痛い",
       "reading": null,
-      "meaning_vi": "Đau đầu / phiền não",
-      "example_jp": null,
+      "meaning_vi": null,
+      "example_jp": "海外で働く人にとって、子供の教育は頭の痛い問題だ。",
       "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
       "lemma_ruby": [
         {
           "text": "頭",
@@ -342,55 +45,82 @@
           "reading": "いたい"
         }
       ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-012",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:頭がかたい",
-      "lemma_jp": "頭がかたい",
-      "reading": null,
-      "meaning_vi": "Cứng đầu, bảo thủ",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
+      "example_ruby": [
+        {
+          "text": "海外",
+          "reading": "かいがい"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "働く",
+          "reading": "はたらく"
+        },
+        {
+          "text": "人",
+          "reading": "にん"
+        },
+        {
+          "text": "にとって"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "子供",
+          "reading": "こども"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "教育",
+          "reading": "きょういく"
+        },
+        {
+          "text": "は"
+        },
         {
           "text": "頭",
           "reading": "あたま"
         },
         {
-          "text": "がかたい"
+          "text": "の"
+        },
+        {
+          "text": "痛い",
+          "reading": "いたい"
+        },
+        {
+          "text": "問題",
+          "reading": "もんだい"
+        },
+        {
+          "text": "だ"
+        },
+        {
+          "text": "。"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": true,
+      "ai_extra": null
     },
     {
-      "id": "so-tay-idiom-013",
+      "id": "so-tay-idiom-002",
       "type": "vocabulary",
       "subtype": "body_idiom",
       "level": "N3",
       "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
+      "source_page": 22,
       "knowledge_id": "vocab:頭に来る",
       "lemma_jp": "頭に来る",
       "reading": null,
-      "meaning_vi": "Bực mình, điên tiết",
-      "example_jp": null,
+      "meaning_vi": "tức giận",
+      "example_jp": "そんなひどいことを言われたら、誰だって頭に来るよ。",
       "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
       "lemma_ruby": [
         {
           "text": "頭",
@@ -404,62 +134,383 @@
           "reading": "くる"
         }
       ],
-      "ruby_source": "linguistic"
+      "example_ruby": [
+        {
+          "text": "そんなひどいことを"
+        },
+        {
+          "text": "言わ",
+          "reading": "いわ"
+        },
+        {
+          "text": "れたら"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "誰",
+          "reading": "だれ"
+        },
+        {
+          "text": "だって"
+        },
+        {
+          "text": "頭",
+          "reading": "あたま"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "来る",
+          "reading": "くる"
+        },
+        {
+          "text": "よ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
     },
     {
-      "id": "so-tay-idiom-014",
+      "id": "so-tay-idiom-003",
       "type": "vocabulary",
       "subtype": "body_idiom",
       "level": "N3",
       "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:羽を伸ばす",
-      "lemma_jp": "羽を伸ばす",
+      "source_page": 22,
+      "knowledge_id": "vocab:目が回る",
+      "lemma_jp": "目が回る",
       "reading": null,
-      "meaning_vi": "Xõa, bung lụa",
-      "example_jp": null,
+      "meaning_vi": "bận tối mắt tối mũi",
+      "example_jp": "忙しくて目が回るよ。",
       "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
       "lemma_ruby": [
         {
-          "text": "羽",
-          "reading": "はね"
+          "text": "目",
+          "reading": "め"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "回る",
+          "reading": "まわる"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "忙しく",
+          "reading": "いそがしく"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "目",
+          "reading": "め"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "回る",
+          "reading": "まわる"
+        },
+        {
+          "text": "よ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-004",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 22,
+      "knowledge_id": "vocab:目に浮かぶ",
+      "lemma_jp": "目に浮かぶ",
+      "reading": null,
+      "meaning_vi": "hình dung tưởng tượng ra",
+      "example_jp": "「山田さん、子供が生まれたそうだよ」「ご両親の喜ぶ顔が目に浮かぶね」",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "目に",
+          "reading": "めに"
+        },
+        {
+          "text": "浮か",
+          "reading": "うか"
+        },
+        {
+          "text": "ぶ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "「"
+        },
+        {
+          "text": "山田",
+          "reading": "やまだ"
+        },
+        {
+          "text": "さん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "子供",
+          "reading": "こども"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "生まれ",
+          "reading": "うまれ"
+        },
+        {
+          "text": "たそうだよ"
+        },
+        {
+          "text": "」"
+        },
+        {
+          "text": "「"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "両親",
+          "reading": "りょうしん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "喜ぶ",
+          "reading": "よろこぶ"
+        },
+        {
+          "text": "顔",
+          "reading": "かお"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "目に",
+          "reading": "めに"
+        },
+        {
+          "text": "浮か",
+          "reading": "うか"
+        },
+        {
+          "text": "ぶね"
+        },
+        {
+          "text": "」"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-005",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 22,
+      "knowledge_id": "vocab:鼻が高い",
+      "lemma_jp": "鼻が高い",
+      "reading": null,
+      "meaning_vi": "tự hào",
+      "example_jp": "息子がT大学に入って、親も鼻が高いだろう。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "鼻",
+          "reading": "はな"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "高い",
+          "reading": "たかい"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "息子",
+          "reading": "むすこ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "T"
+        },
+        {
+          "text": "大学",
+          "reading": "だいがく"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入っ",
+          "reading": "いっっ"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "親",
+          "reading": "おや"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "鼻",
+          "reading": "はな"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "高い",
+          "reading": "たかい"
+        },
+        {
+          "text": "だろう"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-006",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 22,
+      "knowledge_id": "vocab:口が堅い",
+      "lemma_jp": "口が堅い",
+      "reading": null,
+      "meaning_vi": "kín miệng",
+      "example_jp": "彼は口が堅いから、悩みを相談しても大丈夫だ。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "口",
+          "reading": "くち"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "堅い",
+          "reading": "かたい"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼は",
+          "reading": "かれは"
+        },
+        {
+          "text": "口",
+          "reading": "くち"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "堅い",
+          "reading": "かたい"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "悩み",
+          "reading": "なやみ"
         },
         {
           "text": "を"
         },
         {
-          "text": "伸ば",
-          "reading": "のば"
+          "text": "相談",
+          "reading": "そうだん"
         },
         {
-          "text": "す"
+          "text": "しても"
+        },
+        {
+          "text": "大丈夫",
+          "reading": "だいじょうぶ"
+        },
+        {
+          "text": "だ"
+        },
+        {
+          "text": "。"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
     },
     {
-      "id": "so-tay-idiom-015",
+      "id": "so-tay-idiom-007",
       "type": "vocabulary",
       "subtype": "body_idiom",
       "level": "N3",
       "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
+      "source_page": 22,
       "knowledge_id": "vocab:口が軽い",
       "lemma_jp": "口が軽い",
       "reading": null,
-      "meaning_vi": "Bép xép, nhiều chuyện",
-      "example_jp": null,
+      "meaning_vi": null,
+      "example_jp": "彼女は口が軽いから、すぐ人に話してしまう。",
       "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
       "lemma_ruby": [
         {
           "text": "口",
@@ -473,56 +524,14 @@
           "reading": "かるい"
         }
       ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-016",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:口がかたい",
-      "lemma_jp": "口がかたい",
-      "reading": null,
-      "meaning_vi": "Kín miệng",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
+      "example_ruby": [
         {
-          "text": "口",
-          "reading": "くち"
+          "text": "彼女",
+          "reading": "かのじょ"
         },
         {
-          "text": "がかたい"
-        }
-      ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-017",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:口が重い",
-      "lemma_jp": "口が重い",
-      "reading": null,
-      "meaning_vi": "Ít nói, khó mở lời",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
+          "text": "は"
+        },
         {
           "text": "口",
           "reading": "くち"
@@ -531,30 +540,54 @@
           "text": "が"
         },
         {
-          "text": "重い",
-          "reading": "おもい"
+          "text": "軽い",
+          "reading": "かるい"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "すぐ"
+        },
+        {
+          "text": "人",
+          "reading": "にん"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "話し",
+          "reading": "はなし"
+        },
+        {
+          "text": "てしまう"
+        },
+        {
+          "text": "。"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": true,
+      "ai_extra": null
     },
     {
-      "id": "so-tay-idiom-018",
+      "id": "so-tay-idiom-008",
       "type": "vocabulary",
       "subtype": "body_idiom",
       "level": "N3",
       "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
+      "source_page": 22,
       "knowledge_id": "vocab:口に合う",
       "lemma_jp": "口に合う",
       "reading": null,
-      "meaning_vi": "Hợp khẩu vị",
-      "example_jp": null,
+      "meaning_vi": "hợp khẩu vị",
+      "example_jp": "お口に合うかどうか、分かりませんが、どうぞ。",
       "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
       "lemma_ruby": [
         {
           "text": "口",
@@ -568,59 +601,62 @@
           "reading": "あう"
         }
       ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-019",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:腹が立つ",
-      "lemma_jp": "腹が立つ",
-      "reading": null,
-      "meaning_vi": "Tức giận",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
+      "example_ruby": [
         {
-          "text": "腹",
-          "reading": "はら"
+          "text": "お"
         },
         {
-          "text": "が"
+          "text": "口",
+          "reading": "くち"
         },
         {
-          "text": "立つ",
-          "reading": "たつ"
+          "text": "に"
+        },
+        {
+          "text": "合う",
+          "reading": "あう"
+        },
+        {
+          "text": "かどうか"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "分か",
+          "reading": "わか"
+        },
+        {
+          "text": "りませんが"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "どうぞ"
+        },
+        {
+          "text": "。"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
     },
     {
-      "id": "so-tay-idiom-020",
+      "id": "so-tay-idiom-009",
       "type": "vocabulary",
       "subtype": "body_idiom",
       "level": "N3",
       "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
+      "source_page": 22,
       "knowledge_id": "vocab:口を出す",
       "lemma_jp": "口を出す",
       "reading": null,
-      "meaning_vi": "Chen ngang",
-      "example_jp": null,
+      "meaning_vi": "xen vào (chuyện người khác)",
+      "example_jp": "関係ないのに、彼はすぐ口を出してくる。",
       "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
       "lemma_ruby": [
         {
           "text": "口",
@@ -634,26 +670,120 @@
           "reading": "だす"
         }
       ],
-      "ruby_source": "linguistic"
+      "example_ruby": [
+        {
+          "text": "関係",
+          "reading": "かんけい"
+        },
+        {
+          "text": "ないのに"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "彼は",
+          "reading": "かれは"
+        },
+        {
+          "text": "すぐ"
+        },
+        {
+          "text": "口",
+          "reading": "くち"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "出し",
+          "reading": "だし"
+        },
+        {
+          "text": "てくる"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
     },
     {
-      "id": "so-tay-idiom-021",
+      "id": "so-tay-idiom-010",
       "type": "vocabulary",
       "subtype": "body_idiom",
       "level": "N3",
       "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
+      "source_page": 22,
+      "knowledge_id": "vocab:耳にする",
+      "lemma_jp": "耳にする",
+      "reading": null,
+      "meaning_vi": "nghe thấy",
+      "example_jp": "佐藤さんが結婚するという話を耳にした。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "耳",
+          "reading": "みみ"
+        },
+        {
+          "text": "にする"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "佐藤",
+          "reading": "さとう"
+        },
+        {
+          "text": "さんが"
+        },
+        {
+          "text": "結婚",
+          "reading": "けっこん"
+        },
+        {
+          "text": "するという"
+        },
+        {
+          "text": "話",
+          "reading": "はなし"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "耳",
+          "reading": "みみ"
+        },
+        {
+          "text": "にした"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-011",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 22,
       "knowledge_id": "vocab:顔が広い",
       "lemma_jp": "顔が広い",
       "reading": null,
-      "meaning_vi": "Quan hệ xã giao rộng",
-      "example_jp": null,
+      "meaning_vi": "quen biết rộng",
+      "example_jp": "彼女は顔が広いから、誰か紹介してくれるだろう。",
       "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
       "lemma_ruby": [
         {
           "text": "顔",
@@ -667,26 +797,64 @@
           "reading": "ひろい"
         }
       ],
-      "ruby_source": "linguistic"
+      "example_ruby": [
+        {
+          "text": "彼女",
+          "reading": "かのじょ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "顔",
+          "reading": "かお"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "広い",
+          "reading": "ひろい"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "誰か",
+          "reading": "だれか"
+        },
+        {
+          "text": "紹介",
+          "reading": "しょうかい"
+        },
+        {
+          "text": "してくれるだろう"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
     },
     {
-      "id": "so-tay-idiom-022",
+      "id": "so-tay-idiom-012",
       "type": "vocabulary",
       "subtype": "body_idiom",
       "level": "N3",
       "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
+      "source_page": 22,
       "knowledge_id": "vocab:首になる",
       "lemma_jp": "首になる",
       "reading": null,
-      "meaning_vi": "Bị sa thải",
-      "example_jp": null,
+      "meaning_vi": "bị sa thải",
+      "example_jp": "そんなことをしたら、会社をクビになる。",
       "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
       "lemma_ruby": [
         {
           "text": "首",
@@ -696,88 +864,209 @@
           "text": "になる"
         }
       ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-023",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:手に入れる",
-      "lemma_jp": "手に入れる",
-      "reading": null,
-      "meaning_vi": "Có được, sở hữu",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
+      "example_ruby": [
         {
-          "text": "手に入れ",
-          "reading": "てにいれ"
+          "text": "そんなことをしたら"
         },
         {
-          "text": "る"
-        }
-      ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-024",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:手を貸す",
-      "lemma_jp": "手を貸す",
-      "reading": null,
-      "meaning_vi": "Giúp đỡ",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
+          "text": "、"
+        },
         {
-          "text": "手",
-          "reading": "て"
+          "text": "会社",
+          "reading": "かいしゃ"
         },
         {
           "text": "を"
         },
         {
-          "text": "貸す",
-          "reading": "かす"
+          "text": "クビ"
+        },
+        {
+          "text": "になる"
+        },
+        {
+          "text": "。"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
     },
     {
-      "id": "so-tay-idiom-025",
+      "id": "so-tay-idiom-013",
       "type": "vocabulary",
       "subtype": "body_idiom",
       "level": "N3",
       "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
+      "source_page": 22,
+      "knowledge_id": "vocab:腹が立つ自",
+      "lemma_jp": "腹が立つ（自）",
+      "reading": null,
+      "meaning_vi": "tức giận",
+      "example_jp": "店員の失礼な態度に腹が立った。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "腹",
+          "reading": "はら"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "立つ",
+          "reading": "たつ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "自",
+          "reading": "じ"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "店員",
+          "reading": "てんいん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "失礼",
+          "reading": "しつれい"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "態度",
+          "reading": "たいど"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "腹",
+          "reading": "はら"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "立っ",
+          "reading": "たっ"
+        },
+        {
+          "text": "た"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-014",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 22,
+      "knowledge_id": "vocab:腹を立てる他",
+      "lemma_jp": "腹を立てる（他）",
+      "reading": null,
+      "meaning_vi": "tức giận",
+      "example_jp": "彼は昨日のことで、まだ腹を立てている。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "腹",
+          "reading": "はら"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "立て",
+          "reading": "たて"
+        },
+        {
+          "text": "る"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "他",
+          "reading": "ほか"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼は",
+          "reading": "かれは"
+        },
+        {
+          "text": "昨日",
+          "reading": "きのう"
+        },
+        {
+          "text": "のことで"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "まだ"
+        },
+        {
+          "text": "腹",
+          "reading": "はら"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "立て",
+          "reading": "たて"
+        },
+        {
+          "text": "ている"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-015",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 22,
       "knowledge_id": "vocab:手が空く",
       "lemma_jp": "手が空く",
       "reading": null,
-      "meaning_vi": "Rảnh tay",
-      "example_jp": null,
+      "meaning_vi": "rảnh tay",
+      "example_jp": "手が空いたら、荷物を運ぶのを手伝ってくれる？",
       "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
       "lemma_ruby": [
         {
           "text": "手が",
@@ -788,26 +1077,64 @@
           "reading": "あく"
         }
       ],
-      "ruby_source": "linguistic"
+      "example_ruby": [
+        {
+          "text": "手が",
+          "reading": "てが"
+        },
+        {
+          "text": "空い",
+          "reading": "あい"
+        },
+        {
+          "text": "たら"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "荷物",
+          "reading": "にもつ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "運ぶ",
+          "reading": "はこぶ"
+        },
+        {
+          "text": "のを"
+        },
+        {
+          "text": "手伝っ",
+          "reading": "てつだっ"
+        },
+        {
+          "text": "てくれる"
+        },
+        {
+          "text": "？"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
     },
     {
-      "id": "so-tay-idiom-026",
+      "id": "so-tay-idiom-016",
       "type": "vocabulary",
       "subtype": "body_idiom",
       "level": "N3",
       "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
+      "source_page": 22,
       "knowledge_id": "vocab:手が足りない",
       "lemma_jp": "手が足りない",
       "reading": null,
-      "meaning_vi": "Thiếu người làm",
-      "example_jp": null,
+      "meaning_vi": "bận rộn, thiếu người",
+      "example_jp": "手が足りなくなったら、いつでも言ってください。手伝いますので。",
       "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
       "lemma_ruby": [
         {
           "text": "手が",
@@ -821,85 +1148,606 @@
           "text": "ない"
         }
       ],
-      "ruby_source": "linguistic"
-    },
-    {
-      "id": "so-tay-idiom-027",
-      "type": "vocabulary",
-      "subtype": "body_idiom",
-      "level": "N3",
-      "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:腕がいい",
-      "lemma_jp": "腕がいい",
-      "reading": null,
-      "meaning_vi": "Tay nghề giỏi",
-      "example_jp": null,
-      "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
-      "lemma_ruby": [
+      "example_ruby": [
         {
-          "text": "腕",
-          "reading": "うで"
+          "text": "手が",
+          "reading": "てが"
         },
         {
-          "text": "がいい"
+          "text": "足り",
+          "reading": "たり"
+        },
+        {
+          "text": "なくなったら"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "いつでも"
+        },
+        {
+          "text": "言って",
+          "reading": "いって"
+        },
+        {
+          "text": "ください"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "手伝い",
+          "reading": "てつだい"
+        },
+        {
+          "text": "ますので"
+        },
+        {
+          "text": "。"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
     },
     {
-      "id": "so-tay-idiom-028",
+      "id": "so-tay-idiom-017",
       "type": "vocabulary",
       "subtype": "body_idiom",
       "level": "N3",
       "source_file": "Sổ tay tiếng Nhật.pdf",
-      "source_page": null,
-      "knowledge_id": "vocab:体を壊す",
-      "lemma_jp": "体を壊す",
+      "source_page": 22,
+      "knowledge_id": "vocab:手を貸す",
+      "lemma_jp": "手を貸す",
       "reading": null,
-      "meaning_vi": "Tổn hại sức khỏe",
-      "example_jp": null,
+      "meaning_vi": null,
+      "example_jp": "ちょっと手を貸してもらえませんか。",
       "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
-      "ai_extra": {
-        "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      },
       "lemma_ruby": [
         {
-          "text": "体",
-          "reading": "からだ"
+          "text": "手",
+          "reading": "て"
         },
         {
           "text": "を"
         },
         {
-          "text": "壊す",
-          "reading": "こわす"
+          "text": "貸す",
+          "reading": "かす"
         }
       ],
-      "ruby_source": "linguistic"
+      "example_ruby": [
+        {
+          "text": "ちょっと"
+        },
+        {
+          "text": "手",
+          "reading": "て"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "貸し",
+          "reading": "かし"
+        },
+        {
+          "text": "てもらえませんか"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-018",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 22,
+      "knowledge_id": "vocab:気が合う",
+      "lemma_jp": "気が合う",
+      "reading": null,
+      "meaning_vi": "hợp tính",
+      "example_jp": "あの二人は気が合うみたい。いつも一緒にいる。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "合う",
+          "reading": "あう"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "あの"
+        },
+        {
+          "text": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "合う",
+          "reading": "あう"
+        },
+        {
+          "text": "みたい"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "いつも"
+        },
+        {
+          "text": "一緒に",
+          "reading": "いっしょに"
+        },
+        {
+          "text": "いる"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-019",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 23,
+      "knowledge_id": "vocab:気がする",
+      "lemma_jp": "気がする",
+      "reading": null,
+      "meaning_vi": "cảm thấy",
+      "example_jp": "明日は晴れる気がする。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "晴れ",
+          "reading": "はれ"
+        },
+        {
+          "text": "る"
+        },
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-020",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 23,
+      "knowledge_id": "vocab:気がつく",
+      "lemma_jp": "気がつく",
+      "reading": null,
+      "meaning_vi": null,
+      "example_jp": "先生がすぐそばにいることに気がつかなかった。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "つく"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "先生",
+          "reading": "せんせい"
+        },
+        {
+          "text": "がすぐそばにいることに"
+        },
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "つかなかった"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-021",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 23,
+      "knowledge_id": "vocab:気をつける",
+      "lemma_jp": "気をつける",
+      "reading": null,
+      "meaning_vi": "chú ý",
+      "example_jp": "くれぐれもお体に気をつけてください。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "気を",
+          "reading": "きを"
+        },
+        {
+          "text": "つける"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "くれぐれもお"
+        },
+        {
+          "text": "体",
+          "reading": "からだ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "気を",
+          "reading": "きを"
+        },
+        {
+          "text": "つけてください"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-022",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 23,
+      "knowledge_id": "vocab:気に入る",
+      "lemma_jp": "気に入る",
+      "reading": null,
+      "meaning_vi": "yêu thích",
+      "example_jp": "この時計はとても気に入っている。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "気に入る",
+          "reading": "きにいる"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "時計",
+          "reading": "とけい"
+        },
+        {
+          "text": "はとても"
+        },
+        {
+          "text": "気に入っ",
+          "reading": "きにいっ"
+        },
+        {
+          "text": "ている"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-023",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 23,
+      "knowledge_id": "vocab:気にする",
+      "lemma_jp": "気にする",
+      "reading": null,
+      "meaning_vi": "bận tâm",
+      "example_jp": "彼が言ったことは、気にしなくていいと思う。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "気に",
+          "reading": "きに"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼",
+          "reading": "かれ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "言った",
+          "reading": "いった"
+        },
+        {
+          "text": "ことは"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "気に",
+          "reading": "きに"
+        },
+        {
+          "text": "しなくていいと"
+        },
+        {
+          "text": "思う",
+          "reading": "おもう"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-024",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 23,
+      "knowledge_id": "vocab:気になる",
+      "lemma_jp": "気になる",
+      "reading": null,
+      "meaning_vi": "lo lắng",
+      "example_jp": "ほかの人がどう思っているか、気になる。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "気に",
+          "reading": "きに"
+        },
+        {
+          "text": "なる"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ほかの"
+        },
+        {
+          "text": "人",
+          "reading": "にん"
+        },
+        {
+          "text": "がどう"
+        },
+        {
+          "text": "思って",
+          "reading": "おもって"
+        },
+        {
+          "text": "いるか"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "気に",
+          "reading": "きに"
+        },
+        {
+          "text": "なる"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-idiom-025",
+      "type": "vocabulary",
+      "subtype": "body_idiom",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 23,
+      "knowledge_id": "vocab:気を使う",
+      "lemma_jp": "気を使う",
+      "reading": null,
+      "meaning_vi": null,
+      "example_jp": "「何か飲まれますか」「どうぞ気を使わないでください」",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "気を",
+          "reading": "きを"
+        },
+        {
+          "text": "使う",
+          "reading": "つかう"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "「"
+        },
+        {
+          "text": "何か",
+          "reading": "なにか"
+        },
+        {
+          "text": "飲ま",
+          "reading": "のま"
+        },
+        {
+          "text": "れますか"
+        },
+        {
+          "text": "」"
+        },
+        {
+          "text": "「"
+        },
+        {
+          "text": "どうぞ"
+        },
+        {
+          "text": "気を",
+          "reading": "きを"
+        },
+        {
+          "text": "使わ",
+          "reading": "つかわ"
+        },
+        {
+          "text": "ないでください"
+        },
+        {
+          "text": "」"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": true,
+      "ai_extra": null
     },
     {
       "id": "so-tay-onoma-001",
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:きらきら",
-      "lemma_jp": "きらきら",
-      "reading": "きらきら",
-      "meaning_vi": "lấp lánh（目・星・太陽が〜）",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:ぎっしりと",
+      "lemma_jp": "ぎっしり（と）",
+      "reading": null,
+      "meaning_vi": null,
+      "example_jp": "箱にはお菓子がぎっしり入っている。",
       "example_vi": null,
-      "content_source": "visual_transcription",
-      "needs_verify": false,
+      "lemma_ruby": [
+        {
+          "text": "ぎっしり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "箱",
+          "reading": "はこ"
+        },
+        {
+          "text": "にはお"
+        },
+        {
+          "text": "菓子",
+          "reading": "かし"
+        },
+        {
+          "text": "がぎっしり"
+        },
+        {
+          "text": "入っ",
+          "reading": "いっっ"
+        },
+        {
+          "text": "ている"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": true,
       "ai_extra": null
     },
     {
@@ -907,15 +1755,62 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:わくわく",
-      "lemma_jp": "わくわく",
-      "reading": "わくわく",
-      "meaning_vi": "háo hức（喜びで）",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:くっきりと",
+      "lemma_jp": "くっきり（と）",
+      "reading": null,
+      "meaning_vi": "rõ ràng",
+      "example_jp": "きょうは天気がよく、富士山がくっきり見えた。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "くっきり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "きょうは"
+        },
+        {
+          "text": "天気",
+          "reading": "てんき"
+        },
+        {
+          "text": "がよく"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "富士山",
+          "reading": "ふじさん"
+        },
+        {
+          "text": "がくっきり"
+        },
+        {
+          "text": "見え",
+          "reading": "みえ"
+        },
+        {
+          "text": "た"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -924,15 +1819,68 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:ぎりぎり",
-      "lemma_jp": "ぎりぎり",
-      "reading": "ぎりぎり",
-      "meaning_vi": "suýt soát（間に合う・合格）",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:ぐちゃぐちゃなだの",
+      "lemma_jp": "ぐちゃぐちゃ（な・だ・の）",
+      "reading": null,
+      "meaning_vi": "lộn xộn",
+      "example_jp": "彼女の部屋の中はぐちゃぐちゃだった。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "ぐちゃぐちゃ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "だ"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女",
+          "reading": "かのじょ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "部屋",
+          "reading": "へや"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "中",
+          "reading": "なか"
+        },
+        {
+          "text": "はぐちゃぐちゃだった"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -941,15 +1889,49 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:にやにや",
-      "lemma_jp": "にやにや",
-      "reading": "にやにや",
-      "meaning_vi": "cười toe toét",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:ぐんぐんと",
+      "lemma_jp": "ぐんぐん（と）",
+      "reading": null,
+      "meaning_vi": "nhanh chóng",
+      "example_jp": "売り上げがぐんぐん伸びている。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "ぐんぐん"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "売り上げ",
+          "reading": "うりあげ"
+        },
+        {
+          "text": "がぐんぐん"
+        },
+        {
+          "text": "伸び",
+          "reading": "のび"
+        },
+        {
+          "text": "ている"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -958,15 +1940,67 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:くよくよ",
-      "lemma_jp": "くよくよ",
-      "reading": "くよくよ",
-      "meaning_vi": "lo lắng bồn chồn",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:しっとりとする",
+      "lemma_jp": "しっとり（と・する）",
+      "reading": null,
+      "meaning_vi": "mềm mịn nhẹ nhàng",
+      "example_jp": "このクリームを使うと、肌がしっとりする。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "しっとり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "クリーム"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "使う",
+          "reading": "つかう"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "肌",
+          "reading": "はだ"
+        },
+        {
+          "text": "がしっとりする"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -975,15 +2009,69 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:のろのろ",
-      "lemma_jp": "のろのろ",
-      "reading": "のろのろ",
-      "meaning_vi": "chậm chạp",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:じめじめとする",
+      "lemma_jp": "じめじめ（と・する）",
+      "reading": null,
+      "meaning_vi": "ẩm ướt",
+      "example_jp": "雨の日が続き、服はじめじめしている。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "じめじめ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "雨",
+          "reading": "あめ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "日",
+          "reading": "にち"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "続き",
+          "reading": "つづき"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "服",
+          "reading": "ふく"
+        },
+        {
+          "text": "はじめじめしている"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -992,15 +2080,68 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:くるくる",
-      "lemma_jp": "くるくる",
-      "reading": "くるくる",
-      "meaning_vi": "xoay vòng",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:すれすれなだの",
+      "lemma_jp": "すれすれ（な・だ・の）",
+      "reading": null,
+      "meaning_vi": "gần sát",
+      "example_jp": "海面のすれすれのところを鳥が飛んでいた。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "すれすれ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "だ"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "海面",
+          "reading": "かいめん"
+        },
+        {
+          "text": "のすれすれのところを"
+        },
+        {
+          "text": "鳥",
+          "reading": "とり"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "飛ん",
+          "reading": "とん"
+        },
+        {
+          "text": "でいた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -1009,15 +2150,58 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:ぶつぶつ",
-      "lemma_jp": "ぶつぶつ",
-      "reading": "ぶつぶつ",
-      "meaning_vi": "làu bàu",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:ずっしりとする",
+      "lemma_jp": "ずっしり（と・する）",
+      "reading": null,
+      "meaning_vi": "nặng chịch",
+      "example_jp": "この箱はずっしりと重かった。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "ずっしり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "箱",
+          "reading": "はこ"
+        },
+        {
+          "text": "はずっしりと"
+        },
+        {
+          "text": "重か",
+          "reading": "おもか"
+        },
+        {
+          "text": "った"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -1026,15 +2210,48 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:ごくごく",
-      "lemma_jp": "ごくごく",
-      "reading": "ごくごく",
-      "meaning_vi": "ừng ực（飲む）",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:どっさりと",
+      "lemma_jp": "どっさり（と）",
+      "reading": null,
+      "meaning_vi": "nhiều",
+      "example_jp": "誕生日にプレゼントをどっさりもらった。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "どっさり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "誕生日",
+          "reading": "たんじょうび"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "プレゼント"
+        },
+        {
+          "text": "をどっさりもらった"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -1043,15 +2260,65 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:すらすら",
-      "lemma_jp": "すらすら",
-      "reading": "すらすら",
-      "meaning_vi": "trôi chảy（読む・答える）",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:ひっそりとする",
+      "lemma_jp": "ひっそり（と・する）",
+      "reading": null,
+      "meaning_vi": "tĩnh mịch",
+      "example_jp": "放課後の教室はひっそりとして、静かだった。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "ひっそり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "放課後",
+          "reading": "ほうかご"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "教室",
+          "reading": "きょうしつ"
+        },
+        {
+          "text": "はひっそりとして"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "静か",
+          "reading": "しずか"
+        },
+        {
+          "text": "だった"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -1060,15 +2327,62 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:ふらふら",
-      "lemma_jp": "ふらふら",
-      "reading": "ふらふら",
-      "meaning_vi": "loạng choạng",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:ひんやりとする",
+      "lemma_jp": "ひんやり（と・する）",
+      "reading": null,
+      "meaning_vi": "mát mẻ",
+      "example_jp": "朝の高原の空気はひんやりとしている。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "ひんやり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "朝",
+          "reading": "あさ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "高原",
+          "reading": "こうげん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "空気",
+          "reading": "くうき"
+        },
+        {
+          "text": "はひんやりとしている"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -1077,15 +2391,65 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:ぐらぐら",
-      "lemma_jp": "ぐらぐら",
-      "reading": "ぐらぐら",
-      "meaning_vi": "lung lay",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:びっしょりとだ",
+      "lemma_jp": "びっしょり（と・だ）",
+      "reading": null,
+      "meaning_vi": "ướt sũng",
+      "example_jp": "一時間走って、びっしょり汗をかいた。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "びっしょり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "だ"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "一時間",
+          "reading": "いちじかん"
+        },
+        {
+          "text": "走っ",
+          "reading": "はしっ"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "びっしょり"
+        },
+        {
+          "text": "汗",
+          "reading": "あせ"
+        },
+        {
+          "text": "をかいた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -1094,15 +2458,60 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:ぶらぶら",
-      "lemma_jp": "ぶらぶら",
-      "reading": "ぶらぶら",
-      "meaning_vi": "lang thang",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:びっしりと",
+      "lemma_jp": "びっしり（と）",
+      "reading": null,
+      "meaning_vi": "chi chít",
+      "example_jp": "彼の手帳にはびっしりと予定が書き込まれている。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "びっしり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼の",
+          "reading": "かの"
+        },
+        {
+          "text": "手帳",
+          "reading": "てちょう"
+        },
+        {
+          "text": "にはびっしりと"
+        },
+        {
+          "text": "予定",
+          "reading": "よてい"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "書き込ま",
+          "reading": "かきこま"
+        },
+        {
+          "text": "れている"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -1111,15 +2520,74 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:たびたび",
-      "lemma_jp": "たびたび",
-      "reading": "たびたび",
-      "meaning_vi": "thường xuyên",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:ふわふわのなだ",
+      "lemma_jp": "ふわふわ（の・な・だ）",
+      "reading": null,
+      "meaning_vi": "mềm mại",
+      "example_jp": "ふわふわの毛布を触ると、気持ちいいね。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "ふわふわ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "だ"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ふわふわの"
+        },
+        {
+          "text": "毛布",
+          "reading": "もうふ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "触る",
+          "reading": "ふる"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "気持ちい",
+          "reading": "きもちい"
+        },
+        {
+          "text": "いね"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -1128,15 +2596,72 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:ぺらぺら",
-      "lemma_jp": "ぺらぺら",
-      "reading": "ぺらぺら",
-      "meaning_vi": "lưu loát（話す）",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:ほやほやだの",
+      "lemma_jp": "ほやほや（だ・の）",
+      "reading": null,
+      "meaning_vi": "ấm nóng, tươi (bánh)",
+      "example_jp": "その店で焼き立てほやほやのパンを食べた。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "ほやほや"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "だ"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "その"
+        },
+        {
+          "text": "店",
+          "reading": "みせ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "焼き",
+          "reading": "やき"
+        },
+        {
+          "text": "立て",
+          "reading": "たて"
+        },
+        {
+          "text": "ほやほやの"
+        },
+        {
+          "text": "パン"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "食べた",
+          "reading": "たべた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     },
@@ -1145,15 +2670,1948 @@
       "type": "vocabulary",
       "subtype": "onomatopoeia",
       "level": "N3",
-      "source_file": "Bí kíp trúng tủ N3.pdf",
-      "source_page": 4,
-      "knowledge_id": "vocab:がらがら",
-      "lemma_jp": "がらがら",
-      "reading": "がらがら",
-      "meaning_vi": "vắng tanh",
-      "example_jp": null,
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:ぼろぼろだの",
+      "lemma_jp": "ぼろぼろ（だ・の）",
+      "reading": null,
+      "meaning_vi": "tả tơi, te tua",
+      "example_jp": "弟の本は、もうぼろぼろだ。",
       "example_vi": null,
-      "content_source": "visual_transcription",
+      "lemma_ruby": [
+        {
+          "text": "ぼろぼろ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "だ"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "弟",
+          "reading": "おとうと"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "本",
+          "reading": "ほん"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "もうぼろぼろだ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-017",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:ぽかぽかとする",
+      "lemma_jp": "ぽかぽか（と・する）",
+      "reading": null,
+      "meaning_vi": "ấm áp, dễ chịu",
+      "example_jp": "温泉に入ったら、体がぽかぽかしてきた。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "ぽかぽか"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "温泉",
+          "reading": "おんせん"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入っ",
+          "reading": "いっっ"
+        },
+        {
+          "text": "たら"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "体",
+          "reading": "からだ"
+        },
+        {
+          "text": "がぽかぽかしてきた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-018",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:めちゃくちゃなだの",
+      "lemma_jp": "めちゃくちゃ（な・だ・の）",
+      "reading": null,
+      "meaning_vi": null,
+      "example_jp": "台風の後、町はめちゃくちゃな状態だった。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "めちゃくちゃ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "だ"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "台風",
+          "reading": "たいふう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "後",
+          "reading": "のち"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "町",
+          "reading": "まち"
+        },
+        {
+          "text": "はめちゃくちゃな"
+        },
+        {
+          "text": "状態",
+          "reading": "じょうたい"
+        },
+        {
+          "text": "だった"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-019",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:いらいらする",
+      "lemma_jp": "いらいら（する）",
+      "reading": null,
+      "meaning_vi": "sốt ruột",
+      "example_jp": "彼女がなかなか来なくて、いらいらした。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "いらいら"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女",
+          "reading": "かのじょ"
+        },
+        {
+          "text": "がなかなか"
+        },
+        {
+          "text": "来な",
+          "reading": "こな"
+        },
+        {
+          "text": "くて"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "いらいらした"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-020",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:うろうろとする",
+      "lemma_jp": "うろうろ（と・する）",
+      "reading": null,
+      "meaning_vi": "quanh quẩn",
+      "example_jp": "変な男がうろうろと歩き回っているから、気をつけたほうがよい。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "うろうろ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "変な",
+          "reading": "へんな"
+        },
+        {
+          "text": "男",
+          "reading": "おとこ"
+        },
+        {
+          "text": "がうろうろと"
+        },
+        {
+          "text": "歩き",
+          "reading": "あるき"
+        },
+        {
+          "text": "回っ",
+          "reading": "まわっ"
+        },
+        {
+          "text": "ているから"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "気を",
+          "reading": "きを"
+        },
+        {
+          "text": "つけたほうがよい"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-021",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:おっとりとする",
+      "lemma_jp": "おっとり（と・する）",
+      "reading": null,
+      "meaning_vi": null,
+      "example_jp": "彼はおっとりしていて、あまり怒らない。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "おっとり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼は",
+          "reading": "かれは"
+        },
+        {
+          "text": "おっとりしていて"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "あまり"
+        },
+        {
+          "text": "怒ら",
+          "reading": "いから"
+        },
+        {
+          "text": "ない"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-022",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:きびきびとする",
+      "lemma_jp": "きびきび（と・する）",
+      "reading": null,
+      "meaning_vi": "nhanh nhẹn",
+      "example_jp": "彼はきびきびとメールをうつ。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "きびきび"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼は",
+          "reading": "かれは"
+        },
+        {
+          "text": "きびきびと"
+        },
+        {
+          "text": "メール"
+        },
+        {
+          "text": "をうつ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-023",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:こつこつと",
+      "lemma_jp": "こつこつ（と）",
+      "reading": null,
+      "meaning_vi": "cần cù, tỉ mỉ",
+      "example_jp": "彼はこつこつと受験の準備を進めていた。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "こつこつ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼は",
+          "reading": "かれは"
+        },
+        {
+          "text": "こつこつと"
+        },
+        {
+          "text": "受験",
+          "reading": "じゅけん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "準備",
+          "reading": "じゅんび"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "進め",
+          "reading": "すすめ"
+        },
+        {
+          "text": "ていた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-024",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:ごろごろとする",
+      "lemma_jp": "ごろごろ（と・する）",
+      "reading": null,
+      "meaning_vi": "quẩn lười nhác ở nhà",
+      "example_jp": "日曜日どこも行かず、ずっと家でごろごろしていた。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "ごろごろ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "日曜日",
+          "reading": "にちようび"
+        },
+        {
+          "text": "どこも"
+        },
+        {
+          "text": "行か",
+          "reading": "いか"
+        },
+        {
+          "text": "ず"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "ずっと"
+        },
+        {
+          "text": "家",
+          "reading": "いえ"
+        },
+        {
+          "text": "でごろごろしていた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-025",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:さっさと",
+      "lemma_jp": "さっさと",
+      "reading": null,
+      "meaning_vi": "nhanh chóng",
+      "example_jp": "おしゃべりしないで、さっさと食べなさい。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "さっさと"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "おしゃべりしないで"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "さっさと"
+        },
+        {
+          "text": "食べ",
+          "reading": "たべ"
+        },
+        {
+          "text": "なさい"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-026",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:しみじみと",
+      "lemma_jp": "しみじみ（と）",
+      "reading": null,
+      "meaning_vi": "thấm thía, sâu sắc",
+      "example_jp": "手紙を読み、親のやさしさをしみじみ感じた。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "しみじみ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "手紙",
+          "reading": "てがみ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "読み",
+          "reading": "よみ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "親",
+          "reading": "おや"
+        },
+        {
+          "text": "のやさしさをしみじみ"
+        },
+        {
+          "text": "感じ",
+          "reading": "かんじ"
+        },
+        {
+          "text": "た"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": {
+        "note": "Recovered from PDF table after adjacent-row merge."
+      }
+    },
+    {
+      "id": "so-tay-onoma-027",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:じっくりと",
+      "lemma_jp": "じっくり（と）",
+      "reading": null,
+      "meaning_vi": "kỹ càng, cẩn thận",
+      "example_jp": "一度自分の将来のことをじっくり考えたい。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "じっくり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "一度",
+          "reading": "いちど"
+        },
+        {
+          "text": "自分",
+          "reading": "じぶん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "将来",
+          "reading": "しょうらい"
+        },
+        {
+          "text": "のことをじっくり"
+        },
+        {
+          "text": "考え",
+          "reading": "かんがえ"
+        },
+        {
+          "text": "たい"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-028",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:すんなりと",
+      "lemma_jp": "すんなり（と）",
+      "reading": null,
+      "meaning_vi": "dễ dàng, thuận lợi",
+      "example_jp": "彼が社長になることがすんなり決まった。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "すんなり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼",
+          "reading": "かれ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "社長",
+          "reading": "しゃちょう"
+        },
+        {
+          "text": "になることがすんなり"
+        },
+        {
+          "text": "決ま",
+          "reading": "きま"
+        },
+        {
+          "text": "った"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-029",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:ずばりと",
+      "lemma_jp": "ずばり（と）",
+      "reading": null,
+      "meaning_vi": "chỗ hiểm",
+      "example_jp": "自分の欠点をずばりと言われたので、腹が立った。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "ずばり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "自分",
+          "reading": "じぶん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "欠点",
+          "reading": "けってん"
+        },
+        {
+          "text": "をずばりと"
+        },
+        {
+          "text": "言わ",
+          "reading": "いわ"
+        },
+        {
+          "text": "れたので"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "腹",
+          "reading": "はら"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "立っ",
+          "reading": "たっ"
+        },
+        {
+          "text": "た"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-030",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:ずらっと",
+      "lemma_jp": "ずらっと",
+      "reading": null,
+      "meaning_vi": "(xếp) 1 hàng 1 dãy dài",
+      "example_jp": "ともだちの家に行ったら、棚に本がずらっと並んでいる。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "ずらっと"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ともだちの"
+        },
+        {
+          "text": "家",
+          "reading": "いえ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "行った",
+          "reading": "いった"
+        },
+        {
+          "text": "ら"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "棚",
+          "reading": "たな"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "本",
+          "reading": "ほん"
+        },
+        {
+          "text": "がずらっと"
+        },
+        {
+          "text": "並ん",
+          "reading": "ならん"
+        },
+        {
+          "text": "でいる"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-031",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:せっせと",
+      "lemma_jp": "せっせと",
+      "reading": null,
+      "meaning_vi": "cần mẫn",
+      "example_jp": "親鳥はせっせとひなにえさを運んできた。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "せっせと"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "親鳥",
+          "reading": "おやどり"
+        },
+        {
+          "text": "はせっせとひなにえさを"
+        },
+        {
+          "text": "運ん",
+          "reading": "はこん"
+        },
+        {
+          "text": "できた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-032",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:てきぱきと",
+      "lemma_jp": "てきぱき（と）",
+      "reading": null,
+      "meaning_vi": "khéo léo, tháo vát",
+      "example_jp": "彼女は家事をてきぱきと片づけた。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "てきぱき"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女",
+          "reading": "かのじょ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "家事",
+          "reading": "かじ"
+        },
+        {
+          "text": "をてきぱきと"
+        },
+        {
+          "text": "片づ",
+          "reading": "かたづ"
+        },
+        {
+          "text": "けた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-033",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:のろのろと",
+      "lemma_jp": "のろのろ（と）",
+      "reading": null,
+      "meaning_vi": "chậm chạp",
+      "example_jp": "道が込んでいて、車はのろのろ（と）しか進めなかった。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "のろのろ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "道",
+          "reading": "みち"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "込ん",
+          "reading": "こん"
+        },
+        {
+          "text": "でいて"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "車",
+          "reading": "くるま"
+        },
+        {
+          "text": "はのろのろ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        },
+        {
+          "text": "しか"
+        },
+        {
+          "text": "進め",
+          "reading": "すすめ"
+        },
+        {
+          "text": "なかった"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-034",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:のんびりのびのびとする",
+      "lemma_jp": "のんびり・のびのび（と・する）",
+      "reading": null,
+      "meaning_vi": "thảnh thơi, thư giãn",
+      "example_jp": "両親が旅行で留守なので、のびのびできる。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "のんびり"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "のびのび"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "両親",
+          "reading": "りょうしん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "旅行",
+          "reading": "りょこう"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "留守",
+          "reading": "るす"
+        },
+        {
+          "text": "なので"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "のびのびできる"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": {
+        "note": "Recovered from PDF table after adjacent-row merge."
+      }
+    },
+    {
+      "id": "so-tay-onoma-035",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:ふらふらとする",
+      "lemma_jp": "ふらふら（と・する）",
+      "reading": null,
+      "meaning_vi": "loạng choạng",
+      "example_jp": "父は酔っぱらっていてふらふら歩いていた。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "ふらふら"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "父",
+          "reading": "ちち"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "酔っ",
+          "reading": "よっ"
+        },
+        {
+          "text": "ぱらっていてふらふら"
+        },
+        {
+          "text": "歩い",
+          "reading": "あるい"
+        },
+        {
+          "text": "ていた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-036",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:ぶらぶらとする",
+      "lemma_jp": "ぶらぶら（と・する）",
+      "reading": null,
+      "meaning_vi": null,
+      "example_jp": "公園をぶらぶら（と）散歩した。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "ぶらぶら"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "公園",
+          "reading": "こうえん"
+        },
+        {
+          "text": "をぶらぶら"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "）"
+        },
+        {
+          "text": "散歩",
+          "reading": "さんぽ"
+        },
+        {
+          "text": "した"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-037",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:むかむかする",
+      "lemma_jp": "むかむか（する）",
+      "reading": null,
+      "meaning_vi": "tức tối, lộn ruột",
+      "example_jp": "彼の言い訳を聞いていると、むかむかする。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "むかむか"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼の",
+          "reading": "かの"
+        },
+        {
+          "text": "言い訳",
+          "reading": "いいわけ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "聞い",
+          "reading": "きい"
+        },
+        {
+          "text": "ていると"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "むかむかする"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-038",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 29,
+      "knowledge_id": "vocab:おどおど",
+      "lemma_jp": "おどおど",
+      "reading": null,
+      "meaning_vi": "lúng túng, rụt rè e ngại",
+      "example_jp": "面接のとき、その学生はおどおどしていた。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "おどおど"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "面接",
+          "reading": "めんせつ"
+        },
+        {
+          "text": "のとき"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "その"
+        },
+        {
+          "text": "学生",
+          "reading": "がくせい"
+        },
+        {
+          "text": "はおどおどしていた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-039",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 29,
+      "knowledge_id": "vocab:きっぱりとする",
+      "lemma_jp": "きっぱり（と・する）",
+      "reading": null,
+      "meaning_vi": "dứt khoát thẳng thừng",
+      "example_jp": "彼女はきっぱりとした態度で誘いを断った。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "きっぱり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女",
+          "reading": "かのじょ"
+        },
+        {
+          "text": "はきっぱりとした"
+        },
+        {
+          "text": "態度",
+          "reading": "たいど"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "誘い",
+          "reading": "さそい"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "断っ",
+          "reading": "たっ"
+        },
+        {
+          "text": "た"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-040",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 29,
+      "knowledge_id": "vocab:くたくたへとへとだにの",
+      "lemma_jp": "くたくた・へとへと（だ・に・の）",
+      "reading": null,
+      "meaning_vi": "mệt mỏi, mệt lử",
+      "example_jp": "５時間も山道を登ってきたので、くたくただ。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "くたくた"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "へとへと"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "だ"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "５"
+        },
+        {
+          "text": "時間",
+          "reading": "じかん"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "山道",
+          "reading": "やまみち"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "登っ",
+          "reading": "のぼっ"
+        },
+        {
+          "text": "てきたので"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "くたくただ"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": {
+        "note": "Recovered from PDF table after adjacent-row merge."
+      }
+    },
+    {
+      "id": "so-tay-onoma-041",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 29,
+      "knowledge_id": "vocab:くよくよだにのとする",
+      "lemma_jp": "くよくよ（と・する）",
+      "reading": null,
+      "meaning_vi": "lo lắng",
+      "example_jp": "もう終わったことだから、くよくよしても仕方がない。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "くよくよ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "もう"
+        },
+        {
+          "text": "終わ",
+          "reading": "おわ"
+        },
+        {
+          "text": "ったことだから"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "くよくよしても"
+        },
+        {
+          "text": "仕方",
+          "reading": "しかた"
+        },
+        {
+          "text": "がない"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-042",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 29,
+      "knowledge_id": "vocab:ぐったりとする",
+      "lemma_jp": "ぐったり（と・する）",
+      "reading": null,
+      "meaning_vi": "mệt mỏi, rã rời (do bệnh, bị ốm...)",
+      "example_jp": "今日は彼は二日酔いでぐったりしていた。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "ぐったり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "今日は",
+          "reading": "こんにちは"
+        },
+        {
+          "text": "彼は",
+          "reading": "かれは"
+        },
+        {
+          "text": "二日酔い",
+          "reading": "ふつかよい"
+        },
+        {
+          "text": "でぐったりしていた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-043",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 29,
+      "knowledge_id": "vocab:そわそわとする",
+      "lemma_jp": "そわそわ（と・する）",
+      "reading": null,
+      "meaning_vi": "hoang mang",
+      "example_jp": "姉の結婚式の朝、父はそわそわしていた。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "そわそわ"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "姉",
+          "reading": "あね"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "結婚式",
+          "reading": "けっこんしき"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "朝",
+          "reading": "あさ"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "父",
+          "reading": "ちち"
+        },
+        {
+          "text": "はそわそわしていた"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-044",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 29,
+      "knowledge_id": "vocab:はきはきとする",
+      "lemma_jp": "はきはき（と・する）",
+      "reading": null,
+      "meaning_vi": "rõ ràng, rành mạch",
+      "example_jp": "面接との回答ははきはきしていて、よかった。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "はきはき"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "面接",
+          "reading": "めんせつ"
+        },
+        {
+          "text": "との"
+        },
+        {
+          "text": "回答",
+          "reading": "かいとう"
+        },
+        {
+          "text": "ははきはきしていて"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "よかった"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "so-tay-onoma-045",
+      "type": "vocabulary",
+      "subtype": "onomatopoeia",
+      "level": "N3",
+      "source_file": "Sổ tay tiếng Nhật.pdf",
+      "source_page": 29,
+      "knowledge_id": "vocab:ぼんやりとする",
+      "lemma_jp": "ぼんやり（と・する）",
+      "reading": null,
+      "meaning_vi": "không rõ ràng",
+      "example_jp": "ぼんやりしていて、パンを買うのを忘れた。",
+      "example_vi": null,
+      "lemma_ruby": [
+        {
+          "text": "ぼんやり"
+        },
+        {
+          "text": "（"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "する"
+        },
+        {
+          "text": "）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ぼんやりしていて"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "パン"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "買う",
+          "reading": "かう"
+        },
+        {
+          "text": "のを"
+        },
+        {
+          "text": "忘れ",
+          "reading": "わすれ"
+        },
+        {
+          "text": "た"
+        },
+        {
+          "text": "。"
+        }
+      ],
+      "ruby_source": "linguistic",
+      "content_source": "pdf_extract",
       "needs_verify": false,
       "ai_extra": null
     }

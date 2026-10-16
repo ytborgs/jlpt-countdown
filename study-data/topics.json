@@ -74,9 +74,9 @@
   {
     "id": "so-tay-idioms",
     "title": "Thành ngữ / tượng thanh (sổ tay)",
-    "description": "Idiom cơ thể & onomatopoeia từ sổ tay tiếng Nhật.",
+    "description": "Quán dụng ngữ & từ láy từ sổ tay, kèm ví dụ Nhật.",
     "notice": "",
-    "count": 44,
+    "count": 70,
     "unit": "mục",
     "path": "./study-data/so-tay-idioms.json"
   },
@@ -146,20 +146,11 @@
   {
     "id": "connectors",
     "title": "Từ nối đọc hiểu",
-    "description": "Liên từ / từ nối theo nhóm chức năng.",
+    "description": "Liên từ / từ nối theo nhóm chức năng, kèm ví dụ Nhật như PDF.",
     "notice": "",
-    "count": 41,
+    "count": 43,
     "unit": "mục",
     "path": "./study-data/connectors.json"
-  },
-  {
-    "id": "connectors-extra",
-    "title": "Từ nối (tài liệu tổng hợp)",
-    "description": "Bổ sung từ nối từ tài liệu tổng hợp N3.",
-    "notice": "",
-    "count": 56,
-    "unit": "mục",
-    "path": "./study-data/connectors-extra.json"
   },
   {
     "id": "exam-tips",
