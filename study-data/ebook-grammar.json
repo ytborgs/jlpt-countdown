@@ -15,7 +15,8 @@
   "needs_verify_count": 0,
   "notes": [
     "Phase C: type=grammar từ Ebook.",
-    "Có thể trùng 80 mẫu — giữ source."
+    "Có thể trùng 80 mẫu — giữ source.",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -40,13 +41,49 @@
       ],
       "example_ruby": [
         {
-          "text": "お母さんが昼寝をしている間、 子どもたちはテレビを見ていた。"
+          "text": "お"
+        },
+        {
+          "text": "母さん",
+          "reading": "かあさん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "昼寝",
+          "reading": "ひるね"
+        },
+        {
+          "text": "をしている"
+        },
+        {
+          "text": "間",
+          "reading": "かん"
+        },
+        {
+          "text": "、 "
+        },
+        {
+          "text": "子ども",
+          "reading": "こども"
+        },
+        {
+          "text": "たちはテレビを"
+        },
+        {
+          "text": "見て",
+          "reading": "みて"
+        },
+        {
+          "text": "いた。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-002",
@@ -65,18 +102,61 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～間…"
+          "text": "～"
+        },
+        {
+          "text": "間",
+          "reading": "かん"
+        },
+        {
+          "text": "…"
         }
       ],
       "example_ruby": [
         {
-          "text": "お母さんが昼寝をしている間、 子どもたちはテレビを見ていた。"
+          "text": "お"
+        },
+        {
+          "text": "母さん",
+          "reading": "かあさん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "昼寝",
+          "reading": "ひるね"
+        },
+        {
+          "text": "をしている"
+        },
+        {
+          "text": "間",
+          "reading": "かん"
+        },
+        {
+          "text": "、 "
+        },
+        {
+          "text": "子ども",
+          "reading": "こども"
+        },
+        {
+          "text": "たちはテレビを"
+        },
+        {
+          "text": "見て",
+          "reading": "みて"
+        },
+        {
+          "text": "いた。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-003",
@@ -95,18 +175,69 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～間に"
+          "text": "～"
+        },
+        {
+          "text": "間に",
+          "reading": "まに"
         }
       ],
       "example_ruby": [
         {
-          "text": "私が旅行で留守の間に、庭に草がたくさん生えてしまった。"
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "旅行",
+          "reading": "りょこう"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "留守",
+          "reading": "るす"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "間に",
+          "reading": "まに"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "庭",
+          "reading": "にわ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "草",
+          "reading": "くさ"
+        },
+        {
+          "text": "がたくさん"
+        },
+        {
+          "text": "生え",
+          "reading": "はえ"
+        },
+        {
+          "text": "てしまった。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-004",
@@ -130,13 +261,46 @@
       ],
       "example_ruby": [
         {
-          "text": "ロケットは間もなく飛び立つところです。緊張の瞬間です。"
+          "text": "ロケットは"
+        },
+        {
+          "text": "間",
+          "reading": "かん"
+        },
+        {
+          "text": "もなく"
+        },
+        {
+          "text": "飛び",
+          "reading": "とび"
+        },
+        {
+          "text": "立つ",
+          "reading": "たつ"
+        },
+        {
+          "text": "ところです。"
+        },
+        {
+          "text": "緊張",
+          "reading": "きんちょう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "瞬間",
+          "reading": "しゅんかん"
+        },
+        {
+          "text": "です。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-005",
@@ -160,13 +324,39 @@
       ],
       "example_ruby": [
         {
-          "text": "運転免許を取ってからでなければ車を運転してはいけない。"
+          "text": "運転免許",
+          "reading": "うんてんめんきょ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "取っ",
+          "reading": "とっ"
+        },
+        {
+          "text": "てからでなければ"
+        },
+        {
+          "text": "車",
+          "reading": "くるま"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "運転",
+          "reading": "うんてん"
+        },
+        {
+          "text": "してはいけない。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-006",
@@ -190,13 +380,56 @@
       ],
       "example_ruby": [
         {
-          "text": "この地方は台風が来るたびに大水の害が起こる。"
+          "text": "この"
+        },
+        {
+          "text": "地方",
+          "reading": "ちほう"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "台風",
+          "reading": "たいふう"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "来る",
+          "reading": "くる"
+        },
+        {
+          "text": "たびに"
+        },
+        {
+          "text": "大水",
+          "reading": "おおみず"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "害",
+          "reading": "がい"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "起こ",
+          "reading": "おこ"
+        },
+        {
+          "text": "る。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-007",
@@ -220,13 +453,42 @@
       ],
       "example_ruby": [
         {
-          "text": "ものが増えれば増えるほど整理が大変になる。"
+          "text": "ものが"
+        },
+        {
+          "text": "増え",
+          "reading": "ふえ"
+        },
+        {
+          "text": "れば"
+        },
+        {
+          "text": "増え",
+          "reading": "ふえ"
+        },
+        {
+          "text": "るほど"
+        },
+        {
+          "text": "整理",
+          "reading": "せいり"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "大変",
+          "reading": "たいへん"
+        },
+        {
+          "text": "になる。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-008",
@@ -250,13 +512,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-009",
@@ -280,13 +561,43 @@
       ],
       "example_ruby": [
         {
-          "text": "天気予報によると、今日は台風ぐらい風が吹くそうだ。"
+          "text": "天気予報",
+          "reading": "てんきよほう"
+        },
+        {
+          "text": "によると、"
+        },
+        {
+          "text": "今日は",
+          "reading": "こんにちは"
+        },
+        {
+          "text": "台風",
+          "reading": "たいふう"
+        },
+        {
+          "text": "ぐらい"
+        },
+        {
+          "text": "風",
+          "reading": "かぜ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "吹く",
+          "reading": "ふく"
+        },
+        {
+          "text": "そうだ。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-010",
@@ -305,18 +616,58 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～に限る …"
+          "text": "～に"
+        },
+        {
+          "text": "限る",
+          "reading": "かぎる"
+        },
+        {
+          "text": " …"
         }
       ],
       "example_ruby": [
         {
-          "text": "大阪では大雨だったのに対して、東京はいい天気だった。"
+          "text": "大阪",
+          "reading": "おおさか"
+        },
+        {
+          "text": "では"
+        },
+        {
+          "text": "大雨",
+          "reading": "おおあめ"
+        },
+        {
+          "text": "だったのに"
+        },
+        {
+          "text": "対し",
+          "reading": "たいし"
+        },
+        {
+          "text": "て、"
+        },
+        {
+          "text": "東京",
+          "reading": "とうきょう"
+        },
+        {
+          "text": "はいい"
+        },
+        {
+          "text": "天気",
+          "reading": "てんき"
+        },
+        {
+          "text": "だった。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-011",
@@ -335,18 +686,44 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～に対して…"
+          "text": "～に"
+        },
+        {
+          "text": "対し",
+          "reading": "たいし"
+        },
+        {
+          "text": "て…"
         }
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-012",
@@ -365,18 +742,62 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～ 一方 (で)…"
+          "text": "～ "
+        },
+        {
+          "text": "一方",
+          "reading": "いっぽう"
+        },
+        {
+          "text": " (で)…"
         }
       ],
       "example_ruby": [
         {
-          "text": "都会の生活は面白いことが多い反面、ストレスとも多い。"
+          "text": "都会",
+          "reading": "とかい"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "生活",
+          "reading": "せいかつ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "面白い",
+          "reading": "おもしろい"
+        },
+        {
+          "text": "ことが"
+        },
+        {
+          "text": "多い",
+          "reading": "おおい"
+        },
+        {
+          "text": "反面",
+          "reading": "はんめん"
+        },
+        {
+          "text": "、ストレスとも"
+        },
+        {
+          "text": "多い",
+          "reading": "おおい"
+        },
+        {
+          "text": "。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-013",
@@ -395,18 +816,44 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～反面…"
+          "text": "～"
+        },
+        {
+          "text": "反面",
+          "reading": "はんめん"
+        },
+        {
+          "text": "…"
         }
       ],
       "example_ruby": [
         {
-          "text": "僕と彼がともだち？いや、ぼくたちはともだちというよりいい競争相手なんだよ。"
+          "text": "僕",
+          "reading": "ぼく"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "彼",
+          "reading": "かれ"
+        },
+        {
+          "text": "がともだち？いや、ぼくたちはともだちというよりいい"
+        },
+        {
+          "text": "競争相手",
+          "reading": "きょうそうあいて"
+        },
+        {
+          "text": "なんだよ。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-014",
@@ -430,13 +877,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-015",
@@ -460,13 +926,39 @@
       ],
       "example_ruby": [
         {
-          "text": "出張のため、明日の会議は欠席させていただきます。"
+          "text": "出張",
+          "reading": "しゅっちょう"
+        },
+        {
+          "text": "のため、"
+        },
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "会議",
+          "reading": "かいぎ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "欠席",
+          "reading": "けっせき"
+        },
+        {
+          "text": "させていただきます。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-016",
@@ -490,13 +982,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-017",
@@ -520,13 +1031,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-018",
@@ -550,13 +1080,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-019",
@@ -580,13 +1129,32 @@
       ],
       "example_ruby": [
         {
-          "text": "体さえ丈夫ならどんなことにも挑戦できる。"
+          "text": "体",
+          "reading": "からだ"
+        },
+        {
+          "text": "さえ"
+        },
+        {
+          "text": "丈夫",
+          "reading": "じょうぶ"
+        },
+        {
+          "text": "ならどんなことにも"
+        },
+        {
+          "text": "挑戦",
+          "reading": "ちょうせん"
+        },
+        {
+          "text": "できる。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-020",
@@ -610,13 +1178,28 @@
       ],
       "example_ruby": [
         {
-          "text": "そんな無責任な態度ではみんなにきらわれますよ。"
+          "text": "そんな"
+        },
+        {
+          "text": "無責任",
+          "reading": "むせきにん"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "態度",
+          "reading": "たいど"
+        },
+        {
+          "text": "ではみんなにきらわれますよ。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-021",
@@ -640,13 +1223,53 @@
       ],
       "example_ruby": [
         {
-          "text": "市のお知らせによれば、この道路は来週から工事が始まるということだ。"
+          "text": "市",
+          "reading": "し"
+        },
+        {
+          "text": "のお"
+        },
+        {
+          "text": "知らせ",
+          "reading": "しらせ"
+        },
+        {
+          "text": "によれば、この"
+        },
+        {
+          "text": "道路",
+          "reading": "どうろ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "来週",
+          "reading": "らいしゅう"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "工事",
+          "reading": "こうじ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "始ま",
+          "reading": "はじま"
+        },
+        {
+          "text": "るということだ。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-022",
@@ -665,18 +1288,51 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～と言われている"
+          "text": "～と"
+        },
+        {
+          "text": "言わ",
+          "reading": "いわ"
+        },
+        {
+          "text": "れている"
         }
       ],
       "example_ruby": [
         {
-          "text": "来月また出張だとか。今度はどちらに行かれるんですか。"
+          "text": "来月",
+          "reading": "らいげつ"
+        },
+        {
+          "text": "また"
+        },
+        {
+          "text": "出張",
+          "reading": "しゅっちょう"
+        },
+        {
+          "text": "だとか。"
+        },
+        {
+          "text": "今度",
+          "reading": "こんど"
+        },
+        {
+          "text": "はどちらに"
+        },
+        {
+          "text": "行か",
+          "reading": "いか"
+        },
+        {
+          "text": "れるんですか。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-023",
@@ -700,13 +1356,36 @@
       ],
       "example_ruby": [
         {
-          "text": "小川さん、今日は休むって言ってたよ。"
+          "text": "小川",
+          "reading": "おがわ"
+        },
+        {
+          "text": "さん、"
+        },
+        {
+          "text": "今日は",
+          "reading": "こんにちは"
+        },
+        {
+          "text": "休む",
+          "reading": "やすむ"
+        },
+        {
+          "text": "って"
+        },
+        {
+          "text": "言って",
+          "reading": "いって"
+        },
+        {
+          "text": "たよ。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-024",
@@ -730,13 +1409,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-025",
@@ -760,13 +1458,56 @@
       ],
       "example_ruby": [
         {
-          "text": "この歌は古くから歌われているが、日本人がみんな知っているとは限らない。"
+          "text": "この"
+        },
+        {
+          "text": "歌",
+          "reading": "うた"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "古く",
+          "reading": "ふるく"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "歌わ",
+          "reading": "うたわ"
+        },
+        {
+          "text": "れているが、"
+        },
+        {
+          "text": "日本人",
+          "reading": "にほんじん"
+        },
+        {
+          "text": "がみんな"
+        },
+        {
+          "text": "知って",
+          "reading": "しって"
+        },
+        {
+          "text": "いるとは"
+        },
+        {
+          "text": "限ら",
+          "reading": "かぎら"
+        },
+        {
+          "text": "ない。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-026",
@@ -790,13 +1531,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-027",
@@ -820,13 +1580,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-028",
@@ -850,13 +1629,35 @@
       ],
       "example_ruby": [
         {
-          "text": "せっかく会社に入っただから、簡単にやめるべきではない。"
+          "text": "せっかく"
+        },
+        {
+          "text": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入っ",
+          "reading": "いっっ"
+        },
+        {
+          "text": "ただから、"
+        },
+        {
+          "text": "簡単",
+          "reading": "かんたん"
+        },
+        {
+          "text": "にやめるべきではない。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-029",
@@ -880,13 +1681,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-030",
@@ -910,13 +1730,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-031",
@@ -940,13 +1779,39 @@
       ],
       "example_ruby": [
         {
-          "text": "本校では、教室で日本語しか話せないことになる。"
+          "text": "本校",
+          "reading": "ほんこう"
+        },
+        {
+          "text": "では、"
+        },
+        {
+          "text": "教室",
+          "reading": "きょうしつ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "日本語",
+          "reading": "にほんご"
+        },
+        {
+          "text": "しか"
+        },
+        {
+          "text": "話せ",
+          "reading": "はなせ"
+        },
+        {
+          "text": "ないことになる。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-032",
@@ -970,13 +1835,39 @@
       ],
       "example_ruby": [
         {
-          "text": "本校では、教室では日本語しか話せないことになっている。"
+          "text": "本校",
+          "reading": "ほんこう"
+        },
+        {
+          "text": "では、"
+        },
+        {
+          "text": "教室",
+          "reading": "きょうしつ"
+        },
+        {
+          "text": "では"
+        },
+        {
+          "text": "日本語",
+          "reading": "にほんご"
+        },
+        {
+          "text": "しか"
+        },
+        {
+          "text": "話せ",
+          "reading": "はなせ"
+        },
+        {
+          "text": "ないことになっている。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-033",
@@ -1000,13 +1891,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-034",
@@ -1030,13 +1940,39 @@
       ],
       "example_ruby": [
         {
-          "text": "彼女はわがままばかり言って、子供っぽい人だ。"
+          "text": "彼女",
+          "reading": "かのじょ"
+        },
+        {
+          "text": "はわがままばかり"
+        },
+        {
+          "text": "言って",
+          "reading": "いって"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "子供",
+          "reading": "こども"
+        },
+        {
+          "text": "っぽい"
+        },
+        {
+          "text": "人",
+          "reading": "にん"
+        },
+        {
+          "text": "だ。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-035",
@@ -1060,13 +1996,28 @@
       ],
       "example_ruby": [
         {
-          "text": "でき上がったばかりのケーキをみんなで食べた。"
+          "text": "でき"
+        },
+        {
+          "text": "上が",
+          "reading": "あが"
+        },
+        {
+          "text": "ったばかりのケーキをみんなで"
+        },
+        {
+          "text": "食べた",
+          "reading": "たべた"
+        },
+        {
+          "text": "。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-036",
@@ -1090,13 +2041,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-037",
@@ -1120,13 +2090,35 @@
       ],
       "example_ruby": [
         {
-          "text": "いい薬を使ったから、きっとすぐ治るはずですよ。"
+          "text": "いい"
+        },
+        {
+          "text": "薬",
+          "reading": "くすり"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "使った",
+          "reading": "つかった"
+        },
+        {
+          "text": "から、きっとすぐ"
+        },
+        {
+          "text": "治る",
+          "reading": "なおる"
+        },
+        {
+          "text": "はずですよ。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-038",
@@ -1150,13 +2142,46 @@
       ],
       "example_ruby": [
         {
-          "text": "なるほど、この薬を使えば早く治るわけですね。じゃあ使ってみましょう。"
+          "text": "なるほど、この"
+        },
+        {
+          "text": "薬",
+          "reading": "くすり"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "使え",
+          "reading": "つかえ"
+        },
+        {
+          "text": "ば"
+        },
+        {
+          "text": "早く",
+          "reading": "はやく"
+        },
+        {
+          "text": "治る",
+          "reading": "なおる"
+        },
+        {
+          "text": "わけですね。じゃあ"
+        },
+        {
+          "text": "使って",
+          "reading": "つかって"
+        },
+        {
+          "text": "みましょう。"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "ebook-g-039",
@@ -1180,13 +2205,32 @@
       ],
       "example_ruby": [
         {
-          "text": "（例は資料参照）"
+          "text": "（"
+        },
+        {
+          "text": "例",
+          "reading": "れい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "参照",
+          "reading": "さんしょう"
+        },
+        {
+          "text": "）"
         }
       ],
       "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     }
   ]
 }

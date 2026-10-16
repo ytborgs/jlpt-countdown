@@ -12,7 +12,7 @@
     "id": "grammar-set",
     "title": "Ngữ pháp N3–N2 theo SET",
     "description": "Các mẫu theo nhóm SET kèm ví dụ Nhật–Việt.",
-    "notice": "Ruby plain; thiếu structure chi tiết so với bộ 80 mẫu.",
+    "notice": "Ruby plain; thiếu structure chi tiết so với bộ 80 mẫu. Furigana linguistic (không official).",
     "count": 42,
     "unit": "mục",
     "path": "./study-data/grammar-set.json"
@@ -21,7 +21,7 @@
     "id": "bi-kip",
     "title": "Bí kíp ngữ pháp N3",
     "description": "Tóm tắt mẫu hay gặp kèm ví dụ rút gọn.",
-    "notice": "Bản rút gọn; ví dụ linguistic — không thay sách đầy đủ.",
+    "notice": "Bản rút gọn; ví dụ linguistic — không thay sách đầy đủ. Furigana linguistic (không official).",
     "count": 30,
     "unit": "mục",
     "path": "./study-data/bi-kip.json"
@@ -39,7 +39,7 @@
     "id": "ebook-grammar",
     "title": "Ngữ pháp Ebook N3",
     "description": "Mẫu từ Ebook N3 (rút từ PDF, đã lọc mục hợp lệ).",
-    "notice": "Extract PDF; một số usage/example còn thiếu — linguistic.",
+    "notice": "Extract PDF; một số usage/example còn thiếu — linguistic. Furigana linguistic (không official).",
     "count": 39,
     "unit": "mục",
     "path": "./study-data/ebook-grammar.json"
@@ -57,7 +57,7 @@
     "id": "verbs",
     "title": "Động từ phức hợp",
     "description": "Nghĩa, furigana và ví dụ Nhật–Việt.",
-    "notice": "78/80 mục (#77 結びつける đã bổ sung). Thiếu #79–#80 (PDF không đọc được) — không bịa.",
+    "notice": "78/80 mục (#77 結びつける). Thiếu #79–#80. Furigana linguistic.",
     "count": 78,
     "unit": "mục",
     "path": "./study-data/verbs.json"
@@ -66,7 +66,7 @@
     "id": "jido-tado",
     "title": "Tự động từ / Tha động từ",
     "description": "Cặp động từ tự–tha kèm cách đọc và nghĩa.",
-    "notice": "Nghĩa VI linguistic (PDF extract thiếu nghĩa).",
+    "notice": "Nghĩa VI linguistic (PDF extract thiếu nghĩa). Furigana linguistic (không official).",
     "count": 141,
     "unit": "mục",
     "path": "./study-data/jido-tado.json"
@@ -75,7 +75,7 @@
     "id": "so-tay-idioms",
     "title": "Thành ngữ / tượng thanh (sổ tay)",
     "description": "Idiom cơ thể & onomatopoeia từ sổ tay tiếng Nhật.",
-    "notice": "Extract partial từ sổ tay; reading/example có thể null.",
+    "notice": "Extract partial từ sổ tay; reading/example có thể null. Furigana linguistic (không official).",
     "count": 44,
     "unit": "mục",
     "path": "./study-data/so-tay-idioms.json"

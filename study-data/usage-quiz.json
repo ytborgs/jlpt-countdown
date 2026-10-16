@@ -16,7 +16,8 @@
   "needs_verify_count": 0,
   "notes": [
     "PDF scanned chép từ preview PNG; không OCR tự động.",
-    "Đã lấy 50/50 câu."
+    "Đã lấy 50/50 câu.",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -54,7 +55,17 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "枯",
+          "reading": "か"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-02",
@@ -95,7 +106,14 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "期限",
+          "reading": "きげん"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-03",
@@ -249,7 +267,14 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "多少",
+          "reading": "たしょう"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-07",
@@ -290,7 +315,17 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "居眠",
+          "reading": "いねむ"
+        },
+        {
+          "text": "り"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-08",
@@ -329,7 +364,17 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "傾",
+          "reading": "かたむ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-09",
@@ -443,7 +488,14 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "豊富",
+          "reading": "ほうふ"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-12",
@@ -525,7 +577,14 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "感心する",
+          "reading": "かんしん"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-14",
@@ -640,7 +699,17 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "思",
+          "reading": "おも"
+        },
+        {
+          "text": "いつく"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-17",
@@ -677,7 +746,14 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "留守",
+          "reading": "るす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-18",
@@ -837,7 +913,14 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "面倒",
+          "reading": "めんどう"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-22",
@@ -952,7 +1035,14 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "道順",
+          "reading": "みちじゅん"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-25",
@@ -993,7 +1083,17 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "気",
+          "reading": "き"
+        },
+        {
+          "text": "になる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-26",
@@ -1030,7 +1130,14 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "講演",
+          "reading": "こうえん"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-27",
@@ -1110,7 +1217,14 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "見事な",
+          "reading": "みごと"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-29",
@@ -1192,7 +1306,17 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "出会",
+          "reading": "であ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-31",
@@ -1273,7 +1397,20 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "嬢",
+          "reading": "じょう"
+        },
+        {
+          "text": "さん"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-33",
@@ -1314,7 +1451,17 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "渋滞",
+          "reading": "じゅうたい"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-34",
@@ -1351,7 +1498,14 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "無事",
+          "reading": "ぶじ"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-35",
@@ -1433,7 +1587,17 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "過",
+          "reading": "す"
+        },
+        {
+          "text": "ごす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-37",
@@ -1588,7 +1752,14 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "手間",
+          "reading": "てま"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-41",
@@ -1666,7 +1837,24 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "申",
+          "reading": "もう"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-43",
@@ -1706,7 +1894,17 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "少",
+          "reading": "すく"
+        },
+        {
+          "text": "なくとも"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-44",
@@ -1746,7 +1944,14 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "油断",
+          "reading": "ゆだん"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-45",
@@ -1865,7 +2070,21 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "明",
+          "reading": "あ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "方",
+          "reading": "がた"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "usage-q-48",
@@ -1988,7 +2207,17 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "預",
+          "reading": "あず"
+        },
+        {
+          "text": "かる"
+        }
+      ],
+      "ruby_source": "linguistic"
     }
   ]
 }

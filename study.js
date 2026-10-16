@@ -13,6 +13,36 @@ export const filterStudy = (items, query) => items.filter(item => normalize(sear
 export const hasAnswer = item => item.correct_answer != null && item.choices.some(choice => String(choice.key) === String(item.correct_answer));
 const topicNotice = topic => (topic.notice || '').replace(/(?:Cần )?UI type=reading(?: \(xem PROMPT\))?\.\s*/g, '');
 
+export const createPracticeStem = (value, segments, target) => {
+  const stem = createRubyText('p', value, segments, 'study-stem');
+  const start = target ? value.indexOf(target) : -1;
+  if (start < 0) return stem;
+  const end = start + target.length;
+  const textNodes = [];
+  const collect = node => {
+    if (node.nodeType === 3) { textNodes.push(node); return; }
+    // Readings and ruby fallback punctuation are not part of the base sentence.
+    if (node.localName === 'rt' || node.localName === 'rp') return;
+    for (const child of node.childNodes) collect(child);
+  };
+  collect(stem);
+  let offset = 0;
+  for (const node of textNodes) {
+    const text = node.textContent;
+    const from = Math.max(0, start - offset);
+    const to = Math.min(text.length, end - offset);
+    if (from < to) {
+      const parts = [];
+      if (from) parts.push(document.createTextNode(text.slice(0, from)));
+      parts.push(el('mark', text.slice(from, to)));
+      if (to < text.length) parts.push(document.createTextNode(text.slice(to)));
+      node.replaceWith(...parts);
+    }
+    offset += text.length;
+  }
+  return stem;
+};
+
 export function createStudyCard(item, index, selections = new Map()) {
   // The answer edition retains type=tips but supplies the complete grammar schema.
   const grammarTip = item.type === 'tips' && item.subtype === 'exam_tip_grammar' &&
@@ -44,22 +74,19 @@ export function createStudyCard(item, index, selections = new Map()) {
     if (item.example_jp) card.append(createRubyText('p', item.example_jp, item.example_ruby, 'grammar-example study-example-jp'));
     if (item.example_vi) card.append(el('p', item.example_vi, 'study-example-vi'));
   } else if (item.type === 'reading') {
-    card.append(el('h2', item.connector_jp || '', 'study-connector', 'ja'));
+    card.append(createRubyText('h2', item.connector_jp || '', item.connector_ruby, 'study-connector'));
     if (item.section) card.append(el('small', item.section, 'study-section'));
     if (item.meaning_vi) card.append(el('p', item.meaning_vi));
-    if (item.example_jp) card.append(el('p', item.example_jp, 'grammar-example study-example-jp', 'ja'));
+    if (item.example_jp) card.append(createRubyText('p', item.example_jp, item.example_ruby, 'grammar-example study-example-jp'));
   } else if (item.type === 'tips') {
     card.append(el('h2', item.label || item.title || 'Ghi chú ôn tập', 'study-connector'));
     const hasBody = typeof item.body === 'string' && item.body.trim().length > 0;
     card.append(el('p', hasBody ? item.body : 'Nội dung đang đối chiếu từ PDF', 'study-tip-body'));
     if (!hasBody) card.append(el('span', 'Cần đối chiếu', 'study-badge'));
   } else if (item.type === 'practice') {
-    const stem = el('p', '', 'study-stem', 'ja');
     const stemText = item.stem_jp || item.lemma_jp || '';
-    const targetIndex = item.target ? stemText.indexOf(item.target) : -1;
-    if (targetIndex >= 0) stem.append(document.createTextNode(stemText.slice(0, targetIndex)), el('mark', item.target), document.createTextNode(stemText.slice(targetIndex + item.target.length)));
-    else stem.textContent = stemText;
-    card.append(stem);
+    const stemRuby = item.stem_ruby || (!item.stem_jp ? item.lemma_ruby : undefined);
+    card.append(createPracticeStem(stemText, stemRuby, item.target));
     const options = el('div', '', 'study-options');
     options.setAttribute('role', 'group');
     options.setAttribute('aria-label', 'Lựa chọn cho câu ' + (index + 1));

@@ -16,7 +16,8 @@
   "notes": [
     "Text PDF gốc layout dạng sơ đồ khó OCR; dùng grammar_n3.json đã curated.",
     "Furigana ruby merge từ jlpt-countdown/grammar.json khi có.",
-    "Không đọc lại bịa từ PDF jumbled."
+    "Không đọc lại bịa từ PDF jumbled.",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {

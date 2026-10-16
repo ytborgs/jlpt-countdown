@@ -16,7 +16,8 @@
   "needs_verify_count": 0,
   "notes": [
     "Phase A: meaning_vi linguistic cho toàn bộ cặp tự/tha; không official.",
-    "Giữ reading/voice/particle từ PDF extract."
+    "Giữ reading/voice/particle từ PDF extract.",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -38,7 +39,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "温",
+          "reading": "あたた"
+        },
+        {
+          "text": "まる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を温める",
@@ -59,7 +70,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "温",
+          "reading": "あたた"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を暖める",
@@ -80,7 +101,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "暖",
+          "reading": "あたた"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が落ちる",
@@ -101,7 +132,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "落",
+          "reading": "お"
+        },
+        {
+          "text": "ちる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を落とす",
@@ -122,7 +163,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "落",
+          "reading": "お"
+        },
+        {
+          "text": "とす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が隠れる",
@@ -143,7 +194,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "隠",
+          "reading": "かく"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が重なる",
@@ -164,7 +225,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "重",
+          "reading": "かさ"
+        },
+        {
+          "text": "なる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を重ねる",
@@ -185,7 +256,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "重",
+          "reading": "かさ"
+        },
+        {
+          "text": "ねる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が焦げる",
@@ -206,7 +287,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "焦",
+          "reading": "こ"
+        },
+        {
+          "text": "げる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を焦がす",
@@ -227,7 +318,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "焦",
+          "reading": "こ"
+        },
+        {
+          "text": "がす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-がこぼれる",
@@ -269,7 +370,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "覚",
+          "reading": "さ"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-をこぼす",
@@ -311,7 +422,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "覚",
+          "reading": "さ"
+        },
+        {
+          "text": "ます"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が育つ",
@@ -332,7 +453,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "育",
+          "reading": "そだ"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を育てる",
@@ -353,7 +484,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "育",
+          "reading": "そだ"
+        },
+        {
+          "text": "てる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が倒れる",
@@ -374,7 +515,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "倒",
+          "reading": "たお"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が助かる",
@@ -395,7 +546,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "助",
+          "reading": "たす"
+        },
+        {
+          "text": "かる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を助ける",
@@ -416,7 +577,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "助",
+          "reading": "たす"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が繋がる",
@@ -437,7 +608,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "繋",
+          "reading": "つな"
+        },
+        {
+          "text": "がる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を繋ぐ",
@@ -458,7 +639,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "繋",
+          "reading": "つな"
+        },
+        {
+          "text": "ぐ"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が届く",
@@ -479,7 +670,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "届",
+          "reading": "とど"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を届ける",
@@ -500,7 +701,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "届",
+          "reading": "とど"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を冷やす",
@@ -521,7 +732,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "冷",
+          "reading": "ひ"
+        },
+        {
+          "text": "やす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が冷める",
@@ -542,7 +763,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "冷",
+          "reading": "さ"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を冷ます",
@@ -563,7 +794,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "冷",
+          "reading": "さ"
+        },
+        {
+          "text": "ます"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が増える",
@@ -584,7 +825,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "増",
+          "reading": "ふ"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を増やす",
@@ -605,7 +856,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "増",
+          "reading": "ふ"
+        },
+        {
+          "text": "やす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-がぶつかる",
@@ -647,7 +908,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "減",
+          "reading": "へ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-がもうかる",
@@ -710,7 +981,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "混",
+          "reading": "ま"
+        },
+        {
+          "text": "ざる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が混じる",
@@ -731,7 +1012,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "混",
+          "reading": "ま"
+        },
+        {
+          "text": "じる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が消える",
@@ -752,7 +1043,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "消",
+          "reading": "き"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を消す",
@@ -773,7 +1074,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "消",
+          "reading": "け"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が崩れる",
@@ -794,7 +1105,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "崩",
+          "reading": "くず"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を崩す",
@@ -815,7 +1136,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "崩",
+          "reading": "くず"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が壊れる",
@@ -836,7 +1167,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "壊",
+          "reading": "こわ"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を壊す",
@@ -857,7 +1198,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "壊",
+          "reading": "こわ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が移る",
@@ -878,7 +1229,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "移",
+          "reading": "うつ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を移す",
@@ -899,7 +1260,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "移",
+          "reading": "うつ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が起きる",
@@ -920,7 +1291,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "起",
+          "reading": "お"
+        },
+        {
+          "text": "きる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を起こす",
@@ -941,7 +1322,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "起",
+          "reading": "お"
+        },
+        {
+          "text": "こす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が決まる",
@@ -962,7 +1353,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "決",
+          "reading": "き"
+        },
+        {
+          "text": "まる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が延びる",
@@ -983,7 +1384,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "延",
+          "reading": "の"
+        },
+        {
+          "text": "びる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を延ばす",
@@ -1004,7 +1415,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "延",
+          "reading": "の"
+        },
+        {
+          "text": "ばす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が伸びる",
@@ -1025,7 +1446,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "伸",
+          "reading": "の"
+        },
+        {
+          "text": "びる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を伸ばす",
@@ -1046,7 +1477,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "伸",
+          "reading": "の"
+        },
+        {
+          "text": "ばす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が過ぎる",
@@ -1067,7 +1508,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "過",
+          "reading": "す"
+        },
+        {
+          "text": "ぎる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を過ごす",
@@ -1088,7 +1539,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "過",
+          "reading": "す"
+        },
+        {
+          "text": "ごす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が続く",
@@ -1109,7 +1570,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "続",
+          "reading": "つづ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を続ける",
@@ -1130,7 +1601,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "続",
+          "reading": "つづ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が直る",
@@ -1151,7 +1632,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "直",
+          "reading": "なお"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を直す",
@@ -1172,7 +1663,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "直",
+          "reading": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が治る",
@@ -1193,7 +1694,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "治",
+          "reading": "なお"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を治す",
@@ -1214,7 +1725,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "治",
+          "reading": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が曲がる",
@@ -1235,7 +1756,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "曲",
+          "reading": "ま"
+        },
+        {
+          "text": "がる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を曲げる",
@@ -1256,7 +1787,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "曲",
+          "reading": "ま"
+        },
+        {
+          "text": "げる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が破れる",
@@ -1277,7 +1818,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "破",
+          "reading": "やぶ"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を破る",
@@ -1298,7 +1849,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "破",
+          "reading": "やぶ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が割れる",
@@ -1319,7 +1880,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "割",
+          "reading": "わ"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を割る",
@@ -1340,7 +1911,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "割",
+          "reading": "わ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が縮む",
@@ -1361,7 +1942,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "縮",
+          "reading": "ちぢ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が流れる",
@@ -1382,7 +1973,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "流",
+          "reading": "なが"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を流す",
@@ -1403,7 +2004,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "流",
+          "reading": "なが"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が進む",
@@ -1424,7 +2035,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "進",
+          "reading": "すす"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を進める",
@@ -1445,7 +2066,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "進",
+          "reading": "すす"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を泊める",
@@ -1466,7 +2097,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "泊",
+          "reading": "と"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が止まる",
@@ -1487,7 +2128,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "止",
+          "reading": "と"
+        },
+        {
+          "text": "まる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を止める",
@@ -1508,7 +2159,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "止",
+          "reading": "と"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が抜ける",
@@ -1529,7 +2190,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "抜",
+          "reading": "ぬ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を抜く",
@@ -1550,7 +2221,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "抜",
+          "reading": "ぬ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を燃やす",
@@ -1571,7 +2252,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "燃",
+          "reading": "も"
+        },
+        {
+          "text": "やす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が近づく",
@@ -1592,7 +2283,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "近",
+          "reading": "ちか"
+        },
+        {
+          "text": "づく"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を近づける",
@@ -1613,7 +2314,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "近",
+          "reading": "ちか"
+        },
+        {
+          "text": "づける"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が合う",
@@ -1634,7 +2345,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を合わせる",
@@ -1655,7 +2376,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "わせる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が当たる",
@@ -1676,7 +2407,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "当",
+          "reading": "あ"
+        },
+        {
+          "text": "たる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を当てる",
@@ -1697,7 +2438,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "当",
+          "reading": "あ"
+        },
+        {
+          "text": "てる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が似る",
@@ -1718,7 +2469,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "似",
+          "reading": "に"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を似せる",
@@ -1739,7 +2500,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "似",
+          "reading": "に"
+        },
+        {
+          "text": "せる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が分かれる",
@@ -1760,7 +2531,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "分",
+          "reading": "わ"
+        },
+        {
+          "text": "かれる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を分ける",
@@ -1781,7 +2562,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "分",
+          "reading": "わ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を変える",
@@ -1802,7 +2593,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "変",
+          "reading": "か"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が刺さる",
@@ -1823,7 +2624,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "刺",
+          "reading": "さ"
+        },
+        {
+          "text": "さる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を刺す",
@@ -1844,7 +2655,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "刺",
+          "reading": "さ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が埋まる",
@@ -1865,7 +2686,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "埋",
+          "reading": "う"
+        },
+        {
+          "text": "まる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を埋める",
@@ -1886,7 +2717,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "埋",
+          "reading": "う"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が詰まる",
@@ -1907,7 +2748,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "詰",
+          "reading": "つ"
+        },
+        {
+          "text": "まる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が飛ぶ",
@@ -1928,7 +2779,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "飛",
+          "reading": "と"
+        },
+        {
+          "text": "ぶ"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を飛ばす",
@@ -1949,7 +2810,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "飛",
+          "reading": "と"
+        },
+        {
+          "text": "ばす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が折れる",
@@ -1970,7 +2841,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "折",
+          "reading": "お"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を折る",
@@ -1991,7 +2872,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "折",
+          "reading": "お"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が外れる",
@@ -2012,7 +2903,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "外",
+          "reading": "はず"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を外す",
@@ -2033,7 +2934,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "外",
+          "reading": "はず"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が濡れる",
@@ -2054,7 +2965,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "濡",
+          "reading": "ぬ"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を濡らす",
@@ -2075,7 +2996,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "濡",
+          "reading": "ぬ"
+        },
+        {
+          "text": "らす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が慣れる",
@@ -2096,7 +3027,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "慣",
+          "reading": "な"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を慣らす",
@@ -2117,7 +3058,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "慣",
+          "reading": "な"
+        },
+        {
+          "text": "らす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が立つ",
@@ -2138,7 +3089,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "立",
+          "reading": "た"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を立てる",
@@ -2159,7 +3120,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "立",
+          "reading": "た"
+        },
+        {
+          "text": "てる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が建つ",
@@ -2180,7 +3151,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "建",
+          "reading": "た"
+        },
+        {
+          "text": "つ"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を建てる",
@@ -2201,7 +3182,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "建",
+          "reading": "た"
+        },
+        {
+          "text": "てる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が生える",
@@ -2222,7 +3213,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "生",
+          "reading": "は"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を生やす",
@@ -2243,7 +3244,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "生",
+          "reading": "は"
+        },
+        {
+          "text": "やす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が汚れる",
@@ -2264,7 +3275,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "汚",
+          "reading": "よご"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を汚す",
@@ -2285,7 +3306,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "汚",
+          "reading": "よご"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を通す",
@@ -2306,7 +3337,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "通",
+          "reading": "とお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が寄る",
@@ -2327,7 +3368,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "寄",
+          "reading": "よ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を寄せる",
@@ -2348,7 +3399,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "寄",
+          "reading": "よ"
+        },
+        {
+          "text": "せる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が向く",
@@ -2369,7 +3430,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "向",
+          "reading": "む"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を向ける",
@@ -2390,7 +3461,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "向",
+          "reading": "む"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が済む",
@@ -2411,7 +3492,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "済",
+          "reading": "す"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が切れる",
@@ -2432,7 +3523,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "切",
+          "reading": "き"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を切らす",
@@ -2453,7 +3554,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "切",
+          "reading": "き"
+        },
+        {
+          "text": "らす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が伝わる",
@@ -2474,7 +3585,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "伝",
+          "reading": "つた"
+        },
+        {
+          "text": "わる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を伝える",
@@ -2495,7 +3616,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "伝",
+          "reading": "つた"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が貯まる",
@@ -2516,7 +3647,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "貯",
+          "reading": "た"
+        },
+        {
+          "text": "まる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を貯める",
@@ -2537,7 +3678,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "貯",
+          "reading": "た"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が解ける",
@@ -2558,7 +3709,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "解",
+          "reading": "と"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を解く",
@@ -2579,7 +3740,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "解",
+          "reading": "と"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が含む",
@@ -2600,7 +3771,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "含",
+          "reading": "ふく"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を含める",
@@ -2621,7 +3802,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "含",
+          "reading": "ふく"
+        },
+        {
+          "text": "める"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が現れる",
@@ -2642,7 +3833,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "現",
+          "reading": "あらわ"
+        },
+        {
+          "text": "れる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が散る",
@@ -2663,7 +3864,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "散",
+          "reading": "ち"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を散らす",
@@ -2684,7 +3895,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "散",
+          "reading": "ち"
+        },
+        {
+          "text": "らす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-がまとまる",
@@ -2747,7 +3968,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "揃",
+          "reading": "そろ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を揃える",
@@ -2768,7 +3999,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "揃",
+          "reading": "そろ"
+        },
+        {
+          "text": "える"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が付く",
@@ -2789,7 +4030,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を付ける",
@@ -2810,7 +4061,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が広がる",
@@ -2831,7 +4092,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "広",
+          "reading": "ひろ"
+        },
+        {
+          "text": "がる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を広げる",
@@ -2852,7 +4123,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "広",
+          "reading": "ひろ"
+        },
+        {
+          "text": "げる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が載る",
@@ -2873,7 +4154,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "載",
+          "reading": "の"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を載せる",
@@ -2894,7 +4185,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "載",
+          "reading": "の"
+        },
+        {
+          "text": "せる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が焼ける",
@@ -2915,7 +4216,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "焼",
+          "reading": "や"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を焼く",
@@ -2936,7 +4247,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "焼",
+          "reading": "や"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-が炊ける",
@@ -2957,7 +4278,17 @@
       "ai_extra": {
         "voice_vi": "tự động từ",
         "note": "Trợ từ gợi ý (が)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "炊",
+          "reading": "た"
+        },
+        {
+          "text": "ける"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "jido-tado-を炊く",
@@ -2978,7 +4309,17 @@
       "ai_extra": {
         "voice_vi": "tha động từ",
         "note": "Trợ từ gợi ý (を)"
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "炊",
+          "reading": "た"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "ruby_source": "linguistic"
     }
   ]
 }

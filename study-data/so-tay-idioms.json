@@ -15,7 +15,8 @@
   "needs_verify_count": 0,
   "notes": [
     "Phase C partial: quán dụng + từ láy cho UI vocabulary.",
-    "Chưa full sổ tay N5–N4."
+    "Chưa full sổ tay N5–N4.",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -35,7 +36,18 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "重い",
+          "reading": "おもい"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-002",
@@ -54,7 +66,18 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "気を",
+          "reading": "きを"
+        },
+        {
+          "text": "配る",
+          "reading": "くばる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-003",
@@ -73,7 +96,18 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "短い",
+          "reading": "みじかい"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-004",
@@ -92,7 +126,18 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "合う",
+          "reading": "あう"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-005",
@@ -111,7 +156,17 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-006",
@@ -130,7 +185,17 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "つく"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-007",
@@ -149,7 +214,14 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "気に入る",
+          "reading": "きにいる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-008",
@@ -168,7 +240,17 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "気に",
+          "reading": "きに"
+        },
+        {
+          "text": "する"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-009",
@@ -187,7 +269,17 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "気に",
+          "reading": "きに"
+        },
+        {
+          "text": "なる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-010",
@@ -206,7 +298,18 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "気を",
+          "reading": "きを"
+        },
+        {
+          "text": "使う",
+          "reading": "つかう"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-011",
@@ -225,7 +328,21 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "頭",
+          "reading": "あたま"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "痛い",
+          "reading": "いたい"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-012",
@@ -244,7 +361,17 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "頭",
+          "reading": "あたま"
+        },
+        {
+          "text": "がかたい"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-013",
@@ -263,7 +390,21 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "頭",
+          "reading": "あたま"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "来る",
+          "reading": "くる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-014",
@@ -282,7 +423,24 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "羽",
+          "reading": "はね"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "伸ば",
+          "reading": "のば"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-015",
@@ -301,7 +459,21 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "口",
+          "reading": "くち"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "軽い",
+          "reading": "かるい"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-016",
@@ -320,7 +492,17 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "口",
+          "reading": "くち"
+        },
+        {
+          "text": "がかたい"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-017",
@@ -339,7 +521,21 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "口",
+          "reading": "くち"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "重い",
+          "reading": "おもい"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-018",
@@ -358,7 +554,21 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "口",
+          "reading": "くち"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "合う",
+          "reading": "あう"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-019",
@@ -377,7 +587,21 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "腹",
+          "reading": "はら"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "立つ",
+          "reading": "たつ"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-020",
@@ -396,7 +620,21 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "口",
+          "reading": "くち"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "出す",
+          "reading": "だす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-021",
@@ -415,7 +653,21 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "顔",
+          "reading": "かお"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "広い",
+          "reading": "ひろい"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-022",
@@ -434,7 +686,17 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "首",
+          "reading": "くび"
+        },
+        {
+          "text": "になる"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-023",
@@ -453,7 +715,17 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "手に入れ",
+          "reading": "てにいれ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-024",
@@ -472,7 +744,21 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "手",
+          "reading": "て"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "貸す",
+          "reading": "かす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-025",
@@ -491,7 +777,18 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "手が",
+          "reading": "てが"
+        },
+        {
+          "text": "空く",
+          "reading": "あく"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-026",
@@ -510,7 +807,21 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "手が",
+          "reading": "てが"
+        },
+        {
+          "text": "足り",
+          "reading": "たり"
+        },
+        {
+          "text": "ない"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-027",
@@ -529,7 +840,17 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "腕",
+          "reading": "うで"
+        },
+        {
+          "text": "がいい"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-idiom-028",
@@ -548,7 +869,21 @@
       "needs_verify": false,
       "ai_extra": {
         "note": "Quán dụng N3 (đồng bộ tips trúng tủ p3)."
-      }
+      },
+      "lemma_ruby": [
+        {
+          "text": "体",
+          "reading": "からだ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "壊す",
+          "reading": "こわす"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "so-tay-onoma-001",

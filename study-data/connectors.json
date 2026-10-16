@@ -15,7 +15,8 @@
   "status": "partial",
   "needs_verify_count": 2,
   "notes": [
-    "Từ nối / biểu thức kết nối phục vụ đọc hiểu; cần đối chiếu PDF nếu thiếu ví dụ."
+    "Từ nối / biểu thức kết nối phục vụ đọc hiểu; cần đối chiếu PDF nếu thiếu ví dụ.",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -416,7 +417,23 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "話",
+          "reading": "はなし"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "進め",
+          "reading": "すすめ"
+        },
+        {
+          "text": "る"
+        }
+      ]
     },
     {
       "id": "connector-時間場合条件",
@@ -432,7 +449,27 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "時間",
+          "reading": "じかん"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "場合",
+          "reading": "ばあい"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "条件",
+          "reading": "じょうけん"
+        }
+      ]
     },
     {
       "id": "connector-それから",
@@ -512,7 +549,20 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "述べ",
+          "reading": "のべ"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "言う",
+          "reading": "いう"
+        }
+      ]
     },
     {
       "id": "connector-また",
@@ -544,7 +594,23 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "話題",
+          "reading": "わだい"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "変え",
+          "reading": "かえ"
+        },
+        {
+          "text": "る"
+        }
+      ]
     },
     {
       "id": "connector-ところで",
@@ -672,7 +738,16 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": true,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "要す",
+          "reading": "ようす"
+        },
+        {
+          "text": "るに"
+        }
+      ]
     }
   ]
 }

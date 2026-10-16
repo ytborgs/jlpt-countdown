@@ -18,7 +18,8 @@
     "PDF text layer hỏng encoding; chép từ preview PNG + vòng đỏ đáp án.",
     "answer_source=visual_annotation (khoanh trên ảnh) — không ghi official/linguistic.",
     "Đủ 96/96 câu (Mondai 1–3 × 32).",
-    "Gloss Hán Việt / nghĩa VI trên ảnh = annotation kèm, không phải in gốc đề."
+    "Gloss Hán Việt / nghĩa VI trên ảnh = annotation kèm, không phải in gốc đề.",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -58,7 +59,33 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "地方",
+          "reading": "ちほう"
+        },
+        {
+          "text": "にはユニークな"
+        },
+        {
+          "text": "行事",
+          "reading": "ぎょうじ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "多い",
+          "reading": "おおい"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q02",
@@ -97,7 +124,19 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "アメリカの"
+        },
+        {
+          "text": "首都",
+          "reading": "しゅと"
+        },
+        {
+          "text": "はワシントンだ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q03",
@@ -136,7 +175,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "テレビに"
+        },
+        {
+          "text": "知人",
+          "reading": "ちじん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "出て",
+          "reading": "でて"
+        },
+        {
+          "text": "いておどろいた。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q04",
@@ -175,7 +233,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "みなさんの"
+        },
+        {
+          "text": "親切",
+          "reading": "しんせつ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "一生",
+          "reading": "いっしょう"
+        },
+        {
+          "text": "わすれない。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q05",
@@ -214,7 +291,40 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "2"
+        },
+        {
+          "text": "日前",
+          "reading": "にちまえ"
+        },
+        {
+          "text": "にいなくなった"
+        },
+        {
+          "text": "犬",
+          "reading": "いぬ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "無事",
+          "reading": "ぶじ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "帰っ",
+          "reading": "かえっ"
+        },
+        {
+          "text": "てきた。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q06",
@@ -253,7 +363,44 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "text": "で、"
+        },
+        {
+          "text": "夜中",
+          "reading": "よなか"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "家",
+          "reading": "いえ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "帰る",
+          "reading": "かえる"
+        },
+        {
+          "text": "ことも"
+        },
+        {
+          "text": "多い",
+          "reading": "おおい"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q07",
@@ -292,7 +439,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "日本",
+          "reading": "にっぽん"
+        },
+        {
+          "text": "では、あまり"
+        },
+        {
+          "text": "英語",
+          "reading": "えいご"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "通じ",
+          "reading": "つうじ"
+        },
+        {
+          "text": "ない。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q08",
@@ -331,7 +501,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "今",
+          "reading": "いま"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "若者",
+          "reading": "わかもの"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "間",
+          "reading": "かん"
+        },
+        {
+          "text": "でこれが"
+        },
+        {
+          "text": "流行",
+          "reading": "りゅうこう"
+        },
+        {
+          "text": "している。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q09",
@@ -370,7 +570,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "姉",
+          "reading": "あね"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "大学",
+          "reading": "だいがく"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "絵画",
+          "reading": "かいが"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう"
+        },
+        {
+          "text": "している。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q10",
@@ -409,7 +639,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "あと"
+        },
+        {
+          "text": "少し",
+          "reading": "すこし"
+        },
+        {
+          "text": "作業",
+          "reading": "さぎょう"
+        },
+        {
+          "text": "をしたら、ちょっと"
+        },
+        {
+          "text": "休み",
+          "reading": "やすみ"
+        },
+        {
+          "text": "ましょう。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q11",
@@ -448,7 +701,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "隣",
+          "reading": "となり"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "家",
+          "reading": "いえ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "人",
+          "reading": "にん"
+        },
+        {
+          "text": "たちとは、ずっと"
+        },
+        {
+          "text": "親しく",
+          "reading": "したしく"
+        },
+        {
+          "text": "している。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q12",
@@ -487,7 +770,23 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "社会",
+          "reading": "しゃかい"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "物事",
+          "reading": "ものごと"
+        },
+        {
+          "text": "にはルールがある。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q13",
@@ -526,7 +825,38 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "姉",
+          "reading": "あね"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "貿易",
+          "reading": "ぼうえき"
+        },
+        {
+          "text": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "社長",
+          "reading": "しゃちょう"
+        },
+        {
+          "text": "秘書",
+          "reading": "ひしょ"
+        },
+        {
+          "text": "をしている。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q14",
@@ -565,7 +895,41 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "大学卒業",
+          "reading": "だいがくそつぎょう"
+        },
+        {
+          "text": "後",
+          "reading": "のち"
+        },
+        {
+          "text": "は、"
+        },
+        {
+          "text": "航空会社",
+          "reading": "こうくうがいしゃ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入る",
+          "reading": "いる"
+        },
+        {
+          "text": "ことに"
+        },
+        {
+          "text": "決ま",
+          "reading": "きま"
+        },
+        {
+          "text": "った。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q15",
@@ -604,7 +968,44 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "面接",
+          "reading": "めんせつ"
+        },
+        {
+          "text": "で「"
+        },
+        {
+          "text": "自分",
+          "reading": "じぶん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "長所",
+          "reading": "ちょうしょ"
+        },
+        {
+          "text": "を5つ"
+        },
+        {
+          "text": "教え",
+          "reading": "おしえ"
+        },
+        {
+          "text": "て」と"
+        },
+        {
+          "text": "言わ",
+          "reading": "いわ"
+        },
+        {
+          "text": "れた。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q16",
@@ -643,7 +1044,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "道",
+          "reading": "みち"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "渡る",
+          "reading": "わたる"
+        },
+        {
+          "text": "ときは、"
+        },
+        {
+          "text": "左右",
+          "reading": "さゆう"
+        },
+        {
+          "text": "をよく"
+        },
+        {
+          "text": "見な",
+          "reading": "みな"
+        },
+        {
+          "text": "さい。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q17",
@@ -682,7 +1113,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "はいよいよ"
+        },
+        {
+          "text": "大学",
+          "reading": "だいがく"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "合格発表",
+          "reading": "ごうかくはっぴょう"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q18",
@@ -721,7 +1175,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "予算",
+          "reading": "よさん"
+        },
+        {
+          "text": "３"
+        },
+        {
+          "text": "万円",
+          "reading": "まんえん"
+        },
+        {
+          "text": "で、"
+        },
+        {
+          "text": "冬物",
+          "reading": "ふゆもの"
+        },
+        {
+          "text": "のコートを"
+        },
+        {
+          "text": "買い",
+          "reading": "かい"
+        },
+        {
+          "text": "たい。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q19",
@@ -760,7 +1244,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "みんなで"
+        },
+        {
+          "text": "協力",
+          "reading": "きょうりょく"
+        },
+        {
+          "text": "することが"
+        },
+        {
+          "text": "大切",
+          "reading": "たいせつ"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q20",
@@ -799,7 +1302,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "今週",
+          "reading": "こんしゅう"
+        },
+        {
+          "text": "はずっと"
+        },
+        {
+          "text": "雨",
+          "reading": "あめ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "続く",
+          "reading": "つづく"
+        },
+        {
+          "text": "そうだ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q21",
@@ -838,7 +1364,19 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "だれにでも"
+        },
+        {
+          "text": "失敗",
+          "reading": "しっぱい"
+        },
+        {
+          "text": "はある。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q22",
@@ -877,7 +1415,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "このやり"
+        },
+        {
+          "text": "方が",
+          "reading": "ほうが"
+        },
+        {
+          "text": "ベストかどうかは"
+        },
+        {
+          "text": "疑問",
+          "reading": "ぎもん"
+        },
+        {
+          "text": "だが、やってみよう。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q23",
@@ -916,7 +1473,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "最近",
+          "reading": "さいきん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "忙しく",
+          "reading": "いそがしく"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "寝不足",
+          "reading": "ねぶそく"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q24",
@@ -955,7 +1542,23 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "来週",
+          "reading": "らいしゅう"
+        },
+        {
+          "text": "、シンガポールに"
+        },
+        {
+          "text": "出張",
+          "reading": "しゅっちょう"
+        },
+        {
+          "text": "する。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q25",
@@ -994,7 +1597,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "小学生",
+          "reading": "しょうがくせい"
+        },
+        {
+          "text": "のころから、"
+        },
+        {
+          "text": "読書",
+          "reading": "どくしょ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "趣味",
+          "reading": "しゅみ"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q26",
@@ -1033,7 +1659,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "彼",
+          "reading": "かれ"
+        },
+        {
+          "text": "があんなに"
+        },
+        {
+          "text": "元気",
+          "reading": "げんき"
+        },
+        {
+          "text": "がないなんて、"
+        },
+        {
+          "text": "珍しい",
+          "reading": "めずらしい"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q27",
@@ -1072,7 +1721,19 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "このカタログは"
+        },
+        {
+          "text": "無料",
+          "reading": "むりょう"
+        },
+        {
+          "text": "です。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q28",
@@ -1111,7 +1772,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "これはフランスで"
+        },
+        {
+          "text": "買っ",
+          "reading": "かっ"
+        },
+        {
+          "text": "た"
+        },
+        {
+          "text": "人形",
+          "reading": "にんぎょう"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q29",
@@ -1150,7 +1830,23 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "水着",
+          "reading": "みずぎ"
+        },
+        {
+          "text": "コンテストに"
+        },
+        {
+          "text": "応募",
+          "reading": "おうぼ"
+        },
+        {
+          "text": "してみよう。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q30",
@@ -1189,7 +1885,33 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "スポーツが"
+        },
+        {
+          "text": "苦手",
+          "reading": "にがて"
+        },
+        {
+          "text": "だが、"
+        },
+        {
+          "text": "見る",
+          "reading": "みる"
+        },
+        {
+          "text": "のは"
+        },
+        {
+          "text": "大好き",
+          "reading": "だいすき"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q31",
@@ -1228,7 +1950,33 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "ゴールデンウィークに"
+        },
+        {
+          "text": "京都",
+          "reading": "きょうと"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "友人",
+          "reading": "ゆうじん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "訪ね",
+          "reading": "たずね"
+        },
+        {
+          "text": "た。"
+        }
+      ]
     },
     {
       "id": "kanji96-m1-q32",
@@ -1267,7 +2015,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "もうすぐスピーチの"
+        },
+        {
+          "text": "順番",
+          "reading": "じゅんばん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "来る",
+          "reading": "くる"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q01",
@@ -1306,7 +2073,41 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "国",
+          "reading": "くに"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "借金",
+          "reading": "しゃっきん"
+        },
+        {
+          "text": "がまた"
+        },
+        {
+          "text": "何",
+          "reading": "なに"
+        },
+        {
+          "text": "兆円",
+          "reading": "ちょうえん"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "増え",
+          "reading": "ふえ"
+        },
+        {
+          "text": "た。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q02",
@@ -1345,7 +2146,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "大学院",
+          "reading": "だいがくいん"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "世界",
+          "reading": "せかい"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "言語",
+          "reading": "げんご"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "研究",
+          "reading": "けんきゅう"
+        },
+        {
+          "text": "している。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q03",
@@ -1384,7 +2215,19 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "このコーヒーは"
+        },
+        {
+          "text": "冷め",
+          "reading": "さめ"
+        },
+        {
+          "text": "てもおいしい。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q04",
@@ -1423,7 +2266,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "地球",
+          "reading": "ちきゅう"
+        },
+        {
+          "text": "には、いろいろな"
+        },
+        {
+          "text": "生き物",
+          "reading": "いきもの"
+        },
+        {
+          "text": "がいる。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q05",
@@ -1462,7 +2324,33 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "信号",
+          "reading": "しんごう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "渡る",
+          "reading": "わたる"
+        },
+        {
+          "text": "とすぐに"
+        },
+        {
+          "text": "銀行",
+          "reading": "ぎんこう"
+        },
+        {
+          "text": "がある。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q06",
@@ -1501,7 +2389,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "やっと"
+        },
+        {
+          "text": "新しい",
+          "reading": "あたらしい"
+        },
+        {
+          "text": "首相",
+          "reading": "しゅしょう"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "決ま",
+          "reading": "きま"
+        },
+        {
+          "text": "った。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q07",
@@ -1540,7 +2451,34 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "次の",
+          "reading": "つぎの"
+        },
+        {
+          "text": "連休",
+          "reading": "れんきゅう"
+        },
+        {
+          "text": "には、"
+        },
+        {
+          "text": "海外旅行",
+          "reading": "かいがいりょこう"
+        },
+        {
+          "text": "しようと"
+        },
+        {
+          "text": "思う",
+          "reading": "おもう"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q08",
@@ -1579,7 +2517,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "もし"
+        },
+        {
+          "text": "嫌な",
+          "reading": "いやな"
+        },
+        {
+          "text": "ら、はっきり"
+        },
+        {
+          "text": "言った",
+          "reading": "いった"
+        },
+        {
+          "text": "ほうがいい。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q09",
@@ -1618,7 +2575,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "どんな"
+        },
+        {
+          "text": "方法",
+          "reading": "ほうほう"
+        },
+        {
+          "text": "がいいか、みんなで"
+        },
+        {
+          "text": "考え",
+          "reading": "かんがえ"
+        },
+        {
+          "text": "よう。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q10",
@@ -1657,7 +2633,23 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "健康",
+          "reading": "けんこう"
+        },
+        {
+          "text": "のためスポーツクラブに"
+        },
+        {
+          "text": "通って",
+          "reading": "とおって"
+        },
+        {
+          "text": "いる。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q11",
@@ -1696,7 +2688,40 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "文",
+          "reading": "ぶん"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "何",
+          "reading": "なに"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "言い",
+          "reading": "いい"
+        },
+        {
+          "text": "たいのか"
+        },
+        {
+          "text": "全く",
+          "reading": "まったく"
+        },
+        {
+          "text": "わからない。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q12",
@@ -1735,7 +2760,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "text": "30"
+        },
+        {
+          "text": "分",
+          "reading": "ふん"
+        },
+        {
+          "text": "のジョギングが"
+        },
+        {
+          "text": "日課",
+          "reading": "にっか"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q13",
@@ -1774,7 +2822,23 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "社会",
+          "reading": "しゃかい"
+        },
+        {
+          "text": "のルールは"
+        },
+        {
+          "text": "守ら",
+          "reading": "まもら"
+        },
+        {
+          "text": "なければならない。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q14",
@@ -1813,7 +2877,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "川",
+          "reading": "かわ"
+        },
+        {
+          "text": "はかなり"
+        },
+        {
+          "text": "深そ",
+          "reading": "ふかそ"
+        },
+        {
+          "text": "うだ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q15",
@@ -1852,7 +2935,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "サッカー"
+        },
+        {
+          "text": "大会",
+          "reading": "たいかい"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう"
+        },
+        {
+          "text": "代表",
+          "reading": "だいひょう"
+        },
+        {
+          "text": "になった。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q16",
@@ -1891,7 +2997,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "好き",
+          "reading": "すき"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "人",
+          "reading": "にん"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "気持ち",
+          "reading": "きもち"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "伝え",
+          "reading": "つたえ"
+        },
+        {
+          "text": "たい。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q17",
@@ -1930,7 +3066,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "テーブルの"
+        },
+        {
+          "text": "上の",
+          "reading": "うえの"
+        },
+        {
+          "text": "箱",
+          "reading": "はこ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "開け",
+          "reading": "ひらけ"
+        },
+        {
+          "text": "たが、"
+        },
+        {
+          "text": "空っぽ",
+          "reading": "からっぽ"
+        },
+        {
+          "text": "だった。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q18",
@@ -1969,7 +3135,27 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "父",
+          "reading": "ちち"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "退院",
+          "reading": "たいいん"
+        },
+        {
+          "text": "できることになった。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q19",
@@ -2008,7 +3194,51 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "再来週",
+          "reading": "さらいしゅう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "日曜日",
+          "reading": "にちようび"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "国",
+          "reading": "くに"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "両親",
+          "reading": "りょうしん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "遊び",
+          "reading": "あそび"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "来る",
+          "reading": "くる"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q20",
@@ -2047,7 +3277,38 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "少し",
+          "reading": "すこし"
+        },
+        {
+          "text": "寒い",
+          "reading": "さむい"
+        },
+        {
+          "text": "ので、"
+        },
+        {
+          "text": "上着",
+          "reading": "うわぎ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "着て",
+          "reading": "きて"
+        },
+        {
+          "text": "出か",
+          "reading": "でか"
+        },
+        {
+          "text": "けよう。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q21",
@@ -2086,7 +3347,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "市役所",
+          "reading": "しやくしょ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "行って",
+          "reading": "いって"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "正式",
+          "reading": "せいしき"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "夫婦",
+          "reading": "ふうふ"
+        },
+        {
+          "text": "になった。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q22",
@@ -2125,7 +3416,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "飲み物",
+          "reading": "のみもの"
+        },
+        {
+          "text": "は、"
+        },
+        {
+          "text": "温め",
+          "reading": "あたため"
+        },
+        {
+          "text": "たほうがおいしくなる。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q23",
@@ -2164,7 +3474,34 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "深夜",
+          "reading": "しんや"
+        },
+        {
+          "text": "になると、アパートの"
+        },
+        {
+          "text": "外",
+          "reading": "そと"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "変な",
+          "reading": "へんな"
+        },
+        {
+          "text": "音",
+          "reading": "おと"
+        },
+        {
+          "text": "がする。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q24",
@@ -2203,7 +3540,19 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "ときどき、ひどい"
+        },
+        {
+          "text": "頭痛",
+          "reading": "ずつう"
+        },
+        {
+          "text": "がする。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q25",
@@ -2242,7 +3591,16 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "先日",
+          "reading": "せんじつ"
+        },
+        {
+          "text": "はどうもありがとうございました。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q26",
@@ -2281,7 +3639,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "今",
+          "reading": "いま"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "都合",
+          "reading": "つごう"
+        },
+        {
+          "text": "がわるいので、"
+        },
+        {
+          "text": "改め",
+          "reading": "あらため"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "電話",
+          "reading": "でんわ"
+        },
+        {
+          "text": "します。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q27",
@@ -2320,7 +3708,44 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "日本",
+          "reading": "にっぽん"
+        },
+        {
+          "text": "には"
+        },
+        {
+          "text": "月曜日",
+          "reading": "げつようび"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "祝日",
+          "reading": "しゅくじつ"
+        },
+        {
+          "text": "にした"
+        },
+        {
+          "text": "三連休",
+          "reading": "さんれんきゅう"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "多い",
+          "reading": "おおい"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q28",
@@ -2359,7 +3784,33 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "もうすぐ"
+        },
+        {
+          "text": "東京",
+          "reading": "とうきょう"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "梅雨",
+          "reading": "つゆ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入る",
+          "reading": "いる"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q29",
@@ -2398,7 +3849,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "高級",
+          "reading": "こうきゅう"
+        },
+        {
+          "text": "ブランドのバッグは"
+        },
+        {
+          "text": "本物",
+          "reading": "ほんもの"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q30",
@@ -2437,7 +3907,33 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "分野",
+          "reading": "ぶんや"
+        },
+        {
+          "text": "のことなら、"
+        },
+        {
+          "text": "田中",
+          "reading": "たなか"
+        },
+        {
+          "text": "さんがよく"
+        },
+        {
+          "text": "知って",
+          "reading": "しって"
+        },
+        {
+          "text": "いる。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q31",
@@ -2476,7 +3972,23 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "昼食",
+          "reading": "ちゅうしょく"
+        },
+        {
+          "text": "はいつもコンビニ"
+        },
+        {
+          "text": "弁当",
+          "reading": "べんとう"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m2-q32",
@@ -2515,7 +4027,34 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "辛い",
+          "reading": "つらい"
+        },
+        {
+          "text": "料理",
+          "reading": "りょうり"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "大好き",
+          "reading": "だいすき"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q01",
@@ -2554,7 +4093,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "あの"
+        },
+        {
+          "text": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "text": "はとてもすてきな"
+        },
+        {
+          "text": "夫婦",
+          "reading": "ふうふ"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q02",
@@ -2593,7 +4151,23 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "部長",
+          "reading": "ぶちょう"
+        },
+        {
+          "text": "への"
+        },
+        {
+          "text": "伝言",
+          "reading": "でんごん"
+        },
+        {
+          "text": "をメモした。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q03",
@@ -2632,7 +4206,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "寒く",
+          "reading": "さむく"
+        },
+        {
+          "text": "なってきたので、"
+        },
+        {
+          "text": "毛布",
+          "reading": "もうふ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "買っ",
+          "reading": "かっ"
+        },
+        {
+          "text": "た。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q04",
@@ -2671,7 +4268,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "大き",
+          "reading": "おおき"
+        },
+        {
+          "text": "なケーキを、"
+        },
+        {
+          "text": "兄弟",
+          "reading": "きょうだい"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "平等",
+          "reading": "びょうどう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "分け",
+          "reading": "わけ"
+        },
+        {
+          "text": "た。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q05",
@@ -2710,7 +4337,33 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "あの"
+        },
+        {
+          "text": "地方",
+          "reading": "ちほう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "方言",
+          "reading": "ほうげん"
+        },
+        {
+          "text": "は、"
+        },
+        {
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "にはわからない。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q06",
@@ -2749,7 +4402,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "窓",
+          "reading": "まど"
+        },
+        {
+          "text": "からの"
+        },
+        {
+          "text": "景色",
+          "reading": "けしき"
+        },
+        {
+          "text": "はすばらしい。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q07",
@@ -2788,7 +4460,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "これは"
+        },
+        {
+          "text": "急ぎ",
+          "reading": "いそぎ"
+        },
+        {
+          "text": "ではないので、"
+        },
+        {
+          "text": "船便",
+          "reading": "ふなびん"
+        },
+        {
+          "text": "でいい。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q08",
@@ -2827,7 +4518,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "足",
+          "reading": "あし"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "骨折",
+          "reading": "こっせつ"
+        },
+        {
+          "text": "して"
+        },
+        {
+          "text": "入院",
+          "reading": "にゅういん"
+        },
+        {
+          "text": "した。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q09",
@@ -2866,7 +4580,23 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "電車",
+          "reading": "でんしゃ"
+        },
+        {
+          "text": "のトラブルで"
+        },
+        {
+          "text": "乗客",
+          "reading": "じょうきゃく"
+        },
+        {
+          "text": "がけがをした。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q10",
@@ -2905,7 +4635,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "白い",
+          "reading": "しろい"
+        },
+        {
+          "text": "シャツに"
+        },
+        {
+          "text": "真っ赤",
+          "reading": "まっか"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "口紅",
+          "reading": "くちべに"
+        },
+        {
+          "text": "がついている。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q11",
@@ -2944,7 +4697,34 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "彼女",
+          "reading": "かのじょ"
+        },
+        {
+          "text": "はとても"
+        },
+        {
+          "text": "教育",
+          "reading": "きょういく"
+        },
+        {
+          "text": "熱心",
+          "reading": "ねっしん"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q12",
@@ -2983,7 +4763,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "日本",
+          "reading": "にっぽん"
+        },
+        {
+          "text": "には"
+        },
+        {
+          "text": "地震",
+          "reading": "じしん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "専門家",
+          "reading": "せんもんか"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "多い",
+          "reading": "おおい"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q13",
@@ -3022,7 +4832,33 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "コーヒーで"
+        },
+        {
+          "text": "大切",
+          "reading": "たいせつ"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "本",
+          "reading": "ほん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "汚し",
+          "reading": "よごし"
+        },
+        {
+          "text": "てしまった。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q14",
@@ -3061,7 +4897,26 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "あのチームとなら、もう"
+        },
+        {
+          "text": "勝負",
+          "reading": "しょうぶ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "決ま",
+          "reading": "きま"
+        },
+        {
+          "text": "っている。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q15",
@@ -3100,7 +4955,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "今度",
+          "reading": "こんど"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "日曜日",
+          "reading": "にちようび"
+        },
+        {
+          "text": "は、"
+        },
+        {
+          "text": "市長選挙",
+          "reading": "しちょうせんきょ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "日",
+          "reading": "にち"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q16",
@@ -3139,7 +5024,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "兄",
+          "reading": "あに"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "外科",
+          "reading": "げか"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "医者",
+          "reading": "いしゃ"
+        },
+        {
+          "text": "をしている。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q17",
@@ -3178,7 +5086,27 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "何か",
+          "reading": "なにか"
+        },
+        {
+          "text": "困っ",
+          "reading": "こまっ"
+        },
+        {
+          "text": "たことがあったら、いつでも"
+        },
+        {
+          "text": "相談",
+          "reading": "そうだん"
+        },
+        {
+          "text": "してください。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q18",
@@ -3217,7 +5145,33 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "辺り",
+          "reading": "あたり"
+        },
+        {
+          "text": "は、"
+        },
+        {
+          "text": "水",
+          "reading": "みず"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "凍る",
+          "reading": "こおる"
+        },
+        {
+          "text": "こともある。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q19",
@@ -3256,7 +5210,34 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "紅茶",
+          "reading": "こうちゃ"
+        },
+        {
+          "text": "は、"
+        },
+        {
+          "text": "少し",
+          "reading": "すこし"
+        },
+        {
+          "text": "薄い",
+          "reading": "うすい"
+        },
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "する。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q20",
@@ -3295,7 +5276,23 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "は、ぜったいに"
+        },
+        {
+          "text": "遅れ",
+          "reading": "おくれ"
+        },
+        {
+          "text": "ないでください。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q21",
@@ -3334,7 +5331,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "結婚式",
+          "reading": "けっこんしき"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "出席",
+          "reading": "しゅっせき"
+        },
+        {
+          "text": "するには、どんな"
+        },
+        {
+          "text": "服装",
+          "reading": "ふくそう"
+        },
+        {
+          "text": "がいいですか。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q22",
@@ -3373,7 +5393,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "弟",
+          "reading": "おとうと"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "大学",
+          "reading": "だいがく"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "生物学",
+          "reading": "せいぶつがく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "専攻",
+          "reading": "せんこう"
+        },
+        {
+          "text": "している。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q23",
@@ -3412,7 +5462,41 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "今",
+          "reading": "いま"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入っ",
+          "reading": "いっっ"
+        },
+        {
+          "text": "てから"
+        },
+        {
+          "text": "忙しい",
+          "reading": "いそがしい"
+        },
+        {
+          "text": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q24",
@@ -3451,7 +5535,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "近く",
+          "reading": "ちかく"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "居酒屋",
+          "reading": "いざかや"
+        },
+        {
+          "text": "でよく"
+        },
+        {
+          "text": "飲ん",
+          "reading": "のん"
+        },
+        {
+          "text": "でいる。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q25",
@@ -3490,7 +5597,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "駅前",
+          "reading": "えきまえ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "店",
+          "reading": "みせ"
+        },
+        {
+          "text": "でアルバイトを"
+        },
+        {
+          "text": "募集",
+          "reading": "ぼしゅう"
+        },
+        {
+          "text": "している。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q26",
@@ -3529,7 +5659,33 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "このマンションの"
+        },
+        {
+          "text": "周辺",
+          "reading": "しゅうへん"
+        },
+        {
+          "text": "には"
+        },
+        {
+          "text": "公園",
+          "reading": "こうえん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "多い",
+          "reading": "おおい"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q27",
@@ -3568,7 +5724,27 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "寒い",
+          "reading": "さむい"
+        },
+        {
+          "text": "日",
+          "reading": "にち"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "熱い",
+          "reading": "あつい"
+        },
+        {
+          "text": "スープがおいしい。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q28",
@@ -3607,7 +5783,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "面接",
+          "reading": "めんせつ"
+        },
+        {
+          "text": "なので、"
+        },
+        {
+          "text": "今か",
+          "reading": "いまか"
+        },
+        {
+          "text": "らドキドキしている。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q29",
@@ -3646,7 +5845,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "冬",
+          "reading": "ふゆ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "前",
+          "reading": "まえ"
+        },
+        {
+          "text": "にインフルエンザの"
+        },
+        {
+          "text": "予防",
+          "reading": "よぼう"
+        },
+        {
+          "text": "をしておこう。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q30",
@@ -3685,7 +5907,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "英語",
+          "reading": "えいご"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "得意",
+          "reading": "とくい"
+        },
+        {
+          "text": "ではない。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q31",
@@ -3724,7 +5969,30 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "若者",
+          "reading": "わかもの"
+        },
+        {
+          "text": "たちは、あまり"
+        },
+        {
+          "text": "政治",
+          "reading": "せいじ"
+        },
+        {
+          "text": "には"
+        },
+        {
+          "text": "関心",
+          "reading": "かんしん"
+        },
+        {
+          "text": "がないらしい。"
+        }
+      ]
     },
     {
       "id": "kanji96-m3-q32",
@@ -3763,7 +6031,37 @@
       "explanation": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "stem_ruby": [
+        {
+          "text": "彼女",
+          "reading": "かのじょ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "知識",
+          "reading": "ちしき"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "多さ",
+          "reading": "おおさ"
+        },
+        {
+          "text": "には"
+        },
+        {
+          "text": "感心",
+          "reading": "かんしん"
+        },
+        {
+          "text": "する。"
+        }
+      ]
     }
   ]
 }

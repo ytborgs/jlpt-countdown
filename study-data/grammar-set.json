@@ -16,7 +16,8 @@
   "needs_verify_count": 0,
   "notes": [
     "Phase A: bổ sung structure/usage (=pattern/meaning), pattern_ruby/example_ruby plain (linguistic).",
-    "Đã điền meaning còn thiếu cho ～Nに限って."
+    "Đã điền meaning còn thiếu cho ～Nに限って.",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -44,11 +45,23 @@
       ],
       "example_ruby": [
         {
-          "text": "値段もかまわず買い物する。"
+          "text": "値段",
+          "reading": "ねだん"
+        },
+        {
+          "text": "もかまわず"
+        },
+        {
+          "text": "買い物",
+          "reading": "かいもの"
+        },
+        {
+          "text": "する。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-002",
@@ -75,11 +88,30 @@
       ],
       "example_ruby": [
         {
-          "text": "送料は重さにかかわらず200円だ。"
+          "text": "送料",
+          "reading": "そうりょう"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "重さ",
+          "reading": "おもさ"
+        },
+        {
+          "text": "にかかわらず200"
+        },
+        {
+          "text": "円",
+          "reading": "えん"
+        },
+        {
+          "text": "だ。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-003",
@@ -106,11 +138,37 @@
       ],
       "example_ruby": [
         {
-          "text": "大雨にもかかわらず沢山の人が集まった。"
+          "text": "大雨",
+          "reading": "おおあめ"
+        },
+        {
+          "text": "にもかかわらず"
+        },
+        {
+          "text": "沢山",
+          "reading": "たくさん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "人",
+          "reading": "にん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "集ま",
+          "reading": "あつま"
+        },
+        {
+          "text": "った。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-004",
@@ -137,11 +195,37 @@
       ],
       "example_ruby": [
         {
-          "text": "喉が渇いて水を飲まずにはいられない。"
+          "text": "喉",
+          "reading": "のど"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "渇",
+          "reading": "かつ"
+        },
+        {
+          "text": "いて"
+        },
+        {
+          "text": "水",
+          "reading": "みず"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "飲ま",
+          "reading": "のま"
+        },
+        {
+          "text": "ずにはいられない。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-005",
@@ -163,16 +247,42 @@
       "usage": "Đành phải..",
       "pattern_ruby": [
         {
-          "text": "～ざるを得ない"
+          "text": "～ざるを"
+        },
+        {
+          "text": "得な",
+          "reading": "えな"
+        },
+        {
+          "text": "い"
         }
       ],
       "example_ruby": [
         {
-          "text": "週末も働かざるを得ない。"
+          "text": "週末",
+          "reading": "しゅうまつ"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "働か",
+          "reading": "はたらか"
+        },
+        {
+          "text": "ざるを"
+        },
+        {
+          "text": "得な",
+          "reading": "えな"
+        },
+        {
+          "text": "い。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-006",
@@ -199,11 +309,33 @@
       ],
       "example_ruby": [
         {
-          "text": "これは食べたく無い。嫌いなんだもの。"
+          "text": "これは"
+        },
+        {
+          "text": "食べた",
+          "reading": "たべた"
+        },
+        {
+          "text": "く"
+        },
+        {
+          "text": "無い",
+          "reading": "ない"
+        },
+        {
+          "text": "。"
+        },
+        {
+          "text": "嫌い",
+          "reading": "きらい"
+        },
+        {
+          "text": "なんだもの。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-007",
@@ -230,11 +362,30 @@
       ],
       "example_ruby": [
         {
-          "text": "あいつが時間通りに来るものか。"
+          "text": "あいつが"
+        },
+        {
+          "text": "時間",
+          "reading": "じかん"
+        },
+        {
+          "text": "通り",
+          "reading": "とうり"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "来る",
+          "reading": "くる"
+        },
+        {
+          "text": "ものか。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-008",
@@ -261,11 +412,45 @@
       ],
       "example_ruby": [
         {
-          "text": "高い着物を買ったものの着る機会が無い。"
+          "text": "高い",
+          "reading": "たかい"
+        },
+        {
+          "text": "着物",
+          "reading": "きもの"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "買っ",
+          "reading": "かっ"
+        },
+        {
+          "text": "たものの"
+        },
+        {
+          "text": "着る",
+          "reading": "きる"
+        },
+        {
+          "text": "機会",
+          "reading": "きかい"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "無い",
+          "reading": "ない"
+        },
+        {
+          "text": "。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-009",
@@ -292,11 +477,34 @@
       ],
       "example_ruby": [
         {
-          "text": "人間は本来一人では生きられないものだ。"
+          "text": "人間",
+          "reading": "にんげん"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "本来",
+          "reading": "ほんらい"
+        },
+        {
+          "text": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "text": "では"
+        },
+        {
+          "text": "生き",
+          "reading": "いき"
+        },
+        {
+          "text": "られないものだ。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-010",
@@ -323,11 +531,37 @@
       ],
       "example_ruby": [
         {
-          "text": "仕事を途中で投げ出すのは無責任というものだ"
+          "text": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "途中",
+          "reading": "とちゅう"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "投げ出す",
+          "reading": "なげだす"
+        },
+        {
+          "text": "のは"
+        },
+        {
+          "text": "無責任",
+          "reading": "むせきにん"
+        },
+        {
+          "text": "というものだ"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-011",
@@ -354,11 +588,16 @@
       ],
       "example_ruby": [
         {
-          "text": "安ければいいというものではない。"
+          "text": "安け",
+          "reading": "やすけ"
+        },
+        {
+          "text": "ればいいというものではない。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-012",
@@ -385,11 +624,30 @@
       ],
       "example_ruby": [
         {
-          "text": "将来はこんな家に住みたいものだ。"
+          "text": "将来",
+          "reading": "しょうらい"
+        },
+        {
+          "text": "はこんな"
+        },
+        {
+          "text": "家",
+          "reading": "いえ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "住み",
+          "reading": "すみ"
+        },
+        {
+          "text": "たいものだ。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-013",
@@ -416,11 +674,37 @@
       ],
       "example_ruby": [
         {
-          "text": "母はよく学生時代のことを私たちに話したものだ。"
+          "text": "母",
+          "reading": "はは"
+        },
+        {
+          "text": "はよく"
+        },
+        {
+          "text": "学生時代",
+          "reading": "がくせいじだい"
+        },
+        {
+          "text": "のことを"
+        },
+        {
+          "text": "私たち",
+          "reading": "わたしたち"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "話し",
+          "reading": "はなし"
+        },
+        {
+          "text": "たものだ。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-014",
@@ -478,11 +762,44 @@
       ],
       "example_ruby": [
         {
-          "text": "山道は危ない。ちょっと足を踏みはずそうものなら、大怪我をするだろう。"
+          "text": "山道",
+          "reading": "やまみち"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "危ない",
+          "reading": "あぶない"
+        },
+        {
+          "text": "。ちょっと"
+        },
+        {
+          "text": "足",
+          "reading": "あし"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "踏み",
+          "reading": "ふみ"
+        },
+        {
+          "text": "はずそうものなら、"
+        },
+        {
+          "text": "大怪我",
+          "reading": "おおけが"
+        },
+        {
+          "text": "をするだろう。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-016",
@@ -509,11 +826,26 @@
       ],
       "example_ruby": [
         {
-          "text": "ケーキやクッキーといったお菓子が大好きだ。"
+          "text": "ケーキやクッキーといったお"
+        },
+        {
+          "text": "菓子",
+          "reading": "かし"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "大好き",
+          "reading": "だいすき"
+        },
+        {
+          "text": "だ。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-017",
@@ -540,11 +872,40 @@
       ],
       "example_ruby": [
         {
-          "text": "あ。雪だ。雪と言えば。スキー旅行はどうしよう。"
+          "text": "あ。"
+        },
+        {
+          "text": "雪",
+          "reading": "ゆき"
+        },
+        {
+          "text": "だ。"
+        },
+        {
+          "text": "雪",
+          "reading": "ゆき"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "言え",
+          "reading": "いえ"
+        },
+        {
+          "text": "ば。スキー"
+        },
+        {
+          "text": "旅行",
+          "reading": "りょこう"
+        },
+        {
+          "text": "はどうしよう。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-018",
@@ -566,16 +927,42 @@
       "usage": "Nhắc tới ..",
       "pattern_ruby": [
         {
-          "text": "～と言うと"
+          "text": "～と"
+        },
+        {
+          "text": "言う",
+          "reading": "いう"
+        },
+        {
+          "text": "と"
         }
       ],
       "example_ruby": [
         {
-          "text": "京都と言うと。お寺をイメージします。"
+          "text": "京都",
+          "reading": "きょうと"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "言う",
+          "reading": "いう"
+        },
+        {
+          "text": "と。お"
+        },
+        {
+          "text": "寺",
+          "reading": "てら"
+        },
+        {
+          "text": "をイメージします。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-019",
@@ -602,11 +989,37 @@
       ],
       "example_ruby": [
         {
-          "text": "代表的な日本料理といったら、寿司や天ぷらだ。"
+          "text": "代表的",
+          "reading": "だいひょうてき"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "日本料理",
+          "reading": "にほんりょうり"
+        },
+        {
+          "text": "といったら、"
+        },
+        {
+          "text": "寿司",
+          "reading": "すし"
+        },
+        {
+          "text": "や"
+        },
+        {
+          "text": "天ぷら",
+          "reading": "てんぷら"
+        },
+        {
+          "text": "だ。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-020",
@@ -628,16 +1041,49 @@
       "usage": "Dẫu nói là ..thì chỉ",
       "pattern_ruby": [
         {
-          "text": "～と言っても"
+          "text": "～と"
+        },
+        {
+          "text": "言って",
+          "reading": "いって"
+        },
+        {
+          "text": "も"
         }
       ],
       "example_ruby": [
         {
-          "text": "料理が出来ると言っても、簡単なものだけだ。"
+          "text": "料理",
+          "reading": "りょうり"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "出来る",
+          "reading": "できる"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "言って",
+          "reading": "いって"
+        },
+        {
+          "text": "も、"
+        },
+        {
+          "text": "簡単",
+          "reading": "かんたん"
+        },
+        {
+          "text": "なものだけだ。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-021",
@@ -659,16 +1105,39 @@
       "usage": "Dẫu cho..thì không hẳn là",
       "pattern_ruby": [
         {
-          "text": "～からと言って"
+          "text": "～からと"
+        },
+        {
+          "text": "言って",
+          "reading": "いって"
         }
       ],
       "example_ruby": [
         {
-          "text": "好きだからと言って、そればかり食べてはいけない。"
+          "text": "好き",
+          "reading": "すき"
+        },
+        {
+          "text": "だからと"
+        },
+        {
+          "text": "言って",
+          "reading": "いって"
+        },
+        {
+          "text": "、そればかり"
+        },
+        {
+          "text": "食べて",
+          "reading": "たべて"
+        },
+        {
+          "text": "はいけない。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-022",
@@ -695,11 +1164,40 @@
       ],
       "example_ruby": [
         {
-          "text": "12月に入ったとはいえ、まだ年末という気がしない。"
+          "text": "12"
+        },
+        {
+          "text": "月",
+          "reading": "がつ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入っ",
+          "reading": "いっっ"
+        },
+        {
+          "text": "たとはいえ、まだ"
+        },
+        {
+          "text": "年末",
+          "reading": "ねんまつ"
+        },
+        {
+          "text": "という"
+        },
+        {
+          "text": "気が",
+          "reading": "きが"
+        },
+        {
+          "text": "しない。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-023",
@@ -721,16 +1219,56 @@
       "usage": "Mặc dù ...(Ý nghĩa thường đối lập nhau)",
       "pattern_ruby": [
         {
-          "text": "～とは言いながら"
+          "text": "～とは"
+        },
+        {
+          "text": "言い",
+          "reading": "いい"
+        },
+        {
+          "text": "ながら"
         }
       ],
       "example_ruby": [
         {
-          "text": "彼女は母親になったとは言いながら、子育ては苦手なようだ。"
+          "text": "彼女",
+          "reading": "かのじょ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "母親",
+          "reading": "ははおや"
+        },
+        {
+          "text": "になったとは"
+        },
+        {
+          "text": "言い",
+          "reading": "いい"
+        },
+        {
+          "text": "ながら、"
+        },
+        {
+          "text": "子育て",
+          "reading": "こそだて"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "苦手",
+          "reading": "にがて"
+        },
+        {
+          "text": "なようだ。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-024",
@@ -757,11 +1295,37 @@
       ],
       "example_ruby": [
         {
-          "text": "品質からいうと、これが一番いいけど、値段がちょっと高いです。"
+          "text": "品質",
+          "reading": "ひんしつ"
+        },
+        {
+          "text": "からいうと、これが"
+        },
+        {
+          "text": "一番",
+          "reading": "いちばん"
+        },
+        {
+          "text": "いいけど、"
+        },
+        {
+          "text": "値段",
+          "reading": "ねだん"
+        },
+        {
+          "text": "がちょっと"
+        },
+        {
+          "text": "高い",
+          "reading": "たかい"
+        },
+        {
+          "text": "です。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-025",
@@ -788,11 +1352,33 @@
       ],
       "example_ruby": [
         {
-          "text": "この映画は題名からして怖いそうだ。"
+          "text": "この"
+        },
+        {
+          "text": "映画",
+          "reading": "えいが"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "題名",
+          "reading": "だいめい"
+        },
+        {
+          "text": "からして"
+        },
+        {
+          "text": "怖い",
+          "reading": "こわい"
+        },
+        {
+          "text": "そうだ。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-026",
@@ -819,11 +1405,45 @@
       ],
       "example_ruby": [
         {
-          "text": "無人島で過ごすとしたら。何を持って行きますか。"
+          "text": "無人",
+          "reading": "むじん"
+        },
+        {
+          "text": "島",
+          "reading": "しま"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "過ご",
+          "reading": "すご"
+        },
+        {
+          "text": "すとしたら。"
+        },
+        {
+          "text": "何を",
+          "reading": "なにを"
+        },
+        {
+          "text": "持っ",
+          "reading": "もっ"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "行き",
+          "reading": "いき"
+        },
+        {
+          "text": "ますか。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-027",
@@ -850,11 +1470,37 @@
       ],
       "example_ruby": [
         {
-          "text": "時間が無いにしても、連絡ぐらいして欲しい。"
+          "text": "時間",
+          "reading": "じかん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "無い",
+          "reading": "ない"
+        },
+        {
+          "text": "にしても、"
+        },
+        {
+          "text": "連絡",
+          "reading": "れんらく"
+        },
+        {
+          "text": "ぐらいして"
+        },
+        {
+          "text": "欲しい",
+          "reading": "ほしい"
+        },
+        {
+          "text": "。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-028",
@@ -881,11 +1527,37 @@
       ],
       "example_ruby": [
         {
-          "text": "何をするにしろ、心を込めて取り組みたい。"
+          "text": "何を",
+          "reading": "なにを"
+        },
+        {
+          "text": "するにしろ、"
+        },
+        {
+          "text": "心",
+          "reading": "こころ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "込め",
+          "reading": "こめ"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "取り組み",
+          "reading": "とりくみ"
+        },
+        {
+          "text": "たい。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-029",
@@ -912,11 +1584,40 @@
       ],
       "example_ruby": [
         {
-          "text": "この絵は子供が描いたにしてはよく描けている。"
+          "text": "この"
+        },
+        {
+          "text": "絵",
+          "reading": "え"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "子供",
+          "reading": "こども"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "描い",
+          "reading": "えがい"
+        },
+        {
+          "text": "たにしてはよく"
+        },
+        {
+          "text": "描け",
+          "reading": "えがけ"
+        },
+        {
+          "text": "ている。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-030",
@@ -943,11 +1644,34 @@
       ],
       "example_ruby": [
         {
-          "text": "性能からすると、この製品の方が断然いい。"
+          "text": "性能",
+          "reading": "せいのう"
+        },
+        {
+          "text": "からすると、この"
+        },
+        {
+          "text": "製品",
+          "reading": "せいひん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "方が",
+          "reading": "ほうが"
+        },
+        {
+          "text": "断然",
+          "reading": "だんぜん"
+        },
+        {
+          "text": "いい。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-031",
@@ -974,11 +1698,34 @@
       ],
       "example_ruby": [
         {
-          "text": "連休中も休むどころではない、毎日残業だ。"
+          "text": "連休中",
+          "reading": "れんきゅうちゅう"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "休む",
+          "reading": "やすむ"
+        },
+        {
+          "text": "どころではない、"
+        },
+        {
+          "text": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "text": "残業",
+          "reading": "ざんぎょう"
+        },
+        {
+          "text": "だ。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-032",
@@ -1005,11 +1752,37 @@
       ],
       "example_ruby": [
         {
-          "text": "部屋の中は涼しいどころか、36度もあった。"
+          "text": "部屋",
+          "reading": "へや"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "中",
+          "reading": "なか"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "涼しい",
+          "reading": "すずしい"
+        },
+        {
+          "text": "どころか、36"
+        },
+        {
+          "text": "度",
+          "reading": "ど"
+        },
+        {
+          "text": "もあった。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-033",
@@ -1036,11 +1809,33 @@
       ],
       "example_ruby": [
         {
-          "text": "メールを送ったところ、すぐ返事が来た。"
+          "text": "メールを"
+        },
+        {
+          "text": "送っ",
+          "reading": "おくっ"
+        },
+        {
+          "text": "たところ、すぐ"
+        },
+        {
+          "text": "返事",
+          "reading": "へんじ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "来た",
+          "reading": "きた"
+        },
+        {
+          "text": "。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-034",
@@ -1067,11 +1862,26 @@
       ],
       "example_ruby": [
         {
-          "text": "もう少しで車にぶつかるところだった。"
+          "text": "もう"
+        },
+        {
+          "text": "少し",
+          "reading": "すこし"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "車",
+          "reading": "くるま"
+        },
+        {
+          "text": "にぶつかるところだった。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-035",
@@ -1098,11 +1908,54 @@
       ],
       "example_ruby": [
         {
-          "text": "この木は雪がかかったように花が咲くところから、[柳]という名前がついた。"
+          "text": "この"
+        },
+        {
+          "text": "木",
+          "reading": "き"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "雪",
+          "reading": "ゆき"
+        },
+        {
+          "text": "がかかったように"
+        },
+        {
+          "text": "花",
+          "reading": "はな"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "咲く",
+          "reading": "さく"
+        },
+        {
+          "text": "ところから、["
+        },
+        {
+          "text": "柳",
+          "reading": "やなぎ"
+        },
+        {
+          "text": "]という"
+        },
+        {
+          "text": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "text": "がついた。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-036",
@@ -1124,16 +1977,46 @@
       "usage": "Chỉ trong, chỉ đối với, chỉ riêng ...",
       "pattern_ruby": [
         {
-          "text": "～Nに限り"
+          "text": "～Nに"
+        },
+        {
+          "text": "限り",
+          "reading": "かぎり"
         }
       ],
       "example_ruby": [
         {
-          "text": "申込書を出すのは本日に限ります。"
+          "text": "申込書",
+          "reading": "もうしこみしょ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "出す",
+          "reading": "だす"
+        },
+        {
+          "text": "のは"
+        },
+        {
+          "text": "本日",
+          "reading": "ほんじつ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "限り",
+          "reading": "かぎり"
+        },
+        {
+          "text": "ます。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-037",
@@ -1155,16 +2038,49 @@
       "usage": "Chỉ riêng khi… / đúng lúc… (thường kèm ý tiêu cực)",
       "pattern_ruby": [
         {
-          "text": "～Nに限って"
+          "text": "～Nに"
+        },
+        {
+          "text": "限っ",
+          "reading": "かぎっ"
+        },
+        {
+          "text": "て"
         }
       ],
       "example_ruby": [
         {
-          "text": "太っている女性に限って、あまり運動しない。"
+          "text": "太っ",
+          "reading": "ふとっ"
+        },
+        {
+          "text": "ている"
+        },
+        {
+          "text": "女性",
+          "reading": "じょせい"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "限っ",
+          "reading": "かぎっ"
+        },
+        {
+          "text": "て、あまり"
+        },
+        {
+          "text": "運動",
+          "reading": "うんどう"
+        },
+        {
+          "text": "しない。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-038",
@@ -1186,16 +2102,56 @@
       "usage": "Không chỉ N mà còn...",
       "pattern_ruby": [
         {
-          "text": "～Nに限らず"
+          "text": "～Nに"
+        },
+        {
+          "text": "限ら",
+          "reading": "かぎら"
+        },
+        {
+          "text": "ず"
         }
       ],
       "example_ruby": [
         {
-          "text": "最近、女性に限らず、男性も化粧をする。"
+          "text": "最近",
+          "reading": "さいきん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "女性",
+          "reading": "じょせい"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "限ら",
+          "reading": "かぎら"
+        },
+        {
+          "text": "ず、"
+        },
+        {
+          "text": "男性",
+          "reading": "だんせい"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "化粧",
+          "reading": "けしょう"
+        },
+        {
+          "text": "をする。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-039",
@@ -1217,16 +2173,39 @@
       "usage": "Chừng nào mà còn...thì vẫn",
       "pattern_ruby": [
         {
-          "text": "～Vる、Vない、Vている + 限り"
+          "text": "～Vる、Vない、Vている + "
+        },
+        {
+          "text": "限り",
+          "reading": "かぎり"
         }
       ],
       "example_ruby": [
         {
-          "text": "生きている限り、どんな事でもチャレンジしたい。"
+          "text": "生き",
+          "reading": "いき"
+        },
+        {
+          "text": "ている"
+        },
+        {
+          "text": "限り",
+          "reading": "かぎり"
+        },
+        {
+          "text": "、どんな"
+        },
+        {
+          "text": "事",
+          "reading": "こと"
+        },
+        {
+          "text": "でもチャレンジしたい。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-040",
@@ -1248,16 +2227,43 @@
       "usage": "..Là tốt nhất",
       "pattern_ruby": [
         {
-          "text": "～Vる、Vない、Nに限る"
+          "text": "～Vる、Vない、Nに"
+        },
+        {
+          "text": "限る",
+          "reading": "かぎる"
         }
       ],
       "example_ruby": [
         {
-          "text": "蒸し暑い日々には生ビールに限る。"
+          "text": "蒸し暑い",
+          "reading": "むしあつい"
+        },
+        {
+          "text": "日々",
+          "reading": "ひび"
+        },
+        {
+          "text": "には"
+        },
+        {
+          "text": "生",
+          "reading": "なま"
+        },
+        {
+          "text": "ビールに"
+        },
+        {
+          "text": "限る",
+          "reading": "かぎる"
+        },
+        {
+          "text": "。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-041",
@@ -1279,16 +2285,53 @@
       "usage": "Chưa chắc đã.. ,Không nhất thiết",
       "pattern_ruby": [
         {
-          "text": "～~とは限らない"
+          "text": "～~とは"
+        },
+        {
+          "text": "限ら",
+          "reading": "かぎら"
+        },
+        {
+          "text": "ない"
         }
       ],
       "example_ruby": [
         {
-          "text": "日本語を教えてるのは必ず日本人とは限らない。"
+          "text": "日本語",
+          "reading": "にほんご"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "教え",
+          "reading": "おしえ"
+        },
+        {
+          "text": "てるのは"
+        },
+        {
+          "text": "必ず",
+          "reading": "かならず"
+        },
+        {
+          "text": "日本人",
+          "reading": "にほんじん"
+        },
+        {
+          "text": "とは"
+        },
+        {
+          "text": "限ら",
+          "reading": "かぎら"
+        },
+        {
+          "text": "ない。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "grammar-set-042",
@@ -1310,16 +2353,63 @@
       "usage": "Trong phạm vi.., theo như tôi...t",
       "pattern_ruby": [
         {
-          "text": "～~限りでは"
+          "text": "～~"
+        },
+        {
+          "text": "限り",
+          "reading": "かぎり"
+        },
+        {
+          "text": "では"
         }
       ],
       "example_ruby": [
         {
-          "text": "私が知っている限りでは、この近所に花屋が有りません。"
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "知って",
+          "reading": "しって"
+        },
+        {
+          "text": "いる"
+        },
+        {
+          "text": "限り",
+          "reading": "かぎり"
+        },
+        {
+          "text": "では、この"
+        },
+        {
+          "text": "近所",
+          "reading": "きんじょ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "花屋",
+          "reading": "はなや"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "有り",
+          "reading": "あり"
+        },
+        {
+          "text": "ません。"
         }
       ],
       "example_hira": null,
-      "note": null
+      "note": null,
+      "ruby_source": "linguistic"
     }
   ]
 }

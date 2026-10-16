@@ -15,7 +15,8 @@
   "status": "partial",
   "needs_verify_count": 1,
   "notes": [
-    "Từ nối / biểu thức kết nối phục vụ đọc hiểu; cần đối chiếu PDF nếu thiếu ví dụ."
+    "Từ nối / biểu thức kết nối phục vụ đọc hiểu; cần đối chiếu PDF nếu thiếu ví dụ.",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -32,7 +33,27 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "読解",
+          "reading": "どくかい"
+        },
+        {
+          "text": "問題",
+          "reading": "もんだい"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "解く",
+          "reading": "とく"
+        },
+        {
+          "text": "カギ"
+        }
+      ]
     },
     {
       "id": "connector-だから",
@@ -80,7 +101,16 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "電",
+          "reading": "でん"
+        },
+        {
+          "text": "それで～"
+        }
+      ]
     },
     {
       "id": "connector-そのため",
@@ -112,7 +142,20 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "旅",
+          "reading": "たび"
+        }
+      ]
     },
     {
       "id": "connector-したがって",
@@ -320,7 +363,13 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "性格",
+          "reading": "せいかく"
+        }
+      ]
     },
     {
       "id": "connector-お金がな",
@@ -336,7 +385,19 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "金",
+          "reading": "きん"
+        },
+        {
+          "text": "がな"
+        }
+      ]
     },
     {
       "id": "connector-ちっともやせな",
@@ -448,7 +509,16 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "熱",
+          "reading": "ねつ"
+        },
+        {
+          "text": "まで"
+        }
+      ]
     },
     {
       "id": "connector-バイオリ",
@@ -480,7 +550,20 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "牛乳",
+          "reading": "ぎゅうにゅう"
+        },
+        {
+          "text": "もお"
+        },
+        {
+          "text": "願",
+          "reading": "がん"
+        }
+      ]
     },
     {
       "id": "connector-なお",
@@ -512,7 +595,16 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "詳細",
+          "reading": "しょうさい"
+        },
+        {
+          "text": "は"
+        }
+      ]
     },
     {
       "id": "connector-すると",
@@ -608,7 +700,20 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "相手",
+          "reading": "あいて"
+        },
+        {
+          "text": "はどんな"
+        },
+        {
+          "text": "人",
+          "reading": "にん"
+        }
+      ]
     },
     {
       "id": "connector-終わりに",
@@ -624,7 +729,16 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "終わり",
+          "reading": "おわり"
+        },
+        {
+          "text": "に"
+        }
+      ]
     },
     {
       "id": "connector-このスカートはちょっと",
@@ -688,7 +802,19 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "また"
+        },
+        {
+          "text": "芸術家",
+          "reading": "げいじゅつか"
+        },
+        {
+          "text": "で"
+        }
+      ]
     },
     {
       "id": "connector-今年で何",
@@ -704,7 +830,20 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "今年",
+          "reading": "こんねん"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "何",
+          "reading": "なに"
+        }
+      ]
     },
     {
       "id": "connector-今日の晩ご飯",
@@ -720,7 +859,27 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "今日",
+          "reading": "きょう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "晩",
+          "reading": "ばん"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "飯",
+          "reading": "めし"
+        }
+      ]
     },
     {
       "id": "connector-そういえば今日は妻の誕生日",
@@ -736,7 +895,27 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "そういえば"
+        },
+        {
+          "text": "今日は",
+          "reading": "こんにちは"
+        },
+        {
+          "text": "妻",
+          "reading": "つま"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "誕生日",
+          "reading": "たんじょうび"
+        }
+      ]
     },
     {
       "id": "connector-以下をご",
@@ -752,7 +931,16 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "以下",
+          "reading": "いか"
+        },
+        {
+          "text": "をご"
+        }
+      ]
     },
     {
       "id": "connector-つまり",
@@ -784,7 +972,16 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "要す",
+          "reading": "ようす"
+        },
+        {
+          "text": "るに"
+        }
+      ]
     },
     {
       "id": "connector-よう",
@@ -896,7 +1093,19 @@
       "example_jp": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "connector_ruby": [
+        {
+          "text": "を"
+        },
+        {
+          "text": "中心",
+          "reading": "ちゅうしん"
+        },
+        {
+          "text": "として"
+        }
+      ]
     },
     {
       "id": "connector-にしては",
