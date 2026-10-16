@@ -10,15 +10,14 @@
   "item_count": 77,
   "expected_item_count": 80,
   "content_source": "pdf_extract",
-  "produced_at": "2026-10-16T03:24:00+00:00",
-  "producer": "n3-study-extractor/parse_compound_verbs",
-  "status": "partial",
-  "needs_verify_count": 3,
+  "produced_at": "2026-10-16T06:30:12+00:00",
+  "producer": "n3-study-extractor/enrich_compound_verbs",
+  "status": "verified",
+  "needs_verify_count": 0,
   "notes": [
-    "Không có furigana trong PDF nguồn; reading để null (không tự bịa).",
-    "lemma_jp suy từ cụm ví dụ cần đối chiếu highlight xanh trên PDF.",
-    "Một số mục cuối (vd. 77/79/80) text PDF vỡ layout → thiếu trong extract.",
-    "Thiếu số: [77, 79, 80]"
+    "reading / lemma_ruby / example_ruby / example_vi: linguistic (PDF không in furigana/dịch câu).",
+    "Không ghi official. Thiếu số PDF 77/79/80 không bịa.",
+    "Một số lemma từ extract (悪く落ち込む, 駅乗り過ごす, 日が差し込む) giữ nguyên nguồn."
   ],
   "items": [
     {
@@ -33,11 +32,51 @@
       "example_jp": "計画について話し合う",
       "lemma_jp": "話し合う",
       "meaning_vi": "Bàn bạc",
-      "reading": null,
-      "reading_source": null,
+      "reading": "はなしあう",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "話",
+          "reading": "はな"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "計画",
+          "reading": "けいかく"
+        },
+        {
+          "text": "について"
+        },
+        {
+          "text": "話",
+          "reading": "はな"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "example_vi": "Bàn bạc về kế hoạch"
     },
     {
       "id": "compound-verb-02",
@@ -51,11 +90,58 @@
       "example_jp": "友達の紹介で知り合う",
       "lemma_jp": "知り合う",
       "meaning_vi": "Quen biết",
-      "reading": null,
-      "reading_source": null,
+      "reading": "しりあう",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "知",
+          "reading": "し"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "友達",
+          "reading": "ともだち"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "紹介",
+          "reading": "しょうかい"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "知",
+          "reading": "し"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "example_vi": "Quen biết nhờ bạn giới thiệu"
     },
     {
       "id": "compound-verb-03",
@@ -69,11 +155,53 @@
       "example_jp": "ベッドから起き上がる",
       "lemma_jp": "起き上がる",
       "meaning_vi": "Đứng dậy",
-      "reading": null,
-      "reading_source": null,
+      "reading": "おきあがる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "起",
+          "reading": "お"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ベッドから"
+        },
+        {
+          "text": "起",
+          "reading": "お"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Ngồi dậy từ giường"
     },
     {
       "id": "compound-verb-04",
@@ -87,11 +215,55 @@
       "example_jp": "料理ができ上がる",
       "lemma_jp": "でき上がる",
       "meaning_vi": "Làm xong",
-      "reading": null,
-      "reading_source": null,
+      "reading": "できあがる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "で"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "料理",
+          "reading": "りょうり"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Món ăn được làm xong"
     },
     {
       "id": "compound-verb-05",
@@ -105,11 +277,57 @@
       "example_jp": "箱を持ち上げる",
       "lemma_jp": "持ち上げる",
       "meaning_vi": "Cầm lên",
-      "reading": null,
-      "reading_source": null,
+      "reading": "もちあげる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "持",
+          "reading": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "箱",
+          "reading": "はこ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "持",
+          "reading": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Nhấc hộp lên"
     },
     {
       "id": "compound-verb-06",
@@ -123,11 +341,57 @@
       "example_jp": "作品を作り上げる",
       "lemma_jp": "作り上げる",
       "meaning_vi": "Tạo ra, làm nên",
-      "reading": null,
-      "reading_source": null,
+      "reading": "つくりあげる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "作",
+          "reading": "つく"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "作品",
+          "reading": "さくひん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "作",
+          "reading": "つく"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Hoàn thành tác phẩm"
     },
     {
       "id": "compound-verb-07",
@@ -141,11 +405,57 @@
       "example_jp": "論文を書き終わる",
       "lemma_jp": "書き終わる",
       "meaning_vi": "Viết xong",
-      "reading": null,
-      "reading_source": null,
+      "reading": "かきおわる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "終",
+          "reading": "お"
+        },
+        {
+          "text": "わ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "論文",
+          "reading": "ろんぶん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "終",
+          "reading": "お"
+        },
+        {
+          "text": "わ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Viết xong luận văn"
     },
     {
       "id": "compound-verb-08",
@@ -159,11 +469,57 @@
       "example_jp": "夕飯を食べ終わる",
       "lemma_jp": "食べ終わる",
       "meaning_vi": "Ăn xong",
-      "reading": null,
-      "reading_source": null,
+      "reading": "たべおわる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "食",
+          "reading": "た"
+        },
+        {
+          "text": "べ"
+        },
+        {
+          "text": "終",
+          "reading": "お"
+        },
+        {
+          "text": "わ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "夕飯",
+          "reading": "ゆうはん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "食",
+          "reading": "た"
+        },
+        {
+          "text": "べ"
+        },
+        {
+          "text": "終",
+          "reading": "お"
+        },
+        {
+          "text": "わ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Ăn xong bữa tối"
     },
     {
       "id": "compound-verb-09",
@@ -177,11 +533,51 @@
       "example_jp": "同じことを繰り返す",
       "lemma_jp": "繰り返す",
       "meaning_vi": "Lặp đi lặp lại",
-      "reading": null,
-      "reading_source": null,
+      "reading": "くりかえす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "繰",
+          "reading": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "返",
+          "reading": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "同じ",
+          "reading": "おなじ"
+        },
+        {
+          "text": "ことを"
+        },
+        {
+          "text": "繰",
+          "reading": "く"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "返",
+          "reading": "かえ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Lặp lại cùng một việc"
     },
     {
       "id": "compound-verb-10",
@@ -195,11 +591,45 @@
       "example_jp": "「え？」と聞き返す",
       "lemma_jp": "聞き返す",
       "meaning_vi": "Hỏi lại",
-      "reading": null,
-      "reading_source": null,
+      "reading": "ききかえす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "聞"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "返",
+          "reading": "きかえ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "「え？」と"
+        },
+        {
+          "text": "聞"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "返",
+          "reading": "きかえ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Hỏi lại 「Ơ?」"
     },
     {
       "id": "compound-verb-11",
@@ -213,11 +643,39 @@
       "example_jp": "ドレスに着替える",
       "lemma_jp": "着替える",
       "meaning_vi": "Thay quần áo",
-      "reading": null,
-      "reading_source": null,
+      "reading": "きがえる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "着替",
+          "reading": "きが"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ドレスに"
+        },
+        {
+          "text": "着替",
+          "reading": "きが"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Thay sang váy đầm"
     },
     {
       "id": "compound-verb-12",
@@ -231,11 +689,57 @@
       "example_jp": "電池を取り替える",
       "lemma_jp": "取り替える",
       "meaning_vi": "Thay mới",
-      "reading": null,
-      "reading_source": null,
+      "reading": "とりかえる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "替",
+          "reading": "か"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "電池",
+          "reading": "でんち"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "替",
+          "reading": "か"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Thay pin"
     },
     {
       "id": "compound-verb-13",
@@ -249,11 +753,62 @@
       "example_jp": "隣の人に話しかける",
       "lemma_jp": "話しかける",
       "meaning_vi": "Bắt chuyện",
-      "reading": null,
-      "reading_source": null,
+      "reading": "はなしかける",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "話",
+          "reading": "はな"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "隣",
+          "reading": "となり"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "人",
+          "reading": "ひと"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "話",
+          "reading": "はな"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Bắt chuyện với người bên cạnh"
     },
     {
       "id": "compound-verb-14",
@@ -267,11 +822,61 @@
       "example_jp": "走って友達を追いかける",
       "lemma_jp": "追いかける",
       "meaning_vi": "Đuổi theo",
-      "reading": null,
-      "reading_source": null,
+      "reading": "おいかける",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "追",
+          "reading": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "走"
+        },
+        {
+          "text": "って"
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "追",
+          "reading": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Chạy đuổi theo bạn"
     },
     {
       "id": "compound-verb-15",
@@ -285,11 +890,53 @@
       "example_jp": "本当のことを言いかける",
       "lemma_jp": "言いかける",
       "meaning_vi": "Thổ lộ",
-      "reading": null,
-      "reading_source": null,
+      "reading": "いいかける",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "言"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "本当",
+          "reading": "ほんとう"
+        },
+        {
+          "text": "のことを"
+        },
+        {
+          "text": "言"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Bắt đầu nói ra điều thật lòng"
     },
     {
       "id": "compound-verb-16",
@@ -303,11 +950,51 @@
       "example_jp": "手紙を受け取る",
       "lemma_jp": "受け取る",
       "meaning_vi": "Nhận được",
-      "reading": null,
-      "reading_source": null,
+      "reading": "うけとる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "手紙",
+          "reading": "てがみ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Nhận được thư"
     },
     {
       "id": "compound-verb-17",
@@ -321,11 +1008,47 @@
       "example_jp": "はさみで切り取る",
       "lemma_jp": "切り取る",
       "meaning_vi": "Cắt rời",
-      "reading": null,
-      "reading_source": null,
+      "reading": "きりとる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "切",
+          "reading": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "はさみで"
+        },
+        {
+          "text": "切",
+          "reading": "き"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Cắt rời bằng kéo"
     },
     {
       "id": "compound-verb-18",
@@ -339,11 +1062,51 @@
       "example_jp": "間違えたところを書き直す",
       "lemma_jp": "書き直す",
       "meaning_vi": "Viết lại",
-      "reading": null,
-      "reading_source": null,
+      "reading": "かきなおす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "直",
+          "reading": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "間違",
+          "reading": "まちが"
+        },
+        {
+          "text": "えたところを"
+        },
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "直",
+          "reading": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Viết lại chỗ bị sai"
     },
     {
       "id": "compound-verb-19",
@@ -357,11 +1120,56 @@
       "example_jp": "後で電話をかけ直す",
       "lemma_jp": "かけ直す",
       "meaning_vi": "Gọi điện lại",
-      "reading": null,
-      "reading_source": null,
+      "reading": "かけなおす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "直",
+          "reading": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "後",
+          "reading": "あと"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "電話",
+          "reading": "でんわ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "直",
+          "reading": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Gọi điện lại sau"
     },
     {
       "id": "compound-verb-20",
@@ -375,11 +1183,49 @@
       "example_jp": "最初からやり直す",
       "lemma_jp": "やり直す",
       "meaning_vi": "Làm lại",
-      "reading": null,
-      "reading_source": null,
+      "reading": "やりなおす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "や"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "直",
+          "reading": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "最初",
+          "reading": "さいしょ"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "や"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "直",
+          "reading": "なお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Làm lại từ đầu"
     },
     {
       "id": "compound-verb-21",
@@ -393,11 +1239,51 @@
       "example_jp": "名前を思い出す",
       "lemma_jp": "思い出す",
       "meaning_vi": "Nhớ ra",
-      "reading": null,
-      "reading_source": null,
+      "reading": "おもいだす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "思",
+          "reading": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "思",
+          "reading": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Nhớ ra tên"
     },
     {
       "id": "compound-verb-22",
@@ -411,11 +1297,52 @@
       "example_jp": "いい考えが思いつく",
       "lemma_jp": "思いつく",
       "meaning_vi": "Nghĩ ra",
-      "reading": null,
-      "reading_source": null,
+      "reading": "おもいつく",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "思",
+          "reading": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "いい"
+        },
+        {
+          "text": "考え",
+          "reading": "かんがえ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "思",
+          "reading": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "example_vi": "Nảy ra ý hay"
     },
     {
       "id": "compound-verb-23",
@@ -429,11 +1356,47 @@
       "example_jp": "ノートに書き写す",
       "lemma_jp": "書き写す",
       "meaning_vi": "Viết cop lại",
-      "reading": null,
-      "reading_source": null,
+      "reading": "かきうつす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "写",
+          "reading": "うつ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ノートに"
+        },
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "写",
+          "reading": "うつ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Chép vào sổ tay"
     },
     {
       "id": "compound-verb-24",
@@ -447,11 +1410,53 @@
       "example_jp": "メモに少し書き足す",
       "lemma_jp": "書き足す",
       "meaning_vi": "Viết thêm",
-      "reading": null,
-      "reading_source": null,
+      "reading": "かきたす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "足",
+          "reading": "た"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "メモに"
+        },
+        {
+          "text": "少"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "足",
+          "reading": "た"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Viết thêm một chút vào memo"
     },
     {
       "id": "compound-verb-25",
@@ -465,11 +1470,41 @@
       "example_jp": "新しい人と出会う",
       "lemma_jp": "出会う",
       "meaning_vi": "Gặp gỡ",
-      "reading": null,
-      "reading_source": null,
+      "reading": "であう",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "出会",
+          "reading": "であ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "新しい",
+          "reading": "あたらしい"
+        },
+        {
+          "text": "人",
+          "reading": "ひと"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "出会",
+          "reading": "であ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "example_vi": "Gặp gỡ người mới"
     },
     {
       "id": "compound-verb-26",
@@ -483,11 +1518,50 @@
       "example_jp": "空港で家族を出迎える",
       "lemma_jp": "出迎える",
       "meaning_vi": "Ra đón",
-      "reading": null,
-      "reading_source": null,
+      "reading": "でむかえる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "出迎",
+          "reading": "でむか"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "空港",
+          "reading": "くうこう"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "家族",
+          "reading": "かぞく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "出迎",
+          "reading": "でむか"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Ra đón gia đình ở sân bay"
     },
     {
       "id": "compound-verb-27",
@@ -501,11 +1575,51 @@
       "example_jp": "予約を取り消す",
       "lemma_jp": "取り消す",
       "meaning_vi": "Hủy bỏ",
-      "reading": null,
-      "reading_source": null,
+      "reading": "とりけす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "消",
+          "reading": "け"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "予約",
+          "reading": "よやく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "消",
+          "reading": "け"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Hủy đặt chỗ"
     },
     {
       "id": "compound-verb-28",
@@ -519,11 +1633,54 @@
       "example_jp": "から手帳を取り出す",
       "lemma_jp": "取り出す",
       "meaning_vi": "Lấy ra",
-      "reading": null,
-      "reading_source": null,
+      "reading": "とりだす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "から"
+        },
+        {
+          "text": "手帳",
+          "reading": "てちょう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Lấy sổ tay ra"
     },
     {
       "id": "compound-verb-29",
@@ -537,11 +1694,53 @@
       "example_jp": "バスに乗り遅れる",
       "lemma_jp": "乗り遅れる",
       "meaning_vi": "Lỡ tàu xe",
-      "reading": null,
-      "reading_source": null,
+      "reading": "のりおくれる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "乗",
+          "reading": "の"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "遅",
+          "reading": "おく"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "バスに"
+        },
+        {
+          "text": "乗",
+          "reading": "の"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "遅",
+          "reading": "おく"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Lỡ chuyến xe buýt"
     },
     {
       "id": "compound-verb-30",
@@ -555,11 +1754,57 @@
       "example_jp": "電車を乗り換える",
       "lemma_jp": "乗り換える",
       "meaning_vi": "Đổi tàu xe",
-      "reading": null,
-      "reading_source": null,
+      "reading": "のりかえる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "乗",
+          "reading": "の"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "換",
+          "reading": "か"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "電車",
+          "reading": "でんしゃ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "乗",
+          "reading": "の"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "換",
+          "reading": "か"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Đổi tàu điện"
     },
     {
       "id": "compound-verb-31",
@@ -573,11 +1818,43 @@
       "example_jp": "空を見上げる",
       "lemma_jp": "見上げる",
       "meaning_vi": "Nhìn lên",
-      "reading": null,
-      "reading_source": null,
+      "reading": "みあげる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "見上",
+          "reading": "みあ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "空",
+          "reading": "そら"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "見上",
+          "reading": "みあ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Ngẩng nhìn bầu trời"
     },
     {
       "id": "compound-verb-32",
@@ -591,11 +1868,43 @@
       "example_jp": "町を見下ろす",
       "lemma_jp": "見下ろす",
       "meaning_vi": "Nhìn xuống",
-      "reading": null,
-      "reading_source": null,
+      "reading": "みおろす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "見下",
+          "reading": "みお"
+        },
+        {
+          "text": "ろ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "町",
+          "reading": "まち"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "見下",
+          "reading": "みお"
+        },
+        {
+          "text": "ろ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Nhìn xuống thị trấn"
     },
     {
       "id": "compound-verb-33",
@@ -609,11 +1918,44 @@
       "example_jp": "友達を駅まで見送る",
       "lemma_jp": "見送る",
       "meaning_vi": "Đưa tiễn",
-      "reading": null,
-      "reading_source": null,
+      "reading": "みおくる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "見送",
+          "reading": "みおく"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "友達",
+          "reading": "ともだち"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "駅",
+          "reading": "えき"
+        },
+        {
+          "text": "まで"
+        },
+        {
+          "text": "見送",
+          "reading": "みおく"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Tiễn bạn đến ga"
     },
     {
       "id": "compound-verb-34",
@@ -627,11 +1969,47 @@
       "example_jp": "スマホを持ち歩く",
       "lemma_jp": "持ち歩く",
       "meaning_vi": "Cầm theo",
-      "reading": null,
-      "reading_source": null,
+      "reading": "もちあるく",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "持",
+          "reading": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "歩",
+          "reading": "ある"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "スマホを"
+        },
+        {
+          "text": "持",
+          "reading": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "歩",
+          "reading": "ある"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "example_vi": "Mang theo điện thoại"
     },
     {
       "id": "compound-verb-35",
@@ -645,11 +2023,51 @@
       "example_jp": "飲み物を持ち込む",
       "lemma_jp": "持ち込む",
       "meaning_vi": "Mang vào",
-      "reading": null,
-      "reading_source": null,
+      "reading": "もちこむ",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "持",
+          "reading": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "飲み物",
+          "reading": "のみもの"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "持",
+          "reading": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_vi": "Mang đồ uống vào"
     },
     {
       "id": "compound-verb-36",
@@ -663,11 +2081,47 @@
       "example_jp": "パソコンを持ち運ぶ",
       "lemma_jp": "持ち運ぶ",
       "meaning_vi": "Mang vác",
-      "reading": null,
-      "reading_source": null,
+      "reading": "もちはこぶ",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "持",
+          "reading": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "運",
+          "reading": "はこ"
+        },
+        {
+          "text": "ぶ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "パソコンを"
+        },
+        {
+          "text": "持",
+          "reading": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "運",
+          "reading": "はこ"
+        },
+        {
+          "text": "ぶ"
+        }
+      ],
+      "example_vi": "Khiêng/mang theo máy tính"
     },
     {
       "id": "compound-verb-37",
@@ -681,11 +2135,49 @@
       "example_jp": "間違えて言い直す",
       "lemma_jp": "言い直す",
       "meaning_vi": "Đính chính lại",
-      "reading": null,
-      "reading_source": null,
+      "reading": "いいなおす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "言"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "直",
+          "reading": "いなお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "間違",
+          "reading": "まちが"
+        },
+        {
+          "text": "えて"
+        },
+        {
+          "text": "言"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "直",
+          "reading": "いなお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Nói lại cho đúng vì nói nhầm"
     },
     {
       "id": "compound-verb-38",
@@ -699,11 +2191,57 @@
       "example_jp": "心を入れ替える",
       "lemma_jp": "入れ替える",
       "meaning_vi": "Thay đổi",
-      "reading": null,
-      "reading_source": null,
+      "reading": "いれかえる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "入",
+          "reading": "い"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "替",
+          "reading": "か"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "心",
+          "reading": "こころ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "入",
+          "reading": "い"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "替",
+          "reading": "か"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Thay đổi tâm thế"
     },
     {
       "id": "compound-verb-39",
@@ -717,11 +2255,57 @@
       "example_jp": "申し込むを受け付ける",
       "lemma_jp": "受け付ける",
       "meaning_vi": "Tiếp nhận",
-      "reading": null,
-      "reading_source": null,
+      "reading": "うけつける",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "申し込む",
+          "reading": "もうしこむ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Tiếp nhận đơn đăng ký"
     },
     {
       "id": "compound-verb-40",
@@ -735,11 +2319,53 @@
       "example_jp": "ボールを受け止める",
       "lemma_jp": "受け止める",
       "meaning_vi": "Bắt lại",
-      "reading": null,
-      "reading_source": null,
+      "reading": "うけとめる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "止",
+          "reading": "と"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ボールを"
+        },
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "止",
+          "reading": "と"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Đỡ/bắt bóng"
     },
     {
       "id": "compound-verb-41",
@@ -753,11 +2379,57 @@
       "example_jp": "現実を受け止める",
       "lemma_jp": "受け止める",
       "meaning_vi": "Chấp nhận",
-      "reading": null,
-      "reading_source": null,
+      "reading": "うけとめる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "止",
+          "reading": "と"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "現実",
+          "reading": "げんじつ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "止",
+          "reading": "と"
+        },
+        {
+          "text": "め"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Chấp nhận thực tế"
     },
     {
       "id": "compound-verb-42",
@@ -771,11 +2443,51 @@
       "example_jp": "荷物を受け取る",
       "lemma_jp": "受け取る",
       "meaning_vi": "Nhận hàng",
-      "reading": null,
-      "reading_source": null,
+      "reading": "うけとる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "荷物",
+          "reading": "にもつ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Nhận hành lý"
     },
     {
       "id": "compound-verb-43",
@@ -789,11 +2501,63 @@
       "example_jp": "別人のように生まれ変わる",
       "lemma_jp": "生まれ変わる",
       "meaning_vi": "Sinh ra lần nữa",
-      "reading": null,
-      "reading_source": null,
+      "reading": "うまれかわる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "生",
+          "reading": "う"
+        },
+        {
+          "text": "ま"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "変",
+          "reading": "か"
+        },
+        {
+          "text": "わ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "別人",
+          "reading": "べつじん"
+        },
+        {
+          "text": "のように"
+        },
+        {
+          "text": "生",
+          "reading": "う"
+        },
+        {
+          "text": "ま"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "変",
+          "reading": "か"
+        },
+        {
+          "text": "わ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Như được sinh ra lần nữa, khác người trước"
     },
     {
       "id": "compound-verb-44",
@@ -807,11 +2571,51 @@
       "example_jp": "新商品を生み出す",
       "lemma_jp": "生み出す",
       "meaning_vi": "Phát minh ra",
-      "reading": null,
-      "reading_source": null,
+      "reading": "うみだす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "生",
+          "reading": "う"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "新商品",
+          "reading": "しんしょうひん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "生",
+          "reading": "う"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Tạo ra sản phẩm mới"
     },
     {
       "id": "compound-verb-45",
@@ -825,11 +2629,57 @@
       "example_jp": "人気のコロッケが売り切れる",
       "lemma_jp": "売り切れる",
       "meaning_vi": "Bán hết sạch",
-      "reading": null,
-      "reading_source": null,
+      "reading": "うりきれる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "売",
+          "reading": "う"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "切",
+          "reading": "き"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "人気",
+          "reading": "にんき"
+        },
+        {
+          "text": "のコロッケが"
+        },
+        {
+          "text": "売",
+          "reading": "う"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "切",
+          "reading": "き"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Kroket bán chạy hết sạch"
     },
     {
       "id": "compound-verb-46",
@@ -843,11 +2693,58 @@
       "example_jp": "前の人に追い付く",
       "lemma_jp": "追い付く",
       "meaning_vi": "Đuổi theo",
-      "reading": null,
-      "reading_source": null,
+      "reading": "おいつく",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "追",
+          "reading": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "前",
+          "reading": "まえ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "人",
+          "reading": "ひと"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "追",
+          "reading": "お"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "く"
+        }
+      ],
+      "example_vi": "Bắt kịp người phía trước"
     },
     {
       "id": "compound-verb-47",
@@ -861,11 +2758,65 @@
       "example_jp": "成績が悪く落ち込む",
       "lemma_jp": "悪く落ち込む",
       "meaning_vi": "Thất vọng",
-      "reading": null,
-      "reading_source": null,
+      "reading": "わるくおちこむ",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "悪",
+          "reading": "わる"
+        },
+        {
+          "text": "く"
+        },
+        {
+          "text": "落",
+          "reading": "お"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "成績",
+          "reading": "せいせき"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "悪",
+          "reading": "わる"
+        },
+        {
+          "text": "く"
+        },
+        {
+          "text": "落",
+          "reading": "お"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_vi": "Thành tích kém nên chán nản"
     },
     {
       "id": "compound-verb-48",
@@ -879,11 +2830,47 @@
       "example_jp": "ノートに書き込む",
       "lemma_jp": "書き込む",
       "meaning_vi": "Điền vào",
-      "reading": null,
-      "reading_source": null,
+      "reading": "かきこむ",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ノートに"
+        },
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_vi": "Ghi/điền vào sổ"
     },
     {
       "id": "compound-verb-49",
@@ -897,11 +2884,58 @@
       "example_jp": "授業の内容を書き取る",
       "lemma_jp": "書き取る",
       "meaning_vi": "Viết vào, viết lại",
-      "reading": null,
-      "reading_source": null,
+      "reading": "かきとる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "授業",
+          "reading": "じゅぎょう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "内容",
+          "reading": "ないよう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "書",
+          "reading": "か"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Ghi lại nội dung buổi học"
     },
     {
       "id": "compound-verb-50",
@@ -915,11 +2949,49 @@
       "example_jp": "音声を聞き取る",
       "lemma_jp": "聞き取る",
       "meaning_vi": "Nghe hiểu",
-      "reading": null,
-      "reading_source": null,
+      "reading": "ききとる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "聞"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "取",
+          "reading": "きと"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "音声",
+          "reading": "おんせい"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "聞"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "取",
+          "reading": "きと"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Nghe hiểu âm thanh"
     },
     {
       "id": "compound-verb-51",
@@ -933,11 +3005,49 @@
       "example_jp": "言われたことを聞き直す",
       "lemma_jp": "聞き直す",
       "meaning_vi": "Nghe lại hỏi lại",
-      "reading": null,
-      "reading_source": null,
+      "reading": "ききなおす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "聞"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "直",
+          "reading": "きなお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "言",
+          "reading": "い"
+        },
+        {
+          "text": "われたことを"
+        },
+        {
+          "text": "聞"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "直",
+          "reading": "きなお"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Hỏi lại điều đã được nói"
     },
     {
       "id": "compound-verb-52",
@@ -951,11 +3061,70 @@
       "example_jp": "部品と部品を組み合わせる",
       "lemma_jp": "組み合わせる",
       "meaning_vi": "Kết hợp",
-      "reading": null,
-      "reading_source": null,
+      "reading": "くみあわせる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "組",
+          "reading": "く"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "わ"
+        },
+        {
+          "text": "せ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "部品",
+          "reading": "ぶひん"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "部品",
+          "reading": "ぶひん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "組",
+          "reading": "く"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "わ"
+        },
+        {
+          "text": "せ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Kết hợp linh kiện với linh kiện"
     },
     {
       "id": "compound-verb-53",
@@ -969,11 +3138,57 @@
       "example_jp": "機械を組み立てる",
       "lemma_jp": "組み立てる",
       "meaning_vi": "Lắp ráp",
-      "reading": null,
-      "reading_source": null,
+      "reading": "くみたてる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "組",
+          "reading": "く"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "立",
+          "reading": "た"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "機械",
+          "reading": "きかい"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "組",
+          "reading": "く"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "立",
+          "reading": "た"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Lắp ráp máy"
     },
     {
       "id": "compound-verb-54",
@@ -987,11 +3202,47 @@
       "example_jp": "かぎを差し込む",
       "lemma_jp": "差し込む",
       "meaning_vi": "Đặt vào",
-      "reading": null,
-      "reading_source": null,
+      "reading": "さしこむ",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "差",
+          "reading": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "かぎを"
+        },
+        {
+          "text": "差",
+          "reading": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_vi": "Cắm chìa khóa vào"
     },
     {
       "id": "compound-verb-55",
@@ -1005,11 +3256,61 @@
       "example_jp": "朝日が差し込む",
       "lemma_jp": "日が差し込む",
       "meaning_vi": "Rọi vào, chiếu vào",
-      "reading": null,
-      "reading_source": null,
+      "reading": "ひがさしこむ",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "日",
+          "reading": "ひ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "差",
+          "reading": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "朝"
+        },
+        {
+          "text": "日",
+          "reading": "ひ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "差",
+          "reading": "さ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_vi": "Ánh nắng ban mai chiếu vào"
     },
     {
       "id": "compound-verb-56",
@@ -1023,11 +3324,51 @@
       "example_jp": "大学のサークルで知り合う",
       "lemma_jp": "知り合う",
       "meaning_vi": "Quen biết",
-      "reading": null,
-      "reading_source": null,
+      "reading": "しりあう",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "知",
+          "reading": "し"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "大学",
+          "reading": "だいがく"
+        },
+        {
+          "text": "のサークルで"
+        },
+        {
+          "text": "知",
+          "reading": "し"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "example_vi": "Quen biết ở câu lạc bộ đại học"
     },
     {
       "id": "compound-verb-57",
@@ -1041,11 +3382,53 @@
       "example_jp": "いすから立ち上がる",
       "lemma_jp": "立ち上がる",
       "meaning_vi": "Đứng lên",
-      "reading": null,
-      "reading_source": null,
+      "reading": "たちあがる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "立",
+          "reading": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "いすから"
+        },
+        {
+          "text": "立",
+          "reading": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Đứng dậy từ ghế"
     },
     {
       "id": "compound-verb-58",
@@ -1059,11 +3442,61 @@
       "example_jp": "反対運動に立ち上がる",
       "lemma_jp": "立ち上がる",
       "meaning_vi": "Vươn lên",
-      "reading": null,
-      "reading_source": null,
+      "reading": "たちあがる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "立",
+          "reading": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "反対",
+          "reading": "はんたい"
+        },
+        {
+          "text": "運動",
+          "reading": "うんどう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "立",
+          "reading": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Đứng lên tham gia phong trào phản đối"
     },
     {
       "id": "compound-verb-59",
@@ -1077,11 +3510,64 @@
       "example_jp": "名前を呼ばれ立ち止まる",
       "lemma_jp": "立ち止まる",
       "meaning_vi": "Dừng lại",
-      "reading": null,
-      "reading_source": null,
+      "reading": "たちどまる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "立",
+          "reading": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "止",
+          "reading": "ど"
+        },
+        {
+          "text": "ま"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "呼",
+          "reading": "よ"
+        },
+        {
+          "text": "ばれ"
+        },
+        {
+          "text": "立",
+          "reading": "た"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "止",
+          "reading": "ど"
+        },
+        {
+          "text": "ま"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Bị gọi tên thì dừng lại"
     },
     {
       "id": "compound-verb-60",
@@ -1095,11 +3581,62 @@
       "example_jp": "近所の人と親しく付き合う",
       "lemma_jp": "付き合う",
       "meaning_vi": "Giao tiếp",
-      "reading": null,
-      "reading_source": null,
+      "reading": "つきあう",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "近所",
+          "reading": "きんじょ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "人",
+          "reading": "ひと"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "親しく",
+          "reading": "したしく"
+        },
+        {
+          "text": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "example_vi": "Quan hệ thân với hàng xóm"
     },
     {
       "id": "compound-verb-61",
@@ -1113,11 +3650,47 @@
       "example_jp": "ガールフレンドと付き合う",
       "lemma_jp": "付き合う",
       "meaning_vi": "Hẹn hò",
-      "reading": null,
-      "reading_source": null,
+      "reading": "つきあう",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ガールフレンドと"
+        },
+        {
+          "text": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "う"
+        }
+      ],
+      "example_vi": "Hẹn hò với bạn gái"
     },
     {
       "id": "compound-verb-62",
@@ -1131,11 +3704,57 @@
       "example_jp": "家を作り上げる",
       "lemma_jp": "作り上げる",
       "meaning_vi": "Xây dựng",
-      "reading": null,
-      "reading_source": null,
+      "reading": "つくりあげる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "作",
+          "reading": "つく"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "家",
+          "reading": "いえ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "作",
+          "reading": "つく"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Xây dựng/hoàn thành ngôi nhà"
     },
     {
       "id": "compound-verb-63",
@@ -1149,11 +3768,57 @@
       "example_jp": "説明を付け加える",
       "lemma_jp": "付け加える",
       "meaning_vi": "Bổ sung",
-      "reading": null,
-      "reading_source": null,
+      "reading": "つけくわえる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "加",
+          "reading": "くわ"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "説明",
+          "reading": "せつめい"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "付",
+          "reading": "つ"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "加",
+          "reading": "くわ"
+        },
+        {
+          "text": "え"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Bổ sung thêm phần giải thích"
     },
     {
       "id": "compound-verb-64",
@@ -1167,11 +3832,59 @@
       "example_jp": "メールで問い合わせる",
       "lemma_jp": "問い合わせる",
       "meaning_vi": "Thắc mắc",
-      "reading": null,
-      "reading_source": null,
+      "reading": "といあわせる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "問",
+          "reading": "と"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "わ"
+        },
+        {
+          "text": "せ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "メールで"
+        },
+        {
+          "text": "問",
+          "reading": "と"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "わ"
+        },
+        {
+          "text": "せ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Hỏi thắc mắc qua email"
     },
     {
       "id": "compound-verb-65",
@@ -1185,11 +3898,60 @@
       "example_jp": "この問題を取り上げる",
       "lemma_jp": "取り上げる",
       "meaning_vi": "Bàn luận",
-      "reading": null,
-      "reading_source": null,
+      "reading": "とりあげる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "問題",
+          "reading": "もんだい"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "げ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Đưa vấn đề này ra bàn"
     },
     {
       "id": "compound-verb-66",
@@ -1203,11 +3965,57 @@
       "example_jp": "栄養を取り入れる",
       "lemma_jp": "取り入れる",
       "meaning_vi": "Thu nhập",
-      "reading": null,
-      "reading_source": null,
+      "reading": "とりいれる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "入",
+          "reading": "い"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "栄養",
+          "reading": "えいよう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "入",
+          "reading": "い"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Hấp thụ dinh dưỡng"
     },
     {
       "id": "compound-verb-67",
@@ -1221,11 +4029,64 @@
       "example_jp": "外国の文化を取り入れる",
       "lemma_jp": "取り入れる",
       "meaning_vi": "Tiếp thu",
-      "reading": null,
-      "reading_source": null,
+      "reading": "とりいれる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "入",
+          "reading": "い"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "外国",
+          "reading": "がいこく"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "文化",
+          "reading": "ぶんか"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "入",
+          "reading": "い"
+        },
+        {
+          "text": "れ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Tiếp thu văn hóa nước ngoài"
     },
     {
       "id": "compound-verb-68",
@@ -1239,11 +4100,51 @@
       "example_jp": "研究に取り組む",
       "lemma_jp": "取り組む",
       "meaning_vi": "Nỗ lực",
-      "reading": null,
-      "reading_source": null,
+      "reading": "とりくむ",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "組",
+          "reading": "く"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "研究",
+          "reading": "けんきゅう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "組",
+          "reading": "く"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_vi": "Dốc sức vào nghiên cứu"
     },
     {
       "id": "compound-verb-69",
@@ -1257,11 +4158,51 @@
       "example_jp": "元気を取り戻す",
       "lemma_jp": "取り戻す",
       "meaning_vi": "Lấy lại, khôi phục",
-      "reading": null,
-      "reading_source": null,
+      "reading": "とりもどす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "戻",
+          "reading": "もど"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "元気",
+          "reading": "げんき"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "取",
+          "reading": "と"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "戻",
+          "reading": "もど"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Lấy lại tinh thần"
     },
     {
       "id": "compound-verb-70",
@@ -1275,11 +4216,60 @@
       "example_jp": "電車を一駅乗り過ごす",
       "lemma_jp": "駅乗り過ごす",
       "meaning_vi": "Đi quá",
-      "reading": null,
-      "reading_source": null,
+      "reading": "えきのりすごす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "駅乗",
+          "reading": "えきの"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "過",
+          "reading": "す"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "電車",
+          "reading": "でんしゃ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "一"
+        },
+        {
+          "text": "駅乗",
+          "reading": "えきの"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "過",
+          "reading": "す"
+        },
+        {
+          "text": "ご"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Đi tàu quá một ga"
     },
     {
       "id": "compound-verb-71",
@@ -1293,11 +4283,64 @@
       "example_jp": "父から会社を引き受ける",
       "lemma_jp": "引き受ける",
       "meaning_vi": "Nhận việc",
-      "reading": null,
-      "reading_source": null,
+      "reading": "ひきうける",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "引",
+          "reading": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "父",
+          "reading": "ちち"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "引",
+          "reading": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "受",
+          "reading": "う"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Tiếp nhận công ty từ bố"
     },
     {
       "id": "compound-verb-72",
@@ -1311,11 +4354,51 @@
       "example_jp": "能力を引き出す",
       "lemma_jp": "引き出す",
       "meaning_vi": "Phát huy",
-      "reading": null,
-      "reading_source": null,
+      "reading": "ひきだす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "引",
+          "reading": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "能力",
+          "reading": "のうりょく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "引",
+          "reading": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Phát huy năng lực"
     },
     {
       "id": "compound-verb-73",
@@ -1329,11 +4412,57 @@
       "example_jp": "銀行からお金を引き出す",
       "lemma_jp": "引き出す",
       "meaning_vi": "Rút tiền",
-      "reading": null,
-      "reading_source": null,
+      "reading": "ひきだす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "引",
+          "reading": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "銀行",
+          "reading": "ぎんこう"
+        },
+        {
+          "text": "からお"
+        },
+        {
+          "text": "金"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "引",
+          "reading": "ひ"
+        },
+        {
+          "text": "き"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Rút tiền từ ngân hàng"
     },
     {
       "id": "compound-verb-74",
@@ -1347,11 +4476,63 @@
       "example_jp": "人と待ち合わせる",
       "lemma_jp": "待ち合わせる",
       "meaning_vi": "Hẹn gặp",
-      "reading": null,
-      "reading_source": null,
+      "reading": "まちあわせる",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "待",
+          "reading": "ま"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "わ"
+        },
+        {
+          "text": "せ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "人",
+          "reading": "ひと"
+        },
+        {
+          "text": "と"
+        },
+        {
+          "text": "待",
+          "reading": "ま"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "わ"
+        },
+        {
+          "text": "せ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Hẹn gặp ai đó"
     },
     {
       "id": "compound-verb-75",
@@ -1365,11 +4546,47 @@
       "example_jp": "おかねを振り込む",
       "lemma_jp": "振り込む",
       "meaning_vi": "Chuyển tiền",
-      "reading": null,
-      "reading_source": null,
+      "reading": "ふりこむ",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "振",
+          "reading": "ふ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "おかねを"
+        },
+        {
+          "text": "振",
+          "reading": "ふ"
+        },
+        {
+          "text": "り"
+        },
+        {
+          "text": "込",
+          "reading": "こ"
+        },
+        {
+          "text": "む"
+        }
+      ],
+      "example_vi": "Chuyển tiền"
     },
     {
       "id": "compound-verb-76",
@@ -1383,11 +4600,55 @@
       "example_jp": "参加を呼びかける",
       "lemma_jp": "呼びかける",
       "meaning_vi": "Kêu gọi",
-      "reading": null,
-      "reading_source": null,
+      "reading": "よびかける",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "呼",
+          "reading": "よ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "参加",
+          "reading": "さんか"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "呼",
+          "reading": "よ"
+        },
+        {
+          "text": "び"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "け"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "example_vi": "Kêu gọi tham gia"
     },
     {
       "id": "compound-verb-78",
@@ -1401,11 +4662,57 @@
       "example_jp": "家からお金を持ち出す",
       "lemma_jp": "持ち出す",
       "meaning_vi": "Mang ra",
-      "reading": null,
-      "reading_source": null,
+      "reading": "もちだす",
+      "reading_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "持",
+          "reading": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "家",
+          "reading": "いえ"
+        },
+        {
+          "text": "からお"
+        },
+        {
+          "text": "金"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "持",
+          "reading": "も"
+        },
+        {
+          "text": "ち"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "example_vi": "Mang tiền ra khỏi nhà"
     }
   ]
 }

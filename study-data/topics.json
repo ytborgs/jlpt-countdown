@@ -20,8 +20,8 @@
   {
     "id": "verbs",
     "title": "Động từ phức hợp",
-    "description": "Học nghĩa và cụm ví dụ của động từ phức hợp.",
-    "notice": "Hiện có 77 trong số 80 mục theo tên tài liệu. Dữ liệu chưa có cách đọc, nên không hiển thị furigana.",
+    "description": "Học nghĩa, cách đọc (furigana) và ví dụ Nhật–Việt của động từ phức hợp.",
+    "notice": "Hiện có 77/80 mục theo tên tài liệu. Furigana và dịch ví dụ là linguistic (PDF không in furigana).",
     "count": 77,
     "unit": "mục",
     "path": "./study-data/verbs.json"
@@ -30,7 +30,7 @@
     "id": "kanji-quiz",
     "title": "Trắc nghiệm Hán tự",
     "description": "Chọn cách đọc phù hợp và kiểm tra đáp án từng câu.",
-    "notice": "Đủ 96/96 câu. Đáp án chép từ phần khoanh trên tài liệu (answer_source: visual_annotation).",
+    "notice": "Đủ 96/96 câu. Đáp án từ khoanh trên tài liệu (visual_annotation).",
     "count": 96,
     "unit": "câu",
     "path": "./study-data/kanji-quiz.json"
@@ -38,10 +38,55 @@
   {
     "id": "synonyms",
     "title": "Từ đồng nghĩa dễ nhầm",
-    "description": "Ôn câu hỏi và các lựa chọn từ đồng nghĩa; có chấm đúng/sai.",
-    "notice": "Đáp án linguistic (PDF không in key) — không phải đáp án official. Có thể chọn để kiểm tra.",
+    "description": "Ôn câu hỏi đồng nghĩa; từ cần hỏi được đánh dấu trong câu; có chấm đúng/sai.",
+    "notice": "Đáp án linguistic (PDF không in key) — không phải official. Field target để đậm/gạch chân.",
     "count": 30,
     "unit": "câu",
     "path": "./study-data/synonyms.json"
+  },
+  {
+    "id": "usage-quiz",
+    "title": "50 câu cách dùng từ",
+    "description": "Trắc nghiệm cách dùng từ N3 có đáp án.",
+    "notice": "Đáp án từ khoanh trên tài liệu (visual_annotation).",
+    "count": 50,
+    "unit": "câu",
+    "path": "./study-data/usage-quiz.json"
+  },
+  {
+    "id": "hard-quiz",
+    "title": "Câu hỏi khó dễ lừa",
+    "description": "Tổng hợp câu khó/dễ lừa JLPT N3 các năm.",
+    "notice": "Đáp án linguistic — không phải official.",
+    "count": 30,
+    "unit": "câu",
+    "path": "./study-data/hard-quiz.json"
+  },
+  {
+    "id": "near-synonyms",
+    "title": "Từ gần nghĩa các năm",
+    "description": "Trắc nghiệm từ gần nghĩa N3 theo các kỳ.",
+    "notice": "Đáp án từ khoanh trên tài liệu (visual_annotation).",
+    "count": 70,
+    "unit": "câu",
+    "path": "./study-data/near-synonyms.json"
+  },
+  {
+    "id": "adverbs",
+    "title": "Tổng hợp phó từ N3",
+    "description": "Danh sách phó từ N3 kèm nghĩa.",
+    "notice": "",
+    "count": 81,
+    "unit": "mục",
+    "path": "./study-data/adverbs.json"
+  },
+  {
+    "id": "adverb-patterns",
+    "title": "Phó từ với mẫu câu đặc định",
+    "description": "Phó từ đi kèm các mẫu câu thường gặp.",
+    "notice": "",
+    "count": 25,
+    "unit": "mục",
+    "path": "./study-data/adverb-patterns.json"
   }
 ]

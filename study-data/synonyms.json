@@ -9,13 +9,14 @@
   "page_count": null,
   "item_count": 30,
   "content_source": "pdf_extract",
-  "produced_at": "2026-10-16T05:28:44+00:00",
+  "produced_at": "2026-10-16T06:30:26+00:00",
   "producer": "n3-exam-solver/linguistic",
   "status": "verified",
   "needs_verify_count": 0,
   "notes": [
     "Đáp án linguistic (PDF không in key). answer_source=linguistic — không phải official.",
-    "Giải bằng n3-exam-solver; cập nhật practice JSON."
+    "Giải bằng n3-exam-solver; cập nhật practice JSON.",
+    "target = từ/đoạn được hỏi đồng nghĩa trong stem (để UI đậm/gạch chân)."
   ],
   "items": [
     {
@@ -54,7 +55,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "適当なこと"
     },
     {
       "id": "synonym-q-02",
@@ -92,7 +94,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "明けて"
     },
     {
       "id": "synonym-q-03",
@@ -130,7 +133,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "ぬるい"
     },
     {
       "id": "synonym-q-04",
@@ -168,7 +172,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "進んだ"
     },
     {
       "id": "synonym-q-05",
@@ -206,7 +211,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "前もって"
     },
     {
       "id": "synonym-q-06",
@@ -244,7 +250,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "そろっている"
     },
     {
       "id": "synonym-q-07",
@@ -282,7 +289,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "環境"
     },
     {
       "id": "synonym-q-08",
@@ -320,7 +328,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "結構な"
     },
     {
       "id": "synonym-q-09",
@@ -358,7 +367,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "特徴"
     },
     {
       "id": "synonym-q-10",
@@ -396,7 +406,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "つかんだ"
     },
     {
       "id": "synonym-q-11",
@@ -434,7 +445,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "以前"
     },
     {
       "id": "synonym-q-12",
@@ -472,7 +484,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "一生懸命"
     },
     {
       "id": "synonym-q-13",
@@ -510,7 +523,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "くたびれて"
     },
     {
       "id": "synonym-q-14",
@@ -548,7 +562,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "あわただしい"
     },
     {
       "id": "synonym-q-15",
@@ -586,7 +601,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "偶然"
     },
     {
       "id": "synonym-q-16",
@@ -624,7 +640,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "まったく"
     },
     {
       "id": "synonym-q-17",
@@ -662,7 +679,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "たぶん"
     },
     {
       "id": "synonym-q-18",
@@ -700,7 +718,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "ただで"
     },
     {
       "id": "synonym-q-19",
@@ -738,7 +757,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "もったいない"
     },
     {
       "id": "synonym-q-20",
@@ -776,7 +796,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "規模"
     },
     {
       "id": "synonym-q-21",
@@ -814,7 +835,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "乱暴な"
     },
     {
       "id": "synonym-q-22",
@@ -852,7 +874,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "生意気な"
     },
     {
       "id": "synonym-q-23",
@@ -890,7 +913,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "気の毒だ"
     },
     {
       "id": "synonym-q-24",
@@ -928,7 +952,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "とりあえず"
     },
     {
       "id": "synonym-q-25",
@@ -966,7 +991,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "わざと"
     },
     {
       "id": "synonym-q-26",
@@ -1004,7 +1030,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "もったいない"
     },
     {
       "id": "synonym-q-27",
@@ -1042,7 +1069,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "じっくり"
     },
     {
       "id": "synonym-q-28",
@@ -1080,7 +1108,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "あっさりした"
     },
     {
       "id": "synonym-q-29",
@@ -1118,7 +1147,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "とっくに"
     },
     {
       "id": "synonym-q-30",
@@ -1156,7 +1186,8 @@
       "verify_reason": null,
       "ai_extra": null,
       "answer_source": "linguistic",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "target": "しょっちゅう"
     }
   ]
 }
