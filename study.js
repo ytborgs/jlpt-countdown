@@ -11,7 +11,7 @@ const normalize = value => String(value).normalize('NFKC').toLowerCase().normali
 const searchable = value => Array.isArray(value) ? value.map(searchable).join(' ') : value && typeof value === 'object' ? Object.entries(value).filter(([key]) => !/^(source|content_source|verify_reason|id|knowledge_id|ai_extra|ruby_source)/.test(key)).map(([, v]) => searchable(v)).join(' ') : typeof value === 'string' ? value : '';
 export const filterStudy = (items, query) => items.filter(item => normalize(searchable(item)).includes(normalize(query.trim())));
 export const hasAnswer = item => item.correct_answer != null && item.choices.some(choice => String(choice.key) === String(item.correct_answer));
-const topicNotice = topic => (topic.notice || '').replace(/Cần UI type=reading(?: \(xem PROMPT\))?\.\s*/g, '');
+const topicNotice = topic => (topic.notice || '').replace(/(?:Cần )?UI type=reading(?: \(xem PROMPT\))?\.\s*/g, '');
 
 export function createStudyCard(item, index, selections = new Map()) {
   // The answer edition retains type=tips but supplies the complete grammar schema.
