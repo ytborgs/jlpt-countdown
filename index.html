@@ -22,7 +22,18 @@
     .hero{padding:clamp(45px,10vh,85px) 0 36px}.eyebrow{font-size:12px;letter-spacing:.21em;color:var(--accent);font-weight:800}.greeting{color:var(--green);font-size:15px;font-weight:700;margin:16px 0 -2px}.hero h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(47px,12vw,71px);font-weight:400;line-height:1.05;letter-spacing:-.045em;margin:15px 0}.hero p{color:var(--muted);font-size:15px;line-height:1.6;margin:0}
     .count{border:1px solid var(--line);background:linear-gradient(155deg,#1b304b,var(--card));border-radius:28px;padding:29px 27px;box-shadow:0 22px 50px #040a1480}.count-label{font-size:12px;text-transform:uppercase;letter-spacing:.18em;color:var(--muted);font-weight:700}.days{display:flex;align-items:baseline;gap:10px;margin:12px 0 8px}.days strong{font-size:clamp(90px,24vw,128px);font-weight:650;letter-spacing:-.09em;line-height:1;font-variant-numeric:tabular-nums;color:var(--accent)}.days span{font-size:18px;color:var(--muted)}.clock{font-size:16px;font-variant-numeric:tabular-nums;letter-spacing:.04em;color:var(--text)}.clock span{color:var(--muted)}
     .progress-head{display:flex;justify-content:space-between;gap:10px;margin-top:31px;font-size:12px;color:var(--muted)}.progress-head strong{color:var(--green)}.track{margin-top:12px;height:8px;border-radius:99px;background:#34465b;overflow:hidden}.fill{height:100%;width:0;background:linear-gradient(90deg,#9dd2bb,var(--accent));border-radius:99px;transition:width .5s}
-    .home-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.home-actions a{display:flex;flex-direction:column;gap:4px;min-height:72px;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:var(--card);color:var(--text);text-decoration:none}.home-actions a strong{font-size:15px;font-weight:700;color:var(--accent)}.home-actions a span{font-size:12px;line-height:1.4;color:var(--muted)}.home-actions a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+    .home-fab{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:40;display:grid;justify-items:end;gap:10px;pointer-events:none}
+    .home-fab>*{pointer-events:auto}
+    .home-fab-menu{display:grid;gap:8px;min-width:min(260px,calc(100vw - 40px));padding:8px;border:1px solid var(--line);border-radius:16px;background:var(--card);box-shadow:0 12px 40px #0005}
+    .home-fab-menu[hidden]{display:none}
+    .home-fab-menu a{display:flex;flex-direction:column;gap:3px;min-height:52px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--text);text-decoration:none}
+    .home-fab-menu a strong{font-size:15px;font-weight:700;color:var(--accent)}
+    .home-fab-menu a span{font-size:12px;line-height:1.4;color:var(--muted)}
+    .home-fab-menu a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+    .home-fab-toggle{font:inherit;font-size:15px;font-weight:700;min-height:52px;padding:12px 18px;border:0;border-radius:999px;color:var(--bg);background:var(--accent);box-shadow:0 10px 28px color-mix(in srgb,var(--accent) 45%,transparent);cursor:pointer}
+    .home-fab-toggle:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+    .home-fab-toggle[aria-expanded=true]{box-shadow:0 6px 18px #0003}
+    body{padding-bottom:calc(88px + env(safe-area-inset-bottom))}
     .footer{margin-top:auto;padding-top:38px}.quote{border-left:2px solid var(--accent);padding-left:16px;line-height:1.45}.quote .jp{font-family:Georgia,"Times New Roman",serif;font-size:21px}.quote .vi{display:block;margin-top:7px;color:var(--muted);font-size:14px}.sub{color:var(--muted);font-size:12px;line-height:1.6;margin:18px 0 0}.exam{display:flex;justify-content:space-between;gap:15px;align-items:center;margin-top:32px;padding-top:20px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}.exam b{color:var(--text);font-size:13px}
     [hidden]{display:none!important}
     @media(prefers-color-scheme:light){:root{color-scheme:light;--bg:#f5f0e6;--card:#fffbf4;--line:#d9d6cb;--text:#18283b;--muted:#617084;--accent:#a2611e;--green:#44745c}body{background:radial-gradient(circle at 90% 0%,#f5d9b8 0,transparent 32%),var(--bg)}.count{background:linear-gradient(155deg,#fffaf1,#f1eee7);box-shadow:0 22px 45px #36312818}.seal{color:#fff}.track{background:#dfded5}}
@@ -36,7 +47,6 @@
       .greeting{font-size:17px}
       .count{margin-top:20px;padding:32px;align-self:center;min-width:0}
       .days strong{font-size:116px}
-      .home-actions{grid-column:1 / -1;max-width:560px;margin-top:8px}
       .grammar-panel{grid-column:1 / -1;margin-top:20px}
       .grammar-heading{font-size:36px}
       .grammar-panel .grammar-list{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:22px}
@@ -52,19 +62,38 @@
   <main>
     <section class="hero"><div class="eyebrow">日本語能力試験 · 06.12.2026</div><div class="greeting" id="greeting" hidden></div><h1>Ngày thi<br>đang đến gần.</h1><p>Đếm từng ngày, học từng chút.<br>Hành trình N3 của bạn bắt đầu từ hôm nay.</p></section>
     <section class="count" aria-label="Đếm ngược đến ngày thi JLPT N3"><div class="count-label">Còn lại đến ngày thi</div><div class="days"><strong id="days">--</strong><span>ngày</span></div><div class="clock" aria-live="off"><b id="hours">--</b><span> giờ · </span><b id="minutes">--</b><span> phút · </span><b id="seconds">--</b><span> giây</span></div><div class="progress-head"><span>Chặng nước rút từ 05/10</span><strong id="percent">0%</strong></div><div class="track" role="progressbar" aria-label="Tiến độ đến ngày thi" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="fill" id="fill"></div></div></section>
-    <nav class="home-actions" aria-label="Học nhanh">
-      <a href="./study.html"><strong>Tài liệu ôn</strong><span>18 bộ ngữ pháp, từ và mẹo</span></a>
-      <a href="./study.html#kanji-quiz"><strong>Luyện nhanh</strong><span>Trắc nghiệm Hán tự · chế độ phiên</span></a>
-    </nav>
     <section class="grammar-panel" id="daily-grammar" aria-labelledby="grammar-title"><div class="eyebrow">ÔN MỖI LẦN MỞ APP</div><h2 class="grammar-heading" id="grammar-title">6 mẫu ngữ pháp N3</h2><p class="grammar-status" id="grammar-status" role="status">Đang tải ngữ pháp…</p><button class="grammar-retry" id="grammar-retry" type="button" hidden>Thử tải lại</button><div class="grammar-list" id="grammar-list" aria-busy="true"></div></section>
     <div class="footer"><div class="quote" aria-live="polite"><span class="jp" id="quote-jp">「継続は力なり」</span><span class="vi" id="quote-vi">Kiên trì tạo nên sức mạnh.</span></div><p class="sub">Mỗi ngày thêm một bài nghe, một trang đọc, một chút tự tin.</p><div class="exam"><span>ĐÍCH ĐẾN</span><b>JLPT N3 · 06/12/2026</b></div></div>
   </main>
+  <div class="home-fab" id="home-fab">
+    <nav class="home-fab-menu" id="home-fab-menu" role="menu" aria-label="Lối tắt học" hidden>
+      <a href="./study.html" role="menuitem"><strong>Tài liệu ôn</strong><span>18 bộ ngữ pháp, từ và mẹo</span></a>
+      <a href="./study.html#kanji-quiz" role="menuitem"><strong>Luyện nhanh</strong><span>Trắc nghiệm Hán tự · chế độ phiên</span></a>
+    </nav>
+    <button type="button" class="home-fab-toggle" id="home-fab-toggle" aria-haspopup="menu" aria-expanded="false" aria-controls="home-fab-menu">Học</button>
+  </div>
   <script>
     (()=>{
       // The calendar is shown in Vietnam time; the exact exam session time is not assumed.
       const exam=Date.parse('2026-12-06T00:00:00+07:00');
       const start=Date.parse('2026-10-05T00:00:00+07:00');
       const $=id=>document.getElementById(id), pad=n=>String(n).padStart(2,'0');
+      const fab=$('home-fab'), fabMenu=$('home-fab-menu'), fabToggle=$('home-fab-toggle');
+      const setFabOpen=open=>{
+        fabMenu.hidden=!open;
+        fabToggle.setAttribute('aria-expanded',String(open));
+      };
+      fabToggle.addEventListener('click',()=>setFabOpen(fabMenu.hidden));
+      document.addEventListener('click',event=>{
+        if(fabMenu.hidden||fab.contains(event.target))return;
+        setFabOpen(false);
+      });
+      window.addEventListener('keydown',event=>{
+        if(event.key!=='Escape'||fabMenu.hidden)return;
+        event.preventDefault();
+        setFabOpen(false);
+        fabToggle.focus();
+      });
       function update(){
         const now=Date.now(), left=Math.max(0,exam-now);
         $('days').textContent=Math.floor(left/86400000);
