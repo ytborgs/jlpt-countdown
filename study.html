@@ -7,8 +7,8 @@
   <title>Tài liệu ôn tập N3 tổng hợp</title>
   <link rel="icon" type="image/svg+xml" href="./icon.svg">
   <link rel="stylesheet" href="./grammar.css">
-  <link rel="stylesheet" href="./study.css?v=35">
-  <script type="module" src="./study.js?v=35"></script>
+  <link rel="stylesheet" href="./study.css?v=36">
+  <script type="module" src="./study.js?v=36"></script>
 </head>
 <body class="grammar-library-page study-page"><main>
   <header class="library-toolbar">
@@ -16,11 +16,21 @@
     <label class="grammar-search-label" for="study-search">Tìm trong tài liệu</label>
     <input class="grammar-search" id="study-search" type="search" placeholder="Tìm tài liệu…" autocomplete="off">
     <nav id="study-group-filters" class="study-group-filters" aria-label="Lọc theo nhóm tài liệu" hidden></nav>
-    <nav id="study-view-mode" class="study-view-mode" aria-label="Chế độ xem" hidden></nav>
     <p class="grammar-status" id="study-status" role="status">Đang tải tài liệu…</p>
-  <section id="study-progress" class="study-progress" aria-label="Tiến độ luyện tập" hidden>
-    <div class="study-progress-summary">
-      <p id="study-progress-text" class="study-progress-text" aria-live="polite"></p>
+  <section id="study-progress" class="study-progress study-practice-progress" aria-label="Tiến độ luyện tập" hidden>
+    <div class="study-practice-strip">
+      <nav id="study-view-mode" class="study-view-mode" aria-label="Chế độ xem" hidden></nav>
+      <div class="study-practice-meta">
+        <p id="study-progress-text" class="study-progress-text" aria-live="polite"></p>
+        <div id="study-progress-bar" class="study-progress-bar" role="progressbar" aria-label="Tiến độ hoàn thành" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <span id="study-progress-ok" class="study-progress-fill study-progress-ok"></span>
+          <span id="study-progress-bad" class="study-progress-fill study-progress-bad"></span>
+        </div>
+      </div>
+      <details id="study-filter-drawer" class="study-filter-drawer">
+        <summary id="study-filter-summary">Lọc</summary>
+        <div id="study-progress-filters" class="study-progress-filters" role="group" aria-label="Lọc câu hỏi"></div>
+      </details>
       <details id="study-progress-menu" class="study-progress-menu">
         <summary aria-label="Thao tác tiến độ" title="Thao tác tiến độ">⋯</summary>
         <div class="study-progress-actions">
@@ -30,23 +40,6 @@
         </div>
       </details>
     </div>
-    <div id="study-progress-bar" class="study-progress-bar" role="progressbar" aria-label="Tiến độ hoàn thành" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-      <span id="study-progress-ok" class="study-progress-fill study-progress-ok"></span>
-      <span id="study-progress-bad" class="study-progress-fill study-progress-bad"></span>
-    </div>
-    <details id="study-filter-drawer" class="study-filter-drawer">
-      <summary>Bộ lọc câu hỏi</summary>
-      <div id="study-progress-filters" class="study-progress-filters" role="group" aria-label="Lọc câu hỏi"></div>
-    </details>
-  </section>
-  <section id="study-session-nav" class="study-session-nav" aria-label="Điều hướng phiên luyện" hidden>
-    <p id="study-session-text" class="study-session-text" aria-live="polite"></p>
-    <div class="study-session-actions">
-      <button type="button" id="study-session-prev">Trước</button>
-      <button type="button" id="study-session-skip">Bỏ qua</button>
-      <button type="button" id="study-session-next" class="study-session-next">Câu tiếp</button>
-    </div>
-    <p class="study-session-hint">Phím <kbd>1</kbd>–<kbd>4</kbd> chọn · <kbd>Enter</kbd> tiếp · <kbd>←</kbd><kbd>→</kbd> điều hướng</p>
   </section>
   <section id="study-known-progress" class="study-progress study-known-progress" aria-label="Tiến độ ghi nhớ" hidden>
     <div class="study-known-strip">
@@ -96,6 +89,14 @@
   </section>
   <noscript>Bật JavaScript để xem tài liệu ôn tập.</noscript>
 </main>
+<section id="study-session-nav" class="study-session-dock" aria-label="Điều hướng phiên luyện" hidden>
+  <p id="study-session-text" class="study-session-text" aria-live="polite"></p>
+  <div class="study-session-actions">
+    <button type="button" id="study-session-prev">Trước</button>
+    <button type="button" id="study-session-skip">Bỏ qua</button>
+    <button type="button" id="study-session-next" class="study-session-next">Câu tiếp</button>
+  </div>
+</section>
 <div id="study-flash-fab" class="study-flash-fab" hidden>
   <div id="study-flash-fab-menu" class="study-flash-fab-menu" role="menu" hidden>
     <button type="button" id="study-flash-fab-unknown" role="menuitem">Ôn chưa thuộc</button>
