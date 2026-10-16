@@ -1,0 +1,47 @@
+[
+  {
+    "id": "grammar",
+    "title": "Ngữ pháp cơ bản",
+    "description": "80 mẫu với cấu trúc, cách dùng và ví dụ Nhật–Việt.",
+    "notice": "",
+    "count": 80,
+    "unit": "mục",
+    "path": "./study-data/grammar.json"
+  },
+  {
+    "id": "kanji",
+    "title": "Hán tự N3",
+    "description": "Tra Hán Việt, âm On, âm Kun và các chữ dễ nhầm.",
+    "notice": "Bảng Hán tự được trích xuất từ PDF và cần đối chiếu lại, đặc biệt các cột âm đọc và chữ dễ nhầm.",
+    "count": 416,
+    "unit": "mục",
+    "path": "./study-data/kanji.json"
+  },
+  {
+    "id": "verbs",
+    "title": "Động từ phức hợp",
+    "description": "Học nghĩa và cụm ví dụ của động từ phức hợp.",
+    "notice": "Hiện có 77 trong số 80 mục theo tên tài liệu. Dữ liệu chưa có cách đọc, nên không hiển thị furigana.",
+    "count": 77,
+    "unit": "mục",
+    "path": "./study-data/verbs.json"
+  },
+  {
+    "id": "kanji-quiz",
+    "title": "Trắc nghiệm Hán tự",
+    "description": "Chọn cách đọc phù hợp và kiểm tra đáp án từng câu.",
+    "notice": "Hiện có 32 trong số 96 câu theo tên tài liệu. Đáp án được chép từ phần đánh dấu trong tài liệu.",
+    "count": 32,
+    "unit": "câu",
+    "path": "./study-data/kanji-quiz.json"
+  },
+  {
+    "id": "synonyms",
+    "title": "Từ đồng nghĩa dễ nhầm",
+    "description": "Ôn câu hỏi và các lựa chọn từ đồng nghĩa.",
+    "notice": "Tài liệu chưa có đáp án. Bạn có thể chọn để tự ôn; ứng dụng không chấm đúng/sai.",
+    "count": 30,
+    "unit": "câu",
+    "path": "./study-data/synonyms.json"
+  }
+]
