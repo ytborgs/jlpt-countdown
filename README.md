@@ -75,7 +75,7 @@ Mỗi bộ có tìm kiếm riêng và hiển thị toàn bộ mục ngay khi t�
 
 Đáp án practice v8 chỉ chấm khi JSON có key được đối chiếu. Bộ đồng nghĩa dùng 30/30 đáp án visual; bộ câu hỏi khó đã bỏ các đáp án đoán linguistic và không chấm khi `correct_answer == null`. 96 câu Hán tự, 50 câu cách dùng từ và 70 câu từ gần nghĩa giữ đáp án visual hiện có. Nguồn visual không đồng nghĩa với đáp án chính thức của JLPT.
 
-Furigana v5 dùng các đoạn ruby được cung cấp trong JSON, với nguồn/cách đọc `linguistic`, không phải đáp án hay cách đọc chính thức từ kỳ thi. Vocabulary dùng `lemma_ruby`/`example_ruby`; grammar dùng `pattern_ruby`/`example_ruby`; reading dùng `connector_ruby` và `example_ruby` khi có. Practice dùng `stem_ruby`, hoặc `lemma_ruby` cho câu hỏi chỉ có từ vựng. Target được đánh dấu trên chữ gốc bên trong ruby, không đánh dấu nhầm cách đọc; target qua nhiều đoạn ruby vẫn giữ đủ phần gạch chân.
+Furigana v5 dùng các đoạn ruby được cung cấp trong JSON, với nguồn/cách đọc `linguistic`, không phải đáp án hay cách đọc chính thức từ kỳ thi. Vocabulary dùng `lemma_ruby`/`example_ruby`; grammar dùng `pattern_ruby`/`example_ruby`; reading dùng `connector_ruby` và `example_ruby` khi có. Practice dùng `stem_ruby`, hoặc `lemma_ruby` cho câu hỏi chỉ có từ vựng. Riêng trắc nghiệm Hán tự (`kanji-quiz`), từ gạch chân không hiển thị furigana để tránh lộ đáp án; các phần khác của câu vẫn giữ cách đọc. Target được đánh dấu trên chữ gốc bên trong ruby, không đánh dấu nhầm cách đọc; target qua nhiều đoạn ruby vẫn giữ đủ phần gạch chân.
 
 Chỉ dựng furigana khi các đoạn text khớp nguyên văn; dữ liệu không khớp được hiển thị bằng văn bản gốc và fallback cách đọc riêng khi có. Một số `pattern_ruby` của Ebook chưa khớp pattern, nên vẫn dùng fallback này; giữ nguyên dữ liệu nguồn. Không tự sinh furigana ở client. Tips body và thẻ kanji giữ cách hiển thị hiện có.
 
@@ -151,6 +151,6 @@ Khi sửa dữ liệu:
 Khi cập nhật tài nguyên được lưu offline, tăng phiên bản `CACHE` trong `sw.js`. Nếu thêm trang, CSS, JavaScript hoặc dữ liệu mới cần dùng offline, bổ sung đường dẫn vào `ASSETS`. Sau khi triển khai, tải lại ứng dụng khi có mạng để nhận phiên bản mới.
 
 
-Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=22`, `study.css?v=22` và JSON `?v=22`. Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline lưu đúng các URL này để tránh trộn mã và dữ liệu của bản cũ. Khi phát hành thay đổi study tiếp theo, tăng phiên bản trong `study.html`, fallback `DATA_VERSION` và các URL trong `ASSETS` cùng với `CACHE`.
+Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=23`, `study.css?v=23` và JSON `?v=23`. Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline lưu đúng các URL này để tránh trộn mã và dữ liệu của bản cũ. Khi phát hành thay đổi study tiếp theo, tăng phiên bản trong `study.html`, fallback `DATA_VERSION` và các URL trong `ASSETS` cùng với `CACHE`.
 
 Giới hạn dữ liệu v8: 3 câu chưa có tóm tắt và 1 lựa chọn chưa có nghĩa VI riêng; các lý do đúng/sai vẫn được hiển thị theo JSON. Ứng dụng không tự bổ sung những trường này.
