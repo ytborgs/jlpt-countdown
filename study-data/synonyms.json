@@ -18,7 +18,8 @@
     "Giải bằng n3-exam-solver; cập nhật practice JSON.",
     "target = từ/đoạn được hỏi đồng nghĩa trong stem (để UI đậm/gạch chân).",
     "Furigana: enrich *_ruby linguistic (align reading / pykakasi).",
-    "Phase v6: đáp án đối chiếu khoanh đỏ trên PDF (visual_annotation). Sửa #19/#26 3→1."
+    "Phase v6: đáp án đối chiếu khoanh đỏ trên PDF (visual_annotation). Sửa #19/#26 3→1.",
+    "Phase v8: choice_analyses + explanation (linguistic). Không đổi correct_answer."
   ],
   "items": [
     {
@@ -51,7 +52,7 @@
         }
       ],
       "correct_answer": "4",
-      "explanation": "適当なこと = nói đại/bừa; gần 信用できない (không đáng tin). Không phải ちょうどいい.",
+      "explanation": "「適当なこと」ở đây = nói đại / qua loa, không đứng đắn gần “không đáng tin”, không phải “vừa đúng”.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -81,7 +82,38 @@
         {
           "text": "いる。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "おもしろい",
+          "meaning_vi": "thú vị",
+          "status": "wrong",
+          "reason_vi": "Sai. “Thú vị” không phải nghĩa của 適当 trong ngữ cảnh nói bừa."
+        },
+        {
+          "key": "2",
+          "text_jp": "ちょうどいい",
+          "meaning_vi": "vừa đủ / vừa vặn",
+          "status": "wrong",
+          "reason_vi": "Sai. Đây là nghĩa tích cực khác của 適当 (thích hợp), không khớp câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "変な",
+          "meaning_vi": "kỳ lạ",
+          "status": "wrong",
+          "reason_vi": "Sai. Gần cảm giác nhưng chưa đúng: câu nhấn mạnh thiếu tin cậy / nói đại."
+        },
+        {
+          "key": "4",
+          "text_jp": "信用できない",
+          "meaning_vi": "không đáng tin",
+          "status": "correct",
+          "reason_vi": "Đúng. 適当なことばかり = toàn nói đại → không đáng tin."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-02",
@@ -113,7 +145,7 @@
         }
       ],
       "correct_answer": "2",
-      "explanation": "年が明ける = sang năm mới / năm đổi → 変わって.",
+      "explanation": "「年が明けて」= năm mới đã sang (thời điểm chuyển năm), gần “đã thay đổi / sang giai đoạn mới”.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -150,7 +182,38 @@
         {
           "text": "になった。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "すんで",
+          "meaning_vi": "đã xong",
+          "status": "wrong",
+          "reason_vi": "Sai. 済む = xong việc, không diễn tả sang năm mới."
+        },
+        {
+          "key": "2",
+          "text_jp": "変わって",
+          "meaning_vi": "đã thay đổi / sang",
+          "status": "correct",
+          "reason_vi": "Đúng. Năm đã “sang/đổi” gần nghĩa năm mới mở ra."
+        },
+        {
+          "key": "3",
+          "text_jp": "暮れて",
+          "meaning_vi": "đã tối / năm tàn",
+          "status": "wrong",
+          "reason_vi": "Sai. 暮れる thiên về tối trời hoặc năm sắp hết, ngược hướng với 明ける."
+        },
+        {
+          "key": "4",
+          "text_jp": "とって",
+          "meaning_vi": "lấy",
+          "status": "wrong",
+          "reason_vi": "Sai. Không liên quan đến thời điểm năm mới."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-03",
@@ -182,7 +245,7 @@
         }
       ],
       "correct_answer": "4",
-      "explanation": "ぬるい = ấm ấm / không nóng → 熱くない.",
+      "explanation": "「ぬるい」= ấm/nguội (không còn nóng) gần “không nóng”, không phải lạnh ngắt.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -201,7 +264,38 @@
         {
           "text": "がちょっと ぬるいです。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "冷たい",
+          "meaning_vi": "lạnh",
+          "status": "wrong",
+          "reason_vi": "Sai. 冷たい = lạnh; ぬるい là nguội/ấm dịu."
+        },
+        {
+          "key": "2",
+          "text_jp": "熱い",
+          "meaning_vi": "nóng",
+          "status": "wrong",
+          "reason_vi": "Sai. Trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "冷たくない",
+          "meaning_vi": "không lạnh",
+          "status": "wrong",
+          "reason_vi": "Sai. Phủ định “lạnh” không đủ nghĩa “đã nguội/bớt nóng”."
+        },
+        {
+          "key": "4",
+          "text_jp": "熱くない",
+          "meaning_vi": "không nóng",
+          "status": "correct",
+          "reason_vi": "Đúng. Nước tắm ぬるい = không còn nóng."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-04",
@@ -233,7 +327,7 @@
         }
       ],
       "correct_answer": "2",
-      "explanation": "病気が進む = bệnh nặng thêm → 悪くなった.",
+      "explanation": "「病気が進んだ」= bệnh tiến triển (xấu đi), không phải khá hơn.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -277,7 +371,38 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "よくなった",
+          "meaning_vi": "khá hơn",
+          "status": "wrong",
+          "reason_vi": "Sai. Trái nghĩa với bệnh tiến triển."
+        },
+        {
+          "key": "2",
+          "text_jp": "悪くなった",
+          "meaning_vi": "xấu đi",
+          "status": "correct",
+          "reason_vi": "Đúng. Bệnh nặng thêm."
+        },
+        {
+          "key": "3",
+          "text_jp": "はやっている",
+          "meaning_vi": "đang thịnh",
+          "status": "wrong",
+          "reason_vi": "Sai. Dùng cho dịch/trend, không nói tình trạng một bệnh nhân."
+        },
+        {
+          "key": "4",
+          "text_jp": "治りそう",
+          "meaning_vi": "sắp khỏi",
+          "status": "wrong",
+          "reason_vi": "Sai. Hướng tích cực, ngược câu."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-05",
@@ -309,7 +434,7 @@
         }
       ],
       "correct_answer": "1",
-      "explanation": "前もって = trước sẵn → あらかじめ.",
+      "explanation": "「前もって」= làm trước đồng nghĩa あらかじめ.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -339,7 +464,38 @@
         {
           "text": "もってこぴーしておく。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "あらかじめ",
+          "meaning_vi": "từ trước",
+          "status": "correct",
+          "reason_vi": "Đúng. Cùng nghĩa “chuẩn bị sẵn trước”."
+        },
+        {
+          "key": "2",
+          "text_jp": "すぐに",
+          "meaning_vi": "ngay lập tức",
+          "status": "wrong",
+          "reason_vi": "Sai. Là “ngay”, không phải “trước”."
+        },
+        {
+          "key": "3",
+          "text_jp": "以前",
+          "meaning_vi": "trước đây (thời kỳ)",
+          "status": "wrong",
+          "reason_vi": "Sai. Chỉ thời điểm trong quá khứ, không phải “làm sẵn trước việc”."
+        },
+        {
+          "key": "4",
+          "text_jp": "いそいで",
+          "meaning_vi": "vội",
+          "status": "wrong",
+          "reason_vi": "Sai. Nói tốc độ, không nói “làm trước”."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-06",
@@ -371,7 +527,7 @@
         }
       ],
       "correct_answer": "1",
-      "explanation": "そろっている = đủ bộ/có đủ → 全部ある.",
+      "explanation": "「そろっている」= có đủ / đủ bộ gần “全部ある”.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -405,7 +561,38 @@
         {
           "text": "がそろっている 。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "全部ある",
+          "meaning_vi": "có đủ",
+          "status": "correct",
+          "reason_vi": "Đúng. Sách ngữ pháp có đủ."
+        },
+        {
+          "key": "2",
+          "text_jp": "読まれている",
+          "meaning_vi": "đang được đọc",
+          "status": "wrong",
+          "reason_vi": "Sai. Bị động “được đọc”, khác nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "整理されている",
+          "meaning_vi": "được sắp xếp",
+          "status": "wrong",
+          "reason_vi": "Sai. Nói ngăn nắp, không nói đủ bộ."
+        },
+        {
+          "key": "4",
+          "text_jp": "並べてある",
+          "meaning_vi": "xếp sẵn",
+          "status": "wrong",
+          "reason_vi": "Sai. Chỉ trạng thái xếp, không khẳng định đủ loại."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-07",
@@ -437,7 +624,7 @@
         }
       ],
       "correct_answer": "3",
-      "explanation": "環境 = hoàn cảnh xung quanh → 周りの状態.",
+      "explanation": "「環境」= môi trường (sống/xung quanh) gần “周りの状態”.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -477,7 +664,38 @@
         {
           "text": "したい。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "空気",
+          "meaning_vi": "không khí",
+          "status": "wrong",
+          "reason_vi": "Sai. Chỉ một phần (không khí), hẹp hơn 環境."
+        },
+        {
+          "key": "2",
+          "text_jp": "外の景色",
+          "meaning_vi": "cảnh ngoài",
+          "status": "wrong",
+          "reason_vi": "Sai. Cảnh quan ≠ môi trường sống."
+        },
+        {
+          "key": "3",
+          "text_jp": "周りの状態",
+          "meaning_vi": "tình trạng xung quanh",
+          "status": "correct",
+          "reason_vi": "Đúng. Khớp nghĩa môi trường."
+        },
+        {
+          "key": "4",
+          "text_jp": "部屋の間取り",
+          "meaning_vi": "mặt bằng phòng",
+          "status": "wrong",
+          "reason_vi": "Sai. Chỉ bố trí phòng."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-08",
@@ -509,7 +727,7 @@
         }
       ],
       "correct_answer": "4",
-      "explanation": "結構な料理 = món ngon (lịch sự) → おいしい.",
+      "explanation": "「結構な」trong tiếp đãi lịch sự ≈ món ngon / tuyệt (khen) gần おいしい.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -532,7 +750,38 @@
         {
           "text": "をいただきました。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "初めての",
+          "meaning_vi": "lần đầu",
+          "status": "wrong",
+          "reason_vi": "Sai. Không phải nghĩa khen món."
+        },
+        {
+          "key": "2",
+          "text_jp": "たくさんの",
+          "meaning_vi": "nhiều",
+          "status": "wrong",
+          "reason_vi": "Sai. Số lượng, không phải chất lượng."
+        },
+        {
+          "key": "3",
+          "text_jp": "珍しい",
+          "meaning_vi": "hiếm có",
+          "status": "wrong",
+          "reason_vi": "Sai. Có thể liên quan nhưng không phải nghĩa chính ở đây."
+        },
+        {
+          "key": "4",
+          "text_jp": "おいしい",
+          "meaning_vi": "ngon / tuyệt",
+          "status": "correct",
+          "reason_vi": "Đúng. Lời khen món ăn lịch sự."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-09",
@@ -564,7 +813,7 @@
         }
       ],
       "correct_answer": "1",
-      "explanation": "特徴 = điểm nổi bật → 目立つところ.",
+      "explanation": "「特徴」= đặc trưng gần “điểm nổi bật”.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -597,7 +846,38 @@
         {
           "text": "てください。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "目立つところ",
+          "meaning_vi": "điểm nổi bật",
+          "status": "correct",
+          "reason_vi": "Đúng. Đặc điểm dễ nhận ra."
+        },
+        {
+          "key": "2",
+          "text_jp": "性格",
+          "meaning_vi": "tính cách",
+          "status": "wrong",
+          "reason_vi": "Sai. Chỉ một loại đặc điểm (tính), hẹp hơn."
+        },
+        {
+          "key": "3",
+          "text_jp": "名前や住所",
+          "meaning_vi": "tên, địa chỉ",
+          "status": "wrong",
+          "reason_vi": "Sai. Thông tin định danh, không phải đặc trưng."
+        },
+        {
+          "key": "4",
+          "text_jp": "考え方",
+          "meaning_vi": "cách nghĩ",
+          "status": "wrong",
+          "reason_vi": "Sai. Một khía cạnh, không bao quát 特徴."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-10",
@@ -629,7 +909,7 @@
         }
       ],
       "correct_answer": "1",
-      "explanation": "やり方をつかむ = nắm được cách làm → 覚えた.",
+      "explanation": "「つかんだ」(cách làm) = nắm được / học được gần 覚えた.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -666,7 +946,38 @@
         {
           "text": "つかんだ。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "覚えた",
+          "meaning_vi": "đã nhớ / nắm được",
+          "status": "correct",
+          "reason_vi": "Đúng. Nắm được cách làm việc."
+        },
+        {
+          "key": "2",
+          "text_jp": "発明した",
+          "meaning_vi": "đã phát minh",
+          "status": "wrong",
+          "reason_vi": "Sai. Tạo cái mới, không phải nắm cách."
+        },
+        {
+          "key": "3",
+          "text_jp": "失敗した",
+          "meaning_vi": "đã thất bại",
+          "status": "wrong",
+          "reason_vi": "Sai. Trái hướng."
+        },
+        {
+          "key": "4",
+          "text_jp": "もらった",
+          "meaning_vi": "đã nhận",
+          "status": "wrong",
+          "reason_vi": "Sai. Nhận đồ/thứ, không phải kỹ năng."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-11",
@@ -698,7 +1009,7 @@
         }
       ],
       "correct_answer": "1",
-      "explanation": "以前 = trước đây → 昔.",
+      "explanation": "「以前」= trước đây gần 昔.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -721,7 +1032,38 @@
         {
           "text": "だった。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "昔",
+          "meaning_vi": "xưa / trước kia",
+          "status": "correct",
+          "reason_vi": "Đúng. Cùng chỉ thời quá khứ."
+        },
+        {
+          "key": "2",
+          "text_jp": "最近",
+          "meaning_vi": "gần đây",
+          "status": "wrong",
+          "reason_vi": "Sai. Gần hiện tại, khác 以前."
+        },
+        {
+          "key": "3",
+          "text_jp": "直前",
+          "meaning_vi": "ngay trước",
+          "status": "wrong",
+          "reason_vi": "Sai. Khoảng sát ngay trước một sự kiện, hẹp hơn."
+        },
+        {
+          "key": "4",
+          "text_jp": "現代",
+          "meaning_vi": "hiện đại",
+          "status": "wrong",
+          "reason_vi": "Sai. Thời hiện tại."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-12",
@@ -753,7 +1095,7 @@
         }
       ],
       "correct_answer": "1",
-      "explanation": "一生懸命 = chăm chỉ → せっせと.",
+      "explanation": "「一生懸命」= hết sức / chăm chỉ gần せっせと.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -787,7 +1129,38 @@
         {
           "text": "ている。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "せっせと",
+          "meaning_vi": "miệt mài",
+          "status": "correct",
+          "reason_vi": "Đúng. Làm việc chăm chỉ."
+        },
+        {
+          "key": "2",
+          "text_jp": "そっと",
+          "meaning_vi": "nhẹ / lén",
+          "status": "wrong",
+          "reason_vi": "Sai. Cách thức nhẹ nhàng, không phải nỗ lực."
+        },
+        {
+          "key": "3",
+          "text_jp": "さっさと",
+          "meaning_vi": "mau lên",
+          "status": "wrong",
+          "reason_vi": "Sai. Giục làm nhanh, không nhấn mạnh cố gắng."
+        },
+        {
+          "key": "4",
+          "text_jp": "もっと",
+          "meaning_vi": "thêm",
+          "status": "wrong",
+          "reason_vi": "Sai. So sánh mức độ, không phải thái độ làm việc."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-13",
@@ -819,7 +1192,7 @@
         }
       ],
       "correct_answer": "4",
-      "explanation": "くたびれる = mệt → 疲れて.",
+      "explanation": "「くたびれて」= mệt nhoài gần 疲れて.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -846,7 +1219,38 @@
         {
           "text": "たから、くたびれてしまった"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "あきて",
+          "meaning_vi": "chán",
+          "status": "wrong",
+          "reason_vi": "Sai. Chán ≠ mệt người."
+        },
+        {
+          "key": "2",
+          "text_jp": "寝て",
+          "meaning_vi": "ngủ",
+          "status": "wrong",
+          "reason_vi": "Sai. Hành động ngủ, không phải trạng thái mệt."
+        },
+        {
+          "key": "3",
+          "text_jp": "倒れて",
+          "meaning_vi": "ngã / đổ bệnh",
+          "status": "wrong",
+          "reason_vi": "Sai. Nặng hơn, khác nghĩa cơ bản."
+        },
+        {
+          "key": "4",
+          "text_jp": "疲れて",
+          "meaning_vi": "mệt",
+          "status": "correct",
+          "reason_vi": "Đúng. Đồng nghĩa mệt mỏi."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-14",
@@ -878,7 +1282,7 @@
         }
       ],
       "correct_answer": "1",
-      "explanation": "あわただしい = tất bật → 忙しい.",
+      "explanation": "「あわただしい」= tất bật gần 忙しい.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -904,7 +1308,38 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "忙しい",
+          "meaning_vi": "bận",
+          "status": "correct",
+          "reason_vi": "Đúng. Ngày bận rộn trước đám cưới."
+        },
+        {
+          "key": "2",
+          "text_jp": "にぎやかな",
+          "meaning_vi": "nhộn nhịp",
+          "status": "wrong",
+          "reason_vi": "Sai. Đông vui, không phải bận việc."
+        },
+        {
+          "key": "3",
+          "text_jp": "うれしい",
+          "meaning_vi": "vui",
+          "status": "wrong",
+          "reason_vi": "Sai. Cảm xúc vui."
+        },
+        {
+          "key": "4",
+          "text_jp": "大切な",
+          "meaning_vi": "quan trọng",
+          "status": "wrong",
+          "reason_vi": "Sai. Tính quan trọng, không phải nhịp sống gấp."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-15",
@@ -936,7 +1371,7 @@
         }
       ],
       "correct_answer": "2",
-      "explanation": "偶然 = tình cờ → たまたま.",
+      "explanation": "「偶然」= tình cờ gần たまたま.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -973,7 +1408,38 @@
         {
           "text": "た。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "うろうろ",
+          "meaning_vi": "lang thang",
+          "status": "wrong",
+          "reason_vi": "Sai. Cách đi lại, không phải tình cờ."
+        },
+        {
+          "key": "2",
+          "text_jp": "たまたま",
+          "meaning_vi": "tình cờ",
+          "status": "correct",
+          "reason_vi": "Đúng. Gặp bạn tình cờ."
+        },
+        {
+          "key": "3",
+          "text_jp": "ようやく",
+          "meaning_vi": "cuối cùng mới",
+          "status": "wrong",
+          "reason_vi": "Sai. Sau nỗ lực lâu."
+        },
+        {
+          "key": "4",
+          "text_jp": "やっぱり",
+          "meaning_vi": "quả nhiên",
+          "status": "wrong",
+          "reason_vi": "Sai. Khẳng định dự đoán, không phải ngẫu nhiên."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-16",
@@ -1005,7 +1471,7 @@
         }
       ],
       "correct_answer": "4",
-      "explanation": "まったく〜ない + 理解できない → さっぱり.",
+      "explanation": "「まったく〜ない」= hoàn toàn không gần さっぱり〜ない.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1049,7 +1515,38 @@
         {
           "text": "できない。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "めっきり",
+          "meaning_vi": "rõ rệt",
+          "status": "wrong",
+          "reason_vi": "Sai. Dùng với thay đổi rõ, không phủ định hoàn toàn."
+        },
+        {
+          "key": "2",
+          "text_jp": "ほとんど",
+          "meaning_vi": "hầu như",
+          "status": "wrong",
+          "reason_vi": "Sai. Còn một phần; まったく mạnh hơn (100%)."
+        },
+        {
+          "key": "3",
+          "text_jp": "すこし",
+          "meaning_vi": "một chút",
+          "status": "wrong",
+          "reason_vi": "Sai. Trái hướng."
+        },
+        {
+          "key": "4",
+          "text_jp": "さっぱり",
+          "meaning_vi": "hoàn toàn (không)",
+          "status": "correct",
+          "reason_vi": "Đúng. さっぱりわからない ≈ まったく理解できない."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-17",
@@ -1081,7 +1578,7 @@
         }
       ],
       "correct_answer": "2",
-      "explanation": "たぶん = có lẽ → おそらく.",
+      "explanation": "「たぶん」= có lẽ gần おそらく.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1107,7 +1604,38 @@
         {
           "text": "だろう。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "およそ",
+          "meaning_vi": "khoảng chừng",
+          "status": "wrong",
+          "reason_vi": "Sai. Ước lượng số/lượng, không phải phỏng đoán khả năng."
+        },
+        {
+          "key": "2",
+          "text_jp": "おそらく",
+          "meaning_vi": "có lẽ / e rằng",
+          "status": "correct",
+          "reason_vi": "Đúng. Cùng mức phỏng đoán."
+        },
+        {
+          "key": "3",
+          "text_jp": "まるで",
+          "meaning_vi": "cứ như",
+          "status": "wrong",
+          "reason_vi": "Sai. So sánh ví von."
+        },
+        {
+          "key": "4",
+          "text_jp": "今にも",
+          "meaning_vi": "sắp sửa",
+          "status": "wrong",
+          "reason_vi": "Sai. Sự việc sắp xảy ra ngay."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-18",
@@ -1139,7 +1667,7 @@
         }
       ],
       "correct_answer": "4",
-      "explanation": "ただで = miễn phí → 無料.",
+      "explanation": "「ただで」= miễn phí gần 無料.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1165,7 +1693,38 @@
         {
           "text": "ている。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "値引き",
+          "meaning_vi": "giảm giá",
+          "status": "wrong",
+          "reason_vi": "Sai. Vẫn có giá (đã hạ)."
+        },
+        {
+          "key": "2",
+          "text_jp": "割引",
+          "meaning_vi": "chiết khấu",
+          "status": "wrong",
+          "reason_vi": "Sai. Giảm %, không phải miễn phí."
+        },
+        {
+          "key": "3",
+          "text_jp": "有料",
+          "meaning_vi": "có phí",
+          "status": "wrong",
+          "reason_vi": "Sai. Trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "無料",
+          "meaning_vi": "miễn phí",
+          "status": "correct",
+          "reason_vi": "Đúng. Phát miễn phí."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-19",
@@ -1197,7 +1756,7 @@
         }
       ],
       "correct_answer": "1",
-      "explanation": "もったいない ≈ 惜しい（đáng tiếc / lãng phí）. Đáp án khoanh trên PDF.",
+      "explanation": "「もったいない」= đáng tiếc / lãng phí gần 惜しい.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1220,7 +1779,38 @@
         {
           "text": "るなんてもったいない。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "惜しい",
+          "meaning_vi": "đáng tiếc",
+          "status": "correct",
+          "reason_vi": "Đúng. Đáng tiếc khi bỏ thứ còn dùng được."
+        },
+        {
+          "key": "2",
+          "text_jp": "くだらない",
+          "meaning_vi": "vô nghĩa",
+          "status": "wrong",
+          "reason_vi": "Sai. Đánh giá giá trị thấp, khác sắc thái."
+        },
+        {
+          "key": "3",
+          "text_jp": "むだだ",
+          "meaning_vi": "vô ích / lãng phí",
+          "status": "wrong",
+          "reason_vi": "Sai. Gần nhưng PDF khoanh 惜しい; むだだ thiên “vô ích” hơn “tiếc”."
+        },
+        {
+          "key": "4",
+          "text_jp": "つまらない",
+          "meaning_vi": "nhàm chán",
+          "status": "wrong",
+          "reason_vi": "Sai. Không khớp."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-20",
@@ -1252,7 +1842,7 @@
         }
       ],
       "correct_answer": "4",
-      "explanation": "規模 = quy mô → 大きさ.",
+      "explanation": "「規模」= quy mô gần 大きさ (quy mô).",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1285,7 +1875,38 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "古さ",
+          "meaning_vi": "độ cũ",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        },
+        {
+          "key": "2",
+          "text_jp": "高さ",
+          "meaning_vi": "chiều cao",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        },
+        {
+          "key": "3",
+          "text_jp": "広さ",
+          "meaning_vi": "độ rộng",
+          "status": "wrong",
+          "reason_vi": "Sai. Một khía cạnh, không bao quát quy mô công ty."
+        },
+        {
+          "key": "4",
+          "text_jp": "大きさ",
+          "meaning_vi": "độ lớn / quy mô",
+          "status": "correct",
+          "reason_vi": "Đúng. Quy mô công ty khác nhau."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-21",
@@ -1317,7 +1938,7 @@
         }
       ],
       "correct_answer": "2",
-      "explanation": "乱暴な運転 = lái thô → 荒い.",
+      "explanation": "「乱暴な」= thô bạo (lái xe) gần 荒い.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1357,7 +1978,38 @@
         {
           "text": "す。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "速い",
+          "meaning_vi": "nhanh",
+          "status": "wrong",
+          "reason_vi": "Sai. Nhanh ≠ thô bạo."
+        },
+        {
+          "key": "2",
+          "text_jp": "荒い",
+          "meaning_vi": "dữ / thô",
+          "status": "correct",
+          "reason_vi": "Đúng. Lái xe 荒い = dữ, thiếu cẩn thận."
+        },
+        {
+          "key": "3",
+          "text_jp": "下手な",
+          "meaning_vi": "vụng",
+          "status": "wrong",
+          "reason_vi": "Sai. Kém kỹ năng, khác “hung/thô”."
+        },
+        {
+          "key": "4",
+          "text_jp": "正しくない",
+          "meaning_vi": "không đúng",
+          "status": "wrong",
+          "reason_vi": "Sai. Quá chung."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-22",
@@ -1389,7 +2041,7 @@
         }
       ],
       "correct_answer": "3",
-      "explanation": "生意気 = hỗn / tỏ vẻ → 偉そうな.",
+      "explanation": "「生意気」= xấc / ra vẻ gần 偉そうな.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1429,7 +2081,38 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "熱心ではない",
+          "meaning_vi": "không nhiệt tình",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        },
+        {
+          "key": "2",
+          "text_jp": "やる気がない",
+          "meaning_vi": "không muốn làm",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        },
+        {
+          "key": "3",
+          "text_jp": "偉そうな",
+          "meaning_vi": "ra vẻ ta đây",
+          "status": "correct",
+          "reason_vi": "Đúng. Thái độ xấc xược."
+        },
+        {
+          "key": "4",
+          "text_jp": "元気な",
+          "meaning_vi": "năng động",
+          "status": "wrong",
+          "reason_vi": "Sai. Tích cực, khác nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-23",
@@ -1505,7 +2188,38 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "悪い人だ",
+          "meaning_vi": "là người xấu",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        },
+        {
+          "key": "2",
+          "text_jp": "元気がない",
+          "meaning_vi": "không khỏe",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        },
+        {
+          "key": "3",
+          "text_jp": "残念だ",
+          "meaning_vi": "đáng tiếc",
+          "status": "wrong",
+          "reason_vi": "Sai. Tiếc nuối, không phải thương cảm người khác."
+        },
+        {
+          "key": "4",
+          "text_jp": "かわいそうだ",
+          "meaning_vi": null,
+          "status": "correct",
+          "reason_vi": "Đúng. Đồng cảm."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-24",
@@ -1537,7 +2251,7 @@
         }
       ],
       "correct_answer": "2",
-      "explanation": "とりあえず = trước hết / tạm → はじめに.",
+      "explanation": "「とりあえず」= trước đã / tạm thời làm trước gần はじめに.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1570,7 +2284,38 @@
         {
           "text": "した。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "待てなくて",
+          "meaning_vi": "không chờ nổi",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        },
+        {
+          "key": "2",
+          "text_jp": "はじめに",
+          "meaning_vi": "trước hết",
+          "status": "correct",
+          "reason_vi": "Đúng. Gọi bia trước đã."
+        },
+        {
+          "key": "3",
+          "text_jp": "勝手に",
+          "meaning_vi": "tự ý",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        },
+        {
+          "key": "4",
+          "text_jp": "たくさん",
+          "meaning_vi": "nhiều",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-25",
@@ -1602,7 +2347,7 @@
         }
       ],
       "correct_answer": "4",
-      "explanation": "わざと = cố ý → 目的があって.",
+      "explanation": "「わざと」= cố ý gần 目的があって.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1628,7 +2373,38 @@
         {
           "text": "にぶつかったのだ。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "すぐに",
+          "meaning_vi": "ngay",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        },
+        {
+          "key": "2",
+          "text_jp": "知らないで",
+          "meaning_vi": "mà không biết",
+          "status": "wrong",
+          "reason_vi": "Sai. Vô ý trái わざと."
+        },
+        {
+          "key": "3",
+          "text_jp": "いやな感じで",
+          "meaning_vi": "một cách khó chịu",
+          "status": "wrong",
+          "reason_vi": "Sai. Thái độ, không phải cố ý."
+        },
+        {
+          "key": "4",
+          "text_jp": "目的があって",
+          "meaning_vi": "có chủ đích",
+          "status": "correct",
+          "reason_vi": "Đúng. Cố tình."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-26",
@@ -1660,7 +2436,7 @@
         }
       ],
       "correct_answer": "1",
-      "explanation": "もったいない ≈ 惜しい（đáng tiếc / lãng phí）. Đáp án khoanh trên PDF.",
+      "explanation": "「もったいない」= đáng tiếc / lãng phí gần 惜しい (cùng mẫu với câu 19).",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1683,7 +2459,38 @@
         {
           "text": "るなんてもったいない。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "惜しい",
+          "meaning_vi": "đáng tiếc",
+          "status": "correct",
+          "reason_vi": "Đúng. Khoanh đỏ trên PDF."
+        },
+        {
+          "key": "2",
+          "text_jp": "くだらない",
+          "meaning_vi": "vô nghĩa",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        },
+        {
+          "key": "3",
+          "text_jp": "むだだ",
+          "meaning_vi": "vô ích",
+          "status": "wrong",
+          "reason_vi": "Sai. Không phải đáp án đã khoanh."
+        },
+        {
+          "key": "4",
+          "text_jp": "つまらない",
+          "meaning_vi": "nhàm chán",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-27",
@@ -1715,7 +2522,7 @@
         }
       ],
       "correct_answer": "1",
-      "explanation": "じっくり = kỹ lưỡng → 時間をかけて.",
+      "explanation": "「じっくり」= kỹ lưỡng / chậm rãi suy nghĩ gần 時間をかけて.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1748,7 +2555,38 @@
         {
           "text": "したい。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "時間をかけて",
+          "meaning_vi": "dành thời gian",
+          "status": "correct",
+          "reason_vi": "Đúng. Suy nghĩ kỹ."
+        },
+        {
+          "key": "2",
+          "text_jp": "びっくりするほど",
+          "meaning_vi": "đến mức giật mình",
+          "status": "wrong",
+          "reason_vi": "Sai. Chỉ mức độ bất ngờ."
+        },
+        {
+          "key": "3",
+          "text_jp": "みんなで",
+          "meaning_vi": "cùng mọi người",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        },
+        {
+          "key": "4",
+          "text_jp": "急いで",
+          "meaning_vi": "vội",
+          "status": "wrong",
+          "reason_vi": "Sai. Trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-28",
@@ -1780,7 +2618,7 @@
         }
       ],
       "correct_answer": "3",
-      "explanation": "あっさりした = vị thanh → 味がうすい.",
+      "explanation": "「あっさりした」= thanh đạm / vị nhạt gần 味がうすい.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1803,7 +2641,38 @@
         {
           "text": "がないから、あっさりしたものにしよう。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "安い",
+          "meaning_vi": "rẻ",
+          "status": "wrong",
+          "reason_vi": "Sai."
+        },
+        {
+          "key": "2",
+          "text_jp": "辛くない",
+          "meaning_vi": "không cay",
+          "status": "wrong",
+          "reason_vi": "Sai. Chỉ không cay, chưa đủ “nhạt/thanh”."
+        },
+        {
+          "key": "3",
+          "text_jp": "味がうすい",
+          "meaning_vi": "vị nhạt",
+          "status": "correct",
+          "reason_vi": "Đúng. Món thanh khi kém ngon miệng."
+        },
+        {
+          "key": "4",
+          "text_jp": "簡単な",
+          "meaning_vi": "đơn giản",
+          "status": "wrong",
+          "reason_vi": "Sai. Đơn giản ≠ vị nhạt."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-29",
@@ -1835,7 +2704,7 @@
         }
       ],
       "correct_answer": "1",
-      "explanation": "とっくに = từ lâu → ずっと前に.",
+      "explanation": "「とっくに」= từ lâu rồi gần ずっと前に.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1858,7 +2727,38 @@
         {
           "text": "になりました。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ずっと前に",
+          "meaning_vi": "từ lâu trước",
+          "status": "correct",
+          "reason_vi": "Đúng. Về nhà từ lâu."
+        },
+        {
+          "key": "2",
+          "text_jp": "遠くに",
+          "meaning_vi": "ở xa",
+          "status": "wrong",
+          "reason_vi": "Sai. Không gian, không phải thời gian."
+        },
+        {
+          "key": "3",
+          "text_jp": "家に",
+          "meaning_vi": "về nhà",
+          "status": "wrong",
+          "reason_vi": "Sai. Trùng thông tin câu, không phải nghĩa とっくに."
+        },
+        {
+          "key": "4",
+          "text_jp": "ちょっと前に",
+          "meaning_vi": "vừa mới",
+          "status": "wrong",
+          "reason_vi": "Sai. Thời điểm gần yếu hơn とっくに."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "synonym-q-30",
@@ -1890,7 +2790,7 @@
         }
       ],
       "correct_answer": "2",
-      "explanation": "しょっちゅう = thường xuyên → いつも.",
+      "explanation": "「しょっちゅう」= thường xuyên gần いつも (trong sắc thái “hay đi”).",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
@@ -1934,7 +2834,38 @@
         {
           "text": "いる。"
         }
-      ]
+      ],
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ときどき",
+          "meaning_vi": "thỉnh thoảng",
+          "status": "wrong",
+          "reason_vi": "Sai. Ít hơn しょっちゅう."
+        },
+        {
+          "key": "2",
+          "text_jp": "いつも",
+          "meaning_vi": "luôn / rất thường",
+          "status": "correct",
+          "reason_vi": "Đúng. Hay đi uống."
+        },
+        {
+          "key": "3",
+          "text_jp": "たまに",
+          "meaning_vi": "đôi khi (hiếm)",
+          "status": "wrong",
+          "reason_vi": "Sai. Hiếm hơn."
+        },
+        {
+          "key": "4",
+          "text_jp": "最近",
+          "meaning_vi": "gần đây",
+          "status": "wrong",
+          "reason_vi": "Sai. Thời kỳ, không phải tần suất."
+        }
+      ],
+      "explanation_source": "linguistic"
     }
   ]
 }

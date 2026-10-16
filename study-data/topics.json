@@ -12,7 +12,7 @@
     "id": "grammar-set",
     "title": "Ngữ pháp N3–N2 theo SET",
     "description": "Các mẫu theo nhóm SET kèm ví dụ Nhật–Việt.",
-    "notice": "Ruby plain; thiếu structure chi tiết so với bộ 80 mẫu. Furigana linguistic (không official).",
+    "notice": "",
     "count": 42,
     "unit": "mục",
     "path": "./study-data/grammar-set.json"
@@ -21,7 +21,7 @@
     "id": "bi-kip",
     "title": "Bí kíp ngữ pháp N3",
     "description": "Tóm tắt mẫu hay gặp kèm ví dụ rút gọn.",
-    "notice": "Bản rút gọn; ví dụ linguistic — không thay sách đầy đủ. Furigana linguistic (không official).",
+    "notice": "",
     "count": 30,
     "unit": "mục",
     "path": "./study-data/bi-kip.json"
@@ -30,7 +30,7 @@
     "id": "bi-kip-answers",
     "title": "Bí kíp N3 (bản đáp án)",
     "description": "Cùng bộ mẫu bí kíp, bản có ghi chú đáp án.",
-    "notice": "Nội dung gần trùng bí kíp; giữ để đối chiếu.",
+    "notice": "",
     "count": 30,
     "unit": "mục",
     "path": "./study-data/bi-kip-answers.json"
@@ -39,7 +39,7 @@
     "id": "ebook-grammar",
     "title": "Ngữ pháp Ebook N3",
     "description": "Mẫu từ Ebook N3 (rút từ PDF, đã lọc mục hợp lệ).",
-    "notice": "Extract PDF; một số usage/example còn thiếu — linguistic. Furigana linguistic (không official).",
+    "notice": "",
     "count": 39,
     "unit": "mục",
     "path": "./study-data/ebook-grammar.json"
@@ -48,7 +48,7 @@
     "id": "kanji",
     "title": "Hán tự N3",
     "description": "Tra Hán Việt, âm On, âm Kun và các chữ dễ nhầm.",
-    "notice": "Cần đối chiếu lại cột âm đọc / chữ dễ nhầm.",
+    "notice": "",
     "count": 416,
     "unit": "mục",
     "path": "./study-data/kanji.json"
@@ -56,8 +56,8 @@
   {
     "id": "verbs",
     "title": "Động từ phức hợp",
-    "description": "Nghĩa, furigana và ví dụ Nhật–Việt.",
-    "notice": "78/80 mục (#77 結びつける). Thiếu #79–#80. Furigana linguistic.",
+    "description": "78 động từ phức hợp: nghĩa, furigana và ví dụ Nhật–Việt.",
+    "notice": "",
     "count": 78,
     "unit": "mục",
     "path": "./study-data/verbs.json"
@@ -66,7 +66,7 @@
     "id": "jido-tado",
     "title": "Tự động từ / Tha động từ",
     "description": "Cặp động từ tự–tha kèm cách đọc và nghĩa.",
-    "notice": "Nghĩa VI linguistic (PDF extract thiếu nghĩa). Furigana linguistic (không official).",
+    "notice": "",
     "count": 141,
     "unit": "mục",
     "path": "./study-data/jido-tado.json"
@@ -75,7 +75,7 @@
     "id": "so-tay-idioms",
     "title": "Thành ngữ / tượng thanh (sổ tay)",
     "description": "Idiom cơ thể & onomatopoeia từ sổ tay tiếng Nhật.",
-    "notice": "Extract partial từ sổ tay; reading/example có thể null. Furigana linguistic (không official).",
+    "notice": "",
     "count": 44,
     "unit": "mục",
     "path": "./study-data/so-tay-idioms.json"
@@ -84,7 +84,7 @@
     "id": "kanji-quiz",
     "title": "Trắc nghiệm Hán tự",
     "description": "Chọn cách đọc; có chấm đáp án.",
-    "notice": "96/96 visual_annotation (khoanh đỏ PDF).",
+    "notice": "",
     "count": 96,
     "unit": "câu",
     "path": "./study-data/kanji-quiz.json"
@@ -93,7 +93,7 @@
     "id": "synonyms",
     "title": "Từ đồng nghĩa dễ nhầm",
     "description": "Trắc nghiệm đồng nghĩa; từ hỏi được đánh dấu.",
-    "notice": "30/30 đáp án visual_annotation (khoanh đỏ PDF). Không linguistic.",
+    "notice": "",
     "count": 30,
     "unit": "câu",
     "path": "./study-data/synonyms.json"
@@ -102,7 +102,7 @@
     "id": "usage-quiz",
     "title": "50 câu cách dùng từ",
     "description": "Trắc nghiệm cách dùng từ N3.",
-    "notice": "50/50 visual_annotation.",
+    "notice": "",
     "count": 50,
     "unit": "câu",
     "path": "./study-data/usage-quiz.json"
@@ -111,7 +111,7 @@
     "id": "hard-quiz",
     "title": "Câu hỏi khó dễ lừa",
     "description": "Câu khó/dễ lừa JLPT N3 các năm.",
-    "notice": "Chưa có đáp án trên PDF — đã gỡ đoán linguistic. Chọn để tự ôn, không chấm.",
+    "notice": "Chưa có đáp án trong tài liệu — chọn để tự ôn, không chấm điểm.",
     "count": 30,
     "unit": "câu",
     "path": "./study-data/hard-quiz.json"
@@ -120,7 +120,7 @@
     "id": "near-synonyms",
     "title": "Từ gần nghĩa các năm",
     "description": "Trắc nghiệm từ gần nghĩa.",
-    "notice": "70/70 visual_annotation.",
+    "notice": "",
     "count": 70,
     "unit": "câu",
     "path": "./study-data/near-synonyms.json"
@@ -147,7 +147,7 @@
     "id": "connectors",
     "title": "Từ nối đọc hiểu",
     "description": "Liên từ / từ nối theo nhóm chức năng.",
-    "notice": "UI type=reading.",
+    "notice": "",
     "count": 41,
     "unit": "mục",
     "path": "./study-data/connectors.json"
@@ -156,7 +156,7 @@
     "id": "connectors-extra",
     "title": "Từ nối (tài liệu tổng hợp)",
     "description": "Bổ sung từ nối từ tài liệu tổng hợp N3.",
-    "notice": "UI type=reading. Có thể trùng một phần với Từ nối đọc hiểu.",
+    "notice": "",
     "count": 56,
     "unit": "mục",
     "path": "./study-data/connectors-extra.json"
@@ -165,7 +165,7 @@
     "id": "exam-tips",
     "title": "Bí kíp trúng tủ N3",
     "description": "Mẹo kanji / ngữ pháp / chiến thuật thi (body đã điền).",
-    "notice": "visual_transcription / linguistic — không official JLPT.",
+    "notice": "",
     "count": 84,
     "unit": "mục",
     "path": "./study-data/exam-tips.json"

@@ -18,7 +18,8 @@
     "PDF scanned chép từ preview PNG; không OCR tự động.",
     "Đã lấy 50/50 câu.",
     "Furigana: enrich *_ruby linguistic (align reading / pykakasi).",
-    "Phase v6: chỉ giữ đáp án visual_annotation/official; không linguistic."
+    "Phase v6: chỉ giữ đáp án visual_annotation/official; không linguistic.",
+    "Phase v8: choice_analyses + explanation (linguistic). Không đổi correct_answer."
   ],
   "items": [
     {
@@ -67,7 +68,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「枯れる」(かれる) = héo (cây/hoa/rau). Không dùng cho đồ khô, bóng bay xẹp hay sức khỏe. Đáp án đúng: 2.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "今日は天気がよくて、洗濯物がよく枯れた。",
+          "meaning_vi": "lệch nghĩa 「枯れる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Quần áo khô → 乾く."
+        },
+        {
+          "key": "2",
+          "text_jp": "雨がぜんぜん降らないので、畑の野菜が枯れてしまった。",
+          "meaning_vi": "dùng đúng 「枯れる」≈ héo (cây, hoa, rau)",
+          "status": "correct",
+          "reason_vi": "Đúng. Rau ngoài đồng thiếu mưa → héo."
+        },
+        {
+          "key": "3",
+          "text_jp": "パーティーでもらった風船は、すぐに枯れてしまった。",
+          "meaning_vi": "lệch nghĩa 「枯れる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Bóng bay xẹp → しぼむ."
+        },
+        {
+          "key": "4",
+          "text_jp": "最近急に枯れた祖父の健康が心配だ。",
+          "meaning_vi": "lệch nghĩa 「枯れる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Sức khỏe yếu → 衰える／弱る."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-02",
@@ -116,7 +149,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「期限」(きげん) = thời hạn (deadline). Không phải giới hạn số tiền, đúng giờ, hay mùa. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "この銀行の機械で１回に引き出せるお金の期限は50万円です。",
+          "meaning_vi": "lệch nghĩa 「期限」",
+          "status": "wrong",
+          "reason_vi": "Sai. Hạn mức rút tiền → 限度／上限."
+        },
+        {
+          "key": "2",
+          "text_jp": "新幹線は期限通りに東京駅に着いた。",
+          "meaning_vi": "lệch nghĩa 「期限」",
+          "status": "wrong",
+          "reason_vi": "Sai. Đúng giờ → 時間どおり."
+        },
+        {
+          "key": "3",
+          "text_jp": "雨が降り続く期限を「梅雨」という。",
+          "meaning_vi": "lệch nghĩa 「期限」",
+          "status": "wrong",
+          "reason_vi": "Sai. Khoảng thời gian mưa → 期間."
+        },
+        {
+          "key": "4",
+          "text_jp": "入学金の支払いの期限が近づいている。",
+          "meaning_vi": "dùng đúng 「期限」≈ thời hạn",
+          "status": "correct",
+          "reason_vi": "Đúng. Hạn nộp học phí."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-03",
@@ -154,7 +219,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「うんと」= rất nhiều / thật nhiều (mức độ). Không phải đúng giờ hay sắp đổ. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "毎日うんと12時に教会の鐘が鳴る。",
+          "meaning_vi": "lệch nghĩa 「うんと」",
+          "status": "wrong",
+          "reason_vi": "Sai. Đúng 12 giờ → ちょうど／きっかり."
+        },
+        {
+          "key": "2",
+          "text_jp": "もう授業が始まっていたのでうんと教室に入った。",
+          "meaning_vi": "lệch nghĩa 「うんと」",
+          "status": "wrong",
+          "reason_vi": "Sai. Lén vào → そっと."
+        },
+        {
+          "key": "3",
+          "text_jp": "あの木はうんと倒れそうだ。危ない。",
+          "meaning_vi": "lệch nghĩa 「うんと」",
+          "status": "wrong",
+          "reason_vi": "Sai. Sắp đổ → 今にも."
+        },
+        {
+          "key": "4",
+          "text_jp": "さあ、遠慮しないでうんと食べてね。",
+          "meaning_vi": "dùng đúng 「うんと」≈ rất / thật nhiều",
+          "status": "correct",
+          "reason_vi": "Đúng. Ăn thật nhiều đi."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-04",
@@ -194,7 +291,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「レジャー」= giải trí / nghỉ dưỡng. Không phải ấm, thực đơn, hay biên lai. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "冬のレジャーといえば、やっぱりスキーですね。",
+          "meaning_vi": "dùng đúng 「レジャー」≈ thư giãn, giải trí",
+          "status": "correct",
+          "reason_vi": "Đúng. Giải trí mùa đông như trượt tuyết."
+        },
+        {
+          "key": "2",
+          "text_jp": "お湯をレジャーに入れておけば、冷めませんよ。",
+          "meaning_vi": "lệch nghĩa 「レジャー」",
+          "status": "wrong",
+          "reason_vi": "Sai. Ấm giữ nhiệt → 保温容器／魔法瓶."
+        },
+        {
+          "key": "3",
+          "text_jp": "店に入って、レジャーを見ながら何を注文しようかと考えるのは楽しい。",
+          "meaning_vi": "lệch nghĩa 「レジャー」",
+          "status": "wrong",
+          "reason_vi": "Sai. Thực đơn → メニュー."
+        },
+        {
+          "key": "4",
+          "text_jp": "店のレジでもらったレジャーは捨てないでとっておこう。",
+          "meaning_vi": "lệch nghĩa 「レジャー」",
+          "status": "wrong",
+          "reason_vi": "Sai. Biên lai → レシート."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-05",
@@ -232,7 +361,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「もったいない」= đáng tiếc / lãng phí (đồ còn dùng được). Không phải “hiểu được”, “vô lý”, hay xin lỗi lịch sự. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "え？それ、捨てるの？まだ使えるのに、もったいない。",
+          "meaning_vi": "dùng đúng 「もったいない」≈ lãng phí",
+          "status": "correct",
+          "reason_vi": "Đúng. Đồ còn dùng mà bỏ → đáng tiếc."
+        },
+        {
+          "key": "2",
+          "text_jp": "電車が遅れたんですか。それなら、遅刻したのも、もったいないですね。",
+          "meaning_vi": "lệch nghĩa 「もったいない」",
+          "status": "wrong",
+          "reason_vi": "Sai. Thông cảm vì muộn → 仕方ない."
+        },
+        {
+          "key": "3",
+          "text_jp": "駅前に宇宙人がいた？そんなことはもったいないよ。",
+          "meaning_vi": "lệch nghĩa 「もったいない」",
+          "status": "wrong",
+          "reason_vi": "Sai. Chuyện không thể → ありえない."
+        },
+        {
+          "key": "4",
+          "text_jp": "もったいないのですが、お借りした本をなくしてしまったんです。",
+          "meaning_vi": "lệch nghĩa 「もったいない」",
+          "status": "wrong",
+          "reason_vi": "Sai. Xin lỗi lịch sự → 申し訳ありません."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-06",
@@ -281,7 +442,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「多少」(たしょう) = một chút / hơi (số lượng không lớn). Không kết hợp với phủ định tuyệt đối hay “かなり多少”. Đáp án đúng: 3.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "そんな失礼なことは多少言ってはいけない。",
+          "meaning_vi": "lệch nghĩa 「多少」",
+          "status": "wrong",
+          "reason_vi": "Sai. Việc tuyệt đối không nên nói → 決して／絶対."
+        },
+        {
+          "key": "2",
+          "text_jp": "席は多少あるから、急いで行かなくても座れる。",
+          "meaning_vi": "lệch nghĩa 「多少」",
+          "status": "wrong",
+          "reason_vi": "Sai. Còn nhiều chỗ → たくさん／十分."
+        },
+        {
+          "key": "3",
+          "text_jp": "まちがいが多少あるが、これはなかなか上手な作文だ。",
+          "meaning_vi": "dùng đúng 「多少」≈ 1 chút, 1 ít",
+          "status": "correct",
+          "reason_vi": "Đúng. Có vài lỗi nhỏ nhưng bài vẫn tốt."
+        },
+        {
+          "key": "4",
+          "text_jp": "大学に行くためには、かなり多少お金が必要だ。",
+          "meaning_vi": "lệch nghĩa 「多少」",
+          "status": "wrong",
+          "reason_vi": "Sai. かなり＋多少 trùng nghĩa mức độ."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-07",
@@ -333,7 +526,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「居眠り」(いねむり) = ngủ gật (khi đang ngồi làm việc/học). Không phải giấc ngủ đêm hay thức học. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "講義を聞きながら居眠りをしてしまった。",
+          "meaning_vi": "dùng đúng 「居眠り」≈ ngủ gật",
+          "status": "correct",
+          "reason_vi": "Đúng. Nghe giảng mà ngủ gật."
+        },
+        {
+          "key": "2",
+          "text_jp": "私の居眠り時間は６時間ぐらいだ。",
+          "meaning_vi": "lệch nghĩa 「居眠り」",
+          "status": "wrong",
+          "reason_vi": "Sai. Thời gian ngủ đêm → 睡眠時間."
+        },
+        {
+          "key": "3",
+          "text_jp": "今朝、目覚まし時計が鳴らなくて居眠りをしてしまった。",
+          "meaning_vi": "lệch nghĩa 「居眠り」",
+          "status": "wrong",
+          "reason_vi": "Sai. Ngủ quên vì báo thức → 寝坊."
+        },
+        {
+          "key": "4",
+          "text_jp": "試験のために朝まで居眠りをして準備した。",
+          "meaning_vi": "lệch nghĩa 「居眠り」",
+          "status": "wrong",
+          "reason_vi": "Sai. Thức học → 徹夜."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-08",
@@ -383,7 +608,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「傾く」(かたむく) = nghiêng (đồ vật/nhà). Không phải “né sang”, “cân bằng dinh dưỡng”, hay “xuống dốc”. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "車が通ります。もう少し道路の右に傾いて歩いてください。",
+          "meaning_vi": "lệch nghĩa 「傾く」",
+          "status": "wrong",
+          "reason_vi": "Sai. Né sang lề → 寄る."
+        },
+        {
+          "key": "2",
+          "text_jp": "食事の栄養バランスが傾かないように注意しましょう。",
+          "meaning_vi": "lệch nghĩa 「傾く」",
+          "status": "wrong",
+          "reason_vi": "Sai. Cân bằng dinh dưỡng → 偏る／バランス."
+        },
+        {
+          "key": "3",
+          "text_jp": "この坂を傾いたところに学校があります。",
+          "meaning_vi": "lệch nghĩa 「傾く」",
+          "status": "wrong",
+          "reason_vi": "Sai. Lên dốc → 上った先."
+        },
+        {
+          "key": "4",
+          "text_jp": "地震で家が傾いてしまった。",
+          "meaning_vi": "dùng đúng 「傾く」≈ nghiêng",
+          "status": "correct",
+          "reason_vi": "Đúng. Nhà nghiêng vì động đất."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-09",
@@ -424,7 +681,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「おしまい」= kết thúc (xong việc). Không phải hạn nộp, cuối tháng, hay ga cuối. Đáp án đúng: 2.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "レポートのおしまいは今週の金曜日です。",
+          "meaning_vi": "lệch nghĩa 「おしまい」",
+          "status": "wrong",
+          "reason_vi": "Sai. Hạn nộp → 締め切り."
+        },
+        {
+          "key": "2",
+          "text_jp": "今日の作業はそろそろおしまいにしよう。",
+          "meaning_vi": "dùng đúng 「おしまい」≈ kết thúc",
+          "status": "correct",
+          "reason_vi": "Đúng. Kết thúc công việc hôm nay."
+        },
+        {
+          "key": "3",
+          "text_jp": "今月のおしまいごろ、アメリカの有名な女優が日本に来るらしい。",
+          "meaning_vi": "lệch nghĩa 「おしまい」",
+          "status": "wrong",
+          "reason_vi": "Sai. Cuối tháng → 末."
+        },
+        {
+          "key": "4",
+          "text_jp": "この電車のおしまいは、山本駅です。",
+          "meaning_vi": "lệch nghĩa 「おしまい」",
+          "status": "wrong",
+          "reason_vi": "Sai. Ga cuối → 終点."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-10",
@@ -462,7 +751,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「きつい」ở đây = việc nặng / vất vả. Không phải “lạ”, “đáng ghét”, hay “tuyệt”. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "遅刻したことがない人が遅れて来るなんて、きついことだ。",
+          "meaning_vi": "lệch nghĩa 「きつい」",
+          "status": "wrong",
+          "reason_vi": "Sai. Việc lạ → 珍しい／意外."
+        },
+        {
+          "key": "2",
+          "text_jp": "人が大切にしているものをほしがるなんて、彼はきつい人だ。",
+          "meaning_vi": "lệch nghĩa 「きつい」",
+          "status": "wrong",
+          "reason_vi": "Sai. Người xấu tính → ひどい／ずるい."
+        },
+        {
+          "key": "3",
+          "text_jp": "え？合格したの？それはきついね。",
+          "meaning_vi": "lệch nghĩa 「きつい」",
+          "status": "wrong",
+          "reason_vi": "Sai. Khen tốt → すごい／よかった."
+        },
+        {
+          "key": "4",
+          "text_jp": "楽な仕事ならいいですが、きつい仕事はいやです。",
+          "meaning_vi": "dùng đúng 「きつい」≈ công việc nặng nhọc, vất vả",
+          "status": "correct",
+          "reason_vi": "Đúng. Công việc nặng nhọc."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-11",
@@ -507,7 +828,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「豊富」(ほうふ) = phong phú (kiến thức, kinh nghiệm…). Không phải khó, nổi tiếng, hay giỏi thể thao. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "この問題はとても豊富で、なかなか解けない。",
+          "meaning_vi": "lệch nghĩa 「豊富」",
+          "status": "wrong",
+          "reason_vi": "Sai. Bài khó → 難しい."
+        },
+        {
+          "key": "2",
+          "text_jp": "このカメラは軽くて丈夫なので、人気が豊富だ。",
+          "meaning_vi": "lệch nghĩa 「豊富」",
+          "status": "wrong",
+          "reason_vi": "Sai. Nổi tiếng → 人気がある."
+        },
+        {
+          "key": "3",
+          "text_jp": "私はスポーツが豊富です。たいていのスポーツに自信があります。",
+          "meaning_vi": "lệch nghĩa 「豊富」",
+          "status": "wrong",
+          "reason_vi": "Sai. Giỏi thể thao → 得意."
+        },
+        {
+          "key": "4",
+          "text_jp": "あの人は知識が豊富で、いろいろなことをよく知っている。",
+          "meaning_vi": "dùng đúng 「豊富」≈ Phong phú (kinh nghiệm, tri thức...)",
+          "status": "correct",
+          "reason_vi": "Đúng. Kiến thức phong phú."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-12",
@@ -549,7 +902,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ながめ」= cảnh / tầm nhìn đẹp. Không phải thị lực, dáng người, hay bề ngoài quả. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "最近ながめが悪くなって、めがねが必要になった。",
+          "meaning_vi": "lệch nghĩa 「ながめ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Thị lực kém → 視力が悪い."
+        },
+        {
+          "key": "2",
+          "text_jp": "よし子さんは足が長くて、ながめがいい。",
+          "meaning_vi": "lệch nghĩa 「ながめ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Dáng chân dài → スタイル."
+        },
+        {
+          "key": "3",
+          "text_jp": "このりんごはながめは悪いが、味はとてもいい。",
+          "meaning_vi": "lệch nghĩa 「ながめ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Ngoại hình quả → 見た目."
+        },
+        {
+          "key": "4",
+          "text_jp": "どこかながめのいいところで写真を撮りましょう。",
+          "meaning_vi": "dùng đúng 「ながめ」≈ view đẹp/ chỗ ngắm",
+          "status": "correct",
+          "reason_vi": "Đúng. Chỗ ngắm cảnh đẹp để chụp ảnh."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-13",
@@ -598,7 +983,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「感心する」(かんしんする) = khâm phục (thái độ/kết quả tốt). Không phải 反省, xúc động nghệ thuật đơn thuần, hay 関心を持つ. Đáp án đúng: 3.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "失敗したことをいつまでも感心して悩むのはよくない。",
+          "meaning_vi": "lệch nghĩa 「感心する」",
+          "status": "wrong",
+          "reason_vi": "Sai. Day dứt mãi → 気に病む／反省."
+        },
+        {
+          "key": "2",
+          "text_jp": "そのピアニストのすばらしい演奏に観客は感心して涙を流した。",
+          "meaning_vi": "lệch nghĩa 「感心する」",
+          "status": "wrong",
+          "reason_vi": "Sai. Xúc động khóc → 感動する (sắc thái khác)."
+        },
+        {
+          "key": "3",
+          "text_jp": "この学校の生徒のマナーの良さには感心する。",
+          "meaning_vi": "dùng đúng 「感心する」≈ cảm phục, thán phục",
+          "status": "correct",
+          "reason_vi": "Đúng. Khâm phục phép tắc học sinh."
+        },
+        {
+          "key": "4",
+          "text_jp": "最近うちの娘は環境問題に感心するようになった。",
+          "meaning_vi": "lệch nghĩa 「感心する」",
+          "status": "wrong",
+          "reason_vi": "Sai. Quan tâm vấn đề → 関心を持つ (chữ khác)."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-14",
@@ -636,7 +1053,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ずつ」= mỗi / từng (chia đều). Không dùng sai với khoảng cách giờ, “一人ずつで”, hay “日曜日ずつ”. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "このみかん、一人２個ずつ食べていいよ。",
+          "meaning_vi": "dùng đúng 「ずつ」≈ từng / mỗi",
+          "status": "correct",
+          "reason_vi": "Đúng. Mỗi người 2 quả."
+        },
+        {
+          "key": "2",
+          "text_jp": "１日４回、６時間ずつ薬を飲む。",
+          "meaning_vi": "lệch nghĩa 「ずつ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Cứ 6 giờ một lần → おきに."
+        },
+        {
+          "key": "3",
+          "text_jp": "夏休み、家族が旅行に行ってしまったので、私は一人ずつで過ごした。",
+          "meaning_vi": "lệch nghĩa 「ずつ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Ở một mình → 一人で."
+        },
+        {
+          "key": "4",
+          "text_jp": "彼は日曜日ずつ野球を見に出かける。",
+          "meaning_vi": "lệch nghĩa 「ずつ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Mỗi chủ nhật → ごとに."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-15",
@@ -674,7 +1123,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「めざす」= nhắm tới mục tiêu. Không phải tuyển dụng, do dự, hay luyện piano chung chung. Đáp án đúng: 2.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "この会社では、長い期間働ける社員をめざしている。",
+          "meaning_vi": "lệch nghĩa 「めざす」",
+          "status": "wrong",
+          "reason_vi": "Sai. Tìm/tuyển người → 求めている."
+        },
+        {
+          "key": "2",
+          "text_jp": "彼は大学合格をめざして勉強している。",
+          "meaning_vi": "dùng đúng 「めざす」≈ nhắm tới (mục tiêu, mục đích...)",
+          "status": "correct",
+          "reason_vi": "Đúng. Học để nhắm đậu đại học."
+        },
+        {
+          "key": "3",
+          "text_jp": "どっちにしようかずいぶんめざして、こっちを買うことにした。",
+          "meaning_vi": "lệch nghĩa 「めざす」",
+          "status": "wrong",
+          "reason_vi": "Sai. Do dự chọn → 迷って."
+        },
+        {
+          "key": "4",
+          "text_jp": "ピアノをめざしているんでしょう？上手になりましたか。",
+          "meaning_vi": "lệch nghĩa 「めざす」",
+          "status": "wrong",
+          "reason_vi": "Sai. Học piano → 習っている."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-16",
@@ -726,7 +1207,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「思いつく」= nảy ra ý tưởng. Không phải nhớ ra việc phải về, tưởng nhầm lịch, hay gặp người lạ. Đáp án đúng: 2.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "用事を思いついたので、すみませんが帰ります。",
+          "meaning_vi": "lệch nghĩa 「思いつく」",
+          "status": "wrong",
+          "reason_vi": "Sai. Nhớ ra việc → 思い出した."
+        },
+        {
+          "key": "2",
+          "text_jp": "新しい商品の良いアイデアを思いついた。",
+          "meaning_vi": "dùng đúng 「思いつく」≈ Nảy ra, nghĩ ra (ý tưởng)",
+          "status": "correct",
+          "reason_vi": "Đúng. Nghĩ ra ý tưởng sản phẩm."
+        },
+        {
+          "key": "3",
+          "text_jp": "試験は来週だと思いついていたが、今週だった。",
+          "meaning_vi": "lệch nghĩa 「思いつく」",
+          "status": "wrong",
+          "reason_vi": "Sai. Tưởng rằng → 思っていた."
+        },
+        {
+          "key": "4",
+          "text_jp": "駅で思いつかない人に会って、びっくりした。",
+          "meaning_vi": "lệch nghĩa 「思いつく」",
+          "status": "wrong",
+          "reason_vi": "Sai. Gặp người không quen → 知らない人."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-17",
@@ -771,7 +1284,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「留守」(るす) = vắng nhà. Không phải du học, lời mời, hay “trông nhà”. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "兄はアメリカの大学への留守を希望している。",
+          "meaning_vi": "lệch nghĩa 「留守」",
+          "status": "wrong",
+          "reason_vi": "Sai. Du học → 留学."
+        },
+        {
+          "key": "2",
+          "text_jp": "友人の結婚式への留守を受けた。",
+          "meaning_vi": "lệch nghĩa 「留守」",
+          "status": "wrong",
+          "reason_vi": "Sai. Lời mời → 招待."
+        },
+        {
+          "key": "3",
+          "text_jp": "週末、両親は旅行に行ったが、私は家で留守をしていた。",
+          "meaning_vi": "lệch nghĩa 「留守」",
+          "status": "wrong",
+          "reason_vi": "Sai. Trông nhà → 留守番をする."
+        },
+        {
+          "key": "4",
+          "text_jp": "友人の家を訪ねたが、留守だった。",
+          "meaning_vi": "dùng đúng 「留守」≈ vắng nhà",
+          "status": "correct",
+          "reason_vi": "Đúng. Đến nhà bạn nhưng vắng."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-18",
@@ -809,7 +1354,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ラッシュアワー」= giờ cao điểm (giao thông). Không phải kỳ nghỉ, giờ ăn trưa công ty, hay check-in khách sạn. Đáp án đúng: 3.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "来月は３日間のラッシュアワーがあるので、旅行に行こうか。",
+          "meaning_vi": "lệch nghĩa 「ラッシュアワー」",
+          "status": "wrong",
+          "reason_vi": "Sai. Nghỉ liên tục → 連休."
+        },
+        {
+          "key": "2",
+          "text_jp": "ラッシュアワーには、会社で弁当を食べる人が多い。",
+          "meaning_vi": "lệch nghĩa 「ラッシュアワー」",
+          "status": "wrong",
+          "reason_vi": "Sai. Giờ ăn trưa → 昼休み."
+        },
+        {
+          "key": "3",
+          "text_jp": "ラッシュアワーなので、電車がこんでいる。",
+          "meaning_vi": "dùng đúng 「ラッシュアワー」≈ giờ cao điểm",
+          "status": "correct",
+          "reason_vi": "Đúng. Giờ cao điểm tàu đông."
+        },
+        {
+          "key": "4",
+          "text_jp": "ホテルのラッシュアワーは午後３時からですから、もう入れます。",
+          "meaning_vi": "lệch nghĩa 「ラッシュアワー」",
+          "status": "wrong",
+          "reason_vi": "Sai. Giờ nhận phòng → チェックイン."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-19",
@@ -851,7 +1428,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「きびしい」= nghiêm khắc (người/quy tắc). Không phải ho nặng, bất tiện, hay cô đơn. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "私の父はきびしい人で、姉も私も怒られてばかりいる。",
+          "meaning_vi": "dùng đúng 「きびしい」≈ Nghiêm khắc, khó tính",
+          "status": "correct",
+          "reason_vi": "Đúng. Bố nghiêm khắc hay mắng."
+        },
+        {
+          "key": "2",
+          "text_jp": "風邪をひいて、きびしいせきが出る。",
+          "meaning_vi": "lệch nghĩa 「きびしい」",
+          "status": "wrong",
+          "reason_vi": "Sai. Ho nặng → ひどいせき."
+        },
+        {
+          "key": "3",
+          "text_jp": "この町は電車もバスも１時間に１本しかなくて、生活にきびしい。",
+          "meaning_vi": "lệch nghĩa 「きびしい」",
+          "status": "wrong",
+          "reason_vi": "Sai. Bất tiện → 不便."
+        },
+        {
+          "key": "4",
+          "text_jp": "入学したばかりで、まだ友だちがいないので、ちょっときびしい。",
+          "meaning_vi": "lệch nghĩa 「きびしい」",
+          "status": "wrong",
+          "reason_vi": "Sai. Cô đơn → 寂しい."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-20",
@@ -893,7 +1502,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「たえず」= liên tục / không ngừng. Không phải “ngay lập tức”, “một mạch hết”, hay “vẫn như xưa”. Đáp án đúng: 2.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "地震が起きたらたえず火を消しなさい。",
+          "meaning_vi": "lệch nghĩa 「たえず」",
+          "status": "wrong",
+          "reason_vi": "Sai. Ngay lập tức tắt lửa → すぐに."
+        },
+        {
+          "key": "2",
+          "text_jp": "牛や羊はたえず草を食べています。",
+          "meaning_vi": "dùng đúng 「たえず」≈ liên tục, không ngừng",
+          "status": "correct",
+          "reason_vi": "Đúng. Bò/cừu gặm cỏ liên tục."
+        },
+        {
+          "key": "3",
+          "text_jp": "おなかがすいていたので、二人分の料理をたえず食べてしまった。",
+          "meaning_vi": "lệch nghĩa 「たえず」",
+          "status": "wrong",
+          "reason_vi": "Sai. Ăn hết một mạch → 全部／一気に."
+        },
+        {
+          "key": "4",
+          "text_jp": "80歳になる祖母は以前とたえず元気だ。",
+          "meaning_vi": "lệch nghĩa 「たえず」",
+          "status": "wrong",
+          "reason_vi": "Sai. Vẫn khỏe như trước → 相変わらず."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-21",
@@ -942,7 +1583,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「面倒」(めんどう) = phiền phức (thủ tục/việc). Không phải cốt truyện phức tạp, bệnh nan y, hay “vướng víu”. Đáp án đúng: 3.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "この小説は登場人物が多いし、ストーリーが面倒でわかりにくい。",
+          "meaning_vi": "lệch nghĩa 「面倒」",
+          "status": "wrong",
+          "reason_vi": "Sai. Cốt truyện phức tạp → 複雑."
+        },
+        {
+          "key": "2",
+          "text_jp": "面倒だが、祖母の病気は治らないと医者に言われた。",
+          "meaning_vi": "lệch nghĩa 「面倒」",
+          "status": "wrong",
+          "reason_vi": "Sai. Bệnh khó chữa → 深刻／治らない."
+        },
+        {
+          "key": "3",
+          "text_jp": "このクラブに入る手続きは非常に面倒だ。",
+          "meaning_vi": "dùng đúng 「面倒」≈ phiền hà phiền phức",
+          "status": "correct",
+          "reason_vi": "Đúng. Thủ tục vào CLB rất phiền."
+        },
+        {
+          "key": "4",
+          "text_jp": "道の真ん中においてあるあの自転車、面倒だから、どけよう。",
+          "meaning_vi": "lệch nghĩa 「面倒」",
+          "status": "wrong",
+          "reason_vi": "Sai. Xe đạp vướng → 邪魔."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-22",
@@ -980,7 +1653,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ほぼ」= gần như / hầu như (đã gần xong). Cần ngữ cảnh “gần hoàn tất”, không phải ước lượng điểm số mơ hồ. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "8時に家を出れば、ほぼ間に合うでしょう。",
+          "meaning_vi": "lệch nghĩa 「ほぼ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Có lẽ kịp → たぶん／おそらく."
+        },
+        {
+          "key": "2",
+          "text_jp": "ケーキを６個もらった。ほぼ６人いたので、１個ずつ食べた。",
+          "meaning_vi": "lệch nghĩa 「ほぼ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Đúng bằng số người → ちょうど."
+        },
+        {
+          "key": "3",
+          "text_jp": "今度の試験、ほぼ７０点は取りたいけど、取れるかなあ。",
+          "meaning_vi": "lệch nghĩa 「ほぼ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Muốn khoảng 70 điểm → ぐらい."
+        },
+        {
+          "key": "4",
+          "text_jp": "スピーチの原稿はほぼ完成した。あとは題を決めるだけだ。",
+          "meaning_vi": "dùng đúng 「ほぼ」≈ gần như, hầu như",
+          "status": "correct",
+          "reason_vi": "Đúng. Bản thảo gần như xong."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-23",
@@ -1018,7 +1723,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「リードする」= dẫn đầu (thị trường/điểm số). Không phải xích chó, bị vượt, hay giúp việc nhà. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "商品の売り上げの額では、A社が他社をリードしている。",
+          "meaning_vi": "dùng đúng 「リードする」≈ dẫn đầu",
+          "status": "correct",
+          "reason_vi": "Đúng. Công ty A dẫn đầu doanh số."
+        },
+        {
+          "key": "2",
+          "text_jp": "犬をリードして散歩に出かけた。",
+          "meaning_vi": "lệch nghĩa 「リードする」",
+          "status": "wrong",
+          "reason_vi": "Sai. Dắt chó bằng dây → リードでつなぐ."
+        },
+        {
+          "key": "3",
+          "text_jp": "この電車は、途中の駅で後から来た急行電車にリードされる。",
+          "meaning_vi": "lệch nghĩa 「リードする」",
+          "status": "wrong",
+          "reason_vi": "Sai. Bị tàu nhanh vượt → 追い越される."
+        },
+        {
+          "key": "4",
+          "text_jp": "夫は忙しくて家事をリードしてくれない。",
+          "meaning_vi": "lệch nghĩa 「リードする」",
+          "status": "wrong",
+          "reason_vi": "Sai. Làm hộ việc nhà → 手伝ってくれない."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-24",
@@ -1067,7 +1804,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「道順」(みちじゅん) = lộ trình / chỉ đường. Không phải xếp hàng, dọc đường về, hay công thức làm bánh. Đáp án đúng: 3.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "道順に並んでお待ちください。",
+          "meaning_vi": "lệch nghĩa 「道順」",
+          "status": "wrong",
+          "reason_vi": "Sai. Xếp hàng → 順番に."
+        },
+        {
+          "key": "2",
+          "text_jp": "今日、学校から帰る道順に友だちに会った。",
+          "meaning_vi": "lệch nghĩa 「道順」",
+          "status": "wrong",
+          "reason_vi": "Sai. Trên đường về → 途中で."
+        },
+        {
+          "key": "3",
+          "text_jp": "駅からホテルまでの道順は、この地図をご覧ください。",
+          "meaning_vi": "dùng đúng 「道順」≈ đường dẫn đến/ cách đi",
+          "status": "correct",
+          "reason_vi": "Đúng. Xem bản đồ đường từ ga tới khách sạn."
+        },
+        {
+          "key": "4",
+          "text_jp": "このケーキはどういう道順で作るのですか。",
+          "meaning_vi": "lệch nghĩa 「道順」",
+          "status": "wrong",
+          "reason_vi": "Sai. Cách làm → 作り方."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-25",
@@ -1119,7 +1888,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「気になる」= bận lòng / để tâm (thường khó chịu). Không phải “thích món quà”, “hợp nhau”, hay “đừng khách khí”. Đáp án đúng: 2.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "父は、私がプレゼントしたセーターが気になってくれたようだ。",
+          "meaning_vi": "lệch nghĩa 「気になる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Thích/ưng → 気に入る."
+        },
+        {
+          "key": "2",
+          "text_jp": "ゆうべは、となりの部屋の話し声が気になって眠れなかった。",
+          "meaning_vi": "dùng đúng 「気になる」≈ bận lòng, để tâm",
+          "status": "correct",
+          "reason_vi": "Đúng. Tiếng nói phòng bên làm bận lòng không ngủ được."
+        },
+        {
+          "key": "3",
+          "text_jp": "あの二人は仲がいい。とても気になるらしい。",
+          "meaning_vi": "lệch nghĩa 「気になる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Hợp nhau → 気が合う."
+        },
+        {
+          "key": "4",
+          "text_jp": "A「何か飲み物はいかがですか。」B「あ、どうぞ気にならないでください。」",
+          "meaning_vi": "lệch nghĩa 「気になる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Đừng khách khí → 気にしないで."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-26",
@@ -1164,7 +1965,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「講演」(こうえん) = bài giảng / thuyết trình (học thuật). Không phải giải thích hàng, tự giới thiệu, hay buổi tập. Đáp án đúng: 3.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "店の人に商品について講演をしてもらった。",
+          "meaning_vi": "lệch nghĩa 「講演」",
+          "status": "wrong",
+          "reason_vi": "Sai. Giải thích sản phẩm → 説明."
+        },
+        {
+          "key": "2",
+          "text_jp": "はじめて会う人にはこちらから講演をしたほうがいい。",
+          "meaning_vi": "lệch nghĩa 「講演」",
+          "status": "wrong",
+          "reason_vi": "Sai. Tự giới thiệu → 自己紹介."
+        },
+        {
+          "key": "3",
+          "text_jp": "新発見をしたA教授の講演に世界中が注目している。",
+          "meaning_vi": "dùng đúng 「講演」≈ bài giảng",
+          "status": "correct",
+          "reason_vi": "Đúng. Bài giảng của giáo sư thu hút thế giới."
+        },
+        {
+          "key": "4",
+          "text_jp": "彼女は女優になるために毎日歌とダンスの講演をしている。",
+          "meaning_vi": "lệch nghĩa 「講演」",
+          "status": "wrong",
+          "reason_vi": "Sai. Luyện hát/múa → 練習."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-27",
@@ -1205,7 +2038,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「わざと」= cố tình. Không phải “vất vả dưới mưa”, “cố ý xây dựng cảnh quan”, hay “nhất định đến”. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "子どもとゲームをするときは、わざと負けてやることが多い。",
+          "meaning_vi": "dùng đúng 「わざと」≈ cố tình (thua)",
+          "status": "correct",
+          "reason_vi": "Đúng. Cố tình thua khi chơi với trẻ."
+        },
+        {
+          "key": "2",
+          "text_jp": "雨の中をわざと荷物を届けてくれて、ありがとう。",
+          "meaning_vi": "lệch nghĩa 「わざと」",
+          "status": "wrong",
+          "reason_vi": "Sai. Vất vả giúp → わざわざ."
+        },
+        {
+          "key": "3",
+          "text_jp": "新しい住宅地には池や林がわざと作られている。",
+          "meaning_vi": "lệch nghĩa 「わざと」",
+          "status": "wrong",
+          "reason_vi": "Sai. Cố tạo cảnh → わざとらしい／意図的に作る (khác sắc thái câu)."
+        },
+        {
+          "key": "4",
+          "text_jp": "お忙しいでしょうが、わざと来てください。",
+          "meaning_vi": "lệch nghĩa 「わざと」",
+          "status": "wrong",
+          "reason_vi": "Sai. Xin đến giúp → ぜひ／わざわざ."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-28",
@@ -1253,7 +2118,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「見事な」(みごとな) = xuất sắc / tuyệt vời (thành tích, màn trình bày). Không phải mưa to, khen trẻ lịch sự, hay quần áo sặc sỡ. Đáp án đúng: 2.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "台風が近づいていて、見事な雨が降っている。",
+          "meaning_vi": "lệch nghĩa 「見事な」",
+          "status": "wrong",
+          "reason_vi": "Sai. Mưa lớn → 激しい雨."
+        },
+        {
+          "key": "2",
+          "text_jp": "彼の見事なスピーチは人々を感動させた。",
+          "meaning_vi": "dùng đúng 「見事な」≈ tuyệt vời",
+          "status": "correct",
+          "reason_vi": "Đúng. Bài phát biểu xuất sắc gây xúc động."
+        },
+        {
+          "key": "3",
+          "text_jp": "あなたはまだ小さいのにお母さんのお手伝いをして、見事だね。",
+          "meaning_vi": "lệch nghĩa 「見事な」",
+          "status": "wrong",
+          "reason_vi": "Sai. Khen ngoan → えらい."
+        },
+        {
+          "key": "4",
+          "text_jp": "会社の面接試験に赤いシャツなど見事な服を着て行ってはいけません。",
+          "meaning_vi": "lệch nghĩa 「見事な」",
+          "status": "wrong",
+          "reason_vi": "Sai. Quần áo gây chú ý → 派手な."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-29",
@@ -1295,7 +2192,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「きっかけ」= duyên cớ / khởi đầu (thay đổi). Không phải nguyên nhân tắc đường, phần mở đầu giờ học, hay lý do nghỉ học. Đáp án đúng: 3.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "この先で起こった事故がきっかけで、ここは今通ることができません。",
+          "meaning_vi": "lệch nghĩa 「きっかけ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Vì tai nạn không đi được → ため／のせいで."
+        },
+        {
+          "key": "2",
+          "text_jp": "この英会話教室は授業のきっかけに、まず発音練習をする。",
+          "meaning_vi": "lệch nghĩa 「きっかけ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Phần mở đầu buổi học → 最初に."
+        },
+        {
+          "key": "3",
+          "text_jp": "子どもができたのをきっかけに、たばこをやめることにした。",
+          "meaning_vi": "dùng đúng 「きっかけ」≈ nguyên do, nguyên cớ, động lực",
+          "status": "correct",
+          "reason_vi": "Đúng. Có con làm duyên cớ bỏ thuốc."
+        },
+        {
+          "key": "4",
+          "text_jp": "昨日授業を欠席したきっかけを話してください。",
+          "meaning_vi": "lệch nghĩa 「きっかけ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Lý do nghỉ → 理由."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-30",
@@ -1347,7 +2276,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「出会う」(であう) = tình cờ / lần đầu gặp (người). Không phải mục tiêu Olympic, thăm bệnh, hay hẹn gặp. Đáp án đúng: 2.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "私はオリンピックに出会うことを目標にがんばっている。",
+          "meaning_vi": "lệch nghĩa 「出会う」",
+          "status": "wrong",
+          "reason_vi": "Sai. Tham dự Olympic → 出る."
+        },
+        {
+          "key": "2",
+          "text_jp": "私が彼と出会ったのは、高校生のときだった。",
+          "meaning_vi": "dùng đúng 「出会う」≈ Cuộc gặp gỡ, nhân duyên định mệnh",
+          "status": "correct",
+          "reason_vi": "Đúng. Gặp anh ấy hồi cấp 3."
+        },
+        {
+          "key": "3",
+          "text_jp": "入院した先生を出会うために、病院へ行った。",
+          "meaning_vi": "lệch nghĩa 「出会う」",
+          "status": "wrong",
+          "reason_vi": "Sai. Thăm thầy → お見舞いする."
+        },
+        {
+          "key": "4",
+          "text_jp": "６時に駅の前で出会う約束をした。",
+          "meaning_vi": "lệch nghĩa 「出会う」",
+          "status": "wrong",
+          "reason_vi": "Sai. Hẹn gặp → 会う約束."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-31",
@@ -1389,7 +2350,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「すっかり」= hoàn toàn (đã biến đổi hết). Không phải “phải học hẳn”, “nhìn không rõ”, hay “có đủ đồ”. Đáp án đúng: 3.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "中学生になったら、すっかり勉強しなきゃだめだよ。",
+          "meaning_vi": "lệch nghĩa 「すっかり」",
+          "status": "wrong",
+          "reason_vi": "Sai. Phải học nghiêm → ちゃんと."
+        },
+        {
+          "key": "2",
+          "text_jp": "めがねをかけないと、そこにある物もすっかりして、よく見えない。",
+          "meaning_vi": "lệch nghĩa 「すっかり」",
+          "status": "wrong",
+          "reason_vi": "Sai. Không nhìn rõ → はっきりしない."
+        },
+        {
+          "key": "3",
+          "text_jp": "友だちと話しているうちに、外はすっかり暗くなっていた。",
+          "meaning_vi": "dùng đúng 「すっかり」≈ hoàn toàn/ hẳn/ sạch sành sanh",
+          "status": "correct",
+          "reason_vi": "Đúng. Trời đã tối hẳn."
+        },
+        {
+          "key": "4",
+          "text_jp": "食べ物も飲み物もすっかりありますから、どんどんめしあがってください。",
+          "meaning_vi": "lệch nghĩa 「すっかり」",
+          "status": "wrong",
+          "reason_vi": "Sai. Có đầy đủ → そろっている."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-32",
@@ -1443,7 +2436,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「お嬢さん」= con gái nhà người khác (lịch sự). Không tự xưng con mình, không chỉ “nữ sinh”, không phải quần áo trẻ em. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "今度お嬢さんがご結婚なさるそうですね。おめでとうございます。",
+          "meaning_vi": "dùng đúng 「お嬢さん」≈ tiểu thư, con gái rượu (nhà anh / chị)",
+          "status": "correct",
+          "reason_vi": "Đúng. Chúc mừng con gái nhà bạn sắp cưới."
+        },
+        {
+          "key": "2",
+          "text_jp": "私のお嬢さんは妻に似て目が大きい。",
+          "meaning_vi": "lệch nghĩa 「お嬢さん」",
+          "status": "wrong",
+          "reason_vi": "Sai. Con gái mình → 娘."
+        },
+        {
+          "key": "3",
+          "text_jp": "このクラスはお嬢さん学生より男子学生のほうが多い。",
+          "meaning_vi": "lệch nghĩa 「お嬢さん」",
+          "status": "wrong",
+          "reason_vi": "Sai. Nữ sinh → 女子学生."
+        },
+        {
+          "key": "4",
+          "text_jp": "娘はデパートのお嬢さん服売り場で働いている。",
+          "meaning_vi": "lệch nghĩa 「お嬢さん」",
+          "status": "wrong",
+          "reason_vi": "Sai. Đồ trẻ em → 子供服."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-33",
@@ -1495,7 +2520,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「渋滞する」(じゅうたいする) = tắc (đường xe). Không dùng cho ga đông người, nước sông, hay hàng taxi theo nghĩa chuẩn N3. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "朝の通勤ラッシュの時間は駅が渋滞して、歩くのも大変だ。",
+          "meaning_vi": "lệch nghĩa 「渋滞する」",
+          "status": "wrong",
+          "reason_vi": "Sai. Ga đông → 混雑する."
+        },
+        {
+          "key": "2",
+          "text_jp": "大雨で川の水が渋滞してしまった。",
+          "meaning_vi": "lệch nghĩa 「渋滞する」",
+          "status": "wrong",
+          "reason_vi": "Sai. Sông dâng → 増水する."
+        },
+        {
+          "key": "3",
+          "text_jp": "駅の前には客を待つタクシーが渋滞している。",
+          "meaning_vi": "lệch nghĩa 「渋滞する」",
+          "status": "wrong",
+          "reason_vi": "Sai. Taxi xếp hàng → 並んでいる."
+        },
+        {
+          "key": "4",
+          "text_jp": "連休の間は高速道路が渋滞する。",
+          "meaning_vi": "dùng đúng 「渋滞する」≈ tắc đường",
+          "status": "correct",
+          "reason_vi": "Đúng. Cao tốc tắc ngày nghỉ."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-34",
@@ -1540,7 +2597,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「無事」(ぶじ) = bình an (không việc gì xảy ra). Không phải khu an toàn, thế giới hòa bình, hay người khỏe mạnh. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "この辺は無事なので、女性が夜一人で歩いていても大丈夫だ。",
+          "meaning_vi": "lệch nghĩa 「無事」",
+          "status": "wrong",
+          "reason_vi": "Sai. Khu an toàn → 安全."
+        },
+        {
+          "key": "2",
+          "text_jp": "戦争がなくなって、無事な世界になってほしい。",
+          "meaning_vi": "lệch nghĩa 「無事」",
+          "status": "wrong",
+          "reason_vi": "Sai. Hòa bình → 平和."
+        },
+        {
+          "key": "3",
+          "text_jp": "毎日運動したり食事に気をつけたりしているので、祖父はとても無事だ。",
+          "meaning_vi": "lệch nghĩa 「無事」",
+          "status": "wrong",
+          "reason_vi": "Sai. Khỏe mạnh → 健康／元気."
+        },
+        {
+          "key": "4",
+          "text_jp": "一人で旅行していた妹が無事に帰ってきた。",
+          "meaning_vi": "dùng đúng 「無事」≈ bình an vô sự",
+          "status": "correct",
+          "reason_vi": "Đúng. Em về bình an."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-35",
@@ -1582,7 +2671,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ぬる」= bôi / thoa (thuốc, kem). Không phải nhuộm tóc, đánh bóng giày, hay dán poster. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "虫にさされてかゆいので、薬をぬった。",
+          "meaning_vi": "dùng đúng 「ぬる」≈ bôi/ phết/ quét...",
+          "status": "correct",
+          "reason_vi": "Đúng. Bôi thuốc chỗ côn trùng đốt."
+        },
+        {
+          "key": "2",
+          "text_jp": "美容院で髪を茶色にぬった。",
+          "meaning_vi": "lệch nghĩa 「ぬる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Nhuộm tóc → 染める."
+        },
+        {
+          "key": "3",
+          "text_jp": "汚れていた革靴をピカピカにぬった。",
+          "meaning_vi": "lệch nghĩa 「ぬる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Đánh bóng giày → 磨く."
+        },
+        {
+          "key": "4",
+          "text_jp": "スポーツ大会のポスターを壁にぬった。",
+          "meaning_vi": "lệch nghĩa 「ぬる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Dán poster → 貼る."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-36",
@@ -1634,7 +2755,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「過ごす」(すごす) = trải qua / tận hưởng thời gian. Không phải quá 6 giờ, qua đường, hay xe chạy qua. Đáp án đúng: 3.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "夏は夕方６時を過ごしても、まだ外が明るい。",
+          "meaning_vi": "lệch nghĩa 「過ごす」",
+          "status": "wrong",
+          "reason_vi": "Sai. Quá 6 giờ → 過ぎても."
+        },
+        {
+          "key": "2",
+          "text_jp": "左右をよく見てから、横断歩道を過ごしてください。",
+          "meaning_vi": "lệch nghĩa 「過ごす」",
+          "status": "wrong",
+          "reason_vi": "Sai. Qua đường → 渡る."
+        },
+        {
+          "key": "3",
+          "text_jp": "夏休みには、いなかの祖父の家でのんびり過ごした。",
+          "meaning_vi": "dùng đúng 「過ごす」≈ ở/ tận hưởng (kỳ nghỉ, cuối tuần...)",
+          "status": "correct",
+          "reason_vi": "Đúng. Nghỉ hè thong thả ở nhà ông."
+        },
+        {
+          "key": "4",
+          "text_jp": "この道は車がたくさん過ごすので、気をつけよう。",
+          "meaning_vi": "lệch nghĩa 「過ごす」",
+          "status": "wrong",
+          "reason_vi": "Sai. Xe đi qua → 通る."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-37",
@@ -1672,7 +2825,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「テーマ」= chủ đề (tác phẩm). Không phải diễn viên trong phim, phép lịch sự, hay sân ga. Đáp án đúng: 2.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "私はそのテーマに出ている俳優が好きです。",
+          "meaning_vi": "lệch nghĩa 「テーマ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Diễn viên trong phim → ドラマ／映画."
+        },
+        {
+          "key": "2",
+          "text_jp": "この二つの小説のテーマは同じです。",
+          "meaning_vi": "dùng đúng 「テーマ」≈ chủ đề",
+          "status": "correct",
+          "reason_vi": "Đúng. Hai tiểu thuyết cùng chủ đề."
+        },
+        {
+          "key": "3",
+          "text_jp": "電車の中で携帯電話を使うなんて、テーマを知らない人だ。",
+          "meaning_vi": "lệch nghĩa 「テーマ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Phép tắc → マナー."
+        },
+        {
+          "key": "4",
+          "text_jp": "駅のテーマではたくさんの人が電車を待っている。",
+          "meaning_vi": "lệch nghĩa 「テーマ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Sân ga → ホーム／駅."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-38",
@@ -1710,7 +2895,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「おおざっぱ」= sơ sài / ước lượng đại khái. Không phải vội vàng, đồ sộ, hay rộng lượng. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "旅行の費用はおおざっぱに計算して、５万円です。",
+          "meaning_vi": "dùng đúng 「おおざっぱ」≈ tính sơ sơ, sương sương, qua loa",
+          "status": "correct",
+          "reason_vi": "Đúng. Tính chi phí đại khái 5 vạn yên."
+        },
+        {
+          "key": "2",
+          "text_jp": "試験の朝、寝坊した妹はおおざっぱに家を出ていった。",
+          "meaning_vi": "lệch nghĩa 「おおざっぱ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Vội ra khỏi nhà → あわてて."
+        },
+        {
+          "key": "3",
+          "text_jp": "この寺の建物は天井が高く、柱が太くて、とてもおおざっぱだ。",
+          "meaning_vi": "lệch nghĩa 「おおざっぱ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Kiến trúc đồ sộ → 立派／壮大."
+        },
+        {
+          "key": "4",
+          "text_jp": "あんなに大きな失敗をした社員を許すなんて、社長は心がおおざっぱだ。",
+          "meaning_vi": "lệch nghĩa 「おおざっぱ」",
+          "status": "wrong",
+          "reason_vi": "Sai. Rộng lượng → 寛大."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-39",
@@ -1752,7 +2969,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「いきいき」= sống động / hào hứng. Không phải xe nhúc nhích, “đừng chậm”, hay bán chạy. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ゲームをしているとき、彼はいきいきして、すごく楽しそうだ。",
+          "meaning_vi": "dùng đúng 「いきいき」≈ hào hứng",
+          "status": "correct",
+          "reason_vi": "Đúng. Khi chơi game trông rất hào hứng."
+        },
+        {
+          "key": "2",
+          "text_jp": "道が渋滞していて、車がいきいき動いている。",
+          "meaning_vi": "lệch nghĩa 「いきいき」",
+          "status": "wrong",
+          "reason_vi": "Sai. Xe nhích chậm → のろのろ."
+        },
+        {
+          "key": "3",
+          "text_jp": "いきいきしないで、早く準備をしなさい。",
+          "meaning_vi": "lệch nghĩa 「いきいき」",
+          "status": "wrong",
+          "reason_vi": "Sai. Đừng chậm chạp → ぐずぐずしないで."
+        },
+        {
+          "key": "4",
+          "text_jp": "新しく発売された車はいきいき売れて、あっという間に売り切れた。",
+          "meaning_vi": "lệch nghĩa 「いきいき」",
+          "status": "wrong",
+          "reason_vi": "Sai. Bán chạy → よく売れて."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-40",
@@ -1800,7 +3049,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「手間」(てま) = công sức / thời gian bỏ ra (thường “tốn công”). Không phải đồ trong nhà, thời gian dài, hay người giúp. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "手間のカーテンとソファーを新しくした。",
+          "meaning_vi": "lệch nghĩa 「手間」",
+          "status": "wrong",
+          "reason_vi": "Sai. Đồ phòng khách → 居間の."
+        },
+        {
+          "key": "2",
+          "text_jp": "今日の宿題は難しくて、長い手間がかかった。",
+          "meaning_vi": "lệch nghĩa 「手間」",
+          "status": "wrong",
+          "reason_vi": "Sai. Mất nhiều thời gian → 時間がかかった."
+        },
+        {
+          "key": "3",
+          "text_jp": "この仕事は私一人では無理だ。だれかの手間がないとできない。",
+          "meaning_vi": "lệch nghĩa 「手間」",
+          "status": "wrong",
+          "reason_vi": "Sai. Cần người giúp → 助け."
+        },
+        {
+          "key": "4",
+          "text_jp": "いつも忙しいので、手間のかかる料理は作らない。",
+          "meaning_vi": "dùng đúng 「手間」≈ công sức",
+          "status": "correct",
+          "reason_vi": "Đúng. Không làm món tốn công vì bận."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-41",
@@ -1838,7 +3119,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ひどい」= tệ / kinh khủng (kết quả xấu). Không phải “ghê gớm (khen)”, “người xấu”, hay “kẻ mạnh”. Đáp án đúng: 2.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ボクシングをはじめてまだ１年なのに、オリンピックに出るなんてひどいね。",
+          "meaning_vi": "lệch nghĩa 「ひどい」",
+          "status": "wrong",
+          "reason_vi": "Sai. Khen giỏi → すごい."
+        },
+        {
+          "key": "2",
+          "text_jp": "今度の試験の成績はひどかった。すっかり自信がなくなってしまった。",
+          "meaning_vi": "dùng đúng 「ひどい」≈ kinh khủng",
+          "status": "correct",
+          "reason_vi": "Đúng. Điểm thi tệ → mất tự tin."
+        },
+        {
+          "key": "3",
+          "text_jp": "彼女は遅刻ばかりしていて、職場ではひどい人だと思われている。",
+          "meaning_vi": "lệch nghĩa 「ひどい」",
+          "status": "wrong",
+          "reason_vi": "Sai. Người bị đánh giá xấu vì muộn → 評判が悪い (khác)."
+        },
+        {
+          "key": "4",
+          "text_jp": "動物の世界ではひどい者がリーダーになる。",
+          "meaning_vi": "lệch nghĩa 「ひどい」",
+          "status": "wrong",
+          "reason_vi": "Sai. Kẻ mạnh → 強い者."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-42",
@@ -1897,7 +3210,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「申し込む」(もうしこむ) = đăng ký / xin gia nhập. Không phải gọi món, phát biểu, hay cảm ơn. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "レストランで一番高い料理を申し込んだ。",
+          "meaning_vi": "lệch nghĩa 「申し込む」",
+          "status": "wrong",
+          "reason_vi": "Sai. Gọi món → 注文する."
+        },
+        {
+          "key": "2",
+          "text_jp": "会議で自分の意見を申し込んだ。",
+          "meaning_vi": "lệch nghĩa 「申し込む」",
+          "status": "wrong",
+          "reason_vi": "Sai. Nêu ý kiến → 述べる."
+        },
+        {
+          "key": "3",
+          "text_jp": "先生にお礼を申し込みたいと思っています。",
+          "meaning_vi": "lệch nghĩa 「申し込む」",
+          "status": "wrong",
+          "reason_vi": "Sai. Cảm ơn → お礼を言う."
+        },
+        {
+          "key": "4",
+          "text_jp": "テニスクラブに入会を申し込んだ。",
+          "meaning_vi": "dùng đúng 「申し込む」≈ đăng ký",
+          "status": "correct",
+          "reason_vi": "Đúng. Đăng ký vào CLB tennis."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-43",
@@ -1948,7 +3293,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「少なくとも」(すくなくとも) = ít nhất (mức tối thiểu). Không phải “thường ở nhà”, “chỉ một chút bia”, hay “ít thôi cũng được”. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "休みの日は少なくともうちにいますが、昨日は出かけました。",
+          "meaning_vi": "lệch nghĩa 「少なくとも」",
+          "status": "wrong",
+          "reason_vi": "Sai. Thường thì ở nhà → たいてい."
+        },
+        {
+          "key": "2",
+          "text_jp": "酒に弱い彼女は、ビールを少なくとも飲むと顔が赤くなる。",
+          "meaning_vi": "lệch nghĩa 「少なくとも」",
+          "status": "wrong",
+          "reason_vi": "Sai. Chỉ uống một chút → 少しでも."
+        },
+        {
+          "key": "3",
+          "text_jp": "あ、そんなにいりません。少なくともでけっこうです。",
+          "meaning_vi": "lệch nghĩa 「少なくとも」",
+          "status": "wrong",
+          "reason_vi": "Sai. Ít cũng được → 少しで."
+        },
+        {
+          "key": "4",
+          "text_jp": "そのテストに合格するためには少なくとも70点必要だ。",
+          "meaning_vi": "dùng đúng 「少なくとも」≈ ít nhất là",
+          "status": "correct",
+          "reason_vi": "Đúng. Cần ít nhất 70 điểm để đậu."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-44",
@@ -1996,7 +3373,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「油断」(ゆだん) = chủ quan / lơ là. Không phải “cần thận trọng”, “đã yên tâm”, hay “không quyết định nổi”. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "一瞬の油断で試合に負けてしまった。",
+          "meaning_vi": "dùng đúng 「油断」≈ cẩu thả, lơ là, chủ quan",
+          "status": "correct",
+          "reason_vi": "Đúng. Một phút chủ quan là thua."
+        },
+        {
+          "key": "2",
+          "text_jp": "午後から雨と風が強くなるので、油断が必要です。",
+          "meaning_vi": "lệch nghĩa 「油断」",
+          "status": "wrong",
+          "reason_vi": "Sai. Cần chú ý → 注意が必要."
+        },
+        {
+          "key": "3",
+          "text_jp": "熱が下がったから、もう油断だ。",
+          "meaning_vi": "lệch nghĩa 「油断」",
+          "status": "wrong",
+          "reason_vi": "Sai. Đã ổn → 安心だ."
+        },
+        {
+          "key": "4",
+          "text_jp": "どうしたらいいのか、私一人では油断ができなかった。",
+          "meaning_vi": "lệch nghĩa 「油断」",
+          "status": "wrong",
+          "reason_vi": "Sai. Không quyết được → 判断できない."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-45",
@@ -2038,7 +3447,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ゆずる」= nhường (chỗ/quyền). Không phải rung vì động đất, chào hỏi, hay chở tới ga. Đáp án đúng: 3.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "地震で建物が激しくゆずった。",
+          "meaning_vi": "lệch nghĩa 「ゆずる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Rung → 揺れた."
+        },
+        {
+          "key": "2",
+          "text_jp": "となりのご主人は会うといつも「こんにちは」と声をゆずってくれる。",
+          "meaning_vi": "lệch nghĩa 「ゆずる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Lên tiếng chào → 声をかける."
+        },
+        {
+          "key": "3",
+          "text_jp": "電車の中でお年寄りに席をゆずった。",
+          "meaning_vi": "dùng đúng 「ゆずる」≈ Nhường (ghế), nhượng lại",
+          "status": "correct",
+          "reason_vi": "Đúng. Nhường ghế cho người già."
+        },
+        {
+          "key": "4",
+          "text_jp": "友だちが車で駅までゆずってくれた。",
+          "meaning_vi": "lệch nghĩa 「ゆずる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Chở tới → 送ってくれた."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-46",
@@ -2080,7 +3521,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ひとりでに」= tự nó xảy ra (không ai làm). Không phải “đồng loạt”, “thay người”, hay “tự ý vào”. Đáp án đúng: 1.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "だれも乗っていないのに、ひとりでに車が動き出した。",
+          "meaning_vi": "dùng đúng 「ひとりでに」≈ tự nhiên/ chẳng làm gì mà...",
+          "status": "correct",
+          "reason_vi": "Đúng. Xe tự chạy dù không có người."
+        },
+        {
+          "key": "2",
+          "text_jp": "「スタート」の声と同時に、選手全員がひとりでに走り出した。",
+          "meaning_vi": "lệch nghĩa 「ひとりでに」",
+          "status": "wrong",
+          "reason_vi": "Sai. Cùng lúc xuất phát → いっせいに."
+        },
+        {
+          "key": "3",
+          "text_jp": "課長が病気で休みなので、ひとりでに私が会議に出た。",
+          "meaning_vi": "lệch nghĩa 「ひとりでに」",
+          "status": "wrong",
+          "reason_vi": "Sai. Tôi phải đi thay → 代わりに."
+        },
+        {
+          "key": "4",
+          "text_jp": "許可なしに、ひとりでに中に入らないでください。",
+          "meaning_vi": "lệch nghĩa 「ひとりでに」",
+          "status": "wrong",
+          "reason_vi": "Sai. Tự ý vào → 勝手に."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-47",
@@ -2132,7 +3605,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「明け方」(あけがた) = lúc rạng sáng. Không phải giờ mua đồ tối, tin sáng, hay “sáng và chiều”. Đáp án đúng: 3.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "明け方になると、商店街には晩御飯のための買い物をする人がやってくる。",
+          "meaning_vi": "lệch nghĩa 「明け方」",
+          "status": "wrong",
+          "reason_vi": "Sai. Giờ mua đồ tối → 夕方."
+        },
+        {
+          "key": "2",
+          "text_jp": "明け方の新聞によると、今日台風が関東地方に近づくそうだ。",
+          "meaning_vi": "lệch nghĩa 「明け方」",
+          "status": "wrong",
+          "reason_vi": "Sai. Báo buổi sáng → 朝刊."
+        },
+        {
+          "key": "3",
+          "text_jp": "受験生の姉は毎日明け方まで勉強している。",
+          "meaning_vi": "dùng đúng 「明け方」≈ rạng sáng",
+          "status": "correct",
+          "reason_vi": "Đúng. Học tới tận rạng sáng."
+        },
+        {
+          "key": "4",
+          "text_jp": "明け方と夕方、１日に２回、食事の後に薬を飲んでいる。",
+          "meaning_vi": "lệch nghĩa 「明け方」",
+          "status": "wrong",
+          "reason_vi": "Sai. Sáng và chiều → 朝と晩."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-48",
@@ -2174,7 +3679,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ゆでる」= luộc (trong nước). Không phải đun nước, kho/nấu với gia vị, hay chiên dầu. Đáp án đúng: 4.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "やかんでお湯をゆでた。",
+          "meaning_vi": "lệch nghĩa 「ゆでる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Đun nước → 沸かす."
+        },
+        {
+          "key": "2",
+          "text_jp": "さとうとしょうゆで魚をゆでて食べた。",
+          "meaning_vi": "lệch nghĩa 「ゆでる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Kho/nấu → 煮て."
+        },
+        {
+          "key": "3",
+          "text_jp": "えびと野菜を180度の油でゆでて、てんぷらを作った。",
+          "meaning_vi": "lệch nghĩa 「ゆでる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Chiên → 揚げて."
+        },
+        {
+          "key": "4",
+          "text_jp": "野菜を、やわらかくなるまでゆでてください。",
+          "meaning_vi": "dùng đúng 「ゆでる」≈ luộc",
+          "status": "correct",
+          "reason_vi": "Đúng. Luộc rau cho mềm."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-49",
@@ -2216,7 +3753,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「そっくり」= giống hệt. Không phải trả lời rõ, xứng đáng đại diện, hay cảm giác sảng khoái. Đáp án đúng: 2.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "もっと大きな声でそっくり答えなさい。",
+          "meaning_vi": "lệch nghĩa 「そっくり」",
+          "status": "wrong",
+          "reason_vi": "Sai. Trả lời rõ → はっきり."
+        },
+        {
+          "key": "2",
+          "text_jp": "兄は父と顔がそっくりだ。",
+          "meaning_vi": "dùng đúng 「そっくり」≈ giống hệt",
+          "status": "correct",
+          "reason_vi": "Đúng. Anh giống bố như đúc."
+        },
+        {
+          "key": "3",
+          "text_jp": "彼はまじめだから、クラスの代表にそっくりだ。",
+          "meaning_vi": "lệch nghĩa 「そっくり」",
+          "status": "wrong",
+          "reason_vi": "Sai. Xứng làm đại diện → ふさわしい."
+        },
+        {
+          "key": "4",
+          "text_jp": "運動したあとでシャワーを浴びると、そっくりします。",
+          "meaning_vi": "lệch nghĩa 「そっくり」",
+          "status": "wrong",
+          "reason_vi": "Sai. Sảng khoái → すっきり."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "usage-q-50",
@@ -2268,7 +3837,39 @@
         }
       ],
       "ruby_source": "linguistic",
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「預かる」(あずかる) = giữ / trông hộ (đồ/người). Không phải mượn, để dành tiền, hay sưu tầm. Đáp án đúng: 2.",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "辞書を忘れたので、友だちから預かった。",
+          "meaning_vi": "lệch nghĩa 「預かる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Mượn từ bạn → 借りた."
+        },
+        {
+          "key": "2",
+          "text_jp": "しばらくの間、この荷物を預かってもらえませんか。",
+          "meaning_vi": "dùng đúng 「預かる」≈ trông/ giữ",
+          "status": "correct",
+          "reason_vi": "Đúng. Xin giữ hộ hành lý."
+        },
+        {
+          "key": "3",
+          "text_jp": "ボーナスをもらったら、半分は使わずに預かろうと思います。",
+          "meaning_vi": "lệch nghĩa 「預かる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Để dành tiền → 貯金する."
+        },
+        {
+          "key": "4",
+          "text_jp": "祖父の趣味は世界中の切手を預かることです。",
+          "meaning_vi": "lệch nghĩa 「預かる」",
+          "status": "wrong",
+          "reason_vi": "Sai. Sưu tầm tem → 集める."
+        }
+      ],
+      "explanation_source": "linguistic"
     }
   ]
 }
