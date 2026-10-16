@@ -7,8 +7,8 @@
   <title>Tài liệu ôn tập N3 tổng hợp</title>
   <link rel="icon" type="image/svg+xml" href="./icon.svg">
   <link rel="stylesheet" href="./grammar.css">
-  <link rel="stylesheet" href="./study.css?v=32">
-  <script type="module" src="./study.js?v=32"></script>
+  <link rel="stylesheet" href="./study.css?v=33">
+  <script type="module" src="./study.js?v=33"></script>
 </head>
 <body class="grammar-library-page study-page"><main>
   <header class="library-toolbar">
@@ -53,10 +53,7 @@
     <div id="study-known-bar" class="study-progress-bar" role="progressbar" aria-label="Tiến độ đã thuộc" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
       <span id="study-known-fill" class="study-progress-fill study-progress-ok"></span>
     </div>
-    <div class="study-known-toolbar">
-      <div id="study-known-filters" class="study-progress-filters" role="group" aria-label="Lọc mức độ ghi nhớ"></div>
-      <button type="button" id="study-flash-start" class="study-flash-start">Ôn nhanh</button>
-    </div>
+    <div id="study-known-filters" class="study-progress-filters" role="group" aria-label="Lọc mức độ ghi nhớ"></div>
   </section>
   </header>
   <p id="study-notice" class="study-notice" hidden></p>
@@ -95,6 +92,15 @@
   </section>
   <noscript>Bật JavaScript để xem tài liệu ôn tập.</noscript>
 </main>
+<div id="study-flash-fab" class="study-flash-fab" hidden>
+  <div id="study-flash-fab-menu" class="study-flash-fab-menu" role="menu" hidden>
+    <button type="button" id="study-flash-fab-unknown" role="menuitem">Ôn chưa thuộc</button>
+    <button type="button" id="study-flash-fab-all" role="menuitem">Ôn tất cả</button>
+  </div>
+  <button type="button" id="study-flash-start" class="study-flash-fab-toggle" aria-haspopup="menu" aria-expanded="false" aria-controls="study-flash-fab-menu">
+    Ôn nhanh
+  </button>
+</div>
 <dialog id="study-explanation-dialog" class="study-modal" aria-labelledby="study-explanation-title">
   <div class="study-modal-panel">
     <header class="study-modal-header">
