@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '22';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '23';
 
 const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
@@ -14,9 +14,21 @@ export const filterStudy = (items, query) => items.filter(item => normalize(sear
 export const hasAnswer = item => item.correct_answer != null && item.choices.some(choice => String(choice.key) === String(item.correct_answer));
 const topicNotice = topic => (topic.notice || '').replace(/(?:Cần )?UI type=reading(?: \(xem PROMPT\))?\.\s*/g, '');
 
-export const createPracticeStem = (value, segments, target) => {
-  const stem = createRubyText('p', value, segments, 'study-stem');
+export const createPracticeStem = (value, segments, target, hideTargetReading = false) => {
   const start = target ? value.indexOf(target) : -1;
+  // A reading question must not reveal the underlined answer. Work on a copy
+  // and remove readings only from segments overlapping that target.
+  if (hideTargetReading && start >= 0 && Array.isArray(segments) &&
+      segments.every(segment => segment && typeof segment.text === 'string') &&
+      segments.map(segment => segment.text).join('') === value) {
+    let offset = 0;
+    segments = segments.map(segment => {
+      const from = offset;
+      offset += segment.text.length;
+      return from < start + target.length && offset > start ? { text: segment.text } : segment;
+    });
+  }
+  const stem = createRubyText('p', value, segments, 'study-stem');
   if (start < 0) return stem;
   const end = start + target.length;
   const textNodes = [];
@@ -90,7 +102,7 @@ export function createStudyCard(item, index, selections = new Map()) {
     card.append(resultBadge);
     const stemText = item.stem_jp || item.lemma_jp || '';
     const stemRuby = item.stem_ruby || (!item.stem_jp ? item.lemma_ruby : undefined);
-    card.append(createPracticeStem(stemText, stemRuby, item.target));
+    card.append(createPracticeStem(stemText, stemRuby, item.target, item.subtype === 'kanji_reading_mcq'));
     const options = el('div', '', 'study-options');
     options.setAttribute('role', 'group');
     options.setAttribute('aria-label', 'Lựa chọn cho câu ' + (index + 1));
