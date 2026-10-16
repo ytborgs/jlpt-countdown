@@ -7,8 +7,8 @@
   <title>Tài liệu ôn tập N3 tổng hợp</title>
   <link rel="icon" type="image/svg+xml" href="./icon.svg">
   <link rel="stylesheet" href="./grammar.css">
-  <link rel="stylesheet" href="./study.css?v=31">
-  <script type="module" src="./study.js?v=31"></script>
+  <link rel="stylesheet" href="./study.css?v=32">
+  <script type="module" src="./study.js?v=32"></script>
 </head>
 <body class="grammar-library-page study-page"><main>
   <header class="library-toolbar">
@@ -53,12 +53,46 @@
     <div id="study-known-bar" class="study-progress-bar" role="progressbar" aria-label="Tiến độ đã thuộc" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
       <span id="study-known-fill" class="study-progress-fill study-progress-ok"></span>
     </div>
-    <div id="study-known-filters" class="study-progress-filters" role="group" aria-label="Lọc mức độ ghi nhớ"></div>
+    <div class="study-known-toolbar">
+      <div id="study-known-filters" class="study-progress-filters" role="group" aria-label="Lọc mức độ ghi nhớ"></div>
+      <button type="button" id="study-flash-start" class="study-flash-start">Ôn nhanh</button>
+    </div>
   </section>
   </header>
   <p id="study-notice" class="study-notice" hidden></p>
   <button id="study-retry" class="grammar-retry" type="button" hidden>Thử tải lại</button>
   <div id="study-list" class="grammar-list" aria-busy="true"></div>
+  <section id="study-flash" class="study-flash" hidden aria-label="Ôn nhanh">
+    <div class="study-flash-bar">
+      <p id="study-flash-counter" class="study-flash-counter" aria-live="polite"></p>
+      <label class="study-flash-shuffle"><input type="checkbox" id="study-flash-shuffle"> Xáo trộn</label>
+      <button type="button" id="study-flash-exit" class="study-flash-exit">Thoát</button>
+    </div>
+    <article id="study-flash-card" class="study-flash-card" tabindex="0">
+      <div id="study-flash-head" class="study-flash-head"></div>
+      <div id="study-flash-answer" class="study-flash-answer" hidden>
+        <div id="study-flash-meaning" class="study-flash-meaning"></div>
+        <div id="study-flash-example" class="study-flash-example"></div>
+      </div>
+      <div id="study-flash-front-actions" class="study-flash-actions">
+        <button type="button" id="study-flash-reveal">Hiện đáp án</button>
+      </div>
+      <div id="study-flash-back-actions" class="study-flash-actions study-flash-back-actions" hidden>
+        <button type="button" id="study-flash-mark-known">Đã thuộc</button>
+        <button type="button" id="study-flash-mark-unknown">Chưa thuộc</button>
+        <button type="button" id="study-flash-next" class="study-flash-next">Tiếp →</button>
+      </div>
+    </article>
+    <div id="study-flash-done" class="study-flash-done" hidden>
+      <h2 id="study-flash-done-title">Đã ôn hết</h2>
+      <p id="study-flash-done-text"></p>
+      <div class="study-flash-done-actions">
+        <button type="button" id="study-flash-retry-unknown">Ôn lại chưa thuộc</button>
+        <button type="button" id="study-flash-retry-all">Ôn tất cả</button>
+        <button type="button" id="study-flash-back-list" class="study-flash-secondary">Về danh sách</button>
+      </div>
+    </div>
+  </section>
   <noscript>Bật JavaScript để xem tài liệu ôn tập.</noscript>
 </main>
 <dialog id="study-explanation-dialog" class="study-modal" aria-labelledby="study-explanation-title">

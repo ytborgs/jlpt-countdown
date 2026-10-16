@@ -1,6 +1,51 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '31';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '32';
 const SESSION_SHORT = 20;
+
+export const parseStudyHash = (hash = typeof location !== 'undefined' ? location.hash : '') => {
+  const raw = String(hash || '').replace(/^#/, '');
+  const q = raw.indexOf('?');
+  const id = q < 0 ? raw : raw.slice(0, q);
+  const params = new URLSearchParams(q < 0 ? '' : raw.slice(q + 1));
+  return { id, flash: params.get('mode') === 'flash' };
+};
+
+export const shuffleItems = items => {
+  const list = [...items];
+  for (let i = list.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [list[i], list[j]] = [list[j], list[i]];
+  }
+  return list;
+};
+
+export const flashHeadForItem = item => {
+  const grammarTip = item.type === 'tips' && item.subtype === 'exam_tip_grammar' &&
+    ['pattern', 'meaning', 'structure', 'usage', 'example_jp', 'example_vi'].every(key => typeof item[key] === 'string');
+  if (item.type === 'grammar' || grammarTip) {
+    return { text: item.pattern || '', ruby: item.pattern_ruby, className: 'study-flash-pattern', lang: 'ja' };
+  }
+  if (item.type === 'reading') {
+    return { text: item.connector_jp || '', ruby: item.connector_ruby, className: 'study-connector', lang: 'ja' };
+  }
+  if (item.type === 'vocabulary') {
+    return { text: item.lemma_jp || item.example_jp || '', ruby: item.lemma_ruby, className: 'study-word', lang: 'ja' };
+  }
+  if (item.type === 'kanji') {
+    return { text: item.kanji || '', ruby: undefined, className: 'study-kanji', lang: 'ja' };
+  }
+  return { text: item.label || item.title || 'Ghi chú ôn tập', ruby: undefined, className: 'study-connector', lang: undefined };
+};
+
+export const flashMeaningForItem = item => {
+  const grammarTip = item.type === 'tips' && item.subtype === 'exam_tip_grammar' && typeof item.meaning === 'string';
+  if (item.type === 'grammar' || grammarTip) return item.meaning || '';
+  if (item.type === 'kanji') return [item.han_viet, item.meaning_vi].filter(Boolean).join(' · ');
+  if (item.type === 'tips' && typeof item.body === 'string') return item.body.trim();
+  return item.meaning_vi || '';
+};
+
+export const flashExampleTarget = item => item.connector_jp || item.lemma_jp || item.pattern || '';
 
 const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
@@ -407,10 +452,39 @@ async function startStudy() {
   const knownBar = document.getElementById('study-known-bar');
   const knownFill = document.getElementById('study-known-fill');
   const knownFilters = document.getElementById('study-known-filters');
+  const flashRoot = document.getElementById('study-flash');
+  const flashStart = document.getElementById('study-flash-start');
+  const flashCounter = document.getElementById('study-flash-counter');
+  const flashShuffle = document.getElementById('study-flash-shuffle');
+  const flashExit = document.getElementById('study-flash-exit');
+  const flashCard = document.getElementById('study-flash-card');
+  const flashHead = document.getElementById('study-flash-head');
+  const flashAnswer = document.getElementById('study-flash-answer');
+  const flashMeaning = document.getElementById('study-flash-meaning');
+  const flashExample = document.getElementById('study-flash-example');
+  const flashFrontActions = document.getElementById('study-flash-front-actions');
+  const flashBackActions = document.getElementById('study-flash-back-actions');
+  const flashReveal = document.getElementById('study-flash-reveal');
+  const flashMarkKnown = document.getElementById('study-flash-mark-known');
+  const flashMarkUnknown = document.getElementById('study-flash-mark-unknown');
+  const flashNext = document.getElementById('study-flash-next');
+  const flashDone = document.getElementById('study-flash-done');
+  const flashDoneTitle = document.getElementById('study-flash-done-title');
+  const flashDoneText = document.getElementById('study-flash-done-text');
+  const flashRetryUnknown = document.getElementById('study-flash-retry-unknown');
+  const flashRetryAll = document.getElementById('study-flash-retry-all');
+  const flashBackList = document.getElementById('study-flash-back-list');
   let known = new Set(), knownMode = false, knownFilter = 'all';
+  let flashActive = false, flashQueue = [], flashIndex = 0, flashRevealed = false, flashReviewed = 0, flashAllMode = false;
   const knownFilterButtons = [];
+  const setFlashHash = enabled => {
+    if (!topic) return;
+    const next = '#' + topic.id + (enabled ? '?mode=flash' : '');
+    if (location.hash !== next) history.replaceState(null, '', next);
+  };
   const updateKnownProgress = () => {
     knownProgress.hidden = !knownMode;
+    flashStart.hidden = !knownMode || !items.length;
     const total = knownMode ? items.length : 0;
     const done = knownMode ? known.size : 0;
     knownText.textContent = `Đã thuộc ${done} · Còn ${total - done} / ${total}`;
@@ -422,10 +496,104 @@ async function startStudy() {
   };
   const onKnownChange = () => {
     saveStudyKnown(topic.id, known); updateKnownProgress();
+    if (flashActive) return;
     if (knownFilter !== 'all') {
       render();
       knownFilterButtons.find(button => button.dataset.filter === knownFilter).focus({ preventScroll: true });
     }
+  };
+  const buildFlashQueue = ({ all = false } = {}) => {
+    let queue = all ? [...items] : items.filter(item => !known.has(item.id));
+    if (flashShuffle.checked) queue = shuffleItems(queue);
+    return queue;
+  };
+  const showFlashDone = ({ emptyUnknown = false } = {}) => {
+    flashCard.hidden = true;
+    flashDone.hidden = false;
+    const unknownLeft = items.filter(item => !known.has(item.id)).length;
+    flashDoneTitle.textContent = emptyUnknown ? 'Đã ôn hết mục chưa thuộc' : 'Đã ôn hết';
+    flashDoneText.textContent = `Đã ôn ${flashReviewed} mục · Đã thuộc tổng ${known.size} / ${items.length}`;
+    flashRetryUnknown.disabled = unknownLeft === 0;
+    flashRetryUnknown.focus();
+  };
+  const paintFlashCard = () => {
+    const item = flashQueue[flashIndex];
+    if (!item) { showFlashDone(); return; }
+    flashCard.hidden = false;
+    flashDone.hidden = true;
+    flashRevealed = false;
+    flashCounter.textContent = `${flashIndex + 1} / ${flashQueue.length} còn lại`;
+    const head = flashHeadForItem(item);
+    flashHead.replaceChildren();
+    if (head.text) {
+      const node = createRubyText('div', head.text, head.ruby, head.className);
+      if (head.lang) node.lang = head.lang;
+      flashHead.append(node);
+    } else {
+      flashHead.append(el('div', '—', head.className));
+    }
+    flashMeaning.replaceChildren();
+    flashExample.replaceChildren();
+    flashAnswer.hidden = true;
+    flashFrontActions.hidden = false;
+    flashBackActions.hidden = true;
+    flashReveal.focus({ preventScroll: true });
+  };
+  const revealFlash = () => {
+    const item = flashQueue[flashIndex];
+    if (!item || flashRevealed) return;
+    flashRevealed = true;
+    const meaning = flashMeaningForItem(item);
+    flashMeaning.replaceChildren(meaning ? el('p', meaning) : el('p', 'Chưa có nghĩa trong tài liệu.'));
+    flashExample.replaceChildren();
+    if (item.example_jp) {
+      flashExample.append(highlightTargetInExample(item.example_jp, item.example_ruby, flashExampleTarget(item), item.type));
+    }
+    flashAnswer.hidden = false;
+    flashFrontActions.hidden = true;
+    flashBackActions.hidden = false;
+    flashNext.focus({ preventScroll: true });
+  };
+  const advanceFlash = () => {
+    flashReviewed += 1;
+    if (flashIndex >= flashQueue.length - 1) {
+      showFlashDone();
+      return;
+    }
+    flashIndex += 1;
+    paintFlashCard();
+  };
+  const enterFlashMode = ({ all = false } = {}) => {
+    if (!knownMode || !items.length) return;
+    flashAllMode = all;
+    flashQueue = buildFlashQueue({ all });
+    flashIndex = 0;
+    flashReviewed = 0;
+    flashActive = true;
+    flashRoot.hidden = false;
+    document.body.classList.add('study-flash-active');
+    setFlashHash(true);
+    updateKnownProgress();
+    if (!flashQueue.length) {
+      showFlashDone({ emptyUnknown: !all });
+      return;
+    }
+    paintFlashCard();
+    window.scrollTo(0, 0);
+  };
+  const exitFlashMode = ({ renderList = true, updateHash = true } = {}) => {
+    if (!flashActive && flashRoot.hidden) return;
+    flashActive = false;
+    flashQueue = [];
+    flashIndex = 0;
+    flashRevealed = false;
+    flashRoot.hidden = true;
+    flashCard.hidden = false;
+    flashDone.hidden = true;
+    document.body.classList.remove('study-flash-active');
+    if (updateHash) setFlashHash(false);
+    updateKnownProgress();
+    if (renderList) render();
   };
   const matchesKnownFilter = item => !knownMode || knownFilter === 'all' || (knownFilter === 'known' ? known.has(item.id) : !known.has(item.id));
   for (const [mode, label] of [['all', 'Tất cả'], ['unknown', 'Chưa thuộc'], ['known', 'Đã thuộc']]) {
@@ -434,6 +602,44 @@ async function startStudy() {
     button.addEventListener('click', () => { knownFilter = mode; render(); });
     knownFilters.append(button); knownFilterButtons.push(button);
   }
+  flashStart.addEventListener('click', () => enterFlashMode({ all: false }));
+  flashExit.addEventListener('click', () => exitFlashMode());
+  flashBackList.addEventListener('click', () => exitFlashMode());
+  flashReveal.addEventListener('click', event => { event.stopPropagation(); revealFlash(); });
+  flashCard.addEventListener('click', event => {
+    if (event.target.closest('button, a, input, label')) return;
+    if (flashDone.hidden === false) return;
+    if (!flashRevealed) revealFlash();
+  });
+  flashCard.addEventListener('keydown', event => {
+    if (event.key === ' ' || event.key === 'Enter') {
+      if (flashRevealed || !flashDone.hidden) return;
+      event.preventDefault();
+      revealFlash();
+    }
+  });
+  flashMarkKnown.addEventListener('click', event => {
+    event.stopPropagation();
+    const item = flashQueue[flashIndex];
+    if (!item) return;
+    known.add(item.id);
+    onKnownChange();
+    advanceFlash();
+  });
+  flashMarkUnknown.addEventListener('click', event => {
+    event.stopPropagation();
+    const item = flashQueue[flashIndex];
+    if (!item) return;
+    known.delete(item.id);
+    onKnownChange();
+    advanceFlash();
+  });
+  flashNext.addEventListener('click', event => {
+    event.stopPropagation();
+    advanceFlash();
+  });
+  flashRetryUnknown.addEventListener('click', () => enterFlashMode({ all: false }));
+  flashRetryAll.addEventListener('click', () => enterFlashMode({ all: true }));
   let filterMode = 'all', gradable = [], practiceItems = [];
   let viewMode = 'list', sessionQueue = [], sessionIndex = 0, sessionLimit = null;
   const filterButtons = [];
@@ -706,7 +912,15 @@ async function startStudy() {
     sessionLimit = null; viewMode = 'list'; sessionQueue = []; sessionIndex = 0; render();
   });
   window.addEventListener('keydown', event => {
-    if (!ready || !isPracticeTopic() || viewMode !== 'session' || dialog.open) return;
+    if (!ready || dialog.open) return;
+    if (flashActive) {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        exitFlashMode();
+      }
+      return;
+    }
+    if (!isPracticeTopic() || viewMode !== 'session') return;
     if (event.target.closest('input, textarea, select')) return;
     if (event.key >= '1' && event.key <= '9') {
       const option = list.querySelectorAll('.study-option')[Number(event.key) - 1];
@@ -799,6 +1013,13 @@ async function startStudy() {
   };
   const render = () => {
     if (!ready) return;
+    if (flashActive) {
+      updateGroupFilters();
+      updateViewMode();
+      updateProgress();
+      updateKnownProgress();
+      return;
+    }
     updateGroupFilters();
     updateViewMode();
     if (isPracticeTopic() && viewMode === 'session') {
@@ -847,11 +1068,12 @@ async function startStudy() {
     const request = ++version;
     if (dialog.open) dialog.close();
     progressMenu.open = false;
+    exitFlashMode({ renderList: false, updateHash: false });
     ready = false; progress.hidden = true; knownProgress.hidden = true;
     list.replaceChildren(); retry.hidden = true; notice.hidden = true;
     list.setAttribute('aria-busy', 'true');
     status.textContent = 'Đang tải tài liệu…';
-    const id = location.hash.slice(1);
+    const { id, flash: wantFlash } = parseStudyHash();
     title.textContent = 'Tài liệu ôn tập N3 tổng hợp';
     back.href = id ? './study.html' : './settings.html';
     back.setAttribute('aria-label', id ? 'Về danh mục tài liệu' : 'Về Cài đặt');
@@ -898,6 +1120,7 @@ async function startStudy() {
       search.placeholder = topic ? 'Tìm tiếng Nhật hoặc nghĩa tiếng Việt…' : 'Tìm tài liệu hoặc nhóm…';
       if (viewMode === 'session') refreshSessionQueue({ preferTodo: true });
       ready = true; render();
+      if (wantFlash && knownMode) enterFlashMode({ all: false });
     } catch {
       if (request !== version) return;
       status.textContent = id && topics && !topics.some(item => item.id === id) ? 'Không tìm thấy mục này. Nhấn mũi tên để về danh mục.' : 'Chưa tải được tài liệu. Kiểm tra kết nối rồi thử lại.';
