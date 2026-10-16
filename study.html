@@ -7,8 +7,8 @@
   <title>Tài liệu ôn tập N3 tổng hợp</title>
   <link rel="icon" type="image/svg+xml" href="./icon.svg">
   <link rel="stylesheet" href="./grammar.css">
-  <link rel="stylesheet" href="./study.css?v=27">
-  <script type="module" src="./study.js?v=27"></script>
+  <link rel="stylesheet" href="./study.css?v=28">
+  <script type="module" src="./study.js?v=28"></script>
 </head>
 <body class="grammar-library-page study-page"><main>
   <header class="library-toolbar">
@@ -32,6 +32,13 @@
       <span id="study-progress-bad" class="study-progress-fill study-progress-bad"></span>
     </div>
     <div id="study-progress-filters" class="study-progress-filters" role="group" aria-label="Lọc câu hỏi"></div>
+  </section>
+  <section id="study-known-progress" class="study-progress study-known-progress" aria-label="Tiến độ ghi nhớ" hidden>
+    <p id="study-known-text" class="study-progress-text" aria-live="polite"></p>
+    <div id="study-known-bar" class="study-progress-bar" role="progressbar" aria-label="Tiến độ đã thuộc" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <span id="study-known-fill" class="study-progress-fill study-progress-ok"></span>
+    </div>
+    <div id="study-known-filters" class="study-progress-filters" role="group" aria-label="Lọc mức độ ghi nhớ"></div>
   </section>
   </header>
   <p id="study-notice" class="study-notice" hidden></p>
