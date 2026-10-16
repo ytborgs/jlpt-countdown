@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '27';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '28';
 
 const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
@@ -41,6 +41,42 @@ export function hydrateStudyProgress(items, saved) {
   return { selections, results };
 }
 
+const KNOWN_KEY = 'jlpt-study-known-v1';
+export function loadStudyKnown() {
+  try { return record(JSON.parse(localStorage.getItem(KNOWN_KEY) || '{}')); }
+  catch { return {}; }
+}
+export function hydrateStudyKnown(items, saved) {
+  const stored = record(saved);
+  return new Set(items.filter(item => Object.hasOwn(stored, item.id) && stored[item.id] === true).map(item => item.id));
+}
+export function saveStudyKnown(topicId, known) {
+  try {
+    const all = loadStudyKnown();
+    all[topicId] = Object.fromEntries([...known].map(id => [id, true]));
+    localStorage.setItem(KNOWN_KEY, JSON.stringify(all));
+  } catch { /* Keep the current session usable if local storage is unavailable. */ }
+}
+
+const addKnownToggle = (card, item, state) => {
+  if (!state || item.type === 'practice') return card;
+  const button = el('button', 'Đã thuộc', 'study-known');
+  button.type = 'button';
+  const update = () => {
+    const known = state.known.has(item.id);
+    button.setAttribute('aria-pressed', String(known));
+    button.title = known ? 'Đánh dấu chưa thuộc' : 'Đánh dấu đã thuộc';
+    card.dataset.known = String(known);
+  };
+  button.addEventListener('click', () => {
+    if (state.known.has(item.id)) state.known.delete(item.id);
+    else state.known.add(item.id);
+    update(); state.onChange();
+  });
+  update(); card.append(button);
+  return card;
+};
+
 export function openStudyExplanation(detail, index, trigger) {
   const dialog = document.getElementById('study-explanation-dialog');
   if (!dialog || dialog.open) return;
@@ -70,8 +106,12 @@ export const createPracticeStem = (value, segments, target, hideTargetReading = 
       return from < start + target.length && offset > start ? { text: segment.text } : segment;
     });
   }
-  const stem = createRubyText('p', value, segments, 'study-stem');
-  if (start < 0) return stem;
+  return markRubyTarget(createRubyText('p', value, segments, 'study-stem'), value, target);
+};
+
+const markRubyTarget = (element, value, target, className = '') => {
+  const start = target ? value.indexOf(target) : -1;
+  if (start < 0) return element;
   const end = start + target.length;
   const textNodes = [];
   const collect = node => {
@@ -80,7 +120,7 @@ export const createPracticeStem = (value, segments, target, hideTargetReading = 
     if (node.localName === 'rt' || node.localName === 'rp') return;
     for (const child of node.childNodes) collect(child);
   };
-  collect(stem);
+  collect(element);
   let offset = 0;
   for (const node of textNodes) {
     const text = node.textContent;
@@ -89,23 +129,44 @@ export const createPracticeStem = (value, segments, target, hideTargetReading = 
     if (from < to) {
       const parts = [];
       if (from) parts.push(document.createTextNode(text.slice(0, from)));
-      parts.push(el('mark', text.slice(from, to)));
+      parts.push(el('mark', text.slice(from, to), className));
       if (to < text.length) parts.push(document.createTextNode(text.slice(to)));
       node.replaceWith(...parts);
     }
     offset += text.length;
   }
-  return stem;
+  return element;
 };
 
-export function createStudyCard(item, index, selections = new Map(), onSelect = () => {}) {
+export const highlightTargetInExample = (value, segments, target, type) => {
+  const cleaned = String(target || '').replace(/（[^）]*）|\([^)]*\)/g, '').trim();
+  const core = part => part.replace(/^[AＡ]\s*|\s*[BＢ]$/g, '').trim();
+  const exact = core(cleaned.replace(/[～〜]/g, ''));
+  const alternatives = cleaned.split(/[～〜・／/]/).map(core).filter(Boolean);
+  const candidates = [exact, ...alternatives];
+  if (type === 'vocabulary') {
+    // Keep the kanji stem visible for inflected idioms, without inventing readings.
+    for (const part of [...candidates]) {
+      if (part.includes('が')) candidates.push(part.replace('が', 'の'));
+      if (/[\p{Script=Han}々]/u.test(part)) {
+        const stem = part.endsWith('する') ? part.slice(0, -2) + 'し' : /[うくぐすつぬぶむる]$/.test(part) ? part.slice(0, -1) : '';
+        if (stem.length >= 3) candidates.push(stem);
+      }
+    }
+  }
+  const matched = candidates.find(candidate => candidate && value.includes(candidate));
+  const example = createRubyText('p', value, segments, 'grammar-example study-example-jp');
+  return markRubyTarget(example, value, matched, 'study-target');
+};
+
+export function createStudyCard(item, index, selections = new Map(), onSelect = () => {}, knownState) {
   // The answer edition retains type=tips but supplies the complete grammar schema.
   const grammarTip = item.type === 'tips' && item.subtype === 'exam_tip_grammar' &&
     ['pattern', 'meaning', 'structure', 'usage', 'example_jp', 'example_vi'].every(key => typeof item[key] === 'string');
   if (item.type === 'grammar' || grammarTip) {
     const card = createGrammarCard(item);
     card.querySelector('.grammar-number').textContent = 'MẪU ' + (index + 1);
-    return card;
+    return addKnownToggle(card, item, knownState);
   }
   const card = el('article', '', 'grammar-card study-card');
   card.append(el('span', (item.type === 'practice' ? 'CÂU ' : 'MỤC ') + (index + 1), 'grammar-number'));
@@ -126,13 +187,13 @@ export function createStudyCard(item, index, selections = new Map(), onSelect = 
     if (verbInfo) card.append(el('p', verbInfo, 'study-verb-info'));
     if (item.collocates_with) card.append(el('p', item.collocates_with, 'study-collocation', 'ja'));
     if (item.meaning_vi) card.append(el('p', item.meaning_vi));
-    if (item.example_jp) card.append(createRubyText('p', item.example_jp, item.example_ruby, 'grammar-example study-example-jp'));
+    if (item.example_jp) card.append(highlightTargetInExample(item.example_jp, item.example_ruby, item.connector_jp || item.lemma_jp, item.type));
     if (item.example_vi) card.append(el('p', item.example_vi, 'study-example-vi'));
   } else if (item.type === 'reading') {
     card.append(createRubyText('h2', item.connector_jp || '', item.connector_ruby, 'study-connector'));
     if (item.section) card.append(el('small', item.section, 'study-section'));
     if (item.meaning_vi) card.append(el('p', item.meaning_vi));
-    if (item.example_jp) card.append(createRubyText('p', item.example_jp, item.example_ruby, 'grammar-example study-example-jp'));
+    if (item.example_jp) card.append(highlightTargetInExample(item.example_jp, item.example_ruby, item.connector_jp || item.lemma_jp, item.type));
   } else if (item.type === 'tips') {
     card.append(el('h2', item.label || item.title || 'Ghi chú ôn tập', 'study-connector'));
     const hasBody = typeof item.body === 'string' && item.body.trim().length > 0;
@@ -230,7 +291,7 @@ export function createStudyCard(item, index, selections = new Map(), onSelect = 
     }
   }
   if (item.needs_verify && item.type !== 'practice' && !card.querySelector('.study-badge')) card.append(el('span', 'Cần đối chiếu', 'study-badge'));
-  return card;
+  return addKnownToggle(card, item, knownState);
 }
 
 async function startStudy() {
@@ -256,6 +317,38 @@ async function startStudy() {
   const progressMenu = document.getElementById('study-progress-menu');
   const retryWrong = document.getElementById('study-retry-wrong');
   const resetTopic = document.getElementById('study-reset-topic');
+  const knownProgress = document.getElementById('study-known-progress');
+  const knownText = document.getElementById('study-known-text');
+  const knownBar = document.getElementById('study-known-bar');
+  const knownFill = document.getElementById('study-known-fill');
+  const knownFilters = document.getElementById('study-known-filters');
+  let known = new Set(), knownMode = false, knownFilter = 'all';
+  const knownFilterButtons = [];
+  const updateKnownProgress = () => {
+    knownProgress.hidden = !knownMode;
+    const total = knownMode ? items.length : 0;
+    const done = knownMode ? known.size : 0;
+    knownText.textContent = `Đã thuộc ${done} · Còn ${total - done} / ${total}`;
+    const percentage = total ? Math.round(done / total * 100) : 0;
+    knownBar.setAttribute('aria-valuenow', String(percentage));
+    knownBar.setAttribute('aria-valuetext', knownText.textContent);
+    knownFill.style.width = (total ? done / total * 100 : 0) + '%';
+    for (const button of knownFilterButtons) button.setAttribute('aria-pressed', String(button.dataset.filter === knownFilter));
+  };
+  const onKnownChange = () => {
+    saveStudyKnown(topic.id, known); updateKnownProgress();
+    if (knownFilter !== 'all') {
+      render();
+      knownFilterButtons.find(button => button.dataset.filter === knownFilter).focus({ preventScroll: true });
+    }
+  };
+  const matchesKnownFilter = item => !knownMode || knownFilter === 'all' || (knownFilter === 'known' ? known.has(item.id) : !known.has(item.id));
+  for (const [mode, label] of [['all', 'Tất cả'], ['unknown', 'Chưa thuộc'], ['known', 'Đã thuộc']]) {
+    const button = el('button', label);
+    button.type = 'button'; button.dataset.filter = mode;
+    button.addEventListener('click', () => { knownFilter = mode; render(); });
+    knownFilters.append(button); knownFilterButtons.push(button);
+  }
   let filterMode = 'all', gradable = [];
   const filterButtons = [];
   const persist = () => { if (topic) saveStudyProgress(topic.id, selections, results); };
@@ -299,10 +392,10 @@ async function startStudy() {
   let topics, topic, items = [], version = 0, ready = false;
   const render = () => {
     if (!ready) return;
-    updateProgress();
-    const matches = filterStudy(items, search.value).filter(matchesFilter);
+    updateProgress(); updateKnownProgress();
+    const matches = filterStudy(items, search.value).filter(matchesFilter).filter(matchesKnownFilter);
     list.replaceChildren(...matches.map(item => {
-      if (topic) return createStudyCard(item, items.indexOf(item), selections, onSelect);
+      if (topic) return createStudyCard(item, items.indexOf(item), selections, onSelect, knownMode ? { known, onChange: onKnownChange } : undefined);
       const link = el('a', '', 'grammar-card study-topic');
       link.href = '#' + item.id;
       link.append(el('span', item.count + ' ' + item.unit, 'grammar-number'), el('h2', item.title), el('p', item.description));
@@ -310,13 +403,13 @@ async function startStudy() {
       link.append(el('span', 'Mở tài liệu →', 'study-open'));
       return link;
     }));
-    status.textContent = matches.length ? 'Hiển thị ' + matches.length + ' / ' + items.length + (topic ? ' ' + topic.unit : ' bộ tài liệu') + (search.value.trim() ? ' phù hợp.' : '.') : filterMode === 'wrong' && !gradable.some(item => results.get(item.id) === 'wrong') ? 'Không còn câu sai.' : 'Không tìm thấy nội dung phù hợp. Hãy thử bộ lọc hoặc từ khóa khác.';
+    status.textContent = matches.length ? 'Hiển thị ' + matches.length + ' / ' + items.length + (topic ? ' ' + topic.unit : ' bộ tài liệu') + (search.value.trim() ? ' phù hợp.' : '.') : filterMode === 'wrong' && !gradable.some(item => results.get(item.id) === 'wrong') ? 'Không còn câu sai.' : knownMode && !search.value.trim() && knownFilter === 'unknown' ? 'Bạn đã thuộc toàn bộ nội dung của bộ này.' : knownMode && !search.value.trim() && knownFilter === 'known' ? 'Chưa có mục nào được đánh dấu đã thuộc.' : 'Không tìm thấy nội dung phù hợp. Hãy thử bộ lọc hoặc từ khóa khác.';
   };
   const load = async () => {
     const request = ++version;
     if (dialog.open) dialog.close();
     progressMenu.open = false;
-    ready = false; progress.hidden = true;
+    ready = false; progress.hidden = true; knownProgress.hidden = true;
     list.replaceChildren(); retry.hidden = true; notice.hidden = true;
     list.setAttribute('aria-busy', 'true');
     status.textContent = 'Đang tải tài liệu…';
@@ -353,6 +446,9 @@ async function startStudy() {
       ({ selections, results } = hydrateStudyProgress(items, topic ? loadStudyProgress()[topic.id] : {}));
       gradable = topic ? items.filter(item => item.type === 'practice' && hasAnswer(item)) : [];
       filterMode = 'all';
+      knownMode = !!topic && items.every(item => item.type !== 'practice') && items.some(item => ['reading', 'vocabulary', 'grammar', 'tips'].includes(item.type));
+      known = knownMode ? hydrateStudyKnown(items, loadStudyKnown()[topic.id]) : new Set();
+      knownFilter = 'all';
       search.placeholder = topic ? 'Tìm tiếng Nhật hoặc nghĩa tiếng Việt…' : 'Tìm tài liệu…';
       ready = true; render();
     } catch {
