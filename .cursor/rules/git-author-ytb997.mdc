@@ -1,0 +1,31 @@
+---
+description: Bắt buộc git author ytb997; sau khi xong việc được push/PR/merge
+alwaysApply: true
+---
+
+# Git author & ship workflow (jlpt-countdown)
+
+## Author (bắt buộc)
+
+Mọi commit trong repo này **phải** dùng:
+
+```text
+ytb997 <ytb.997.main@gmail.com>
+```
+
+- Luôn truyền `--author="ytb997 <ytb.997.main@gmail.com>"` khi `git commit`.
+- **Không** dựa vào `git config` local máy (có thể là identity khác).
+- Trước khi push/PR: kiểm tra `git log -1 --format='%an <%ae>'` — nếu sai author thì sửa (amend chỉ khi commit chưa push và đủ điều kiện amend; nếu không thì commit mới đúng author).
+- Không dùng `--no-verify` để bỏ qua kiểm tra author.
+
+## Ship sau khi làm xong (được phép)
+
+Khi hoàn thành một thay đổi trên branch feature (trừ khi user bảo dừng):
+
+1. Commit với author trên.
+2. `git push -u origin HEAD`
+3. Tạo PR bằng `gh pr create` (base `main`).
+4. Merge PR (`gh pr merge --merge` hoặc squash nếu repo đang dùng squash — ưu tiên cùng kiểu PR gần đây).
+5. Trả URL PR / merge cho user.
+
+Không force-push `main`. Không merge nếu CI/check bắt buộc đang fail (trừ khi user yêu cầu rõ).
