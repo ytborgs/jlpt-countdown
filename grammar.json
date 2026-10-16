@@ -12,7 +12,31 @@
       "example_hira": "どうぞ、あたたかいうちにたべてください。",
       "example_vi": "Xin hãy ăn khi còn nóng nhé.",
       "note": "Nhấn mạnh tranh thủ khi vẫn còn cơ hội / trạng thái.",
-      "source_page": 86
+      "source_page": 86,
+      "example_ruby": [
+        {
+          "text": "どうぞ、"
+        },
+        {
+          "text": "温",
+          "reading": "あたた"
+        },
+        {
+          "text": "かいうちに"
+        },
+        {
+          "text": "食",
+          "reading": "た"
+        },
+        {
+          "text": "べてください。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～うちに"
+        }
+      ]
     },
     {
       "id": "02",
@@ -24,7 +48,35 @@
       "example_hira": "おやのおかげでだいがくにいくことができた。",
       "example_vi": "Nhờ bố mẹ mà tôi mới được vào đại học.",
       "note": "Ngược với ～せいで (kết quả xấu).",
-      "source_page": 86
+      "source_page": 86,
+      "example_ruby": [
+        {
+          "text": "親",
+          "reading": "おや"
+        },
+        {
+          "text": "のおかげで"
+        },
+        {
+          "text": "大学",
+          "reading": "だいがく"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "行",
+          "reading": "い"
+        },
+        {
+          "text": "くことができた。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～おかげで"
+        }
+      ]
     },
     {
       "id": "03",
@@ -36,7 +88,56 @@
       "example_hira": "せんせいはなにかいいかけたが、やめて、べつのはなしをはじめた。",
       "example_vi": "Thầy định nói gì đó nhưng thôi và bắt đầu chuyện khác.",
       "note": null,
-      "source_page": 86
+      "source_page": 86,
+      "example_ruby": [
+        {
+          "text": "先生",
+          "reading": "せんせい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "何",
+          "reading": "なに"
+        },
+        {
+          "text": "か"
+        },
+        {
+          "text": "言",
+          "reading": "い"
+        },
+        {
+          "text": "いかけたが、やめて、"
+        },
+        {
+          "text": "別",
+          "reading": "べつ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "話",
+          "reading": "はなし"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "始",
+          "reading": "はじ"
+        },
+        {
+          "text": "めた。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～かける"
+        }
+      ]
     },
     {
       "id": "04",
@@ -48,7 +149,49 @@
       "example_hira": "こんやからあしたのあさにかけてゆきがふるでしょう。",
       "example_vi": "Từ tối nay đến sáng mai có lẽ sẽ có tuyết rơi.",
       "note": "Không xác định ranh giới rõ ràng bằng ～から～まで.",
-      "source_page": 86
+      "source_page": 86,
+      "example_ruby": [
+        {
+          "text": "今夜",
+          "reading": "こんや"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "朝",
+          "reading": "あさ"
+        },
+        {
+          "text": "にかけて"
+        },
+        {
+          "text": "雪",
+          "reading": "ゆき"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "降",
+          "reading": "ふ"
+        },
+        {
+          "text": "るでしょう。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～から～にかけて"
+        }
+      ]
     },
     {
       "id": "05",
@@ -60,7 +203,49 @@
       "example_hira": "こどもがあまいものがすきとはかぎらない。",
       "example_vi": "Không hẳn trẻ em nào cũng thích đồ ngọt.",
       "note": "Dùng khi muốn nói có ngoại lệ.",
-      "source_page": 86
+      "source_page": 86,
+      "example_ruby": [
+        {
+          "text": "子",
+          "reading": "こ"
+        },
+        {
+          "text": "どもが"
+        },
+        {
+          "text": "甘",
+          "reading": "あま"
+        },
+        {
+          "text": "いものが"
+        },
+        {
+          "text": "好",
+          "reading": "す"
+        },
+        {
+          "text": "きとは"
+        },
+        {
+          "text": "限",
+          "reading": "かぎ"
+        },
+        {
+          "text": "らない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～とは"
+        },
+        {
+          "text": "限",
+          "reading": "かぎ"
+        },
+        {
+          "text": "らない"
+        }
+      ]
     },
     {
       "id": "06",
@@ -72,7 +257,45 @@
       "example_hira": "あなたがけっせきするときいて、かれはとてもざんねんがっていました。",
       "example_vi": "Nghe nói bạn vắng mặt, anh ấy tỏ ra rất tiếc.",
       "note": "Không dùng がる cho cảm xúc của chính mình.",
-      "source_page": 86
+      "source_page": 86,
+      "example_ruby": [
+        {
+          "text": "あなたが"
+        },
+        {
+          "text": "欠席",
+          "reading": "けっせき"
+        },
+        {
+          "text": "すると"
+        },
+        {
+          "text": "聞",
+          "reading": "き"
+        },
+        {
+          "text": "いて、"
+        },
+        {
+          "text": "彼",
+          "reading": "かれ"
+        },
+        {
+          "text": "はとても"
+        },
+        {
+          "text": "残念",
+          "reading": "ざんねん"
+        },
+        {
+          "text": "がっていました。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～がる"
+        }
+      ]
     },
     {
       "id": "07",
@@ -84,7 +307,49 @@
       "example_hira": "ぎゅうにくのかわりにぶたにくをつかってもおいしくできます。",
       "example_vi": "Dùng thịt lợn thay thịt bò vẫn ngon được.",
       "note": null,
-      "source_page": 86
+      "source_page": 86,
+      "example_ruby": [
+        {
+          "text": "牛肉",
+          "reading": "ぎゅうにく"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "代",
+          "reading": "か"
+        },
+        {
+          "text": "わりに"
+        },
+        {
+          "text": "豚肉",
+          "reading": "ぶたにく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "使",
+          "reading": "つか"
+        },
+        {
+          "text": "ってもおいしくできます。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～"
+        },
+        {
+          "text": "代",
+          "reading": "か"
+        },
+        {
+          "text": "わりに"
+        }
+      ]
     },
     {
       "id": "08",
@@ -96,7 +361,28 @@
       "example_hira": "ごうかくはっぴょうくらいきんちょうするものはない。",
       "example_vi": "Không có gì khiến người ta hồi hộp bằng lúc công bố kết quả.",
       "note": "Gần nghĩa với ～ほど…はない.",
-      "source_page": 86
+      "source_page": 86,
+      "example_ruby": [
+        {
+          "text": "合格発表",
+          "reading": "ごうかくはっぴょう"
+        },
+        {
+          "text": "くらい"
+        },
+        {
+          "text": "緊張",
+          "reading": "きんちょう"
+        },
+        {
+          "text": "するものはない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～くらい（・・・はない）"
+        }
+      ]
     },
     {
       "id": "09",
@@ -108,7 +394,56 @@
       "example_hira": "ちほうにくらべてとうきょうはやちんがたかい。",
       "example_vi": "So với địa phương, tiền thuê nhà ở Tokyo cao hơn.",
       "note": null,
-      "source_page": 86
+      "source_page": 86,
+      "example_ruby": [
+        {
+          "text": "地方",
+          "reading": "ちほう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "比",
+          "reading": "くら"
+        },
+        {
+          "text": "べて"
+        },
+        {
+          "text": "東京",
+          "reading": "とうきょう"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "家賃",
+          "reading": "やちん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "高",
+          "reading": "たか"
+        },
+        {
+          "text": "い。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～(に)"
+        },
+        {
+          "text": "比",
+          "reading": "くら"
+        },
+        {
+          "text": "べて"
+        }
+      ]
     },
     {
       "id": "10",
@@ -120,7 +455,35 @@
       "example_hira": "ことしこそかいがいりょこうにいこう。",
       "example_vi": "Năm nay nhất định hãy đi du lịch nước ngoài.",
       "note": null,
-      "source_page": 86
+      "source_page": 86,
+      "example_ruby": [
+        {
+          "text": "今年",
+          "reading": "ことし"
+        },
+        {
+          "text": "こそ"
+        },
+        {
+          "text": "海外旅行",
+          "reading": "かいがいりょこう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "行",
+          "reading": "い"
+        },
+        {
+          "text": "こう。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～こそ"
+        }
+      ]
     },
     {
       "id": "11",
@@ -132,7 +495,43 @@
       "example_hira": "けんこうのため、あしたからまいにちさんじゅっぷんあるくことにした。",
       "example_vi": "Vì sức khỏe, tôi quyết định từ ngày mai đi bộ 30 phút mỗi ngày.",
       "note": "Khác ～ことになる (quyết định từ bên ngoài).",
-      "source_page": 87
+      "source_page": 87,
+      "example_ruby": [
+        {
+          "text": "健康",
+          "reading": "けんこう"
+        },
+        {
+          "text": "のため、"
+        },
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "から"
+        },
+        {
+          "text": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "text": "30分",
+          "reading": "さんじゅっぷん"
+        },
+        {
+          "text": "歩",
+          "reading": "ある"
+        },
+        {
+          "text": "くことにした。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ことにする"
+        }
+      ]
     },
     {
       "id": "12",
@@ -144,7 +543,35 @@
       "example_hira": "おおさかへひっこすことになった。",
       "example_vi": "Tôi sẽ chuyển đến Osaka (đã được quyết định).",
       "note": "Khác ～ことにする (tự quyết).",
-      "source_page": 87
+      "source_page": 87,
+      "example_ruby": [
+        {
+          "text": "大阪",
+          "reading": "おおさか"
+        },
+        {
+          "text": "へ"
+        },
+        {
+          "text": "引",
+          "reading": "ひ"
+        },
+        {
+          "text": "っ"
+        },
+        {
+          "text": "越",
+          "reading": "こ"
+        },
+        {
+          "text": "すことになった。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ことになる"
+        }
+      ]
     },
     {
       "id": "13",
@@ -156,7 +583,35 @@
       "example_hira": "じかんはじゅうぶんある。いそぐことはない。",
       "example_vi": "Còn nhiều thời gian. Không cần phải vội.",
       "note": null,
-      "source_page": 87
+      "source_page": 87,
+      "example_ruby": [
+        {
+          "text": "時間",
+          "reading": "じかん"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "十分",
+          "reading": "じゅうぶん"
+        },
+        {
+          "text": "ある。"
+        },
+        {
+          "text": "急",
+          "reading": "いそ"
+        },
+        {
+          "text": "ぐことはない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ことはない"
+        }
+      ]
     },
     {
       "id": "14",
@@ -168,7 +623,38 @@
       "example_hira": "このさむさは、こんげついっぱいまでつづきそうだ。",
       "example_vi": "Cái lạnh này có vẻ kéo dài đến hết tháng này.",
       "note": null,
-      "source_page": 87
+      "source_page": 87,
+      "example_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "寒",
+          "reading": "さむ"
+        },
+        {
+          "text": "さは、"
+        },
+        {
+          "text": "今月",
+          "reading": "こんげつ"
+        },
+        {
+          "text": "いっぱいまで"
+        },
+        {
+          "text": "続",
+          "reading": "つづ"
+        },
+        {
+          "text": "きそうだ。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～さ"
+        }
+      ]
     },
     {
       "id": "15",
@@ -180,7 +666,56 @@
       "example_hira": "しけんのさいちゅうにだれかのけいたいがなった。",
       "example_vi": "Đúng giữa buổi thi thì điện thoại ai đó reo lên.",
       "note": "Vế sau thường là sự việc làm gián đoạn.",
-      "source_page": 87
+      "source_page": 87,
+      "example_ruby": [
+        {
+          "text": "試験",
+          "reading": "しけん"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "最中",
+          "reading": "さいちゅう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "誰",
+          "reading": "だれ"
+        },
+        {
+          "text": "かの"
+        },
+        {
+          "text": "携帯",
+          "reading": "けいたい"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "鳴",
+          "reading": "な"
+        },
+        {
+          "text": "った。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～"
+        },
+        {
+          "text": "最中",
+          "reading": "さいちゅう"
+        },
+        {
+          "text": "に"
+        }
+      ]
     },
     {
       "id": "16",
@@ -192,7 +727,31 @@
       "example_hira": "そこはちいさなまちで、コンビニさえなかった。",
       "example_vi": "Đó là thị trấn nhỏ, đến cả cửa hàng tiện lợi cũng không có.",
       "note": "～さえ…ば: chỉ cần… là đủ.",
-      "source_page": 87
+      "source_page": 87,
+      "example_ruby": [
+        {
+          "text": "そこは"
+        },
+        {
+          "text": "小",
+          "reading": "ちい"
+        },
+        {
+          "text": "さな"
+        },
+        {
+          "text": "町",
+          "reading": "まち"
+        },
+        {
+          "text": "で、コンビニさえなかった。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～さえ"
+        }
+      ]
     },
     {
       "id": "17",
@@ -204,7 +763,31 @@
       "example_hira": "そのしごと、わたしにやらせてください。",
       "example_vi": "Công việc đó, hãy để tôi làm.",
       "note": null,
-      "source_page": 87
+      "source_page": 87,
+      "example_ruby": [
+        {
+          "text": "その"
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "にやらせてください。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～(さ)せてください"
+        }
+      ]
     },
     {
       "id": "18",
@@ -216,7 +799,21 @@
       "example_hira": "れいぞうこにはコーラしかなかった。",
       "example_vi": "Trong tủ lạnh chỉ có mỗi cola.",
       "note": "Gần ～よりほかない khi nghĩa «chỉ còn cách».",
-      "source_page": 87
+      "source_page": 87,
+      "example_ruby": [
+        {
+          "text": "冷蔵庫",
+          "reading": "れいぞうこ"
+        },
+        {
+          "text": "にはコーラしかなかった。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～しかない"
+        }
+      ]
     },
     {
       "id": "19",
@@ -228,7 +825,42 @@
       "example_hira": "きがついたら、でんきもけさずにねてしまっていた。",
       "example_vi": "Khi nhận ra thì tôi đã ngủ mất mà không tắt đèn.",
       "note": "する → せずに.",
-      "source_page": 87
+      "source_page": 87,
+      "example_ruby": [
+        {
+          "text": "気",
+          "reading": "き"
+        },
+        {
+          "text": "がついたら、"
+        },
+        {
+          "text": "電気",
+          "reading": "でんき"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "消",
+          "reading": "け"
+        },
+        {
+          "text": "さずに"
+        },
+        {
+          "text": "寝",
+          "reading": "ね"
+        },
+        {
+          "text": "てしまっていた。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～せずに / ～ずに"
+        }
+      ]
     },
     {
       "id": "20",
@@ -240,7 +872,28 @@
       "example_hira": "えんやすのせいで、ガソリンがたかくなった。",
       "example_vi": "Vì yen mất giá nên xăng tăng giá.",
       "note": "Ngược với ～おかげで.",
-      "source_page": 87
+      "source_page": 87,
+      "example_ruby": [
+        {
+          "text": "円安",
+          "reading": "えんやす"
+        },
+        {
+          "text": "のせいで、ガソリンが"
+        },
+        {
+          "text": "高",
+          "reading": "たか"
+        },
+        {
+          "text": "くなった。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～せいで"
+        }
+      ]
     },
     {
       "id": "21",
@@ -252,7 +905,35 @@
       "example_hira": "あしたのしあいはちゅうしだって。",
       "example_vi": "Nghe nói trận đấu ngày mai bị hủy.",
       "note": "Văn nói; ít trang trọng hơn ～そうだ.",
-      "source_page": 87
+      "source_page": 87,
+      "example_ruby": [
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "試合",
+          "reading": "しあい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "中止",
+          "reading": "ちゅうし"
+        },
+        {
+          "text": "だって。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～(だ)って"
+        }
+      ]
     },
     {
       "id": "22",
@@ -264,7 +945,52 @@
       "example_hira": "おみせのなまえをかえたところ、みんなにおぼえにくいといわれた。",
       "example_vi": "Đổi tên cửa hàng thì bị mọi người bảo khó nhớ.",
       "note": null,
-      "source_page": 87
+      "source_page": 87,
+      "example_ruby": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "店",
+          "reading": "みせ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "変",
+          "reading": "か"
+        },
+        {
+          "text": "えたところ、みんなに"
+        },
+        {
+          "text": "覚",
+          "reading": "おぼ"
+        },
+        {
+          "text": "えにくいと"
+        },
+        {
+          "text": "言",
+          "reading": "い"
+        },
+        {
+          "text": "われた。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～たところ"
+        }
+      ]
     },
     {
       "id": "23",
@@ -276,7 +1002,59 @@
       "example_hira": "このきょくをきくたびに、だいがくのころをおもいだす。",
       "example_vi": "Mỗi lần nghe bài này, tôi lại nhớ thời đại học.",
       "note": null,
-      "source_page": 88
+      "source_page": 88,
+      "example_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "曲",
+          "reading": "きょく"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "聴",
+          "reading": "き"
+        },
+        {
+          "text": "くたびに、"
+        },
+        {
+          "text": "大学",
+          "reading": "だいがく"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "頃",
+          "reading": "ころ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "思",
+          "reading": "おも"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "す。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～たびに"
+        }
+      ]
     },
     {
       "id": "24",
@@ -288,7 +1066,42 @@
       "example_hira": "あしたのしけん、おおゆきでえんきになったらいいのになあ。",
       "example_vi": "Giá mà kỳ thi ngày mai bị hoãn vì mưa tuyết lớn thì hay biết mấy.",
       "note": null,
-      "source_page": 88
+      "source_page": 88,
+      "example_ruby": [
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "試験",
+          "reading": "しけん"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "大雪",
+          "reading": "おおゆき"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "延期",
+          "reading": "えんき"
+        },
+        {
+          "text": "になったらいいのになあ。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～たら…のに"
+        }
+      ]
     },
     {
       "id": "25",
@@ -300,7 +1113,42 @@
       "example_hira": "かいもののついでにゆうびんきょくによった。",
       "example_vi": "Nhân tiện đi mua sắm, tôi ghé bưu điện.",
       "note": "Việc sau ついでに là phụ.",
-      "source_page": 88
+      "source_page": 88,
+      "example_ruby": [
+        {
+          "text": "買",
+          "reading": "か"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "物",
+          "reading": "もの"
+        },
+        {
+          "text": "のついでに"
+        },
+        {
+          "text": "郵便局",
+          "reading": "ゆうびんきょく"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "寄",
+          "reading": "よ"
+        },
+        {
+          "text": "った。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ついでに"
+        }
+      ]
     },
     {
       "id": "26",
@@ -312,7 +1160,38 @@
       "example_hira": "おとうさんのたんじょうび、あしただっけ。",
       "example_vi": "Sinh nhật bố là ngày mai đúng không nhỉ?",
       "note": null,
-      "source_page": 88
+      "source_page": 88,
+      "example_ruby": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "父",
+          "reading": "とう"
+        },
+        {
+          "text": "さんの"
+        },
+        {
+          "text": "誕生日",
+          "reading": "たんじょうび"
+        },
+        {
+          "text": "、"
+        },
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "だっけ。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～っけ"
+        }
+      ]
     },
     {
       "id": "27",
@@ -324,7 +1203,45 @@
       "example_hira": "「すきやき」って、どんなたべものですか。",
       "example_vi": "«Sukiyaki» là món ăn như thế nào vậy?",
       "note": null,
-      "source_page": 88
+      "source_page": 88,
+      "example_ruby": [
+        {
+          "text": "「スキヤキ」って、どんな"
+        },
+        {
+          "text": "食",
+          "reading": "た"
+        },
+        {
+          "text": "べ"
+        },
+        {
+          "text": "物",
+          "reading": "もの"
+        },
+        {
+          "text": "ですか。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～って［"
+        },
+        {
+          "text": "引用",
+          "reading": "いんよう"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "定義",
+          "reading": "ていぎ"
+        },
+        {
+          "text": "］"
+        }
+      ]
     },
     {
       "id": "28",
@@ -336,7 +1253,56 @@
       "example_hira": "きょうはゆきがふるって、てんきよほうでいってたよ。",
       "example_vi": "Dự báo thời tiết bảo hôm nay sẽ có tuyết đấy.",
       "note": "Ít trang trọng hơn ～と.",
-      "source_page": 88
+      "source_page": 88,
+      "example_ruby": [
+        {
+          "text": "今日",
+          "reading": "きょう"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "雪",
+          "reading": "ゆき"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "降",
+          "reading": "ふ"
+        },
+        {
+          "text": "るって、"
+        },
+        {
+          "text": "天気予報",
+          "reading": "てんきよほう"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "言",
+          "reading": "い"
+        },
+        {
+          "text": "ってたよ。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～って［"
+        },
+        {
+          "text": "引用",
+          "reading": "いんよう"
+        },
+        {
+          "text": "］"
+        }
+      ]
     },
     {
       "id": "29",
@@ -348,7 +1314,28 @@
       "example_hira": "きのう、テレビをつけっぱなしでねてしまった。",
       "example_vi": "Hôm qua tôi ngủ quên trong lúc vẫn để TV mở.",
       "note": null,
-      "source_page": 88
+      "source_page": 88,
+      "example_ruby": [
+        {
+          "text": "昨日",
+          "reading": "きのう"
+        },
+        {
+          "text": "、テレビをつけっぱなしで"
+        },
+        {
+          "text": "寝",
+          "reading": "ね"
+        },
+        {
+          "text": "てしまった。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～っぱなし"
+        }
+      ]
     },
     {
       "id": "30",
@@ -360,7 +1347,63 @@
       "example_hira": "やきゅうをみにいくつもりだったのに、きゅうにしごとがはいっていけなくなってしまった。",
       "example_vi": "Đã định đi xem bóng chày nhưng đột nhiên có việc nên không đi được.",
       "note": null,
-      "source_page": 88
+      "source_page": 88,
+      "example_ruby": [
+        {
+          "text": "野球",
+          "reading": "やきゅう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "見",
+          "reading": "み"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "行",
+          "reading": "い"
+        },
+        {
+          "text": "くつもりだったのに、"
+        },
+        {
+          "text": "急",
+          "reading": "きゅう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "入",
+          "reading": "はい"
+        },
+        {
+          "text": "って"
+        },
+        {
+          "text": "行",
+          "reading": "い"
+        },
+        {
+          "text": "けなくなってしまった。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～つもりだった(のに)"
+        }
+      ]
     },
     {
       "id": "31",
@@ -372,7 +1415,39 @@
       "example_hira": "むすこはあそんでばかりで、ぜんぜんべんきょうしない。",
       "example_vi": "Con trai suốt chỉ chơi, chẳng học gì cả.",
       "note": null,
-      "source_page": 88
+      "source_page": 88,
+      "example_ruby": [
+        {
+          "text": "息子",
+          "reading": "むすこ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "遊",
+          "reading": "あそ"
+        },
+        {
+          "text": "んでばかりで、"
+        },
+        {
+          "text": "全然",
+          "reading": "ぜんぜん"
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう"
+        },
+        {
+          "text": "しない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～てばかりだ"
+        }
+      ]
     },
     {
       "id": "32",
@@ -384,7 +1459,35 @@
       "example_hira": "びょうきになってはじめて、けんこうのありがたさがわかった。",
       "example_vi": "Đến khi bị ốm mới hiểu sức khỏe quý giá thế nào.",
       "note": null,
-      "source_page": 88
+      "source_page": 88,
+      "example_ruby": [
+        {
+          "text": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "text": "になって"
+        },
+        {
+          "text": "初",
+          "reading": "はじ"
+        },
+        {
+          "text": "めて、"
+        },
+        {
+          "text": "健康",
+          "reading": "けんこう"
+        },
+        {
+          "text": "のありがたさがわかった。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～てはじめて"
+        }
+      ]
     },
     {
       "id": "33",
@@ -396,7 +1499,31 @@
       "example_hira": "もっときゅうりょうをあげてほしい。",
       "example_vi": "Tôi muốn được tăng lương hơn nữa.",
       "note": null,
-      "source_page": 88
+      "source_page": 88,
+      "example_ruby": [
+        {
+          "text": "もっと"
+        },
+        {
+          "text": "給料",
+          "reading": "きゅうりょう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "上",
+          "reading": "あ"
+        },
+        {
+          "text": "げてほしい。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～てほしい"
+        }
+      ]
     },
     {
       "id": "34",
@@ -408,7 +1535,28 @@
       "example_hira": "いきるということはかんたんなことではない。",
       "example_vi": "Việc sống không phải là điều đơn giản.",
       "note": null,
-      "source_page": 88
+      "source_page": 88,
+      "example_ruby": [
+        {
+          "text": "生",
+          "reading": "い"
+        },
+        {
+          "text": "きるということは"
+        },
+        {
+          "text": "簡単",
+          "reading": "かんたん"
+        },
+        {
+          "text": "なことではない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ということ"
+        }
+      ]
     },
     {
       "id": "35",
@@ -420,7 +1568,21 @@
       "example_hira": "うえのどうぶつえんといえばパンダです。",
       "example_vi": "Nhắc đến sở thú Ueno là phải kể đến gấu trúc.",
       "note": null,
-      "source_page": 89
+      "source_page": 89,
+      "example_ruby": [
+        {
+          "text": "上野動物園",
+          "reading": "うえのどうぶつえん"
+        },
+        {
+          "text": "といえばパンダです。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～というと / ～といえば"
+        }
+      ]
     },
     {
       "id": "36",
@@ -432,7 +1594,31 @@
       "example_hira": "レストランといっても、テーブルがふたつあるだけのおみせです。",
       "example_vi": "Dù gọi là nhà hàng nhưng chỉ là quán có hai bàn thôi.",
       "note": null,
-      "source_page": 89
+      "source_page": 89,
+      "example_ruby": [
+        {
+          "text": "レストランといっても、テーブルが"
+        },
+        {
+          "text": "２",
+          "reading": "ふた"
+        },
+        {
+          "text": "つあるだけのお"
+        },
+        {
+          "text": "店",
+          "reading": "みせ"
+        },
+        {
+          "text": "です。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～といっても"
+        }
+      ]
     },
     {
       "id": "37",
@@ -444,7 +1630,42 @@
       "example_hira": "せつめいしょのとおりにくみたてた。",
       "example_vi": "Tôi lắp ráp đúng theo sách hướng dẫn.",
       "note": null,
-      "source_page": 89
+      "source_page": 89,
+      "example_ruby": [
+        {
+          "text": "説明書",
+          "reading": "せつめいしょ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "通",
+          "reading": "とお"
+        },
+        {
+          "text": "りに"
+        },
+        {
+          "text": "組",
+          "reading": "く"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "立",
+          "reading": "た"
+        },
+        {
+          "text": "てた。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～とおり"
+        }
+      ]
     },
     {
       "id": "38",
@@ -456,7 +1677,56 @@
       "example_hira": "こんばん、おきゃくさんがくるから、のみものをひやしておいて。",
       "example_vi": "Tối nay có khách, hãy làm lạnh đồ uống sẵn đi.",
       "note": null,
-      "source_page": 89
+      "source_page": 89,
+      "example_ruby": [
+        {
+          "text": "今晩",
+          "reading": "こんばん"
+        },
+        {
+          "text": "、お"
+        },
+        {
+          "text": "客",
+          "reading": "きゃく"
+        },
+        {
+          "text": "さんが"
+        },
+        {
+          "text": "来",
+          "reading": "く"
+        },
+        {
+          "text": "るから、"
+        },
+        {
+          "text": "飲",
+          "reading": "の"
+        },
+        {
+          "text": "み"
+        },
+        {
+          "text": "物",
+          "reading": "もの"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "冷",
+          "reading": "ひ"
+        },
+        {
+          "text": "やしておいて。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ておく"
+        }
+      ]
     },
     {
       "id": "39",
@@ -468,7 +1738,38 @@
       "example_hira": "もうすこしでかいしゃにちこくするところだった。",
       "example_vi": "Suýt nữa thì tôi đến công ty muộn.",
       "note": "Sự thật là chưa xảy ra.",
-      "source_page": 89
+      "source_page": 89,
+      "example_ruby": [
+        {
+          "text": "もう"
+        },
+        {
+          "text": "少",
+          "reading": "すこ"
+        },
+        {
+          "text": "しで"
+        },
+        {
+          "text": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "遅刻",
+          "reading": "ちこく"
+        },
+        {
+          "text": "するところだった。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ところだった"
+        }
+      ]
     },
     {
       "id": "40",
@@ -480,7 +1781,35 @@
       "example_hira": "かいがいりょこうにいくとしたら、どこにいきたいですか。",
       "example_vi": "Nếu đi du lịch nước ngoài thì bạn muốn đi đâu?",
       "note": null,
-      "source_page": 89
+      "source_page": 89,
+      "example_ruby": [
+        {
+          "text": "海外旅行",
+          "reading": "かいがいりょこう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "行",
+          "reading": "い"
+        },
+        {
+          "text": "くとしたら、どこに"
+        },
+        {
+          "text": "行",
+          "reading": "い"
+        },
+        {
+          "text": "きたいですか。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～としたら"
+        }
+      ]
     },
     {
       "id": "41",
@@ -492,7 +1821,31 @@
       "example_hira": "それがじつげんしたら、どんなにうれしいことか。",
       "example_vi": "Nếu điều đó thành hiện thực thì vui biết bao.",
       "note": null,
-      "source_page": 89
+      "source_page": 89,
+      "example_ruby": [
+        {
+          "text": "それが"
+        },
+        {
+          "text": "実現",
+          "reading": "じつげん"
+        },
+        {
+          "text": "したら、どんなに"
+        },
+        {
+          "text": "嬉",
+          "reading": "うれ"
+        },
+        {
+          "text": "しいことか。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～どんなに～ことか"
+        }
+      ]
     },
     {
       "id": "42",
@@ -504,7 +1857,35 @@
       "example_hira": "きになることがあったら、どんなちいさなことでもほうこくしてください。",
       "example_vi": "Nếu có gì băn khoăn, dù nhỏ đến đâu cũng hãy báo cáo.",
       "note": null,
-      "source_page": 89
+      "source_page": 89,
+      "example_ruby": [
+        {
+          "text": "気",
+          "reading": "き"
+        },
+        {
+          "text": "になることがあったら、どんな"
+        },
+        {
+          "text": "小",
+          "reading": "ちい"
+        },
+        {
+          "text": "さなことでも"
+        },
+        {
+          "text": "報告",
+          "reading": "ほうこく"
+        },
+        {
+          "text": "してください。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～どんな～でも"
+        }
+      ]
     },
     {
       "id": "43",
@@ -516,7 +1897,42 @@
       "example_hira": "いまのしゅうにゅうはおおくはないが、せいかつできないことはない。",
       "example_vi": "Thu nhập hiện tại không nhiều nhưng không phải là không sống được.",
       "note": null,
-      "source_page": 89
+      "source_page": 89,
+      "example_ruby": [
+        {
+          "text": "今",
+          "reading": "いま"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "収入",
+          "reading": "しゅうにゅう"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "多",
+          "reading": "おお"
+        },
+        {
+          "text": "くはないが、"
+        },
+        {
+          "text": "生活",
+          "reading": "せいかつ"
+        },
+        {
+          "text": "できないことはない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ないことはないが"
+        }
+      ]
     },
     {
       "id": "44",
@@ -528,7 +1944,35 @@
       "example_hira": "いそがないとまにあわない。",
       "example_vi": "Không nhanh lên thì không kịp.",
       "note": "≈ ～なければ.",
-      "source_page": 89
+      "source_page": 89,
+      "example_ruby": [
+        {
+          "text": "急",
+          "reading": "いそ"
+        },
+        {
+          "text": "がないと"
+        },
+        {
+          "text": "間",
+          "reading": "ま"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "合",
+          "reading": "あ"
+        },
+        {
+          "text": "わない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ないと"
+        }
+      ]
     },
     {
       "id": "45",
@@ -540,7 +1984,28 @@
       "example_hira": "みためなんか、どうでもいい。",
       "example_vi": "Ngoại hình gì đó, sao cũng được.",
       "note": null,
-      "source_page": 89
+      "source_page": 89,
+      "example_ruby": [
+        {
+          "text": "見",
+          "reading": "み"
+        },
+        {
+          "text": "た"
+        },
+        {
+          "text": "目",
+          "reading": "め"
+        },
+        {
+          "text": "なんか、どうでもいい。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～なんか"
+        }
+      ]
     },
     {
       "id": "46",
@@ -552,7 +2017,35 @@
       "example_hira": "かれがそんなひどいことをいうなんて、しんじられない。",
       "example_vi": "Anh ấy nói chuyện tệ như vậy thật không thể tin nổi.",
       "note": null,
-      "source_page": 90
+      "source_page": 90,
+      "example_ruby": [
+        {
+          "text": "彼",
+          "reading": "かれ"
+        },
+        {
+          "text": "がそんなひどいことを"
+        },
+        {
+          "text": "言",
+          "reading": "い"
+        },
+        {
+          "text": "うなんて、"
+        },
+        {
+          "text": "信",
+          "reading": "しん"
+        },
+        {
+          "text": "じられない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～なんて"
+        }
+      ]
     },
     {
       "id": "47",
@@ -564,7 +2057,38 @@
       "example_hira": "スピードはましたが、あんぜんめんにおいてまだもんだいがある。",
       "example_vi": "Tốc độ đã tăng nhưng về mặt an toàn vẫn còn vấn đề.",
       "note": null,
-      "source_page": 90
+      "source_page": 90,
+      "example_ruby": [
+        {
+          "text": "スピードは"
+        },
+        {
+          "text": "増",
+          "reading": "ま"
+        },
+        {
+          "text": "したが、"
+        },
+        {
+          "text": "安全面",
+          "reading": "あんぜんめん"
+        },
+        {
+          "text": "においてまだ"
+        },
+        {
+          "text": "問題",
+          "reading": "もんだい"
+        },
+        {
+          "text": "がある。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～において"
+        }
+      ]
     },
     {
       "id": "48",
@@ -576,7 +2100,49 @@
       "example_hira": "しゅっちょうちゅうのしゃちょうにかわって、ぶちょうがスピーチをした。",
       "example_vi": "Thay giám đốc đang công tác, trưởng phòng đã phát biểu.",
       "note": null,
-      "source_page": 90
+      "source_page": 90,
+      "example_ruby": [
+        {
+          "text": "出張中",
+          "reading": "しゅっちょうちゅう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "社長",
+          "reading": "しゃちょう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "代",
+          "reading": "か"
+        },
+        {
+          "text": "わって、"
+        },
+        {
+          "text": "部長",
+          "reading": "ぶちょう"
+        },
+        {
+          "text": "がスピーチをした。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～に"
+        },
+        {
+          "text": "代",
+          "reading": "か"
+        },
+        {
+          "text": "わって"
+        }
+      ]
     },
     {
       "id": "49",
@@ -588,7 +2154,59 @@
       "example_hira": "ここでは、がんのちりょうにかんしてせんもんてきなけんきゅうをおこなっている。",
       "example_vi": "Ở đây đang tiến hành nghiên cứu chuyên sâu về điều trị ung thư.",
       "note": null,
-      "source_page": 90
+      "source_page": 90,
+      "example_ruby": [
+        {
+          "text": "ここでは、がんの"
+        },
+        {
+          "text": "治療",
+          "reading": "ちりょう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "関",
+          "reading": "かん"
+        },
+        {
+          "text": "して"
+        },
+        {
+          "text": "専門的",
+          "reading": "せんもんてき"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "研究",
+          "reading": "けんきゅう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "行",
+          "reading": "おこな"
+        },
+        {
+          "text": "っている。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～に"
+        },
+        {
+          "text": "関",
+          "reading": "かん"
+        },
+        {
+          "text": "して"
+        }
+      ]
     },
     {
       "id": "50",
@@ -600,7 +2218,56 @@
       "example_hira": "まえのかいしゃにくらべて、きゅうりょうはすくなくなった。",
       "example_vi": "So với công ty trước, lương đã giảm đi.",
       "note": "Trùng mẫu với 09; giữ đúng thứ tự, ví dụ khác.",
-      "source_page": 90
+      "source_page": 90,
+      "example_ruby": [
+        {
+          "text": "前",
+          "reading": "まえ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "比",
+          "reading": "くら"
+        },
+        {
+          "text": "べて、"
+        },
+        {
+          "text": "給料",
+          "reading": "きゅうりょう"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "少",
+          "reading": "すく"
+        },
+        {
+          "text": "なくなった。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～に"
+        },
+        {
+          "text": "比",
+          "reading": "くら"
+        },
+        {
+          "text": "べて"
+        }
+      ]
     },
     {
       "id": "51",
@@ -612,7 +2279,35 @@
       "example_hira": "かんこうちにしてはひとがすくないね。",
       "example_vi": "Là điểm du lịch mà ít người nhỉ.",
       "note": null,
-      "source_page": 90
+      "source_page": 90,
+      "example_ruby": [
+        {
+          "text": "観光地",
+          "reading": "かんこうち"
+        },
+        {
+          "text": "にしては"
+        },
+        {
+          "text": "人",
+          "reading": "ひと"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "少",
+          "reading": "すく"
+        },
+        {
+          "text": "ないね。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～にしては"
+        }
+      ]
     },
     {
       "id": "52",
@@ -624,7 +2319,56 @@
       "example_hira": "じゅぎょうりょうのねあげにたいして、はんたいいけんがでた。",
       "example_vi": "Có ý kiến phản đối việc tăng học phí.",
       "note": "Khác ～にとって (đứng trên lập trường đánh giá).",
-      "source_page": 90
+      "source_page": 90,
+      "example_ruby": [
+        {
+          "text": "授業料",
+          "reading": "じゅぎょうりょう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "値上",
+          "reading": "ねあ"
+        },
+        {
+          "text": "げに"
+        },
+        {
+          "text": "対",
+          "reading": "たい"
+        },
+        {
+          "text": "して、"
+        },
+        {
+          "text": "反対意見",
+          "reading": "はんたいいけん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "出",
+          "reading": "で"
+        },
+        {
+          "text": "た。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～(に)"
+        },
+        {
+          "text": "対",
+          "reading": "たい"
+        },
+        {
+          "text": "して"
+        }
+      ]
     },
     {
       "id": "53",
@@ -636,7 +2380,35 @@
       "example_hira": "わたしにとって、これはとてもおおきなもんだいです。",
       "example_vi": "Đối với tôi, đây là vấn đề rất lớn.",
       "note": "Khác ～に対して (hướng thái độ tới đối tượng).",
-      "source_page": 90
+      "source_page": 90,
+      "example_ruby": [
+        {
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "にとって、これはとても"
+        },
+        {
+          "text": "大",
+          "reading": "おお"
+        },
+        {
+          "text": "きな"
+        },
+        {
+          "text": "問題",
+          "reading": "もんだい"
+        },
+        {
+          "text": "です。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～にとって"
+        }
+      ]
     },
     {
       "id": "54",
@@ -648,7 +2420,45 @@
       "example_hira": "このたてものはとうじのせいふによってたてられた。",
       "example_vi": "Tòa nhà này được chính phủ thời đó xây dựng.",
       "note": null,
-      "source_page": 90
+      "source_page": 90,
+      "example_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "建物",
+          "reading": "たてもの"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "当時",
+          "reading": "とうじ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "政府",
+          "reading": "せいふ"
+        },
+        {
+          "text": "によって"
+        },
+        {
+          "text": "建",
+          "reading": "た"
+        },
+        {
+          "text": "てられた。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～によって"
+        }
+      ]
     },
     {
       "id": "55",
@@ -660,7 +2470,32 @@
       "example_hira": "あんないじょうによれば、パーティーはごごいちじからだそうだ。",
       "example_vi": "Theo thư mời thì tiệc bắt đầu từ 1 giờ chiều.",
       "note": null,
-      "source_page": 90
+      "source_page": 90,
+      "example_ruby": [
+        {
+          "text": "案内状",
+          "reading": "あんないじょう"
+        },
+        {
+          "text": "によれば、パーティーは"
+        },
+        {
+          "text": "午後",
+          "reading": "ごご"
+        },
+        {
+          "text": "1時",
+          "reading": "いちじ"
+        },
+        {
+          "text": "からだそうだ。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～によれば / ～によると"
+        }
+      ]
     },
     {
       "id": "56",
@@ -672,7 +2507,35 @@
       "example_hira": "はははおとうとばかりかわいがる。",
       "example_vi": "Mẹ chỉ chiều em trai thôi.",
       "note": null,
-      "source_page": 91
+      "source_page": 91,
+      "example_ruby": [
+        {
+          "text": "母",
+          "reading": "はは"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "弟",
+          "reading": "おとうと"
+        },
+        {
+          "text": "ばかり"
+        },
+        {
+          "text": "可愛",
+          "reading": "かわい"
+        },
+        {
+          "text": "がる。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ばかり"
+        }
+      ]
     },
     {
       "id": "57",
@@ -684,7 +2547,52 @@
       "example_hira": "あのみせは、てんいんばかりかてんちょうもたいどがわるい。",
       "example_vi": "Cửa hàng đó không chỉ nhân viên mà cả quản lý cũng thái độ kém.",
       "note": null,
-      "source_page": 91
+      "source_page": 91,
+      "example_ruby": [
+        {
+          "text": "あの"
+        },
+        {
+          "text": "店",
+          "reading": "みせ"
+        },
+        {
+          "text": "は、"
+        },
+        {
+          "text": "店員",
+          "reading": "てんいん"
+        },
+        {
+          "text": "ばかりか"
+        },
+        {
+          "text": "店長",
+          "reading": "てんちょう"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "態度",
+          "reading": "たいど"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "悪",
+          "reading": "わる"
+        },
+        {
+          "text": "い。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ばかりか…も"
+        }
+      ]
     },
     {
       "id": "58",
@@ -696,7 +2604,46 @@
       "example_hira": "いまきょうとだから、あとさんじゅっぷんくらいでおおさかにつくはずだ。",
       "example_vi": "Hiện đang ở Kyoto nên khoảng 30 phút nữa chắc tới Osaka.",
       "note": null,
-      "source_page": 91
+      "source_page": 91,
+      "example_ruby": [
+        {
+          "text": "今",
+          "reading": "いま"
+        },
+        {
+          "text": "京都",
+          "reading": "きょうと"
+        },
+        {
+          "text": "だから、あと"
+        },
+        {
+          "text": "30分",
+          "reading": "さんじゅっぷん"
+        },
+        {
+          "text": "くらいで"
+        },
+        {
+          "text": "大阪",
+          "reading": "おおさか"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "着",
+          "reading": "つ"
+        },
+        {
+          "text": "くはずだ。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～はずだ"
+        }
+      ]
     },
     {
       "id": "59",
@@ -708,7 +2655,49 @@
       "example_hira": "こんどのことはかれがわるいのだから、かれがあやまるべきだ。",
       "example_vi": "Việc lần này là lỗi anh ấy nên anh ấy phải xin lỗi.",
       "note": "Vるべきではない = không nên.",
-      "source_page": 91
+      "source_page": 91,
+      "example_ruby": [
+        {
+          "text": "今度",
+          "reading": "こんど"
+        },
+        {
+          "text": "のことは"
+        },
+        {
+          "text": "彼",
+          "reading": "かれ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "悪",
+          "reading": "わる"
+        },
+        {
+          "text": "いのだから、"
+        },
+        {
+          "text": "彼",
+          "reading": "かれ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "謝",
+          "reading": "あやま"
+        },
+        {
+          "text": "るべきだ。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～べきだ"
+        }
+      ]
     },
     {
       "id": "60",
@@ -720,7 +2709,28 @@
       "example_hira": "わかいひとほどインフルエンザにかかりやすい。",
       "example_vi": "Người càng trẻ càng dễ bị cúm.",
       "note": "Thường kèm dạng điều kiện: VばVるほど.",
-      "source_page": 91
+      "source_page": 91,
+      "example_ruby": [
+        {
+          "text": "若",
+          "reading": "わか"
+        },
+        {
+          "text": "い"
+        },
+        {
+          "text": "人",
+          "reading": "ひと"
+        },
+        {
+          "text": "ほどインフルエンザにかかりやすい。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ほど"
+        }
+      ]
     },
     {
       "id": "61",
@@ -732,7 +2742,35 @@
       "example_hira": "せいめいのたんじょうほどふしぎなことはない。",
       "example_vi": "Không có gì kỳ diệu bằng sự ra đời của sự sống.",
       "note": null,
-      "source_page": 91
+      "source_page": 91,
+      "example_ruby": [
+        {
+          "text": "生命",
+          "reading": "せいめい"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "誕生",
+          "reading": "たんじょう"
+        },
+        {
+          "text": "ほど"
+        },
+        {
+          "text": "不思議",
+          "reading": "ふしぎ"
+        },
+        {
+          "text": "なことはない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ほど…は(い)ない"
+        }
+      ]
     },
     {
       "id": "62",
@@ -744,7 +2782,31 @@
       "example_hira": "どうかにゅうがくしけんにごうかくしますように。",
       "example_vi": "Mong sao tôi sẽ đậu kỳ thi tuyển sinh.",
       "note": null,
-      "source_page": 91
+      "source_page": 91,
+      "example_ruby": [
+        {
+          "text": "どうか"
+        },
+        {
+          "text": "入学試験",
+          "reading": "にゅうがくしけん"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "合格",
+          "reading": "ごうかく"
+        },
+        {
+          "text": "しますように。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ますように"
+        }
+      ]
     },
     {
       "id": "63",
@@ -756,7 +2818,49 @@
       "example_hira": "わたしのりゅうがくについては、ちちだけでなく、ははまでがはんたいした。",
       "example_vi": "Về việc du học của tôi, không chỉ bố mà đến cả mẹ cũng phản đối.",
       "note": "Khác ～まで chỉ điểm kết thúc thời gian/không gian.",
-      "source_page": 91
+      "source_page": 91,
+      "example_ruby": [
+        {
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "留学",
+          "reading": "りゅうがく"
+        },
+        {
+          "text": "については、"
+        },
+        {
+          "text": "父",
+          "reading": "ちち"
+        },
+        {
+          "text": "だけでなく、"
+        },
+        {
+          "text": "母",
+          "reading": "はは"
+        },
+        {
+          "text": "までが"
+        },
+        {
+          "text": "反対",
+          "reading": "はんたい"
+        },
+        {
+          "text": "した。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～まで"
+        }
+      ]
     },
     {
       "id": "64",
@@ -768,7 +2872,24 @@
       "example_hira": "たまに、めがねをかけたままねてしまいます。",
       "example_vi": "Thỉnh thoảng tôi ngủ quên trong lúc vẫn đeo kính.",
       "note": null,
-      "source_page": 91
+      "source_page": 91,
+      "example_ruby": [
+        {
+          "text": "たまに、めがねをかけたまま"
+        },
+        {
+          "text": "寝",
+          "reading": "ね"
+        },
+        {
+          "text": "てしまいます。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～まま"
+        }
+      ]
     },
     {
       "id": "65",
@@ -780,7 +2901,42 @@
       "example_hira": "かちょうはからだがおおきくて、クマみたいなひとです。",
       "example_vi": "Trưởng phòng to lớn, trông giống như gấu.",
       "note": "≈ ～(の)よう.",
-      "source_page": 91
+      "source_page": 91,
+      "example_ruby": [
+        {
+          "text": "課長",
+          "reading": "かちょう"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "体",
+          "reading": "からだ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "大",
+          "reading": "おお"
+        },
+        {
+          "text": "きくて、クマみたいな"
+        },
+        {
+          "text": "人",
+          "reading": "ひと"
+        },
+        {
+          "text": "です。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～みたい"
+        }
+      ]
     },
     {
       "id": "66",
@@ -792,7 +2948,42 @@
       "example_hira": "こどものころはよくこうえんであそんだものだ。",
       "example_vi": "Thời còn nhỏ tôi thường chơi ở công viên.",
       "note": null,
-      "source_page": 91
+      "source_page": 91,
+      "example_ruby": [
+        {
+          "text": "子",
+          "reading": "こ"
+        },
+        {
+          "text": "どもの"
+        },
+        {
+          "text": "頃",
+          "reading": "ころ"
+        },
+        {
+          "text": "はよく"
+        },
+        {
+          "text": "公園",
+          "reading": "こうえん"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "遊",
+          "reading": "あそ"
+        },
+        {
+          "text": "んだものだ。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ものだ / ～もんだ"
+        }
+      ]
     },
     {
       "id": "67",
@@ -804,7 +2995,35 @@
       "example_hira": "ざんぎょうつづきで、かれはつかれているようだ。",
       "example_vi": "Làm thêm liên tục, anh ấy có vẻ mệt.",
       "note": null,
-      "source_page": 92
+      "source_page": 92,
+      "example_ruby": [
+        {
+          "text": "残業続",
+          "reading": "ざんぎょうつづ"
+        },
+        {
+          "text": "きで、"
+        },
+        {
+          "text": "彼",
+          "reading": "かれ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "疲",
+          "reading": "つか"
+        },
+        {
+          "text": "れているようだ。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ようだ"
+        }
+      ]
     },
     {
       "id": "68",
@@ -816,7 +3035,35 @@
       "example_hira": "むすこは、いくらいってもべんきょうしようとしない。",
       "example_vi": "Con trai dù bảo bao nhiêu cũng không chịu học.",
       "note": "Chủ ngữ thường là người khác.",
-      "source_page": 92
+      "source_page": 92,
+      "example_ruby": [
+        {
+          "text": "息子",
+          "reading": "むすこ"
+        },
+        {
+          "text": "は、いくら"
+        },
+        {
+          "text": "言",
+          "reading": "い"
+        },
+        {
+          "text": "っても"
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう"
+        },
+        {
+          "text": "しようとしない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ようとしない"
+        }
+      ]
     },
     {
       "id": "69",
@@ -828,7 +3075,74 @@
       "example_hira": "まめはうえにのびようとするちからがつよく、いちにちでごセンチいじょうのびる。",
       "example_vi": "Đậu có lực cố vươn lên rất mạnh, một ngày dài hơn 5 cm.",
       "note": null,
-      "source_page": 92
+      "source_page": 92,
+      "example_ruby": [
+        {
+          "text": "豆",
+          "reading": "まめ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "上",
+          "reading": "うえ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "伸",
+          "reading": "の"
+        },
+        {
+          "text": "びようとする"
+        },
+        {
+          "text": "力",
+          "reading": "ちから"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "強",
+          "reading": "つよ"
+        },
+        {
+          "text": "く、"
+        },
+        {
+          "text": "1日",
+          "reading": "いちにち"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "5",
+          "reading": "ご"
+        },
+        {
+          "text": "センチ"
+        },
+        {
+          "text": "以上",
+          "reading": "いじょう"
+        },
+        {
+          "text": "伸",
+          "reading": "の"
+        },
+        {
+          "text": "びる。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ようとする"
+        }
+      ]
     },
     {
       "id": "70",
@@ -840,7 +3154,42 @@
       "example_hira": "いんたいしたら、しどうしゃになろうとおもっている。",
       "example_vi": "Sau khi giải nghệ, tôi định trở thành người hướng dẫn.",
       "note": null,
-      "source_page": 92
+      "source_page": 92,
+      "example_ruby": [
+        {
+          "text": "引退",
+          "reading": "いんたい"
+        },
+        {
+          "text": "したら、"
+        },
+        {
+          "text": "指導者",
+          "reading": "しどうしゃ"
+        },
+        {
+          "text": "になろうと"
+        },
+        {
+          "text": "思",
+          "reading": "おも"
+        },
+        {
+          "text": "っている。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ようと"
+        },
+        {
+          "text": "思",
+          "reading": "おも"
+        },
+        {
+          "text": "う"
+        }
+      ]
     },
     {
       "id": "71",
@@ -852,7 +3201,45 @@
       "example_hira": "これからはちこくやけっせきをしないように。",
       "example_vi": "Từ giờ hãy cố không đi muộn hay nghỉ học.",
       "note": null,
-      "source_page": 92
+      "source_page": 92,
+      "example_ruby": [
+        {
+          "text": "これからは"
+        },
+        {
+          "text": "遅刻",
+          "reading": "ちこく"
+        },
+        {
+          "text": "や"
+        },
+        {
+          "text": "欠席",
+          "reading": "けっせき"
+        },
+        {
+          "text": "をしないように。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ように［"
+        },
+        {
+          "text": "助言",
+          "reading": "じょげん"
+        },
+        {
+          "text": "・"
+        },
+        {
+          "text": "指示",
+          "reading": "しじ"
+        },
+        {
+          "text": "］"
+        }
+      ]
     },
     {
       "id": "72",
@@ -864,7 +3251,56 @@
       "example_hira": "あめがふるかもしれないので、かさをもってくるようにいわれた。",
       "example_vi": "Vì có thể mưa nên tôi được bảo hãy mang theo ô.",
       "note": null,
-      "source_page": 92
+      "source_page": 92,
+      "example_ruby": [
+        {
+          "text": "雨",
+          "reading": "あめ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "降",
+          "reading": "ふ"
+        },
+        {
+          "text": "るかもしれないので、"
+        },
+        {
+          "text": "傘",
+          "reading": "かさ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "持",
+          "reading": "も"
+        },
+        {
+          "text": "ってくるように"
+        },
+        {
+          "text": "言",
+          "reading": "い"
+        },
+        {
+          "text": "われた。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ように"
+        },
+        {
+          "text": "言",
+          "reading": "い"
+        },
+        {
+          "text": "う"
+        }
+      ]
     },
     {
       "id": "73",
@@ -876,7 +3312,39 @@
       "example_hira": "しゅっぱつのじかんには、ぜったいおくれないようにしてください。",
       "example_vi": "Xin hãy cố tuyệt đối không trễ giờ xuất phát.",
       "note": null,
-      "source_page": 92
+      "source_page": 92,
+      "example_ruby": [
+        {
+          "text": "出発",
+          "reading": "しゅっぱつ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "時間",
+          "reading": "じかん"
+        },
+        {
+          "text": "には、"
+        },
+        {
+          "text": "絶対",
+          "reading": "ぜったい"
+        },
+        {
+          "text": "遅",
+          "reading": "おく"
+        },
+        {
+          "text": "れないようにしてください。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ようにする"
+        }
+      ]
     },
     {
       "id": "74",
@@ -888,7 +3356,46 @@
       "example_hira": "いちねんかんべんきょうして、にほんごがすこしはなせるようになった。",
       "example_vi": "Học một năm, tôi đã có thể nói tiếng Nhật một chút.",
       "note": null,
-      "source_page": 92
+      "source_page": 92,
+      "example_ruby": [
+        {
+          "text": "1年間",
+          "reading": "いちねんかん"
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう"
+        },
+        {
+          "text": "して、"
+        },
+        {
+          "text": "日本語",
+          "reading": "にほんご"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "少",
+          "reading": "すこ"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "話",
+          "reading": "はな"
+        },
+        {
+          "text": "せるようになった。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ようになる"
+        }
+      ]
     },
     {
       "id": "75",
@@ -900,7 +3407,42 @@
       "example_hira": "きょうのしあいはえんきになるらしい。",
       "example_vi": "Hình như trận đấu hôm nay sẽ bị hoãn.",
       "note": "Khác ～らしい［性質］ (đúng bản chất của N).",
-      "source_page": 93
+      "source_page": 93,
+      "example_ruby": [
+        {
+          "text": "今日",
+          "reading": "きょう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "試合",
+          "reading": "しあい"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "延期",
+          "reading": "えんき"
+        },
+        {
+          "text": "になるらしい。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～らしい［"
+        },
+        {
+          "text": "推量",
+          "reading": "すいりょう"
+        },
+        {
+          "text": "］"
+        }
+      ]
     },
     {
       "id": "76",
@@ -912,7 +3454,49 @@
       "example_hira": "むすめはいつもジーンズで、じょせいらしいふくをほとんどきない。",
       "example_vi": "Con gái lúc nào cũng mặc jeans, hầu như không mặc đồ nữ tính.",
       "note": "Khác ～らしい［推量］.",
-      "source_page": 93
+      "source_page": 93,
+      "example_ruby": [
+        {
+          "text": "娘",
+          "reading": "むすめ"
+        },
+        {
+          "text": "はいつもジーンズで、"
+        },
+        {
+          "text": "女性",
+          "reading": "じょせい"
+        },
+        {
+          "text": "らしい"
+        },
+        {
+          "text": "服",
+          "reading": "ふく"
+        },
+        {
+          "text": "をほとんど"
+        },
+        {
+          "text": "着",
+          "reading": "き"
+        },
+        {
+          "text": "ない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～らしい［"
+        },
+        {
+          "text": "性質",
+          "reading": "せいしつ"
+        },
+        {
+          "text": "］"
+        }
+      ]
     },
     {
       "id": "77",
@@ -924,7 +3508,28 @@
       "example_hira": "かれがそんなひどいことをいうわけがない。",
       "example_vi": "Không đời nào anh ấy lại nói chuyện tệ như vậy.",
       "note": null,
-      "source_page": 93
+      "source_page": 93,
+      "example_ruby": [
+        {
+          "text": "彼",
+          "reading": "かれ"
+        },
+        {
+          "text": "がそんなひどいことを"
+        },
+        {
+          "text": "言",
+          "reading": "い"
+        },
+        {
+          "text": "うわけがない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～わけ(が)ない"
+        }
+      ]
     },
     {
       "id": "78",
@@ -936,7 +3541,28 @@
       "example_hira": "しけんまでじかんはほとんどないけど、あきらめているわけではない。",
       "example_vi": "Dù gần như hết thời gian trước kỳ thi nhưng không có nghĩa là tôi đã bỏ cuộc.",
       "note": null,
-      "source_page": 93
+      "source_page": 93,
+      "example_ruby": [
+        {
+          "text": "試験",
+          "reading": "しけん"
+        },
+        {
+          "text": "まで"
+        },
+        {
+          "text": "時間",
+          "reading": "じかん"
+        },
+        {
+          "text": "はほとんどないけど、あきらめているわけではない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～わけではない"
+        }
+      ]
     },
     {
       "id": "79",
@@ -948,7 +3574,35 @@
       "example_hira": "しゅうしょくしたら、いままでのようにはバンドをつづけるわけにはいかない。",
       "example_vi": "Khi đã đi làm thì không thể tiếp tục chơi band như trước được.",
       "note": "Vないわけにはいかない = không thể không / phải V.",
-      "source_page": 93
+      "source_page": 93,
+      "example_ruby": [
+        {
+          "text": "就職",
+          "reading": "しゅうしょく"
+        },
+        {
+          "text": "したら、"
+        },
+        {
+          "text": "今",
+          "reading": "いま"
+        },
+        {
+          "text": "までのようにはバンドを"
+        },
+        {
+          "text": "続",
+          "reading": "つづ"
+        },
+        {
+          "text": "けるわけにはいかない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～わけにはいかない"
+        }
+      ]
     },
     {
       "id": "80",
@@ -960,7 +3614,28 @@
       "example_hira": "ねだんがたかいわりには、あまりおいしくない。",
       "example_vi": "Giá cao vậy mà không ngon lắm.",
       "note": null,
-      "source_page": 93
+      "source_page": 93,
+      "example_ruby": [
+        {
+          "text": "値段",
+          "reading": "ねだん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "高",
+          "reading": "たか"
+        },
+        {
+          "text": "いわりには、あまりおいしくない。"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～わりに(は)"
+        }
+      ]
     }
   ]
 }

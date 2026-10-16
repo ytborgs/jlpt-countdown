@@ -27,12 +27,28 @@ const text = (tag, value, className, lang) => {
   return element;
 };
 
+export const createRubyText = (tag, value, segments, className) => {
+  const element = text(tag, '', className, 'ja');
+  const valid = Array.isArray(segments) && segments.every(segment =>
+    segment && typeof segment.text === 'string' &&
+    (segment.reading === undefined || typeof segment.reading === 'string')
+  ) && segments.map(segment => segment.text).join('') === value;
+  if (!valid) { element.textContent = value; return element; }
+  for (const segment of segments) {
+    if (!segment.reading) { element.append(document.createTextNode(segment.text)); continue; }
+    const ruby = document.createElement('ruby');
+    ruby.append(document.createTextNode(segment.text), text('rp', '('), text('rt', segment.reading), text('rp', ')'));
+    element.append(ruby);
+  }
+  return element;
+};
+
 export const createGrammarCard = item => {
   const card = document.createElement('article');
   card.className = 'grammar-card';
   card.dataset.grammarId = item.id;
   card.append(text('span', 'MẪU ' + item.id, 'grammar-number'));
-  card.append(text('h3', item.pattern, 'grammar-pattern', 'ja'));
+  card.append(createRubyText('h3', item.pattern, item.pattern_ruby, 'grammar-pattern'));
   card.append(text('p', item.meaning, 'grammar-meaning'));
   const structure = document.createElement('div');
   structure.className = 'grammar-structure';
@@ -47,8 +63,7 @@ export const createGrammarCard = item => {
   content.append(text('p', item.usage));
   const example = document.createElement('div');
   example.className = 'grammar-example';
-  example.append(text('p', item.example_jp, 'grammar-example-jp', 'ja'));
-  example.append(text('p', item.example_hira, 'grammar-hira', 'ja'));
+  example.append(createRubyText('p', item.example_jp, item.example_ruby, 'grammar-example-jp'));
   example.append(text('p', item.example_vi));
   content.append(example);
   if (item.note) content.append(text('p', 'Lưu ý: ' + item.note, 'grammar-note'));
