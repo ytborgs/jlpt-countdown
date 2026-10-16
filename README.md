@@ -9,7 +9,7 @@
 - **Đếm ngược:** hiển thị ngày, giờ, phút và giây còn lại; cập nhật mỗi giây khi trang đang mở. Thanh tiến độ tính từ ngày 05/10/2026.
 - **Ôn 6 mẫu ngữ pháp:** mỗi lần mở hoặc quay lại trang chính, chọn ngẫu nhiên 6 mẫu khác nhau từ bộ 80 mẫu. Lượt mới bỏ qua các mẫu của lượt trước khi có đủ dữ liệu.
 - **Thư viện 80 mẫu N3:** tra cứu theo mẫu tiếng Nhật, ý nghĩa, cấu trúc hoặc nội dung ví dụ; hỗ trợ tìm tiếng Việt không dấu.
-- **Tài liệu ôn tập N3 tổng hợp:** 18 bộ tài liệu từ dữ liệu v9, nhóm theo Ngữ pháp / Từ vựng & Hán tự / Trắc nghiệm / Mẹo & bí kíp, có chip lọc nhóm, tìm kiếm tiếng Nhật/tiếng Việt, và badge tiến độ local (đúng–sai hoặc đã thuộc) trên từng thẻ danh mục.
+- **Tài liệu ôn tập N3 tổng hợp:** 18 bộ tài liệu từ dữ liệu v9, nhóm theo Ngữ pháp / Từ vựng & Hán tự / Trắc nghiệm / Mẹo & bí kíp, có chip lọc nhóm, tìm kiếm tiếng Nhật/tiếng Việt, và badge tiến độ local (đúng–sai hoặc đã thuộc) trên từng thẻ danh mục. Bộ trắc nghiệm có chế độ **Phiên** (một câu mỗi lần, tiếp tục chỗ chưa làm, phiên ngắn 20 câu, CTA Câu tiếp sau khi chọn).
 - **Furigana:** tên mẫu và câu ví dụ hiển thị cách đọc trên các cụm kanji. Mỗi thẻ có ý nghĩa, cấu trúc, cách dùng, ví dụ Nhật–Việt và ghi chú.
 - **Ngạn ngữ Nhật–Việt:** thay đổi khi mở hoặc quay lại trang, tránh lặp ngay câu vừa xem.
 - **Cá nhân hóa:** lưu tên để hiển thị lời chào trên trang countdown.
@@ -152,7 +152,7 @@ Khi sửa dữ liệu:
 Khi cập nhật tài nguyên được lưu offline, tăng phiên bản `CACHE` trong `sw.js`. Nếu thêm trang, CSS, JavaScript hoặc dữ liệu mới cần dùng offline, bổ sung đường dẫn vào `ASSETS`. Sau khi triển khai, tải lại ứng dụng khi có mạng để nhận phiên bản mới.
 
 
-Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=29`, `study.css?v=29` và JSON `?v=29`. Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline lưu đúng các URL này để tránh trộn mã và dữ liệu của bản cũ. Khi phát hành thay đổi study tiếp theo, tăng phiên bản trong `study.html`, fallback `DATA_VERSION` và các URL trong `ASSETS` cùng với `CACHE`.
+Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=30`, `study.css?v=30` và JSON `?v=30`. Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline lưu đúng các URL này để tránh trộn mã và dữ liệu của bản cũ. Khi phát hành thay đổi study tiếp theo, tăng phiên bản trong `study.html`, fallback `DATA_VERSION` và các URL trong `ASSETS` cùng với `CACHE`.
 
 Giới hạn dữ liệu v8: 3 câu chưa có tóm tắt và 1 lựa chọn chưa có nghĩa VI riêng; các lý do đúng/sai vẫn được hiển thị theo JSON. Ứng dụng không tự bổ sung những trường này.
 
