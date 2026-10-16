@@ -20,7 +20,8 @@
     "Đủ 96/96 câu (Mondai 1–3 × 32).",
     "Gloss Hán Việt / nghĩa VI trên ảnh = annotation kèm, không phải in gốc đề.",
     "Furigana: enrich *_ruby linguistic (align reading / pykakasi).",
-    "Phase v6: chỉ giữ đáp án visual_annotation/official; không linguistic."
+    "Phase v6: chỉ giữ đáp án visual_annotation/official; không linguistic.",
+    "Phase v8: choice_analyses + explanation (linguistic). Không đổi correct_answer."
   ],
   "items": [
     {
@@ -57,7 +58,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "HÀNH SỰ",
       "meaning_vi": "sự kiện",
-      "explanation": null,
+      "explanation": "「行事」(HÀNH SỰ) ≈ sự kiện. Cách đọc đúng: 2. ぎょうじ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -87,7 +88,38 @@
           "text": "。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "こうじ",
+          "meaning_vi": "đọc nhiễu / sai của 「行事」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「こうじ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ぎょうじ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ぎょうじ",
+          "meaning_vi": "cách đọc đúng của 「行事」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「行事」(HÀNH SỰ) trong câu ≈ sự kiện; đọc 「ぎょうじ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "こうし",
+          "meaning_vi": "đọc nhiễu / sai của 「行事」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「こうし」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ぎょうじ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ぎょうし",
+          "meaning_vi": "đọc nhiễu / sai của 「行事」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぎょうし」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ぎょうじ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q02",
@@ -123,7 +155,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THỦ ĐÔ",
       "meaning_vi": "thủ đô",
-      "explanation": null,
+      "explanation": "「首都」(THỦ ĐÔ) ≈ thủ đô. Cách đọc đúng: 3. しゅと.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -139,7 +171,38 @@
           "text": "はワシントンだ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "しょうと",
+          "meaning_vi": "đọc nhiễu / sai của 「首都」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しょうと」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しゅと」."
+        },
+        {
+          "key": "2",
+          "text_jp": "しゅとう",
+          "meaning_vi": "đọc nhiễu / sai của 「首都」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅとう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しゅと」."
+        },
+        {
+          "key": "3",
+          "text_jp": "しゅと",
+          "meaning_vi": "cách đọc đúng của 「首都」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「首都」(THỦ ĐÔ) trong câu ≈ thủ đô; đọc 「しゅと」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しゅうとう",
+          "meaning_vi": "đọc nhiễu / sai của 「首都」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅうとう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しゅと」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q03",
@@ -175,7 +238,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "CHI NHÂN",
       "meaning_vi": "người quen",
-      "explanation": null,
+      "explanation": "「知人」(CHI NHÂN) ≈ người quen. Cách đọc đúng: 1. ちじん.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -198,7 +261,38 @@
           "text": "いておどろいた。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ちじん",
+          "meaning_vi": "cách đọc đúng của 「知人」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「知人」(CHI NHÂN) trong câu ≈ người quen; đọc 「ちじん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ちにん",
+          "meaning_vi": "đọc nhiễu / sai của 「知人」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちにん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ちじん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ちびと",
+          "meaning_vi": "đọc nhiễu / sai của 「知人」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちびと」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ちじん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しじん",
+          "meaning_vi": "đọc nhiễu / sai của 「知人」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しじん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ちじん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q04",
@@ -234,7 +328,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "NHẤT SINH",
       "meaning_vi": "cuộc đời",
-      "explanation": null,
+      "explanation": "「一生」(NHẤT SINH) ≈ cuộc đời. Cách đọc đúng: 4. いっしょう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -257,7 +351,38 @@
           "text": "わすれない。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "いちせい",
+          "meaning_vi": "đọc nhiễu / sai của 「一生」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いちせい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「いっしょう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "いっせい",
+          "meaning_vi": "đọc nhiễu / sai của 「一生」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いっせい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「いっしょう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "いちじょう",
+          "meaning_vi": "đọc nhiễu / sai của 「一生」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いちじょう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「いっしょう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "いっしょう",
+          "meaning_vi": "cách đọc đúng của 「一生」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「一生」(NHẤT SINH) trong câu ≈ cuộc đời; đọc 「いっしょう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q05",
@@ -293,7 +418,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "VÔ SỰ",
       "meaning_vi": "bình an vô sự",
-      "explanation": null,
+      "explanation": "「無事」(VÔ SỰ) ≈ bình an vô sự. Cách đọc đúng: 2. ぶじ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -330,7 +455,38 @@
           "text": "てきた。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "むじ",
+          "meaning_vi": "đọc nhiễu / sai của 「無事」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「むじ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ぶじ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ぶじ",
+          "meaning_vi": "cách đọc đúng của 「無事」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「無事」(VÔ SỰ) trong câu ≈ bình an vô sự; đọc 「ぶじ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ぶし",
+          "meaning_vi": "đọc nhiễu / sai của 「無事」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぶし」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ぶじ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "むし",
+          "meaning_vi": "đọc nhiễu / sai của 「無事」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「むし」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ぶじ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q06",
@@ -366,7 +522,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "DẠ TRUNG",
       "meaning_vi": "giữa đêm",
-      "explanation": null,
+      "explanation": "「夜中」(DẠ TRUNG) ≈ giữa đêm. Cách đọc đúng: 4. よなか.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -407,7 +563,38 @@
           "text": "。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "やなか",
+          "meaning_vi": "đọc nhiễu / sai của 「夜中」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「やなか」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「よなか」."
+        },
+        {
+          "key": "2",
+          "text_jp": "やちゅう",
+          "meaning_vi": "đọc nhiễu / sai của 「夜中」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「やちゅう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「よなか」."
+        },
+        {
+          "key": "3",
+          "text_jp": "よちゅう",
+          "meaning_vi": "đọc nhiễu / sai của 「夜中」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「よちゅう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「よなか」."
+        },
+        {
+          "key": "4",
+          "text_jp": "よなか",
+          "meaning_vi": "cách đọc đúng của 「夜中」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「夜中」(DẠ TRUNG) trong câu ≈ giữa đêm; đọc 「よなか」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q07",
@@ -443,7 +630,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THÔNG",
       "meaning_vi": "thông hiểu",
-      "explanation": null,
+      "explanation": "「通じ」(THÔNG) ≈ thông hiểu. Cách đọc đúng: 1. つうじ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -470,7 +657,38 @@
           "text": "ない。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "つうじ",
+          "meaning_vi": "cách đọc đúng của 「通じ」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「通じ」(THÔNG) trong câu ≈ thông hiểu; đọc 「つうじ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "とおじ",
+          "meaning_vi": "đọc nhiễu / sai của 「通じ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「とおじ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「つうじ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "とおりじ",
+          "meaning_vi": "đọc nhiễu / sai của 「通じ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「とおりじ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「つうじ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "つじ",
+          "meaning_vi": "đọc nhiễu / sai của 「通じ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「つじ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「つうじ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q08",
@@ -506,7 +724,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "LƯU HÀNH",
       "meaning_vi": "thịnh hành",
-      "explanation": null,
+      "explanation": "「流行」(LƯU HÀNH) ≈ thịnh hành. Cách đọc đúng: 4. りゅうこう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -540,7 +758,38 @@
           "text": "している。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "りょこう",
+          "meaning_vi": "đọc nhiễu / sai của 「流行」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「りょこう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「りゅうこう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "りゅこう",
+          "meaning_vi": "đọc nhiễu / sai của 「流行」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「りゅこう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「りゅうこう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "りょうこう",
+          "meaning_vi": "đọc nhiễu / sai của 「流行」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「りょうこう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「りゅうこう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "りゅうこう",
+          "meaning_vi": "cách đọc đúng của 「流行」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「流行」(LƯU HÀNH) trong câu ≈ thịnh hành; đọc 「りゅうこう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q09",
@@ -576,7 +825,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "HỘI HỌA",
       "meaning_vi": "hội họa",
-      "explanation": null,
+      "explanation": "「絵画」(HỘI HỌA) ≈ hội họa. Cách đọc đúng: 3. かいが.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -610,7 +859,38 @@
           "text": "している。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "かいかく",
+          "meaning_vi": "đọc nhiễu / sai của 「絵画」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「かいかく」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「かいが」."
+        },
+        {
+          "key": "2",
+          "text_jp": "えが",
+          "meaning_vi": "đọc nhiễu / sai của 「絵画」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「えが」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「かいが」."
+        },
+        {
+          "key": "3",
+          "text_jp": "かいが",
+          "meaning_vi": "cách đọc đúng của 「絵画」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「絵画」(HỘI HỌA) trong câu ≈ hội họa; đọc 「かいが」."
+        },
+        {
+          "key": "4",
+          "text_jp": "えかく",
+          "meaning_vi": "đọc nhiễu / sai của 「絵画」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「えかく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「かいが」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q10",
@@ -646,7 +926,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TÁC NGHIỆP",
       "meaning_vi": "thao tác công việc",
-      "explanation": null,
+      "explanation": "「作業」(TÁC NGHIỆP) ≈ thao tác công việc. Cách đọc đúng: 1. さぎょう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -673,7 +953,38 @@
           "text": "ましょう。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "さぎょう",
+          "meaning_vi": "cách đọc đúng của 「作業」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「作業」(TÁC NGHIỆP) trong câu ≈ thao tác công việc; đọc 「さぎょう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "さくぎょう",
+          "meaning_vi": "đọc nhiễu / sai của 「作業」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「さくぎょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「さぎょう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "さごう",
+          "meaning_vi": "đọc nhiễu / sai của 「作業」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「さごう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「さぎょう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "さくごう",
+          "meaning_vi": "đọc nhiễu / sai của 「作業」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「さくごう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「さぎょう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q11",
@@ -709,7 +1020,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THÂN",
       "meaning_vi": "thân thiết",
-      "explanation": null,
+      "explanation": "「親しく」(THÂN) ≈ thân thiết. Cách đọc đúng: 4. したしく.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -743,7 +1054,38 @@
           "text": "している。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ちかしく",
+          "meaning_vi": "đọc nhiễu / sai của 「親しく」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちかしく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「したしく」."
+        },
+        {
+          "key": "2",
+          "text_jp": "たのしく",
+          "meaning_vi": "đọc nhiễu / sai của 「親しく」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「たのしく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「したしく」."
+        },
+        {
+          "key": "3",
+          "text_jp": "おやしく",
+          "meaning_vi": "đọc nhiễu / sai của 「親しく」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「おやしく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「したしく」."
+        },
+        {
+          "key": "4",
+          "text_jp": "したしく",
+          "meaning_vi": "cách đọc đúng của 「親しく」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「親しく」(THÂN) trong câu ≈ thân thiết; đọc 「したしく」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q12",
@@ -779,7 +1121,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "VẬT SỰ",
       "meaning_vi": "sự vật sự việc",
-      "explanation": null,
+      "explanation": "「物事」(VẬT SỰ) ≈ sự vật sự việc. Cách đọc đúng: 2. ものごと.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -799,7 +1141,38 @@
           "text": "にはルールがある。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ものじ",
+          "meaning_vi": "đọc nhiễu / sai của 「物事」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ものじ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ものごと」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ものごと",
+          "meaning_vi": "cách đọc đúng của 「物事」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「物事」(VẬT SỰ) trong câu ≈ sự vật sự việc; đọc 「ものごと」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ぶつじ",
+          "meaning_vi": "đọc nhiễu / sai của 「物事」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぶつじ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ものごと」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ぶつこと",
+          "meaning_vi": "đọc nhiễu / sai của 「物事」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぶつこと」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ものごと」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q13",
@@ -835,7 +1208,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "BÍ THƯ",
       "meaning_vi": "thư ký",
-      "explanation": null,
+      "explanation": "「秘書」(BÍ THƯ) ≈ thư ký. Cách đọc đúng: 1. ひしょ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -870,7 +1243,38 @@
           "text": "をしている。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ひしょ",
+          "meaning_vi": "cách đọc đúng của 「秘書」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「秘書」(BÍ THƯ) trong câu ≈ thư ký; đọc 「ひしょ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ひいしょ",
+          "meaning_vi": "đọc nhiễu / sai của 「秘書」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ひいしょ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ひしょ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ひじょう",
+          "meaning_vi": "đọc nhiễu / sai của 「秘書」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ひじょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ひしょ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ひいしょう",
+          "meaning_vi": "đọc nhiễu / sai của 「秘書」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ひいしょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ひしょ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q14",
@@ -906,7 +1310,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "HÀNG KHÔNG",
       "meaning_vi": "hàng không",
-      "explanation": null,
+      "explanation": "「航空」(HÀNG KHÔNG) ≈ hàng không. Cách đọc đúng: 3. こうくう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -944,7 +1348,38 @@
           "text": "った。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "くこう",
+          "meaning_vi": "đọc nhiễu / sai của 「航空」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「くこう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「こうくう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "くうこう",
+          "meaning_vi": "đọc nhiễu / sai của 「航空」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「くうこう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「こうくう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "こうくう",
+          "meaning_vi": "cách đọc đúng của 「航空」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「航空」(HÀNG KHÔNG) trong câu ≈ hàng không; đọc 「こうくう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "こくう",
+          "meaning_vi": "đọc nhiễu / sai của 「航空」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「こくう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「こうくう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q15",
@@ -980,7 +1415,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TRƯỜNG SỞ",
       "meaning_vi": "sở trường",
-      "explanation": null,
+      "explanation": "「長所」(TRƯỜNG SỞ) ≈ sở trường. Cách đọc đúng: 3. ちょうしょ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1021,7 +1456,38 @@
           "text": "れた。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ちょじょ",
+          "meaning_vi": "đọc nhiễu / sai của 「長所」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちょじょ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ちょうしょ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ちょうじょ",
+          "meaning_vi": "đọc nhiễu / sai của 「長所」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちょうじょ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ちょうしょ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ちょうしょ",
+          "meaning_vi": "cách đọc đúng của 「長所」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「長所」(TRƯỜNG SỞ) trong câu ≈ sở trường; đọc 「ちょうしょ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ちょうしょう",
+          "meaning_vi": "đọc nhiễu / sai của 「長所」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちょうしょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ちょうしょ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q16",
@@ -1057,7 +1523,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TẢ HỮU",
       "meaning_vi": "trái phải",
-      "explanation": null,
+      "explanation": "「左右」(TẢ HỮU) ≈ trái phải. Cách đọc đúng: 2. さゆう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1091,7 +1557,38 @@
           "text": "さい。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ざゆう",
+          "meaning_vi": "đọc nhiễu / sai của 「左右」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ざゆう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「さゆう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "さゆう",
+          "meaning_vi": "cách đọc đúng của 「左右」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「左右」(TẢ HỮU) trong câu ≈ trái phải; đọc 「さゆう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "さよう",
+          "meaning_vi": "đọc nhiễu / sai của 「左右」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「さよう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「さゆう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ぞうゆう",
+          "meaning_vi": "đọc nhiễu / sai của 「左右」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぞうゆう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「さゆう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q17",
@@ -1127,7 +1624,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "PHÁT BIỂU",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「発表」(PHÁT BIỂU) ≈ …. Cách đọc đúng: 3. はっぴょう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1154,7 +1651,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "はっぴょ",
+          "meaning_vi": "đọc nhiễu / sai của 「発表」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「はっぴょ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「はっぴょう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "はぴょう",
+          "meaning_vi": "đọc nhiễu / sai của 「発表」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「はぴょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「はっぴょう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "はっぴょう",
+          "meaning_vi": "cách đọc đúng của 「発表」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「発表」(PHÁT BIỂU) trong câu ≈ …; đọc 「はっぴょう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "はつぴょう",
+          "meaning_vi": "đọc nhiễu / sai của 「発表」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「はつぴょう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「はっぴょう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q18",
@@ -1190,7 +1718,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "DỰ TOÁN",
       "meaning_vi": "ngân sách dự toán",
-      "explanation": null,
+      "explanation": "「予算」(DỰ TOÁN) ≈ ngân sách dự toán. Cách đọc đúng: 2. よさん.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1224,7 +1752,38 @@
           "text": "たい。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "よざん",
+          "meaning_vi": "đọc nhiễu / sai của 「予算」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「よざん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「よさん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "よさん",
+          "meaning_vi": "cách đọc đúng của 「予算」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「予算」(DỰ TOÁN) trong câu ≈ ngân sách dự toán; đọc 「よさん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ようさん",
+          "meaning_vi": "đọc nhiễu / sai của 「予算」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ようさん」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「よさん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ようざん",
+          "meaning_vi": "đọc nhiễu / sai của 「予算」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ようざん」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「よさん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q19",
@@ -1260,7 +1819,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "HIỆP LỰC",
       "meaning_vi": "hợp tác",
-      "explanation": null,
+      "explanation": "「協力」(HIỆP LỰC) ≈ hợp tác. Cách đọc đúng: 4. きょうりょく.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1283,7 +1842,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "きゅうりょく",
+          "meaning_vi": "đọc nhiễu / sai của 「協力」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「きゅうりょく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「きょうりょく」."
+        },
+        {
+          "key": "2",
+          "text_jp": "きゅうりき",
+          "meaning_vi": "đọc nhiễu / sai của 「協力」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「きゅうりき」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「きょうりょく」."
+        },
+        {
+          "key": "3",
+          "text_jp": "きょうりき",
+          "meaning_vi": "đọc nhiễu / sai của 「協力」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「きょうりき」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「きょうりょく」."
+        },
+        {
+          "key": "4",
+          "text_jp": "きょうりょく",
+          "meaning_vi": "cách đọc đúng của 「協力」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「協力」(HIỆP LỰC) trong câu ≈ hợp tác; đọc 「きょうりょく」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q20",
@@ -1319,7 +1909,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TỤC",
       "meaning_vi": "tiếp tục",
-      "explanation": null,
+      "explanation": "「続く」(TỤC) ≈ tiếp tục. Cách đọc đúng: 1. つづく.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1346,7 +1936,38 @@
           "text": "そうだ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "つづく",
+          "meaning_vi": "cách đọc đúng của 「続く」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「続く」(TỤC) trong câu ≈ tiếp tục; đọc 「つづく」."
+        },
+        {
+          "key": "2",
+          "text_jp": "えがく",
+          "meaning_vi": "đọc nhiễu / sai của 「続く」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「えがく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「つづく」."
+        },
+        {
+          "key": "3",
+          "text_jp": "うごく",
+          "meaning_vi": "đọc nhiễu / sai của 「続く」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「うごく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「つづく」."
+        },
+        {
+          "key": "4",
+          "text_jp": "のぞく",
+          "meaning_vi": "đọc nhiễu / sai của 「続く」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「のぞく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「つづく」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q21",
@@ -1382,7 +2003,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THẤT BẠI",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「失敗」(THẤT BẠI) ≈ …. Cách đọc đúng: 2. しっぱい.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1398,7 +2019,38 @@
           "text": "はある。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "しばい",
+          "meaning_vi": "đọc nhiễu / sai của 「失敗」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しばい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しっぱい」."
+        },
+        {
+          "key": "2",
+          "text_jp": "しっぱい",
+          "meaning_vi": "cách đọc đúng của 「失敗」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「失敗」(THẤT BẠI) trong câu ≈ …; đọc 「しっぱい」."
+        },
+        {
+          "key": "3",
+          "text_jp": "しはい",
+          "meaning_vi": "đọc nhiễu / sai của 「失敗」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しはい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しっぱい」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しつはい",
+          "meaning_vi": "đọc nhiễu / sai của 「失敗」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しつはい」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「しっぱい」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q22",
@@ -1434,7 +2086,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "NGHI VẤN",
       "meaning_vi": "nghi ngờ",
-      "explanation": null,
+      "explanation": "「疑問」(NGHI VẤN) ≈ nghi ngờ. Cách đọc đúng: 3. ぎもん.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1457,7 +2109,38 @@
           "text": "だが、やってみよう。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ぐもん",
+          "meaning_vi": "đọc nhiễu / sai của 「疑問」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぐもん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ぎもん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "なんもん",
+          "meaning_vi": "đọc nhiễu / sai của 「疑問」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「なんもん」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ぎもん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ぎもん",
+          "meaning_vi": "cách đọc đúng của 「疑問」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「疑問」(NGHI VẤN) trong câu ≈ nghi ngờ; đọc 「ぎもん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しつもん",
+          "meaning_vi": "đọc nhiễu / sai của 「疑問」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しつもん」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ぎもん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q23",
@@ -1493,7 +2176,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TẨM BẤT TÚC",
       "meaning_vi": "thiếu ngủ",
-      "explanation": null,
+      "explanation": "「寝不足」(TẨM BẤT TÚC) ≈ thiếu ngủ. Cách đọc đúng: 4. ねぶそく.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1527,7 +2210,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ねふぞく",
+          "meaning_vi": "đọc nhiễu / sai của 「寝不足」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ねふぞく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ねぶそく」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ねぶぞく",
+          "meaning_vi": "đọc nhiễu / sai của 「寝不足」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ねぶぞく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ねぶそく」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ねふそく",
+          "meaning_vi": "đọc nhiễu / sai của 「寝不足」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ねふそく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ねぶそく」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ねぶそく",
+          "meaning_vi": "cách đọc đúng của 「寝不足」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「寝不足」(TẨM BẤT TÚC) trong câu ≈ thiếu ngủ; đọc 「ねぶそく」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q24",
@@ -1563,7 +2277,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "XUẤT TRƯƠNG",
       "meaning_vi": "công tác",
-      "explanation": null,
+      "explanation": "「出張」(XUẤT TRƯƠNG) ≈ công tác. Cách đọc đúng: 2. しゅっちょう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1583,7 +2297,38 @@
           "text": "する。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "しゅちょう",
+          "meaning_vi": "đọc nhiễu / sai của 「出張」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅちょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しゅっちょう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "しゅっちょう",
+          "meaning_vi": "cách đọc đúng của 「出張」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「出張」(XUẤT TRƯƠNG) trong câu ≈ công tác; đọc 「しゅっちょう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "しゅうちょ",
+          "meaning_vi": "đọc nhiễu / sai của 「出張」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅうちょ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しゅっちょう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しゅっちょ",
+          "meaning_vi": "đọc nhiễu / sai của 「出張」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅっちょ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しゅっちょう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q25",
@@ -1619,7 +2364,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "ĐỘC THƯ",
       "meaning_vi": "đọc sách",
-      "explanation": null,
+      "explanation": "「読書」(ĐỘC THƯ) ≈ đọc sách. Cách đọc đúng: 3. どくしょ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1646,7 +2391,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "どくしょう",
+          "meaning_vi": "đọc nhiễu / sai của 「読書」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「どくしょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「どくしょ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "どくしゅう",
+          "meaning_vi": "đọc nhiễu / sai của 「読書」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「どくしゅう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「どくしょ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "どくしょ",
+          "meaning_vi": "cách đọc đúng của 「読書」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「読書」(ĐỘC THƯ) trong câu ≈ đọc sách; đọc 「どくしょ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "どくしゅ",
+          "meaning_vi": "đọc nhiễu / sai của 「読書」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「どくしゅ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「どくしょ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q26",
@@ -1682,7 +2458,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TRÂN",
       "meaning_vi": "hiếm có",
-      "explanation": null,
+      "explanation": "「珍しい」(TRÂN) ≈ hiếm có. Cách đọc đúng: 4. めずらしい.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1709,7 +2485,38 @@
           "text": "。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "かなしい",
+          "meaning_vi": "đọc nhiễu / sai của 「珍しい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「かなしい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「めずらしい」."
+        },
+        {
+          "key": "2",
+          "text_jp": "けわしい",
+          "meaning_vi": "đọc nhiễu / sai của 「珍しい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「けわしい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「めずらしい」."
+        },
+        {
+          "key": "3",
+          "text_jp": "さびしい",
+          "meaning_vi": "đọc nhiễu / sai của 「珍しい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「さびしい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「めずらしい」."
+        },
+        {
+          "key": "4",
+          "text_jp": "めずらしい",
+          "meaning_vi": "cách đọc đúng của 「珍しい」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「珍しい」(TRÂN) trong câu ≈ hiếm có; đọc 「めずらしい」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q27",
@@ -1745,7 +2552,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "VÔ LIỆU",
       "meaning_vi": "miễn phí",
-      "explanation": null,
+      "explanation": "「無料」(VÔ LIỆU) ≈ miễn phí. Cách đọc đúng: 1. むりょう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1761,7 +2568,38 @@
           "text": "です。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "むりょう",
+          "meaning_vi": "cách đọc đúng của 「無料」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「無料」(VÔ LIỆU) trong câu ≈ miễn phí; đọc 「むりょう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ぶりょう",
+          "meaning_vi": "đọc nhiễu / sai của 「無料」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぶりょう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「むりょう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "なしりょう",
+          "meaning_vi": "đọc nhiễu / sai của 「無料」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「なしりょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「むりょう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ゆうりょう",
+          "meaning_vi": "đọc nhiễu / sai của 「無料」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ゆうりょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「むりょう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q28",
@@ -1797,7 +2635,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "NHÂN HÌNH",
       "meaning_vi": "búp bê",
-      "explanation": null,
+      "explanation": "「人形」(NHÂN HÌNH) ≈ búp bê. Cách đọc đúng: 3. にんぎょう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1820,7 +2658,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "じんきょう",
+          "meaning_vi": "đọc nhiễu / sai của 「人形」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「じんきょう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「にんぎょう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "じんがた",
+          "meaning_vi": "đọc nhiễu / sai của 「人形」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「じんがた」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「にんぎょう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "にんぎょう",
+          "meaning_vi": "cách đọc đúng của 「人形」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「人形」(NHÂN HÌNH) trong câu ≈ búp bê; đọc 「にんぎょう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "にんがた",
+          "meaning_vi": "đọc nhiễu / sai của 「人形」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「にんがた」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「にんぎょう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q29",
@@ -1856,7 +2725,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "ỨNG MỘ",
       "meaning_vi": "đăng ký ứng tuyển",
-      "explanation": null,
+      "explanation": "「応募」(ỨNG MỘ) ≈ đăng ký ứng tuyển. Cách đọc đúng: 2. おうぼ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1876,7 +2745,38 @@
           "text": "してみよう。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "おうぼう",
+          "meaning_vi": "đọc nhiễu / sai của 「応募」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「おうぼう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「おうぼ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "おうぼ",
+          "meaning_vi": "cách đọc đúng của 「応募」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「応募」(ỨNG MỘ) trong câu ≈ đăng ký ứng tuyển; đọc 「おうぼ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "おうしゅう",
+          "meaning_vi": "đọc nhiễu / sai của 「応募」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「おうしゅう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「おうぼ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "おうほう",
+          "meaning_vi": "đọc nhiễu / sai của 「応募」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「おうほう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「おうぼ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q30",
@@ -1912,7 +2812,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "KHỔ THỦ",
       "meaning_vi": "yếu kém",
-      "explanation": null,
+      "explanation": "「苦手」(KHỔ THỦ) ≈ yếu kém. Cách đọc đúng: 4. にがて.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -1942,7 +2842,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "くしゅ",
+          "meaning_vi": "đọc nhiễu / sai của 「苦手」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「くしゅ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「にがて」."
+        },
+        {
+          "key": "2",
+          "text_jp": "くうしゅ",
+          "meaning_vi": "đọc nhiễu / sai của 「苦手」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「くうしゅ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「にがて」."
+        },
+        {
+          "key": "3",
+          "text_jp": "にがで",
+          "meaning_vi": "đọc nhiễu / sai của 「苦手」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「にがで」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「にがて」."
+        },
+        {
+          "key": "4",
+          "text_jp": "にがて",
+          "meaning_vi": "cách đọc đúng của 「苦手」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「苦手」(KHỔ THỦ) trong câu ≈ yếu kém; đọc 「にがて」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q31",
@@ -1978,7 +2909,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "PHÓNG",
       "meaning_vi": "đến thăm",
-      "explanation": null,
+      "explanation": "「訪ねた」(PHÓNG) ≈ đến thăm. Cách đọc đúng: 1. たずねた.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2008,7 +2939,38 @@
           "text": "た。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "たずねた",
+          "meaning_vi": "cách đọc đúng của 「訪ねた」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「訪ねた」(PHÓNG) trong câu ≈ đến thăm; đọc 「たずねた」."
+        },
+        {
+          "key": "2",
+          "text_jp": "おとずねた",
+          "meaning_vi": "đọc nhiễu / sai của 「訪ねた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「おとずねた」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「たずねた」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ほうねた",
+          "meaning_vi": "đọc nhiễu / sai của 「訪ねた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ほうねた」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「たずねた」."
+        },
+        {
+          "key": "4",
+          "text_jp": "たばねた",
+          "meaning_vi": "đọc nhiễu / sai của 「訪ねた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「たばねた」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「たずねた」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m1-q32",
@@ -2044,7 +3006,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THUẬN PHIÊN",
       "meaning_vi": "lượt, thứ tự",
-      "explanation": null,
+      "explanation": "「順番」(THUẬN PHIÊN) ≈ lượt, thứ tự. Cách đọc đúng: 3. じゅんばん.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2067,7 +3029,38 @@
           "text": "。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "しゅんばん",
+          "meaning_vi": "đọc nhiễu / sai của 「順番」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅんばん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「じゅんばん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "じゅうばん",
+          "meaning_vi": "đọc nhiễu / sai của 「順番」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「じゅうばん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「じゅんばん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "じゅんばん",
+          "meaning_vi": "cách đọc đúng của 「順番」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「順番」(THUẬN PHIÊN) trong câu ≈ lượt, thứ tự; đọc 「じゅんばん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しゅうばん",
+          "meaning_vi": "đọc nhiễu / sai của 「順番」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅうばん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「じゅんばん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q01",
@@ -2103,7 +3096,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TRIỆU",
       "meaning_vi": "nghìn tỷ",
-      "explanation": null,
+      "explanation": "「兆」(TRIỆU) ≈ nghìn tỷ. Cách đọc đúng: 1. ちょう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2141,7 +3134,38 @@
           "text": "た。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ちょう",
+          "meaning_vi": "cách đọc đúng của 「兆」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「兆」(TRIỆU) trong câu ≈ nghìn tỷ; đọc 「ちょう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "おく",
+          "meaning_vi": "đọc nhiễu / sai của 「兆」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「おく」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ちょう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "まん",
+          "meaning_vi": "đọc nhiễu / sai của 「兆」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「まん」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ちょう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "けい",
+          "meaning_vi": "đọc nhiễu / sai của 「兆」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「けい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ちょう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q02",
@@ -2177,7 +3201,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "NGÔN NGỮ",
       "meaning_vi": "ngôn ngữ",
-      "explanation": null,
+      "explanation": "「言語」(NGÔN NGỮ) ≈ ngôn ngữ. Cách đọc đúng: 3. げんご.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2211,7 +3235,38 @@
           "text": "している。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "けんご",
+          "meaning_vi": "đọc nhiễu / sai của 「言語」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「けんご」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「げんご」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ごんごう",
+          "meaning_vi": "đọc nhiễu / sai của 「言語」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ごんごう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「げんご」."
+        },
+        {
+          "key": "3",
+          "text_jp": "げんご",
+          "meaning_vi": "cách đọc đúng của 「言語」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「言語」(NGÔN NGỮ) trong câu ≈ ngôn ngữ; đọc 「げんご」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ごんご",
+          "meaning_vi": "đọc nhiễu / sai của 「言語」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ごんご」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「げんご」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q03",
@@ -2247,7 +3302,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "LÃNH",
       "meaning_vi": "nguội",
-      "explanation": null,
+      "explanation": "「冷めて」(LÃNH) ≈ nguội. Cách đọc đúng: 2. さめて.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2263,7 +3318,38 @@
           "text": "てもおいしい。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ひめて",
+          "meaning_vi": "đọc nhiễu / sai của 「冷めて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ひめて」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「さめて」."
+        },
+        {
+          "key": "2",
+          "text_jp": "さめて",
+          "meaning_vi": "cách đọc đúng của 「冷めて」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「冷めて」(LÃNH) trong câu ≈ nguội; đọc 「さめて」."
+        },
+        {
+          "key": "3",
+          "text_jp": "つめて",
+          "meaning_vi": "đọc nhiễu / sai của 「冷めて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「つめて」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「さめて」."
+        },
+        {
+          "key": "4",
+          "text_jp": "れいめて",
+          "meaning_vi": "đọc nhiễu / sai của 「冷めて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「れいめて」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「さめて」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q04",
@@ -2299,7 +3385,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "ĐỊA CẦU",
       "meaning_vi": "trái đất",
-      "explanation": null,
+      "explanation": "「地球」(ĐỊA CẦU) ≈ trái đất. Cách đọc đúng: 4. ちきゅう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2322,7 +3408,38 @@
           "text": "がいる。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ちきょう",
+          "meaning_vi": "đọc nhiễu / sai của 「地球」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちきょう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ちきゅう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "じきゅう",
+          "meaning_vi": "đọc nhiễu / sai của 「地球」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「じきゅう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ちきゅう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "じきょう",
+          "meaning_vi": "đọc nhiễu / sai của 「地球」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「じきょう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ちきゅう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ちきゅう",
+          "meaning_vi": "cách đọc đúng của 「地球」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「地球」(ĐỊA CẦU) trong câu ≈ trái đất; đọc 「ちきゅう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q05",
@@ -2358,7 +3475,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "ĐỘ",
       "meaning_vi": "băng qua",
-      "explanation": null,
+      "explanation": "「渡る」(ĐỘ) ≈ băng qua. Cách đọc đúng: 4. わたる.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2388,7 +3505,38 @@
           "text": "がある。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "あたる",
+          "meaning_vi": "đọc nhiễu / sai của 「渡る」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あたる」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「わたる」."
+        },
+        {
+          "key": "2",
+          "text_jp": "さがる",
+          "meaning_vi": "đọc nhiễu / sai của 「渡る」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「さがる」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「わたる」."
+        },
+        {
+          "key": "3",
+          "text_jp": "まがる",
+          "meaning_vi": "đọc nhiễu / sai của 「渡る」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「まがる」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「わたる」."
+        },
+        {
+          "key": "4",
+          "text_jp": "わたる",
+          "meaning_vi": "cách đọc đúng của 「渡る」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「渡る」(ĐỘ) trong câu ≈ băng qua; đọc 「わたる」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q06",
@@ -2424,7 +3572,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THỦ TƯỚNG",
       "meaning_vi": "thủ tướng",
-      "explanation": null,
+      "explanation": "「首相」(THỦ TƯỚNG) ≈ thủ tướng. Cách đọc đúng: 2. しゅしょう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2451,7 +3599,38 @@
           "text": "った。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "しゅうそう",
+          "meaning_vi": "đọc nhiễu / sai của 「首相」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅうそう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「しゅしょう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "しゅしょう",
+          "meaning_vi": "cách đọc đúng của 「首相」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「首相」(THỦ TƯỚNG) trong câu ≈ thủ tướng; đọc 「しゅしょう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "しゅうしょう",
+          "meaning_vi": "đọc nhiễu / sai của 「首相」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅうしょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しゅしょう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しゆうそう",
+          "meaning_vi": "đọc nhiễu / sai của 「首相」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゆうそう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「しゅしょう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q07",
@@ -2487,7 +3666,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "LỮ HÀNH",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「旅行」(LỮ HÀNH) ≈ …. Cách đọc đúng: 3. りょこう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2518,7 +3697,38 @@
           "text": "。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "りょうこ",
+          "meaning_vi": "đọc nhiễu / sai của 「旅行」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「りょうこ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「りょこう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "りょうこう",
+          "meaning_vi": "đọc nhiễu / sai của 「旅行」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「りょうこう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「りょこう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "りょこう",
+          "meaning_vi": "cách đọc đúng của 「旅行」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「旅行」(LỮ HÀNH) trong câu ≈ …; đọc 「りょこう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "りよこ",
+          "meaning_vi": "đọc nhiễu / sai của 「旅行」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「りよこ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「りょこう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q08",
@@ -2554,7 +3764,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "HIỀM",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「嫌」(HIỀM) ≈ …. Cách đọc đúng: 2. いや.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2577,7 +3787,38 @@
           "text": "ほうがいい。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "きら",
+          "meaning_vi": "đọc nhiễu / sai của 「嫌」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「きら」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「いや」."
+        },
+        {
+          "key": "2",
+          "text_jp": "いや",
+          "meaning_vi": "cách đọc đúng của 「嫌」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「嫌」(HIỀM) trong câu ≈ …; đọc 「いや」."
+        },
+        {
+          "key": "3",
+          "text_jp": "けん",
+          "meaning_vi": "đọc nhiễu / sai của 「嫌」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「けん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「いや」."
+        },
+        {
+          "key": "4",
+          "text_jp": "だめ",
+          "meaning_vi": "đọc nhiễu / sai của 「嫌」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「だめ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「いや」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q09",
@@ -2636,7 +3877,38 @@
           "text": "よう。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ほうほう",
+          "meaning_vi": "cách đọc đúng của 「方法」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「方法」(PHƯƠNG PHÁP) trong câu ≈ …; đọc 「ほうほう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ほうばう",
+          "meaning_vi": "đọc nhiễu / sai của 「方法」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ほうばう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ほうほう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ほうぱう",
+          "meaning_vi": "đọc nhiễu / sai của 「方法」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ほうぱう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ほうほう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ほうば",
+          "meaning_vi": "đọc nhiễu / sai của 「方法」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ほうば」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ほうほう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q10",
@@ -2672,7 +3944,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THÔNG",
       "meaning_vi": "đi lại (học, làm…)",
-      "explanation": null,
+      "explanation": "「通って」(THÔNG) ≈ đi lại (học, làm…). Cách đọc đúng: 3. かよって.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2692,7 +3964,38 @@
           "text": "いる。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "とおって",
+          "meaning_vi": "đọc nhiễu / sai của 「通って」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「とおって」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「かよって」."
+        },
+        {
+          "key": "2",
+          "text_jp": "つうって",
+          "meaning_vi": "đọc nhiễu / sai của 「通って」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「つうって」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「かよって」."
+        },
+        {
+          "key": "3",
+          "text_jp": "かよって",
+          "meaning_vi": "cách đọc đúng của 「通って」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「通って」(THÔNG) trong câu ≈ đi lại (học, làm…); đọc 「かよって」."
+        },
+        {
+          "key": "4",
+          "text_jp": "みちって",
+          "meaning_vi": "đọc nhiễu / sai của 「通って」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「みちって」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「かよって」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q11",
@@ -2728,7 +4031,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TOÀN",
       "meaning_vi": "hoàn toàn",
-      "explanation": null,
+      "explanation": "「全く」(TOÀN) ≈ hoàn toàn. Cách đọc đúng: 4. まったく.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2765,7 +4068,38 @@
           "text": "わからない。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "しばらく",
+          "meaning_vi": "đọc nhiễu / sai của 「全く」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しばらく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「まったく」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ことごとく",
+          "meaning_vi": "đọc nhiễu / sai của 「全く」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ことごとく」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「まったく」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ぜんく",
+          "meaning_vi": "đọc nhiễu / sai của 「全く」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぜんく」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「まったく」."
+        },
+        {
+          "key": "4",
+          "text_jp": "まったく",
+          "meaning_vi": "cách đọc đúng của 「全く」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「全く」(TOÀN) trong câu ≈ hoàn toàn; đọc 「まったく」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q12",
@@ -2801,7 +4135,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "NHẬT KHÓA",
       "meaning_vi": "thói quen hàng ngày",
-      "explanation": null,
+      "explanation": "「日課」(NHẬT KHÓA) ≈ thói quen hàng ngày. Cách đọc đúng: 2. にっか.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2828,7 +4162,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ひか",
+          "meaning_vi": "đọc nhiễu / sai của 「日課」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ひか」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「にっか」."
+        },
+        {
+          "key": "2",
+          "text_jp": "にっか",
+          "meaning_vi": "cách đọc đúng của 「日課」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「日課」(NHẬT KHÓA) trong câu ≈ thói quen hàng ngày; đọc 「にっか」."
+        },
+        {
+          "key": "3",
+          "text_jp": "にちか",
+          "meaning_vi": "đọc nhiễu / sai của 「日課」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「にちか」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「にっか」."
+        },
+        {
+          "key": "4",
+          "text_jp": "びか",
+          "meaning_vi": "đọc nhiễu / sai của 「日課」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「びか」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「にっか」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q13",
@@ -2864,7 +4229,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THỦ",
       "meaning_vi": "tuân thủ, bảo vệ",
-      "explanation": null,
+      "explanation": "「守ら」(THỦ) ≈ tuân thủ, bảo vệ. Cách đọc đúng: 3. まもら.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2884,7 +4249,38 @@
           "text": "なければならない。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "あたら",
+          "meaning_vi": "đọc nhiễu / sai của 「守ら」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あたら」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「まもら」."
+        },
+        {
+          "key": "2",
+          "text_jp": "うつら",
+          "meaning_vi": "đọc nhiễu / sai của 「守ら」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「うつら」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「まもら」."
+        },
+        {
+          "key": "3",
+          "text_jp": "まもら",
+          "meaning_vi": "cách đọc đúng của 「守ら」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「守ら」(THỦ) trong câu ≈ tuân thủ, bảo vệ; đọc 「まもら」."
+        },
+        {
+          "key": "4",
+          "text_jp": "たまら",
+          "meaning_vi": "đọc nhiễu / sai của 「守ら」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「たまら」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「まもら」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q14",
@@ -2920,7 +4316,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THÂM",
       "meaning_vi": "sâu",
-      "explanation": null,
+      "explanation": "「深」(THÂM) ≈ sâu. Cách đọc đúng: 4. ふかそう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -2943,7 +4339,38 @@
           "text": "うだ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "あさそう",
+          "meaning_vi": "đọc nhiễu / sai của 「深」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あさそう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ふかそう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "うすそう",
+          "meaning_vi": "đọc nhiễu / sai của 「深」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「うすそう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ふかそう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "あつそう",
+          "meaning_vi": "đọc nhiễu / sai của 「深」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あつそう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ふかそう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ふかそう",
+          "meaning_vi": "cách đọc đúng của 「深」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「深」(THÂM) trong câu ≈ sâu; đọc 「ふかそう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q15",
@@ -2979,7 +4406,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "ĐẠI BIỂU",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「代表」(ĐẠI BIỂU) ≈ …. Cách đọc đúng: 1. だいひょう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3006,7 +4433,38 @@
           "text": "になった。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "だいひょう",
+          "meaning_vi": "cách đọc đúng của 「代表」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「代表」(ĐẠI BIỂU) trong câu ≈ …; đọc 「だいひょう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "たいびょう",
+          "meaning_vi": "đọc nhiễu / sai của 「代表」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「たいびょう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「だいひょう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "だいびょう",
+          "meaning_vi": "đọc nhiễu / sai của 「代表」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「だいびょう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「だいひょう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "たいひょう",
+          "meaning_vi": "đọc nhiễu / sai của 「代表」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「たいひょう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「だいひょう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q16",
@@ -3042,7 +4500,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TRUYỀN",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「伝え」(TRUYỀN) ≈ …. Cách đọc đúng: 2. つたえ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3076,7 +4534,38 @@
           "text": "たい。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "たとえ",
+          "meaning_vi": "đọc nhiễu / sai của 「伝え」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「たとえ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「つたえ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "つたえ",
+          "meaning_vi": "cách đọc đúng của 「伝え」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「伝え」(TRUYỀN) trong câu ≈ …; đọc 「つたえ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ささえ",
+          "meaning_vi": "đọc nhiễu / sai của 「伝え」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ささえ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「つたえ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "かなえ",
+          "meaning_vi": "đọc nhiễu / sai của 「伝え」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「かなえ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「つたえ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q17",
@@ -3112,7 +4601,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "KHÔNG",
       "meaning_vi": "trống rỗng",
-      "explanation": null,
+      "explanation": "「空っぽ」(KHÔNG) ≈ trống rỗng. Cách đọc đúng: 3. からっぽ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3146,7 +4635,38 @@
           "text": "だった。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "そらっぽ",
+          "meaning_vi": "đọc nhiễu / sai của 「空っぽ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「そらっぽ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「からっぽ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "くうっぽ",
+          "meaning_vi": "đọc nhiễu / sai của 「空っぽ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「くうっぽ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「からっぽ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "からっぽ",
+          "meaning_vi": "cách đọc đúng của 「空っぽ」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「空っぽ」(KHÔNG) trong câu ≈ trống rỗng; đọc 「からっぽ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "あきっぽ",
+          "meaning_vi": "đọc nhiễu / sai của 「空っぽ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あきっぽ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「からっぽ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q18",
@@ -3182,7 +4702,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THOÁI VIỆN",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「退院」(THOÁI VIỆN) ≈ …. Cách đọc đúng: 3. たいいん.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3206,7 +4726,38 @@
           "text": "できることになった。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "たんいん",
+          "meaning_vi": "đọc nhiễu / sai của 「退院」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「たんいん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「たいいん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "たいん",
+          "meaning_vi": "đọc nhiễu / sai của 「退院」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「たいん」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「たいいん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "たいいん",
+          "meaning_vi": "cách đọc đúng của 「退院」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「退院」(THOÁI VIỆN) trong câu ≈ …; đọc 「たいいん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "だいいん",
+          "meaning_vi": "đọc nhiễu / sai của 「退院」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「だいいん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「たいいん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q19",
@@ -3242,7 +4793,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TÁI LAI CHU",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「再来週」(TÁI LAI CHU) ≈ …. Cách đọc đúng: 2. さらいしゅう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3290,7 +4841,38 @@
           "text": "。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ざいらいしゅう",
+          "meaning_vi": "đọc nhiễu / sai của 「再来週」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ざいらいしゅう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「さらいしゅう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "さらいしゅう",
+          "meaning_vi": "cách đọc đúng của 「再来週」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「再来週」(TÁI LAI CHU) trong câu ≈ …; đọc 「さらいしゅう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "さいらいしゅう",
+          "meaning_vi": "đọc nhiễu / sai của 「再来週」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「さいらいしゅう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「さらいしゅう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ざらいしゅう",
+          "meaning_vi": "đọc nhiễu / sai của 「再来週」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ざらいしゅう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「さらいしゅう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q20",
@@ -3326,7 +4908,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THƯỢNG TRỨ",
       "meaning_vi": "áo khoác",
-      "explanation": null,
+      "explanation": "「上着」(THƯỢNG TRỨ) ≈ áo khoác. Cách đọc đúng: 4. うわぎ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3361,7 +4943,38 @@
           "text": "けよう。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "うえき",
+          "meaning_vi": "đọc nhiễu / sai của 「上着」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「うえき」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「うわぎ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "うえぎ",
+          "meaning_vi": "đọc nhiễu / sai của 「上着」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「うえぎ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「うわぎ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "うわき",
+          "meaning_vi": "đọc nhiễu / sai của 「上着」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「うわき」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「うわぎ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "うわぎ",
+          "meaning_vi": "cách đọc đúng của 「上着」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「上着」(THƯỢNG TRỨ) trong câu ≈ áo khoác; đọc 「うわぎ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q21",
@@ -3397,7 +5010,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "CHÍNH THỨC",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「正式」(CHÍNH THỨC) ≈ …. Cách đọc đúng: 3. せいしき.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3431,7 +5044,38 @@
           "text": "になった。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "せいじき",
+          "meaning_vi": "đọc nhiễu / sai của 「正式」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「せいじき」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「せいしき」."
+        },
+        {
+          "key": "2",
+          "text_jp": "しょうしき",
+          "meaning_vi": "đọc nhiễu / sai của 「正式」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しょうしき」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「せいしき」."
+        },
+        {
+          "key": "3",
+          "text_jp": "せいしき",
+          "meaning_vi": "cách đọc đúng của 「正式」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「正式」(CHÍNH THỨC) trong câu ≈ …; đọc 「せいしき」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しょうじき",
+          "meaning_vi": "đọc nhiễu / sai của 「正式」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しょうじき」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「せいしき」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q22",
@@ -3467,7 +5111,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "ÔN",
       "meaning_vi": "làm ấm",
-      "explanation": null,
+      "explanation": "「温めた」(ÔN) ≈ làm ấm. Cách đọc đúng: 1. あたためた.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3490,7 +5134,38 @@
           "text": "たほうがおいしくなる。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "あたためた",
+          "meaning_vi": "cách đọc đúng của 「温めた」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「温めた」(ÔN) trong câu ≈ làm ấm; đọc 「あたためた」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ぬくめた",
+          "meaning_vi": "đọc nhiễu / sai của 「温めた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぬくめた」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「あたためた」."
+        },
+        {
+          "key": "3",
+          "text_jp": "おんめた",
+          "meaning_vi": "đọc nhiễu / sai của 「温めた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「おんめた」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「あたためた」."
+        },
+        {
+          "key": "4",
+          "text_jp": "あためた",
+          "meaning_vi": "đọc nhiễu / sai của 「温めた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あためた」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「あたためた」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q23",
@@ -3526,7 +5201,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THÂM DẠ",
       "meaning_vi": "đêm khuya",
-      "explanation": null,
+      "explanation": "「深夜」(THÂM DẠ) ≈ đêm khuya. Cách đọc đúng: 4. しんや.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3557,7 +5232,38 @@
           "text": "がする。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "しんよ",
+          "meaning_vi": "đọc nhiễu / sai của 「深夜」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しんよ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「しんや」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ふかや",
+          "meaning_vi": "đọc nhiễu / sai của 「深夜」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ふかや」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「しんや」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ふかよ",
+          "meaning_vi": "đọc nhiễu / sai của 「深夜」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ふかよ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「しんや」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しんや",
+          "meaning_vi": "cách đọc đúng của 「深夜」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「深夜」(THÂM DẠ) trong câu ≈ đêm khuya; đọc 「しんや」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q24",
@@ -3593,7 +5299,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "ĐẦU THỐNG",
       "meaning_vi": "đau đầu",
-      "explanation": null,
+      "explanation": "「頭痛」(ĐẦU THỐNG) ≈ đau đầu. Cách đọc đúng: 2. ずつう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3609,7 +5315,38 @@
           "text": "がする。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ずうつ",
+          "meaning_vi": "đọc nhiễu / sai của 「頭痛」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ずうつ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ずつう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ずつう",
+          "meaning_vi": "cách đọc đúng của 「頭痛」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「頭痛」(ĐẦU THỐNG) trong câu ≈ đau đầu; đọc 「ずつう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "とうつう",
+          "meaning_vi": "đọc nhiễu / sai của 「頭痛」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「とうつう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ずつう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "とうつ",
+          "meaning_vi": "đọc nhiễu / sai của 「頭痛」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「とうつ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ずつう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q25",
@@ -3645,7 +5382,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TIÊN NHẬT",
       "meaning_vi": "ngày hôm trước",
-      "explanation": null,
+      "explanation": "「先日」(TIÊN NHẬT) ≈ ngày hôm trước. Cách đọc đúng: 4. せんじつ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3658,7 +5395,38 @@
           "text": "はどうもありがとうございました。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "さきび",
+          "meaning_vi": "đọc nhiễu / sai của 「先日」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「さきび」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「せんじつ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "さきじつ",
+          "meaning_vi": "đọc nhiễu / sai của 「先日」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「さきじつ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「せんじつ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "せんび",
+          "meaning_vi": "đọc nhiễu / sai của 「先日」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「せんび」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「せんじつ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "せんじつ",
+          "meaning_vi": "cách đọc đúng của 「先日」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「先日」(TIÊN NHẬT) trong câu ≈ ngày hôm trước; đọc 「せんじつ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q26",
@@ -3694,7 +5462,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "CẢI",
       "meaning_vi": "thêm 1 lần nữa",
-      "explanation": null,
+      "explanation": "「改めて」(CẢI) ≈ thêm 1 lần nữa. Cách đọc đúng: 2. あらためて.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3728,7 +5496,38 @@
           "text": "します。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ためて",
+          "meaning_vi": "đọc nhiễu / sai của 「改めて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ためて」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「あらためて」."
+        },
+        {
+          "key": "2",
+          "text_jp": "あらためて",
+          "meaning_vi": "cách đọc đúng của 「改めて」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「改めて」(CẢI) trong câu ≈ thêm 1 lần nữa; đọc 「あらためて」."
+        },
+        {
+          "key": "3",
+          "text_jp": "あらめて",
+          "meaning_vi": "đọc nhiễu / sai của 「改めて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あらめて」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「あらためて」."
+        },
+        {
+          "key": "4",
+          "text_jp": "みとめて",
+          "meaning_vi": "đọc nhiễu / sai của 「改めて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「みとめて」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「あらためて」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q27",
@@ -3764,7 +5563,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "CHÚC NHẬT",
       "meaning_vi": "ngày nghỉ",
-      "explanation": null,
+      "explanation": "「祝日」(CHÚC NHẬT) ≈ ngày nghỉ. Cách đọc đúng: 2. しゅくじつ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3805,7 +5604,38 @@
           "text": "。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "しゅくび",
+          "meaning_vi": "đọc nhiễu / sai của 「祝日」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅくび」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しゅくじつ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "しゅくじつ",
+          "meaning_vi": "cách đọc đúng của 「祝日」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「祝日」(CHÚC NHẬT) trong câu ≈ ngày nghỉ; đọc 「しゅくじつ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "しゅくにち",
+          "meaning_vi": "đọc nhiễu / sai của 「祝日」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅくにち」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「しゅくじつ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しゅくひ",
+          "meaning_vi": "đọc nhiễu / sai của 「祝日」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅくひ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しゅくじつ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q28",
@@ -3841,7 +5671,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "MAI VŨ",
       "meaning_vi": "mùa mưa",
-      "explanation": null,
+      "explanation": "「梅雨」(MAI VŨ) ≈ mùa mưa. Cách đọc đúng: 1. つゆ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3871,7 +5701,38 @@
           "text": "。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "つゆ",
+          "meaning_vi": "cách đọc đúng của 「梅雨」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「梅雨」(MAI VŨ) trong câu ≈ mùa mưa; đọc 「つゆ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "めいゆ",
+          "meaning_vi": "đọc nhiễu / sai của 「梅雨」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「めいゆ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「つゆ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "うめさめ",
+          "meaning_vi": "đọc nhiễu / sai của 「梅雨」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「うめさめ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「つゆ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "うめゆ",
+          "meaning_vi": "đọc nhiễu / sai của 「梅雨」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「うめゆ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「つゆ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q29",
@@ -3907,7 +5768,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "BẢN VẬT",
       "meaning_vi": "đồ thật",
-      "explanation": null,
+      "explanation": "「本物」(BẢN VẬT) ≈ đồ thật. Cách đọc đúng: 3. ほんもの.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3930,7 +5791,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ほんぶつ",
+          "meaning_vi": "đọc nhiễu / sai của 「本物」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ほんぶつ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ほんもの」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ほんとう",
+          "meaning_vi": "đọc nhiễu / sai của 「本物」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ほんとう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ほんもの」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ほんもの",
+          "meaning_vi": "cách đọc đúng của 「本物」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「本物」(BẢN VẬT) trong câu ≈ đồ thật; đọc 「ほんもの」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ほんめい",
+          "meaning_vi": "đọc nhiễu / sai của 「本物」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ほんめい」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ほんもの」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q30",
@@ -3966,7 +5858,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "PHÂN DÃ",
       "meaning_vi": "lĩnh vực",
-      "explanation": null,
+      "explanation": "「分野」(PHÂN DÃ) ≈ lĩnh vực. Cách đọc đúng: 1. ぶんや.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -3996,7 +5888,38 @@
           "text": "いる。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ぶんや",
+          "meaning_vi": "cách đọc đúng của 「分野」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「分野」(PHÂN DÃ) trong câu ≈ lĩnh vực; đọc 「ぶんや」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ぶんよ",
+          "meaning_vi": "đọc nhiễu / sai của 「分野」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぶんよ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ぶんや」."
+        },
+        {
+          "key": "3",
+          "text_jp": "わけよ",
+          "meaning_vi": "đọc nhiễu / sai của 「分野」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「わけよ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ぶんや」."
+        },
+        {
+          "key": "4",
+          "text_jp": "わけや",
+          "meaning_vi": "đọc nhiễu / sai của 「分野」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「わけや」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ぶんや」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q31",
@@ -4032,7 +5955,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TRÚ THỰC",
       "meaning_vi": "bữa trưa",
-      "explanation": null,
+      "explanation": "「昼食」(TRÚ THỰC) ≈ bữa trưa. Cách đọc đúng: 4. ちゅうしょく.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4052,7 +5975,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ちゅうしゅく",
+          "meaning_vi": "đọc nhiễu / sai của 「昼食」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちゅうしゅく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ちゅうしょく」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ちょうしょく",
+          "meaning_vi": "đọc nhiễu / sai của 「昼食」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちょうしょく」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ちゅうしょく」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ひるしょく",
+          "meaning_vi": "đọc nhiễu / sai của 「昼食」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ひるしょく」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ちゅうしょく」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ちゅうしょく",
+          "meaning_vi": "cách đọc đúng của 「昼食」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「昼食」(TRÚ THỰC) trong câu ≈ bữa trưa; đọc 「ちゅうしょく」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m2-q32",
@@ -4088,7 +6042,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TÂN",
       "meaning_vi": "cay",
-      "explanation": null,
+      "explanation": "「辛い」(TÂN) ≈ cay. Cách đọc đúng: 3. からい.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4119,7 +6073,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "つらい",
+          "meaning_vi": "đọc nhiễu / sai của 「辛い」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「つらい」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「からい」."
+        },
+        {
+          "key": "2",
+          "text_jp": "こい",
+          "meaning_vi": "đọc nhiễu / sai của 「辛い」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「こい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「からい」."
+        },
+        {
+          "key": "3",
+          "text_jp": "からい",
+          "meaning_vi": "cách đọc đúng của 「辛い」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「辛い」(TÂN) trong câu ≈ cay; đọc 「からい」."
+        },
+        {
+          "key": "4",
+          "text_jp": "あまい",
+          "meaning_vi": "đọc nhiễu / sai của 「辛い」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あまい」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「からい」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q01",
@@ -4155,7 +6140,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "PHU PHỤ",
       "meaning_vi": "vợ chồng",
-      "explanation": null,
+      "explanation": "「夫婦」(PHU PHỤ) ≈ vợ chồng. Cách đọc đúng: 3. ふうふ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4178,7 +6163,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ふふ",
+          "meaning_vi": "đọc nhiễu / sai của 「夫婦」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ふふ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ふうふ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ふうぶ",
+          "meaning_vi": "đọc nhiễu / sai của 「夫婦」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ふうぶ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ふうふ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ふうふ",
+          "meaning_vi": "cách đọc đúng của 「夫婦」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「夫婦」(PHU PHỤ) trong câu ≈ vợ chồng; đọc 「ふうふ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ふうふう",
+          "meaning_vi": "đọc nhiễu / sai của 「夫婦」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ふうふう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ふうふ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q02",
@@ -4214,7 +6230,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TRUYỀN NGÔN",
       "meaning_vi": "lời nhắn",
-      "explanation": null,
+      "explanation": "「伝言」(TRUYỀN NGÔN) ≈ lời nhắn. Cách đọc đúng: 2. でんごん.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4234,7 +6250,38 @@
           "text": "をメモした。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "でんい",
+          "meaning_vi": "đọc nhiễu / sai của 「伝言」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「でんい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「でんごん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "でんごん",
+          "meaning_vi": "cách đọc đúng của 「伝言」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「伝言」(TRUYỀN NGÔN) trong câu ≈ lời nhắn; đọc 「でんごん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "でんげん",
+          "meaning_vi": "đọc nhiễu / sai của 「伝言」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「でんげん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「でんごん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "でんは",
+          "meaning_vi": "đọc nhiễu / sai của 「伝言」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「でんは」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「でんごん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q03",
@@ -4270,7 +6317,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "MAO PHỦ",
       "meaning_vi": "chăn",
-      "explanation": null,
+      "explanation": "「毛布」(MAO PHỦ) ≈ chăn. Cách đọc đúng: 3. もうふ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4297,7 +6344,38 @@
           "text": "た。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "けふ",
+          "meaning_vi": "đọc nhiễu / sai của 「毛布」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「けふ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「もうふ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "けぶ",
+          "meaning_vi": "đọc nhiễu / sai của 「毛布」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「けぶ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「もうふ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "もうふ",
+          "meaning_vi": "cách đọc đúng của 「毛布」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「毛布」(MAO PHỦ) trong câu ≈ chăn; đọc 「もうふ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "もうぶ",
+          "meaning_vi": "đọc nhiễu / sai của 「毛布」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「もうぶ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「もうふ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q04",
@@ -4333,7 +6411,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "BÌNH ĐẲNG",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「平等」(BÌNH ĐẲNG) ≈ …. Cách đọc đúng: 1. びょうどう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4367,7 +6445,38 @@
           "text": "た。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "びょうどう",
+          "meaning_vi": "cách đọc đúng của 「平等」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「平等」(BÌNH ĐẲNG) trong câu ≈ …; đọc 「びょうどう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "びょうとう",
+          "meaning_vi": "đọc nhiễu / sai của 「平等」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「びょうとう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「びょうどう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "へいとう",
+          "meaning_vi": "đọc nhiễu / sai của 「平等」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「へいとう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「びょうどう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "へいどう",
+          "meaning_vi": "đọc nhiễu / sai của 「平等」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「へいどう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「びょうどう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q05",
@@ -4433,7 +6542,38 @@
           "text": "にはわからない。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ほうごん",
+          "meaning_vi": "đọc nhiễu / sai của 「方言」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ほうごん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ほうげん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ほうい",
+          "meaning_vi": "đọc nhiễu / sai của 「方言」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ほうい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ほうげん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ほうがん",
+          "meaning_vi": "đọc nhiễu / sai của 「方言」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ほうがん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ほうげん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ほうげん",
+          "meaning_vi": "cách đọc đúng của 「方言」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「方言」(PHƯƠNG NGÔN) trong câu ≈ …; đọc 「ほうげん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q06",
@@ -4469,7 +6609,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "CẢNH SẮC",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「景色」(CẢNH SẮC) ≈ …. Cách đọc đúng: 2. けしき.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4492,7 +6632,38 @@
           "text": "はすばらしい。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "けいしき",
+          "meaning_vi": "đọc nhiễu / sai của 「景色」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「けいしき」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「けしき」."
+        },
+        {
+          "key": "2",
+          "text_jp": "けしき",
+          "meaning_vi": "cách đọc đúng của 「景色」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「景色」(CẢNH SẮC) trong câu ≈ …; đọc 「けしき」."
+        },
+        {
+          "key": "3",
+          "text_jp": "けいしょく",
+          "meaning_vi": "đọc nhiễu / sai của 「景色」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「けいしょく」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「けしき」."
+        },
+        {
+          "key": "4",
+          "text_jp": "けしょく",
+          "meaning_vi": "đọc nhiễu / sai của 「景色」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「けしょく」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「けしき」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q07",
@@ -4528,7 +6699,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THUYỀN TIỆN",
       "meaning_vi": "đường biển",
-      "explanation": null,
+      "explanation": "「船便」(THUYỀN TIỆN) ≈ đường biển. Cách đọc đúng: 4. ふなびん.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4551,7 +6722,38 @@
           "text": "でいい。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ふねびん",
+          "meaning_vi": "đọc nhiễu / sai của 「船便」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ふねびん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ふなびん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "せんべん",
+          "meaning_vi": "đọc nhiễu / sai của 「船便」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「せんべん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ふなびん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "せんびん",
+          "meaning_vi": "đọc nhiễu / sai của 「船便」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「せんびん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ふなびん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ふなびん",
+          "meaning_vi": "cách đọc đúng của 「船便」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「船便」(THUYỀN TIỆN) trong câu ≈ đường biển; đọc 「ふなびん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q08",
@@ -4587,7 +6789,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "CỐT TRIẾT",
       "meaning_vi": "gãy xương",
-      "explanation": null,
+      "explanation": "「骨折」(CỐT TRIẾT) ≈ gãy xương. Cách đọc đúng: 2. こっせつ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4614,7 +6816,38 @@
           "text": "した。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "こつせつ",
+          "meaning_vi": "đọc nhiễu / sai của 「骨折」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「こつせつ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「こっせつ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "こっせつ",
+          "meaning_vi": "cách đọc đúng của 「骨折」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「骨折」(CỐT TRIẾT) trong câu ≈ gãy xương; đọc 「こっせつ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ほねおり",
+          "meaning_vi": "đọc nhiễu / sai của 「骨折」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ほねおり」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「こっせつ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ほねせつ",
+          "meaning_vi": "đọc nhiễu / sai của 「骨折」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ほねせつ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「こっせつ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q09",
@@ -4650,7 +6883,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THỪA KHÁCH",
       "meaning_vi": "hành khách",
-      "explanation": null,
+      "explanation": "「乗客」(THỪA KHÁCH) ≈ hành khách. Cách đọc đúng: 3. じょうきゃく.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4670,7 +6903,38 @@
           "text": "がけがをした。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "じょうかく",
+          "meaning_vi": "đọc nhiễu / sai của 「乗客」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「じょうかく」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「じょうきゃく」."
+        },
+        {
+          "key": "2",
+          "text_jp": "じょきゃく",
+          "meaning_vi": "đọc nhiễu / sai của 「乗客」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「じょきゃく」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「じょうきゃく」."
+        },
+        {
+          "key": "3",
+          "text_jp": "じょうきゃく",
+          "meaning_vi": "cách đọc đúng của 「乗客」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「乗客」(THỪA KHÁCH) trong câu ≈ hành khách; đọc 「じょうきゃく」."
+        },
+        {
+          "key": "4",
+          "text_jp": "じょかく",
+          "meaning_vi": "đọc nhiễu / sai của 「乗客」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「じょかく」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「じょうきゃく」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q10",
@@ -4706,7 +6970,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "KHẨU HỒNG",
       "meaning_vi": "son môi",
-      "explanation": null,
+      "explanation": "「口紅」(KHẨU HỒNG) ≈ son môi. Cách đọc đúng: 4. くちべに.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4733,7 +6997,38 @@
           "text": "がついている。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "くちこう",
+          "meaning_vi": "đọc nhiễu / sai của 「口紅」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「くちこう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「くちべに」."
+        },
+        {
+          "key": "2",
+          "text_jp": "こうこう",
+          "meaning_vi": "đọc nhiễu / sai của 「口紅」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「こうこう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「くちべに」."
+        },
+        {
+          "key": "3",
+          "text_jp": "こうべに",
+          "meaning_vi": "đọc nhiễu / sai của 「口紅」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「こうべに」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「くちべに」."
+        },
+        {
+          "key": "4",
+          "text_jp": "くちべに",
+          "meaning_vi": "cách đọc đúng của 「口紅」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「口紅」(KHẨU HỒNG) trong câu ≈ son môi; đọc 「くちべに」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q11",
@@ -4769,7 +7064,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "NHIỆT TÂM",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「熱心」(NHIỆT TÂM) ≈ …. Cách đọc đúng: 1. ねっしん.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4800,7 +7095,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ねっしん",
+          "meaning_vi": "cách đọc đúng của 「熱心」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「熱心」(NHIỆT TÂM) trong câu ≈ …; đọc 「ねっしん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ねじん",
+          "meaning_vi": "đọc nhiễu / sai của 「熱心」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ねじん」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ねっしん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ねっじん",
+          "meaning_vi": "đọc nhiễu / sai của 「熱心」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ねっじん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ねっしん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ねしん",
+          "meaning_vi": "đọc nhiễu / sai của 「熱心」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ねしん」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ねっしん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q12",
@@ -4836,7 +7162,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "ĐỊA CHẤN",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「地震」(ĐỊA CHẤN) ≈ …. Cách đọc đúng: 3. じしん.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4870,7 +7196,38 @@
           "text": "。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ちしん",
+          "meaning_vi": "đọc nhiễu / sai của 「地震」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちしん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「じしん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ぢしん",
+          "meaning_vi": "đọc nhiễu / sai của 「地震」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぢしん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「じしん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "じしん",
+          "meaning_vi": "cách đọc đúng của 「地震」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「地震」(ĐỊA CHẤN) trong câu ≈ …; đọc 「じしん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しじん",
+          "meaning_vi": "đọc nhiễu / sai của 「地震」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しじん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「じしん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q13",
@@ -4906,7 +7263,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "Ô",
       "meaning_vi": "làm bẩn",
-      "explanation": null,
+      "explanation": "「汚して」(Ô) ≈ làm bẩn. Cách đọc đúng: 2. よごして.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4936,7 +7293,38 @@
           "text": "てしまった。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "かくして",
+          "meaning_vi": "đọc nhiễu / sai của 「汚して」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「かくして」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「よごして」."
+        },
+        {
+          "key": "2",
+          "text_jp": "よごして",
+          "meaning_vi": "cách đọc đúng của 「汚して」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「汚して」(Ô) trong câu ≈ làm bẩn; đọc 「よごして」."
+        },
+        {
+          "key": "3",
+          "text_jp": "きたして",
+          "meaning_vi": "đọc nhiễu / sai của 「汚して」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「きたして」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「よごして」."
+        },
+        {
+          "key": "4",
+          "text_jp": "みだして",
+          "meaning_vi": "đọc nhiễu / sai của 「汚して」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「みだして」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「よごして」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q14",
@@ -4972,7 +7360,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "THẮNG BẠI",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「勝負」(THẮNG BẠI) ≈ …. Cách đọc đúng: 3. しょうぶ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -4995,7 +7383,38 @@
           "text": "っている。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "しょうはい",
+          "meaning_vi": "đọc nhiễu / sai của 「勝負」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しょうはい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しょうぶ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "しょうばい",
+          "meaning_vi": "đọc nhiễu / sai của 「勝負」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しょうばい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しょうぶ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "しょうぶ",
+          "meaning_vi": "cách đọc đúng của 「勝負」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「勝負」(THẮNG BẠI) trong câu ≈ …; đọc 「しょうぶ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しょうぶう",
+          "meaning_vi": "đọc nhiễu / sai của 「勝負」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しょうぶう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しょうぶ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q15",
@@ -5031,7 +7450,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TUYỂN CỬ",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「選挙」(TUYỂN CỬ) ≈ …. Cách đọc đúng: 1. せんきょ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5065,7 +7484,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "せんきょ",
+          "meaning_vi": "cách đọc đúng của 「選挙」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「選挙」(TUYỂN CỬ) trong câu ≈ …; đọc 「せんきょ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "せんきょう",
+          "meaning_vi": "đọc nhiễu / sai của 「選挙」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「せんきょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「せんきょ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ぜんきょ",
+          "meaning_vi": "đọc nhiễu / sai của 「選挙」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぜんきょ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「せんきょ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ぜんきょう",
+          "meaning_vi": "đọc nhiễu / sai của 「選挙」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぜんきょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「せんきょ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q16",
@@ -5101,7 +7551,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "NGOẠI KHOA",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「外科」(NGOẠI KHOA) ≈ …. Cách đọc đúng: 4. げか.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5128,7 +7578,38 @@
           "text": "をしている。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "がいか",
+          "meaning_vi": "đọc nhiễu / sai của 「外科」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「がいか」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「げか」."
+        },
+        {
+          "key": "2",
+          "text_jp": "そとか",
+          "meaning_vi": "đọc nhiễu / sai của 「外科」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「そとか」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「げか」."
+        },
+        {
+          "key": "3",
+          "text_jp": "わいか",
+          "meaning_vi": "đọc nhiễu / sai của 「外科」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「わいか」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「げか」."
+        },
+        {
+          "key": "4",
+          "text_jp": "げか",
+          "meaning_vi": "cách đọc đúng của 「外科」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「外科」(NGOẠI KHOA) trong câu ≈ …; đọc 「げか」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q17",
@@ -5164,7 +7645,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TƯƠNG ĐÀM",
       "meaning_vi": "thảo luận",
-      "explanation": null,
+      "explanation": "「相談」(TƯƠNG ĐÀM) ≈ thảo luận. Cách đọc đúng: 1. そうだん.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5188,7 +7669,38 @@
           "text": "してください。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "そうだん",
+          "meaning_vi": "cách đọc đúng của 「相談」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「相談」(TƯƠNG ĐÀM) trong câu ≈ thảo luận; đọc 「そうだん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "しょうだん",
+          "meaning_vi": "đọc nhiễu / sai của 「相談」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しょうだん」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「そうだん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "あいだん",
+          "meaning_vi": "đọc nhiễu / sai của 「相談」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あいだん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「そうだん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ぞうだん",
+          "meaning_vi": "đọc nhiễu / sai của 「相談」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぞうだん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「そうだん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q18",
@@ -5224,7 +7736,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "ĐÔNG",
       "meaning_vi": "đóng đá, đông lạnh",
-      "explanation": null,
+      "explanation": "「凍る」(ĐÔNG) ≈ đóng đá, đông lạnh. Cách đọc đúng: 4. こおる.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5254,7 +7766,38 @@
           "text": "こともある。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ひえる",
+          "meaning_vi": "đọc nhiễu / sai của 「凍る」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ひえる」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「こおる」."
+        },
+        {
+          "key": "2",
+          "text_jp": "とおる",
+          "meaning_vi": "đọc nhiễu / sai của 「凍る」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「とおる」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「こおる」."
+        },
+        {
+          "key": "3",
+          "text_jp": "こごる",
+          "meaning_vi": "đọc nhiễu / sai của 「凍る」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「こごる」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「こおる」."
+        },
+        {
+          "key": "4",
+          "text_jp": "こおる",
+          "meaning_vi": "cách đọc đúng của 「凍る」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「凍る」(ĐÔNG) trong câu ≈ đóng đá, đông lạnh; đọc 「こおる」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q19",
@@ -5290,7 +7833,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "BẠC",
       "meaning_vi": "nhạt, mỏng",
-      "explanation": null,
+      "explanation": "「薄い」(BẠC) ≈ nhạt, mỏng. Cách đọc đúng: 2. うすい.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5321,7 +7864,38 @@
           "text": "する。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "あまい",
+          "meaning_vi": "đọc nhiễu / sai của 「薄い」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あまい」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「うすい」."
+        },
+        {
+          "key": "2",
+          "text_jp": "うすい",
+          "meaning_vi": "cách đọc đúng của 「薄い」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「薄い」(BẠC) trong câu ≈ nhạt, mỏng; đọc 「うすい」."
+        },
+        {
+          "key": "3",
+          "text_jp": "こい",
+          "meaning_vi": "đọc nhiễu / sai của 「薄い」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「こい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「うすい」."
+        },
+        {
+          "key": "4",
+          "text_jp": "まずい",
+          "meaning_vi": "đọc nhiễu / sai của 「薄い」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「まずい」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「うすい」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q20",
@@ -5357,7 +7931,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TRÌ",
       "meaning_vi": "chậm, muộn",
-      "explanation": null,
+      "explanation": "「遅れ」(TRÌ) ≈ chậm, muộn. Cách đọc đúng: 4. おくれ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5377,7 +7951,38 @@
           "text": "ないでください。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "おそれ",
+          "meaning_vi": "đọc nhiễu / sai của 「遅れ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「おそれ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「おくれ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "つかれ",
+          "meaning_vi": "đọc nhiễu / sai của 「遅れ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「つかれ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「おくれ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "かくれ",
+          "meaning_vi": "đọc nhiễu / sai của 「遅れ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「かくれ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「おくれ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "おくれ",
+          "meaning_vi": "cách đọc đúng của 「遅れ」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「遅れ」(TRÌ) trong câu ≈ chậm, muộn; đọc 「おくれ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q21",
@@ -5413,7 +8018,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "PHỤC TRANG",
       "meaning_vi": "quần áo",
-      "explanation": null,
+      "explanation": "「服装」(PHỤC TRANG) ≈ quần áo. Cách đọc đúng: 1. ふくそう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5440,7 +8045,38 @@
           "text": "がいいですか。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ふくそう",
+          "meaning_vi": "cách đọc đúng của 「服装」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「服装」(PHỤC TRANG) trong câu ≈ quần áo; đọc 「ふくそう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ふくしょう",
+          "meaning_vi": "đọc nhiễu / sai của 「服装」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ふくしょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ふくそう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ふうそう",
+          "meaning_vi": "đọc nhiễu / sai của 「服装」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ふうそう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ふくそう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ふうしょう",
+          "meaning_vi": "đọc nhiễu / sai của 「服装」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ふうしょう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ふくそう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q22",
@@ -5476,7 +8112,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "SINH VẬT",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「生物」(SINH VẬT) ≈ …. Cách đọc đúng: 3. せいぶつ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5510,7 +8146,38 @@
           "text": "している。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "しょうぶつ",
+          "meaning_vi": "đọc nhiễu / sai của 「生物」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しょうぶつ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「せいぶつ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "いきもの",
+          "meaning_vi": "đọc nhiễu / sai của 「生物」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いきもの」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「せいぶつ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "せいぶつ",
+          "meaning_vi": "cách đọc đúng của 「生物」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「生物」(SINH VẬT) trong câu ≈ …; đọc 「せいぶつ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しょうもの",
+          "meaning_vi": "đọc nhiễu / sai của 「生物」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しょうもの」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「せいぶつ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q23",
@@ -5546,7 +8213,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "MANG",
       "meaning_vi": "bận",
-      "explanation": null,
+      "explanation": "「忙しい」(MANG) ≈ bận. Cách đọc đúng: 2. いそがしい.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5584,7 +8251,38 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "あわただしい",
+          "meaning_vi": "đọc nhiễu / sai của 「忙しい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あわただしい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「いそがしい」."
+        },
+        {
+          "key": "2",
+          "text_jp": "いそがしい",
+          "meaning_vi": "cách đọc đúng của 「忙しい」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「忙しい」(MANG) trong câu ≈ bận; đọc 「いそがしい」."
+        },
+        {
+          "key": "3",
+          "text_jp": "けわしい",
+          "meaning_vi": "đọc nhiễu / sai của 「忙しい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「けわしい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「いそがしい」."
+        },
+        {
+          "key": "4",
+          "text_jp": "きびしい",
+          "meaning_vi": "đọc nhiễu / sai của 「忙しい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「きびしい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「いそがしい」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q24",
@@ -5620,7 +8318,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "CƯ TỬU ỐC",
       "meaning_vi": "quán nhậu",
-      "explanation": null,
+      "explanation": "「居酒屋」(CƯ TỬU ỐC) ≈ quán nhậu. Cách đọc đúng: 4. いざかや.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5647,7 +8345,38 @@
           "text": "でいる。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "いしゅや",
+          "meaning_vi": "đọc nhiễu / sai của 「居酒屋」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いしゅや」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「いざかや」."
+        },
+        {
+          "key": "2",
+          "text_jp": "いざけや",
+          "meaning_vi": "đọc nhiễu / sai của 「居酒屋」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いざけや」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「いざかや」."
+        },
+        {
+          "key": "3",
+          "text_jp": "いさかや",
+          "meaning_vi": "đọc nhiễu / sai của 「居酒屋」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いさかや」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「いざかや」."
+        },
+        {
+          "key": "4",
+          "text_jp": "いざかや",
+          "meaning_vi": "cách đọc đúng của 「居酒屋」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「居酒屋」(CƯ TỬU ỐC) trong câu ≈ quán nhậu; đọc 「いざかや」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q25",
@@ -5683,7 +8412,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "MỘ TẬP",
       "meaning_vi": "tuyển dụng",
-      "explanation": null,
+      "explanation": "「募集」(MỘ TẬP) ≈ tuyển dụng. Cách đọc đúng: 2. ぼしゅう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5710,7 +8439,38 @@
           "text": "している。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ぼしゅ",
+          "meaning_vi": "đọc nhiễu / sai của 「募集」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぼしゅ」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ぼしゅう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ぼしゅう",
+          "meaning_vi": "cách đọc đúng của 「募集」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「募集」(MỘ TẬP) trong câu ≈ tuyển dụng; đọc 「ぼしゅう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "ぼうしゅ",
+          "meaning_vi": "đọc nhiễu / sai của 「募集」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぼうしゅ」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ぼしゅう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "ぼうしゅう",
+          "meaning_vi": "đọc nhiễu / sai của 「募集」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぼうしゅう」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ぼしゅう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q26",
@@ -5746,7 +8506,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "CHU BIÊN",
       "meaning_vi": "vùng lân cận",
-      "explanation": null,
+      "explanation": "「周辺」(CHU BIÊN) ≈ vùng lân cận. Cách đọc đúng: 2. しゅうへん.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5776,7 +8536,38 @@
           "text": "。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "しゅへん",
+          "meaning_vi": "đọc nhiễu / sai của 「周辺」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しゅへん」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しゅうへん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "しゅうへん",
+          "meaning_vi": "cách đọc đúng của 「周辺」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「周辺」(CHU BIÊN) trong câu ≈ vùng lân cận; đọc 「しゅうへん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "しょうへん",
+          "meaning_vi": "đọc nhiễu / sai của 「周辺」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しょうへん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「しゅうへん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "しょへん",
+          "meaning_vi": "đọc nhiễu / sai của 「周辺」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「しょへん」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「しゅうへん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q27",
@@ -5812,7 +8603,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "NHIỆT",
       "meaning_vi": "nóng (cảm giác)",
-      "explanation": null,
+      "explanation": "「熱い」(NHIỆT) ≈ nóng (cảm giác). Cách đọc đúng: 4. あつい.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5836,7 +8627,38 @@
           "text": "スープがおいしい。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ねつい",
+          "meaning_vi": "đọc nhiễu / sai của 「熱い」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ねつい」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「あつい」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ぬるい",
+          "meaning_vi": "đọc nhiễu / sai của 「熱い」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ぬるい」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「あつい」."
+        },
+        {
+          "key": "3",
+          "text_jp": "たかい",
+          "meaning_vi": "đọc nhiễu / sai của 「熱い」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「たかい」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「あつい」."
+        },
+        {
+          "key": "4",
+          "text_jp": "あつい",
+          "meaning_vi": "cách đọc đúng của 「熱い」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「熱い」(NHIỆT) trong câu ≈ nóng (cảm giác); đọc 「あつい」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q28",
@@ -5872,7 +8694,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "DIỆN TIẾP",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「面接」(DIỆN TIẾP) ≈ …. Cách đọc đúng: 1. めんせつ.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5899,7 +8721,38 @@
           "text": "らドキドキしている。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "めんせつ",
+          "meaning_vi": "cách đọc đúng của 「面接」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「面接」(DIỆN TIẾP) trong câu ≈ …; đọc 「めんせつ」."
+        },
+        {
+          "key": "2",
+          "text_jp": "めんかい",
+          "meaning_vi": "đọc nhiễu / sai của 「面接」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「めんかい」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「めんせつ」."
+        },
+        {
+          "key": "3",
+          "text_jp": "めんだん",
+          "meaning_vi": "đọc nhiễu / sai của 「面接」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「めんだん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「めんせつ」."
+        },
+        {
+          "key": "4",
+          "text_jp": "めんし",
+          "meaning_vi": "đọc nhiễu / sai của 「面接」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「めんし」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「めんせつ」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q29",
@@ -5935,7 +8788,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "DỰ PHÒNG",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「予防」(DỰ PHÒNG) ≈ …. Cách đọc đúng: 4. よぼう.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -5962,7 +8815,38 @@
           "text": "をしておこう。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "よほう",
+          "meaning_vi": "đọc nhiễu / sai của 「予防」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「よほう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「よぼう」."
+        },
+        {
+          "key": "2",
+          "text_jp": "よそう",
+          "meaning_vi": "đọc nhiễu / sai của 「予防」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「よそう」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「よぼう」."
+        },
+        {
+          "key": "3",
+          "text_jp": "よかん",
+          "meaning_vi": "đọc nhiễu / sai của 「予防」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「よかん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「よぼう」."
+        },
+        {
+          "key": "4",
+          "text_jp": "よぼう",
+          "meaning_vi": "cách đọc đúng của 「予防」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「予防」(DỰ PHÒNG) trong câu ≈ …; đọc 「よぼう」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q30",
@@ -5998,7 +8882,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "ĐẮC Ý",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「得意」(ĐẮC Ý) ≈ …. Cách đọc đúng: 3. とくい.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -6025,7 +8909,38 @@
           "text": "ではない。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "とうい",
+          "meaning_vi": "đọc nhiễu / sai của 「得意」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「とうい」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「とくい」."
+        },
+        {
+          "key": "2",
+          "text_jp": "どくい",
+          "meaning_vi": "đọc nhiễu / sai của 「得意」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「どくい」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「とくい」."
+        },
+        {
+          "key": "3",
+          "text_jp": "とくい",
+          "meaning_vi": "cách đọc đúng của 「得意」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「得意」(ĐẮC Ý) trong câu ≈ …; đọc 「とくい」."
+        },
+        {
+          "key": "4",
+          "text_jp": "とくえい",
+          "meaning_vi": "đọc nhiễu / sai của 「得意」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「とくえい」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「とくい」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q31",
@@ -6061,7 +8976,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "QUAN TÂM",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「関心」(QUAN TÂM) ≈ …. Cách đọc đúng: 1. かんしん.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -6088,7 +9003,38 @@
           "text": "がないらしい。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "かんしん",
+          "meaning_vi": "cách đọc đúng của 「関心」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「関心」(QUAN TÂM) trong câu ≈ …; đọc 「かんしん」."
+        },
+        {
+          "key": "2",
+          "text_jp": "かんじん",
+          "meaning_vi": "đọc nhiễu / sai của 「関心」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「かんじん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「かんしん」."
+        },
+        {
+          "key": "3",
+          "text_jp": "けいじん",
+          "meaning_vi": "đọc nhiễu / sai của 「関心」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「けいじん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「かんしん」."
+        },
+        {
+          "key": "4",
+          "text_jp": "けいしん",
+          "meaning_vi": "đọc nhiễu / sai của 「関心」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「けいしん」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「かんしん」."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "kanji96-m3-q32",
@@ -6124,7 +9070,7 @@
       "answer_source": "visual_annotation",
       "han_viet": "TRI THỨC",
       "meaning_vi": null,
-      "explanation": null,
+      "explanation": "「知識」(TRI THỨC) ≈ …. Cách đọc đúng: 2. ちしき.",
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
@@ -6158,7 +9104,38 @@
           "text": "する。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ちじょく",
+          "meaning_vi": "đọc nhiễu / sai của 「知識」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちじょく」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ちしき」."
+        },
+        {
+          "key": "2",
+          "text_jp": "ちしき",
+          "meaning_vi": "cách đọc đúng của 「知識」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「知識」(TRI THỨC) trong câu ≈ …; đọc 「ちしき」."
+        },
+        {
+          "key": "3",
+          "text_jp": "じしき",
+          "meaning_vi": "đọc nhiễu / sai của 「知識」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「じしき」 bẫy đọc gần (On/Kun, đục/đặc, âm dài/âm thúc). Đáp án đúng là 「ちしき」."
+        },
+        {
+          "key": "4",
+          "text_jp": "じじょく",
+          "meaning_vi": "đọc nhiễu / sai của 「知識」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「じじょく」 không phải cách đọc của từ này trong ngữ cảnh câu. Đáp án đúng là 「ちしき」."
+        }
+      ],
+      "explanation_source": "linguistic"
     }
   ]
 }

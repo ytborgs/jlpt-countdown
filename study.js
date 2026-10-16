@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '21';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '22';
 
 const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
@@ -96,6 +96,33 @@ export function createStudyCard(item, index, selections = new Map()) {
     options.setAttribute('aria-label', 'Lựa chọn cho câu ' + (index + 1));
     const feedback = el('p', '', 'study-feedback');
     feedback.setAttribute('role', 'status');
+    const detail = el('section', '', 'study-explain');
+    detail.setAttribute('aria-label', 'Chi tiết giải thích đáp án');
+    detail.hidden = true;
+    const showExplanation = selectedKey => {
+      const content = [el('h4', 'Chi tiết')];
+      if (item.explanation) content.push(el('p', item.explanation, 'study-explain-summary'));
+      const rows = Array.isArray(item.choice_analyses) ? [...item.choice_analyses] : [];
+      rows.sort((a, b) => String(a.key).localeCompare(String(b.key), 'en', { numeric: true }));
+      if (rows.length) {
+        const list = el('ul', '', 'study-explain-list');
+        for (const row of rows) {
+          const statusClass = ['correct', 'wrong'].includes(row.status) ? ' study-explain-' + row.status : '';
+          const selected = String(row.key) === selectedKey;
+          const li = el('li', '', 'study-explain-item' + statusClass + (selected ? ' study-explain-selected' : ''));
+          const heading = el('strong');
+          heading.append(el('span', row.key + '. ' + row.text_jp, '', 'ja'));
+          if (row.meaning_vi) heading.append(el('span', ' — ' + row.meaning_vi));
+          li.append(heading);
+          if (selected) li.append(el('small', 'Bạn chọn', 'study-explain-choice'));
+          if (row.reason_vi) li.append(el('p', row.reason_vi));
+          list.append(li);
+        }
+        content.push(list);
+      }
+      detail.replaceChildren(...content);
+      detail.hidden = !item.explanation && !rows.length;
+    };
     const keyed = hasAnswer(item);
     if (!keyed) card.append(el('small', 'Chưa có đáp án · Chọn để tự ôn, không chấm điểm.'));
     for (const choice of item.choices) {
@@ -123,14 +150,15 @@ export function createStudyCard(item, index, selections = new Map()) {
         resultBadge.className = 'study-result ' + (correct ? 'study-result-ok' : 'study-result-bad');
         resultBadge.textContent = correct ? '✓ Đúng' : '✗ Sai';
         resultBadge.hidden = false;
-        feedback.textContent = (correct ? 'Chính xác. ' : 'Chưa đúng. Đáp án: ' + answer.key + '. ' + answer.text_jp + '. ') + [item.meaning_vi, item.explanation].filter(Boolean).join(' · ');
+        feedback.textContent = (correct ? 'Chính xác. ' : 'Chưa đúng. Đáp án: ' + answer.key + '. ' + answer.text_jp + '. ') + (item.meaning_vi || '');
+        showExplanation(String(choice.key));
       });
       options.append(button);
     }
     // Restore only after all options exist so the answer can be highlighted too.
     const selectedButton = [...options.children].find(button => button.dataset.key === selections.get(item.id));
     if (selectedButton) selectedButton.click();
-    card.append(options, feedback);
+    card.append(options, feedback, detail);
     if (item.stem_gloss_vi) {
       const hint = el('details', '', 'grammar-details');
       hint.append(el('summary', 'Gợi ý nghĩa tiếng Việt'), el('p', item.stem_gloss_vi));

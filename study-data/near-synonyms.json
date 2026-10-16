@@ -16,7 +16,8 @@
   "notes": [
     "PDF scanned chép từ preview; đáp án từ vòng đỏ trên ảnh.",
     "Furigana: enrich *_ruby linguistic (align reading / pykakasi).",
-    "Phase v6: chỉ giữ đáp án visual_annotation/official; không linguistic."
+    "Phase v6: chỉ giữ đáp án visual_annotation/official; không linguistic.",
+    "Phase v8: choice_analyses + explanation (linguistic). Không đổi correct_answer."
   ],
   "items": [
     {
@@ -71,7 +72,39 @@
           "text": "はとてもきつい。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「きつい」≈ khắc nghiệt. Đáp án gần nghĩa nhất: 1. 大変だ (vất vả / khó).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "大変だ",
+          "meaning_vi": "vất vả / khó",
+          "status": "correct",
+          "reason_vi": "Đúng. 「大変だ」 (vất vả / khó) gần nghĩa với 「きつい」 (khắc nghiệt) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "簡単だ",
+          "meaning_vi": "đơn giản",
+          "status": "wrong",
+          "reason_vi": "Sai. 「簡単だ」 (đơn giản) không thay được 「きつい」 (khắc nghiệt) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "つまらない",
+          "meaning_vi": "nhàm chán",
+          "status": "wrong",
+          "reason_vi": "Sai. 「つまらない」 (nhàm chán) không thay được 「きつい」 (khắc nghiệt) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "おもしろい",
+          "meaning_vi": "thú vị / buồn cười",
+          "status": "wrong",
+          "reason_vi": "Sai. 「おもしろい」 (thú vị / buồn cười) không thay được 「きつい」 (khắc nghiệt) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p1-q27",
@@ -118,7 +151,39 @@
           "text": "とてもくたびれた。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「くたびれた」≈ mệt mỏi, kiệt sức. Đáp án gần nghĩa nhất: 2. つかれた (「つかれた」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "いそがしかった",
+          "meaning_vi": "「いそがしかった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いそがしかった」 (「いそがしかった」) không thay được 「くたびれた」 (mệt mỏi, kiệt sức) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "つかれた",
+          "meaning_vi": "「つかれた」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「つかれた」 (「つかれた」) gần nghĩa với 「くたびれた」 (mệt mỏi, kiệt sức) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "はずかしかった",
+          "meaning_vi": "「はずかしかった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「はずかしかった」 (「はずかしかった」) không thay được 「くたびれた」 (mệt mỏi, kiệt sức) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "こまった",
+          "meaning_vi": "「こまった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「こまった」 (「こまった」) không thay được 「くたびれた」 (mệt mỏi, kiệt sức) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p1-q28",
@@ -179,7 +244,39 @@
           "text": "します。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「明けたら」≈ kết thúc. Đáp án gần nghĩa nhất: 3. おわったら (「おわったら」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "とれたら",
+          "meaning_vi": "「とれたら」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「とれたら」 (「とれたら」) không thay được 「明けたら」 (kết thúc) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "きまったら",
+          "meaning_vi": "「きまったら」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「きまったら」 (「きまったら」) không thay được 「明けたら」 (kết thúc) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "おわったら",
+          "meaning_vi": "「おわったら」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「おわったら」 (「おわったら」) gần nghĩa với 「明けたら」 (kết thúc) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "はじまったら",
+          "meaning_vi": "「はじまったら」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「はじまったら」 (「はじまったら」) không thay được 「明けたら」 (kết thúc) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p1-q29",
@@ -236,7 +333,39 @@
           "text": "している。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「混雑」≈ hỗn tạp, đông đúc. Đáp án gần nghĩa nhất: 3. 客がたくさんいる (nhiều).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "客があまりいない",
+          "meaning_vi": "「客があまりいない」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「客があまりいない」 (「客があまりいない」) không thay được 「混雑」 (hỗn tạp, đông đúc) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "品物があまりない",
+          "meaning_vi": "「品物があまりない」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「品物があまりない」 (「品物があまりない」) không thay được 「混雑」 (hỗn tạp, đông đúc) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "客がたくさんいる",
+          "meaning_vi": "nhiều",
+          "status": "correct",
+          "reason_vi": "Đúng. 「客がたくさんいる」 (nhiều) gần nghĩa với 「混雑」 (hỗn tạp, đông đúc) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "品物がたくさんある",
+          "meaning_vi": "nhiều",
+          "status": "wrong",
+          "reason_vi": "Sai. 「品物がたくさんある」 (nhiều) không thay được 「混雑」 (hỗn tạp, đông đúc) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p1-q30",
@@ -286,7 +415,39 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「単純」≈ đơn thuần, đơn giản. Đáp án gần nghĩa nhất: 2. わかりやすい (「わかりやすい」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "よく知られている",
+          "meaning_vi": "「よく知られている」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「よく知られている」 (「よく知られている」) không thay được 「単純」 (đơn thuần, đơn giản) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "わかりやすい",
+          "meaning_vi": "「わかりやすい」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「わかりやすい」 (「わかりやすい」) gần nghĩa với 「単純」 (đơn thuần, đơn giản) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "あまり知られていない",
+          "meaning_vi": "「あまり知られていない」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あまり知られていない」 (「あまり知られていない」) không thay được 「単純」 (đơn thuần, đơn giản) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "わかりにくい",
+          "meaning_vi": "「わかりにくい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「わかりにくい」 (「わかりにくい」) không thay được 「単純」 (đơn thuần, đơn giản) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p2-q26",
@@ -354,7 +515,39 @@
           "text": "た。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「感謝」≈ cảm tạ, biết ơn. Đáp án gần nghĩa nhất: 2. お礼 (「お礼」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "お願い",
+          "meaning_vi": "「お願い」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「お願い」 (「お願い」) không thay được 「感謝」 (cảm tạ, biết ơn) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "お礼",
+          "meaning_vi": "「お礼」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「お礼」 (「お礼」) gần nghĩa với 「感謝」 (cảm tạ, biết ơn) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "お見舞い",
+          "meaning_vi": "「お見舞い」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「お見舞い」 (「お見舞い」) không thay được 「感謝」 (cảm tạ, biết ơn) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "お知らせ",
+          "meaning_vi": "「お知らせ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「お知らせ」 (「お知らせ」) không thay được 「感謝」 (cảm tạ, biết ơn) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p2-q27",
@@ -401,7 +594,39 @@
           "text": "たちはキッチンにいます。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「キッチン」≈ bếp. Đáp án gần nghĩa nhất: 4. 台所 (「台所」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "廊下",
+          "meaning_vi": "「廊下」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「廊下」 (「廊下」) không thay được 「キッチン」 (bếp) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "居間",
+          "meaning_vi": "「居間」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「居間」 (「居間」) không thay được 「キッチン」 (bếp) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "玄関",
+          "meaning_vi": "「玄関」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「玄関」 (「玄関」) không thay được 「キッチン」 (bếp) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "台所",
+          "meaning_vi": "「台所」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「台所」 (「台所」) gần nghĩa với 「キッチン」 (bếp) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p2-q28",
@@ -462,7 +687,39 @@
           "text": "ないことにした。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「不安」≈ bất an. Đáp án gần nghĩa nhất: 4. 心配な (「心配な」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "時間がない",
+          "meaning_vi": "「時間がない」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「時間がない」 (「時間がない」) không thay được 「不安」 (bất an) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "お金がない",
+          "meaning_vi": "「お金がない」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「お金がない」 (「お金がない」) không thay được 「不安」 (bất an) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "危険な",
+          "meaning_vi": "「危険な」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「危険な」 (「危険な」) không thay được 「不安」 (bất an) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "心配な",
+          "meaning_vi": "「心配な」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「心配な」 (「心配な」) gần nghĩa với 「不安」 (bất an) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p2-q29",
@@ -500,7 +757,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ぺこぺこ」≈ đói meo. Đáp án gần nghĩa nhất: 2. すいている (「すいている」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "痛い",
+          "meaning_vi": "「痛い」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「痛い」 (「痛い」) không thay được 「ぺこぺこ」 (đói meo) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "すいている",
+          "meaning_vi": "「すいている」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「すいている」 (「すいている」) gần nghĩa với 「ぺこぺこ」 (đói meo) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "かゆい",
+          "meaning_vi": "「かゆい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「かゆい」 (「かゆい」) không thay được 「ぺこぺこ」 (đói meo) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "いっぱいだ",
+          "meaning_vi": "「いっぱいだ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いっぱいだ」 (「いっぱいだ」) không thay được 「ぺこぺこ」 (đói meo) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p2-q30",
@@ -568,7 +857,39 @@
           "text": "いる。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「黙って」≈ im lặng. Đáp án gần nghĩa nhất: 1. 何も話さないで (「何も話さないで」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "何も話さないで",
+          "meaning_vi": "「何も話さないで」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「何も話さないで」 (「何も話さないで」) gần nghĩa với 「黙って」 (im lặng) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "何も食べないで",
+          "meaning_vi": "「何も食べないで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「何も食べないで」 (「何も食べないで」) không thay được 「黙って」 (im lặng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "勉強しないで",
+          "meaning_vi": "「勉強しないで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「勉強しないで」 (「勉強しないで」) không thay được 「黙って」 (im lặng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "寝ないで",
+          "meaning_vi": "「寝ないで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「寝ないで」 (「寝ないで」) không thay được 「黙って」 (im lặng) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p3-q26",
@@ -622,7 +943,39 @@
           "text": "してもらいました。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「指導」≈ chỉ đạo, hướng dẫn. Đáp án gần nghĩa nhất: 1. 教えて (「教えて」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "教えて",
+          "meaning_vi": "「教えて」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「教えて」 (「教えて」) gần nghĩa với 「指導」 (chỉ đạo, hướng dẫn) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "探して",
+          "meaning_vi": "「探して」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「探して」 (「探して」) không thay được 「指導」 (chỉ đạo, hướng dẫn) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "調べて",
+          "meaning_vi": "「調べて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「調べて」 (「調べて」) không thay được 「指導」 (chỉ đạo, hướng dẫn) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "決めて",
+          "meaning_vi": "「決めて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「決めて」 (「決めて」) không thay được 「指導」 (chỉ đạo, hướng dẫn) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p3-q27",
@@ -660,7 +1013,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「トレーニング」≈ rèn luyện. Đáp án gần nghĩa nhất: 4. 練習 (「練習」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "準備",
+          "meaning_vi": "「準備」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「準備」 (「準備」) không thay được 「トレーニング」 (rèn luyện) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "競争",
+          "meaning_vi": "「競争」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「競争」 (「競争」) không thay được 「トレーニング」 (rèn luyện) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "質問",
+          "meaning_vi": "「質問」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「質問」 (「質問」) không thay được 「トレーニング」 (rèn luyện) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "練習",
+          "meaning_vi": "「練習」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「練習」 (「練習」) gần nghĩa với 「トレーニング」 (rèn luyện) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p3-q28",
@@ -717,7 +1102,39 @@
           "text": "てみた。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「手段」≈ cách thức. Đáp án gần nghĩa nhất: 3. やり方 (「やり方」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "連絡",
+          "meaning_vi": "「連絡」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「連絡」 (「連絡」) không thay được 「手段」 (cách thức) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "楽しみ",
+          "meaning_vi": "「楽しみ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「楽しみ」 (「楽しみ」) không thay được 「手段」 (cách thức) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "やり方",
+          "meaning_vi": "「やり方」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「やり方」 (「やり方」) gần nghĩa với 「手段」 (cách thức) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "理由",
+          "meaning_vi": "「理由」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「理由」 (「理由」) không thay được 「手段」 (cách thức) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p3-q29",
@@ -767,7 +1184,39 @@
           "text": "がぺらぺらです。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ぺらぺら」≈ lưu loát, trôi chảy. Đáp án gần nghĩa nhất: 4. 上手に話せます (「上手に話せます」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "あまり書けません",
+          "meaning_vi": "「あまり書けません」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あまり書けません」 (「あまり書けません」) không thay được 「ぺらぺら」 (lưu loát, trôi chảy) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "上手に書けます",
+          "meaning_vi": "「上手に書けます」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「上手に書けます」 (「上手に書けます」) không thay được 「ぺらぺら」 (lưu loát, trôi chảy) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "あまり話せません",
+          "meaning_vi": "「あまり話せません」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あまり話せません」 (「あまり話せません」) không thay được 「ぺらぺら」 (lưu loát, trôi chảy) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "上手に話せます",
+          "meaning_vi": "「上手に話せます」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「上手に話せます」 (「上手に話せます」) gần nghĩa với 「ぺらぺら」 (lưu loát, trôi chảy) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p3-q30",
@@ -824,7 +1273,39 @@
           "text": "になった。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ようやく」≈ cuối cùng thì. Đáp án gần nghĩa nhất: 2. やっと (「やっと」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "とても",
+          "meaning_vi": "「とても」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「とても」 (「とても」) không thay được 「ようやく」 (cuối cùng thì) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "やっと",
+          "meaning_vi": "「やっと」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「やっと」 (「やっと」) gần nghĩa với 「ようやく」 (cuối cùng thì) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "なぜか",
+          "meaning_vi": "「なぜか」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「なぜか」 (「なぜか」) không thay được 「ようやく」 (cuối cùng thì) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "やっぱり",
+          "meaning_vi": "quả nhiên",
+          "status": "wrong",
+          "reason_vi": "Sai. 「やっぱり」 (quả nhiên) không thay được 「ようやく」 (cuối cùng thì) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p4-q26",
@@ -878,7 +1359,39 @@
           "text": "してください。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「協力」≈ chung sức, hợp tác. Đáp án gần nghĩa nhất: 3. 手伝って (「手伝って」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "急いで",
+          "meaning_vi": "vội",
+          "status": "wrong",
+          "reason_vi": "Sai. 「急いで」 (vội) không thay được 「協力」 (chung sức, hợp tác) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "決めて",
+          "meaning_vi": "「決めて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「決めて」 (「決めて」) không thay được 「協力」 (chung sức, hợp tác) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "手伝って",
+          "meaning_vi": "「手伝って」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「手伝って」 (「手伝って」) gần nghĩa với 「協力」 (chung sức, hợp tác) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "がんばって",
+          "meaning_vi": "「がんばって」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「がんばって」 (「がんばって」) không thay được 「協力」 (chung sức, hợp tác) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p4-q27",
@@ -935,7 +1448,39 @@
           "text": "てください。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「スケジュール」≈ lịch trình, kế hoạch. Đáp án gần nghĩa nhất: 4. 予定 (「予定」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "規則",
+          "meaning_vi": "「規則」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「規則」 (「規則」) không thay được 「スケジュール」 (lịch trình, kế hoạch) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "やり方",
+          "meaning_vi": "「やり方」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「やり方」 (「やり方」) không thay được 「スケジュール」 (lịch trình, kế hoạch) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "結果",
+          "meaning_vi": "「結果」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「結果」 (「結果」) không thay được 「スケジュール」 (lịch trình, kế hoạch) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "予定",
+          "meaning_vi": "「予定」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「予定」 (「予定」) gần nghĩa với 「スケジュール」 (lịch trình, kế hoạch) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p4-q28",
@@ -996,7 +1541,39 @@
           "text": "でした。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「約」≈ khoảng. Đáp án gần nghĩa nhất: 1. だいたい１万円 (「だいたい１万円」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "だいたい１万円",
+          "meaning_vi": "「だいたい１万円」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「だいたい１万円」 (「だいたい１万円」) gần nghĩa với 「約」 (khoảng) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "ちょうど１万円",
+          "meaning_vi": "「ちょうど１万円」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちょうど１万円」 (「ちょうど１万円」) không thay được 「約」 (khoảng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "１万円以上",
+          "meaning_vi": "「１万円以上」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「１万円以上」 (「１万円以上」) không thay được 「約」 (khoảng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "１万円以下",
+          "meaning_vi": "「１万円以下」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「１万円以下」 (「１万円以下」) không thay được 「約」 (khoảng) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p4-q29",
@@ -1043,7 +1620,39 @@
           "text": "さんにどなられた。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「どなられた」≈ gào lên, tru tréo. Đáp án gần nghĩa nhất: 1. 大声で怒られた (「大声で怒られた」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "大声で怒られた",
+          "meaning_vi": "「大声で怒られた」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「大声で怒られた」 (「大声で怒られた」) gần nghĩa với 「どなられた」 (gào lên, tru tréo) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "小声で怒られた",
+          "meaning_vi": "「小声で怒られた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「小声で怒られた」 (「小声で怒られた」) không thay được 「どなられた」 (gào lên, tru tréo) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "大声で笑われた",
+          "meaning_vi": "「大声で笑われた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「大声で笑われた」 (「大声で笑われた」) không thay được 「どなられた」 (gào lên, tru tréo) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "小声で笑われた",
+          "meaning_vi": "「小声で笑われた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「小声で笑われた」 (「小声で笑われた」) không thay được 「どなられた」 (gào lên, tru tréo) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p4-q30",
@@ -1111,7 +1720,39 @@
           "text": "た。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「あらゆる」≈ tất cả. Đáp án gần nghĩa nhất: 2. 全部の (「全部の」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "一つの",
+          "meaning_vi": "「一つの」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「一つの」 (「一つの」) không thay được 「あらゆる」 (tất cả) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "全部の",
+          "meaning_vi": "「全部の」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「全部の」 (「全部の」) gần nghĩa với 「あらゆる」 (tất cả) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "難しい",
+          "meaning_vi": "「難しい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「難しい」 (「難しい」) không thay được 「あらゆる」 (tất cả) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "簡単な",
+          "meaning_vi": "đơn giản",
+          "status": "wrong",
+          "reason_vi": "Sai. 「簡単な」 (đơn giản) không thay được 「あらゆる」 (tất cả) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p5-q26",
@@ -1179,7 +1820,39 @@
           "text": "すか。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「得意な」≈ giỏi, thế mạnh. Đáp án gần nghĩa nhất: 4. 上手にできる (「上手にできる」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "つくってみたい",
+          "meaning_vi": "「つくってみたい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「つくってみたい」 (「つくってみたい」) không thay được 「得意な」 (giỏi, thế mạnh) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "食べたい",
+          "meaning_vi": "「食べたい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「食べたい」 (「食べたい」) không thay được 「得意な」 (giỏi, thế mạnh) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "一番好きな",
+          "meaning_vi": "「一番好きな」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「一番好きな」 (「一番好きな」) không thay được 「得意な」 (giỏi, thế mạnh) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "上手にできる",
+          "meaning_vi": "「上手にできる」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「上手にできる」 (「上手にできる」) gần nghĩa với 「得意な」 (giỏi, thế mạnh) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p5-q27",
@@ -1236,7 +1909,39 @@
           "text": "です。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「短気」≈ nóng tính. Đáp án gần nghĩa nhất: 2. すぐ怒ります (「すぐ怒ります」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "すぐ忘れます",
+          "meaning_vi": "「すぐ忘れます」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「すぐ忘れます」 (「すぐ忘れます」) không thay được 「短気」 (nóng tính) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "すぐ怒ります",
+          "meaning_vi": "「すぐ怒ります」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「すぐ怒ります」 (「すぐ怒ります」) gần nghĩa với 「短気」 (nóng tính) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "すぐ泣きます",
+          "meaning_vi": "「すぐ泣きます」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「すぐ泣きます」 (「すぐ泣きます」) không thay được 「短気」 (nóng tính) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "すぐ心配します",
+          "meaning_vi": "「すぐ心配します」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「すぐ心配します」 (「すぐ心配します」) không thay được 「短気」 (nóng tính) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p5-q28",
@@ -1297,7 +2002,39 @@
           "text": "ているようだ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「疑っている」≈ nghi ngờ. Đáp án gần nghĩa nhất: 1. 本当ではないと思っている (「本当ではないと思っている」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "本当ではないと思っている",
+          "meaning_vi": "「本当ではないと思っている」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「本当ではないと思っている」 (「本当ではないと思っている」) gần nghĩa với 「疑っている」 (nghi ngờ) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "本当だと思っている",
+          "meaning_vi": "「本当だと思っている」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「本当だと思っている」 (「本当だと思っている」) không thay được 「疑っている」 (nghi ngờ) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "よく知らない",
+          "meaning_vi": "「よく知らない」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「よく知らない」 (「よく知らない」) không thay được 「疑っている」 (nghi ngờ) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "よく知っている",
+          "meaning_vi": "「よく知っている」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「よく知っている」 (「よく知っている」) không thay được 「疑っている」 (nghi ngờ) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p5-q29",
@@ -1344,7 +2081,39 @@
           "text": "があれば、やってみたいです。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「機会」≈ cơ hội. Đáp án gần nghĩa nhất: 3. チャンス (「チャンス」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "サービス",
+          "meaning_vi": "「サービス」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「サービス」 (「サービス」) không thay được 「機会」 (cơ hội) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "アルバイト",
+          "meaning_vi": "「アルバイト」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「アルバイト」 (「アルバイト」) không thay được 「機会」 (cơ hội) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "チャンス",
+          "meaning_vi": "「チャンス」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「チャンス」 (「チャンス」) gần nghĩa với 「機会」 (cơ hội) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "アイディア",
+          "meaning_vi": "「アイディア」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「アイディア」 (「アイディア」) không thay được 「機会」 (cơ hội) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p5-q30",
@@ -1398,7 +2167,39 @@
           "text": "らしいよ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「あいかわらず」≈ không thay đổi, vẫn thế. Đáp án gần nghĩa nhất: 1. 前と同じで (「前と同じで」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "前と同じで",
+          "meaning_vi": "「前と同じで」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「前と同じで」 (「前と同じで」) gần nghĩa với 「あいかわらず」 (không thay đổi, vẫn thế) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "前と違って",
+          "meaning_vi": "「前と違って」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「前と違って」 (「前と違って」) không thay được 「あいかわらず」 (không thay đổi, vẫn thế) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "わたしと同じで",
+          "meaning_vi": "「わたしと同じで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「わたしと同じで」 (「わたしと同じで」) không thay được 「あいかわらず」 (không thay đổi, vẫn thế) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "わたしと違って",
+          "meaning_vi": "「わたしと違って」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「わたしと違って」 (「わたしと違って」) không thay được 「あいかわらず」 (không thay đổi, vẫn thế) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p6-q26",
@@ -1448,7 +2249,39 @@
           "text": "はきついです。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「きつい」≈ khắc nghiệt, khó khăn. Đáp án gần nghĩa nhất: 4. 大変 (「大変」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "簡単",
+          "meaning_vi": "「簡単」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「簡単」 (「簡単」) không thay được 「きつい」 (khắc nghiệt, khó khăn) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "つまらない",
+          "meaning_vi": "nhàm chán",
+          "status": "wrong",
+          "reason_vi": "Sai. 「つまらない」 (nhàm chán) không thay được 「きつい」 (khắc nghiệt, khó khăn) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "楽しい",
+          "meaning_vi": "「楽しい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「楽しい」 (「楽しい」) không thay được 「きつい」 (khắc nghiệt, khó khăn) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "大変",
+          "meaning_vi": "「大変」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「大変」 (「大変」) gần nghĩa với 「きつい」 (khắc nghiệt, khó khăn) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p6-q27",
@@ -1498,7 +2331,39 @@
           "text": "ですね。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「案」≈ …. Đáp án gần nghĩa nhất: 3. アイディア (「アイディア」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "チャンス",
+          "meaning_vi": "「チャンス」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「チャンス」 (「チャンス」) không thay được 「案」 (…) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "サービス",
+          "meaning_vi": "「サービス」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「サービス」 (「サービス」) không thay được 「案」 (…) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "アイディア",
+          "meaning_vi": "「アイディア」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「アイディア」 (「アイディア」) gần nghĩa với 「案」 (…) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "ニュース",
+          "meaning_vi": "「ニュース」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ニュース」 (「ニュース」) không thay được 「案」 (…) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p6-q28",
@@ -1552,7 +2417,39 @@
           "text": "にくたびれた。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「くたびれた」≈ mệt mỏi, kiệt sức. Đáp án gần nghĩa nhất: 1. 疲れた (「疲れた」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "疲れた",
+          "meaning_vi": "「疲れた」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「疲れた」 (「疲れた」) gần nghĩa với 「くたびれた」 (mệt mỏi, kiệt sức) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "困った",
+          "meaning_vi": "「困った」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「困った」 (「困った」) không thay được 「くたびれた」 (mệt mỏi, kiệt sức) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "眠かった",
+          "meaning_vi": "「眠かった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「眠かった」 (「眠かった」) không thay được 「くたびれた」 (mệt mỏi, kiệt sức) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "恥ずかしかった",
+          "meaning_vi": "「恥ずかしかった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「恥ずかしかった」 (「恥ずかしかった」) không thay được 「くたびれた」 (mệt mỏi, kiệt sức) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p6-q29",
@@ -1613,7 +2510,39 @@
           "text": "１０キロでした。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「約」≈ khoảng. Đáp án gần nghĩa nhất: 4. だいたい１０キロ (「だいたい１０キロ」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "１０キロ以上",
+          "meaning_vi": "「１０キロ以上」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「１０キロ以上」 (「１０キロ以上」) không thay được 「約」 (khoảng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "１０キロ以下",
+          "meaning_vi": "「１０キロ以下」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「１０キロ以下」 (「１０キロ以下」) không thay được 「約」 (khoảng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "ちょうど１０キロ",
+          "meaning_vi": "「ちょうど１０キロ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ちょうど１０キロ」 (「ちょうど１０キロ」) không thay được 「約」 (khoảng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "だいたい１０キロ",
+          "meaning_vi": "「だいたい１０キロ」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「だいたい１０キロ」 (「だいたい１０キロ」) gần nghĩa với 「約」 (khoảng) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p6-q30",
@@ -1681,7 +2610,39 @@
           "text": "しています。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「指導」≈ chỉ đạo, hướng dẫn. Đáp án gần nghĩa nhất: 3. 教えています (「教えています」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "考えています",
+          "meaning_vi": "「考えています」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「考えています」 (「考えています」) không thay được 「指導」 (chỉ đạo, hướng dẫn) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "習っています",
+          "meaning_vi": "「習っています」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「習っています」 (「習っています」) không thay được 「指導」 (chỉ đạo, hướng dẫn) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "教えています",
+          "meaning_vi": "「教えています」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「教えています」 (「教えています」) gần nghĩa với 「指導」 (chỉ đạo, hướng dẫn) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "調べています",
+          "meaning_vi": "「調べています」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「調べています」 (「調べています」) không thay được 「指導」 (chỉ đạo, hướng dẫn) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p7-q26",
@@ -1742,7 +2703,39 @@
           "text": "ていいですね。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「キッチン」≈ bếp. Đáp án gần nghĩa nhất: 2. 台所 (「台所」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "玄関",
+          "meaning_vi": "「玄関」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「玄関」 (「玄関」) không thay được 「キッチン」 (bếp) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "台所",
+          "meaning_vi": "「台所」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「台所」 (「台所」) gần nghĩa với 「キッチン」 (bếp) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "部屋",
+          "meaning_vi": "「部屋」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「部屋」 (「部屋」) không thay được 「キッチン」 (bếp) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "廊下",
+          "meaning_vi": "「廊下」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「廊下」 (「廊下」) không thay được 「キッチン」 (bếp) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p7-q27",
@@ -1803,7 +2796,39 @@
           "text": "ておいてください。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「位置」≈ vị trí. Đáp án gần nghĩa nhất: 2. 場所 (「場所」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "値段",
+          "meaning_vi": "「値段」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「値段」 (「値段」) không thay được 「位置」 (vị trí) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "場所",
+          "meaning_vi": "「場所」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「場所」 (「場所」) gần nghĩa với 「位置」 (vị trí) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "数",
+          "meaning_vi": "「数」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「数」 (「数」) không thay được 「位置」 (vị trí) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "色",
+          "meaning_vi": "「色」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「色」 (「色」) không thay được 「位置」 (vị trí) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p7-q28",
@@ -1860,7 +2885,39 @@
           "text": "た。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「売り切れた」≈ hết hàng. Đáp án gần nghĩa nhất: 1. 全部売れた (「全部売れた」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "全部売れた",
+          "meaning_vi": "「全部売れた」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「全部売れた」 (「全部売れた」) gần nghĩa với 「売り切れた」 (hết hàng) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "全部売れなかった",
+          "meaning_vi": "「全部売れなかった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「全部売れなかった」 (「全部売れなかった」) không thay được 「売り切れた」 (hết hàng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "だんだん売れなくなってきた",
+          "meaning_vi": "「だんだん売れなくなってきた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「だんだん売れなくなってきた」 (「だんだん売れなくなってきた」) không thay được 「売り切れた」 (hết hàng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "よく売れるようになってきた",
+          "meaning_vi": "「よく売れるようになってきた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「よく売れるようになってきた」 (「よく売れるようになってきた」) không thay được 「売り切れた」 (hết hàng) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p7-q29",
@@ -1914,7 +2971,39 @@
           "text": "てください。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「わけ」≈ lý do. Đáp án gần nghĩa nhất: 4. 理由 (「理由」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "計画",
+          "meaning_vi": "「計画」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「計画」 (「計画」) không thay được 「わけ」 (lý do) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "意見",
+          "meaning_vi": "「意見」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「意見」 (「意見」) không thay được 「わけ」 (lý do) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "規則",
+          "meaning_vi": "「規則」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「規則」 (「規則」) không thay được 「わけ」 (lý do) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "理由",
+          "meaning_vi": "「理由」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「理由」 (「理由」) gần nghĩa với 「わけ」 (lý do) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p7-q30",
@@ -1968,7 +3057,39 @@
           "text": "します。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「回収」≈ thu hồi. Đáp án gần nghĩa nhất: 3. 集める (「集める」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "渡す",
+          "meaning_vi": "「渡す」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「渡す」 (「渡す」) không thay được 「回収」 (thu hồi) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "贈る",
+          "meaning_vi": "「贈る」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「贈る」 (「贈る」) không thay được 「回収」 (thu hồi) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "集める",
+          "meaning_vi": "「集める」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「集める」 (「集める」) gần nghĩa với 「回収」 (thu hồi) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "始める",
+          "meaning_vi": "「始める」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「始める」 (「始める」) không thay được 「回収」 (thu hồi) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p8-q26",
@@ -2026,7 +3147,39 @@
           "text": "はあきらめなかった。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「あきらめなかった」≈ từ bỏ, đầu hàng. Đáp án gần nghĩa nhất: 2. やめようとしなかった (「やめようとしなかった」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "気にしなかった",
+          "meaning_vi": "「気にしなかった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「気にしなかった」 (「気にしなかった」) không thay được 「あきらめなかった」 (từ bỏ, đầu hàng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "やめようとしなかった",
+          "meaning_vi": "「やめようとしなかった」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「やめようとしなかった」 (「やめようとしなかった」) gần nghĩa với 「あきらめなかった」 (từ bỏ, đầu hàng) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "怒らなかった",
+          "meaning_vi": "「怒らなかった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「怒らなかった」 (「怒らなかった」) không thay được 「あきらめなかった」 (từ bỏ, đầu hàng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "謝ろうとしなかった",
+          "meaning_vi": "「謝ろうとしなかった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「謝ろうとしなかった」 (「謝ろうとしなかった」) không thay được 「あきらめなかった」 (từ bỏ, đầu hàng) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p8-q27",
@@ -2076,7 +3229,39 @@
           "text": "、セールをしている。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「年中」≈ suốt cả năm, luôn luôn. Đáp án gần nghĩa nhất: 3. いつも (luôn / thường xuyên).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "最近",
+          "meaning_vi": "gần đây",
+          "status": "wrong",
+          "reason_vi": "Sai. 「最近」 (gần đây) không thay được 「年中」 (suốt cả năm, luôn luôn) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "ときどき",
+          "meaning_vi": "thỉnh thoảng",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ときどき」 (thỉnh thoảng) không thay được 「年中」 (suốt cả năm, luôn luôn) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "いつも",
+          "meaning_vi": "luôn / thường xuyên",
+          "status": "correct",
+          "reason_vi": "Đúng. 「いつも」 (luôn / thường xuyên) gần nghĩa với 「年中」 (suốt cả năm, luôn luôn) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "前から",
+          "meaning_vi": "「前から」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「前から」 (「前から」) không thay được 「年中」 (suốt cả năm, luôn luôn) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p8-q28",
@@ -2130,7 +3315,39 @@
           "text": "にボールをうばわれてしまった。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「うばわれて」≈ bị cướp. Đáp án gần nghĩa nhất: 4. 取られて (「取られて」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "入れられて",
+          "meaning_vi": "「入れられて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「入れられて」 (「入れられて」) không thay được 「うばわれて」 (bị cướp) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "止められて",
+          "meaning_vi": "「止められて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「止められて」 (「止められて」) không thay được 「うばわれて」 (bị cướp) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "打たれて",
+          "meaning_vi": "「打たれて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「打たれて」 (「打たれて」) không thay được 「うばわれて」 (bị cướp) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "取られて",
+          "meaning_vi": "「取られて」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「取られて」 (「取られて」) gần nghĩa với 「うばわれて」 (bị cướp) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p8-q29",
@@ -2198,7 +3415,39 @@
           "text": "てください。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「そっと」≈ lặng lẽ, yên ắng. Đáp án gần nghĩa nhất: 3. 静かに (「静かに」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "後ろから",
+          "meaning_vi": "「後ろから」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「後ろから」 (「後ろから」) không thay được 「そっと」 (lặng lẽ, yên ắng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "急いで",
+          "meaning_vi": "vội",
+          "status": "wrong",
+          "reason_vi": "Sai. 「急いで」 (vội) không thay được 「そっと」 (lặng lẽ, yên ắng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "静かに",
+          "meaning_vi": "「静かに」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「静かに」 (「静かに」) gần nghĩa với 「そっと」 (lặng lẽ, yên ắng) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "一人ずつ",
+          "meaning_vi": "「一人ずつ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「一人ずつ」 (「一人ずつ」) không thay được 「そっと」 (lặng lẽ, yên ắng) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p8-q30",
@@ -2255,7 +3504,39 @@
           "text": "ない。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「まぶしくて」≈ chói. Đáp án gần nghĩa nhất: 1. 明るすぎて (「明るすぎて」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "明るすぎて",
+          "meaning_vi": "「明るすぎて」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「明るすぎて」 (「明るすぎて」) gần nghĩa với 「まぶしくて」 (chói) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "遠すぎて",
+          "meaning_vi": "「遠すぎて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「遠すぎて」 (「遠すぎて」) không thay được 「まぶしくて」 (chói) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "薄すぎて",
+          "meaning_vi": "「薄すぎて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「薄すぎて」 (「薄すぎて」) không thay được 「まぶしくて」 (chói) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "小さすぎて",
+          "meaning_vi": "「小さすぎて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「小さすぎて」 (「小さすぎて」) không thay được 「まぶしくて」 (chói) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p9-q26",
@@ -2312,7 +3593,39 @@
           "text": "なんです。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「欠点」≈ khuyết điểm. Đáp án gần nghĩa nhất: 4. わるいところ (「わるいところ」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "すきなところ",
+          "meaning_vi": "「すきなところ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「すきなところ」 (「すきなところ」) không thay được 「欠点」 (khuyết điểm) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "いいところ",
+          "meaning_vi": "「いいところ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いいところ」 (「いいところ」) không thay được 「欠点」 (khuyết điểm) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "きらいなところ",
+          "meaning_vi": "「きらいなところ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「きらいなところ」 (「きらいなところ」) không thay được 「欠点」 (khuyết điểm) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "わるいところ",
+          "meaning_vi": "「わるいところ」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「わるいところ」 (「わるいところ」) gần nghĩa với 「欠点」 (khuyết điểm) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p9-q27",
@@ -2380,7 +3693,39 @@
           "text": "です。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「翌年」≈ năm sau. Đáp án gần nghĩa nhất: 4. 次の年 (「次の年」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "前の前の年",
+          "meaning_vi": "「前の前の年」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「前の前の年」 (「前の前の年」) không thay được 「翌年」 (năm sau) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "次の次の年",
+          "meaning_vi": "「次の次の年」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「次の次の年」 (「次の次の年」) không thay được 「翌年」 (năm sau) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "前の年",
+          "meaning_vi": "「前の年」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「前の年」 (「前の年」) không thay được 「翌年」 (năm sau) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "次の年",
+          "meaning_vi": "「次の年」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「次の年」 (「次の年」) gần nghĩa với 「翌年」 (năm sau) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p9-q28",
@@ -2441,7 +3786,39 @@
           "text": "があった。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「スケジュール」≈ lịch trình, kế hoạch. Đáp án gần nghĩa nhất: 2. 予定 (「予定」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "準備",
+          "meaning_vi": "「準備」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「準備」 (「準備」) không thay được 「スケジュール」 (lịch trình, kế hoạch) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "予定",
+          "meaning_vi": "「予定」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「予定」 (「予定」) gần nghĩa với 「スケジュール」 (lịch trình, kế hoạch) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "場所",
+          "meaning_vi": "「場所」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「場所」 (「場所」) không thay được 「スケジュール」 (lịch trình, kế hoạch) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "資料",
+          "meaning_vi": "「資料」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「資料」 (「資料」) không thay được 「スケジュール」 (lịch trình, kế hoạch) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p9-q29",
@@ -2502,7 +3879,39 @@
           "text": "だ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「らくな」≈ dễ dàng. Đáp án gần nghĩa nhất: 3. かんたんな (「かんたんな」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "だいじな",
+          "meaning_vi": "「だいじな」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「だいじな」 (「だいじな」) không thay được 「らくな」 (dễ dàng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "こまかい",
+          "meaning_vi": "「こまかい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「こまかい」 (「こまかい」) không thay được 「らくな」 (dễ dàng) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "かんたんな",
+          "meaning_vi": "「かんたんな」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「かんたんな」 (「かんたんな」) gần nghĩa với 「らくな」 (dễ dàng) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "あたらしい",
+          "meaning_vi": "「あたらしい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あたらしい」 (「あたらしい」) không thay được 「らくな」 (dễ dàng) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p9-q30",
@@ -2556,7 +3965,39 @@
           "text": "がありましたよ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「さっき」≈ ban nãy. Đáp án gần nghĩa nhất: 2. 少し前に (「少し前に」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ずっと前に",
+          "meaning_vi": "từ lâu rồi",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ずっと前に」 (từ lâu rồi) không thay được 「さっき」 (ban nãy) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "少し前に",
+          "meaning_vi": "「少し前に」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「少し前に」 (「少し前に」) gần nghĩa với 「さっき」 (ban nãy) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "何回か",
+          "meaning_vi": "「何回か」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「何回か」 (「何回か」) không thay được 「さっき」 (ban nãy) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "何回も",
+          "meaning_vi": "「何回も」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「何回も」 (「何回も」) không thay được 「さっき」 (ban nãy) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p10-q26",
@@ -2617,7 +4058,39 @@
           "text": "した。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「団体」≈ nhóm, tập thể. Đáp án gần nghĩa nhất: 2. グループで (「グループで」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "一人で",
+          "meaning_vi": "「一人で」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「一人で」 (「一人で」) không thay được 「団体」 (nhóm, tập thể) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "グループで",
+          "meaning_vi": "「グループで」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「グループで」 (「グループで」) gần nghĩa với 「団体」 (nhóm, tập thể) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "歩いて",
+          "meaning_vi": "「歩いて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「歩いて」 (「歩いて」) không thay được 「団体」 (nhóm, tập thể) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "タクシーで",
+          "meaning_vi": "「タクシーで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「タクシーで」 (「タクシーで」) không thay được 「団体」 (nhóm, tập thể) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p10-q27",
@@ -2655,7 +4128,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「しゃべらない」≈ nói chuyện. Đáp án gần nghĩa nhất: 4. 話さないで (「話さないで」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "騒がないで",
+          "meaning_vi": "「騒がないで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「騒がないで」 (「騒がないで」) không thay được 「しゃべらない」 (nói chuyện) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "食べないで",
+          "meaning_vi": "「食べないで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「食べないで」 (「食べないで」) không thay được 「しゃべらない」 (nói chuyện) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "遊ばないで",
+          "meaning_vi": "「遊ばないで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「遊ばないで」 (「遊ばないで」) không thay được 「しゃべらない」 (nói chuyện) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "話さないで",
+          "meaning_vi": "「話さないで」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「話さないで」 (「話さないで」) gần nghĩa với 「しゃべらない」 (nói chuyện) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p10-q28",
@@ -2706,7 +4211,39 @@
           "text": "だった。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「退屈」≈ chán. Đáp án gần nghĩa nhất: 2. つまらなかった (「つまらなかった」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "楽しかった",
+          "meaning_vi": "「楽しかった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「楽しかった」 (「楽しかった」) không thay được 「退屈」 (chán) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "つまらなかった",
+          "meaning_vi": "「つまらなかった」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「つまらなかった」 (「つまらなかった」) gần nghĩa với 「退屈」 (chán) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "忙しかった",
+          "meaning_vi": "「忙しかった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「忙しかった」 (「忙しかった」) không thay được 「退屈」 (chán) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "静かだった",
+          "meaning_vi": "「静かだった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「静かだった」 (「静かだった」) không thay được 「退屈」 (chán) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p10-q29",
@@ -2763,7 +4300,39 @@
           "text": "はおいしい。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「多少」≈ một chút, một ít. Đáp án gần nghĩa nhất: 3. ちょっと (「ちょっと」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "いつも",
+          "meaning_vi": "luôn / thường xuyên",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いつも」 (luôn / thường xuyên) không thay được 「多少」 (một chút, một ít) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "とても",
+          "meaning_vi": "「とても」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「とても」 (「とても」) không thay được 「多少」 (một chút, một ít) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "ちょっと",
+          "meaning_vi": "「ちょっと」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「ちょっと」 (「ちょっと」) gần nghĩa với 「多少」 (một chút, một ít) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "ときどき",
+          "meaning_vi": "thỉnh thoảng",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ときどき」 (thỉnh thoảng) không thay được 「多少」 (một chút, một ít) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p10-q30",
@@ -2817,7 +4386,39 @@
           "text": "てきた。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「駆けて」≈ chạy nhanh. Đáp án gần nghĩa nhất: 1. 走ってきた (「走ってきた」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "走ってきた",
+          "meaning_vi": "「走ってきた」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「走ってきた」 (「走ってきた」) gần nghĩa với 「駆けて」 (chạy nhanh) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "登ってきた",
+          "meaning_vi": "「登ってきた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「登ってきた」 (「登ってきた」) không thay được 「駆けて」 (chạy nhanh) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "入ってきた",
+          "meaning_vi": "「入ってきた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「入ってきた」 (「入ってきた」) không thay được 「駆けて」 (chạy nhanh) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "集まってきた",
+          "meaning_vi": "「集まってきた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「集まってきた」 (「集まってきた」) không thay được 「駆けて」 (chạy nhanh) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p11-q26",
@@ -2871,7 +4472,39 @@
           "text": "ましたよ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「さっき」≈ ban nãy. Đáp án gần nghĩa nhất: 4. 少し前に (「少し前に」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "すぐに",
+          "meaning_vi": "ngay lập tức",
+          "status": "wrong",
+          "reason_vi": "Sai. 「すぐに」 (ngay lập tức) không thay được 「さっき」 (ban nãy) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "ずっと前に",
+          "meaning_vi": "từ lâu rồi",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ずっと前に」 (từ lâu rồi) không thay được 「さっき」 (ban nãy) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "やっと",
+          "meaning_vi": "「やっと」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「やっと」 (「やっと」) không thay được 「さっき」 (ban nãy) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "少し前に",
+          "meaning_vi": "「少し前に」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「少し前に」 (「少し前に」) gần nghĩa với 「さっき」 (ban nãy) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p11-q27",
@@ -2939,7 +4572,39 @@
           "text": "える。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「おかしな」≈ kỳ lạ. Đáp án gần nghĩa nhất: 3. へんな (「へんな」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "いろいろな",
+          "meaning_vi": "「いろいろな」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いろいろな」 (「いろいろな」) không thay được 「おかしな」 (kỳ lạ) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "にぎやかな",
+          "meaning_vi": "nhộn nhịp",
+          "status": "wrong",
+          "reason_vi": "Sai. 「にぎやかな」 (nhộn nhịp) không thay được 「おかしな」 (kỳ lạ) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "へんな",
+          "meaning_vi": "「へんな」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「へんな」 (「へんな」) gần nghĩa với 「おかしな」 (kỳ lạ) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "大きな",
+          "meaning_vi": "「大きな」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「大きな」 (「大きな」) không thay được 「おかしな」 (kỳ lạ) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p11-q28",
@@ -2996,7 +4661,39 @@
           "text": "たちました。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「たちました」≈ trải qua, trôi qua. Đáp án gần nghĩa nhất: 1. 過ぎました (「過ぎました」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "過ぎました",
+          "meaning_vi": "「過ぎました」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「過ぎました」 (「過ぎました」) gần nghĩa với 「たちました」 (trải qua, trôi qua) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "かかりました",
+          "meaning_vi": "「かかりました」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「かかりました」 (「かかりました」) không thay được 「たちました」 (trải qua, trôi qua) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "待ちました",
+          "meaning_vi": "「待ちました」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「待ちました」 (「待ちました」) không thay được 「たちました」 (trải qua, trôi qua) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "続けました",
+          "meaning_vi": "「続けました」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「続けました」 (「続けました」) không thay được 「たちました」 (trải qua, trôi qua) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p11-q29",
@@ -3050,7 +4747,39 @@
           "text": "いきましたよ。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「あわてて」≈ vội vàng, gấp gáp. Đáp án gần nghĩa nhất: 2. 急いだようすで (「急いだようすで」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "困ったようすで",
+          "meaning_vi": "「困ったようすで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「困ったようすで」 (「困ったようすで」) không thay được 「あわてて」 (vội vàng, gấp gáp) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "急いだようすで",
+          "meaning_vi": "「急いだようすで」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「急いだようすで」 (「急いだようすで」) gần nghĩa với 「あわてて」 (vội vàng, gấp gáp) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "疲れたようすで",
+          "meaning_vi": "「疲れたようすで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「疲れたようすで」 (「疲れたようすで」) không thay được 「あわてて」 (vội vàng, gấp gáp) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "怒ったようすで",
+          "meaning_vi": "「怒ったようすで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「怒ったようすで」 (「怒ったようすで」) không thay được 「あわてて」 (vội vàng, gấp gáp) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p11-q30",
@@ -3104,7 +4833,39 @@
           "text": "つけてください。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「カーブして」≈ quanh co, uốn khúc. Đáp án gần nghĩa nhất: 1. 曲がっている (「曲がっている」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "曲がっている",
+          "meaning_vi": "「曲がっている」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「曲がっている」 (「曲がっている」) gần nghĩa với 「カーブして」 (quanh co, uốn khúc) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "坂になっている",
+          "meaning_vi": "「坂になっている」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「坂になっている」 (「坂になっている」) không thay được 「カーブして」 (quanh co, uốn khúc) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "暗くなっている",
+          "meaning_vi": "「暗くなっている」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「暗くなっている」 (「暗くなっている」) không thay được 「カーブして」 (quanh co, uốn khúc) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "狭くなっている",
+          "meaning_vi": "「狭くなっている」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「狭くなっている」 (「狭くなっている」) không thay được 「カーブして」 (quanh co, uốn khúc) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p12-q26",
@@ -3161,7 +4922,39 @@
           "text": "はありますか。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「サイズ」≈ size, kích cỡ. Đáp án gần nghĩa nhất: 1. 大きさ (kích thước / quy mô).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "大きさ",
+          "meaning_vi": "kích thước / quy mô",
+          "status": "correct",
+          "reason_vi": "Đúng. 「大きさ」 (kích thước / quy mô) gần nghĩa với 「サイズ」 (size, kích cỡ) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "値段",
+          "meaning_vi": "「値段」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「値段」 (「値段」) không thay được 「サイズ」 (size, kích cỡ) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "色",
+          "meaning_vi": "「色」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「色」 (「色」) không thay được 「サイズ」 (size, kích cỡ) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "形",
+          "meaning_vi": "「形」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「形」 (「形」) không thay được 「サイズ」 (size, kích cỡ) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p12-q27",
@@ -3211,7 +5004,39 @@
           "text": "しましたか。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「注文」≈ đặt hàng, yêu cầu. Đáp án gần nghĩa nhất: 2. たのみましたか (「たのみましたか」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "作りましたか",
+          "meaning_vi": "「作りましたか」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「作りましたか」 (「作りましたか」) không thay được 「注文」 (đặt hàng, yêu cầu) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "たのみましたか",
+          "meaning_vi": "「たのみましたか」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「たのみましたか」 (「たのみましたか」) gần nghĩa với 「注文」 (đặt hàng, yêu cầu) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "食べましたか",
+          "meaning_vi": "「食べましたか」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「食べましたか」 (「食べましたか」) không thay được 「注文」 (đặt hàng, yêu cầu) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "はこびましたか",
+          "meaning_vi": "「はこびましたか」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「はこびましたか」 (「はこびましたか」) không thay được 「注文」 (đặt hàng, yêu cầu) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p12-q28",
@@ -3261,7 +5086,39 @@
           "text": "たしかめてくれませんか。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「たしかめて」≈ xác nhận. Đáp án gần nghĩa nhất: 4. チェックして (「チェックして」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "コピーして",
+          "meaning_vi": "「コピーして」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「コピーして」 (「コピーして」) không thay được 「たしかめて」 (xác nhận) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "メモして",
+          "meaning_vi": "「メモして」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「メモして」 (「メモして」) không thay được 「たしかめて」 (xác nhận) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "メールして",
+          "meaning_vi": "「メールして」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「メールして」 (「メールして」) không thay được 「たしかめて」 (xác nhận) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "チェックして",
+          "meaning_vi": "「チェックして」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「チェックして」 (「チェックして」) gần nghĩa với 「たしかめて」 (xác nhận) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p12-q29",
@@ -3315,7 +5172,39 @@
           "text": "うですね。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「このごろ」≈ dạo gần đây. Đáp án gần nghĩa nhất: 4. さいきん (「さいきん」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "ずっと",
+          "meaning_vi": "「ずっと」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ずっと」 (「ずっと」) không thay được 「このごろ」 (dạo gần đây) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "いつも",
+          "meaning_vi": "luôn / thường xuyên",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いつも」 (luôn / thường xuyên) không thay được 「このごろ」 (dạo gần đây) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "まだ",
+          "meaning_vi": "「まだ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「まだ」 (「まだ」) không thay được 「このごろ」 (dạo gần đây) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "さいきん",
+          "meaning_vi": "「さいきん」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「さいきん」 (「さいきん」) gần nghĩa với 「このごろ」 (dạo gần đây) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p12-q30",
@@ -3365,7 +5254,39 @@
           "text": "ばかりしゃべっている。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「しゃべっている」≈ tán gẫu, nói chuyện. Đáp án gần nghĩa nhất: 2. 話して (「話して」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "騒いで",
+          "meaning_vi": "「騒いで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「騒いで」 (「騒いで」) không thay được 「しゃべっている」 (tán gẫu, nói chuyện) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "話して",
+          "meaning_vi": "「話して」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「話して」 (「話して」) gần nghĩa với 「しゃべっている」 (tán gẫu, nói chuyện) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "答えて",
+          "meaning_vi": "「答えて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「答えて」 (「答えて」) không thay được 「しゃべっている」 (tán gẫu, nói chuyện) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "遊んで",
+          "meaning_vi": "「遊んで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「遊んで」 (「遊んで」) không thay được 「しゃべっている」 (tán gẫu, nói chuyện) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p13-q26",
@@ -3422,7 +5343,39 @@
           "text": "があります。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「共通点」≈ điểm chung. Đáp án gần nghĩa nhất: 4. 同じところ (「同じところ」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "悪いところ",
+          "meaning_vi": "「悪いところ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「悪いところ」 (「悪いところ」) không thay được 「共通点」 (điểm chung) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "いいところ",
+          "meaning_vi": "「いいところ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いいところ」 (「いいところ」) không thay được 「共通点」 (điểm chung) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "違うところ",
+          "meaning_vi": "「違うところ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「違うところ」 (「違うところ」) không thay được 「共通点」 (điểm chung) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "同じところ",
+          "meaning_vi": "「同じところ」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「同じところ」 (「同じところ」) gần nghĩa với 「共通点」 (điểm chung) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p13-q27",
@@ -3476,7 +5429,39 @@
           "text": "した。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「整理した」≈ sắp xếp, dọn dẹp. Đáp án gần nghĩa nhất: 2. 片付けた (「片付けた」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "数えた",
+          "meaning_vi": "「数えた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「数えた」 (「数えた」) không thay được 「整理した」 (sắp xếp, dọn dẹp) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "片付けた",
+          "meaning_vi": "「片付けた」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「片付けた」 (「片付けた」) gần nghĩa với 「整理した」 (sắp xếp, dọn dẹp) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "運んだ",
+          "meaning_vi": "「運んだ」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「運んだ」 (「運んだ」) không thay được 「整理した」 (sắp xếp, dọn dẹp) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "探した",
+          "meaning_vi": "「探した」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「探した」 (「探した」) không thay được 「整理した」 (sắp xếp, dọn dẹp) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p13-q28",
@@ -3537,7 +5522,39 @@
           "text": "ます。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ぜったいに」≈ nhất định, tuyệt đối. Đáp án gần nghĩa nhất: 3. かならず (「かならず」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "すぐに",
+          "meaning_vi": "ngay lập tức",
+          "status": "wrong",
+          "reason_vi": "Sai. 「すぐに」 (ngay lập tức) không thay được 「ぜったいに」 (nhất định, tuyệt đối) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "たぶん",
+          "meaning_vi": "「たぶん」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「たぶん」 (「たぶん」) không thay được 「ぜったいに」 (nhất định, tuyệt đối) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "かならず",
+          "meaning_vi": "「かならず」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「かならず」 (「かならず」) gần nghĩa với 「ぜったいに」 (nhất định, tuyệt đối) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "あとから",
+          "meaning_vi": "「あとから」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「あとから」 (「あとから」) không thay được 「ぜったいに」 (nhất định, tuyệt đối) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p13-q29",
@@ -3575,7 +5592,39 @@
       "content_source": "visual_transcription",
       "needs_verify": false,
       "ai_extra": null,
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「ないしょに」≈ kín đáo, bí mật. Đáp án gần nghĩa nhất: 1. だれにも話さないで (「だれにも話さないで」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "だれにも話さないで",
+          "meaning_vi": "「だれにも話さないで」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「だれにも話さないで」 (「だれにも話さないで」) gần nghĩa với 「ないしょに」 (kín đáo, bí mật) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "いろいろな人に話して",
+          "meaning_vi": "「いろいろな人に話して」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「いろいろな人に話して」 (「いろいろな人に話して」) không thay được 「ないしょに」 (kín đáo, bí mật) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "早く忘れて",
+          "meaning_vi": "「早く忘れて」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「早く忘れて」 (「早く忘れて」) không thay được 「ないしょに」 (kín đáo, bí mật) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "忘れないで",
+          "meaning_vi": "「忘れないで」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「忘れないで」 (「忘れないで」) không thay được 「ないしょに」 (kín đáo, bí mật) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p13-q30",
@@ -3643,7 +5692,39 @@
           "text": "はこれです。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「気に入っている」≈ yêu thích. Đáp án gần nghĩa nhất: 3. 好きな (「好きな」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "人気がある",
+          "meaning_vi": "「人気がある」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「人気がある」 (「人気がある」) không thay được 「気に入っている」 (yêu thích) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "よく覚えている",
+          "meaning_vi": "「よく覚えている」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「よく覚えている」 (「よく覚えている」) không thay được 「気に入っている」 (yêu thích) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "好きな",
+          "meaning_vi": "「好きな」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「好きな」 (「好きな」) gần nghĩa với 「気に入っている」 (yêu thích) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "楽しい",
+          "meaning_vi": "「楽しい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「楽しい」 (「楽しい」) không thay được 「気に入っている」 (yêu thích) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p14-q26",
@@ -3704,7 +5785,39 @@
           "text": "しています。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「通勤」≈ đi làm. Đáp án gần nghĩa nhất: 1. 仕事に行って (「仕事に行って」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "仕事に行って",
+          "meaning_vi": "「仕事に行って」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「仕事に行って」 (「仕事に行って」) gần nghĩa với 「通勤」 (đi làm) trong câu này."
+        },
+        {
+          "key": "2",
+          "text_jp": "勉強に行って",
+          "meaning_vi": "「勉強に行って」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「勉強に行って」 (「勉強に行って」) không thay được 「通勤」 (đi làm) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "買い物に行って",
+          "meaning_vi": "「買い物に行って」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「買い物に行って」 (「買い物に行って」) không thay được 「通勤」 (đi làm) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "散歩に行って",
+          "meaning_vi": "「散歩に行って」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「散歩に行って」 (「散歩に行って」) không thay được 「通勤」 (đi làm) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p14-q27",
@@ -3754,7 +5867,39 @@
           "text": "をした。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「おそろしい」≈ đáng sợ. Đáp án gần nghĩa nhất: 4. こわい (「こわい」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "たのしい",
+          "meaning_vi": "「たのしい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「たのしい」 (「たのしい」) không thay được 「おそろしい」 (đáng sợ) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "うれしい",
+          "meaning_vi": "vui",
+          "status": "wrong",
+          "reason_vi": "Sai. 「うれしい」 (vui) không thay được 「おそろしい」 (đáng sợ) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "はずかしい",
+          "meaning_vi": "「はずかしい」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「はずかしい」 (「はずかしい」) không thay được 「おそろしい」 (đáng sợ) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "こわい",
+          "meaning_vi": "「こわい」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「こわい」 (「こわい」) gần nghĩa với 「おそろしい」 (đáng sợ) trong câu này."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p14-q28",
@@ -3808,7 +5953,39 @@
           "text": "た。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「わけ」≈ lý do, nguyên nhân. Đáp án gần nghĩa nhất: 3. 理由 (「理由」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "アイディア",
+          "meaning_vi": "「アイディア」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「アイディア」 (「アイディア」) không thay được 「わけ」 (lý do, nguyên nhân) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "ルール",
+          "meaning_vi": "「ルール」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「ルール」 (「ルール」) không thay được 「わけ」 (lý do, nguyên nhân) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "理由",
+          "meaning_vi": "「理由」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「理由」 (「理由」) gần nghĩa với 「わけ」 (lý do, nguyên nhân) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "秘密",
+          "meaning_vi": "「秘密」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「秘密」 (「秘密」) không thay được 「わけ」 (lý do, nguyên nhân) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p14-q29",
@@ -3876,7 +6053,39 @@
           "text": "する。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「へった」≈ giảm xuống. Đáp án gần nghĩa nhất: 2. 少なくなった (「少なくなった」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "多くなった",
+          "meaning_vi": "「多くなった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「多くなった」 (「多くなった」) không thay được 「へった」 (giảm xuống) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "少なくなった",
+          "meaning_vi": "「少なくなった」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「少なくなった」 (「少なくなった」) gần nghĩa với 「へった」 (giảm xuống) trong câu này."
+        },
+        {
+          "key": "3",
+          "text_jp": "きれいになった",
+          "meaning_vi": "「きれいになった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「きれいになった」 (「きれいになった」) không thay được 「へった」 (giảm xuống) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "4",
+          "text_jp": "きたなくなった",
+          "meaning_vi": "「きたなくなった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「きたなくなった」 (「きたなくなった」) không thay được 「へった」 (giảm xuống) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     },
     {
       "id": "nearsyn-p14-q30",
@@ -3923,7 +6132,39 @@
           "text": "がうまくいかなかったので、やりなおした。"
         }
       ],
-      "verify_reason": null
+      "verify_reason": null,
+      "explanation": "「やりなおした」≈ làm lại. Đáp án gần nghĩa nhất: 3. もう一度やった (「もう一度やった」).",
+      "choice_analyses": [
+        {
+          "key": "1",
+          "text_jp": "やり方を調べた",
+          "meaning_vi": "「やり方を調べた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「やり方を調べた」 (「やり方を調べた」) không thay được 「やりなおした」 (làm lại) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "2",
+          "text_jp": "やり方を教わった",
+          "meaning_vi": "「やり方を教わった」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「やり方を教わった」 (「やり方を教わった」) không thay được 「やりなおした」 (làm lại) khác nghĩa hoặc trái nghĩa."
+        },
+        {
+          "key": "3",
+          "text_jp": "もう一度やった",
+          "meaning_vi": "「もう一度やった」",
+          "status": "correct",
+          "reason_vi": "Đúng. 「もう一度やった」 (「もう一度やった」) gần nghĩa với 「やりなおした」 (làm lại) trong câu này."
+        },
+        {
+          "key": "4",
+          "text_jp": "やるのを途中でやめた",
+          "meaning_vi": "「やるのを途中でやめた」",
+          "status": "wrong",
+          "reason_vi": "Sai. 「やるのを途中でやめた」 (「やるのを途中でやめた」) không thay được 「やりなおした」 (làm lại) khác nghĩa hoặc trái nghĩa."
+        }
+      ],
+      "explanation_source": "linguistic"
     }
   ]
 }

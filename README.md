@@ -9,7 +9,7 @@
 - **Đếm ngược:** hiển thị ngày, giờ, phút và giây còn lại; cập nhật mỗi giây khi trang đang mở. Thanh tiến độ tính từ ngày 05/10/2026.
 - **Ôn 6 mẫu ngữ pháp:** mỗi lần mở hoặc quay lại trang chính, chọn ngẫu nhiên 6 mẫu khác nhau từ bộ 80 mẫu. Lượt mới bỏ qua các mẫu của lượt trước khi có đủ dữ liệu.
 - **Thư viện 80 mẫu N3:** tra cứu theo mẫu tiếng Nhật, ý nghĩa, cấu trúc hoặc nội dung ví dụ; hỗ trợ tìm tiếng Việt không dấu.
-- **Tài liệu ôn tập N3 tổng hợp:** 19 bộ tài liệu từ dữ liệu v6 Phase E, có tìm kiếm tiếng Nhật/tiếng Việt, hiển thị đầy đủ từng bộ và luyện câu hỏi trắc nghiệm.
+- **Tài liệu ôn tập N3 tổng hợp:** 19 bộ tài liệu từ dữ liệu v8 Phase G, có tìm kiếm tiếng Nhật/tiếng Việt, hiển thị đầy đủ từng bộ và luyện câu hỏi trắc nghiệm.
 - **Furigana:** tên mẫu và câu ví dụ hiển thị cách đọc trên các cụm kanji. Mỗi thẻ có ý nghĩa, cấu trúc, cách dùng, ví dụ Nhật–Việt và ghi chú.
 - **Ngạn ngữ Nhật–Việt:** thay đổi khi mở hoặc quay lại trang, tránh lặp ngay câu vừa xem.
 - **Cá nhân hóa:** lưu tên để hiển thị lời chào trên trang countdown.
@@ -17,6 +17,8 @@
 - **Sử dụng offline:** service worker lưu các trang và dữ liệu sau khi tải đầy đủ phiên bản hiện tại.
 
 Practice hiển thị đúng bằng màu xanh, sai bằng màu đỏ; khi chọn sai, đáp án đúng đồng thời được tô xanh, kèm phản hồi và huy hiệu ✓/✗. Câu chưa có đáp án chỉ đánh dấu đã chọn và không chấm.
+
+Dữ liệu v8 có phần phân tích từng lựa chọn và tóm tắt khi được cung cấp (nghĩa VI, lý do đúng/sai) cho 246 câu có đáp án. Khối **Chi tiết** chỉ mở sau khi chọn, nhấn mạnh phương án đã chọn và cập nhật khi chọn lại. `explanation_source: linguistic` là phần bổ sung ôn tập, không phải nguồn đáp án chính thức; key visual giữ nguyên. Hard-quiz chưa có key nên không hiện phân tích đúng/sai.
 
 ## Cách sử dụng
 
@@ -41,7 +43,7 @@ Nhấn biểu tượng **⚙** ở góc trên trang countdown:
 
 ### Tài liệu ôn tập N3 tổng hợp
 
-Trang tài liệu gồm các bộ dữ liệu sau, giữ nguyên nội dung JSON từ gói `n3-study-data-for-jlpt-countdown-v6.zip` và không công bố thư mục xử lý nội bộ `_work`. Có 19 bộ tài liệu:
+Trang tài liệu gồm các bộ dữ liệu sau, giữ nguyên nội dung JSON từ gói `n3-study-data-for-jlpt-countdown-v8.zip` và không công bố thư mục xử lý nội bộ `_work`. Có 19 bộ tài liệu:
 
 | Bộ tài liệu | Dữ liệu hiện có | Trạng thái |
 | --- | --- | --- |
@@ -54,7 +56,7 @@ Trang tài liệu gồm các bộ dữ liệu sau, giữ nguyên nội dung JSON
 | Thành ngữ / tượng thanh (sổ tay) | 44 mục | Thẻ từ vựng; cách đọc và ví dụ có thể chưa có. |
 | Tự động từ / Tha động từ | 141 mục | Động từ, cách đọc, nghĩa và trợ từ/tự–tha khi có; nghĩa VI linguistic. |
 | Hán tự N3 | 416 mục | Bản trích xuất cần đối chiếu các cột dữ liệu. |
-| Động từ phức hợp | 78/80 mục theo tên tài liệu | Có cách đọc, furigana cho từ và ví dụ, kèm dịch ví dụ; nguồn `linguistic`. |
+| Động từ phức hợp | 78 mục | Có cách đọc, furigana cho từ và ví dụ, kèm dịch ví dụ; nguồn `linguistic`. |
 | Trắc nghiệm Hán tự | 96/96 câu | Có đáp án chép từ phần khoanh trong tài liệu (`answer_source: visual_annotation`); chọn một phương án để xem phản hồi đúng/sai. |
 | Từ đồng nghĩa dễ nhầm | 30 câu | Từ cần hỏi được đánh dấu; 30/30 đáp án `visual_annotation` từ khoanh đỏ trong PDF. Câu #19 và #26 có đáp án 1. |
 | Cách dùng từ | 50 câu | Có đáp án `visual_annotation`. |
@@ -69,9 +71,9 @@ Mỗi bộ có tìm kiếm riêng và hiển thị toàn bộ mục ngay khi t�
 
 `connectors` và `connectors-extra` cần nhánh dựng thẻ `reading` để hiển thị `connector_jp`, `section`, `meaning_vi` và `example_jp` khi có. Thẻ `tips` hỗ trợ tiêu đề và nội dung nhiều dòng; nếu thiếu body, chỉ hiển thị thông báo đang đối chiếu và huy hiệu cần đối chiếu.
 
-`exam-tips.json` đã mở trong danh mục với đủ 84 body không rỗng. Bộ động từ phức hiện có 78/80 mục, gồm 結びつける; hai mục #79–#80 vẫn thiếu và không được bổ sung suy đoán. Phase C chỉ áp dụng JSON được cung cấp, không trích xuất lại PDF/mixed/ebook/sổ tay và không công bố `_work`.
+`exam-tips.json` đã mở trong danh mục với đủ 84 body không rỗng. Bộ động từ phức có đủ 78 mục trong dữ liệu được cung cấp, gồm 結びつける. Phase C chỉ áp dụng JSON được cung cấp, không trích xuất lại PDF/mixed/ebook/sổ tay và không công bố `_work`.
 
-Đáp án practice v6 chỉ chấm khi JSON có key được đối chiếu. Bộ đồng nghĩa dùng 30/30 đáp án visual; bộ câu hỏi khó đã bỏ các đáp án đoán linguistic và không chấm khi `correct_answer == null`. 96 câu Hán tự, 50 câu cách dùng từ và 70 câu từ gần nghĩa giữ đáp án visual hiện có. Nguồn visual không đồng nghĩa với đáp án chính thức của JLPT.
+Đáp án practice v8 chỉ chấm khi JSON có key được đối chiếu. Bộ đồng nghĩa dùng 30/30 đáp án visual; bộ câu hỏi khó đã bỏ các đáp án đoán linguistic và không chấm khi `correct_answer == null`. 96 câu Hán tự, 50 câu cách dùng từ và 70 câu từ gần nghĩa giữ đáp án visual hiện có. Nguồn visual không đồng nghĩa với đáp án chính thức của JLPT.
 
 Furigana v5 dùng các đoạn ruby được cung cấp trong JSON, với nguồn/cách đọc `linguistic`, không phải đáp án hay cách đọc chính thức từ kỳ thi. Vocabulary dùng `lemma_ruby`/`example_ruby`; grammar dùng `pattern_ruby`/`example_ruby`; reading dùng `connector_ruby` và `example_ruby` khi có. Practice dùng `stem_ruby`, hoặc `lemma_ruby` cho câu hỏi chỉ có từ vựng. Target được đánh dấu trên chữ gốc bên trong ruby, không đánh dấu nhầm cách đọc; target qua nhiều đoạn ruby vẫn giữ đủ phần gạch chân.
 
@@ -149,4 +151,6 @@ Khi sửa dữ liệu:
 Khi cập nhật tài nguyên được lưu offline, tăng phiên bản `CACHE` trong `sw.js`. Nếu thêm trang, CSS, JavaScript hoặc dữ liệu mới cần dùng offline, bổ sung đường dẫn vào `ASSETS`. Sau khi triển khai, tải lại ứng dụng khi có mạng để nhận phiên bản mới.
 
 
-Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=21`, `study.css?v=21` và JSON `?v=21`. Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline lưu đúng các URL này để tránh trộn mã và dữ liệu của bản cũ. Khi phát hành thay đổi study tiếp theo, tăng phiên bản trong `study.html`, fallback `DATA_VERSION` và các URL trong `ASSETS` cùng với `CACHE`.
+Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=22`, `study.css?v=22` và JSON `?v=22`. Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline lưu đúng các URL này để tránh trộn mã và dữ liệu của bản cũ. Khi phát hành thay đổi study tiếp theo, tăng phiên bản trong `study.html`, fallback `DATA_VERSION` và các URL trong `ASSETS` cùng với `CACHE`.
+
+Giới hạn dữ liệu v8: 3 câu chưa có tóm tắt và 1 lựa chọn chưa có nghĩa VI riêng; các lý do đúng/sai vẫn được hiển thị theo JSON. Ứng dụng không tự bổ sung những trường này.
