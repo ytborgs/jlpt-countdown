@@ -7,8 +7,8 @@
   <title>Tài liệu ôn tập N3 tổng hợp</title>
   <link rel="icon" type="image/svg+xml" href="./icon.svg">
   <link rel="stylesheet" href="./grammar.css">
-  <link rel="stylesheet" href="./study.css?v=25">
-  <script type="module" src="./study.js?v=25"></script>
+  <link rel="stylesheet" href="./study.css?v=26">
+  <script type="module" src="./study.js?v=26"></script>
 </head>
 <body class="grammar-library-page study-page"><main>
   <header class="library-toolbar">
@@ -16,22 +16,37 @@
     <label class="grammar-search-label" for="study-search">Tìm trong tài liệu</label>
     <input class="grammar-search" id="study-search" type="search" placeholder="Tìm tài liệu…" autocomplete="off">
     <p class="grammar-status" id="study-status" role="status">Đang tải tài liệu…</p>
-  </header>
-  <p id="study-notice" class="study-notice" hidden></p>
   <section id="study-progress" class="study-progress" aria-label="Tiến độ luyện tập" hidden>
-    <p id="study-progress-text" class="study-progress-text" aria-live="polite"></p>
+    <div class="study-progress-summary">
+      <p id="study-progress-text" class="study-progress-text" aria-live="polite"></p>
+      <details id="study-progress-menu" class="study-progress-menu">
+        <summary aria-label="Thao tác tiến độ" title="Thao tác tiến độ">⋯</summary>
+        <div class="study-progress-actions">
+          <button type="button" id="study-retry-wrong">Làm lại câu sai</button>
+          <button type="button" id="study-reset-topic">Xóa tiến độ bộ này</button>
+        </div>
+      </details>
+    </div>
     <div id="study-progress-bar" class="study-progress-bar" role="progressbar" aria-label="Tiến độ hoàn thành" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
       <span id="study-progress-ok" class="study-progress-fill study-progress-ok"></span>
       <span id="study-progress-bad" class="study-progress-fill study-progress-bad"></span>
     </div>
     <div id="study-progress-filters" class="study-progress-filters" role="group" aria-label="Lọc câu hỏi"></div>
-    <div class="study-progress-actions">
-      <button type="button" id="study-retry-wrong">Làm lại câu sai</button>
-      <button type="button" id="study-reset-topic">Xóa tiến độ bộ này</button>
-    </div>
   </section>
+  </header>
+  <p id="study-notice" class="study-notice" hidden></p>
   <button id="study-retry" class="grammar-retry" type="button" hidden>Thử tải lại</button>
   <div id="study-list" class="grammar-list" aria-busy="true"></div>
   <noscript>Bật JavaScript để xem tài liệu ôn tập.</noscript>
-</main></body>
+</main>
+<dialog id="study-explanation-dialog" class="study-modal" aria-labelledby="study-explanation-title">
+  <div class="study-modal-panel">
+    <header class="study-modal-header">
+      <h2 id="study-explanation-title">Giải thích đáp án</h2>
+      <button type="button" id="study-explanation-close" class="study-modal-close" aria-label="Đóng giải thích" autofocus>Đóng ✕</button>
+    </header>
+    <div id="study-explanation-content" class="study-explain study-modal-content"></div>
+  </div>
+</dialog>
+</body>
 </html>

@@ -151,10 +151,10 @@ Khi sửa dữ liệu:
 Khi cập nhật tài nguyên được lưu offline, tăng phiên bản `CACHE` trong `sw.js`. Nếu thêm trang, CSS, JavaScript hoặc dữ liệu mới cần dùng offline, bổ sung đường dẫn vào `ASSETS`. Sau khi triển khai, tải lại ứng dụng khi có mạng để nhận phiên bản mới.
 
 
-Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=25`, `study.css?v=25` và JSON `?v=25`. Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline lưu đúng các URL này để tránh trộn mã và dữ liệu của bản cũ. Khi phát hành thay đổi study tiếp theo, tăng phiên bản trong `study.html`, fallback `DATA_VERSION` và các URL trong `ASSETS` cùng với `CACHE`.
+Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=26`, `study.css?v=26` và JSON `?v=26`. Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline lưu đúng các URL này để tránh trộn mã và dữ liệu của bản cũ. Khi phát hành thay đổi study tiếp theo, tăng phiên bản trong `study.html`, fallback `DATA_VERSION` và các URL trong `ASSETS` cùng với `CACHE`.
 
 Giới hạn dữ liệu v8: 3 câu chưa có tóm tắt và 1 lựa chọn chưa có nghĩa VI riêng; các lý do đúng/sai vẫn được hiển thị theo JSON. Ứng dụng không tự bổ sung những trường này.
 
 Tiến độ các bộ practice được lưu trong localStorage của trình duyệt: đếm Đúng/Sai/Còn, lọc Tất cả/Chưa làm/Câu sai/Câu đúng, làm lại riêng câu sai hoặc xóa tiến độ bộ hiện tại. Không đồng bộ lên server; hard-quiz không chấm điểm.
 
-Sau khi trả lời câu hỏi có đáp án, nút “Ẩn chi tiết / Hiện chi tiết” cho phép thu gọn hoặc mở lại phần giải thích; mặc định vẫn mở sau khi chấm.
+Sau khi trả lời câu hỏi có đáp án, nút “Xem giải thích” mở modal phân tích từng lựa chọn; đóng bằng nút Đóng, phím Escape hoặc chạm nền bên ngoài. Thanh tiến độ và bộ lọc nằm trong header cố định khi cuộn; mobile dùng bố cục gọn, các thao tác làm lại/xóa nằm trong menu ⋯.
