@@ -1,4 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '19';
 
 const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
@@ -160,7 +161,9 @@ async function startStudy() {
     back.setAttribute('aria-label', id ? 'Về danh mục tài liệu' : 'Về Cài đặt');
     try {
       const getJSON = async path => {
-        const response = await fetch(new URL(path, import.meta.url));
+        const url = new URL(path, import.meta.url);
+        url.searchParams.set('v', DATA_VERSION);
+        const response = await fetch(url);
         if (!response.ok) throw new Error('HTTP ' + response.status);
         return response.json();
       };
