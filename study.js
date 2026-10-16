@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '30';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '31';
 const SESSION_SHORT = 20;
 
 const el = (tag, value = '', className = '', lang) => {
@@ -444,9 +444,94 @@ async function startStudy() {
   const sessionSkip = document.getElementById('study-session-skip');
   const sessionNext = document.getElementById('study-session-next');
   const session20 = document.getElementById('study-session-20');
+  const filterDrawer = document.getElementById('study-filter-drawer');
   const viewModeButtons = [];
   const persist = () => { if (topic) saveStudyProgress(topic.id, selections, results); };
   const isPracticeTopic = () => practiceItems.length > 0;
+  const wrongCount = () => practiceItems.filter(item => results.get(item.id) === 'wrong').length;
+  const practiceAllDone = () => practiceItems.length > 0 && practiceItems.every(item => isPracticeAnswered(item, selections, results));
+  const syncFilterDrawer = () => {
+    if (!filterDrawer) return;
+    filterDrawer.hidden = !isPracticeTopic();
+    if (window.matchMedia('(min-width: 768px)').matches) filterDrawer.open = true;
+  };
+  const createPracticeCompleteBanner = () => {
+    const panel = el('div', '', 'study-complete');
+    const wrong = wrongCount();
+    panel.append(el('h2', 'Đã làm hết bộ này'));
+    panel.append(el('p', wrong
+      ? `Hoàn thành ${practiceItems.length} câu · ${wrong} câu sai. Ôn lại phần sai trước khi chuyển bộ khác.`
+      : `Hoàn thành ${practiceItems.length} câu. Tiến độ vẫn lưu trên thiết bị này.`));
+    if (wrong) {
+      const review = el('button', 'Ôn câu sai', 'study-complete-action');
+      review.type = 'button';
+      review.addEventListener('click', () => {
+        filterMode = 'wrong';
+        sessionLimit = null;
+        viewMode = 'session';
+        refreshSessionQueue({ preferTodo: true });
+        render();
+        window.scrollTo(0, 0);
+      });
+      panel.append(review);
+    }
+    const toListWrong = el('button', 'Xem danh sách câu sai', 'study-complete-action study-complete-secondary');
+    toListWrong.type = 'button';
+    toListWrong.hidden = !wrong;
+    toListWrong.addEventListener('click', () => {
+      filterMode = 'wrong';
+      viewMode = 'list';
+      sessionLimit = null;
+      render();
+    });
+    const toSession = el('button', 'Làm lại kiểu phiên', 'study-complete-action study-complete-secondary');
+    toSession.type = 'button';
+    toSession.addEventListener('click', () => {
+      filterMode = wrong ? 'wrong' : 'all';
+      viewMode = 'session';
+      sessionLimit = null;
+      refreshSessionQueue({ preferTodo: false });
+      sessionIndex = 0;
+      render();
+      window.scrollTo(0, 0);
+    });
+    panel.append(toListWrong, toSession);
+    return panel;
+  };
+  const createPracticeEmptyState = () => {
+    const panel = el('div', '', 'study-empty');
+    const title = filterMode === 'wrong' ? 'Không còn câu sai'
+      : filterMode === 'todo' ? 'Không còn câu chưa làm'
+      : filterMode === 'ok' ? 'Chưa có câu đúng'
+      : 'Không tìm thấy câu hỏi';
+    panel.append(el('h2', title));
+    panel.append(el('p', practiceAllDone()
+      ? 'Bạn đã làm hết bộ này. Có thể ôn lại câu sai hoặc xem toàn bộ danh sách.'
+      : 'Thử đổi bộ lọc, xóa từ khóa tìm kiếm, hoặc mở chế độ Phiên.'));
+    if (wrongCount()) {
+      const review = el('button', 'Ôn câu sai', 'study-complete-action');
+      review.type = 'button';
+      review.addEventListener('click', () => {
+        filterMode = 'wrong';
+        viewMode = 'session';
+        sessionLimit = null;
+        refreshSessionQueue({ preferTodo: true });
+        render();
+      });
+      panel.append(review);
+    }
+    const showAll = el('button', 'Hiện tất cả', 'study-complete-action study-complete-secondary');
+    showAll.type = 'button';
+    showAll.addEventListener('click', () => {
+      filterMode = 'all';
+      search.value = '';
+      sessionLimit = null;
+      if (viewMode === 'session') refreshSessionQueue({ preferTodo: true });
+      render();
+    });
+    panel.append(showAll);
+    return panel;
+  };
   const matchesFilter = item => {
     if (!isPracticeTopic() || item.type !== 'practice' || filterMode === 'all') return true;
     const answered = isPracticeAnswered(item, selections, results);
@@ -538,6 +623,7 @@ async function startStudy() {
       session20.disabled = !practiceItems.some(item => !selections.has(item.id));
     }
     for (const button of filterButtons) button.setAttribute('aria-pressed', String(button.dataset.filter === filterMode));
+    syncFilterDrawer();
     updateSessionNav();
   };
   const onSelect = (item, key) => {
@@ -619,6 +705,33 @@ async function startStudy() {
     selections.clear(); results.clear(); persist(); progressMenu.open = false; filterMode = 'all';
     sessionLimit = null; viewMode = 'list'; sessionQueue = []; sessionIndex = 0; render();
   });
+  window.addEventListener('keydown', event => {
+    if (!ready || !isPracticeTopic() || viewMode !== 'session' || dialog.open) return;
+    if (event.target.closest('input, textarea, select')) return;
+    if (event.key >= '1' && event.key <= '9') {
+      const option = list.querySelectorAll('.study-option')[Number(event.key) - 1];
+      if (!option) return;
+      event.preventDefault();
+      option.click();
+      return;
+    }
+    if (event.key === 'Enter') {
+      if (sessionNext.disabled) return;
+      event.preventDefault();
+      sessionNext.click();
+      return;
+    }
+    if (event.key === 'ArrowRight') {
+      event.preventDefault();
+      sessionSkip.click();
+      return;
+    }
+    if (event.key === 'ArrowLeft') {
+      event.preventDefault();
+      sessionPrev.click();
+    }
+  });
+  window.matchMedia('(min-width: 768px)').addEventListener('change', syncFilterDrawer);
   let topics, topic, items = [], version = 0, ready = false, groupFilter = 'all';
   const groupNav = document.getElementById('study-group-filters');
   const groupButtons = [];
@@ -655,11 +768,26 @@ async function startStudy() {
     list.replaceChildren(...nodes);
   };
   const renderSessionDone = () => {
+    if (practiceAllDone()) {
+      list.replaceChildren(createPracticeCompleteBanner());
+      return;
+    }
     const panel = el('div', '', 'study-session-done');
     panel.append(el('h2', 'Hết phiên'));
     panel.append(el('p', sessionLimit
       ? `Đã hết ${sessionLimit} câu trong phiên ngắn. Tiến độ vẫn được lưu trên thiết bị.`
       : 'Không còn câu phù hợp bộ lọc hiện tại.'));
+    if (wrongCount()) {
+      const review = el('button', 'Ôn câu sai', 'study-session-done-action');
+      review.type = 'button';
+      review.addEventListener('click', () => {
+        filterMode = 'wrong';
+        sessionLimit = null;
+        refreshSessionQueue({ preferTodo: true });
+        render();
+      });
+      panel.append(review);
+    }
     const again = el('button', '20 câu chưa làm', 'study-session-done-action');
     again.type = 'button';
     again.addEventListener('click', () => session20.click());
@@ -679,7 +807,9 @@ async function startStudy() {
       updateKnownProgress();
       if (!sessionQueue.length) {
         renderSessionDone();
-        status.textContent = filterMode === 'wrong' ? 'Không còn câu sai trong phiên.' : 'Không còn câu chưa làm trong phiên.';
+        status.textContent = practiceAllDone()
+          ? 'Đã làm hết bộ này.'
+          : filterMode === 'wrong' ? 'Không còn câu sai trong phiên.' : 'Không còn câu chưa làm trong phiên.';
         return;
       }
       const item = sessionQueue[sessionIndex];
@@ -696,8 +826,18 @@ async function startStudy() {
       .filter(matchesFilter)
       .filter(matchesKnownFilter)
       .filter(item => topic || groupFilter === 'all' || topicGroupId(item) === groupFilter);
+    if (topic && isPracticeTopic() && !matches.length) {
+      list.replaceChildren(createPracticeEmptyState());
+      status.textContent = filterMode === 'wrong' ? 'Không còn câu sai.' : 'Không còn nội dung phù hợp bộ lọc.';
+      return;
+    }
     if (topic) {
-      list.replaceChildren(...matches.map(item => createStudyCard(item, items.indexOf(item), selections, onSelect, knownMode ? { known, onChange: onKnownChange } : undefined)));
+      const cards = matches.map(item => createStudyCard(item, items.indexOf(item), selections, onSelect, knownMode ? { known, onChange: onKnownChange } : undefined));
+      if (isPracticeTopic() && practiceAllDone() && filterMode === 'all' && !search.value.trim()) {
+        list.replaceChildren(createPracticeCompleteBanner(), ...cards);
+      } else {
+        list.replaceChildren(...cards);
+      }
     } else {
       renderCatalog(matches);
     }
