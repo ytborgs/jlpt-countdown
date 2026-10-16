@@ -1,4 +1,4 @@
-import { createGrammarCard } from './grammar.js';
+import { createGrammarCard, createRubyText } from './grammar.js';
 
 const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
@@ -28,15 +28,20 @@ export function createStudyCard(item, index, selections = new Map()) {
     }
     card.append(dl);
   } else if (item.type === 'vocabulary') {
-    card.append(el('h2', item.lemma_jp || item.example_jp, 'study-word', 'ja'));
-    if (item.reading) card.append(el('p', item.reading, '', 'ja'));
+    const lemma = item.lemma_jp || item.example_jp || '';
+    card.append(createRubyText('h2', lemma, item.lemma_ruby, 'study-word'));
+    const hasRuby = Array.isArray(item.lemma_ruby) && item.lemma_ruby.map(segment => segment.text).join('') === lemma;
+    if (!hasRuby && item.reading) card.append(el('p', item.reading, '', 'ja'));
+    if (item.collocates_with) card.append(el('p', item.collocates_with, 'study-collocation', 'ja'));
     if (item.meaning_vi) card.append(el('p', item.meaning_vi));
-    if (item.example_jp) card.append(el('p', item.example_jp, 'grammar-example', 'ja'));
+    if (item.example_jp) card.append(createRubyText('p', item.example_jp, item.example_ruby, 'grammar-example study-example-jp'));
+    if (item.example_vi) card.append(el('p', item.example_vi, 'study-example-vi'));
   } else if (item.type === 'practice') {
     const stem = el('p', '', 'study-stem', 'ja');
-    const targetIndex = item.target ? item.stem_jp.indexOf(item.target) : -1;
-    if (targetIndex >= 0) stem.append(document.createTextNode(item.stem_jp.slice(0, targetIndex)), el('mark', item.target), document.createTextNode(item.stem_jp.slice(targetIndex + item.target.length)));
-    else stem.textContent = item.stem_jp;
+    const stemText = item.stem_jp || item.lemma_jp || '';
+    const targetIndex = item.target ? stemText.indexOf(item.target) : -1;
+    if (targetIndex >= 0) stem.append(document.createTextNode(stemText.slice(0, targetIndex)), el('mark', item.target), document.createTextNode(stemText.slice(targetIndex + item.target.length)));
+    else stem.textContent = stemText;
     card.append(stem);
     const options = el('div', '', 'study-options');
     options.setAttribute('role', 'group');
@@ -82,15 +87,13 @@ async function startStudy() {
   const back = document.getElementById('study-back');
   const notice = document.getElementById('study-notice');
   const retry = document.getElementById('study-retry');
-  const more = document.getElementById('study-more');
   const cache = new Map();
   const selections = new Map();
-  let topics, topic, items = [], visible = 30, version = 0, ready = false;
+  let topics, topic, items = [], version = 0, ready = false;
   const render = () => {
     if (!ready) return;
     const matches = filterStudy(items, search.value);
-    const shown = matches.slice(0, visible);
-    list.replaceChildren(...shown.map(item => {
+    list.replaceChildren(...matches.map(item => {
       if (topic) return createStudyCard(item, items.indexOf(item), selections);
       const link = el('a', '', 'grammar-card study-topic');
       link.href = '#' + item.id;
@@ -99,13 +102,12 @@ async function startStudy() {
       link.append(el('span', 'Mở tài liệu →', 'study-open'));
       return link;
     }));
-    more.hidden = shown.length >= matches.length;
-    status.textContent = matches.length ? 'Hiển thị ' + shown.length + ' / ' + matches.length + (topic ? ' mục' : ' bộ tài liệu') + (search.value.trim() ? ' phù hợp.' : '.') : 'Không tìm thấy nội dung phù hợp. Hãy thử từ khóa khác.';
+    status.textContent = matches.length ? 'Hiển thị ' + matches.length + ' / ' + items.length + (topic ? ' ' + topic.unit : ' bộ tài liệu') + (search.value.trim() ? ' phù hợp.' : '.') : 'Không tìm thấy nội dung phù hợp. Hãy thử từ khóa khác.';
   };
   const load = async () => {
     const request = ++version;
     ready = false;
-    list.replaceChildren(); more.hidden = true; retry.hidden = true; notice.hidden = true;
+    list.replaceChildren(); retry.hidden = true; notice.hidden = true;
     list.setAttribute('aria-busy', 'true');
     status.textContent = 'Đang tải tài liệu…';
     const id = location.hash.slice(1);
@@ -144,10 +146,9 @@ async function startStudy() {
       retry.hidden = false;
     } finally { if (request === version) list.setAttribute('aria-busy', 'false'); }
   };
-  search.addEventListener('input', () => { visible = 30; render(); });
-  more.addEventListener('click', () => { visible += 30; render(); });
+  search.addEventListener('input', render);
   retry.addEventListener('click', load);
-  window.addEventListener('hashchange', () => { search.value = ''; visible = 30; window.scrollTo(0, 0); load(); });
+  window.addEventListener('hashchange', () => { search.value = ''; window.scrollTo(0, 0); load(); });
   await load();
 }
 if (typeof document !== 'undefined') startStudy();

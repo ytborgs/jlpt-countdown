@@ -1,0 +1,2611 @@
+{
+  "schema_version": "1.0",
+  "document_id": "tu-gan-nghia-n3-cac-nam",
+  "type": "practice",
+  "level": "N3",
+  "source_file": "Từ gần nghĩa N3 các năm.pdf",
+  "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+  "title": "Từ gần nghĩa N3 các năm",
+  "page_count": 14,
+  "item_count": 70,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-16T03:59:20+00:00",
+  "producer": "n3-study-extractor/build_from_visual",
+  "status": "verified",
+  "needs_verify_count": 0,
+  "notes": [
+    "PDF scanned chép từ preview; đáp án từ vòng đỏ trên ảnh."
+  ],
+  "items": [
+    {
+      "id": "nearsyn-p1-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 1,
+      "knowledge_id": "nearmiss:きつい",
+      "exam_q_no": 26,
+      "stem_jp": "今回の仕事はとてもきつい。",
+      "target": "きつい",
+      "meaning_vi": "khắc nghiệt",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "大変だ"
+        },
+        {
+          "key": "2",
+          "text_jp": "簡単だ"
+        },
+        {
+          "key": "3",
+          "text_jp": "つまらない"
+        },
+        {
+          "key": "4",
+          "text_jp": "おもしろい"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p1-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 1,
+      "knowledge_id": "nearmiss:くたびれた",
+      "exam_q_no": 27,
+      "stem_jp": "今日はとてもくたびれた。",
+      "target": "くたびれた",
+      "meaning_vi": "mệt mỏi, kiệt sức",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "いそがしかった"
+        },
+        {
+          "key": "2",
+          "text_jp": "つかれた"
+        },
+        {
+          "key": "3",
+          "text_jp": "はずかしかった"
+        },
+        {
+          "key": "4",
+          "text_jp": "こまった"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p1-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 1,
+      "knowledge_id": "nearmiss:明けたら",
+      "exam_q_no": 28,
+      "stem_jp": "休みが明けたら、また連絡します。",
+      "target": "明けたら",
+      "meaning_vi": "kết thúc",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "とれたら"
+        },
+        {
+          "key": "2",
+          "text_jp": "きまったら"
+        },
+        {
+          "key": "3",
+          "text_jp": "おわったら"
+        },
+        {
+          "key": "4",
+          "text_jp": "はじまったら"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p1-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 1,
+      "knowledge_id": "nearmiss:混雑",
+      "exam_q_no": 29,
+      "stem_jp": "この店はいつも混雑している。",
+      "target": "混雑",
+      "meaning_vi": "hỗn tạp, đông đúc",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "客があまりいない"
+        },
+        {
+          "key": "2",
+          "text_jp": "品物があまりない"
+        },
+        {
+          "key": "3",
+          "text_jp": "客がたくさんいる"
+        },
+        {
+          "key": "4",
+          "text_jp": "品物がたくさんある"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p1-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 1,
+      "knowledge_id": "nearmiss:単純",
+      "exam_q_no": 30,
+      "stem_jp": "このスポーツのルールは単純だ。",
+      "target": "単純",
+      "meaning_vi": "đơn thuần, đơn giản",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "よく知られている"
+        },
+        {
+          "key": "2",
+          "text_jp": "わかりやすい"
+        },
+        {
+          "key": "3",
+          "text_jp": "あまり知られていない"
+        },
+        {
+          "key": "4",
+          "text_jp": "わかりにくい"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p2-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 2,
+      "knowledge_id": "nearmiss:感謝",
+      "exam_q_no": 26,
+      "stem_jp": "鈴木さんへ感謝の手紙を送った。",
+      "target": "感謝",
+      "meaning_vi": "cảm tạ, biết ơn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "お願い"
+        },
+        {
+          "key": "2",
+          "text_jp": "お礼"
+        },
+        {
+          "key": "3",
+          "text_jp": "お見舞い"
+        },
+        {
+          "key": "4",
+          "text_jp": "お知らせ"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p2-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 2,
+      "knowledge_id": "nearmiss:キッチン",
+      "exam_q_no": 27,
+      "stem_jp": "子どもたちはキッチンにいます。",
+      "target": "キッチン",
+      "meaning_vi": "bếp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "廊下"
+        },
+        {
+          "key": "2",
+          "text_jp": "居間"
+        },
+        {
+          "key": "3",
+          "text_jp": "玄関"
+        },
+        {
+          "key": "4",
+          "text_jp": "台所"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p2-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 2,
+      "knowledge_id": "nearmiss:不安",
+      "exam_q_no": 28,
+      "stem_jp": "不安なので、私は行かないことにした。",
+      "target": "不安",
+      "meaning_vi": "bất an",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "時間がない"
+        },
+        {
+          "key": "2",
+          "text_jp": "お金がない"
+        },
+        {
+          "key": "3",
+          "text_jp": "危険な"
+        },
+        {
+          "key": "4",
+          "text_jp": "心配な"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p2-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 2,
+      "knowledge_id": "nearmiss:ぺこぺこ",
+      "exam_q_no": 29,
+      "stem_jp": "おなかがぺこぺこだ。",
+      "target": "ぺこぺこ",
+      "meaning_vi": "đói meo",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "痛い"
+        },
+        {
+          "key": "2",
+          "text_jp": "すいている"
+        },
+        {
+          "key": "3",
+          "text_jp": "かゆい"
+        },
+        {
+          "key": "4",
+          "text_jp": "いっぱいだ"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p2-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 2,
+      "knowledge_id": "nearmiss:黙って",
+      "exam_q_no": 30,
+      "stem_jp": "兄は黙ってずっと漫画を読んでいる。",
+      "target": "黙って",
+      "meaning_vi": "im lặng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "何も話さないで"
+        },
+        {
+          "key": "2",
+          "text_jp": "何も食べないで"
+        },
+        {
+          "key": "3",
+          "text_jp": "勉強しないで"
+        },
+        {
+          "key": "4",
+          "text_jp": "寝ないで"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p3-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 3,
+      "knowledge_id": "nearmiss:指導",
+      "exam_q_no": 26,
+      "stem_jp": "山口さんに指導してもらいました。",
+      "target": "指導",
+      "meaning_vi": "chỉ đạo, hướng dẫn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "教えて"
+        },
+        {
+          "key": "2",
+          "text_jp": "探して"
+        },
+        {
+          "key": "3",
+          "text_jp": "調べて"
+        },
+        {
+          "key": "4",
+          "text_jp": "決めて"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p3-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 3,
+      "knowledge_id": "nearmiss:トレーニング",
+      "exam_q_no": 27,
+      "stem_jp": "もっとトレーニングをしたほうがいい。",
+      "target": "トレーニング",
+      "meaning_vi": "rèn luyện",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "準備"
+        },
+        {
+          "key": "2",
+          "text_jp": "競争"
+        },
+        {
+          "key": "3",
+          "text_jp": "質問"
+        },
+        {
+          "key": "4",
+          "text_jp": "練習"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p3-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 3,
+      "knowledge_id": "nearmiss:手段",
+      "exam_q_no": 28,
+      "stem_jp": "どんな手段があるか考えてみた。",
+      "target": "手段",
+      "meaning_vi": "cách thức",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "連絡"
+        },
+        {
+          "key": "2",
+          "text_jp": "楽しみ"
+        },
+        {
+          "key": "3",
+          "text_jp": "やり方"
+        },
+        {
+          "key": "4",
+          "text_jp": "理由"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p3-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 3,
+      "knowledge_id": "nearmiss:ぺらぺら",
+      "exam_q_no": 29,
+      "stem_jp": "リーさんは日本語がぺらぺらです。",
+      "target": "ぺらぺら",
+      "meaning_vi": "lưu loát, trôi chảy",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あまり書けません"
+        },
+        {
+          "key": "2",
+          "text_jp": "上手に書けます"
+        },
+        {
+          "key": "3",
+          "text_jp": "あまり話せません"
+        },
+        {
+          "key": "4",
+          "text_jp": "上手に話せます"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p3-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 3,
+      "knowledge_id": "nearmiss:ようやく",
+      "exam_q_no": 30,
+      "stem_jp": "その歌手はようやく有名になった。",
+      "target": "ようやく",
+      "meaning_vi": "cuối cùng thì",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "とても"
+        },
+        {
+          "key": "2",
+          "text_jp": "やっと"
+        },
+        {
+          "key": "3",
+          "text_jp": "なぜか"
+        },
+        {
+          "key": "4",
+          "text_jp": "やっぱり"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p4-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 4,
+      "knowledge_id": "nearmiss:協力",
+      "exam_q_no": 26,
+      "stem_jp": "前田さんも協力してください。",
+      "target": "協力",
+      "meaning_vi": "chung sức, hợp tác",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "急いで"
+        },
+        {
+          "key": "2",
+          "text_jp": "決めて"
+        },
+        {
+          "key": "3",
+          "text_jp": "手伝って"
+        },
+        {
+          "key": "4",
+          "text_jp": "がんばって"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p4-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 4,
+      "knowledge_id": "nearmiss:スケジュール",
+      "exam_q_no": 27,
+      "stem_jp": "この仕事のスケジュールを教えてください。",
+      "target": "スケジュール",
+      "meaning_vi": "lịch trình, kế hoạch",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "規則"
+        },
+        {
+          "key": "2",
+          "text_jp": "やり方"
+        },
+        {
+          "key": "3",
+          "text_jp": "結果"
+        },
+        {
+          "key": "4",
+          "text_jp": "予定"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p4-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 4,
+      "knowledge_id": "nearmiss:約",
+      "exam_q_no": 28,
+      "stem_jp": "食事代は約１万円でした。",
+      "target": "約",
+      "meaning_vi": "khoảng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "だいたい１万円"
+        },
+        {
+          "key": "2",
+          "text_jp": "ちょうど１万円"
+        },
+        {
+          "key": "3",
+          "text_jp": "１万円以上"
+        },
+        {
+          "key": "4",
+          "text_jp": "１万円以下"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p4-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 4,
+      "knowledge_id": "nearmiss:どなられた",
+      "exam_q_no": 29,
+      "stem_jp": "高橋さんにどなられた。",
+      "target": "どなられた",
+      "meaning_vi": "gào lên, tru tréo",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "大声で怒られた"
+        },
+        {
+          "key": "2",
+          "text_jp": "小声で怒られた"
+        },
+        {
+          "key": "3",
+          "text_jp": "大声で笑われた"
+        },
+        {
+          "key": "4",
+          "text_jp": "小声で笑われた"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p4-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 4,
+      "knowledge_id": "nearmiss:あらゆる",
+      "exam_q_no": 30,
+      "stem_jp": "中島さんはあらゆる質問に丁寧に答えた。",
+      "target": "あらゆる",
+      "meaning_vi": "tất cả",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "一つの"
+        },
+        {
+          "key": "2",
+          "text_jp": "全部の"
+        },
+        {
+          "key": "3",
+          "text_jp": "難しい"
+        },
+        {
+          "key": "4",
+          "text_jp": "簡単な"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p5-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 5,
+      "knowledge_id": "nearmiss:得意な",
+      "exam_q_no": 26,
+      "stem_jp": "山本さんが得意な料理は何ですか。",
+      "target": "得意な",
+      "meaning_vi": "giỏi, thế mạnh",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "つくってみたい"
+        },
+        {
+          "key": "2",
+          "text_jp": "食べたい"
+        },
+        {
+          "key": "3",
+          "text_jp": "一番好きな"
+        },
+        {
+          "key": "4",
+          "text_jp": "上手にできる"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p5-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 5,
+      "knowledge_id": "nearmiss:短気",
+      "exam_q_no": 27,
+      "stem_jp": "わたしの弟は短気です。",
+      "target": "短気",
+      "meaning_vi": "nóng tính",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "すぐ忘れます"
+        },
+        {
+          "key": "2",
+          "text_jp": "すぐ怒ります"
+        },
+        {
+          "key": "3",
+          "text_jp": "すぐ泣きます"
+        },
+        {
+          "key": "4",
+          "text_jp": "すぐ心配します"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p5-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 5,
+      "knowledge_id": "nearmiss:疑っている",
+      "exam_q_no": 28,
+      "stem_jp": "小林さんは、その話を疑っているようだ。",
+      "target": "疑っている",
+      "meaning_vi": "nghi ngờ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "本当ではないと思っている"
+        },
+        {
+          "key": "2",
+          "text_jp": "本当だと思っている"
+        },
+        {
+          "key": "3",
+          "text_jp": "よく知らない"
+        },
+        {
+          "key": "4",
+          "text_jp": "よく知っている"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p5-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 5,
+      "knowledge_id": "nearmiss:機会",
+      "exam_q_no": 29,
+      "stem_jp": "機会があれば、やってみたいです。",
+      "target": "機会",
+      "meaning_vi": "cơ hội",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "サービス"
+        },
+        {
+          "key": "2",
+          "text_jp": "アルバイト"
+        },
+        {
+          "key": "3",
+          "text_jp": "チャンス"
+        },
+        {
+          "key": "4",
+          "text_jp": "アイディア"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p5-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 5,
+      "knowledge_id": "nearmiss:あいかわらず",
+      "exam_q_no": 30,
+      "stem_jp": "田中さんはあいかわらず忙しいらしいよ。",
+      "target": "あいかわらず",
+      "meaning_vi": "không thay đổi, vẫn thế",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "前と同じで"
+        },
+        {
+          "key": "2",
+          "text_jp": "前と違って"
+        },
+        {
+          "key": "3",
+          "text_jp": "わたしと同じで"
+        },
+        {
+          "key": "4",
+          "text_jp": "わたしと違って"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p6-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 6,
+      "knowledge_id": "nearmiss:きつい",
+      "exam_q_no": 26,
+      "stem_jp": "この仕事はきついです。",
+      "target": "きつい",
+      "meaning_vi": "khắc nghiệt, khó khăn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "簡単"
+        },
+        {
+          "key": "2",
+          "text_jp": "つまらない"
+        },
+        {
+          "key": "3",
+          "text_jp": "楽しい"
+        },
+        {
+          "key": "4",
+          "text_jp": "大変"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p6-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 6,
+      "knowledge_id": "nearmiss:案",
+      "exam_q_no": 27,
+      "stem_jp": "それはいい案ですね。",
+      "target": "案",
+      "meaning_vi": null,
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "チャンス"
+        },
+        {
+          "key": "2",
+          "text_jp": "サービス"
+        },
+        {
+          "key": "3",
+          "text_jp": "アイディア"
+        },
+        {
+          "key": "4",
+          "text_jp": "ニュース"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p6-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 6,
+      "knowledge_id": "nearmiss:くたびれた",
+      "exam_q_no": 28,
+      "stem_jp": "昨日は本当にくたびれた。",
+      "target": "くたびれた",
+      "meaning_vi": "mệt mỏi, kiệt sức",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "疲れた"
+        },
+        {
+          "key": "2",
+          "text_jp": "困った"
+        },
+        {
+          "key": "3",
+          "text_jp": "眠かった"
+        },
+        {
+          "key": "4",
+          "text_jp": "恥ずかしかった"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p6-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 6,
+      "knowledge_id": "nearmiss:約",
+      "exam_q_no": 29,
+      "stem_jp": "荷物の重さは、約１０キロでした。",
+      "target": "約",
+      "meaning_vi": "khoảng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "１０キロ以上"
+        },
+        {
+          "key": "2",
+          "text_jp": "１０キロ以下"
+        },
+        {
+          "key": "3",
+          "text_jp": "ちょうど１０キロ"
+        },
+        {
+          "key": "4",
+          "text_jp": "だいたい１０キロ"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p6-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 6,
+      "knowledge_id": "nearmiss:指導",
+      "exam_q_no": 30,
+      "stem_jp": "山田さんはこの機械の使い方を指導しています。",
+      "target": "指導",
+      "meaning_vi": "chỉ đạo, hướng dẫn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "考えています"
+        },
+        {
+          "key": "2",
+          "text_jp": "習っています"
+        },
+        {
+          "key": "3",
+          "text_jp": "教えています"
+        },
+        {
+          "key": "4",
+          "text_jp": "調べています"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p7-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 7,
+      "knowledge_id": "nearmiss:キッチン",
+      "exam_q_no": 26,
+      "stem_jp": "高橋さんの家はキッチンが広くていいですね。",
+      "target": "キッチン",
+      "meaning_vi": "bếp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "玄関"
+        },
+        {
+          "key": "2",
+          "text_jp": "台所"
+        },
+        {
+          "key": "3",
+          "text_jp": "部屋"
+        },
+        {
+          "key": "4",
+          "text_jp": "廊下"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p7-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 7,
+      "knowledge_id": "nearmiss:位置",
+      "exam_q_no": 27,
+      "stem_jp": "机の位置を確認しておいてください。",
+      "target": "位置",
+      "meaning_vi": "vị trí",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "値段"
+        },
+        {
+          "key": "2",
+          "text_jp": "場所"
+        },
+        {
+          "key": "3",
+          "text_jp": "数"
+        },
+        {
+          "key": "4",
+          "text_jp": "色"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p7-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 7,
+      "knowledge_id": "nearmiss:売り切れた",
+      "exam_q_no": 28,
+      "stem_jp": "その商品は売り切れた。",
+      "target": "売り切れた",
+      "meaning_vi": "hết hàng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "全部売れた"
+        },
+        {
+          "key": "2",
+          "text_jp": "全部売れなかった"
+        },
+        {
+          "key": "3",
+          "text_jp": "だんだん売れなくなってきた"
+        },
+        {
+          "key": "4",
+          "text_jp": "よく売れるようになってきた"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p7-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 7,
+      "knowledge_id": "nearmiss:わけ",
+      "exam_q_no": 29,
+      "stem_jp": "今度、わけを教えてください。",
+      "target": "わけ",
+      "meaning_vi": "lý do",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "計画"
+        },
+        {
+          "key": "2",
+          "text_jp": "意見"
+        },
+        {
+          "key": "3",
+          "text_jp": "規則"
+        },
+        {
+          "key": "4",
+          "text_jp": "理由"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p7-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 7,
+      "knowledge_id": "nearmiss:回収",
+      "exam_q_no": 30,
+      "stem_jp": "今からアンケートを回収します。",
+      "target": "回収",
+      "meaning_vi": "thu hồi",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "渡す"
+        },
+        {
+          "key": "2",
+          "text_jp": "贈る"
+        },
+        {
+          "key": "3",
+          "text_jp": "集める"
+        },
+        {
+          "key": "4",
+          "text_jp": "始める"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p8-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 8,
+      "knowledge_id": "nearmiss:あきらめなかった",
+      "exam_q_no": 26,
+      "stem_jp": "何度失敗しても、彼女はあきらめなかった。",
+      "target": "あきらめなかった",
+      "meaning_vi": "từ bỏ, đầu hàng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "気にしなかった"
+        },
+        {
+          "key": "2",
+          "text_jp": "やめようとしなかった"
+        },
+        {
+          "key": "3",
+          "text_jp": "怒らなかった"
+        },
+        {
+          "key": "4",
+          "text_jp": "謝ろうとしなかった"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p8-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 8,
+      "knowledge_id": "nearmiss:年中",
+      "exam_q_no": 27,
+      "stem_jp": "あのスーパーは、年中、セールをしている。",
+      "target": "年中",
+      "meaning_vi": "suốt cả năm, luôn luôn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "最近"
+        },
+        {
+          "key": "2",
+          "text_jp": "ときどき"
+        },
+        {
+          "key": "3",
+          "text_jp": "いつも"
+        },
+        {
+          "key": "4",
+          "text_jp": "前から"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p8-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 8,
+      "knowledge_id": "nearmiss:うばわれて",
+      "exam_q_no": 28,
+      "stem_jp": "相手の選手にボールをうばわれてしまった。",
+      "target": "うばわれて",
+      "meaning_vi": "bị cướp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "入れられて"
+        },
+        {
+          "key": "2",
+          "text_jp": "止められて"
+        },
+        {
+          "key": "3",
+          "text_jp": "打たれて"
+        },
+        {
+          "key": "4",
+          "text_jp": "取られて"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p8-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 8,
+      "knowledge_id": "nearmiss:そっと",
+      "exam_q_no": 29,
+      "stem_jp": "もう会議が始まっていますから、そっと中に入ってください。",
+      "target": "そっと",
+      "meaning_vi": "lặng lẽ, yên ắng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "後ろから"
+        },
+        {
+          "key": "2",
+          "text_jp": "急いで"
+        },
+        {
+          "key": "3",
+          "text_jp": "静かに"
+        },
+        {
+          "key": "4",
+          "text_jp": "一人ずつ"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p8-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 8,
+      "knowledge_id": "nearmiss:まぶしくて",
+      "exam_q_no": 30,
+      "stem_jp": "まぶしくてポスターの字がよく見えない。",
+      "target": "まぶしくて",
+      "meaning_vi": "chói",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "明るすぎて"
+        },
+        {
+          "key": "2",
+          "text_jp": "遠すぎて"
+        },
+        {
+          "key": "3",
+          "text_jp": "薄すぎて"
+        },
+        {
+          "key": "4",
+          "text_jp": "小さすぎて"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p9-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 9,
+      "knowledge_id": "nearmiss:欠点",
+      "exam_q_no": 26,
+      "stem_jp": "それがこの辞書の欠点なんです。",
+      "target": "欠点",
+      "meaning_vi": "khuyết điểm",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "すきなところ"
+        },
+        {
+          "key": "2",
+          "text_jp": "いいところ"
+        },
+        {
+          "key": "3",
+          "text_jp": "きらいなところ"
+        },
+        {
+          "key": "4",
+          "text_jp": "わるいところ"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p9-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 9,
+      "knowledge_id": "nearmiss:翌年",
+      "exam_q_no": 27,
+      "stem_jp": "彼が留学したのは、大学卒業の翌年です。",
+      "target": "翌年",
+      "meaning_vi": "năm sau",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "前の前の年"
+        },
+        {
+          "key": "2",
+          "text_jp": "次の次の年"
+        },
+        {
+          "key": "3",
+          "text_jp": "前の年"
+        },
+        {
+          "key": "4",
+          "text_jp": "次の年"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p9-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 9,
+      "knowledge_id": "nearmiss:スケジュール",
+      "exam_q_no": 28,
+      "stem_jp": "来週の会議のスケジュールについて連絡があった。",
+      "target": "スケジュール",
+      "meaning_vi": "lịch trình, kế hoạch",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "準備"
+        },
+        {
+          "key": "2",
+          "text_jp": "予定"
+        },
+        {
+          "key": "3",
+          "text_jp": "場所"
+        },
+        {
+          "key": "4",
+          "text_jp": "資料"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p9-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 9,
+      "knowledge_id": "nearmiss:らくな",
+      "exam_q_no": 29,
+      "stem_jp": "彼にはらくな仕事を頼んだ。",
+      "target": "らくな",
+      "meaning_vi": "dễ dàng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "だいじな"
+        },
+        {
+          "key": "2",
+          "text_jp": "こまかい"
+        },
+        {
+          "key": "3",
+          "text_jp": "かんたんな"
+        },
+        {
+          "key": "4",
+          "text_jp": "あたらしい"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p9-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 9,
+      "knowledge_id": "nearmiss:さっき",
+      "exam_q_no": 30,
+      "stem_jp": "田中さんからさっき電話がありましたよ。",
+      "target": "さっき",
+      "meaning_vi": "ban nãy",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ずっと前に"
+        },
+        {
+          "key": "2",
+          "text_jp": "少し前に"
+        },
+        {
+          "key": "3",
+          "text_jp": "何回か"
+        },
+        {
+          "key": "4",
+          "text_jp": "何回も"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p10-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 10,
+      "knowledge_id": "nearmiss:団体",
+      "exam_q_no": 26,
+      "stem_jp": "旅行中は団体で移動した。",
+      "target": "団体",
+      "meaning_vi": "nhóm, tập thể",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "一人で"
+        },
+        {
+          "key": "2",
+          "text_jp": "グループで"
+        },
+        {
+          "key": "3",
+          "text_jp": "歩いて"
+        },
+        {
+          "key": "4",
+          "text_jp": "タクシーで"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p10-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 10,
+      "knowledge_id": "nearmiss:しゃべらない",
+      "exam_q_no": 27,
+      "stem_jp": "ここではしゃべらないでください。",
+      "target": "しゃべらない",
+      "meaning_vi": "nói chuyện",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "騒がないで"
+        },
+        {
+          "key": "2",
+          "text_jp": "食べないで"
+        },
+        {
+          "key": "3",
+          "text_jp": "遊ばないで"
+        },
+        {
+          "key": "4",
+          "text_jp": "話さないで"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p10-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 10,
+      "knowledge_id": "nearmiss:退屈",
+      "exam_q_no": 28,
+      "stem_jp": "今日は退屈だった。",
+      "target": "退屈",
+      "meaning_vi": "chán",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "楽しかった"
+        },
+        {
+          "key": "2",
+          "text_jp": "つまらなかった"
+        },
+        {
+          "key": "3",
+          "text_jp": "忙しかった"
+        },
+        {
+          "key": "4",
+          "text_jp": "静かだった"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p10-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 10,
+      "knowledge_id": "nearmiss:多少",
+      "exam_q_no": 29,
+      "stem_jp": "このレストランは、多少うるさいが、料理はおいしい。",
+      "target": "多少",
+      "meaning_vi": "một chút, một ít",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "いつも"
+        },
+        {
+          "key": "2",
+          "text_jp": "とても"
+        },
+        {
+          "key": "3",
+          "text_jp": "ちょっと"
+        },
+        {
+          "key": "4",
+          "text_jp": "ときどき"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p10-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 10,
+      "knowledge_id": "nearmiss:駆けて",
+      "exam_q_no": 30,
+      "stem_jp": "子どもたちがこちらに駆けてきた。",
+      "target": "駆けて",
+      "meaning_vi": "chạy nhanh",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "走ってきた"
+        },
+        {
+          "key": "2",
+          "text_jp": "登ってきた"
+        },
+        {
+          "key": "3",
+          "text_jp": "入ってきた"
+        },
+        {
+          "key": "4",
+          "text_jp": "集まってきた"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p11-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 11,
+      "knowledge_id": "nearmiss:さっき",
+      "exam_q_no": 26,
+      "stem_jp": "山口さんならさっき帰りましたよ。",
+      "target": "さっき",
+      "meaning_vi": "ban nãy",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "すぐに"
+        },
+        {
+          "key": "2",
+          "text_jp": "ずっと前に"
+        },
+        {
+          "key": "3",
+          "text_jp": "やっと"
+        },
+        {
+          "key": "4",
+          "text_jp": "少し前に"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p11-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 11,
+      "knowledge_id": "nearmiss:おかしな",
+      "exam_q_no": 27,
+      "stem_jp": "隣の部屋からおかしな音が聞こえる。",
+      "target": "おかしな",
+      "meaning_vi": "kỳ lạ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "いろいろな"
+        },
+        {
+          "key": "2",
+          "text_jp": "にぎやかな"
+        },
+        {
+          "key": "3",
+          "text_jp": "へんな"
+        },
+        {
+          "key": "4",
+          "text_jp": "大きな"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p11-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 11,
+      "knowledge_id": "nearmiss:たちました",
+      "exam_q_no": 28,
+      "stem_jp": "あれから約1週間たちました。",
+      "target": "たちました",
+      "meaning_vi": "trải qua, trôi qua",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "過ぎました"
+        },
+        {
+          "key": "2",
+          "text_jp": "かかりました"
+        },
+        {
+          "key": "3",
+          "text_jp": "待ちました"
+        },
+        {
+          "key": "4",
+          "text_jp": "続けました"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p11-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 11,
+      "knowledge_id": "nearmiss:あわてて",
+      "exam_q_no": 29,
+      "stem_jp": "山本さんはあわてて出ていきましたよ。",
+      "target": "あわてて",
+      "meaning_vi": "vội vàng, gấp gáp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "困ったようすで"
+        },
+        {
+          "key": "2",
+          "text_jp": "急いだようすで"
+        },
+        {
+          "key": "3",
+          "text_jp": "疲れたようすで"
+        },
+        {
+          "key": "4",
+          "text_jp": "怒ったようすで"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p11-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 11,
+      "knowledge_id": "nearmiss:カーブして",
+      "exam_q_no": 30,
+      "stem_jp": "道がカーブしているので、気をつけてください。",
+      "target": "カーブして",
+      "meaning_vi": "quanh co, uốn khúc",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "曲がっている"
+        },
+        {
+          "key": "2",
+          "text_jp": "坂になっている"
+        },
+        {
+          "key": "3",
+          "text_jp": "暗くなっている"
+        },
+        {
+          "key": "4",
+          "text_jp": "狭くなっている"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p12-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 12,
+      "knowledge_id": "nearmiss:サイズ",
+      "exam_q_no": 26,
+      "stem_jp": "これと同じサイズの皿はありますか。",
+      "target": "サイズ",
+      "meaning_vi": "size, kích cỡ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "大きさ"
+        },
+        {
+          "key": "2",
+          "text_jp": "値段"
+        },
+        {
+          "key": "3",
+          "text_jp": "色"
+        },
+        {
+          "key": "4",
+          "text_jp": "形"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p12-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 12,
+      "knowledge_id": "nearmiss:注文",
+      "exam_q_no": 27,
+      "stem_jp": "サラダはもう注文しましたか。",
+      "target": "注文",
+      "meaning_vi": "đặt hàng, yêu cầu",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "作りましたか"
+        },
+        {
+          "key": "2",
+          "text_jp": "たのみましたか"
+        },
+        {
+          "key": "3",
+          "text_jp": "食べましたか"
+        },
+        {
+          "key": "4",
+          "text_jp": "はこびましたか"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p12-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 12,
+      "knowledge_id": "nearmiss:たしかめて",
+      "exam_q_no": 28,
+      "stem_jp": "すみませんが、もう一回たしかめてくれませんか。",
+      "target": "たしかめて",
+      "meaning_vi": "xác nhận",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "コピーして"
+        },
+        {
+          "key": "2",
+          "text_jp": "メモして"
+        },
+        {
+          "key": "3",
+          "text_jp": "メールして"
+        },
+        {
+          "key": "4",
+          "text_jp": "チェックして"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p12-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 12,
+      "knowledge_id": "nearmiss:このごろ",
+      "exam_q_no": 29,
+      "stem_jp": "山田さんはこのごろ忙しそうですね。",
+      "target": "このごろ",
+      "meaning_vi": "dạo gần đây",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ずっと"
+        },
+        {
+          "key": "2",
+          "text_jp": "いつも"
+        },
+        {
+          "key": "3",
+          "text_jp": "まだ"
+        },
+        {
+          "key": "4",
+          "text_jp": "さいきん"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p12-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 12,
+      "knowledge_id": "nearmiss:しゃべっている",
+      "exam_q_no": 30,
+      "stem_jp": "さっきからあの子ばかりしゃべっている。",
+      "target": "しゃべっている",
+      "meaning_vi": "tán gẫu, nói chuyện",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "騒いで"
+        },
+        {
+          "key": "2",
+          "text_jp": "話して"
+        },
+        {
+          "key": "3",
+          "text_jp": "答えて"
+        },
+        {
+          "key": "4",
+          "text_jp": "遊んで"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p13-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 13,
+      "knowledge_id": "nearmiss:共通点",
+      "exam_q_no": 26,
+      "stem_jp": "これらのやり方には、共通点があります。",
+      "target": "共通点",
+      "meaning_vi": "điểm chung",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "悪いところ"
+        },
+        {
+          "key": "2",
+          "text_jp": "いいところ"
+        },
+        {
+          "key": "3",
+          "text_jp": "違うところ"
+        },
+        {
+          "key": "4",
+          "text_jp": "同じところ"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p13-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 13,
+      "knowledge_id": "nearmiss:整理した",
+      "exam_q_no": 27,
+      "stem_jp": "書類をみんなで整理した。",
+      "target": "整理した",
+      "meaning_vi": "sắp xếp, dọn dẹp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "数えた"
+        },
+        {
+          "key": "2",
+          "text_jp": "片付けた"
+        },
+        {
+          "key": "3",
+          "text_jp": "運んだ"
+        },
+        {
+          "key": "4",
+          "text_jp": "探した"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p13-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 13,
+      "knowledge_id": "nearmiss:ぜったいに",
+      "exam_q_no": 28,
+      "stem_jp": "田中さんはぜったいに来ると思います。",
+      "target": "ぜったいに",
+      "meaning_vi": "nhất định, tuyệt đối",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "すぐに"
+        },
+        {
+          "key": "2",
+          "text_jp": "たぶん"
+        },
+        {
+          "key": "3",
+          "text_jp": "かならず"
+        },
+        {
+          "key": "4",
+          "text_jp": "あとから"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p13-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 13,
+      "knowledge_id": "nearmiss:ないしょに",
+      "exam_q_no": 29,
+      "stem_jp": "このことは、ないしょにしてください。",
+      "target": "ないしょに",
+      "meaning_vi": "kín đáo, bí mật",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "だれにも話さないで"
+        },
+        {
+          "key": "2",
+          "text_jp": "いろいろな人に話して"
+        },
+        {
+          "key": "3",
+          "text_jp": "早く忘れて"
+        },
+        {
+          "key": "4",
+          "text_jp": "忘れないで"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p13-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 13,
+      "knowledge_id": "nearmiss:気に入っている",
+      "exam_q_no": 30,
+      "stem_jp": "このCDの中で一番気に入っている曲はこれです。",
+      "target": "気に入っている",
+      "meaning_vi": "yêu thích",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "人気がある"
+        },
+        {
+          "key": "2",
+          "text_jp": "よく覚えている"
+        },
+        {
+          "key": "3",
+          "text_jp": "好きな"
+        },
+        {
+          "key": "4",
+          "text_jp": "楽しい"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p14-q26",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 14,
+      "knowledge_id": "nearmiss:通勤",
+      "exam_q_no": 26,
+      "stem_jp": "わたしは妻と一緒に通勤しています。",
+      "target": "通勤",
+      "meaning_vi": "đi làm",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "仕事に行って"
+        },
+        {
+          "key": "2",
+          "text_jp": "勉強に行って"
+        },
+        {
+          "key": "3",
+          "text_jp": "買い物に行って"
+        },
+        {
+          "key": "4",
+          "text_jp": "散歩に行って"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p14-q27",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 14,
+      "knowledge_id": "nearmiss:おそろしい",
+      "exam_q_no": 27,
+      "stem_jp": "とてもおそろしい経験をした。",
+      "target": "おそろしい",
+      "meaning_vi": "đáng sợ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "たのしい"
+        },
+        {
+          "key": "2",
+          "text_jp": "うれしい"
+        },
+        {
+          "key": "3",
+          "text_jp": "はずかしい"
+        },
+        {
+          "key": "4",
+          "text_jp": "こわい"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p14-q28",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 14,
+      "knowledge_id": "nearmiss:わけ",
+      "exam_q_no": 28,
+      "stem_jp": "先生にわけを話した。",
+      "target": "わけ",
+      "meaning_vi": "lý do, nguyên nhân",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "アイディア"
+        },
+        {
+          "key": "2",
+          "text_jp": "ルール"
+        },
+        {
+          "key": "3",
+          "text_jp": "理由"
+        },
+        {
+          "key": "4",
+          "text_jp": "秘密"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p14-q29",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 14,
+      "knowledge_id": "nearmiss:へった",
+      "exam_q_no": 29,
+      "stem_jp": "最近、この川は水がへった気がする。",
+      "target": "へった",
+      "meaning_vi": "giảm xuống",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "多くなった"
+        },
+        {
+          "key": "2",
+          "text_jp": "少なくなった"
+        },
+        {
+          "key": "3",
+          "text_jp": "きれいになった"
+        },
+        {
+          "key": "4",
+          "text_jp": "きたなくなった"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "nearsyn-p14-q30",
+      "type": "practice",
+      "subtype": "near_synonym_mcq",
+      "level": "N3",
+      "source_file": "Từ gần nghĩa N3 các năm.pdf",
+      "source_path": "study-materials/Từ gần nghĩa N3 các năm.pdf",
+      "source_page": 14,
+      "knowledge_id": "nearmiss:やりなおした",
+      "exam_q_no": 30,
+      "stem_jp": "実験がうまくいかなかったので、やりなおした。",
+      "target": "やりなおした",
+      "meaning_vi": "làm lại",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "やり方を調べた"
+        },
+        {
+          "key": "2",
+          "text_jp": "やり方を教わった"
+        },
+        {
+          "key": "3",
+          "text_jp": "もう一度やった"
+        },
+        {
+          "key": "4",
+          "text_jp": "やるのを途中でやめた"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    }
+  ]
+}

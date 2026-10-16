@@ -1,0 +1,1153 @@
+{
+  "schema_version": "1.0",
+  "document_id": "cau-hoi-kho-de-lua-jlpt-n3",
+  "type": "practice",
+  "level": "N3",
+  "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+  "source_path": "study-materials/CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+  "title": "Câu hỏi khó / dễ lừa JLPT N3 các năm",
+  "page_count": null,
+  "item_count": 30,
+  "expected_item_count": null,
+  "content_source": "pdf_extract",
+  "produced_at": "2026-10-16T05:28:44+00:00",
+  "producer": "n3-exam-solver/linguistic",
+  "status": "verified",
+  "needs_verify_count": 0,
+  "notes": [
+    "Đáp án linguistic từ phân tích đề (PDF slide không in key rõ). answer_source=linguistic.",
+    "Stem đã bổ sung từ text layer PDF + preview khi OCR cắt.",
+    "Q8 choices chuẩn hoá 記録/記緑/紀録/記縁 (OCR trùng).",
+    "Q25: sửa 中島線→中島さん theo ngữ cảnh câu."
+  ],
+  "items": [
+    {
+      "id": "hard-q-001",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 2,
+      "knowledge_id": "kanji:過去",
+      "exam_label": "N3-12/2011",
+      "stem_jp": "過去",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "かきょ"
+        },
+        {
+          "key": "B",
+          "text_jp": "かこう"
+        },
+        {
+          "key": "C",
+          "text_jp": "かこ"
+        },
+        {
+          "key": "D",
+          "text_jp": "かきょう"
+        }
+      ],
+      "correct_answer": "C",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 1,
+      "answer_source": "linguistic",
+      "explanation": "過去 = かこ. Bẫy かこう/かきょ.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-002",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 3,
+      "knowledge_id": "kanji:法律",
+      "exam_label": "N3-12/2011",
+      "stem_jp": "大学ではほうりつを勉強しました。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "法健"
+        },
+        {
+          "key": "B",
+          "text_jp": "方律"
+        },
+        {
+          "key": "C",
+          "text_jp": "法律"
+        },
+        {
+          "key": "D",
+          "text_jp": "法建"
+        }
+      ],
+      "correct_answer": "C",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 2,
+      "answer_source": "linguistic",
+      "explanation": "ほうりつ = 法律.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-003",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 4,
+      "knowledge_id": "kanji:観光",
+      "exam_label": "N3-12/2011",
+      "stem_jp": "いつか京都をゆっくりかんこうしたい。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "観光"
+        },
+        {
+          "key": "B",
+          "text_jp": "観察"
+        },
+        {
+          "key": "C",
+          "text_jp": "歓光"
+        },
+        {
+          "key": "D",
+          "text_jp": "歓察"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 3,
+      "answer_source": "linguistic",
+      "explanation": "かんこう = 観光 (du lịch).",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-004",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 5,
+      "knowledge_id": "kanji:券",
+      "exam_label": "N3-12/2011",
+      "stem_jp": "当日、このけんを忘れないようにしてください。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "巻"
+        },
+        {
+          "key": "B",
+          "text_jp": "券"
+        },
+        {
+          "key": "C",
+          "text_jp": "募"
+        },
+        {
+          "key": "D",
+          "text_jp": "港"
+        }
+      ],
+      "correct_answer": "B",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 4,
+      "answer_source": "linguistic",
+      "explanation": "けん (vé) = 券.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-005",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 6,
+      "knowledge_id": "kanji:外科",
+      "exam_label": "N3-12/2020",
+      "stem_jp": "田中さんは外科のお医者さんです。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "がいか"
+        },
+        {
+          "key": "B",
+          "text_jp": "げか"
+        },
+        {
+          "key": "C",
+          "text_jp": "げいか"
+        },
+        {
+          "key": "D",
+          "text_jp": "がか"
+        }
+      ],
+      "correct_answer": "B",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 5,
+      "answer_source": "linguistic",
+      "explanation": "外科 = げか (ngoại khoa).",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-006",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 7,
+      "knowledge_id": "kanji:横断",
+      "exam_label": "N3-12/2020",
+      "stem_jp": "道路を横断するときは、車に十分注意してください。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "おうだん"
+        },
+        {
+          "key": "B",
+          "text_jp": "よこだん"
+        },
+        {
+          "key": "C",
+          "text_jp": "おうたん"
+        },
+        {
+          "key": "D",
+          "text_jp": "よこたん"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 6,
+      "answer_source": "linguistic",
+      "explanation": "横断 = おうだん.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-007",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 8,
+      "knowledge_id": "kanji:合図",
+      "exam_label": "N3-12/2020",
+      "stem_jp": "私が合図をしたら、始めてください。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "ごうと"
+        },
+        {
+          "key": "B",
+          "text_jp": "あいと"
+        },
+        {
+          "key": "C",
+          "text_jp": "ごうず"
+        },
+        {
+          "key": "D",
+          "text_jp": "あいず"
+        }
+      ],
+      "correct_answer": "D",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 7,
+      "answer_source": "linguistic",
+      "explanation": "合図 = あいず.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-008",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 9,
+      "knowledge_id": "kanji:記録",
+      "exam_label": "N3-12/2020",
+      "stem_jp": "会議で決まったことをきちんときろくしておいてください。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "記録"
+        },
+        {
+          "key": "B",
+          "text_jp": "記緑"
+        },
+        {
+          "key": "C",
+          "text_jp": "紀録"
+        },
+        {
+          "key": "D",
+          "text_jp": "記縁"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 8,
+      "answer_source": "linguistic",
+      "explanation": "きろく = 記録 (ghi chép). Bẫy 緑/紀/縁.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-009",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 10,
+      "knowledge_id": "kanji:倍",
+      "exam_label": "N3-12/2015",
+      "stem_jp": "米の輸出量が去年の２ばいになった。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "培"
+        },
+        {
+          "key": "B",
+          "text_jp": "倍"
+        },
+        {
+          "key": "C",
+          "text_jp": "増"
+        }
+      ],
+      "correct_answer": "B",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 9,
+      "answer_source": "linguistic",
+      "explanation": "２ばい = 倍.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-010",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 11,
+      "knowledge_id": "kanji:血液",
+      "exam_label": "N3-12/2015",
+      "stem_jp": "病院で血液型を調べました。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "ちいきがた"
+        },
+        {
+          "key": "B",
+          "text_jp": "けついきがた"
+        },
+        {
+          "key": "C",
+          "text_jp": "ちえきがた"
+        },
+        {
+          "key": "D",
+          "text_jp": "けつえきがた"
+        }
+      ],
+      "correct_answer": "D",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 10,
+      "answer_source": "linguistic",
+      "explanation": "血液型 = けつえきがた.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-011",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 12,
+      "knowledge_id": "kanji:湖",
+      "exam_label": "N3-12/2015",
+      "stem_jp": "湖の上を白い鳥が飛んでいる。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "みずうみ"
+        },
+        {
+          "key": "B",
+          "text_jp": "みなと"
+        },
+        {
+          "key": "C",
+          "text_jp": "いけ"
+        },
+        {
+          "key": "D",
+          "text_jp": "べんか"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 11,
+      "answer_source": "linguistic",
+      "explanation": "湖 = みずうみ.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-012",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 13,
+      "knowledge_id": "kanji:願",
+      "exam_label": "N3-12/2015",
+      "stem_jp": "家族の幸せをねがっている。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "願って"
+        },
+        {
+          "key": "B",
+          "text_jp": "頼って"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 12,
+      "answer_source": "linguistic",
+      "explanation": "ねがう = 願う (cầu mong), không phải 頼る.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-013",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 14,
+      "knowledge_id": "kanji:部分",
+      "exam_label": "N3-07/2018",
+      "stem_jp": "この部分をよく見てください。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "ぶふん"
+        },
+        {
+          "key": "B",
+          "text_jp": "ぶうぶん"
+        },
+        {
+          "key": "C",
+          "text_jp": "ぶぶん"
+        },
+        {
+          "key": "D",
+          "text_jp": "ぶうふん"
+        }
+      ],
+      "correct_answer": "C",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 13,
+      "answer_source": "linguistic",
+      "explanation": "部分 = ぶぶん.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-014",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 15,
+      "knowledge_id": "kanji:疲",
+      "exam_label": "N3-07/2018",
+      "stem_jp": "つかれ",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "病れ"
+        },
+        {
+          "key": "B",
+          "text_jp": "疲れ"
+        },
+        {
+          "key": "C",
+          "text_jp": "痛れ"
+        },
+        {
+          "key": "D",
+          "text_jp": "波れ"
+        }
+      ],
+      "correct_answer": "B",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 14,
+      "answer_source": "linguistic",
+      "explanation": "つかれ = 疲れ.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-015",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 16,
+      "knowledge_id": "kanji:右折",
+      "exam_label": "N3-07/2018",
+      "stem_jp": "この交差点はうせつできません。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "右折"
+        },
+        {
+          "key": "B",
+          "text_jp": "左折"
+        },
+        {
+          "key": "C",
+          "text_jp": "右曲"
+        },
+        {
+          "key": "D",
+          "text_jp": "左曲"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 15,
+      "answer_source": "linguistic",
+      "explanation": "うせつ = 右折 (rẽ phải).",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-016",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 17,
+      "knowledge_id": "kanji:血圧",
+      "exam_label": "N3-07/2018",
+      "stem_jp": "血圧が前よりも高かったよ。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "ちど"
+        },
+        {
+          "key": "B",
+          "text_jp": "けつど"
+        },
+        {
+          "key": "C",
+          "text_jp": "けつあつ"
+        },
+        {
+          "key": "D",
+          "text_jp": "ちあつ"
+        }
+      ],
+      "correct_answer": "C",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 16,
+      "answer_source": "linguistic",
+      "explanation": "血圧 = けつあつ.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-017",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 18,
+      "knowledge_id": "kanji:週刊誌",
+      "exam_label": "N3-07/2018",
+      "stem_jp": "高橋さんにしゅうかんしを買ってきてもらった。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "週刊誌"
+        },
+        {
+          "key": "B",
+          "text_jp": "週完誌"
+        },
+        {
+          "key": "C",
+          "text_jp": "週刊志"
+        },
+        {
+          "key": "D",
+          "text_jp": "週完記"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 17,
+      "answer_source": "linguistic",
+      "explanation": "しゅうかんし = 週刊誌.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-018",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 19,
+      "knowledge_id": "kanji:厚",
+      "exam_label": "N3-07/2018",
+      "stem_jp": "もうちょっとあついのが欲しいです。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "厚い"
+        },
+        {
+          "key": "B",
+          "text_jp": "深い"
+        },
+        {
+          "key": "C",
+          "text_jp": "暑い"
+        },
+        {
+          "key": "D",
+          "text_jp": "浅い"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 18,
+      "answer_source": "linguistic",
+      "explanation": "あついの = thứ dày hơn (sách/áo…) → 厚い, không phải 暑い thời tiết.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-019",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 20,
+      "knowledge_id": "kanji:物語",
+      "exam_label": "N3-07/2010",
+      "stem_jp": "このものがたりは誰でも知っている。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "物語"
+        },
+        {
+          "key": "B",
+          "text_jp": "物化"
+        },
+        {
+          "key": "C",
+          "text_jp": "物記"
+        },
+        {
+          "key": "D",
+          "text_jp": "物話"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 19,
+      "answer_source": "linguistic",
+      "explanation": "ものがたり = 物語.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-020",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 21,
+      "knowledge_id": "kanji:根",
+      "exam_label": "N3-07/2013",
+      "stem_jp": "その木の根は薬にもなるそうです。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "ね"
+        },
+        {
+          "key": "B",
+          "text_jp": "は"
+        },
+        {
+          "key": "C",
+          "text_jp": "かわ"
+        },
+        {
+          "key": "D",
+          "text_jp": "め"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 20,
+      "answer_source": "linguistic",
+      "explanation": "根 = ね.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-021",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 22,
+      "knowledge_id": "kanji:容器",
+      "exam_label": "N3-07/2013",
+      "stem_jp": "この工場ではプラスチックのようきを生産しています。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "容器"
+        },
+        {
+          "key": "B",
+          "text_jp": "溶器"
+        },
+        {
+          "key": "C",
+          "text_jp": "容機"
+        },
+        {
+          "key": "D",
+          "text_jp": "溶機"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 21,
+      "answer_source": "linguistic",
+      "explanation": "ようき = 容器.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-022",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 23,
+      "knowledge_id": "kanji:合図",
+      "exam_label": "N3-12/2020",
+      "stem_jp": "私が合図をしたら、始めてください。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "ごうと"
+        },
+        {
+          "key": "B",
+          "text_jp": "あいと"
+        },
+        {
+          "key": "C",
+          "text_jp": "ごうず"
+        },
+        {
+          "key": "D",
+          "text_jp": "あいず"
+        }
+      ],
+      "correct_answer": "D",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 22,
+      "answer_source": "linguistic",
+      "explanation": "Trùng kiểu Q7: 合図 = あいず.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-023",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 24,
+      "knowledge_id": "vocab:縮小",
+      "exam_label": "N3-12/2014",
+      "stem_jp": "縮小",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "ここは病院ですから、もう少し声を縮小してください。"
+        },
+        {
+          "key": "B",
+          "text_jp": "作文を何度も書き直していたら消しゴムが縮小してしまいました。"
+        },
+        {
+          "key": "C",
+          "text_jp": "この写真はちょっと大きいので、コピーするときに少し縮小してください。"
+        },
+        {
+          "key": "D",
+          "text_jp": "そのゲームでは何度も遊んだので、もう興味が縮小しました。"
+        }
+      ],
+      "correct_answer": "C",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 23,
+      "answer_source": "linguistic",
+      "explanation": "縮小 = thu nhỏ (ảnh/bản copy). Không dùng cho tiếng nói / cục tẩy / hứng thú.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-024",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 25,
+      "knowledge_id": "vocab:どなる",
+      "exam_label": "N3-12/2017",
+      "stem_jp": "高橋さんにどなられた。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "大声で怒られた"
+        },
+        {
+          "key": "B",
+          "text_jp": "小声で怒られた"
+        },
+        {
+          "key": "C",
+          "text_jp": "大声で笑われた"
+        },
+        {
+          "key": "D",
+          "text_jp": "小声で笑われた"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 24,
+      "answer_source": "linguistic",
+      "explanation": "どなる = quát lớn → 大声で怒られた.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-025",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 26,
+      "knowledge_id": "vocab:あらゆる",
+      "exam_label": "N3-12/2017",
+      "stem_jp": "中島さんはあらゆる質問に丁寧に答えた。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "一つの"
+        },
+        {
+          "key": "B",
+          "text_jp": "全部の"
+        },
+        {
+          "key": "C",
+          "text_jp": "難しい"
+        },
+        {
+          "key": "D",
+          "text_jp": "簡単な"
+        }
+      ],
+      "correct_answer": "B",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 25,
+      "answer_source": "linguistic",
+      "explanation": "あらゆる = mọi / tất cả → 全部の. (Tên 中島さん bị OCR thành 中島線.)",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-026",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:バケツ",
+      "exam_label": "N3-12/2018",
+      "stem_jp": "掃除をするので、この（　）に水を入れてください。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "ロッカー"
+        },
+        {
+          "key": "B",
+          "text_jp": "バケツ"
+        },
+        {
+          "key": "C",
+          "text_jp": "ブラシ"
+        },
+        {
+          "key": "D",
+          "text_jp": "タオル"
+        }
+      ],
+      "correct_answer": "B",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 26,
+      "answer_source": "linguistic",
+      "explanation": "Đổ nước vào → バケツ (xô).",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-027",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:乾燥",
+      "exam_label": "N3-12/2015",
+      "stem_jp": "この国は雨が少ないので、いつも空気が（　）している。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "乾燥"
+        },
+        {
+          "key": "B",
+          "text_jp": "縮小"
+        },
+        {
+          "key": "C",
+          "text_jp": "減少"
+        },
+        {
+          "key": "D",
+          "text_jp": "沸騰"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 27,
+      "answer_source": "linguistic",
+      "explanation": "空気が乾燥している = không khí khô.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-028",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 29,
+      "knowledge_id": "grammar:なさる",
+      "exam_label": "N3-07/2018",
+      "stem_jp": "レストランで\n客「ランチセットを一つお願いします。」\n店員「AセットとBセットのどちらに（　）か。」\n客「あ、Aセットをお願いします。」",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "食べられます"
+        },
+        {
+          "key": "B",
+          "text_jp": "差し上げます"
+        },
+        {
+          "key": "C",
+          "text_jp": "なさいます"
+        },
+        {
+          "key": "D",
+          "text_jp": "ございます"
+        }
+      ],
+      "correct_answer": "C",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 28,
+      "answer_source": "linguistic",
+      "explanation": "どちらになさいますか = quý khách chọn bên nào (kính ngữ).",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-029",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 30,
+      "knowledge_id": "grammar:ないといけない",
+      "exam_label": "N3-07/2018",
+      "stem_jp": "医者「この薬を、3日間、1日3回飲んでください。」\n患者「わかりました。痛みがないときも、（　）。」\n医者「はい。必ず飲んでください。」",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "飲まないほうがよさそうですね"
+        },
+        {
+          "key": "B",
+          "text_jp": "飲まないといけないでしょうか"
+        },
+        {
+          "key": "C",
+          "text_jp": "飲まなくても仕方ないですね"
+        },
+        {
+          "key": "D",
+          "text_jp": "飲まなければいいんでしょうか"
+        }
+      ],
+      "correct_answer": "B",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 29,
+      "answer_source": "linguistic",
+      "explanation": "Bệnh nhân hỏi: khi không đau cũng phải uống chứ? → 飲まないといけないでしょうか.",
+      "producer": "ai_solver"
+    },
+    {
+      "id": "hard-q-030",
+      "type": "practice",
+      "subtype": "hard_trap_mcq",
+      "level": "N3",
+      "source_file": "CÂU HỎI KHÓ DỄ LỪA JLPT N3 CHÍNH THỨC CÁC NĂM PHẦN 22.pdf",
+      "source_page": 31,
+      "knowledge_id": "grammar:てほしい",
+      "exam_label": "N3-12/2012",
+      "stem_jp": "今日は祖父の80歳の誕生日だ。大好きな祖父には、いつまでも元気で長生き（　）。",
+      "choices": [
+        {
+          "key": "A",
+          "text_jp": "してほしい"
+        },
+        {
+          "key": "B",
+          "text_jp": "したがる"
+        },
+        {
+          "key": "C",
+          "text_jp": "していたい"
+        },
+        {
+          "key": "D",
+          "text_jp": "したがっている"
+        }
+      ],
+      "correct_answer": "A",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "no": 30,
+      "answer_source": "linguistic",
+      "explanation": "Muốn ông sống lâu → 長生きしてほしい.",
+      "producer": "ai_solver"
+    }
+  ]
+}

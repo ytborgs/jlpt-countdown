@@ -1,0 +1,1994 @@
+{
+  "schema_version": "1.0",
+  "document_id": "50-cau-hoi-cach-dung-tu-n3",
+  "type": "practice",
+  "level": "N3",
+  "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+  "source_path": "study-materials/50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+  "title": "50 câu hỏi cách dùng từ N3 có đáp án",
+  "page_count": 52,
+  "item_count": 50,
+  "expected_item_count": 50,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-16T03:59:20+00:00",
+  "producer": "n3-study-extractor/build_from_visual",
+  "status": "verified",
+  "needs_verify_count": 0,
+  "notes": [
+    "PDF scanned chép từ preview PNG; không OCR tự động.",
+    "Đã lấy 50/50 câu."
+  ],
+  "items": [
+    {
+      "id": "usage-q-01",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:枯れる",
+      "no": 1,
+      "lemma_jp": "枯れる",
+      "reading": "かれる",
+      "meaning_vi": "héo (cây, hoa, rau)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "今日は天気がよくて、洗濯物がよく枯れた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "雨がぜんぜん降らないので、畑の野菜が枯れてしまった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "パーティーでもらった風船は、すぐに枯れてしまった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "最近急に枯れた祖父の健康が心配だ。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-02",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:期限",
+      "no": 2,
+      "lemma_jp": "期限",
+      "reading": "きげん",
+      "meaning_vi": "thời hạn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "この銀行の機械で１回に引き出せるお金の期限は50万円です。"
+        },
+        {
+          "key": "2",
+          "text_jp": "新幹線は期限通りに東京駅に着いた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "雨が降り続く期限を「梅雨」という。"
+        },
+        {
+          "key": "4",
+          "text_jp": "入学金の支払いの期限が近づいている。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "限度",
+        "2": "時刻",
+        "3": "時期/期間"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-03",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:うんと",
+      "no": 3,
+      "lemma_jp": "うんと",
+      "reading": "うんと",
+      "meaning_vi": "rất / thật nhiều",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "毎日うんと12時に教会の鐘が鳴る。"
+        },
+        {
+          "key": "2",
+          "text_jp": "もう授業が始まっていたのでうんと教室に入った。"
+        },
+        {
+          "key": "3",
+          "text_jp": "あの木はうんと倒れそうだ。危ない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "さあ、遠慮しないでうんと食べてね。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-04",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:レジャー",
+      "no": 4,
+      "lemma_jp": "レジャー",
+      "reading": "レジャー",
+      "meaning_vi": "thư giãn, giải trí",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "冬のレジャーといえば、やっぱりスキーですね。"
+        },
+        {
+          "key": "2",
+          "text_jp": "お湯をレジャーに入れておけば、冷めませんよ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "店に入って、レジャーを見ながら何を注文しようかと考えるのは楽しい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "店のレジでもらったレジャーは捨てないでとっておこう。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "4": "レシート"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-05",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:もったいない",
+      "no": 5,
+      "lemma_jp": "もったいない",
+      "reading": "もったいない",
+      "meaning_vi": "lãng phí",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "え？それ、捨てるの？まだ使えるのに、もったいない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "電車が遅れたんですか。それなら、遅刻したのも、もったいないですね。"
+        },
+        {
+          "key": "3",
+          "text_jp": "駅前に宇宙人がいた？そんなことはもったいないよ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "もったいないのですが、お借りした本をなくしてしまったんです。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-06",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:多少",
+      "no": 6,
+      "lemma_jp": "多少",
+      "reading": "たしょう",
+      "meaning_vi": "1 chút, 1 ít",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "そんな失礼なことは多少言ってはいけない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "席は多少あるから、急いで行かなくても座れる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "まちがいが多少あるが、これはなかなか上手な作文だ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "大学に行くためには、かなり多少お金が必要だ。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "絶対",
+        "2": "十分",
+        "4": "多くの"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-07",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:居眠り",
+      "no": 7,
+      "lemma_jp": "居眠り",
+      "reading": "いねむり",
+      "meaning_vi": "ngủ gật",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "講義を聞きながら居眠りをしてしまった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "私の居眠り時間は６時間ぐらいだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "今朝、目覚まし時計が鳴らなくて居眠りをしてしまった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "試験のために朝まで居眠りをして準備した。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "2": "睡眠",
+        "3": "寝坊",
+        "4": "徹夜"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-08",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:傾く",
+      "no": 8,
+      "lemma_jp": "傾く",
+      "reading": "かたむく",
+      "meaning_vi": "nghiêng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "車が通ります。もう少し道路の右に傾いて歩いてください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "食事の栄養バランスが傾かないように注意しましょう。"
+        },
+        {
+          "key": "3",
+          "text_jp": "この坂を傾いたところに学校があります。"
+        },
+        {
+          "key": "4",
+          "text_jp": "地震で家が傾いてしまった。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "2": "かたよらない"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-09",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 10,
+      "knowledge_id": "vocab:おしまい",
+      "no": 9,
+      "lemma_jp": "おしまい",
+      "reading": "おしまい",
+      "meaning_vi": "kết thúc",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "レポートのおしまいは今週の金曜日です。"
+        },
+        {
+          "key": "2",
+          "text_jp": "今日の作業はそろそろおしまいにしよう。"
+        },
+        {
+          "key": "3",
+          "text_jp": "今月のおしまいごろ、アメリカの有名な女優が日本に来るらしい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "この電車のおしまいは、山本駅です。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "しめきり",
+        "4": "終点"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-10",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 11,
+      "knowledge_id": "vocab:きつい",
+      "no": 10,
+      "lemma_jp": "きつい",
+      "reading": "きつい",
+      "meaning_vi": "công việc nặng nhọc, vất vả",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "遅刻したことがない人が遅れて来るなんて、きついことだ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "人が大切にしているものをほしがるなんて、彼はきつい人だ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "え？合格したの？それはきついね。"
+        },
+        {
+          "key": "4",
+          "text_jp": "楽な仕事ならいいですが、きつい仕事はいやです。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-11",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 12,
+      "knowledge_id": "vocab:豊富",
+      "no": 11,
+      "lemma_jp": "豊富",
+      "reading": "ほうふ",
+      "meaning_vi": "Phong phú (kinh nghiệm, tri thức...)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "この問題はとても豊富で、なかなか解けない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "このカメラは軽くて丈夫なので、人気が豊富だ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "私はスポーツが豊富です。たいていのスポーツに自信があります。"
+        },
+        {
+          "key": "4",
+          "text_jp": "あの人は知識が豊富で、いろいろなことをよく知っている。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-12",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 13,
+      "knowledge_id": "vocab:ながめ",
+      "no": 12,
+      "lemma_jp": "ながめ",
+      "reading": "ながめ",
+      "meaning_vi": "view đẹp/ chỗ ngắm",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "最近ながめが悪くなって、めがねが必要になった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "よし子さんは足が長くて、ながめがいい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "このりんごはながめは悪いが、味はとてもいい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "どこかながめのいいところで写真を撮りましょう。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "目",
+        "2": "スタイルがいい",
+        "3": "見た目 / 見かけ"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-13",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 14,
+      "knowledge_id": "vocab:感心する",
+      "no": 13,
+      "lemma_jp": "感心する",
+      "reading": "かんしん",
+      "meaning_vi": "cảm phục, thán phục",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "失敗したことをいつまでも感心して悩むのはよくない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "そのピアニストのすばらしい演奏に観客は感心して涙を流した。"
+        },
+        {
+          "key": "3",
+          "text_jp": "この学校の生徒のマナーの良さには感心する。"
+        },
+        {
+          "key": "4",
+          "text_jp": "最近うちの娘は環境問題に感心するようになった。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "気にして",
+        "2": "感動する",
+        "4": "関心を持つ"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-14",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 15,
+      "knowledge_id": "vocab:ずつ",
+      "no": 14,
+      "lemma_jp": "ずつ",
+      "reading": "ずつ",
+      "meaning_vi": "từng / mỗi",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "このみかん、一人２個ずつ食べていいよ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "１日４回、６時間ずつ薬を飲む。"
+        },
+        {
+          "key": "3",
+          "text_jp": "夏休み、家族が旅行に行ってしまったので、私は一人ずつで過ごした。"
+        },
+        {
+          "key": "4",
+          "text_jp": "彼は日曜日ずつ野球を見に出かける。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-15",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 16,
+      "knowledge_id": "vocab:めざす",
+      "no": 15,
+      "lemma_jp": "めざす",
+      "reading": "めざす",
+      "meaning_vi": "nhắm tới (mục tiêu, mục đích...)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "この会社では、長い期間働ける社員をめざしている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "彼は大学合格をめざして勉強している。"
+        },
+        {
+          "key": "3",
+          "text_jp": "どっちにしようかずいぶんめざして、こっちを買うことにした。"
+        },
+        {
+          "key": "4",
+          "text_jp": "ピアノをめざしているんでしょう？上手になりましたか。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-16",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 17,
+      "knowledge_id": "vocab:思いつく",
+      "no": 16,
+      "lemma_jp": "思いつく",
+      "reading": "おもいつく",
+      "meaning_vi": "Nảy ra, nghĩ ra (ý tưởng)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "用事を思いついたので、すみませんが帰ります。"
+        },
+        {
+          "key": "2",
+          "text_jp": "新しい商品の良いアイデアを思いついた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "試験は来週だと思いついていたが、今週だった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "駅で思いつかない人に会って、びっくりした。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "思い出す",
+        "3": "思い込む",
+        "4": "思いがけない"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-17",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 18,
+      "knowledge_id": "vocab:留守",
+      "no": 17,
+      "lemma_jp": "留守",
+      "reading": "るす",
+      "meaning_vi": "vắng nhà",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "兄はアメリカの大学への留守を希望している。"
+        },
+        {
+          "key": "2",
+          "text_jp": "友人の結婚式への留守を受けた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "週末、両親は旅行に行ったが、私は家で留守をしていた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "友人の家を訪ねたが、留守だった。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-18",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 19,
+      "knowledge_id": "vocab:ラッシュアワー",
+      "no": 18,
+      "lemma_jp": "ラッシュアワー",
+      "reading": "ラッシュアワー",
+      "meaning_vi": "giờ cao điểm",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "来月は３日間のラッシュアワーがあるので、旅行に行こうか。"
+        },
+        {
+          "key": "2",
+          "text_jp": "ラッシュアワーには、会社で弁当を食べる人が多い。"
+        },
+        {
+          "key": "3",
+          "text_jp": "ラッシュアワーなので、電車がこんでいる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "ホテルのラッシュアワーは午後３時からですから、もう入れます。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-19",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 20,
+      "knowledge_id": "vocab:きびしい",
+      "no": 19,
+      "lemma_jp": "きびしい",
+      "reading": "きびしい",
+      "meaning_vi": "Nghiêm khắc, khó tính",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "私の父はきびしい人で、姉も私も怒られてばかりいる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "風邪をひいて、きびしいせきが出る。"
+        },
+        {
+          "key": "3",
+          "text_jp": "この町は電車もバスも１時間に１本しかなくて、生活にきびしい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "入学したばかりで、まだ友だちがいないので、ちょっときびしい。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "2": "ひどい",
+        "3": "不便",
+        "4": "さびしい"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-20",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 21,
+      "knowledge_id": "vocab:たえず",
+      "no": 20,
+      "lemma_jp": "たえず",
+      "reading": "たえず",
+      "meaning_vi": "liên tục, không ngừng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "地震が起きたらたえず火を消しなさい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "牛や羊はたえず草を食べています。"
+        },
+        {
+          "key": "3",
+          "text_jp": "おなかがすいていたので、二人分の料理をたえず食べてしまった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "80歳になる祖母は以前とたえず元気だ。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "すぐ",
+        "3": "残らず",
+        "4": "相変わらず"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-21",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 22,
+      "knowledge_id": "vocab:面倒",
+      "no": 21,
+      "lemma_jp": "面倒",
+      "reading": "めんどう",
+      "meaning_vi": "phiền hà phiền phức",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "この小説は登場人物が多いし、ストーリーが面倒でわかりにくい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "面倒だが、祖母の病気は治らないと医者に言われた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "このクラブに入る手続きは非常に面倒だ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "道の真ん中においてあるあの自転車、面倒だから、どけよう。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "複雑",
+        "2": "残念",
+        "4": "邪魔"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-22",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 23,
+      "knowledge_id": "vocab:ほぼ",
+      "no": 22,
+      "lemma_jp": "ほぼ",
+      "reading": "ほぼ",
+      "meaning_vi": "gần như, hầu như",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "8時に家を出れば、ほぼ間に合うでしょう。"
+        },
+        {
+          "key": "2",
+          "text_jp": "ケーキを６個もらった。ほぼ６人いたので、１個ずつ食べた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "今度の試験、ほぼ７０点は取りたいけど、取れるかなあ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "スピーチの原稿はほぼ完成した。あとは題を決めるだけだ。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-23",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 24,
+      "knowledge_id": "vocab:リードする",
+      "no": 23,
+      "lemma_jp": "リードする",
+      "reading": "リードする",
+      "meaning_vi": "dẫn đầu",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "商品の売り上げの額では、A社が他社をリードしている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "犬をリードして散歩に出かけた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "この電車は、途中の駅で後から来た急行電車にリードされる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "夫は忙しくて家事をリードしてくれない。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-24",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 25,
+      "knowledge_id": "vocab:道順",
+      "no": 24,
+      "lemma_jp": "道順",
+      "reading": "みちじゅん",
+      "meaning_vi": "đường dẫn đến/ cách đi",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "道順に並んでお待ちください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "今日、学校から帰る道順に友だちに会った。"
+        },
+        {
+          "key": "3",
+          "text_jp": "駅からホテルまでの道順は、この地図をご覧ください。"
+        },
+        {
+          "key": "4",
+          "text_jp": "このケーキはどういう道順で作るのですか。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "順番",
+        "2": "途中",
+        "4": "手順"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-25",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 26,
+      "knowledge_id": "vocab:気になる",
+      "no": 25,
+      "lemma_jp": "気になる",
+      "reading": "きになる",
+      "meaning_vi": "bận lòng, để tâm",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "父は、私がプレゼントしたセーターが気になってくれたようだ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "ゆうべは、となりの部屋の話し声が気になって眠れなかった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "あの二人は仲がいい。とても気になるらしい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "A「何か飲み物はいかがですか。」B「あ、どうぞ気にならないでください。」"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "気に入って",
+        "3": "気が合う",
+        "4": "気を使わないで"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-26",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 27,
+      "knowledge_id": "vocab:講演",
+      "no": 26,
+      "lemma_jp": "講演",
+      "reading": "こうえん",
+      "meaning_vi": "bài giảng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "店の人に商品について講演をしてもらった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "はじめて会う人にはこちらから講演をしたほうがいい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "新発見をしたA教授の講演に世界中が注目している。"
+        },
+        {
+          "key": "4",
+          "text_jp": "彼女は女優になるために毎日歌とダンスの講演をしている。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-27",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 28,
+      "knowledge_id": "vocab:わざと",
+      "no": 27,
+      "lemma_jp": "わざと",
+      "reading": "わざと",
+      "meaning_vi": "cố tình (thua)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子どもとゲームをするときは、わざと負けてやることが多い。"
+        },
+        {
+          "key": "2",
+          "text_jp": "雨の中をわざと荷物を届けてくれて、ありがとう。"
+        },
+        {
+          "key": "3",
+          "text_jp": "新しい住宅地には池や林がわざと作られている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "お忙しいでしょうが、わざと来てください。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "2": "わざわざ",
+        "4": "ぜひ"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-28",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 29,
+      "knowledge_id": "vocab:見事な",
+      "no": 28,
+      "lemma_jp": "見事な",
+      "reading": "みごと",
+      "meaning_vi": "tuyệt vời",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "台風が近づいていて、見事な雨が降っている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "彼の見事なスピーチは人々を感動させた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "あなたはまだ小さいのにお母さんのお手伝いをして、見事だね。"
+        },
+        {
+          "key": "4",
+          "text_jp": "会社の面接試験に赤いシャツなど見事な服を着て行ってはいけません。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "3": "えらい",
+        "4": "はでな"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-29",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 30,
+      "knowledge_id": "vocab:きっかけ",
+      "no": 29,
+      "lemma_jp": "きっかけ",
+      "reading": "きっかけ",
+      "meaning_vi": "nguyên do, nguyên cớ, động lực",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "この先で起こった事故がきっかけで、ここは今通ることができません。"
+        },
+        {
+          "key": "2",
+          "text_jp": "この英会話教室は授業のきっかけに、まず発音練習をする。"
+        },
+        {
+          "key": "3",
+          "text_jp": "子どもができたのをきっかけに、たばこをやめることにした。"
+        },
+        {
+          "key": "4",
+          "text_jp": "昨日授業を欠席したきっかけを話してください。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "原因",
+        "2": "はじめに",
+        "4": "理由"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-30",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 31,
+      "knowledge_id": "vocab:出会う",
+      "no": 30,
+      "lemma_jp": "出会う",
+      "reading": "であう",
+      "meaning_vi": "Cuộc gặp gỡ, nhân duyên định mệnh",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "私はオリンピックに出会うことを目標にがんばっている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "私が彼と出会ったのは、高校生のときだった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "入院した先生を出会うために、病院へ行った。"
+        },
+        {
+          "key": "4",
+          "text_jp": "６時に駅の前で出会う約束をした。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "出る",
+        "3": "見舞う",
+        "4": "会う"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-31",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 32,
+      "knowledge_id": "vocab:すっかり",
+      "no": 31,
+      "lemma_jp": "すっかり",
+      "reading": "すっかり",
+      "meaning_vi": "hoàn toàn/ hẳn/ sạch sành sanh",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "中学生になったら、すっかり勉強しなきゃだめだよ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "めがねをかけないと、そこにある物もすっかりして、よく見えない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "友だちと話しているうちに、外はすっかり暗くなっていた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "食べ物も飲み物もすっかりありますから、どんどんめしあがってください。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "しっかり",
+        "2": "ぼんやり",
+        "4": "たくさん"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-32",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 33,
+      "knowledge_id": "vocab:お嬢さん",
+      "no": 32,
+      "lemma_jp": "お嬢さん",
+      "reading": "おじょうさん",
+      "meaning_vi": "tiểu thư, con gái rượu (nhà anh / chị)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "今度お嬢さんがご結婚なさるそうですね。おめでとうございます。"
+        },
+        {
+          "key": "2",
+          "text_jp": "私のお嬢さんは妻に似て目が大きい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "このクラスはお嬢さん学生より男子学生のほうが多い。"
+        },
+        {
+          "key": "4",
+          "text_jp": "娘はデパートのお嬢さん服売り場で働いている。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "2": "娘",
+        "4": "こども"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-33",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 34,
+      "knowledge_id": "vocab:渋滞する",
+      "no": 33,
+      "lemma_jp": "渋滞する",
+      "reading": "じゅうたいする",
+      "meaning_vi": "tắc đường",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "朝の通勤ラッシュの時間は駅が渋滞して、歩くのも大変だ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "大雨で川の水が渋滞してしまった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "駅の前には客を待つタクシーが渋滞している。"
+        },
+        {
+          "key": "4",
+          "text_jp": "連休の間は高速道路が渋滞する。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "混雑",
+        "2": "あふれて",
+        "3": "並んでいる"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-34",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 35,
+      "knowledge_id": "vocab:無事",
+      "no": 34,
+      "lemma_jp": "無事",
+      "reading": "ぶじ",
+      "meaning_vi": "bình an vô sự",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "この辺は無事なので、女性が夜一人で歩いていても大丈夫だ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "戦争がなくなって、無事な世界になってほしい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "毎日運動したり食事に気をつけたりしているので、祖父はとても無事だ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "一人で旅行していた妹が無事に帰ってきた。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-35",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 36,
+      "knowledge_id": "vocab:ぬる",
+      "no": 35,
+      "lemma_jp": "ぬる",
+      "reading": "ぬる",
+      "meaning_vi": "bôi/ phết/ quét...",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "虫にさされてかゆいので、薬をぬった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "美容院で髪を茶色にぬった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "汚れていた革靴をピカピカにぬった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "スポーツ大会のポスターを壁にぬった。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "2": "そめる",
+        "3": "みがく",
+        "4": "貼った"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-36",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 37,
+      "knowledge_id": "vocab:過ごす",
+      "no": 36,
+      "lemma_jp": "過ごす",
+      "reading": "すごす",
+      "meaning_vi": "ở/ tận hưởng (kỳ nghỉ, cuối tuần...)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "夏は夕方６時を過ごしても、まだ外が明るい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "左右をよく見てから、横断歩道を過ごしてください。"
+        },
+        {
+          "key": "3",
+          "text_jp": "夏休みには、いなかの祖父の家でのんびり過ごした。"
+        },
+        {
+          "key": "4",
+          "text_jp": "この道は車がたくさん過ごすので、気をつけよう。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "過ぎる",
+        "2": "渡る",
+        "4": "通る"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-37",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 38,
+      "knowledge_id": "vocab:テーマ",
+      "no": 37,
+      "lemma_jp": "テーマ",
+      "reading": "テーマ",
+      "meaning_vi": "chủ đề",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "私はそのテーマに出ている俳優が好きです。"
+        },
+        {
+          "key": "2",
+          "text_jp": "この二つの小説のテーマは同じです。"
+        },
+        {
+          "key": "3",
+          "text_jp": "電車の中で携帯電話を使うなんて、テーマを知らない人だ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "駅のテーマではたくさんの人が電車を待っている。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-38",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 39,
+      "knowledge_id": "vocab:おおざっぱ",
+      "no": 38,
+      "lemma_jp": "おおざっぱ",
+      "reading": "おおざっぱ",
+      "meaning_vi": "tính sơ sơ, sương sương, qua loa",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "旅行の費用はおおざっぱに計算して、５万円です。"
+        },
+        {
+          "key": "2",
+          "text_jp": "試験の朝、寝坊した妹はおおざっぱに家を出ていった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "この寺の建物は天井が高く、柱が太くて、とてもおおざっぱだ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "あんなに大きな失敗をした社員を許すなんて、社長は心がおおざっぱだ。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-39",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 40,
+      "knowledge_id": "vocab:いきいき",
+      "no": 39,
+      "lemma_jp": "いきいき",
+      "reading": "いきいき",
+      "meaning_vi": "hào hứng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ゲームをしているとき、彼はいきいきして、すごく楽しそうだ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "道が渋滞していて、車がいきいき動いている。"
+        },
+        {
+          "key": "3",
+          "text_jp": "いきいきしないで、早く準備をしなさい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "新しく発売された車はいきいき売れて、あっという間に売り切れた。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "2": "のろのろ",
+        "3": "ぐずぐず",
+        "4": "どんどん"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-40",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 41,
+      "knowledge_id": "vocab:手間",
+      "no": 40,
+      "lemma_jp": "手間",
+      "reading": "てま",
+      "meaning_vi": "công sức",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "手間のカーテンとソファーを新しくした。"
+        },
+        {
+          "key": "2",
+          "text_jp": "今日の宿題は難しくて、長い手間がかかった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "この仕事は私一人では無理だ。だれかの手間がないとできない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "いつも忙しいので、手間のかかる料理は作らない。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "2": "時間",
+        "3": "助け"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-41",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 42,
+      "knowledge_id": "vocab:ひどい",
+      "no": 41,
+      "lemma_jp": "ひどい",
+      "reading": "ひどい",
+      "meaning_vi": "kinh khủng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ボクシングをはじめてまだ１年なのに、オリンピックに出るなんてひどいね。"
+        },
+        {
+          "key": "2",
+          "text_jp": "今度の試験の成績はひどかった。すっかり自信がなくなってしまった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "彼女は遅刻ばかりしていて、職場ではひどい人だと思われている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "動物の世界ではひどい者がリーダーになる。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-42",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 43,
+      "knowledge_id": "vocab:申し込む",
+      "no": 42,
+      "lemma_jp": "申し込む",
+      "reading": "もうしこむ",
+      "meaning_vi": "đăng ký",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "レストランで一番高い料理を申し込んだ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "会議で自分の意見を申し込んだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "先生にお礼を申し込みたいと思っています。"
+        },
+        {
+          "key": "4",
+          "text_jp": "テニスクラブに入会を申し込んだ。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "注文",
+        "2": "述べる",
+        "3": "申し上げたい"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-43",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 44,
+      "knowledge_id": "vocab:少なくとも",
+      "no": 43,
+      "lemma_jp": "少なくとも",
+      "reading": "すくなくとも",
+      "meaning_vi": "ít nhất là",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "休みの日は少なくともうちにいますが、昨日は出かけました。"
+        },
+        {
+          "key": "2",
+          "text_jp": "酒に弱い彼女は、ビールを少なくとも飲むと顔が赤くなる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "あ、そんなにいりません。少なくともでけっこうです。"
+        },
+        {
+          "key": "4",
+          "text_jp": "そのテストに合格するためには少なくとも70点必要だ。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "2": "すこしでも",
+        "3": "すこし"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-44",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 45,
+      "knowledge_id": "vocab:油断",
+      "no": 44,
+      "lemma_jp": "油断",
+      "reading": "ゆだん",
+      "meaning_vi": "cẩu thả, lơ là, chủ quan",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "一瞬の油断で試合に負けてしまった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "午後から雨と風が強くなるので、油断が必要です。"
+        },
+        {
+          "key": "3",
+          "text_jp": "熱が下がったから、もう油断だ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "どうしたらいいのか、私一人では油断ができなかった。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "2": "注意",
+        "4": "判断"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-45",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 46,
+      "knowledge_id": "vocab:ゆずる",
+      "no": 45,
+      "lemma_jp": "ゆずる",
+      "reading": "ゆずる",
+      "meaning_vi": "Nhường (ghế), nhượng lại",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "地震で建物が激しくゆずった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "となりのご主人は会うといつも「こんにちは」と声をゆずってくれる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "電車の中でお年寄りに席をゆずった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "友だちが車で駅までゆずってくれた。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "揺れた",
+        "2": "声をかける",
+        "4": "送って"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-46",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 47,
+      "knowledge_id": "vocab:ひとりでに",
+      "no": 46,
+      "lemma_jp": "ひとりでに",
+      "reading": "ひとりでに",
+      "meaning_vi": "tự nhiên/ chẳng làm gì mà...",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "だれも乗っていないのに、ひとりでに車が動き出した。"
+        },
+        {
+          "key": "2",
+          "text_jp": "「スタート」の声と同時に、選手全員がひとりでに走り出した。"
+        },
+        {
+          "key": "3",
+          "text_jp": "課長が病気で休みなので、ひとりでに私が会議に出た。"
+        },
+        {
+          "key": "4",
+          "text_jp": "許可なしに、ひとりでに中に入らないでください。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "2": "いっせい",
+        "3": "かわりに",
+        "4": "勝手"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-47",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 48,
+      "knowledge_id": "vocab:明け方",
+      "no": 47,
+      "lemma_jp": "明け方",
+      "reading": "あけがた",
+      "meaning_vi": "rạng sáng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "明け方になると、商店街には晩御飯のための買い物をする人がやってくる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "明け方の新聞によると、今日台風が関東地方に近づくそうだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "受験生の姉は毎日明け方まで勉強している。"
+        },
+        {
+          "key": "4",
+          "text_jp": "明け方と夕方、１日に２回、食事の後に薬を飲んでいる。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "wrong_hints": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-48",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 49,
+      "knowledge_id": "vocab:ゆでる",
+      "no": 48,
+      "lemma_jp": "ゆでる",
+      "reading": "ゆでる",
+      "meaning_vi": "luộc",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "やかんでお湯をゆでた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "さとうとしょうゆで魚をゆでて食べた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "えびと野菜を180度の油でゆでて、てんぷらを作った。"
+        },
+        {
+          "key": "4",
+          "text_jp": "野菜を、やわらかくなるまでゆでてください。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "わかす",
+        "2": "煮る",
+        "3": "あげる"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-49",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 50,
+      "knowledge_id": "vocab:そっくり",
+      "no": 49,
+      "lemma_jp": "そっくり",
+      "reading": "そっくり",
+      "meaning_vi": "giống hệt",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "もっと大きな声でそっくり答えなさい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "兄は父と顔がそっくりだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "彼はまじめだから、クラスの代表にそっくりだ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "運動したあとでシャワーを浴びると、そっくりします。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "はっきり",
+        "3": "ぴったり",
+        "4": "さっぱり"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "usage-q-50",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "50 câu hỏi cách dùng từ n3 có đáp án.pdf",
+      "source_page": 51,
+      "knowledge_id": "vocab:預かる",
+      "no": 50,
+      "lemma_jp": "預かる",
+      "reading": "あずかる",
+      "meaning_vi": "trông/ giữ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "辞書を忘れたので、友だちから預かった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "しばらくの間、この荷物を預かってもらえませんか。"
+        },
+        {
+          "key": "3",
+          "text_jp": "ボーナスをもらったら、半分は使わずに預かろうと思います。"
+        },
+        {
+          "key": "4",
+          "text_jp": "祖父の趣味は世界中の切手を預かることです。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "wrong_hints": {
+        "1": "借りた",
+        "3": "貯金する",
+        "4": "集める"
+      },
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    }
+  ]
+}
