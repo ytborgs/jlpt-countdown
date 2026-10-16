@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '24';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '25';
 
 const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
@@ -138,6 +138,22 @@ export function createStudyCard(item, index, selections = new Map(), onSelect = 
     const detail = el('section', '', 'study-explain');
     detail.setAttribute('aria-label', 'Chi tiết giải thích đáp án');
     detail.hidden = true;
+    detail.id = 'study-explain-' + index;
+    const detailToggle = el('button', 'Ẩn chi tiết', 'study-explain-toggle');
+    detailToggle.type = 'button';
+    detailToggle.hidden = true;
+    detailToggle.setAttribute('aria-controls', detail.id);
+    detailToggle.setAttribute('aria-expanded', 'false');
+    let detailExpanded = true;
+    const updateDetailVisibility = () => {
+      detail.hidden = detailToggle.hidden || !detailExpanded;
+      detailToggle.textContent = detailExpanded ? 'Ẩn chi tiết' : 'Hiện chi tiết';
+      detailToggle.setAttribute('aria-expanded', String(!detail.hidden));
+    };
+    detailToggle.addEventListener('click', () => {
+      detailExpanded = !detailExpanded;
+      updateDetailVisibility();
+    });
     const showExplanation = selectedKey => {
       const content = [el('h4', 'Chi tiết')];
       if (item.explanation) content.push(el('p', item.explanation, 'study-explain-summary'));
@@ -160,7 +176,8 @@ export function createStudyCard(item, index, selections = new Map(), onSelect = 
         content.push(list);
       }
       detail.replaceChildren(...content);
-      detail.hidden = !item.explanation && !rows.length;
+      detailToggle.hidden = !item.explanation && !rows.length;
+      updateDetailVisibility();
     };
     const keyed = hasAnswer(item);
     if (!keyed) card.append(el('small', 'Chưa có đáp án · Chọn để tự ôn, không chấm điểm.'));
@@ -200,7 +217,7 @@ export function createStudyCard(item, index, selections = new Map(), onSelect = 
     // Restore only after all options exist so the answer can be highlighted too.
     const selectedButton = [...options.children].find(button => button.dataset.key === selections.get(item.id));
     if (selectedButton) { restoring = true; selectedButton.click(); restoring = false; }
-    card.append(options, feedback, detail);
+    card.append(options, feedback, detailToggle, detail);
     if (item.stem_gloss_vi) {
       const hint = el('details', '', 'grammar-details');
       hint.append(el('summary', 'Gợi ý nghĩa tiếng Việt'), el('p', item.stem_gloss_vi));
