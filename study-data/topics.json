@@ -12,7 +12,7 @@
     "id": "grammar-set",
     "title": "Ngữ pháp N3–N2 theo SET",
     "description": "Các mẫu theo nhóm SET kèm ví dụ Nhật–Việt.",
-    "notice": "Bản Phase A: ruby plain; thiếu structure chi tiết so với bộ 80 mẫu.",
+    "notice": "Ruby plain; thiếu structure chi tiết so với bộ 80 mẫu.",
     "count": 42,
     "unit": "mục",
     "path": "./study-data/grammar-set.json"
@@ -36,6 +36,15 @@
     "path": "./study-data/bi-kip-answers.json"
   },
   {
+    "id": "ebook-grammar",
+    "title": "Ngữ pháp Ebook N3",
+    "description": "Mẫu từ Ebook N3 (rút từ PDF, đã lọc mục hợp lệ).",
+    "notice": "Extract PDF; một số usage/example còn thiếu — linguistic.",
+    "count": 39,
+    "unit": "mục",
+    "path": "./study-data/ebook-grammar.json"
+  },
+  {
     "id": "kanji",
     "title": "Hán tự N3",
     "description": "Tra Hán Việt, âm On, âm Kun và các chữ dễ nhầm.",
@@ -48,8 +57,8 @@
     "id": "verbs",
     "title": "Động từ phức hợp",
     "description": "Nghĩa, furigana và ví dụ Nhật–Việt.",
-    "notice": "77/80 mục. Furigana/dịch ví dụ linguistic.",
-    "count": 77,
+    "notice": "78/80 mục (#77 結びつける đã bổ sung). Thiếu #79–#80 (PDF không đọc được) — không bịa.",
+    "count": 78,
     "unit": "mục",
     "path": "./study-data/verbs.json"
   },
@@ -61,6 +70,15 @@
     "count": 141,
     "unit": "mục",
     "path": "./study-data/jido-tado.json"
+  },
+  {
+    "id": "so-tay-idioms",
+    "title": "Thành ngữ / tượng thanh (sổ tay)",
+    "description": "Idiom cơ thể & onomatopoeia từ sổ tay tiếng Nhật.",
+    "notice": "Extract partial từ sổ tay; reading/example có thể null.",
+    "count": 44,
+    "unit": "mục",
+    "path": "./study-data/so-tay-idioms.json"
   },
   {
     "id": "kanji-quiz",
@@ -129,7 +147,7 @@
     "id": "connectors",
     "title": "Từ nối đọc hiểu",
     "description": "Liên từ / từ nối theo nhóm chức năng.",
-    "notice": "Cần UI type=reading (xem PROMPT). Ít ví dụ JP.",
+    "notice": "UI type=reading.",
     "count": 41,
     "unit": "mục",
     "path": "./study-data/connectors.json"
@@ -138,9 +156,18 @@
     "id": "connectors-extra",
     "title": "Từ nối (tài liệu tổng hợp)",
     "description": "Bổ sung từ nối từ tài liệu tổng hợp N3.",
-    "notice": "Cần UI type=reading. Có thể trùng một phần với Từ nối đọc hiểu.",
+    "notice": "UI type=reading. Có thể trùng một phần với Từ nối đọc hiểu.",
     "count": 56,
     "unit": "mục",
     "path": "./study-data/connectors-extra.json"
+  },
+  {
+    "id": "exam-tips",
+    "title": "Bí kíp trúng tủ N3",
+    "description": "Mẹo kanji / ngữ pháp / chiến thuật thi (body đã điền).",
+    "notice": "visual_transcription / linguistic — không official JLPT.",
+    "count": 84,
+    "unit": "mục",
+    "path": "./study-data/exam-tips.json"
   }
 ]

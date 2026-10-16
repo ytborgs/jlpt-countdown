@@ -1,0 +1,1192 @@
+{
+  "schema_version": "1.0",
+  "document_id": "ebook-n3-grammar",
+  "type": "grammar",
+  "level": "N3",
+  "source_file": "Ebook N3.pdf",
+  "source_path": "study-materials/ebook-n3.pdf",
+  "title": "Ebook N3 — ngữ pháp",
+  "page_count": 29,
+  "item_count": 39,
+  "content_source": "pdf_extract",
+  "produced_at": "2026-10-16T07:13:32+00:00",
+  "producer": "n3-study-extractor/phase-c-ebook",
+  "status": "verified",
+  "needs_verify_count": 0,
+  "notes": [
+    "Phase C: type=grammar từ Ebook.",
+    "Có thể trùng 80 mẫu — giữ source."
+  ],
+  "items": [
+    {
+      "id": "ebook-g-001",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:～うちに",
+      "pattern": "～うちに",
+      "meaning": "Trong lúc",
+      "structure": "～うちに",
+      "usage": "～間… :  Khi một hành động xảy ra trong một thời gian dài, một hành động khác ～間に:  Khi một hành động xảy ra trong một thời gian dài, một hành động khác",
+      "example_jp": "お母さんが昼寝をしている間、 子どもたちはテレビを見ていた。",
+      "example_vi": "Trong khi người mẹ đang ngủ trưa thì bọn trẻ ngồi xem tivi.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～うちに"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "お母さんが昼寝をしている間、 子どもたちはテレビを見ていた。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-002",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:～間…",
+      "pattern": "～間…",
+      "meaning": "Trong khoảng thời gian (kéo dài)",
+      "structure": "～間…",
+      "usage": "Khi một hành động xảy ra trong một thời gian dài, một hành động khác",
+      "example_jp": "お母さんが昼寝をしている間、 子どもたちはテレビを見ていた。",
+      "example_vi": "Trong khi người mẹ đang ngủ trưa thì bọn trẻ ngồi xem tivi.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～間…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "お母さんが昼寝をしている間、 子どもたちはテレビを見ていた。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-003",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:～間に",
+      "pattern": "～間に",
+      "meaning": "Trong khoảng thời gian (điểm thời gian)",
+      "structure": "～間に",
+      "usage": "Khi một hành động xảy ra trong một thời gian dài, một hành động khác",
+      "example_jp": "私が旅行で留守の間に、庭に草がたくさん生えてしまった。",
+      "example_vi": "Trong lúc tôi vắng nhà đi du lịch, cỏ dại đã mọc đầy vườn.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～間に"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "私が旅行で留守の間に、庭に草がたくさん生えてしまった。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-004",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:～どおりだ /～どおり（に）",
+      "pattern": "～どおりだ /～どおり（に）",
+      "meaning": "Dựa theo",
+      "structure": "～どおりだ /～どおり（に）",
+      "usage": "Khoảnh khắc ngay trước, khoảnh khắc ngay sau, hay vào chính giữa khoảnh khắc",
+      "example_jp": "ロケットは間もなく飛び立つところです。緊張の瞬間です。",
+      "example_vi": "Quả tên lửa chuẩn bị được phóng đi rồi. Khoảnh khắc này thật là hồi hộp.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～どおりだ /～どおり（に）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ロケットは間もなく飛び立つところです。緊張の瞬間です。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-005",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:～ところだ / ～ところ (+trợ từ)",
+      "pattern": "～ところだ / ～ところ (+trợ từ)",
+      "meaning": "Vào thời điểm",
+      "structure": "～ところだ / ～ところ (+trợ từ)",
+      "usage": "Cho đến khi việc gì đó được thực hiện xong, thì một việc khác cũng vẫn chưa làm",
+      "example_jp": "運転免許を取ってからでなければ車を運転してはいけない。",
+      "example_vi": "Nếu chưa có bằng thì không được phép lái xe.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～ところだ / ～ところ (+trợ từ)"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "運転免許を取ってからでなければ車を運転してはいけない。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-006",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:～によって… ～によっては…",
+      "pattern": "～によって… ～によっては…",
+      "meaning": "Tùy vào, tùy theo",
+      "structure": "～によって… ～によっては…",
+      "usage": "Mỗi khi điều gì xảy ra thì có điều khác cũng xảy ra theo. Nhấn mạnh sự lặp lại của",
+      "example_jp": "この地方は台風が来るたびに大水の害が起こる。",
+      "example_vi": "Khu vực này mỗi khi có bão lại phải chịu thiệt hại do ngập lụt.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～によって… ～によっては…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この地方は台風が来るたびに大水の害が起こる。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-007",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:～たびに…",
+      "pattern": "～たびに…",
+      "meaning": "Mỗi lần",
+      "structure": "～たびに…",
+      "usage": "Phía sau ほど ・・・ là một vế thể hiện sự thay đổi tương ứng, tỉ lệ với vế trước",
+      "example_jp": "ものが増えれば増えるほど整理が大変になる。",
+      "example_vi": "Càng nhiều đồ thì việc sắp xếp càng khó hơn.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～たびに…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ものが増えれば増えるほど整理が大変になる。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-008",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:～ば）～ほど /（～なら）～ほど/ ～ほど",
+      "pattern": "～ば）～ほど /（～なら）～ほど/ ～ほど",
+      "meaning": "Càng - càng",
+      "structure": "～ば）～ほど /（～なら）～ほど/ ～ほど",
+      "usage": "Càng - càng",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～ば）～ほど /（～なら）～ほど/ ～ほど"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-009",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:～ついでに",
+      "pattern": "～ついでに",
+      "meaning": "Tiện thể",
+      "structure": "～ついでに",
+      "usage": "Biểu thị mức độ của một trạng thái sự vật, hiện tượng bằng cách đưa ra một sự vật",
+      "example_jp": "天気予報によると、今日は台風ぐらい風が吹くそうだ。",
+      "example_vi": "Theo dự báo thời tiết, hôm nay có gió mạnh như bão.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～ついでに"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "天気予報によると、今日は台風ぐらい風が吹くそうだ。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-010",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 8,
+      "knowledge_id": "grammar:～に限る …",
+      "pattern": "～に限る …",
+      "meaning": "Nhất",
+      "structure": "～に限る …",
+      "usage": "Thể hiện sự đối lập giữa hai hành động hoặc sự vật cùng loại",
+      "example_jp": "大阪では大雨だったのに対して、東京はいい天気だった。",
+      "example_vi": "Khác với ở Osaka trời mưa thì ở Tokyo trời rất đẹp.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～に限る …"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "大阪では大雨だったのに対して、東京はいい天気だった。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-011",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 8,
+      "knowledge_id": "grammar:～に対して…",
+      "pattern": "～に対して…",
+      "meaning": "Không giống như",
+      "structure": "～に対して…",
+      "usage": "Không giống như",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～に対して…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-012",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 9,
+      "knowledge_id": "grammar:～ 一方 (で)…",
+      "pattern": "～ 一方 (で)…",
+      "meaning": "Đồng thời, ở mặt khác",
+      "structure": "～ 一方 (で)…",
+      "usage": "Mẫu câu này thể hiện hai mặt đối lập của một vấn đề",
+      "example_jp": "都会の生活は面白いことが多い反面、ストレスとも多い。",
+      "example_vi": "Cuộc sống ở thành phố rất thú vị, tuy nhiên cũng nhiều stress.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～ 一方 (で)…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "都会の生活は面白いことが多い反面、ストレスとも多い。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-013",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 9,
+      "knowledge_id": "grammar:～反面…",
+      "pattern": "～反面…",
+      "meaning": "Mặt khác, ngược lại",
+      "structure": "～反面…",
+      "usage": "Mẫu câu này dùng để đưa ra cách nhìn nhận thích hợp hơn về một vấn đề (Có ý",
+      "example_jp": "僕と彼がともだち？いや、ぼくたちはともだちというよりいい競争相手なんだよ。",
+      "example_vi": "Tôi và anh ta là bạn á? Không, chúng tôi đúng ra là những đối thủ cạnh tranh hơn là những",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～反面…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "僕と彼がともだち？いや、ぼくたちはともだちというよりいい競争相手なんだよ。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-014",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 9,
+      "knowledge_id": "grammar:～というより…",
+      "pattern": "～というより…",
+      "meaning": "Thay vì nói là…",
+      "structure": "～というより…",
+      "usage": "Thay vì nói là…",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～というより…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-015",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 10,
+      "knowledge_id": "grammar:～かわりに…",
+      "pattern": "～かわりに…",
+      "meaning": "Mặt khác, thay vì",
+      "structure": "～かわりに…",
+      "usage": "Cách nói biểu đạt nguyên nhân, có một chút trang trọng. Cách nói này không thể",
+      "example_jp": "出張のため、明日の会議は欠席させていただきます。",
+      "example_vi": "Vì phải đi công tác, tôi xin phép vắng mặt cuộc họp ngày mai.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～かわりに…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "出張のため、明日の会議は欠席させていただきます。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-016",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 10,
+      "knowledge_id": "grammar:～ためだ/ ～ため(に)…",
+      "pattern": "～ためだ/ ～ため(に)…",
+      "meaning": "Vì",
+      "structure": "～ためだ/ ～ため(に)…",
+      "usage": "Vì",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～ためだ/ ～ため(に)…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-017",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 11,
+      "knowledge_id": "grammar:～から…/ことから…",
+      "pattern": "～から…/ことから…",
+      "meaning": "Vì, từ",
+      "structure": "～から…/ことから…",
+      "usage": "Vì, từ",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～から…/ことから…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-018",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 12,
+      "knowledge_id": "grammar:～のだから…",
+      "pattern": "～のだから…",
+      "meaning": "Bởi lẽ",
+      "structure": "～のだから…",
+      "usage": "Bởi lẽ",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～のだから…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-019",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 13,
+      "knowledge_id": "grammar:～(の)なら…",
+      "pattern": "～(の)なら…",
+      "meaning": "Nếu là…",
+      "structure": "～(の)なら…",
+      "usage": "Đưa ra điều kiện tối thiểu nhất để điều gì đó có thể xảy ra",
+      "example_jp": "体さえ丈夫ならどんなことにも挑戦できる。",
+      "example_vi": "Chỉ cần có sức khỏe thì tôi có thể trải qua bất cứ thử thách nào.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～(の)なら…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "体さえ丈夫ならどんなことにも挑戦できる。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-020",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 13,
+      "knowledge_id": "grammar:～さえ～ば… / ～さえ～なら…",
+      "pattern": "～さえ～ば… / ～さえ～なら…",
+      "meaning": "Nếu chỉ cần có…",
+      "structure": "～さえ～ば… / ～さえ～なら…",
+      "usage": "Đưa ra một giả định, phán đoán sẽ gây ra kết quả tiêu cực",
+      "example_jp": "そんな無責任な態度ではみんなにきらわれますよ。",
+      "example_vi": "Nếu anh có thái độ vô trách nhiệm như thế thì sẽ bị mọi người ghét đấy.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～さえ～ば… / ～さえ～なら…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "そんな無責任な態度ではみんなにきらわれますよ。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-021",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 14,
+      "knowledge_id": "grammar:～ても…/ たとえ～でも…",
+      "pattern": "～ても…/ たとえ～でも…",
+      "meaning": "Cho dù … thì",
+      "structure": "～ても…/ たとえ～でも…",
+      "usage": "Là cách truyền đạt lại thông tin, trang trọng hơn 「～だそうだ」. Vế trước thường",
+      "example_jp": "市のお知らせによれば、この道路は来週から工事が始まるということだ。",
+      "example_vi": "Theo như thông báo của quận thì hình như từ tuần sau con đường này sẽ bắt đầu được thi",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～ても…/ たとえ～でも…"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "市のお知らせによれば、この道路は来週から工事が始まるということだ。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-022",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 15,
+      "knowledge_id": "grammar:～と言われている",
+      "pattern": "～と言われている",
+      "meaning": "Có người nói rằng...",
+      "structure": "～と言われている",
+      "usage": "Sử dụng khi dựa vào nguồn thông tin mang tính gián tiếp, không chắc chắn",
+      "example_jp": "来月また出張だとか。今度はどちらに行かれるんですか。",
+      "example_vi": "Nghe đồn tháng sau anh lại đi công tác. Lần này không biết anh sẽ đi đâu?",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～と言われている"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "来月また出張だとか。今度はどちらに行かれるんですか。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-023",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 15,
+      "knowledge_id": "grammar:～とか」",
+      "pattern": "～とか",
+      "meaning": "Nghe nói là, nghe đồn...",
+      "structure": "～とか」",
+      "usage": "Sử dụng trong câu trích dẫn, là cách nói rút gọn của 「言っている・聞いたなど」",
+      "example_jp": "小川さん、今日は休むって言ってたよ。",
+      "example_vi": "Tôi có nghe anh Ogawa nói rằng hôm nay nghỉ.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～とか」"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "小川さん、今日は休むって言ってたよ。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-024",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 15,
+      "knowledge_id": "grammar:～って",
+      "pattern": "～って",
+      "meaning": "~ Nói rằng...., Tôi nghe bảo rằng...",
+      "structure": "～って",
+      "usage": "~ Nói rằng...., Tôi nghe bảo rằng...",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～って"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-025",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 16,
+      "knowledge_id": "grammar:～という",
+      "pattern": "～という",
+      "meaning": "Nghe nói...",
+      "structure": "～という",
+      "usage": "Sử dụng để phủ định lại một quan điểm, một ý kiến (mang tính chủ quan của người",
+      "example_jp": "この歌は古くから歌われているが、日本人がみんな知っているとは限らない。",
+      "example_vi": "Bài hát này đã có từ lâu nhưng không hẳn là người Nhật nào cũng biết.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～という"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この歌は古くから歌われているが、日本人がみんな知っているとは限らない。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-026",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 17,
+      "knowledge_id": "grammar:～ないことはない」",
+      "pattern": "～ないことはない",
+      "meaning": "Không thể nói rằng không, cũng",
+      "structure": "～ないことはない」",
+      "usage": "Không thể nói rằng không, cũng",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～ないことはない」"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-027",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 17,
+      "knowledge_id": "grammar:～ことは～が、・・・」",
+      "pattern": "～ことは～が、・・・",
+      "meaning": "Dù là thế, nhưng....",
+      "structure": "～ことは～が、・・・」",
+      "usage": "Dù là thế, nhưng....",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～ことは～が、・・・」"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-028",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 21,
+      "knowledge_id": "grammar:～べきだ・～べき/～べきではない",
+      "pattern": "～べきだ・～べき/～べきではない",
+      "meaning": "Nên, không nên...",
+      "structure": "～べきだ・～べき/～べきではない",
+      "usage": "Cách kết hợp: Sử dụng để thể hiện quan điểm của người nói rằng việc đó không phải là quy tắc",
+      "example_jp": "せっかく会社に入っただから、簡単にやめるべきではない。",
+      "example_vi": "Đã mất công xin vào công ty rồi, đừng nên bỏ cuộc quá dễ dàng.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～べきだ・～べき/～べきではない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "せっかく会社に入っただから、簡単にやめるべきではない。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-029",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 21,
+      "knowledge_id": "grammar:～たらどうか",
+      "pattern": "～たらどうか",
+      "meaning": "Nếu... thì thế nào",
+      "structure": "～たらどうか",
+      "usage": "Nếu... thì thế nào",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～たらどうか"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-030",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 22,
+      "knowledge_id": "grammar:～ことにする",
+      "pattern": "～ことにする",
+      "meaning": "Quyết định",
+      "structure": "～ことにする",
+      "usage": "Quyết định",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～ことにする"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-031",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 23,
+      "knowledge_id": "grammar:～ ・ ～ことにしている",
+      "pattern": "～ ・ ～ことにしている",
+      "meaning": "Quyết định",
+      "structure": "～ ・ ～ことにしている",
+      "usage": "Dùng để nói về các thói quen, quy tắc, dự định đã được định trước, nhấn mạnh việc",
+      "example_jp": "本校では、教室で日本語しか話せないことになる。",
+      "example_vi": "Ở trường này, trong lớp học sẽ chỉ được dùng tiếng Nhật.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～ ・ ～ことにしている"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "本校では、教室で日本語しか話せないことになる。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-032",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 23,
+      "knowledge_id": "grammar:～ことになる」",
+      "pattern": "～ことになる",
+      "meaning": "Được quyết định là...",
+      "structure": "～ことになる」",
+      "usage": "Diễn tả các tập quán, quy tắc, dự định (xảy ra không liên quan đến ý chỉ của người",
+      "example_jp": "本校では、教室では日本語しか話せないことになっている。",
+      "example_vi": "Ở trường này, trong lớp học người ta vẫn chỉ nói tiếng Nhật.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～ことになる」"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "本校では、教室では日本語しか話せないことになっている。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-033",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 23,
+      "knowledge_id": "grammar:～ことになっている」",
+      "pattern": "～ことになっている",
+      "meaning": "Chỉ được...",
+      "structure": "～ことになっている」",
+      "usage": "Chỉ được...",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～ことになっている」"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-034",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 25,
+      "knowledge_id": "grammar:～そうだ」",
+      "pattern": "～そうだ",
+      "meaning": "~Nghe nói là…",
+      "structure": "～そうだ」",
+      "usage": "Miêu tả một người, sự vật, hiện tượng,… có yếu tố, tính chất là như vậy (nhưng",
+      "example_jp": "彼女はわがままばかり言って、子供っぽい人だ。",
+      "example_vi": "Anh ta toàn nói những điều ngang bướng giống như trẻ con vậy.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～そうだ」"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女はわがままばかり言って、子供っぽい人だ。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-035",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 25,
+      "knowledge_id": "grammar:～っぽい」",
+      "pattern": "～っぽい",
+      "meaning": "Hệt như...",
+      "structure": "～っぽい」",
+      "usage": "Dùng để thể hiện hành động vừa mới xảy ra, cách thời điểm hiện tại chưa lâu theo",
+      "example_jp": "でき上がったばかりのケーキをみんなで食べた。",
+      "example_vi": "Mọi người cùng ăn cái bánh vừa mới ra lò.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～っぽい」"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "でき上がったばかりのケーキをみんなで食べた。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-036",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 25,
+      "knowledge_id": "grammar:～たばかり」",
+      "pattern": "～たばかり",
+      "meaning": "~ Vừa mới...",
+      "structure": "～たばかり」",
+      "usage": "~ Vừa mới...",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～たばかり」"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-037",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 26,
+      "knowledge_id": "grammar:～たところ」",
+      "pattern": "～たところ",
+      "meaning": "~Vừa mới.... ~Ngay sau khi...",
+      "structure": "～たところ」",
+      "usage": "Sự phỏng đoán mang tính chủ quan của người nói nhưng dựa trên cơ sở khá vững",
+      "example_jp": "いい薬を使ったから、きっとすぐ治るはずですよ。",
+      "example_vi": "Nếu uống loại thuốc tốt, chắc chắn sẽ khỏi ngay thôi.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～たところ」"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "いい薬を使ったから、きっとすぐ治るはずですよ。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-038",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 26,
+      "knowledge_id": "grammar:～はずだ",
+      "pattern": "～はずだ",
+      "meaning": "~ Chắc là...",
+      "structure": "～はずだ",
+      "usage": "Không phải là phỏng đoán mà là suy luận, lý giải của người nói về một hiện tượng,",
+      "example_jp": "なるほど、この薬を使えば早く治るわけですね。じゃあ使ってみましょう。",
+      "example_vi": "À ra là vậy, uống loại thuốc này sẽ nhanh khỏi hơn. Vậy thì tôi sẽ uống thử.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～はずだ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "なるほど、この薬を使えば早く治るわけですね。じゃあ使ってみましょう。"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "ebook-g-039",
+      "type": "grammar",
+      "subtype": "ebook_n3",
+      "level": "N3",
+      "source_file": "Ebook N3.pdf",
+      "source_page": 26,
+      "knowledge_id": "grammar:～わけだ",
+      "pattern": "～わけだ",
+      "meaning": "~ Chắc là, vì vậy mà, chẳng nào...",
+      "structure": "～わけだ",
+      "usage": "~ Chắc là, vì vậy mà, chẳng nào...",
+      "example_jp": "（例は資料参照）",
+      "example_vi": "Xem tài liệu gốc.",
+      "example_hira": null,
+      "pattern_ruby": [
+        {
+          "text": "～わけだ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "（例は資料参照）"
+        }
+      ],
+      "note": "Từ Ebook N3; có thể trùng bộ 80 mẫu.",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    }
+  ]
+}
