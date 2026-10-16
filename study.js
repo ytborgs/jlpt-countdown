@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '33';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '34';
 const SESSION_SHORT = 20;
 
 export const parseStudyHash = (hash = typeof location !== 'undefined' ? location.hash : '') => {
@@ -497,10 +497,10 @@ async function startStudy() {
     if (!showFab) setFlashMenuOpen(false);
     const total = knownMode ? items.length : 0;
     const done = knownMode ? known.size : 0;
-    knownText.textContent = `Đã thuộc ${done} · Còn ${total - done} / ${total}`;
+    knownText.textContent = total ? `Đã thuộc ${done}/${total}` : 'Đã thuộc 0/0';
     const percentage = total ? Math.round(done / total * 100) : 0;
     knownBar.setAttribute('aria-valuenow', String(percentage));
-    knownBar.setAttribute('aria-valuetext', knownText.textContent);
+    knownBar.setAttribute('aria-valuetext', `Đã thuộc ${done}, còn ${Math.max(0, total - done)} trên ${total}`);
     knownFill.style.width = (total ? done / total * 100 : 0) + '%';
     for (const button of knownFilterButtons) button.setAttribute('aria-pressed', String(button.dataset.filter === knownFilter));
   };
