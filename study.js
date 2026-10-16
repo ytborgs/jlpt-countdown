@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '20';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '21';
 
 const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
@@ -85,6 +85,9 @@ export function createStudyCard(item, index, selections = new Map()) {
     card.append(el('p', hasBody ? item.body : 'Nội dung đang đối chiếu từ PDF', 'study-tip-body'));
     if (!hasBody) card.append(el('span', 'Cần đối chiếu', 'study-badge'));
   } else if (item.type === 'practice') {
+    const resultBadge = el('span', '', 'study-result');
+    resultBadge.hidden = true;
+    card.append(resultBadge);
     const stemText = item.stem_jp || item.lemma_jp || '';
     const stemRuby = item.stem_ruby || (!item.stem_jp ? item.lemma_ruby : undefined);
     card.append(createPracticeStem(stemText, stemRuby, item.target));
@@ -98,20 +101,35 @@ export function createStudyCard(item, index, selections = new Map()) {
     for (const choice of item.choices) {
       const button = el('button', choice.key + '. ' + choice.text_jp, 'study-option', 'ja');
       button.type = 'button';
+      button.dataset.key = String(choice.key);
       button.setAttribute('aria-pressed', 'false');
       button.addEventListener('click', () => {
         selections.set(item.id, String(choice.key));
         for (const other of options.children) { other.setAttribute('aria-pressed', 'false'); delete other.dataset.result; }
         button.setAttribute('aria-pressed', 'true');
-        if (!keyed) { feedback.textContent = 'Đã chọn ' + choice.key + '. Tài liệu chưa cung cấp đáp án để đối chiếu.'; return; }
+        if (!keyed) {
+          feedback.dataset.state = 'neutral';
+          feedback.textContent = 'Đã chọn ' + choice.key + '. Tài liệu chưa cung cấp đáp án để đối chiếu.';
+          return;
+        }
         const answer = item.choices.find(option => String(option.key) === String(item.correct_answer));
         const correct = String(choice.key) === String(item.correct_answer);
         button.dataset.result = correct ? 'correct' : 'incorrect';
+        if (!correct) {
+          const answerButton = [...options.children].find(other => other.dataset.key === String(item.correct_answer));
+          if (answerButton) answerButton.dataset.result = 'correct';
+        }
+        feedback.dataset.state = correct ? 'ok' : 'wrong';
+        resultBadge.className = 'study-result ' + (correct ? 'study-result-ok' : 'study-result-bad');
+        resultBadge.textContent = correct ? '✓ Đúng' : '✗ Sai';
+        resultBadge.hidden = false;
         feedback.textContent = (correct ? 'Chính xác. ' : 'Chưa đúng. Đáp án: ' + answer.key + '. ' + answer.text_jp + '. ') + [item.meaning_vi, item.explanation].filter(Boolean).join(' · ');
       });
       options.append(button);
-      if (selections.get(item.id) === String(choice.key)) button.click();
     }
+    // Restore only after all options exist so the answer can be highlighted too.
+    const selectedButton = [...options.children].find(button => button.dataset.key === selections.get(item.id));
+    if (selectedButton) selectedButton.click();
     card.append(options, feedback);
     if (item.stem_gloss_vi) {
       const hint = el('details', '', 'grammar-details');
