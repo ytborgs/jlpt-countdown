@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '35';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '36';
 const SESSION_SHORT = 20;
 const CATALOG_STATE_KEY = 'jlpt-study-catalog-v1';
 
@@ -693,7 +693,9 @@ async function startStudy() {
   const sessionNext = document.getElementById('study-session-next');
   const session20 = document.getElementById('study-session-20');
   const filterDrawer = document.getElementById('study-filter-drawer');
+  const filterSummary = document.getElementById('study-filter-summary');
   const viewModeButtons = [];
+  const filterLabels = { all: 'Tất cả', todo: 'Chưa làm', wrong: 'Câu sai', ok: 'Câu đúng' };
   const persist = () => { if (topic) saveStudyProgress(topic.id, selections, results); };
   const isPracticeTopic = () => practiceItems.length > 0;
   const wrongCount = () => practiceItems.filter(item => results.get(item.id) === 'wrong').length;
@@ -701,7 +703,7 @@ async function startStudy() {
   const syncFilterDrawer = () => {
     if (!filterDrawer) return;
     filterDrawer.hidden = !isPracticeTopic();
-    if (window.matchMedia('(min-width: 768px)').matches) filterDrawer.open = true;
+    if (filterSummary) filterSummary.textContent = 'Lọc · ' + (filterLabels[filterMode] || 'Tất cả');
   };
   const createPracticeCompleteBanner = () => {
     const panel = el('div', '', 'study-complete');
@@ -837,11 +839,11 @@ async function startStudy() {
     }
     const current = sessionQueue[sessionIndex];
     const answered = current && isPracticeAnswered(current, selections, results);
-    sessionText.textContent = `Phiên · Câu ${sessionIndex + 1} / ${total}` + (sessionLimit ? ` (tối đa ${sessionLimit})` : '') + (answered ? ' · Đã chọn' : '');
+    sessionText.textContent = `${sessionIndex + 1}/${total}` + (sessionLimit ? ` · tối đa ${sessionLimit}` : '') + (answered ? ' · đã chọn' : '');
     sessionPrev.disabled = sessionIndex <= 0;
     sessionSkip.disabled = sessionIndex >= total - 1 && answered;
     sessionNext.disabled = false;
-    sessionNext.textContent = sessionIndex >= total - 1 ? (answered ? 'Xong phiên' : 'Câu này') : 'Câu tiếp';
+    sessionNext.textContent = sessionIndex >= total - 1 ? (answered ? 'Xong' : 'Câu này') : 'Tiếp';
     sessionNext.classList.toggle('is-ready', !!answered && sessionIndex < total - 1);
   };
   const updateProgress = () => {
@@ -852,9 +854,9 @@ async function startStudy() {
       const ok = gradable.filter(item => results.get(item.id) === 'ok').length;
       const bad = gradable.filter(item => results.get(item.id) === 'wrong').length;
       const total = gradable.length;
-      progressText.textContent = `Đúng ${ok} · Sai ${bad} · Còn ${total - ok - bad} / ${total}`;
+      progressText.textContent = `${ok} đúng · ${bad} sai · ${total - ok - bad}/${total}`;
       progressBar.setAttribute('aria-valuenow', String(total ? Math.round((ok + bad) / total * 100) : 0));
-      progressBar.setAttribute('aria-valuetext', progressText.textContent);
+      progressBar.setAttribute('aria-valuetext', `Đúng ${ok}, sai ${bad}, còn ${total - ok - bad} trên ${total}`);
       okFill.style.width = (total ? ok / total * 100 : 0) + '%';
       badFill.style.width = (total ? bad / total * 100 : 0) + '%';
       retryWrong.disabled = !bad;
@@ -862,9 +864,9 @@ async function startStudy() {
     } else {
       const total = practiceItems.length;
       const done = practiceItems.filter(item => selections.has(item.id)).length;
-      progressText.textContent = `Đã chọn ${done} · Còn ${total - done} / ${total}`;
+      progressText.textContent = `${done}/${total} đã chọn`;
       progressBar.setAttribute('aria-valuenow', String(total ? Math.round(done / total * 100) : 0));
-      progressBar.setAttribute('aria-valuetext', progressText.textContent);
+      progressBar.setAttribute('aria-valuetext', `Đã chọn ${done} trên ${total}`);
       okFill.style.width = (total ? done / total * 100 : 0) + '%';
       badFill.style.width = '0%';
       retryWrong.disabled = true;
@@ -903,6 +905,7 @@ async function startStudy() {
     button.type = 'button'; button.dataset.filter = mode;
     button.addEventListener('click', () => {
       progressMenu.open = false;
+      if (filterDrawer) filterDrawer.open = false;
       filterMode = mode;
       sessionLimit = null;
       if (viewMode === 'session') refreshSessionQueue({ preferTodo: true });
@@ -910,6 +913,10 @@ async function startStudy() {
     });
     filters.append(button); filterButtons.push(button);
   }
+  document.addEventListener('click', event => {
+    if (!filterDrawer?.open || filterDrawer.contains(event.target)) return;
+    filterDrawer.open = false;
+  });
   const goSession = delta => {
     if (!sessionQueue.length) return;
     const next = sessionIndex + delta;
@@ -993,7 +1000,6 @@ async function startStudy() {
       sessionPrev.click();
     }
   });
-  window.matchMedia('(min-width: 768px)').addEventListener('change', syncFilterDrawer);
   let topics, topic, items = [], version = 0, ready = false, groupFilter = 'all';
   let restoreCatalogScroll = null;
   const persistCatalogUi = () => {
