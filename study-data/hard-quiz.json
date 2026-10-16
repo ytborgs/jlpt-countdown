@@ -18,7 +18,8 @@
     "Đáp án linguistic từ phân tích đề (PDF slide không in key rõ). answer_source=linguistic.",
     "Stem đã bổ sung từ text layer PDF + preview khi OCR cắt.",
     "Q8 choices chuẩn hoá 記録/記緑/紀録/記縁 (OCR trùng).",
-    "Q25: sửa 中島線→中島さん theo ngữ cảnh câu."
+    "Q25: sửa 中島線→中島さん theo ngữ cảnh câu.",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -57,7 +58,13 @@
       "no": 1,
       "answer_source": "linguistic",
       "explanation": "過去 = かこ. Bẫy かこう/かきょ.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "過去",
+          "reading": "かこ"
+        }
+      ]
     },
     {
       "id": "hard-q-002",
@@ -95,7 +102,23 @@
       "no": 2,
       "answer_source": "linguistic",
       "explanation": "ほうりつ = 法律.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "大学",
+          "reading": "だいがく"
+        },
+        {
+          "text": "ではほうりつを"
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう"
+        },
+        {
+          "text": "しました。"
+        }
+      ]
     },
     {
       "id": "hard-q-003",
@@ -133,7 +156,19 @@
       "no": 3,
       "answer_source": "linguistic",
       "explanation": "かんこう = 観光 (du lịch).",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "いつか"
+        },
+        {
+          "text": "京都",
+          "reading": "きょうと"
+        },
+        {
+          "text": "をゆっくりかんこうしたい。"
+        }
+      ]
     },
     {
       "id": "hard-q-004",
@@ -171,7 +206,23 @@
       "no": 4,
       "answer_source": "linguistic",
       "explanation": "けん (vé) = 券.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "当日",
+          "reading": "とうじつ"
+        },
+        {
+          "text": "、このけんを"
+        },
+        {
+          "text": "忘れ",
+          "reading": "わすれ"
+        },
+        {
+          "text": "ないようにしてください。"
+        }
+      ]
     },
     {
       "id": "hard-q-005",
@@ -209,7 +260,30 @@
       "no": 5,
       "answer_source": "linguistic",
       "explanation": "外科 = げか (ngoại khoa).",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "田中",
+          "reading": "たなか"
+        },
+        {
+          "text": "さんは"
+        },
+        {
+          "text": "外科",
+          "reading": "げか"
+        },
+        {
+          "text": "のお"
+        },
+        {
+          "text": "医者",
+          "reading": "いしゃ"
+        },
+        {
+          "text": "さんです。"
+        }
+      ]
     },
     {
       "id": "hard-q-006",
@@ -247,7 +321,37 @@
       "no": 6,
       "answer_source": "linguistic",
       "explanation": "横断 = おうだん.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "道路",
+          "reading": "どうろ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "横断",
+          "reading": "おうだん"
+        },
+        {
+          "text": "するときは、"
+        },
+        {
+          "text": "車",
+          "reading": "くるま"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "十分注意",
+          "reading": "じゅうぶんちゅうい"
+        },
+        {
+          "text": "してください。"
+        }
+      ]
     },
     {
       "id": "hard-q-007",
@@ -285,7 +389,30 @@
       "no": 7,
       "answer_source": "linguistic",
       "explanation": "合図 = あいず.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "合図",
+          "reading": "あいず"
+        },
+        {
+          "text": "をしたら、"
+        },
+        {
+          "text": "始め",
+          "reading": "はじめ"
+        },
+        {
+          "text": "てください。"
+        }
+      ]
     },
     {
       "id": "hard-q-008",
@@ -323,7 +450,23 @@
       "no": 8,
       "answer_source": "linguistic",
       "explanation": "きろく = 記録 (ghi chép). Bẫy 緑/紀/縁.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "会議",
+          "reading": "かいぎ"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "決ま",
+          "reading": "きま"
+        },
+        {
+          "text": "ったことをきちんときろくしておいてください。"
+        }
+      ]
     },
     {
       "id": "hard-q-009",
@@ -357,7 +500,34 @@
       "no": 9,
       "answer_source": "linguistic",
       "explanation": "２ばい = 倍.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "米",
+          "reading": "こめ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "輸出",
+          "reading": "ゆしゅつ"
+        },
+        {
+          "text": "量",
+          "reading": "りょう"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "去年",
+          "reading": "きょねん"
+        },
+        {
+          "text": "の２ばいになった。"
+        }
+      ]
     },
     {
       "id": "hard-q-010",
@@ -395,7 +565,30 @@
       "no": 10,
       "answer_source": "linguistic",
       "explanation": "血液型 = けつえきがた.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "病院",
+          "reading": "びょういん"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "血液型",
+          "reading": "けつえきがた"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "調べ",
+          "reading": "しらべ"
+        },
+        {
+          "text": "ました。"
+        }
+      ]
     },
     {
       "id": "hard-q-011",
@@ -433,7 +626,41 @@
       "no": 11,
       "answer_source": "linguistic",
       "explanation": "湖 = みずうみ.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "上",
+          "reading": "うえ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "白い",
+          "reading": "しろい"
+        },
+        {
+          "text": "鳥",
+          "reading": "とり"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "飛ん",
+          "reading": "とん"
+        },
+        {
+          "text": "でいる。"
+        }
+      ]
     },
     {
       "id": "hard-q-012",
@@ -463,7 +690,23 @@
       "no": 12,
       "answer_source": "linguistic",
       "explanation": "ねがう = 願う (cầu mong), không phải 頼る.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "家族",
+          "reading": "かぞく"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "幸せ",
+          "reading": "しあわせ"
+        },
+        {
+          "text": "をねがっている。"
+        }
+      ]
     },
     {
       "id": "hard-q-013",
@@ -501,7 +744,26 @@
       "no": 13,
       "answer_source": "linguistic",
       "explanation": "部分 = ぶぶん.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "部分",
+          "reading": "ぶぶん"
+        },
+        {
+          "text": "をよく"
+        },
+        {
+          "text": "見て",
+          "reading": "みて"
+        },
+        {
+          "text": "ください。"
+        }
+      ]
     },
     {
       "id": "hard-q-014",
@@ -577,7 +839,19 @@
       "no": 15,
       "answer_source": "linguistic",
       "explanation": "うせつ = 右折 (rẽ phải).",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "交差点",
+          "reading": "こうさてん"
+        },
+        {
+          "text": "はうせつできません。"
+        }
+      ]
     },
     {
       "id": "hard-q-016",
@@ -615,7 +889,30 @@
       "no": 16,
       "answer_source": "linguistic",
       "explanation": "血圧 = けつあつ.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "血圧",
+          "reading": "けつあつ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "前",
+          "reading": "まえ"
+        },
+        {
+          "text": "よりも"
+        },
+        {
+          "text": "高かっ",
+          "reading": "たかっ"
+        },
+        {
+          "text": "たよ。"
+        }
+      ]
     },
     {
       "id": "hard-q-017",
@@ -653,7 +950,23 @@
       "no": 17,
       "answer_source": "linguistic",
       "explanation": "しゅうかんし = 週刊誌.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "高橋",
+          "reading": "たかはし"
+        },
+        {
+          "text": "さんにしゅうかんしを"
+        },
+        {
+          "text": "買っ",
+          "reading": "かっ"
+        },
+        {
+          "text": "てきてもらった。"
+        }
+      ]
     },
     {
       "id": "hard-q-018",
@@ -691,7 +1004,19 @@
       "no": 18,
       "answer_source": "linguistic",
       "explanation": "あついの = thứ dày hơn (sách/áo…) → 厚い, không phải 暑い thời tiết.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "もうちょっとあついのが"
+        },
+        {
+          "text": "欲しい",
+          "reading": "ほしい"
+        },
+        {
+          "text": "です。"
+        }
+      ]
     },
     {
       "id": "hard-q-019",
@@ -729,7 +1054,26 @@
       "no": 19,
       "answer_source": "linguistic",
       "explanation": "ものがたり = 物語.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "このものがたりは"
+        },
+        {
+          "text": "誰",
+          "reading": "だれ"
+        },
+        {
+          "text": "でも"
+        },
+        {
+          "text": "知って",
+          "reading": "しって"
+        },
+        {
+          "text": "いる。"
+        }
+      ]
     },
     {
       "id": "hard-q-020",
@@ -767,7 +1111,26 @@
       "no": 20,
       "answer_source": "linguistic",
       "explanation": "根 = ね.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "その"
+        },
+        {
+          "text": "木の根",
+          "reading": "きのね"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "薬",
+          "reading": "くすり"
+        },
+        {
+          "text": "にもなるそうです。"
+        }
+      ]
     },
     {
       "id": "hard-q-021",
@@ -805,7 +1168,26 @@
       "no": 21,
       "answer_source": "linguistic",
       "explanation": "ようき = 容器.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "工場",
+          "reading": "こうじょう"
+        },
+        {
+          "text": "ではプラスチックのようきを"
+        },
+        {
+          "text": "生産",
+          "reading": "せいさん"
+        },
+        {
+          "text": "しています。"
+        }
+      ]
     },
     {
       "id": "hard-q-022",
@@ -843,7 +1225,30 @@
       "no": 22,
       "answer_source": "linguistic",
       "explanation": "Trùng kiểu Q7: 合図 = あいず.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "合図",
+          "reading": "あいず"
+        },
+        {
+          "text": "をしたら、"
+        },
+        {
+          "text": "始め",
+          "reading": "はじめ"
+        },
+        {
+          "text": "てください。"
+        }
+      ]
     },
     {
       "id": "hard-q-023",
@@ -881,7 +1286,13 @@
       "no": 23,
       "answer_source": "linguistic",
       "explanation": "縮小 = thu nhỏ (ảnh/bản copy). Không dùng cho tiếng nói / cục tẩy / hứng thú.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "縮小",
+          "reading": "しゅくしょう"
+        }
+      ]
     },
     {
       "id": "hard-q-024",
@@ -919,7 +1330,16 @@
       "no": 24,
       "answer_source": "linguistic",
       "explanation": "どなる = quát lớn → 大声で怒られた.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "高橋",
+          "reading": "たかはし"
+        },
+        {
+          "text": "さんにどなられた。"
+        }
+      ]
     },
     {
       "id": "hard-q-025",
@@ -957,7 +1377,37 @@
       "no": 25,
       "answer_source": "linguistic",
       "explanation": "あらゆる = mọi / tất cả → 全部の. (Tên 中島さん bị OCR thành 中島線.)",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "中島",
+          "reading": "なかじま"
+        },
+        {
+          "text": "さんはあらゆる"
+        },
+        {
+          "text": "質問",
+          "reading": "しつもん"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "丁寧",
+          "reading": "ていねい"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "答え",
+          "reading": "こたえ"
+        },
+        {
+          "text": "た。"
+        }
+      ]
     },
     {
       "id": "hard-q-026",
@@ -995,7 +1445,30 @@
       "no": 26,
       "answer_source": "linguistic",
       "explanation": "Đổ nước vào → バケツ (xô).",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "掃除",
+          "reading": "そうじ"
+        },
+        {
+          "text": "をするので、この（　）に"
+        },
+        {
+          "text": "水",
+          "reading": "みず"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "入れ",
+          "reading": "いれ"
+        },
+        {
+          "text": "てください。"
+        }
+      ]
     },
     {
       "id": "hard-q-027",
@@ -1033,7 +1506,40 @@
       "no": 27,
       "answer_source": "linguistic",
       "explanation": "空気が乾燥している = không khí khô.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "国",
+          "reading": "くに"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "雨",
+          "reading": "あめ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "少ない",
+          "reading": "すくない"
+        },
+        {
+          "text": "ので、いつも"
+        },
+        {
+          "text": "空気",
+          "reading": "くうき"
+        },
+        {
+          "text": "が（　）している。"
+        }
+      ]
     },
     {
       "id": "hard-q-028",
@@ -1071,7 +1577,13 @@
       "no": 28,
       "answer_source": "linguistic",
       "explanation": "どちらになさいますか = quý khách chọn bên nào (kính ngữ).",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "レストランで\n客「ランチセットを一つお願いします。」\n店員「AセットとBセットのどちらに（　）か。」\n客「あ、Aセットをお願いします。」",
+          "reading": "れすとらんでできゃく「らんちせっとをひとつおねがいします。」てんいん「AせっととBせっとのどちらに（　）か。」きゃく「あ、Aせっとをおねがいします。」"
+        }
+      ]
     },
     {
       "id": "hard-q-029",
@@ -1109,7 +1621,80 @@
       "no": 29,
       "answer_source": "linguistic",
       "explanation": "Bệnh nhân hỏi: khi không đau cũng phải uống chứ? → 飲まないといけないでしょうか.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "医者",
+          "reading": "いしゃ"
+        },
+        {
+          "text": "「この"
+        },
+        {
+          "text": "薬",
+          "reading": "くすり"
+        },
+        {
+          "text": "を、3"
+        },
+        {
+          "text": "日間",
+          "reading": "にちかん"
+        },
+        {
+          "text": "、1"
+        },
+        {
+          "text": "日",
+          "reading": "にち"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "回",
+          "reading": "かい"
+        },
+        {
+          "text": "飲ん",
+          "reading": "のん"
+        },
+        {
+          "text": "でください。」\n"
+        },
+        {
+          "text": "患者",
+          "reading": "かんじゃ"
+        },
+        {
+          "text": "「わかりました。"
+        },
+        {
+          "text": "痛み",
+          "reading": "いたみ"
+        },
+        {
+          "text": "がないときも、（　）。」\n"
+        },
+        {
+          "text": "医者",
+          "reading": "いしゃ"
+        },
+        {
+          "text": "「はい。"
+        },
+        {
+          "text": "必ず",
+          "reading": "かならず"
+        },
+        {
+          "text": "飲ん",
+          "reading": "のん"
+        },
+        {
+          "text": "でください。」"
+        }
+      ]
     },
     {
       "id": "hard-q-030",
@@ -1147,7 +1732,62 @@
       "no": 30,
       "answer_source": "linguistic",
       "explanation": "Muốn ông sống lâu → 長生きしてほしい.",
-      "producer": "ai_solver"
+      "producer": "ai_solver",
+      "stem_ruby": [
+        {
+          "text": "今日は",
+          "reading": "こんにちは"
+        },
+        {
+          "text": "祖父",
+          "reading": "そふ"
+        },
+        {
+          "text": "の80"
+        },
+        {
+          "text": "歳",
+          "reading": "とし"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "誕生日",
+          "reading": "たんじょうび"
+        },
+        {
+          "text": "だ。"
+        },
+        {
+          "text": "大好き",
+          "reading": "だいすき"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "祖父",
+          "reading": "そふ"
+        },
+        {
+          "text": "には、いつまでも"
+        },
+        {
+          "text": "元気",
+          "reading": "げんき"
+        },
+        {
+          "text": "で"
+        },
+        {
+          "text": "長生き",
+          "reading": "ながいき"
+        },
+        {
+          "text": "（　）。"
+        }
+      ]
     }
   ]
 }

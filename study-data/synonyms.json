@@ -16,7 +16,8 @@
   "notes": [
     "Đáp án linguistic (PDF không in key). answer_source=linguistic — không phải official.",
     "Giải bằng n3-exam-solver; cập nhật practice JSON.",
-    "target = từ/đoạn được hỏi đồng nghĩa trong stem (để UI đậm/gạch chân)."
+    "target = từ/đoạn được hỏi đồng nghĩa trong stem (để UI đậm/gạch chân).",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -56,7 +57,30 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "適当なこと"
+      "target": "適当なこと",
+      "stem_ruby": [
+        {
+          "text": "山田",
+          "reading": "やまだ"
+        },
+        {
+          "text": "さんは "
+        },
+        {
+          "text": "適当",
+          "reading": "てきとう"
+        },
+        {
+          "text": "なことばかり"
+        },
+        {
+          "text": "言って",
+          "reading": "いって"
+        },
+        {
+          "text": "いる。"
+        }
+      ]
     },
     {
       "id": "synonym-q-02",
@@ -95,7 +119,37 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "明けて"
+      "target": "明けて",
+      "stem_ruby": [
+        {
+          "text": "年",
+          "reading": "ねん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "明け",
+          "reading": "あけ"
+        },
+        {
+          "text": "て、また"
+        },
+        {
+          "text": "頑張ろ",
+          "reading": "がんばろ"
+        },
+        {
+          "text": "うという"
+        },
+        {
+          "text": "気持ち",
+          "reading": "きもち"
+        },
+        {
+          "text": "になった。"
+        }
+      ]
     },
     {
       "id": "synonym-q-03",
@@ -134,7 +188,19 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "ぬるい"
+      "target": "ぬるい",
+      "stem_ruby": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "風呂",
+          "reading": "ふろ"
+        },
+        {
+          "text": "がちょっと ぬるいです。"
+        }
+      ]
     },
     {
       "id": "synonym-q-04",
@@ -173,7 +239,44 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "進んだ"
+      "target": "進んだ",
+      "stem_ruby": [
+        {
+          "text": "父",
+          "reading": "ちち"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "進ん",
+          "reading": "すすん"
+        },
+        {
+          "text": "だと"
+        },
+        {
+          "text": "医者",
+          "reading": "いしゃ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "言った",
+          "reading": "いった"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "synonym-q-05",
@@ -212,7 +315,30 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "前もって"
+      "target": "前もって",
+      "stem_ruby": [
+        {
+          "text": "会議",
+          "reading": "かいぎ"
+        },
+        {
+          "text": "のための"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "前",
+          "reading": "まえ"
+        },
+        {
+          "text": "もってこぴーしておく。"
+        }
+      ]
     },
     {
       "id": "synonym-q-06",
@@ -251,7 +377,34 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "そろっている"
+      "target": "そろっている",
+      "stem_ruby": [
+        {
+          "text": "図書館",
+          "reading": "としょかん"
+        },
+        {
+          "text": "には "
+        },
+        {
+          "text": "文法",
+          "reading": "ぶんぽう"
+        },
+        {
+          "text": "関係",
+          "reading": "かんけい"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "本",
+          "reading": "ほん"
+        },
+        {
+          "text": "がそろっている 。"
+        }
+      ]
     },
     {
       "id": "synonym-q-07",
@@ -290,7 +443,40 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "環境"
+      "target": "環境",
+      "stem_ruby": [
+        {
+          "text": "このあたりは"
+        },
+        {
+          "text": "子供",
+          "reading": "こども"
+        },
+        {
+          "text": "にとって"
+        },
+        {
+          "text": "環境",
+          "reading": "かんきょう"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "良く",
+          "reading": "よく"
+        },
+        {
+          "text": "ないので、"
+        },
+        {
+          "text": "引っ越し",
+          "reading": "ひっこし"
+        },
+        {
+          "text": "したい。"
+        }
+      ]
     },
     {
       "id": "synonym-q-08",
@@ -329,7 +515,23 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "結構な"
+      "target": "結構な",
+      "stem_ruby": [
+        {
+          "text": "結構",
+          "reading": "けっこう"
+        },
+        {
+          "text": "なお"
+        },
+        {
+          "text": "料理",
+          "reading": "りょうり"
+        },
+        {
+          "text": "をいただきました。"
+        }
+      ]
     },
     {
       "id": "synonym-q-09",
@@ -368,7 +570,33 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "特徴"
+      "target": "特徴",
+      "stem_ruby": [
+        {
+          "text": "その"
+        },
+        {
+          "text": "女性",
+          "reading": "じょせい"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "特徴",
+          "reading": "とくちょう"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "教え",
+          "reading": "おしえ"
+        },
+        {
+          "text": "てください。"
+        }
+      ]
     },
     {
       "id": "synonym-q-10",
@@ -407,7 +635,37 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "つかんだ"
+      "target": "つかんだ",
+      "stem_ruby": [
+        {
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "何度",
+          "reading": "なんど"
+        },
+        {
+          "text": "もやってみて、"
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "text": "のやり"
+        },
+        {
+          "text": "方を",
+          "reading": "ほうを"
+        },
+        {
+          "text": "つかんだ。"
+        }
+      ]
     },
     {
       "id": "synonym-q-11",
@@ -446,7 +704,23 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "以前"
+      "target": "以前",
+      "stem_ruby": [
+        {
+          "text": "以前",
+          "reading": "いぜん"
+        },
+        {
+          "text": "、ここはとてもにぎやかな"
+        },
+        {
+          "text": "通り",
+          "reading": "とうり"
+        },
+        {
+          "text": "だった。"
+        }
+      ]
     },
     {
       "id": "synonym-q-12",
@@ -485,7 +759,34 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "一生懸命"
+      "target": "一生懸命",
+      "stem_ruby": [
+        {
+          "text": "上田",
+          "reading": "うえだ"
+        },
+        {
+          "text": "さんは、"
+        },
+        {
+          "text": "家族",
+          "reading": "かぞく"
+        },
+        {
+          "text": "のために"
+        },
+        {
+          "text": "一生懸命",
+          "reading": "いっしょうけんめい"
+        },
+        {
+          "text": "働い",
+          "reading": "はたらい"
+        },
+        {
+          "text": "ている。"
+        }
+      ]
     },
     {
       "id": "synonym-q-13",
@@ -524,7 +825,27 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "くたびれて"
+      "target": "くたびれて",
+      "stem_ruby": [
+        {
+          "text": "時間",
+          "reading": "じかん"
+        },
+        {
+          "text": "も"
+        },
+        {
+          "text": "歩き",
+          "reading": "あるき"
+        },
+        {
+          "text": "続け",
+          "reading": "つづけ"
+        },
+        {
+          "text": "たから、くたびれてしまった"
+        }
+      ]
     },
     {
       "id": "synonym-q-14",
@@ -563,7 +884,26 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "あわただしい"
+      "target": "あわただしい",
+      "stem_ruby": [
+        {
+          "text": "もうすぐ"
+        },
+        {
+          "text": "結婚式",
+          "reading": "けっこんしき"
+        },
+        {
+          "text": "で、あわただしい"
+        },
+        {
+          "text": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "synonym-q-15",
@@ -602,7 +942,37 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "偶然"
+      "target": "偶然",
+      "stem_ruby": [
+        {
+          "text": "デパートで"
+        },
+        {
+          "text": "買い物",
+          "reading": "かいもの"
+        },
+        {
+          "text": "していたら、"
+        },
+        {
+          "text": "偶然",
+          "reading": "ぐうぜん"
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "会っ",
+          "reading": "あっ"
+        },
+        {
+          "text": "た。"
+        }
+      ]
     },
     {
       "id": "synonym-q-16",
@@ -641,7 +1011,44 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "まったく"
+      "target": "まったく",
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "本",
+          "reading": "ほん"
+        },
+        {
+          "text": "は "
+        },
+        {
+          "text": "何回",
+          "reading": "なんかい"
+        },
+        {
+          "text": "読んで",
+          "reading": "よんで"
+        },
+        {
+          "text": "も、"
+        },
+        {
+          "text": "内容",
+          "reading": "ないよう"
+        },
+        {
+          "text": "がまったく "
+        },
+        {
+          "text": "理解",
+          "reading": "りかい"
+        },
+        {
+          "text": "できない。"
+        }
+      ]
     },
     {
       "id": "synonym-q-17",
@@ -680,7 +1087,26 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "たぶん"
+      "target": "たぶん",
+      "stem_ruby": [
+        {
+          "text": "たぶん、"
+        },
+        {
+          "text": "彼は",
+          "reading": "かれは"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "来ない",
+          "reading": "こない"
+        },
+        {
+          "text": "だろう。"
+        }
+      ]
     },
     {
       "id": "synonym-q-18",
@@ -719,7 +1145,26 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "ただで"
+      "target": "ただで",
+      "stem_ruby": [
+        {
+          "text": "この"
+        },
+        {
+          "text": "雑誌",
+          "reading": "ざっし"
+        },
+        {
+          "text": "はただで"
+        },
+        {
+          "text": "配っ",
+          "reading": "くばっ"
+        },
+        {
+          "text": "ている。"
+        }
+      ]
     },
     {
       "id": "synonym-q-19",
@@ -758,7 +1203,23 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "もったいない"
+      "target": "もったいない",
+      "stem_ruby": [
+        {
+          "text": "使え",
+          "reading": "つかえ"
+        },
+        {
+          "text": "るものを "
+        },
+        {
+          "text": "捨て",
+          "reading": "すて"
+        },
+        {
+          "text": "るなんてもったいない。"
+        }
+      ]
     },
     {
       "id": "synonym-q-20",
@@ -797,7 +1258,33 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "規模"
+      "target": "規模",
+      "stem_ruby": [
+        {
+          "text": "あそことうちとでは、"
+        },
+        {
+          "text": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "規模",
+          "reading": "きぼ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "違う",
+          "reading": "ちがう"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "synonym-q-21",
@@ -836,7 +1323,40 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "乱暴な"
+      "target": "乱暴な",
+      "stem_ruby": [
+        {
+          "text": "そんな"
+        },
+        {
+          "text": "乱暴",
+          "reading": "らんぼう"
+        },
+        {
+          "text": "な"
+        },
+        {
+          "text": "運転",
+          "reading": "うんてん"
+        },
+        {
+          "text": "をしていると、いつか"
+        },
+        {
+          "text": "事故",
+          "reading": "じこ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "起こ",
+          "reading": "おこ"
+        },
+        {
+          "text": "す。"
+        }
+      ]
     },
     {
       "id": "synonym-q-22",
@@ -875,7 +1395,40 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "生意気な"
+      "target": "生意気な",
+      "stem_ruby": [
+        {
+          "text": "ことしの"
+        },
+        {
+          "text": "新人",
+          "reading": "しんじん"
+        },
+        {
+          "text": "は、"
+        },
+        {
+          "text": "本当",
+          "reading": "ほんとう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "生意気",
+          "reading": "なまいき"
+        },
+        {
+          "text": "なのが"
+        },
+        {
+          "text": "多い",
+          "reading": "おおい"
+        },
+        {
+          "text": "。"
+        }
+      ]
     },
     {
       "id": "synonym-q-23",
@@ -914,7 +1467,44 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "気の毒だ"
+      "target": "気の毒だ",
+      "stem_ruby": [
+        {
+          "text": "いろいろ"
+        },
+        {
+          "text": "悪い",
+          "reading": "わるい"
+        },
+        {
+          "text": "ことが"
+        },
+        {
+          "text": "続い",
+          "reading": "つづい"
+        },
+        {
+          "text": "て、"
+        },
+        {
+          "text": "彼は",
+          "reading": "かれは"
+        },
+        {
+          "text": "本当",
+          "reading": "ほんとう"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "気の毒",
+          "reading": "きのどく"
+        },
+        {
+          "text": "だ。"
+        }
+      ]
     },
     {
       "id": "synonym-q-24",
@@ -953,7 +1543,33 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "とりあえず"
+      "target": "とりあえず",
+      "stem_ruby": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "店",
+          "reading": "みせ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "入っ",
+          "reading": "いっっ"
+        },
+        {
+          "text": "て、とりあえずビールを"
+        },
+        {
+          "text": "注文",
+          "reading": "ちゅうもん"
+        },
+        {
+          "text": "した。"
+        }
+      ]
     },
     {
       "id": "synonym-q-25",
@@ -992,7 +1608,26 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "わざと"
+      "target": "わざと",
+      "stem_ruby": [
+        {
+          "text": "あの"
+        },
+        {
+          "text": "人",
+          "reading": "にん"
+        },
+        {
+          "text": "は、わざと "
+        },
+        {
+          "text": "私",
+          "reading": "わたし"
+        },
+        {
+          "text": "にぶつかったのだ。"
+        }
+      ]
     },
     {
       "id": "synonym-q-26",
@@ -1031,7 +1666,23 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "もったいない"
+      "target": "もったいない",
+      "stem_ruby": [
+        {
+          "text": "使え",
+          "reading": "つかえ"
+        },
+        {
+          "text": "るものを "
+        },
+        {
+          "text": "捨て",
+          "reading": "すて"
+        },
+        {
+          "text": "るなんてもったいない。"
+        }
+      ]
     },
     {
       "id": "synonym-q-27",
@@ -1070,7 +1721,33 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "じっくり"
+      "target": "じっくり",
+      "stem_ruby": [
+        {
+          "text": "これは"
+        },
+        {
+          "text": "大切",
+          "reading": "たいせつ"
+        },
+        {
+          "text": "なことなので、じっくり "
+        },
+        {
+          "text": "考え",
+          "reading": "かんがえ"
+        },
+        {
+          "text": "て"
+        },
+        {
+          "text": "返事",
+          "reading": "へんじ"
+        },
+        {
+          "text": "したい。"
+        }
+      ]
     },
     {
       "id": "synonym-q-28",
@@ -1109,7 +1786,23 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "あっさりした"
+      "target": "あっさりした",
+      "stem_ruby": [
+        {
+          "text": "今日は",
+          "reading": "こんにちは"
+        },
+        {
+          "text": "ちょっと"
+        },
+        {
+          "text": "食欲",
+          "reading": "しょくよく"
+        },
+        {
+          "text": "がないから、あっさりしたものにしよう。"
+        }
+      ]
     },
     {
       "id": "synonym-q-29",
@@ -1148,7 +1841,23 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "とっくに"
+      "target": "とっくに",
+      "stem_ruby": [
+        {
+          "text": "社長",
+          "reading": "しゃちょう"
+        },
+        {
+          "text": "なら、とっくにお"
+        },
+        {
+          "text": "帰り",
+          "reading": "かえり"
+        },
+        {
+          "text": "になりました。"
+        }
+      ]
     },
     {
       "id": "synonym-q-30",
@@ -1187,7 +1896,44 @@
       "ai_extra": null,
       "answer_source": "linguistic",
       "producer": "ai_solver",
-      "target": "しょっちゅう"
+      "target": "しょっちゅう",
+      "stem_ruby": [
+        {
+          "text": "同僚",
+          "reading": "どうりょう"
+        },
+        {
+          "text": "の"
+        },
+        {
+          "text": "木村",
+          "reading": "きむら"
+        },
+        {
+          "text": "さんとは、しょっちゅう お"
+        },
+        {
+          "text": "酒",
+          "reading": "さけ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "飲み",
+          "reading": "のみ"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "行って",
+          "reading": "いって"
+        },
+        {
+          "text": "いる。"
+        }
+      ]
     }
   ]
 }

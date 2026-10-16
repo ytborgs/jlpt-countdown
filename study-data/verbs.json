@@ -15,7 +15,8 @@
   "status": "verified",
   "needs_verify_count": 0,
   "notes": [
-    "Phase C: thêm #77 結びつける. PDF chỉ 1–78 (không có 79/80)."
+    "Phase C: thêm #77 結びつける. PDF chỉ 1–78 (không có 79/80).",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -895,19 +896,11 @@
       "ai_extra": null,
       "lemma_ruby": [
         {
-          "text": "言"
+          "text": "言",
+          "reading": "い"
         },
         {
-          "text": "い"
-        },
-        {
-          "text": "か"
-        },
-        {
-          "text": "け"
-        },
-        {
-          "text": "る"
+          "text": "いかける"
         }
       ],
       "example_ruby": [
@@ -934,7 +927,8 @@
           "text": "る"
         }
       ],
-      "example_vi": "Bắt đầu nói ra điều thật lòng"
+      "example_vi": "Bắt đầu nói ra điều thật lòng",
+      "ruby_source": "linguistic"
     },
     {
       "id": "compound-verb-16",
@@ -4668,25 +4662,33 @@
           "reading": "むす"
         },
         {
-          "text": "び"
-        },
-        {
-          "text": "付",
-          "reading": "つ"
-        },
-        {
-          "text": "ける"
+          "text": "びつける"
         }
       ],
       "example_ruby": [
         {
-          "text": "スーツケースに名札を結びつける"
+          "text": "スーツケースに"
+        },
+        {
+          "text": "名札",
+          "reading": "なふだ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "結び",
+          "reading": "むすび"
+        },
+        {
+          "text": "つける"
         }
       ],
       "example_vi": "Gắn nhãn tên vào vali",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "ruby_source": "linguistic"
     },
     {
       "id": "compound-verb-78",

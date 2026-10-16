@@ -6,3 +6,5 @@
 .study-word ruby,.study-example-jp ruby{ruby-position:over;ruby-align:center}.study-word rt,.study-example-jp rt{font-size:.55em;font-weight:400;line-height:1.2;color:var(--muted)}.study-card .study-example-jp{font-size:18px;line-height:2.7;padding:10px 14px}.study-example-vi{color:var(--muted);font-size:14px}.study-collocation{color:var(--green);font-size:20px}
 
 .study-connector{font-size:25px;font-weight:700;line-height:1.8;color:var(--accent);margin:10px 0}.study-section{display:block;line-height:1.7;margin-bottom:12px}.study-verb-info{color:var(--green);font-size:14px}.study-tip-body{white-space:pre-wrap}
+
+.study-stem ruby,.study-connector ruby{ruby-position:over;ruby-align:center}.study-stem rt,.study-connector rt{font-size:.55em;font-weight:400;line-height:1.2;color:var(--muted)}.study-card .study-stem{line-height:2.5}.study-connector{line-height:2.3}

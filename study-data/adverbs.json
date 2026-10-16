@@ -15,7 +15,8 @@
   "status": "verified",
   "needs_verify_count": 0,
   "notes": [
-    "Bảng Phó từ / Hiragana / Ý nghĩa từ PDF tặng."
+    "Bảng Phó từ / Hiragana / Ý nghĩa từ PDF tặng.",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -301,7 +302,14 @@
       "meaning_vi": "lúc nãy, ban nãy và sau đây, vậy tiếp theo (dùng để đổi さて さて chủ đề) ngược lạ\"hơn nữa, ngoài ra;",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "先程",
+          "reading": "さきほど"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-更に",
@@ -316,7 +324,17 @@
       "meaning_vi": "... hơn nữa (có mức độ cao hơn cả trước giờ)\"i, trái lại chăm chú, chằm chằm; ở yên thường xuyên (tần suất khoảng 70% thấp hơn 常に và いつも)",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "更",
+          "reading": "さら"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-しばらく",
@@ -601,7 +619,17 @@
       "meaning_vi": "đầu tiên, trước tiên",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "初",
+          "reading": "はじ"
+        },
+        {
+          "text": "めに"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-ばらばら",
@@ -721,7 +749,14 @@
       "meaning_vi": "càng ngày càng... hơn thực tình (cảm thán);",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "益々",
+          "reading": "ますます"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-まったく",
@@ -751,7 +786,17 @@
       "meaning_vi": "cứ như, hệt như thà... còn hơn; ... hơn",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "丸",
+          "reading": "まる"
+        },
+        {
+          "text": "で"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-もしかしたら",
@@ -856,7 +901,14 @@
       "meaning_vi": "hơn hẳn",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "一層",
+          "reading": "いっそう"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-一度に",
@@ -871,7 +923,17 @@
       "meaning_vi": "cùng một lúc, cùng trong một lầnN3 tạm thời; một thời gian",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "一度",
+          "reading": "いちど"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-一瞬",
@@ -886,7 +948,14 @@
       "meaning_vi": "trong giây lát, trong một khoảnh khắc",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "一瞬",
+          "reading": "いっしゅん"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-一種",
@@ -901,7 +970,14 @@
       "meaning_vi": "một loại, một nét (đặc biệt) nào đó thông thường; phổ biến",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "一種",
+          "reading": "いっしゅ"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-万一",
@@ -916,7 +992,14 @@
       "meaning_vi": "nếu lỡ, chẳng may, vạn nhất chẳng mấy chốc, một ngày nào đó (sớm thôi); vẫn, đến giờ vẫn (thường đi với câu phủ định)",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "万一",
+          "reading": "まんいち"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-偶々",
@@ -931,7 +1014,14 @@
       "meaning_vi": "tình cờ, ngẫu nhiên cùng nhau, cùng với; cùng lúc, đồng thời",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "偶々",
+          "reading": "たまたま"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-全て",
@@ -946,7 +1036,17 @@
       "meaning_vi": "tất cả, toàn bộN3",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "全",
+          "reading": "すべ"
+        },
+        {
+          "text": "て"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-別々",
@@ -961,7 +1061,14 @@
       "meaning_vi": "riêng rẽ từng cái, từng cái một đặc biệt (thường đi với câu phủ định ➔ không có gì đặc biệt...); ngoài ra, khác (thường đi với câu phủ định); riêng ra",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "別々",
+          "reading": "べつべつ"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-割に",
@@ -976,7 +1083,17 @@
       "meaning_vi": "khá, tương đối (... hơn tưởng tượng)",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "割",
+          "reading": "わり"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-多少",
@@ -991,7 +1108,14 @@
       "meaning_vi": "một chút, ít nhiều",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "多少",
+          "reading": "たしょう"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-実に",
@@ -1006,7 +1130,17 @@
       "meaning_vi": "quả là, đúng là một chút; một lát",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "実",
+          "reading": "じつ"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-少しも",
@@ -1021,7 +1155,17 @@
       "meaning_vi": "một chút cũng... (đi với câu phủ định)",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "少",
+          "reading": "すこ"
+        },
+        {
+          "text": "しも"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-常に",
@@ -1036,7 +1180,17 @@
       "meaning_vi": "luôn luôn, thường xuyên (tần suất 100%)",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "常",
+          "reading": "つね"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-度々",
@@ -1051,7 +1205,14 @@
       "meaning_vi": "(lặp đi lặp lại) nhiều lần, thường xuyên",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "度々",
+          "reading": "たびたび"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-度に",
@@ -1066,7 +1227,17 @@
       "meaning_vi": "mỗi lần, mỗi dịpN3 theo như; càng... càng...",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "度",
+          "reading": "たび"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-必死に",
@@ -1081,7 +1252,17 @@
       "meaning_vi": "cố gắng hết sức, thục mạng, liều mạng một cách vô thức; bất giác có lẽ, e rằng (thường đi với mẫu câu",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "必死",
+          "reading": "ひっし"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-恐らく",
@@ -1096,7 +1277,17 @@
       "meaning_vi": "thể hiện suy đoán có độ chắc chắn cao như だろう...)",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "恐",
+          "reading": "おそ"
+        },
+        {
+          "text": "らく"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-意外に",
@@ -1111,7 +1302,17 @@
       "meaning_vi": "không ngờ, ngoài sức tưởng tượng từ trước, đã; đã... rồi sớm hơn (so với thông thường hoặc thời điểm đã định trước)",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "意外",
+          "reading": "いがい"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-早速",
@@ -1126,7 +1327,14 @@
       "meaning_vi": "ngay lập tức, sớm, nhanh chóng vô cùng;N3 最も もっとも nhất",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "早速",
+          "reading": "さっそく"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-次々",
@@ -1141,7 +1349,14 @@
       "meaning_vi": "lần lượt, liên tiếp",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "次々",
+          "reading": "つぎつぎ"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-滅多に",
@@ -1156,7 +1371,17 @@
       "meaning_vi": "hiếm khi, hầu như (đi với câu phủ định)",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "滅多",
+          "reading": "めった"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-相変わらず",
@@ -1171,7 +1396,17 @@
       "meaning_vi": "vẫn vậy, vẫn như mọi khi đột nhiên, đột ngột (xảy ra một việc 突然(に) とつぜん(に) tức thời và ngoài tầm kiểm soát của người nói) rốt cuộc, cuối cùng thì, kết cục là (sự",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "相変",
+          "reading": "相変"
+        },
+        {
+          "text": "わらず"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-結局",
@@ -1186,7 +1421,14 @@
       "meaning_vi": "việc sau nhiều diễn biến đã đi tới một kết luận, kết cục nhất định)",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "結局",
+          "reading": "けっきょく"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-要するに",
@@ -1201,7 +1443,17 @@
       "meaning_vi": "tóm lại là, nói ngắn gọn thì sắp; một ngày gần nhất giữa chừng (của một quá trình, vế sauN3 thường thể hiện ý từ bỏ, hủy ngang thay đổi...); trên đường (cho biết trên đường đi thì làm hành động gì, hoặc có chuyện gì đó xảy ra, khi này 途中で là danh từ) 途端(に) とたん(に) vừa mới... thì",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "要",
+          "reading": "よう"
+        },
+        {
+          "text": "するに"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-間もなく",
@@ -1216,7 +1468,17 @@
       "meaning_vi": "sắp sửa, chẳng mấy chốc",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "間",
+          "reading": "ま"
+        },
+        {
+          "text": "もなく"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adverb-際に",
@@ -1231,7 +1493,17 @@
       "meaning_vi": "khi, vào dịp",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "際",
+          "reading": "さい"
+        },
+        {
+          "text": "に"
+        }
+      ],
+      "ruby_source": "linguistic"
     }
   ]
 }

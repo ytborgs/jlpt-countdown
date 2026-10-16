@@ -9,7 +9,7 @@
 - **Đếm ngược:** hiển thị ngày, giờ, phút và giây còn lại; cập nhật mỗi giây khi trang đang mở. Thanh tiến độ tính từ ngày 05/10/2026.
 - **Ôn 6 mẫu ngữ pháp:** mỗi lần mở hoặc quay lại trang chính, chọn ngẫu nhiên 6 mẫu khác nhau từ bộ 80 mẫu. Lượt mới bỏ qua các mẫu của lượt trước khi có đủ dữ liệu.
 - **Thư viện 80 mẫu N3:** tra cứu theo mẫu tiếng Nhật, ý nghĩa, cấu trúc hoặc nội dung ví dụ; hỗ trợ tìm tiếng Việt không dấu.
-- **Tài liệu ôn tập N3 tổng hợp:** 19 bộ tài liệu từ dữ liệu v4 Phase C, có tìm kiếm tiếng Nhật/tiếng Việt, hiển thị đầy đủ từng bộ và luyện câu hỏi trắc nghiệm.
+- **Tài liệu ôn tập N3 tổng hợp:** 19 bộ tài liệu từ dữ liệu v5 Phase D, có tìm kiếm tiếng Nhật/tiếng Việt, hiển thị đầy đủ từng bộ và luyện câu hỏi trắc nghiệm.
 - **Furigana:** tên mẫu và câu ví dụ hiển thị cách đọc trên các cụm kanji. Mỗi thẻ có ý nghĩa, cấu trúc, cách dùng, ví dụ Nhật–Việt và ghi chú.
 - **Ngạn ngữ Nhật–Việt:** thay đổi khi mở hoặc quay lại trang, tránh lặp ngay câu vừa xem.
 - **Cá nhân hóa:** lưu tên để hiển thị lời chào trên trang countdown.
@@ -39,7 +39,7 @@ Nhấn biểu tượng **⚙** ở góc trên trang countdown:
 
 ### Tài liệu ôn tập N3 tổng hợp
 
-Trang tài liệu gồm các bộ dữ liệu sau, giữ nguyên nội dung JSON từ gói `n3-study-data-for-jlpt-countdown-v4.zip` và không công bố thư mục xử lý nội bộ `_work`. Có 19 bộ tài liệu:
+Trang tài liệu gồm các bộ dữ liệu sau, giữ nguyên nội dung JSON từ gói `n3-study-data-for-jlpt-countdown-v5.zip` và không công bố thư mục xử lý nội bộ `_work`. Có 19 bộ tài liệu:
 
 | Bộ tài liệu | Dữ liệu hiện có | Trạng thái |
 | --- | --- | --- |
@@ -68,6 +68,10 @@ Mỗi bộ có tìm kiếm riêng và hiển thị toàn bộ mục ngay khi t�
 `connectors` và `connectors-extra` cần nhánh dựng thẻ `reading` để hiển thị `connector_jp`, `section`, `meaning_vi` và `example_jp` khi có. Thẻ `tips` hỗ trợ tiêu đề và nội dung nhiều dòng; nếu thiếu body, chỉ hiển thị thông báo đang đối chiếu và huy hiệu cần đối chiếu.
 
 `exam-tips.json` đã mở trong danh mục với đủ 84 body không rỗng. Bộ động từ phức hiện có 78/80 mục, gồm 結びつける; hai mục #79–#80 vẫn thiếu và không được bổ sung suy đoán. Phase C chỉ áp dụng JSON được cung cấp, không trích xuất lại PDF/mixed/ebook/sổ tay và không công bố `_work`.
+
+Furigana v5 dùng các đoạn ruby được cung cấp trong JSON, với nguồn/cách đọc `linguistic`, không phải đáp án hay cách đọc chính thức từ kỳ thi. Vocabulary dùng `lemma_ruby`/`example_ruby`; grammar dùng `pattern_ruby`/`example_ruby`; reading dùng `connector_ruby` và `example_ruby` khi có. Practice dùng `stem_ruby`, hoặc `lemma_ruby` cho câu hỏi chỉ có từ vựng. Target được đánh dấu trên chữ gốc bên trong ruby, không đánh dấu nhầm cách đọc; target qua nhiều đoạn ruby vẫn giữ đủ phần gạch chân.
+
+Chỉ dựng furigana khi các đoạn text khớp nguyên văn; dữ liệu không khớp được hiển thị bằng văn bản gốc và fallback cách đọc riêng khi có. Một số `pattern_ruby` của Ebook chưa khớp pattern, nên vẫn dùng fallback này; giữ nguyên dữ liệu nguồn. Không tự sinh furigana ở client. Tips body và thẻ kanji giữ cách hiển thị hiện có.
 
 ### Thêm biểu tượng trên iPhone
 

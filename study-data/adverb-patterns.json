@@ -14,7 +14,9 @@
   "producer": "n3-study-extractor/parse_remaining:pho-tu-di-voi-mau-cau-dac-dinh",
   "status": "verified",
   "needs_verify_count": 0,
-  "notes": [],
+  "notes": [
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
+  ],
   "items": [
     {
       "id": "adv-col-もしかしたら-かもしれない",
@@ -89,7 +91,17 @@
       "meaning_vi": "Vừa xong",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "たった"
+        },
+        {
+          "text": "今",
+          "reading": "いま"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adv-col-まるで-ようだ",
@@ -374,7 +386,17 @@
       "meaning_vi": "Thực sự là…",
       "content_source": "pdf_extract",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "lemma_ruby": [
+        {
+          "text": "果た",
+          "reading": "はた"
+        },
+        {
+          "text": "して"
+        }
+      ],
+      "ruby_source": "linguistic"
     },
     {
       "id": "adv-col-めっきり-くなる変化",

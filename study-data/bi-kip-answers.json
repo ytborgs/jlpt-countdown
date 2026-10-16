@@ -16,7 +16,8 @@
   "needs_verify_count": 0,
   "notes": [
     "Phase A: bổ sung structure/usage/example + ruby plain để card grammar hiển thị.",
-    "Ví dụ linguistic (PDF bí kíp dạng tóm tắt). Không official."
+    "Ví dụ linguistic (PDF bí kíp dạng tóm tắt). Không official.",
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
     {
@@ -44,11 +45,23 @@
       ],
       "example_ruby": [
         {
-          "text": "日本語を勉強しはじめる。"
+          "text": "日本語",
+          "reading": "にほんご"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう"
+        },
+        {
+          "text": "しはじめる。"
         }
       ],
       "example_hira": null,
-      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3.",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-つづける終わる",
@@ -70,16 +83,49 @@
       "example_vi": "Mưa cứ rơi tiếp. / Đọc xong sách.",
       "pattern_ruby": [
         {
-          "text": "つづける・終わる"
+          "text": "つづける・"
+        },
+        {
+          "text": "終わ",
+          "reading": "おわ"
+        },
+        {
+          "text": "る"
         }
       ],
       "example_ruby": [
         {
-          "text": "雨が降りつづける。／本を読み終わる。"
+          "text": "雨",
+          "reading": "あめ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "降り",
+          "reading": "おり"
+        },
+        {
+          "text": "つづける。／"
+        },
+        {
+          "text": "本",
+          "reading": "ほん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "読み終わ",
+          "reading": "よみおわ"
+        },
+        {
+          "text": "る。"
         }
       ],
       "example_hira": null,
-      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3.",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-出す",
@@ -101,16 +147,33 @@
       "example_vi": "Em bé bắt đầu biết đi.",
       "pattern_ruby": [
         {
-          "text": "出す"
+          "text": "出す",
+          "reading": "だす"
         }
       ],
       "example_ruby": [
         {
-          "text": "赤ちゃんが歩き出す。"
+          "text": "赤ちゃん",
+          "reading": "あかちゃん"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "歩き",
+          "reading": "あるき"
+        },
+        {
+          "text": "出す",
+          "reading": "だす"
+        },
+        {
+          "text": "。"
         }
       ],
       "example_hira": null,
-      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3.",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-たがる",
@@ -137,11 +200,23 @@
       ],
       "example_ruby": [
         {
-          "text": "子供がケーキを食べたがる。"
+          "text": "子供",
+          "reading": "こども"
+        },
+        {
+          "text": "がケーキを"
+        },
+        {
+          "text": "食べた",
+          "reading": "たべた"
+        },
+        {
+          "text": "がる。"
         }
       ],
       "example_hira": null,
-      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3.",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-切る",
@@ -163,16 +238,36 @@
       "example_vi": "Tiêu hết sạch tiền.",
       "pattern_ruby": [
         {
-          "text": "切る"
+          "text": "切る",
+          "reading": "きる"
         }
       ],
       "example_ruby": [
         {
-          "text": "お金を使い切る。"
+          "text": "お"
+        },
+        {
+          "text": "金",
+          "reading": "きん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "使い",
+          "reading": "つかい"
+        },
+        {
+          "text": "切る",
+          "reading": "きる"
+        },
+        {
+          "text": "。"
         }
       ],
       "example_hira": null,
-      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3.",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-切れない",
@@ -194,16 +289,25 @@
       "example_vi": "Không ăn xuể.",
       "pattern_ruby": [
         {
-          "text": "切れない"
+          "text": "切れ",
+          "reading": "きれ"
+        },
+        {
+          "text": "ない"
         }
       ],
       "example_ruby": [
         {
-          "text": "食べきれない。"
+          "text": "食べ",
+          "reading": "たべ"
+        },
+        {
+          "text": "きれない。"
         }
       ],
       "example_hira": null,
-      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3.",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-直す",
@@ -225,16 +329,29 @@
       "example_vi": "Viết lại bài văn.",
       "pattern_ruby": [
         {
-          "text": "直す"
+          "text": "直す",
+          "reading": "なおす"
         }
       ],
       "example_ruby": [
         {
-          "text": "作文を書き直す。"
+          "text": "作文",
+          "reading": "さくぶん"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "書き直す",
+          "reading": "かきなおす"
+        },
+        {
+          "text": "。"
         }
       ],
       "example_hira": null,
-      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3.",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-Vます",
@@ -261,11 +378,23 @@
       ],
       "example_ruby": [
         {
-          "text": "窓を開けっぱなしだ。"
+          "text": "窓",
+          "reading": "まど"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "開け",
+          "reading": "ひらけ"
+        },
+        {
+          "text": "っぱなしだ。"
         }
       ],
       "example_hira": null,
-      "note": "っぱなし"
+      "note": "っぱなし",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-によって１",
@@ -292,11 +421,30 @@
       ],
       "example_ruby": [
         {
-          "text": "台風によって被害が出た。"
+          "text": "台風",
+          "reading": "たいふう"
+        },
+        {
+          "text": "によって"
+        },
+        {
+          "text": "被害",
+          "reading": "ひがい"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "出た",
+          "reading": "でた"
+        },
+        {
+          "text": "。"
         }
       ],
       "example_hira": null,
-      "note": "Vế sau thường là bị động Vられた"
+      "note": "Vế sau thường là bị động Vられた",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-によって２",
@@ -323,11 +471,30 @@
       ],
       "example_ruby": [
         {
-          "text": "人によって考え方が違う。"
+          "text": "人",
+          "reading": "にん"
+        },
+        {
+          "text": "によって"
+        },
+        {
+          "text": "考え方",
+          "reading": "かんがえかた"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "違う",
+          "reading": "ちがう"
+        },
+        {
+          "text": "。"
         }
       ],
       "example_hira": null,
-      "note": "いろいろ、さまざま、違う、異なる"
+      "note": "いろいろ、さまざま、違う、異なる",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-によって３",
@@ -354,11 +521,23 @@
       ],
       "example_ruby": [
         {
-          "text": "努力によって成功した。"
+          "text": "努力",
+          "reading": "どりょく"
+        },
+        {
+          "text": "によって"
+        },
+        {
+          "text": "成功",
+          "reading": "せいこう"
+        },
+        {
+          "text": "した。"
         }
       ],
       "example_hira": null,
-      "note": "できる・得る・学ぶ。。。"
+      "note": "できる・得る・学ぶ。。。",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-によって４",
@@ -385,11 +564,30 @@
       ],
       "example_ruby": [
         {
-          "text": "不注意によって事故が起きた。"
+          "text": "不注意",
+          "reading": "ふちゅうい"
+        },
+        {
+          "text": "によって"
+        },
+        {
+          "text": "事故",
+          "reading": "じこ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "起き",
+          "reading": "おき"
+        },
+        {
+          "text": "た。"
         }
       ],
       "example_hira": null,
-      "note": "不注意・台風"
+      "note": "不注意・台風",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-によるN",
@@ -416,11 +614,23 @@
       ],
       "example_ruby": [
         {
-          "text": "地震による被害。"
+          "text": "地震",
+          "reading": "じしん"
+        },
+        {
+          "text": "による"
+        },
+        {
+          "text": "被害",
+          "reading": "ひがい"
+        },
+        {
+          "text": "。"
         }
       ],
       "example_hira": null,
-      "note": "被害"
+      "note": "被害",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-によればによると",
@@ -447,11 +657,30 @@
       ],
       "example_ruby": [
         {
-          "text": "天気予報によれば、明日は雨だ。"
+          "text": "天気予報",
+          "reading": "てんきよほう"
+        },
+        {
+          "text": "によれば、"
+        },
+        {
+          "text": "明日",
+          "reading": "あした"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "雨",
+          "reading": "あめ"
+        },
+        {
+          "text": "だ。"
         }
       ],
       "example_hira": null,
-      "note": "Báo chí, dự báo thời tiết"
+      "note": "Báo chí, dự báo thời tiết",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-そうだ１",
@@ -478,11 +707,23 @@
       ],
       "example_ruby": [
         {
-          "text": "雨が降りそうだ。"
+          "text": "雨",
+          "reading": "あめ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "降り",
+          "reading": "おり"
+        },
+        {
+          "text": "そうだ。"
         }
       ],
       "example_hira": null,
-      "note": "→ いまにも"
+      "note": "→ いまにも",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-そうだ２",
@@ -509,11 +750,20 @@
       ],
       "example_ruby": [
         {
-          "text": "彼は結婚するそうだ。"
+          "text": "彼は",
+          "reading": "かれは"
+        },
+        {
+          "text": "結婚",
+          "reading": "けっこん"
+        },
+        {
+          "text": "するそうだ。"
         }
       ],
       "example_hira": null,
-      "note": "によると／によれば"
+      "note": "によると／によれば",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-そうにない",
@@ -540,11 +790,20 @@
       ],
       "example_ruby": [
         {
-          "text": "彼は来そうにない。"
+          "text": "彼は",
+          "reading": "かれは"
+        },
+        {
+          "text": "来そ",
+          "reading": "きそ"
+        },
+        {
+          "text": "うにない。"
         }
       ],
       "example_hira": null,
-      "note": "V可能・自動詞"
+      "note": "V可能・自動詞",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-ようになる",
@@ -571,11 +830,23 @@
       ],
       "example_ruby": [
         {
-          "text": "漢字が読めるようになった。"
+          "text": "漢字",
+          "reading": "かんじ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "読め",
+          "reading": "よめ"
+        },
+        {
+          "text": "るようになった。"
         }
       ],
       "example_hira": null,
-      "note": "Đã có thể, đã chuyển sang"
+      "note": "Đã có thể, đã chuyển sang",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-ようになっている",
@@ -602,11 +873,23 @@
       ],
       "example_ruby": [
         {
-          "text": "自動的に閉まるようになっている。"
+          "text": "自動的",
+          "reading": "じどうてき"
+        },
+        {
+          "text": "に"
+        },
+        {
+          "text": "閉ま",
+          "reading": "しま"
+        },
+        {
+          "text": "るようになっている。"
         }
       ],
       "example_hira": null,
-      "note": "Máy móc, set up tự động, sẵn"
+      "note": "Máy móc, set up tự động, sẵn",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-ようにする",
@@ -633,11 +916,20 @@
       ],
       "example_ruby": [
         {
-          "text": "毎日運動するようにしている。"
+          "text": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "text": "運動",
+          "reading": "うんどう"
+        },
+        {
+          "text": "するようにしている。"
         }
       ],
       "example_hira": null,
-      "note": "Vる・Vない"
+      "note": "Vる・Vない",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-ようとしている",
@@ -664,11 +956,16 @@
       ],
       "example_ruby": [
         {
-          "text": "出かけようとしている。"
+          "text": "出か",
+          "reading": "でか"
+        },
+        {
+          "text": "けようとしている。"
         }
       ],
       "example_hira": null,
-      "note": "Vよう"
+      "note": "Vよう",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-ようとしない",
@@ -695,11 +992,20 @@
       ],
       "example_ruby": [
         {
-          "text": "彼は勉強しようとしない。"
+          "text": "彼は",
+          "reading": "かれは"
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう"
+        },
+        {
+          "text": "しようとしない。"
         }
       ],
       "example_hira": null,
-      "note": "聞こうとしない"
+      "note": "聞こうとしない",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-つもりだ",
@@ -726,11 +1032,27 @@
       ],
       "example_ruby": [
         {
-          "text": "来年日本へ行くつもりだ。"
+          "text": "来年",
+          "reading": "らいねん"
+        },
+        {
+          "text": "日本",
+          "reading": "にっぽん"
+        },
+        {
+          "text": "へ"
+        },
+        {
+          "text": "行く",
+          "reading": "いく"
+        },
+        {
+          "text": "つもりだ。"
         }
       ],
       "example_hira": null,
-      "note": "Vる・Vない"
+      "note": "Vる・Vない",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-つもりがない",
@@ -757,11 +1079,16 @@
       ],
       "example_ruby": [
         {
-          "text": "諦めるつもりがない。"
+          "text": "諦め",
+          "reading": "あきらめ"
+        },
+        {
+          "text": "るつもりがない。"
         }
       ],
       "example_hira": null,
-      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3.",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-つもりだった",
@@ -788,11 +1115,23 @@
       ],
       "example_ruby": [
         {
-          "text": "行くつもりだったが、行けなかった。"
+          "text": "行く",
+          "reading": "いく"
+        },
+        {
+          "text": "つもりだったが、"
+        },
+        {
+          "text": "行け",
+          "reading": "いけ"
+        },
+        {
+          "text": "なかった。"
         }
       ],
       "example_hira": null,
-      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3.",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-つもりだ２",
@@ -819,11 +1158,16 @@
       ],
       "example_ruby": [
         {
-          "text": "分かっているつもりだ。"
+          "text": "分か",
+          "reading": "わか"
+        },
+        {
+          "text": "っているつもりだ。"
         }
       ],
       "example_hira": null,
-      "note": "Vた・Vている・A・N"
+      "note": "Vた・Vている・A・N",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-ことから",
@@ -850,11 +1194,30 @@
       ],
       "example_ruby": [
         {
-          "text": "態度が悪いことから嫌われた。"
+          "text": "態度",
+          "reading": "たいど"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "悪い",
+          "reading": "わるい"
+        },
+        {
+          "text": "ことから"
+        },
+        {
+          "text": "嫌わ",
+          "reading": "きらわ"
+        },
+        {
+          "text": "れた。"
         }
       ],
       "example_hira": null,
-      "note": "呼ばれた・わかった・"
+      "note": "呼ばれた・わかった・",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-ことだから",
@@ -881,11 +1244,23 @@
       ],
       "example_ruby": [
         {
-          "text": "彼のことだから、大丈夫だろう。"
+          "text": "彼の",
+          "reading": "かの"
+        },
+        {
+          "text": "ことだから、"
+        },
+        {
+          "text": "大丈夫",
+          "reading": "だいじょうぶ"
+        },
+        {
+          "text": "だろう。"
         }
       ],
       "example_hira": null,
-      "note": "（人）のことだから"
+      "note": "（人）のことだから",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-がちだ",
@@ -912,11 +1287,30 @@
       ],
       "example_ruby": [
         {
-          "text": "冬は風邪を引きがちだ。"
+          "text": "冬",
+          "reading": "ふゆ"
+        },
+        {
+          "text": "は"
+        },
+        {
+          "text": "風邪",
+          "reading": "かぜ"
+        },
+        {
+          "text": "を"
+        },
+        {
+          "text": "引き",
+          "reading": "ひき"
+        },
+        {
+          "text": "がちだ。"
         }
       ],
       "example_hira": null,
-      "note": "最近、子供のごろ、"
+      "note": "最近、子供のごろ、",
+      "ruby_source": "linguistic"
     },
     {
       "id": "bikip-たものだ",
@@ -943,11 +1337,23 @@
       ],
       "example_ruby": [
         {
-          "text": "子供のころ、ここで遊んだものだ。"
+          "text": "子供",
+          "reading": "こども"
+        },
+        {
+          "text": "のころ、ここで"
+        },
+        {
+          "text": "遊んだ",
+          "reading": "あそんだ"
+        },
+        {
+          "text": "ものだ。"
         }
       ],
       "example_hira": null,
-      "note": "Vた＋ものだ"
+      "note": "Vた＋ものだ",
+      "ruby_source": "linguistic"
     }
   ]
 }
