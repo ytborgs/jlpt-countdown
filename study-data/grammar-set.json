@@ -1,0 +1,1325 @@
+{
+  "schema_version": "1.0",
+  "document_id": "mau-ngu-phap-n3-n2-theo-set",
+  "type": "grammar",
+  "level": "N3",
+  "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+  "source_path": "study-materials/Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+  "title": "Các mẫu ngữ pháp N3–N2 theo SET",
+  "page_count": null,
+  "item_count": 42,
+  "expected_item_count": null,
+  "content_source": "pdf_extract",
+  "produced_at": "2026-10-16T06:51:14+00:00",
+  "producer": "n3-study-extractor/phase-a-set",
+  "status": "verified",
+  "needs_verify_count": 0,
+  "notes": [
+    "Phase A: bổ sung structure/usage (=pattern/meaning), pattern_ruby/example_ruby plain (linguistic).",
+    "Đã điền meaning còn thiếu cho ～Nに限って."
+  ],
+  "items": [
+    {
+      "id": "grammar-set-001",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:もかまわず",
+      "no": 1,
+      "pattern": "～もかまわず",
+      "meaning": "Không quan tâm đến..",
+      "example_jp": "値段もかまわず買い物する。",
+      "example_vi": "Mua hàng mà không quan tâm tới giá cả",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～もかまわず",
+      "usage": "Không quan tâm đến..",
+      "pattern_ruby": [
+        {
+          "text": "～もかまわず"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "値段もかまわず買い物する。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-002",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:にかかわらず",
+      "no": 3,
+      "pattern": "～にかかわらず",
+      "meaning": "Bất kể, không quan trọng",
+      "example_jp": "送料は重さにかかわらず200円だ。",
+      "example_vi": "Phí gửi bất kể độ nặng đều là 200 Yên",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～にかかわらず",
+      "usage": "Bất kể, không quan trọng",
+      "pattern_ruby": [
+        {
+          "text": "～にかかわらず"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "送料は重さにかかわらず200円だ。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-003",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:にもかかわらず",
+      "no": 4,
+      "pattern": "～にもかかわらず",
+      "meaning": "Mặc dù..",
+      "example_jp": "大雨にもかかわらず沢山の人が集まった。",
+      "example_vi": "Mặc dù trời mưa to nhưng nhiều người vẫn tập trung",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～にもかかわらず",
+      "usage": "Mặc dù..",
+      "pattern_ruby": [
+        {
+          "text": "～にもかかわらず"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "大雨にもかかわらず沢山の人が集まった。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-004",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:ずにはいられない",
+      "no": 5,
+      "pattern": "～ずにはいられない",
+      "meaning": "Không thể không ...",
+      "example_jp": "喉が渇いて水を飲まずにはいられない。",
+      "example_vi": "Khát quá. Phải uống nước Không uống không chịu được",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～ずにはいられない",
+      "usage": "Không thể không ...",
+      "pattern_ruby": [
+        {
+          "text": "～ずにはいられない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "喉が渇いて水を飲まずにはいられない。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-005",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:ざるを得ない",
+      "no": 6,
+      "pattern": "～ざるを得ない",
+      "meaning": "Đành phải..",
+      "example_jp": "週末も働かざるを得ない。",
+      "example_vi": "Cuối tuần cũng buộc phải làm việc",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～ざるを得ない",
+      "usage": "Đành phải..",
+      "pattern_ruby": [
+        {
+          "text": "～ざるを得ない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "週末も働かざるを得ない。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-006",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:もの",
+      "no": 1,
+      "pattern": "～もの",
+      "meaning": "Là tại vì , là do ( Phụ nữ, trẻ em hay dùng)",
+      "example_jp": "これは食べたく無い。嫌いなんだもの。",
+      "example_vi": "Cái này con không muốn ăn. Là bởi vì con ghét nó mà",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～もの",
+      "usage": "Là tại vì , là do ( Phụ nữ, trẻ em hay dùng)",
+      "pattern_ruby": [
+        {
+          "text": "～もの"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "これは食べたく無い。嫌いなんだもの。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-007",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:ものか",
+      "no": 2,
+      "pattern": "～ものか",
+      "meaning": "Nhất định không..",
+      "example_jp": "あいつが時間通りに来るものか。",
+      "example_vi": "Thằng đó nhất định không đến đúng giờ đâu",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～ものか",
+      "usage": "Nhất định không..",
+      "pattern_ruby": [
+        {
+          "text": "～ものか"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "あいつが時間通りに来るものか。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-008",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:ものの",
+      "no": 4,
+      "pattern": "～ものの",
+      "meaning": "Mặc dù..nhưng",
+      "example_jp": "高い着物を買ったものの着る機会が無い。",
+      "example_vi": "Mặc dù mua được bộ Kimono đắt tiền mà không có cơ hội mặc",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～ものの",
+      "usage": "Mặc dù..nhưng",
+      "pattern_ruby": [
+        {
+          "text": "～ものの"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "高い着物を買ったものの着る機会が無い。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-009",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:ものだ",
+      "no": 6,
+      "pattern": "～ものだ",
+      "meaning": "Là thứ ...",
+      "example_jp": "人間は本来一人では生きられないものだ。",
+      "example_vi": "Con người bản chất là không thể sống 1 mình",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～ものだ",
+      "usage": "Là thứ ...",
+      "pattern_ruby": [
+        {
+          "text": "～ものだ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "人間は本来一人では生きられないものだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-010",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:というものだ",
+      "no": 7,
+      "pattern": "～というものだ。",
+      "meaning": "Là thứ, định nghĩa về 1 thứ tất yếu",
+      "example_jp": "仕事を途中で投げ出すのは無責任というものだ",
+      "example_vi": "Bỏ dở công việc giữa chừng là cái đồ Vô Trách Nhiệm",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～というものだ。",
+      "usage": "Là thứ, định nghĩa về 1 thứ tất yếu",
+      "pattern_ruby": [
+        {
+          "text": "～というものだ。"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "仕事を途中で投げ出すのは無責任というものだ"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-011",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:というものではない-というものでもない",
+      "no": 8,
+      "pattern": "～というものではない/// というものでもない",
+      "meaning": "Không hẳn là ...",
+      "example_jp": "安ければいいというものではない。",
+      "example_vi": "Không hẳn rẻ là đã tốt",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～というものではない/// というものでもない",
+      "usage": "Không hẳn là ...",
+      "pattern_ruby": [
+        {
+          "text": "～というものではない/// というものでもない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "安ければいいというものではない。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-012",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:たいものだ",
+      "no": 9,
+      "pattern": "～たいものだ",
+      "meaning": "Rất muốn",
+      "example_jp": "将来はこんな家に住みたいものだ。",
+      "example_vi": "Tương lai em rất muốn sống ở ngôi nhà như thế này này",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～たいものだ",
+      "usage": "Rất muốn",
+      "pattern_ruby": [
+        {
+          "text": "～たいものだ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "将来はこんな家に住みたいものだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-013",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:たものだ",
+      "no": 10,
+      "pattern": "～たものだ。",
+      "meaning": "Đã từng( Nói về chuyện quá khứ)",
+      "example_jp": "母はよく学生時代のことを私たちに話したものだ。",
+      "example_vi": "Mẹ tôi thường kể những chuyện thời còn sinh viên cho anh em",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～たものだ。",
+      "usage": "Đã từng( Nói về chuyện quá khứ)",
+      "pattern_ruby": [
+        {
+          "text": "～たものだ。"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "母はよく学生時代のことを私たちに話したものだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-014",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:ものなら",
+      "no": 11,
+      "pattern": "～ものなら",
+      "meaning": "Nếu có thể.. thì",
+      "example_jp": "やれるものならやってみろ。",
+      "example_vi": "Nếu có thể làm thì hãy làm thử xem",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～ものなら",
+      "usage": "Nếu có thể.. thì",
+      "pattern_ruby": [
+        {
+          "text": "～ものなら"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "やれるものならやってみろ。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-015",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:ようものなら",
+      "no": 12,
+      "pattern": "～~ようものなら",
+      "meaning": "Nếu lỡ... Nếu lỡ chẳng may...",
+      "example_jp": "山道は危ない。ちょっと足を踏みはずそうものなら、大怪我をするだろう。",
+      "example_vi": "Đường núi rất nguy hiểm. Nếu lỡ chẳng may bị trượt chân có thể",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～~ようものなら",
+      "usage": "Nếu lỡ... Nếu lỡ chẳng may...",
+      "pattern_ruby": [
+        {
+          "text": "～~ようものなら"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "山道は危ない。ちょっと足を踏みはずそうものなら、大怪我をするだろう。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-016",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:といった",
+      "no": 1,
+      "pattern": "～といった",
+      "meaning": "Như là,những thứ như là ..",
+      "example_jp": "ケーキやクッキーといったお菓子が大好きだ。",
+      "example_vi": "Tôi rất thích các loại bánh kẹo như là bánh quy và bánh ngọt",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～といった",
+      "usage": "Như là,những thứ như là ..",
+      "pattern_ruby": [
+        {
+          "text": "～といった"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ケーキやクッキーといったお菓子が大好きだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-017",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:といえば",
+      "no": 2,
+      "pattern": "～といえば",
+      "meaning": "Nhắc tới...",
+      "example_jp": "あ。雪だ。雪と言えば。スキー旅行はどうしよう。",
+      "example_vi": "A Có tuyết rồi, Nhắc tới tuyết mới nhớ. Chuyến du lịch trượt tuyết",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～といえば",
+      "usage": "Nhắc tới...",
+      "pattern_ruby": [
+        {
+          "text": "～といえば"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "あ。雪だ。雪と言えば。スキー旅行はどうしよう。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-018",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:と言うと",
+      "no": 3,
+      "pattern": "～と言うと",
+      "meaning": "Nhắc tới ..",
+      "example_jp": "京都と言うと。お寺をイメージします。",
+      "example_vi": "Nhắc tới Kyoto lại nhớ tới hình ảnh các ngôi chùa",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～と言うと",
+      "usage": "Nhắc tới ..",
+      "pattern_ruby": [
+        {
+          "text": "～と言うと"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "京都と言うと。お寺をイメージします。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-019",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:といったら",
+      "no": 4,
+      "pattern": "～といったら",
+      "meaning": "Cứ hễ nói đến..",
+      "example_jp": "代表的な日本料理といったら、寿司や天ぷらだ。",
+      "example_vi": "Cứ nói đến các món ăn đại diện của Nhật thì lại nhớ tới Sushi",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～といったら",
+      "usage": "Cứ hễ nói đến..",
+      "pattern_ruby": [
+        {
+          "text": "～といったら"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "代表的な日本料理といったら、寿司や天ぷらだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-020",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:と言っても",
+      "no": 5,
+      "pattern": "～と言っても",
+      "meaning": "Dẫu nói là ..thì chỉ",
+      "example_jp": "料理が出来ると言っても、簡単なものだけだ。",
+      "example_vi": "Dẫu nói là có thể nấu ăn nhưng cũng chỉ là những món đơn giản",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～と言っても",
+      "usage": "Dẫu nói là ..thì chỉ",
+      "pattern_ruby": [
+        {
+          "text": "～と言っても"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "料理が出来ると言っても、簡単なものだけだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-021",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:からと言って",
+      "no": 6,
+      "pattern": "～からと言って",
+      "meaning": "Dẫu cho..thì không hẳn là",
+      "example_jp": "好きだからと言って、そればかり食べてはいけない。",
+      "example_vi": "Dẫu cho nói là thích nhưng không nên ăn nhiều như vậy",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～からと言って",
+      "usage": "Dẫu cho..thì không hẳn là",
+      "pattern_ruby": [
+        {
+          "text": "～からと言って"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "好きだからと言って、そればかり食べてはいけない。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-022",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:とはいえ",
+      "no": 7,
+      "pattern": "～とはいえ",
+      "meaning": "Mặc dù nói là..",
+      "example_jp": "12月に入ったとはいえ、まだ年末という気がしない。",
+      "example_vi": "Mặc dù nói là tháng 12 nhưng vẫn chưa cảm thấy là cuối năm",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～とはいえ",
+      "usage": "Mặc dù nói là..",
+      "pattern_ruby": [
+        {
+          "text": "～とはいえ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "12月に入ったとはいえ、まだ年末という気がしない。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-023",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:とは言いながら",
+      "no": 8,
+      "pattern": "～とは言いながら",
+      "meaning": "Mặc dù ...(Ý nghĩa thường đối lập nhau)",
+      "example_jp": "彼女は母親になったとは言いながら、子育ては苦手なようだ。",
+      "example_vi": "Mặc dù cô ấy trở thành mẹ nhưng việc nuôi dậy còn non kém",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～とは言いながら",
+      "usage": "Mặc dù ...(Ý nghĩa thường đối lập nhau)",
+      "pattern_ruby": [
+        {
+          "text": "～とは言いながら"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女は母親になったとは言いながら、子育ては苦手なようだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-024",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:からいうと",
+      "no": 9,
+      "pattern": "～~からいうと",
+      "meaning": "Xét về mặt..thì",
+      "example_jp": "品質からいうと、これが一番いいけど、値段がちょっと高いです。",
+      "example_vi": "Xét về mặt chất lượng thì cái này là tốt nhất nhưng mà giá hơi cao",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～~からいうと",
+      "usage": "Xét về mặt..thì",
+      "pattern_ruby": [
+        {
+          "text": "～~からいうと"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "品質からいうと、これが一番いいけど、値段がちょっと高いです。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-025",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:からして",
+      "no": 1,
+      "pattern": "～からして",
+      "meaning": "Xét về mặt,nhìn từ ..",
+      "example_jp": "この映画は題名からして怖いそうだ。",
+      "example_vi": "Bộ phim này nhìn từ cái tên phim thôi đã cảm thấy sợ rồi",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～からして",
+      "usage": "Xét về mặt,nhìn từ ..",
+      "pattern_ruby": [
+        {
+          "text": "～からして"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この映画は題名からして怖いそうだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-026",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:としたら-とするととすれば",
+      "no": 2,
+      "pattern": "～としたら 、とすると、とすれば",
+      "meaning": "Nếu như..( Chuyện không có",
+      "example_jp": "無人島で過ごすとしたら。何を持って行きますか。",
+      "example_vi": "thật mang tính giả định)",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～としたら 、とすると、とすれば",
+      "usage": "Nếu như..( Chuyện không có",
+      "pattern_ruby": [
+        {
+          "text": "～としたら 、とすると、とすれば"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "無人島で過ごすとしたら。何を持って行きますか。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-027",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:にしても",
+      "no": 3,
+      "pattern": "～にしても",
+      "meaning": "Cho dù... ,Dẫu ..",
+      "example_jp": "時間が無いにしても、連絡ぐらいして欲しい。",
+      "example_vi": "Dẫu có nói là không có thời gian đi chăng nữa thì tôi vẫn muốn",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～にしても",
+      "usage": "Cho dù... ,Dẫu ..",
+      "pattern_ruby": [
+        {
+          "text": "～にしても"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "時間が無いにしても、連絡ぐらいして欲しい。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-028",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:にしろ",
+      "no": 4,
+      "pattern": "～にしろ",
+      "meaning": "Cho dù,ngay cả..thì cũng",
+      "example_jp": "何をするにしろ、心を込めて取り組みたい。",
+      "example_vi": "Dẫu làm cái gì đi nữa thì tôi cũng muốn làm nó 1 cách nhiệt huyết",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～にしろ",
+      "usage": "Cho dù,ngay cả..thì cũng",
+      "pattern_ruby": [
+        {
+          "text": "～にしろ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "何をするにしろ、心を込めて取り組みたい。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-029",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:にしては",
+      "no": 5,
+      "pattern": "～~にしては",
+      "meaning": "So với..thì khá là",
+      "example_jp": "この絵は子供が描いたにしてはよく描けている。",
+      "example_vi": "Bức tranh này so với đứa trẻ con vẽ thì nó khá là đẹp",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～~にしては",
+      "usage": "So với..thì khá là",
+      "pattern_ruby": [
+        {
+          "text": "～~にしては"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この絵は子供が描いたにしてはよく描けている。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-030",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:からすると",
+      "no": 6,
+      "pattern": "～~ からすると",
+      "meaning": "Xét về mặt...",
+      "example_jp": "性能からすると、この製品の方が断然いい。",
+      "example_vi": "Xét về mặt tính năng thì cái sản phẩm này tuyệt nhiên là tốt hơn",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～~ からすると",
+      "usage": "Xét về mặt...",
+      "pattern_ruby": [
+        {
+          "text": "～~ からすると"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "性能からすると、この製品の方が断然いい。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-031",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 8,
+      "knowledge_id": "grammar:どころではない",
+      "no": 1,
+      "pattern": "～どころではない",
+      "meaning": "Không những A mà còn B",
+      "example_jp": "連休中も休むどころではない、毎日残業だ。",
+      "example_vi": "Kì nghỉ dài không những không được nghỉ mà hàng ngày còn",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～どころではない",
+      "usage": "Không những A mà còn B",
+      "pattern_ruby": [
+        {
+          "text": "～どころではない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "連休中も休むどころではない、毎日残業だ。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-032",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 8,
+      "knowledge_id": "grammar:どころか",
+      "no": 2,
+      "pattern": "～どころか",
+      "meaning": "Nói gì đến",
+      "example_jp": "部屋の中は涼しいどころか、36度もあった。",
+      "example_vi": "Trong phòng nói gì đến mát mà tận 36 độ nè",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～どころか",
+      "usage": "Nói gì đến",
+      "pattern_ruby": [
+        {
+          "text": "～どころか"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "部屋の中は涼しいどころか、36度もあった。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-033",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 8,
+      "knowledge_id": "grammar:たところ",
+      "no": 4,
+      "pattern": "～たところ",
+      "meaning": "Vừa mới...t",
+      "example_jp": "メールを送ったところ、すぐ返事が来た。",
+      "example_vi": "Vừa mới gửi mail mà được trả lời ngay lập tức",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～たところ",
+      "usage": "Vừa mới...t",
+      "pattern_ruby": [
+        {
+          "text": "～たところ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "メールを送ったところ、すぐ返事が来た。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-034",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 8,
+      "knowledge_id": "grammar:どころだった",
+      "no": 5,
+      "pattern": "～どころだった",
+      "meaning": "Suýt chút nữa thì....",
+      "example_jp": "もう少しで車にぶつかるところだった。",
+      "example_vi": "Suýt chút nữa thì bị ô tô đâm vào",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～どころだった",
+      "usage": "Suýt chút nữa thì....",
+      "pattern_ruby": [
+        {
+          "text": "～どころだった"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "もう少しで車にぶつかるところだった。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-035",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 8,
+      "knowledge_id": "grammar:ところから",
+      "no": 6,
+      "pattern": "～ところから",
+      "meaning": "Do( Ở... chỗ)",
+      "example_jp": "この木は雪がかかったように花が咲くところから、[柳]という名前がついた。",
+      "example_vi": "Cái cây này do hoa nở giống như là Tuyết nên được đặt tên là",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～ところから",
+      "usage": "Do( Ở... chỗ)",
+      "pattern_ruby": [
+        {
+          "text": "～ところから"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この木は雪がかかったように花が咲くところから、[柳]という名前がついた。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-036",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 9,
+      "knowledge_id": "grammar:Nに限り",
+      "no": 1,
+      "pattern": "～Nに限り",
+      "meaning": "Chỉ trong, chỉ đối với, chỉ riêng ...",
+      "example_jp": "申込書を出すのは本日に限ります。",
+      "example_vi": "Việc nộp bản đăng kí chỉ trong ngày hôm nay",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～Nに限り",
+      "usage": "Chỉ trong, chỉ đối với, chỉ riêng ...",
+      "pattern_ruby": [
+        {
+          "text": "～Nに限り"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "申込書を出すのは本日に限ります。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-037",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 9,
+      "knowledge_id": "grammar:Nに限って",
+      "no": 2,
+      "pattern": "～Nに限って",
+      "meaning": "Chỉ riêng khi… / đúng lúc… (thường kèm ý tiêu cực)",
+      "example_jp": "太っている女性に限って、あまり運動しない。",
+      "example_vi": "Ý nghĩa 1: Càng những.. thì thường có xu hướng ..",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～Nに限って",
+      "usage": "Chỉ riêng khi… / đúng lúc… (thường kèm ý tiêu cực)",
+      "pattern_ruby": [
+        {
+          "text": "～Nに限って"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "太っている女性に限って、あまり運動しない。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-038",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 9,
+      "knowledge_id": "grammar:Nに限らず",
+      "no": 3,
+      "pattern": "～Nに限らず",
+      "meaning": "Không chỉ N mà còn...",
+      "example_jp": "最近、女性に限らず、男性も化粧をする。",
+      "example_vi": "Gần đây không chỉ phụ nữ mà cả đàn ông cũng trang điểm",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～Nに限らず",
+      "usage": "Không chỉ N mà còn...",
+      "pattern_ruby": [
+        {
+          "text": "～Nに限らず"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "最近、女性に限らず、男性も化粧をする。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-039",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 9,
+      "knowledge_id": "grammar:VるVないVている-限り",
+      "no": 4,
+      "pattern": "～Vる、Vない、Vている + 限り",
+      "meaning": "Chừng nào mà còn...thì vẫn",
+      "example_jp": "生きている限り、どんな事でもチャレンジしたい。",
+      "example_vi": "Chừng nào mà còn sống thì chuyện gì tôi cũng muốn thách thức",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～Vる、Vない、Vている + 限り",
+      "usage": "Chừng nào mà còn...thì vẫn",
+      "pattern_ruby": [
+        {
+          "text": "～Vる、Vない、Vている + 限り"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "生きている限り、どんな事でもチャレンジしたい。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-040",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 10,
+      "knowledge_id": "grammar:VるVないNに限る",
+      "no": 5,
+      "pattern": "～Vる、Vない、Nに限る",
+      "meaning": "..Là tốt nhất",
+      "example_jp": "蒸し暑い日々には生ビールに限る。",
+      "example_vi": "Vào những ngày oi bức thì Bia là tốt nhất",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～Vる、Vない、Nに限る",
+      "usage": "..Là tốt nhất",
+      "pattern_ruby": [
+        {
+          "text": "～Vる、Vない、Nに限る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "蒸し暑い日々には生ビールに限る。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-041",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 10,
+      "knowledge_id": "grammar:とは限らない",
+      "no": 6,
+      "pattern": "～~とは限らない",
+      "meaning": "Chưa chắc đã.. ,Không nhất thiết",
+      "example_jp": "日本語を教えてるのは必ず日本人とは限らない。",
+      "example_vi": "Những người dạy tiếng nhật không nhất thiết phải là người Nhật",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～~とは限らない",
+      "usage": "Chưa chắc đã.. ,Không nhất thiết",
+      "pattern_ruby": [
+        {
+          "text": "～~とは限らない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "日本語を教えてるのは必ず日本人とは限らない。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    },
+    {
+      "id": "grammar-set-042",
+      "type": "grammar",
+      "subtype": "set_pattern",
+      "level": "N3",
+      "source_file": "Các mẫu ngữ pháp N3 N2 theo SET.pdf",
+      "source_page": 10,
+      "knowledge_id": "grammar:限りでは",
+      "no": 7,
+      "pattern": "～~限りでは",
+      "meaning": "Trong phạm vi.., theo như tôi...t",
+      "example_jp": "私が知っている限りでは、この近所に花屋が有りません。",
+      "example_vi": "Theo như tôi được biết thì vùng quanh đây không có cửa hàng hoa",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "～~限りでは",
+      "usage": "Trong phạm vi.., theo như tôi...t",
+      "pattern_ruby": [
+        {
+          "text": "～~限りでは"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "私が知っている限りでは、この近所に花屋が有りません。"
+        }
+      ],
+      "example_hira": null,
+      "note": null
+    }
+  ]
+}

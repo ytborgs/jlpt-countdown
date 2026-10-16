@@ -9,7 +9,7 @@
 - **Đếm ngược:** hiển thị ngày, giờ, phút và giây còn lại; cập nhật mỗi giây khi trang đang mở. Thanh tiến độ tính từ ngày 05/10/2026.
 - **Ôn 6 mẫu ngữ pháp:** mỗi lần mở hoặc quay lại trang chính, chọn ngẫu nhiên 6 mẫu khác nhau từ bộ 80 mẫu. Lượt mới bỏ qua các mẫu của lượt trước khi có đủ dữ liệu.
 - **Thư viện 80 mẫu N3:** tra cứu theo mẫu tiếng Nhật, ý nghĩa, cấu trúc hoặc nội dung ví dụ; hỗ trợ tìm tiếng Việt không dấu.
-- **Tài liệu ôn tập N3 tổng hợp:** 10 bộ tài liệu từ dữ liệu v2, có tìm kiếm tiếng Nhật/tiếng Việt, hiển thị đầy đủ từng bộ và luyện câu hỏi trắc nghiệm.
+- **Tài liệu ôn tập N3 tổng hợp:** 16 bộ tài liệu từ dữ liệu v3 Phase A, có tìm kiếm tiếng Nhật/tiếng Việt, hiển thị đầy đủ từng bộ và luyện câu hỏi trắc nghiệm.
 - **Furigana:** tên mẫu và câu ví dụ hiển thị cách đọc trên các cụm kanji. Mỗi thẻ có ý nghĩa, cấu trúc, cách dùng, ví dụ Nhật–Việt và ghi chú.
 - **Ngạn ngữ Nhật–Việt:** thay đổi khi mở hoặc quay lại trang, tránh lặp ngay câu vừa xem.
 - **Cá nhân hóa:** lưu tên để hiển thị lời chào trên trang countdown.
@@ -39,11 +39,15 @@ Nhấn biểu tượng **⚙** ở góc trên trang countdown:
 
 ### Tài liệu ôn tập N3 tổng hợp
 
-Trang tài liệu gồm các bộ dữ liệu sau, giữ nguyên nội dung JSON từ gói `n3-study-data-for-jlpt-countdown-v2.zip` và không công bố thư mục xử lý nội bộ `_work`. Có 10 bộ tài liệu:
+Trang tài liệu gồm các bộ dữ liệu sau, giữ nguyên nội dung JSON từ gói `n3-study-data-for-jlpt-countdown-v3.zip` và không công bố thư mục xử lý nội bộ `_work`. Có 16 bộ tài liệu:
 
 | Bộ tài liệu | Dữ liệu hiện có | Trạng thái |
 | --- | --- | --- |
 | Ngữ pháp cơ bản | 80 mẫu | Có cấu trúc, cách dùng, ví dụ và furigana. |
+| Ngữ pháp N3–N2 theo SET | 42 mẫu | Dùng thẻ ngữ pháp; một số ruby chỉ có văn bản gốc, chưa có cách đọc. |
+| Bí kíp ngữ pháp N3 | 30 mẫu | Bản rút gọn, ví dụ linguistic. |
+| Bí kíp N3 (bản đáp án) | 30 mẫu | Dữ liệu có type=tips nhưng đủ trường ngữ pháp; hiển thị bằng thẻ ngữ pháp để đối chiếu. |
+| Tự động từ / Tha động từ | 141 mục | Động từ, cách đọc, nghĩa và trợ từ/tự–tha khi có; nghĩa VI linguistic. |
 | Hán tự N3 | 416 mục | Bản trích xuất cần đối chiếu các cột dữ liệu. |
 | Động từ phức hợp | 77/80 mục theo tên tài liệu | Có cách đọc, furigana cho từ và ví dụ, kèm dịch ví dụ; nguồn `linguistic`. |
 | Trắc nghiệm Hán tự | 96/96 câu | Có đáp án chép từ phần khoanh trong tài liệu (`answer_source: visual_annotation`); chọn một phương án để xem phản hồi đúng/sai. |
@@ -53,8 +57,14 @@ Trang tài liệu gồm các bộ dữ liệu sau, giữ nguyên nội dung JSON
 | Từ gần nghĩa các năm | 70 câu | Có đáp án `visual_annotation`, đánh dấu từ cần hỏi khi có. |
 | Tổng hợp phó từ N3 | 81 mục | Phó từ, cách đọc khi có và nghĩa tiếng Việt. |
 | Phó từ với mẫu câu đặc định | 25 mục | Phó từ, mẫu đi kèm và nghĩa tiếng Việt. |
+| Từ nối đọc hiểu | 41 mục | Thẻ `type=reading`: từ nối, nhóm chức năng, nghĩa và ví dụ khi có. |
+| Từ nối (tài liệu tổng hợp) | 56 mục | Thẻ `type=reading`; có thể trùng một phần với bộ từ nối đọc hiểu. |
 
 Mỗi bộ có tìm kiếm riêng và hiển thị toàn bộ mục ngay khi tải xong; chỉ cần cuộn để xem hết. Ứng dụng giữ nguyên `answer_source` và chấm theo đáp án trong JSON, không coi các đáp án này là đáp án chính thức của kỳ thi. Các trường thiếu không được tự bổ sung. Những nhóm chỉ có tên trong manifest nguồn nhưng chưa có JSON nội dung chưa được đưa lên trang.
+
+`connectors` và `connectors-extra` cần nhánh dựng thẻ `reading` để hiển thị `connector_jp`, `section`, `meaning_vi` và `example_jp` khi có. Thẻ `tips` hỗ trợ tiêu đề và nội dung nhiều dòng; nếu thiếu body, chỉ hiển thị thông báo đang đối chiếu và huy hiệu cần đối chiếu.
+
+`exam-tips.json` có trong bộ dữ liệu và cache offline nhưng **chưa mở trong danh mục**: 56 mục hiện chưa có body. Chỉ thêm topic sau khi tất cả mục có body không rỗng. Phase A không trích xuất lại mixed/ebook/sổ tay và không bổ sung suy đoán 3 động từ phức còn thiếu.
 
 ### Thêm biểu tượng trên iPhone
 
@@ -89,7 +99,7 @@ Mở **http://localhost:8000**. Sử dụng HTTP server thay vì mở trực ti�
 | `grammar.js`, `grammar.css` | Chọn mẫu, tìm kiếm, dựng thẻ, hiển thị furigana và định dạng ngữ pháp. |
 | `grammar.json` | Bộ dữ liệu 80 mẫu cùng các đoạn văn bản/cách đọc dùng cho furigana. |
 | `study.html`, `study.js`, `study.css` | Danh mục tài liệu, tìm kiếm, thẻ học và tương tác trắc nghiệm. Mỗi bộ có đường dẫn hash riêng. |
-| `study-data/topics.json`, `study-data/*.json` | Mục lục và 10 bộ dữ liệu học; metadata nguồn được giữ để đối chiếu. |
+| `study-data/topics.json`, `study-data/*.json` | Mục lục và 16 bộ dữ liệu học; metadata nguồn được giữ để đối chiếu. |
 | `settings.html`, `profile.html` | Danh mục Cài đặt và màn hình chỉnh sửa tên. |
 | `settings.js`, `settings.css` | Lưu tên và định dạng các trang Cài đặt. |
 | `manifest.webmanifest`, `icon.svg`, `apple-touch-icon.png` | Thông tin và biểu tượng cho web app trên màn hình chính. |

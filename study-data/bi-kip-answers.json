@@ -1,0 +1,953 @@
+{
+  "schema_version": "1.0",
+  "document_id": "bi-kip-n3-dap-an",
+  "type": "grammar",
+  "level": "N3",
+  "source_file": "BÍ KÍP N3 Đáp án.pdf",
+  "source_path": "study-materials/BÍ KÍP N3 Đáp án.pdf",
+  "title": "Bí kíp N3 đáp án / bảng ngữ pháp",
+  "page_count": null,
+  "item_count": 30,
+  "expected_item_count": null,
+  "content_source": "pdf_extract",
+  "produced_at": "2026-10-16T06:51:14+00:00",
+  "producer": "n3-study-extractor/phase-a-bikip",
+  "status": "verified",
+  "needs_verify_count": 0,
+  "notes": [
+    "Phase A: bổ sung structure/usage/example + ruby plain để card grammar hiển thị.",
+    "Ví dụ linguistic (PDF bí kíp dạng tóm tắt). Không official."
+  ],
+  "items": [
+    {
+      "id": "bikip-はじめる",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:はじめる",
+      "pattern": "はじめる",
+      "meaning": "Bắt đầu",
+      "tip": null,
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vます＋はじめる",
+      "usage": "Bắt đầu",
+      "example_jp": "日本語を勉強しはじめる。",
+      "example_vi": "Bắt đầu học tiếng Nhật.",
+      "pattern_ruby": [
+        {
+          "text": "はじめる"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "日本語を勉強しはじめる。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+    },
+    {
+      "id": "bikip-つづける終わる",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:つづける終わる",
+      "pattern": "つづける・終わる",
+      "meaning": "Liên tiếp, kết thúc",
+      "tip": null,
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vます＋つづける／終わる",
+      "usage": "Liên tiếp, kết thúc",
+      "example_jp": "雨が降りつづける。／本を読み終わる。",
+      "example_vi": "Mưa cứ rơi tiếp. / Đọc xong sách.",
+      "pattern_ruby": [
+        {
+          "text": "つづける・終わる"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "雨が降りつづける。／本を読み終わる。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+    },
+    {
+      "id": "bikip-出す",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:出す",
+      "pattern": "出す",
+      "meaning": "Bắt đầu/ ra",
+      "tip": null,
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vます＋出す",
+      "usage": "Bắt đầu/ ra",
+      "example_jp": "赤ちゃんが歩き出す。",
+      "example_vi": "Em bé bắt đầu biết đi.",
+      "pattern_ruby": [
+        {
+          "text": "出す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "赤ちゃんが歩き出す。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+    },
+    {
+      "id": "bikip-たがる",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:たがる",
+      "pattern": "たがる",
+      "meaning": "Mong muốn ( của người thứ 3)",
+      "tip": null,
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vたい → たがる（người thứ 3）",
+      "usage": "Mong muốn ( của người thứ 3)",
+      "example_jp": "子供がケーキを食べたがる。",
+      "example_vi": "Trẻ muốn ăn bánh (người thứ 3).",
+      "pattern_ruby": [
+        {
+          "text": "たがる"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "子供がケーキを食べたがる。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+    },
+    {
+      "id": "bikip-切る",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:切る",
+      "pattern": "切る",
+      "meaning": "Hết sạch",
+      "tip": null,
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vます＋切る",
+      "usage": "Hết sạch",
+      "example_jp": "お金を使い切る。",
+      "example_vi": "Tiêu hết sạch tiền.",
+      "pattern_ruby": [
+        {
+          "text": "切る"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "お金を使い切る。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+    },
+    {
+      "id": "bikip-切れない",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:切れない",
+      "pattern": "切れない",
+      "meaning": "Không xuể",
+      "tip": null,
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vます＋切れない",
+      "usage": "Không xuể",
+      "example_jp": "食べきれない。",
+      "example_vi": "Không ăn xuể.",
+      "pattern_ruby": [
+        {
+          "text": "切れない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "食べきれない。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+    },
+    {
+      "id": "bikip-直す",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:直す",
+      "pattern": "直す",
+      "meaning": "Làm lại",
+      "tip": null,
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vます＋直す",
+      "usage": "Làm lại",
+      "example_jp": "作文を書き直す。",
+      "example_vi": "Viết lại bài văn.",
+      "pattern_ruby": [
+        {
+          "text": "直す"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "作文を書き直す。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+    },
+    {
+      "id": "bikip-Vます",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:Vます",
+      "pattern": "～っぱなし",
+      "meaning": "Cứ mãi, cứ nguyên",
+      "tip": "っぱなし",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vます＋っぱなし",
+      "usage": "Cứ mãi, cứ nguyên",
+      "example_jp": "窓を開けっぱなしだ。",
+      "example_vi": "Cửa sổ để mở mãi.",
+      "pattern_ruby": [
+        {
+          "text": "～っぱなし"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "窓を開けっぱなしだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": "っぱなし"
+    },
+    {
+      "id": "bikip-によって１",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:によって１",
+      "pattern": "によって（１）",
+      "meaning": "Bởi ai đó",
+      "tip": "Vế sau thường là bị động Vられた",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Nによって",
+      "usage": "Bởi ai đó",
+      "example_jp": "台風によって被害が出た。",
+      "example_vi": "Thiệt hại do bão gây ra.",
+      "pattern_ruby": [
+        {
+          "text": "によって（１）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "台風によって被害が出た。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Vế sau thường là bị động Vられた"
+    },
+    {
+      "id": "bikip-によって２",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:によって２",
+      "pattern": "によって（２）",
+      "meaning": "Tùy thuộc vào",
+      "tip": "いろいろ、さまざま、違う、異なる",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Nによって",
+      "usage": "Tùy thuộc vào",
+      "example_jp": "人によって考え方が違う。",
+      "example_vi": "Cách nghĩ tùy người.",
+      "pattern_ruby": [
+        {
+          "text": "によって（２）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "人によって考え方が違う。"
+        }
+      ],
+      "example_hira": null,
+      "note": "いろいろ、さまざま、違う、異なる"
+    },
+    {
+      "id": "bikip-によって３",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:によって３",
+      "pattern": "によって（３）",
+      "meaning": "Nhờ vào… có đạt được",
+      "tip": "できる・得る・学ぶ。。。",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Nによって",
+      "usage": "Nhờ vào… có đạt được",
+      "example_jp": "努力によって成功した。",
+      "example_vi": "Thành công nhờ nỗ lực.",
+      "pattern_ruby": [
+        {
+          "text": "によって（３）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "努力によって成功した。"
+        }
+      ],
+      "example_hira": null,
+      "note": "できる・得る・学ぶ。。。"
+    },
+    {
+      "id": "bikip-によって４",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:によって４",
+      "pattern": "によって（４）",
+      "meaning": "Do bất cẩn…",
+      "tip": "不注意・台風",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Nによって",
+      "usage": "Do bất cẩn…",
+      "example_jp": "不注意によって事故が起きた。",
+      "example_vi": "Tai nạn vì bất cẩn.",
+      "pattern_ruby": [
+        {
+          "text": "によって（４）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "不注意によって事故が起きた。"
+        }
+      ],
+      "example_hira": null,
+      "note": "不注意・台風"
+    },
+    {
+      "id": "bikip-によるN",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:によるN",
+      "pattern": "によるN",
+      "meaning": "Những thiệt hại do...",
+      "tip": "被害",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "N1によるN2",
+      "usage": "Những thiệt hại do...",
+      "example_jp": "地震による被害。",
+      "example_vi": "Thiệt hại do động đất.",
+      "pattern_ruby": [
+        {
+          "text": "によるN"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "地震による被害。"
+        }
+      ],
+      "example_hira": null,
+      "note": "被害"
+    },
+    {
+      "id": "bikip-によればによると",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:によればによると",
+      "pattern": "によれば・によると",
+      "meaning": "Theo như nguồn thông tin thì…",
+      "tip": "Báo chí, dự báo thời tiết",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Nによれば／によると",
+      "usage": "Theo như nguồn thông tin thì…",
+      "example_jp": "天気予報によれば、明日は雨だ。",
+      "example_vi": "Theo dự báo, ngày mai mưa.",
+      "pattern_ruby": [
+        {
+          "text": "によれば・によると"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "天気予報によれば、明日は雨だ。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Báo chí, dự báo thời tiết"
+    },
+    {
+      "id": "bikip-そうだ１",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:そうだ１",
+      "pattern": "～そうだ（１）",
+      "meaning": "Có vẻ, sắp",
+      "tip": "→ いまにも",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "A/Vそうだ（dự đoán）",
+      "usage": "Có vẻ, sắp",
+      "example_jp": "雨が降りそうだ。",
+      "example_vi": "Trông như sắp mưa.",
+      "pattern_ruby": [
+        {
+          "text": "～そうだ（１）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "雨が降りそうだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": "→ いまにも"
+    },
+    {
+      "id": "bikip-そうだ２",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:そうだ２",
+      "pattern": "～そうだ（２）",
+      "meaning": "Nghe nói là",
+      "tip": "によると／によれば",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "V/Aそうだ（truyền đạt）",
+      "usage": "Nghe nói là",
+      "example_jp": "彼は結婚するそうだ。",
+      "example_vi": "Nghe nói anh ấy sắp cưới.",
+      "pattern_ruby": [
+        {
+          "text": "～そうだ（２）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼は結婚するそうだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": "によると／によれば"
+    },
+    {
+      "id": "bikip-そうにない",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:そうにない",
+      "pattern": "～そうにない",
+      "meaning": "Không có vẻ gì là có thể",
+      "tip": "V可能・自動詞",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vそうにない",
+      "usage": "Không có vẻ gì là có thể",
+      "example_jp": "彼は来そうにない。",
+      "example_vi": "Không có vẻ anh ấy sẽ đến.",
+      "pattern_ruby": [
+        {
+          "text": "～そうにない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼は来そうにない。"
+        }
+      ],
+      "example_hira": null,
+      "note": "V可能・自動詞"
+    },
+    {
+      "id": "bikip-ようになる",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:ようになる",
+      "pattern": "～ようになる",
+      "meaning": "Biến đổi khả năng, thói quen",
+      "tip": "Đã có thể, đã chuyển sang",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vるようになる",
+      "usage": "Biến đổi khả năng, thói quen",
+      "example_jp": "漢字が読めるようになった。",
+      "example_vi": "Đã đọc được chữ Hán.",
+      "pattern_ruby": [
+        {
+          "text": "～ようになる"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "漢字が読めるようになった。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Đã có thể, đã chuyển sang"
+    },
+    {
+      "id": "bikip-ようになっている",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:ようになっている",
+      "pattern": "～ようになっている",
+      "meaning": "Tự động",
+      "tip": "Máy móc, set up tự động, sẵn",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vるようになっている",
+      "usage": "Tự động",
+      "example_jp": "自動的に閉まるようになっている。",
+      "example_vi": "Được thiết kế tự đóng.",
+      "pattern_ruby": [
+        {
+          "text": "～ようになっている"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "自動的に閉まるようになっている。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Máy móc, set up tự động, sẵn"
+    },
+    {
+      "id": "bikip-ようにする",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:ようにする",
+      "pattern": "～ようにする",
+      "meaning": "Cố gắng duy trì làm V",
+      "tip": "Vる・Vない",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vるようにする",
+      "usage": "Cố gắng duy trì làm V",
+      "example_jp": "毎日運動するようにしている。",
+      "example_vi": "Cố gắng tập thể dục mỗi ngày.",
+      "pattern_ruby": [
+        {
+          "text": "～ようにする"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "毎日運動するようにしている。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Vる・Vない"
+    },
+    {
+      "id": "bikip-ようとしている",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:ようとしている",
+      "pattern": "～ようとしている",
+      "meaning": "Cố gắng làm",
+      "tip": "Vよう",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vようとしている",
+      "usage": "Cố gắng làm",
+      "example_jp": "出かけようとしている。",
+      "example_vi": "Đang định ra ngoài.",
+      "pattern_ruby": [
+        {
+          "text": "～ようとしている"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "出かけようとしている。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Vよう"
+    },
+    {
+      "id": "bikip-ようとしない",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:ようとしない",
+      "pattern": "～ようとしない",
+      "meaning": "Không chịu làm V",
+      "tip": "聞こうとしない",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vようとしない",
+      "usage": "Không chịu làm V",
+      "example_jp": "彼は勉強しようとしない。",
+      "example_vi": "Anh ấy không chịu học.",
+      "pattern_ruby": [
+        {
+          "text": "～ようとしない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼は勉強しようとしない。"
+        }
+      ],
+      "example_hira": null,
+      "note": "聞こうとしない"
+    },
+    {
+      "id": "bikip-つもりだ",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 8,
+      "knowledge_id": "grammar:つもりだ",
+      "pattern": "～つもりだ",
+      "meaning": "Dự định làm V",
+      "tip": "Vる・Vない",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vるつもりだ",
+      "usage": "Dự định làm V",
+      "example_jp": "来年日本へ行くつもりだ。",
+      "example_vi": "Dự định năm sau sang Nhật.",
+      "pattern_ruby": [
+        {
+          "text": "～つもりだ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "来年日本へ行くつもりだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Vる・Vない"
+    },
+    {
+      "id": "bikip-つもりがない",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 8,
+      "knowledge_id": "grammar:つもりがない",
+      "pattern": "～つもりがない",
+      "meaning": "Không có dự định làm",
+      "tip": null,
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vるつもりがない",
+      "usage": "Không có dự định làm",
+      "example_jp": "諦めるつもりがない。",
+      "example_vi": "Không có ý định bỏ cuộc.",
+      "pattern_ruby": [
+        {
+          "text": "～つもりがない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "諦めるつもりがない。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+    },
+    {
+      "id": "bikip-つもりだった",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 8,
+      "knowledge_id": "grammar:つもりだった",
+      "pattern": "～つもりだった",
+      "meaning": "Đã định là th…",
+      "tip": null,
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vるつもりだった",
+      "usage": "Đã định là th…",
+      "example_jp": "行くつもりだったが、行けなかった。",
+      "example_vi": "Đã định đi nhưng không đi được.",
+      "pattern_ruby": [
+        {
+          "text": "～つもりだった"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "行くつもりだったが、行けなかった。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Bản kèm đáp án/ghi chú từ Bí kíp N3."
+    },
+    {
+      "id": "bikip-つもりだ２",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 8,
+      "knowledge_id": "grammar:つもりだ２",
+      "pattern": "～つもりだ（２）",
+      "meaning": "Cứ tưởng là, cứ ngỡ là, đinh ninh là",
+      "tip": "Vた・Vている・A・N",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "N／A／Vたつもりだ",
+      "usage": "Cứ tưởng là, cứ ngỡ là, đinh ninh là",
+      "example_jp": "分かっているつもりだ。",
+      "example_vi": "Cứ tưởng là mình hiểu.",
+      "pattern_ruby": [
+        {
+          "text": "～つもりだ（２）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "分かっているつもりだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Vた・Vている・A・N"
+    },
+    {
+      "id": "bikip-ことから",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 9,
+      "knowledge_id": "grammar:ことから",
+      "pattern": "～ことから",
+      "meaning": "Vì A nên có kết quả là B",
+      "tip": "呼ばれた・わかった・",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "…ことから",
+      "usage": "Vì A nên có kết quả là B",
+      "example_jp": "態度が悪いことから嫌われた。",
+      "example_vi": "Vì thái độ xấu nên bị ghét.",
+      "pattern_ruby": [
+        {
+          "text": "～ことから"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "態度が悪いことから嫌われた。"
+        }
+      ],
+      "example_hira": null,
+      "note": "呼ばれた・わかった・"
+    },
+    {
+      "id": "bikip-ことだから",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 9,
+      "knowledge_id": "grammar:ことだから",
+      "pattern": "～ことだから",
+      "meaning": "Vì là anh A vốn là người…nên chắc là sẽ..",
+      "tip": "（人）のことだから",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Nのことだから",
+      "usage": "Vì là anh A vốn là người…nên chắc là sẽ..",
+      "example_jp": "彼のことだから、大丈夫だろう。",
+      "example_vi": "Vì là anh ấy nên chắc ổn.",
+      "pattern_ruby": [
+        {
+          "text": "～ことだから"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼のことだから、大丈夫だろう。"
+        }
+      ],
+      "example_hira": null,
+      "note": "（人）のことだから"
+    },
+    {
+      "id": "bikip-がちだ",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 10,
+      "knowledge_id": "grammar:がちだ",
+      "pattern": "～がちだ",
+      "meaning": "Thường hay…( tần suất)",
+      "tip": "最近、子供のごろ、",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "N／Vますがちだ",
+      "usage": "Thường hay…( tần suất)",
+      "example_jp": "冬は風邪を引きがちだ。",
+      "example_vi": "Mùa đông hay bị cảm.",
+      "pattern_ruby": [
+        {
+          "text": "～がちだ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "冬は風邪を引きがちだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": "最近、子供のごろ、"
+    },
+    {
+      "id": "bikip-たものだ",
+      "type": "tips",
+      "subtype": "exam_tip_grammar",
+      "level": "N3",
+      "source_file": "BÍ KÍP N3 Đáp án.pdf",
+      "source_page": 10,
+      "knowledge_id": "grammar:たものだ",
+      "pattern": "～たものだ",
+      "meaning": "Hồi trước thường hay",
+      "tip": "Vた＋ものだ",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "ai_extra": null,
+      "structure": "Vたものだ",
+      "usage": "Hồi trước thường hay",
+      "example_jp": "子供のころ、ここで遊んだものだ。",
+      "example_vi": "Hồi nhỏ thường chơi ở đây.",
+      "pattern_ruby": [
+        {
+          "text": "～たものだ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "子供のころ、ここで遊んだものだ。"
+        }
+      ],
+      "example_hira": null,
+      "note": "Vた＋ものだ"
+    }
+  ]
+}

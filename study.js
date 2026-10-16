@@ -11,9 +11,13 @@ const normalize = value => String(value).normalize('NFKC').toLowerCase().normali
 const searchable = value => Array.isArray(value) ? value.map(searchable).join(' ') : value && typeof value === 'object' ? Object.entries(value).filter(([key]) => !/^(source|content_source|verify_reason|id|knowledge_id|ai_extra|ruby_source)/.test(key)).map(([, v]) => searchable(v)).join(' ') : typeof value === 'string' ? value : '';
 export const filterStudy = (items, query) => items.filter(item => normalize(searchable(item)).includes(normalize(query.trim())));
 export const hasAnswer = item => item.correct_answer != null && item.choices.some(choice => String(choice.key) === String(item.correct_answer));
+const topicNotice = topic => (topic.notice || '').replace(/Cần UI type=reading(?: \(xem PROMPT\))?\.\s*/g, '');
 
 export function createStudyCard(item, index, selections = new Map()) {
-  if (item.type === 'grammar') {
+  // The answer edition retains type=tips but supplies the complete grammar schema.
+  const grammarTip = item.type === 'tips' && item.subtype === 'exam_tip_grammar' &&
+    ['pattern', 'meaning', 'structure', 'usage', 'example_jp', 'example_vi'].every(key => typeof item[key] === 'string');
+  if (item.type === 'grammar' || grammarTip) {
     const card = createGrammarCard(item);
     card.querySelector('.grammar-number').textContent = 'MẪU ' + (index + 1);
     return card;
@@ -32,10 +36,23 @@ export function createStudyCard(item, index, selections = new Map()) {
     card.append(createRubyText('h2', lemma, item.lemma_ruby, 'study-word'));
     const hasRuby = Array.isArray(item.lemma_ruby) && item.lemma_ruby.map(segment => segment.text).join('') === lemma;
     if (!hasRuby && item.reading) card.append(el('p', item.reading, '', 'ja'));
+    const voice = item.ai_extra?.voice_vi || ({ intransitive: 'tự động từ', transitive: 'tha động từ' })[item.voice] || item.voice;
+    const verbInfo = [item.particle, voice].filter(Boolean).join(' / ');
+    if (verbInfo) card.append(el('p', verbInfo, 'study-verb-info'));
     if (item.collocates_with) card.append(el('p', item.collocates_with, 'study-collocation', 'ja'));
     if (item.meaning_vi) card.append(el('p', item.meaning_vi));
     if (item.example_jp) card.append(createRubyText('p', item.example_jp, item.example_ruby, 'grammar-example study-example-jp'));
     if (item.example_vi) card.append(el('p', item.example_vi, 'study-example-vi'));
+  } else if (item.type === 'reading') {
+    card.append(el('h2', item.connector_jp || '', 'study-connector', 'ja'));
+    if (item.section) card.append(el('small', item.section, 'study-section'));
+    if (item.meaning_vi) card.append(el('p', item.meaning_vi));
+    if (item.example_jp) card.append(el('p', item.example_jp, 'grammar-example study-example-jp', 'ja'));
+  } else if (item.type === 'tips') {
+    card.append(el('h2', item.label || item.title || 'Ghi chú ôn tập', 'study-connector'));
+    const hasBody = typeof item.body === 'string' && item.body.trim().length > 0;
+    card.append(el('p', hasBody ? item.body : 'Nội dung đang đối chiếu từ PDF', 'study-tip-body'));
+    if (!hasBody) card.append(el('span', 'Cần đối chiếu', 'study-badge'));
   } else if (item.type === 'practice') {
     const stem = el('p', '', 'study-stem', 'ja');
     const stemText = item.stem_jp || item.lemma_jp || '';
@@ -74,7 +91,7 @@ export function createStudyCard(item, index, selections = new Map()) {
       card.append(hint);
     }
   }
-  if (item.needs_verify && item.type !== 'practice') card.append(el('span', 'Cần đối chiếu', 'study-badge'));
+  if (item.needs_verify && item.type !== 'practice' && !card.querySelector('.study-badge')) card.append(el('span', 'Cần đối chiếu', 'study-badge'));
   return card;
 }
 
@@ -98,7 +115,7 @@ async function startStudy() {
       const link = el('a', '', 'grammar-card study-topic');
       link.href = '#' + item.id;
       link.append(el('span', item.count + ' ' + item.unit, 'grammar-number'), el('h2', item.title), el('p', item.description));
-      if (item.notice) link.append(el('small', item.notice));
+      if (topicNotice(item)) link.append(el('small', topicNotice(item)));
       link.append(el('span', 'Mở tài liệu →', 'study-open'));
       return link;
     }));
@@ -134,8 +151,8 @@ async function startStudy() {
         }
         if (request !== version) return;
         items = cache.get(selected.id);
-        notice.textContent = selected.notice;
-        notice.hidden = !selected.notice;
+        notice.textContent = topicNotice(selected);
+        notice.hidden = !topicNotice(selected);
       } else items = topics;
       topic = selected;
       search.placeholder = topic ? 'Tìm tiếng Nhật hoặc nghĩa tiếng Việt…' : 'Tìm tài liệu…';
