@@ -152,7 +152,7 @@ Khi sửa dữ liệu:
 Khi cập nhật tài nguyên được lưu offline, tăng phiên bản `CACHE` trong `sw.js`. Nếu thêm trang, CSS, JavaScript hoặc dữ liệu mới cần dùng offline, bổ sung đường dẫn vào `ASSETS`. Sau khi triển khai, tải lại ứng dụng khi có mạng để nhận phiên bản mới.
 
 
-Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=34`, `study.css?v=34` và JSON `?v=34`. Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline lưu đúng các URL này để tránh trộn mã và dữ liệu của bản cũ. Khi phát hành thay đổi study tiếp theo, tăng phiên bản trong `study.html`, fallback `DATA_VERSION` và các URL trong `ASSETS` cùng với `CACHE`. Topic không phải practice: thanh tiến độ ghi nhớ gọn một dải (số + bar + lọc); nút nổi **Ôn nhanh** góc dưới.
+Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=35`, `study.css?v=35` và JSON `?v=35`. Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline lưu đúng các URL này để tránh trộn mã và dữ liệu của bản cũ. Khi phát hành thay đổi study tiếp theo, tăng phiên bản trong `study.html`, fallback `DATA_VERSION` và các URL trong `ASSETS` cùng với `CACHE`. Danh mục study nhớ vị trí cuộn / lọc nhóm / ô tìm khi vào bộ rồi quay lại; topic không phải practice có thanh tiến độ gọn và nút nổi **Ôn nhanh**.
 
 Giới hạn dữ liệu v8: 3 câu chưa có tóm tắt và 1 lựa chọn chưa có nghĩa VI riêng; các lý do đúng/sai vẫn được hiển thị theo JSON. Ứng dụng không tự bổ sung những trường này.
 

@@ -1,6 +1,31 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '34';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '35';
 const SESSION_SHORT = 20;
+const CATALOG_STATE_KEY = 'jlpt-study-catalog-v1';
+
+export function loadCatalogState() {
+  try {
+    const saved = JSON.parse(sessionStorage.getItem(CATALOG_STATE_KEY) || 'null');
+    if (!saved || typeof saved !== 'object') return null;
+    return {
+      scrollY: Number(saved.scrollY) || 0,
+      groupFilter: typeof saved.groupFilter === 'string' ? saved.groupFilter : 'all',
+      search: typeof saved.search === 'string' ? saved.search : '',
+    };
+  } catch {
+    return null;
+  }
+}
+
+export function saveCatalogState(state) {
+  try {
+    sessionStorage.setItem(CATALOG_STATE_KEY, JSON.stringify({
+      scrollY: Number(state.scrollY) || 0,
+      groupFilter: state.groupFilter || 'all',
+      search: state.search || '',
+    }));
+  } catch { /* Session storage may be unavailable. */ }
+}
 
 export const parseStudyHash = (hash = typeof location !== 'undefined' ? location.hash : '') => {
   const raw = String(hash || '').replace(/^#/, '');
@@ -970,13 +995,18 @@ async function startStudy() {
   });
   window.matchMedia('(min-width: 768px)').addEventListener('change', syncFilterDrawer);
   let topics, topic, items = [], version = 0, ready = false, groupFilter = 'all';
+  let restoreCatalogScroll = null;
+  const persistCatalogUi = () => {
+    if (topic || !ready) return;
+    saveCatalogState({ scrollY: window.scrollY, groupFilter, search: search.value });
+  };
   const groupNav = document.getElementById('study-group-filters');
   const groupButtons = [];
   for (const [mode, label] of [['all', 'Tất cả'], ...STUDY_GROUPS.map(group => [group.id, group.label])]) {
     const button = el('button', label);
     button.type = 'button';
     button.dataset.group = mode;
-    button.addEventListener('click', () => { groupFilter = mode; render(); });
+    button.addEventListener('click', () => { groupFilter = mode; render(); persistCatalogUi(); });
     groupNav.append(button);
     groupButtons.push(button);
   }
@@ -1087,18 +1117,19 @@ async function startStudy() {
     }
     status.textContent = matches.length ? 'Hiển thị ' + matches.length + ' / ' + items.length + (topic ? ' ' + topic.unit : ' bộ tài liệu') + (search.value.trim() || (!topic && groupFilter !== 'all') ? ' phù hợp.' : '.') : filterMode === 'wrong' && !practiceItems.some(item => results.get(item.id) === 'wrong') ? 'Không còn câu sai.' : knownMode && !search.value.trim() && knownFilter === 'unknown' ? 'Bạn đã thuộc toàn bộ nội dung của bộ này.' : knownMode && !search.value.trim() && knownFilter === 'known' ? 'Chưa có mục nào được đánh dấu đã thuộc.' : !topic && groupFilter !== 'all' ? 'Không có bộ nào trong nhóm này.' : 'Không tìm thấy nội dung phù hợp. Hãy thử bộ lọc hoặc từ khóa khác.';
   };
-  const load = async () => {
+  const load = async ({ restoreCatalog = false } = {}) => {
     const request = ++version;
     if (dialog.open) dialog.close();
     progressMenu.open = false;
     exitFlashMode({ renderList: false, updateHash: false });
     ready = false; progress.hidden = true; knownProgress.hidden = true;
+    restoreCatalogScroll = null;
     list.replaceChildren(); retry.hidden = true; notice.hidden = true;
     list.setAttribute('aria-busy', 'true');
     status.textContent = 'Đang tải tài liệu…';
     const { id, flash: wantFlash } = parseStudyHash();
     title.textContent = 'Tài liệu ôn tập N3 tổng hợp';
-    back.href = id ? './study.html' : './settings.html';
+    back.href = id ? '#' : './settings.html';
     back.setAttribute('aria-label', id ? 'Về danh mục tài liệu' : 'Về Cài đặt');
     try {
       const getJSON = async path => {
@@ -1134,7 +1165,15 @@ async function startStudy() {
       sessionQueue = [];
       sessionIndex = 0;
       viewMode = practiceItems.length && practiceItems.length === items.length ? 'session' : 'list';
-      if (!topic) groupFilter = 'all';
+      const catalogState = !topic ? loadCatalogState() : null;
+      if (!topic) {
+        const allowed = new Set(['all', ...STUDY_GROUPS.map(group => group.id)]);
+        groupFilter = catalogState && allowed.has(catalogState.groupFilter) ? catalogState.groupFilter : 'all';
+        if (restoreCatalog && catalogState) {
+          search.value = catalogState.search;
+          restoreCatalogScroll = catalogState.scrollY;
+        }
+      }
       knownMode = !!topic && items.every(item => item.type !== 'practice') && items.some(item => ['reading', 'vocabulary', 'grammar', 'tips'].includes(item.type));
       known = knownMode ? hydrateStudyKnown(items, loadStudyKnown()[topic.id]) : new Set();
       knownFilter = 'all';
@@ -1144,15 +1183,31 @@ async function startStudy() {
       if (viewMode === 'session') refreshSessionQueue({ preferTodo: true });
       ready = true; render();
       if (wantFlash && knownMode) enterFlashMode({ all: false });
+      else if (restoreCatalogScroll != null) {
+        const y = restoreCatalogScroll;
+        restoreCatalogScroll = null;
+        requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo(0, y)));
+      }
     } catch {
       if (request !== version) return;
       status.textContent = id && topics && !topics.some(item => item.id === id) ? 'Không tìm thấy mục này. Nhấn mũi tên để về danh mục.' : 'Chưa tải được tài liệu. Kiểm tra kết nối rồi thử lại.';
       retry.hidden = false;
     } finally { if (request === version) list.setAttribute('aria-busy', 'false'); }
   };
-  search.addEventListener('input', render);
+  search.addEventListener('input', () => { render(); persistCatalogUi(); });
   retry.addEventListener('click', load);
-  window.addEventListener('hashchange', () => { search.value = ''; window.scrollTo(0, 0); load(); });
-  await load();
+  window.addEventListener('scroll', () => { if (!topic && ready) persistCatalogUi(); }, { passive: true });
+  window.addEventListener('hashchange', () => {
+    const nextId = parseStudyHash().id;
+    const leavingCatalog = !topic && !!nextId;
+    const returningToCatalog = !!topic && !nextId;
+    if (leavingCatalog) persistCatalogUi();
+    if (!returningToCatalog) {
+      search.value = '';
+      window.scrollTo(0, 0);
+    }
+    load({ restoreCatalog: returningToCatalog });
+  });
+  await load({ restoreCatalog: !parseStudyHash().id && !!loadCatalogState() });
 }
 if (typeof document !== 'undefined') startStudy();
