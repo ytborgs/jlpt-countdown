@@ -16,10 +16,11 @@
   "needs_verify_count": 0,
   "notes": [
     "PDF text layer hỏng encoding; chép từ preview PNG + vòng đỏ đáp án.",
-    "answer_source=visual_annotation (khoanh trên ảnh) — không ghi official/linguistic.",
+    "answer_source=visual_annotation (khoanh trên ảnh) không ghi official/linguistic.",
     "Đủ 96/96 câu (Mondai 1–3 × 32).",
     "Gloss Hán Việt / nghĩa VI trên ảnh = annotation kèm, không phải in gốc đề.",
-    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi).",
+    "Phase v6: chỉ giữ đáp án visual_annotation/official; không linguistic."
   ],
   "items": [
     {
@@ -85,7 +86,8 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q02",
@@ -136,7 +138,8 @@
         {
           "text": "はワシントンだ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q03",
@@ -194,7 +197,8 @@
         {
           "text": "いておどろいた。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q04",
@@ -252,7 +256,8 @@
         {
           "text": "わすれない。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q05",
@@ -324,7 +329,8 @@
         {
           "text": "てきた。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q06",
@@ -400,7 +406,8 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q07",
@@ -462,7 +469,8 @@
         {
           "text": "ない。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q08",
@@ -531,7 +539,8 @@
         {
           "text": "している。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q09",
@@ -600,7 +609,8 @@
         {
           "text": "している。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q10",
@@ -662,7 +672,8 @@
         {
           "text": "ましょう。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q11",
@@ -731,7 +742,8 @@
         {
           "text": "している。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q12",
@@ -786,7 +798,8 @@
         {
           "text": "にはルールがある。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q13",
@@ -856,7 +869,8 @@
         {
           "text": "をしている。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q14",
@@ -929,7 +943,8 @@
         {
           "text": "った。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q15",
@@ -1005,7 +1020,8 @@
         {
           "text": "れた。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q16",
@@ -1074,7 +1090,8 @@
         {
           "text": "さい。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q17",
@@ -1136,7 +1153,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q18",
@@ -1205,7 +1223,8 @@
         {
           "text": "たい。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q19",
@@ -1263,7 +1282,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q20",
@@ -1325,7 +1345,8 @@
         {
           "text": "そうだ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q21",
@@ -1376,7 +1397,8 @@
         {
           "text": "はある。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q22",
@@ -1434,7 +1456,8 @@
         {
           "text": "だが、やってみよう。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q23",
@@ -1503,7 +1526,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q24",
@@ -1558,7 +1582,8 @@
         {
           "text": "する。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q25",
@@ -1620,7 +1645,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q26",
@@ -1682,7 +1708,8 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q27",
@@ -1733,7 +1760,8 @@
         {
           "text": "です。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q28",
@@ -1791,7 +1819,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q29",
@@ -1846,7 +1875,8 @@
         {
           "text": "してみよう。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q30",
@@ -1911,7 +1941,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q31",
@@ -1976,7 +2007,8 @@
         {
           "text": "た。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m1-q32",
@@ -2034,7 +2066,8 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q01",
@@ -2107,7 +2140,8 @@
         {
           "text": "た。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q02",
@@ -2176,7 +2210,8 @@
         {
           "text": "している。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q03",
@@ -2227,7 +2262,8 @@
         {
           "text": "てもおいしい。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q04",
@@ -2285,7 +2321,8 @@
         {
           "text": "がいる。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q05",
@@ -2350,7 +2387,8 @@
         {
           "text": "がある。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q06",
@@ -2412,7 +2450,8 @@
         {
           "text": "った。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q07",
@@ -2478,7 +2517,8 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q08",
@@ -2536,7 +2576,8 @@
         {
           "text": "ほうがいい。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q09",
@@ -2594,7 +2635,8 @@
         {
           "text": "よう。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q10",
@@ -2649,7 +2691,8 @@
         {
           "text": "いる。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q11",
@@ -2721,7 +2764,8 @@
         {
           "text": "わからない。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q12",
@@ -2783,7 +2827,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q13",
@@ -2838,7 +2883,8 @@
         {
           "text": "なければならない。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q14",
@@ -2896,7 +2942,8 @@
         {
           "text": "うだ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q15",
@@ -2958,7 +3005,8 @@
         {
           "text": "になった。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q16",
@@ -3027,7 +3075,8 @@
         {
           "text": "たい。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q17",
@@ -3096,7 +3145,8 @@
         {
           "text": "だった。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q18",
@@ -3155,7 +3205,8 @@
         {
           "text": "できることになった。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q19",
@@ -3238,7 +3289,8 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q20",
@@ -3308,7 +3360,8 @@
         {
           "text": "けよう。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q21",
@@ -3377,7 +3430,8 @@
         {
           "text": "になった。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q22",
@@ -3435,7 +3489,8 @@
         {
           "text": "たほうがおいしくなる。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q23",
@@ -3501,7 +3556,8 @@
         {
           "text": "がする。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q24",
@@ -3552,7 +3608,8 @@
         {
           "text": "がする。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q25",
@@ -3600,7 +3657,8 @@
         {
           "text": "はどうもありがとうございました。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q26",
@@ -3669,7 +3727,8 @@
         {
           "text": "します。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q27",
@@ -3745,7 +3804,8 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q28",
@@ -3810,7 +3870,8 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q29",
@@ -3868,7 +3929,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q30",
@@ -3933,7 +3995,8 @@
         {
           "text": "いる。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q31",
@@ -3988,7 +4051,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m2-q32",
@@ -4054,7 +4118,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q01",
@@ -4112,7 +4177,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q02",
@@ -4167,7 +4233,8 @@
         {
           "text": "をメモした。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q03",
@@ -4229,7 +4296,8 @@
         {
           "text": "た。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q04",
@@ -4298,7 +4366,8 @@
         {
           "text": "た。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q05",
@@ -4363,7 +4432,8 @@
         {
           "text": "にはわからない。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q06",
@@ -4421,7 +4491,8 @@
         {
           "text": "はすばらしい。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q07",
@@ -4479,7 +4550,8 @@
         {
           "text": "でいい。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q08",
@@ -4541,7 +4613,8 @@
         {
           "text": "した。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q09",
@@ -4596,7 +4669,8 @@
         {
           "text": "がけがをした。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q10",
@@ -4658,7 +4732,8 @@
         {
           "text": "がついている。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q11",
@@ -4724,7 +4799,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q12",
@@ -4793,7 +4869,8 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q13",
@@ -4858,7 +4935,8 @@
         {
           "text": "てしまった。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q14",
@@ -4916,7 +4994,8 @@
         {
           "text": "っている。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q15",
@@ -4985,7 +5064,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q16",
@@ -5047,7 +5127,8 @@
         {
           "text": "をしている。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q17",
@@ -5106,7 +5187,8 @@
         {
           "text": "してください。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q18",
@@ -5171,7 +5253,8 @@
         {
           "text": "こともある。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q19",
@@ -5237,7 +5320,8 @@
         {
           "text": "する。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q20",
@@ -5292,7 +5376,8 @@
         {
           "text": "ないでください。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q21",
@@ -5354,7 +5439,8 @@
         {
           "text": "がいいですか。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q22",
@@ -5423,7 +5509,8 @@
         {
           "text": "している。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q23",
@@ -5496,7 +5583,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q24",
@@ -5558,7 +5646,8 @@
         {
           "text": "でいる。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q25",
@@ -5620,7 +5709,8 @@
         {
           "text": "している。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q26",
@@ -5685,7 +5775,8 @@
         {
           "text": "。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q27",
@@ -5744,7 +5835,8 @@
         {
           "text": "スープがおいしい。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q28",
@@ -5806,7 +5898,8 @@
         {
           "text": "らドキドキしている。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q29",
@@ -5868,7 +5961,8 @@
         {
           "text": "をしておこう。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q30",
@@ -5930,7 +6024,8 @@
         {
           "text": "ではない。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q31",
@@ -5992,7 +6087,8 @@
         {
           "text": "がないらしい。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "kanji96-m3-q32",
@@ -6061,7 +6157,8 @@
         {
           "text": "する。"
         }
-      ]
+      ],
+      "verify_reason": null
     }
   ]
 }

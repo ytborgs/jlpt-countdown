@@ -17,7 +17,8 @@
   "notes": [
     "PDF scanned chép từ preview PNG; không OCR tự động.",
     "Đã lấy 50/50 câu.",
-    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi).",
+    "Phase v6: chỉ giữ đáp án visual_annotation/official; không linguistic."
   ],
   "items": [
     {
@@ -65,7 +66,8 @@
           "text": "れる"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-02",
@@ -113,7 +115,8 @@
           "reading": "きげん"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-03",
@@ -150,7 +153,8 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-04",
@@ -189,7 +193,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-05",
@@ -226,7 +231,8 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-06",
@@ -274,7 +280,8 @@
           "reading": "たしょう"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-07",
@@ -325,7 +332,8 @@
           "text": "り"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-08",
@@ -374,7 +382,8 @@
           "text": "く"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-09",
@@ -414,7 +423,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-10",
@@ -451,7 +461,8 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-11",
@@ -495,7 +506,8 @@
           "reading": "ほうふ"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-12",
@@ -536,7 +548,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-13",
@@ -584,7 +597,8 @@
           "reading": "かんしん"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-14",
@@ -621,7 +635,8 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-15",
@@ -658,7 +673,8 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-16",
@@ -709,7 +725,8 @@
           "text": "いつく"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-17",
@@ -753,7 +770,8 @@
           "reading": "るす"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-18",
@@ -790,7 +808,8 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-19",
@@ -831,7 +850,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-20",
@@ -872,7 +892,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-21",
@@ -920,7 +941,8 @@
           "reading": "めんどう"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-22",
@@ -957,7 +979,8 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-23",
@@ -994,7 +1017,8 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-24",
@@ -1042,7 +1066,8 @@
           "reading": "みちじゅん"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-25",
@@ -1093,7 +1118,8 @@
           "text": "になる"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-26",
@@ -1137,7 +1163,8 @@
           "reading": "こうえん"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-27",
@@ -1177,7 +1204,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-28",
@@ -1224,7 +1252,8 @@
           "reading": "みごと"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-29",
@@ -1265,7 +1294,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-30",
@@ -1316,7 +1346,8 @@
           "text": "う"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-31",
@@ -1357,7 +1388,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-32",
@@ -1410,7 +1442,8 @@
           "text": "さん"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-33",
@@ -1461,7 +1494,8 @@
           "text": "する"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-34",
@@ -1505,7 +1539,8 @@
           "reading": "ぶじ"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-35",
@@ -1546,7 +1581,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-36",
@@ -1597,7 +1633,8 @@
           "text": "ごす"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-37",
@@ -1634,7 +1671,8 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-38",
@@ -1671,7 +1709,8 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-39",
@@ -1712,7 +1751,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-40",
@@ -1759,7 +1799,8 @@
           "reading": "てま"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-41",
@@ -1796,7 +1837,8 @@
       "wrong_hints": null,
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-42",
@@ -1854,7 +1896,8 @@
           "text": "む"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-43",
@@ -1904,7 +1947,8 @@
           "text": "なくとも"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-44",
@@ -1951,7 +1995,8 @@
           "reading": "ゆだん"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-45",
@@ -1992,7 +2037,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-46",
@@ -2033,7 +2079,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-47",
@@ -2084,7 +2131,8 @@
           "reading": "がた"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     },
     {
       "id": "usage-q-48",
@@ -2125,7 +2173,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-49",
@@ -2166,7 +2215,8 @@
       },
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "usage-q-50",
@@ -2217,7 +2267,8 @@
           "text": "かる"
         }
       ],
-      "ruby_source": "linguistic"
+      "ruby_source": "linguistic",
+      "verify_reason": null
     }
   ]
 }

@@ -2173,7 +2173,7 @@
       "usage": "Chừng nào mà còn...thì vẫn",
       "pattern_ruby": [
         {
-          "text": "～Vる、Vない、Vている + "
+          "text": "～Vる、Vない、Vている +"
         },
         {
           "text": "限り",
