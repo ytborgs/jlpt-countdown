@@ -2162,7 +2162,7 @@
       "source_page": 9,
       "knowledge_id": "grammar:VるVないVている-限り",
       "no": 4,
-      "pattern": "～Vる、Vない、Vている + 限り",
+      "pattern": "～Vる、Vない、Vている +限り",
       "meaning": "Chừng nào mà còn...thì vẫn",
       "example_jp": "生きている限り、どんな事でもチャレンジしたい。",
       "example_vi": "Chừng nào mà còn sống thì chuyện gì tôi cũng muốn thách thức",

@@ -160,9 +160,9 @@
       renderName(read(nameKey)||'');
       window.addEventListener('pageshow',()=>renderName(read(nameKey)||''));
       document.addEventListener('visibilitychange',()=>{if(!document.hidden)renderName(read(nameKey)||'')});
-      if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
     })();
   </script>
+  <script src="./register-sw.js" defer></script>
 </body>
 </html>
 

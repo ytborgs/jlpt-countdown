@@ -252,7 +252,7 @@
       "connector_jp": "したがって～",
       "section": "NGUYÊN NHÂN/LÝ DO",
       "meaning_vi": "Vì vậy, theo đó (văn viết của だから )",
-      "example_jp": "ダム建設に賛成 23 票。反対 11 票。したがって、ダム建設は承認された。",
+      "example_jp": "ダム建設に賛成23票。反対11票。したがって、ダム建設は承認された。",
       "connector_ruby": [
         {
           "text": "したがって"
@@ -277,7 +277,7 @@
           "reading": "さんせい"
         },
         {
-          "text": " 23 "
+          "text": "23"
         },
         {
           "text": "票",
@@ -291,7 +291,7 @@
           "reading": "はんたい"
         },
         {
-          "text": " 11 "
+          "text": "11"
         },
         {
           "text": "票",
@@ -339,16 +339,16 @@
       "source_file": "TỪ NỐI Chìa khoá quan trọng làm bài ĐỌC HIỂU.pdf",
       "source_page": 2,
       "knowledge_id": "grammar:なぜなら-からだ",
-      "connector_jp": "なぜなら ～からだ",
+      "connector_jp": "なぜなら～からだ",
       "section": "NGUYÊN NHÂN/LÝ DO",
       "meaning_vi": "Nếu hỏi tại sao…thì là bởi vì… (văn viết của だって , kiểu cách, trang trọng) cách, trang trọng)",
-      "example_jp": "彼は肉は食べません。なぜなら、アレルギーがある からです。",
+      "example_jp": "彼は肉は食べません。なぜなら、アレルギーがあるからです。",
       "connector_ruby": [
         {
           "text": "なぜなら"
         },
         {
-          "text": " "
+          "text": ""
         },
         {
           "text": "～"
@@ -392,7 +392,7 @@
           "text": "がある"
         },
         {
-          "text": " "
+          "text": ""
         },
         {
           "text": "からです"
@@ -416,7 +416,7 @@
       "connector_jp": "だって",
       "section": "NGUYÊN NHÂN/LÝ DO",
       "meaning_vi": "Chả là vì, do là… (văn nói của なぜなら )",
-      "example_jp": "A: どうして食べないの？ B: だって、おいしくないんだもん。",
+      "example_jp": "A:どうして食べないの？B:だって、おいしくないんだもん。",
       "connector_ruby": [
         {
           "text": "だって"
@@ -424,7 +424,7 @@
       ],
       "example_ruby": [
         {
-          "text": "A: "
+          "text": "A:"
         },
         {
           "text": "どうして"
@@ -440,7 +440,7 @@
           "text": "？"
         },
         {
-          "text": " B: "
+          "text": "B:"
         },
         {
           "text": "だって"
@@ -540,7 +540,7 @@
       "connector_jp": "～から",
       "section": "NGUYÊN NHÂN/LÝ DO",
       "meaning_vi": "Vì~",
-      "example_jp": "今回はあまり 勉強しなかったから、テストの点が悪かった。",
+      "example_jp": "今回はあまり勉強しなかったから、テストの点が悪かった。",
       "connector_ruby": [
         {
           "text": "～"
@@ -558,7 +558,7 @@
           "text": "はあまり"
         },
         {
-          "text": " "
+          "text": ""
         },
         {
           "text": "勉強",
@@ -609,7 +609,7 @@
       "connector_jp": "～ので",
       "section": "NGUYÊN NHÂN/LÝ DO",
       "meaning_vi": "Vì~",
-      "example_jp": "明日は朝、面接がある ので、早く寝ます。",
+      "example_jp": "明日は朝、面接があるので、早く寝ます。",
       "connector_ruby": [
         {
           "text": "～"
@@ -641,7 +641,7 @@
           "text": "がある"
         },
         {
-          "text": " "
+          "text": ""
         },
         {
           "text": "ので"
@@ -676,19 +676,19 @@
       "source_file": "TỪ NỐI Chìa khoá quan trọng làm bài ĐỌC HIỂU.pdf",
       "source_page": 3,
       "knowledge_id": "grammar:A-それとも-B",
-      "connector_jp": "A それとも B",
+      "connector_jp": "AそれともB",
       "section": "SỰ LỰA CHỌN",
       "meaning_vi": "Hay là (Chỉ dùng trong câu nghi vấn) Chỉ chọn A hoặc chỉ chọn B Chỉ chọn A hoặc chỉ chọn B",
       "example_jp": "コーヒーがいいですか。それとも、紅茶がいいですか。",
       "connector_ruby": [
         {
-          "text": "A "
+          "text": "A"
         },
         {
           "text": "それとも"
         },
         {
-          "text": " B"
+          "text": "B"
         }
       ],
       "example_ruby": [
@@ -730,19 +730,19 @@
       "source_file": "TỪ NỐI Chìa khoá quan trọng làm bài ĐỌC HIỂU.pdf",
       "source_page": 3,
       "knowledge_id": "grammar:A-あるいは-B",
-      "connector_jp": "A あるいは B",
+      "connector_jp": "AあるいはB",
       "section": "SỰ LỰA CHỌN",
       "meaning_vi": "Hoặc/ hay ＝または (A hoặc B đều được)",
       "example_jp": "奈良へは新幹線、あるいは高速バスで行くことができます。",
       "connector_ruby": [
         {
-          "text": "A "
+          "text": "A"
         },
         {
           "text": "あるいは"
         },
         {
-          "text": " B"
+          "text": "B"
         }
       ],
       "example_ruby": [
@@ -796,19 +796,19 @@
       "source_file": "TỪ NỐI Chìa khoá quan trọng làm bài ĐỌC HIỂU.pdf",
       "source_page": 3,
       "knowledge_id": "grammar:A-または-B",
-      "connector_jp": "A または B",
+      "connector_jp": "AまたはB",
       "section": "SỰ LỰA CHỌN",
       "meaning_vi": "Hoặc/ hay ＝あるいは (A hoặc B đều được)",
       "example_jp": "黒、または青のボールペンで記入してください。",
       "connector_ruby": [
         {
-          "text": "A "
+          "text": "A"
         },
         {
           "text": "または"
         },
         {
-          "text": " B"
+          "text": "B"
         }
       ],
       "example_ruby": [
@@ -1331,7 +1331,7 @@
       "connector_jp": "ところが",
       "section": "LIÊN KẾT NGHỊCH/ ĐỐI LẬP",
       "meaning_vi": "Vậy mà / tuy nhiên (trái với dự đoán)",
-      "example_jp": "A：彼、国へ帰ってお父さんの会社に入ったかな。 B：ところが、あの会社、倒産しちゃったんだって。",
+      "example_jp": "A：彼、国へ帰ってお父さんの会社に入ったかな。B：ところが、あの会社、倒産しちゃったんだって。",
       "connector_ruby": [
         {
           "text": "ところが"
@@ -1390,7 +1390,7 @@
           "text": "。"
         },
         {
-          "text": " B"
+          "text": "B"
         },
         {
           "text": "："
@@ -2182,7 +2182,7 @@
       "connector_jp": "で",
       "section": "(dùng để nối câu, mang nghĩa bổ sung cho vế trước",
       "meaning_vi": "Trong giao tiếp で là dạng rút gọn của それで",
-      "example_jp": "「わたし、結婚するの。」 「で、相手はどんな人なの？」",
+      "example_jp": "「わたし、結婚するの。」「で、相手はどんな人なの？」",
       "connector_ruby": [
         {
           "text": "で"
@@ -2212,7 +2212,7 @@
           "text": "」"
         },
         {
-          "text": " "
+          "text": ""
         },
         {
           "text": "「"
@@ -2259,7 +2259,7 @@
       "connector_jp": "それでは",
       "section": "TRÌNH TỰ TG/TÌNH HUỐNG/ĐIỀU KIỆN",
       "meaning_vi": "Vậy thì… (chuyển chủ đề)",
-      "example_jp": "A: このスカートはちょっと・・・。 B: それでは、こちらはいかがですか。",
+      "example_jp": "A:このスカートはちょっと・・・。B:それでは、こちらはいかがですか。",
       "connector_ruby": [
         {
           "text": "それでは"
@@ -2267,7 +2267,7 @@
       ],
       "example_ruby": [
         {
-          "text": "A: "
+          "text": "A:"
         },
         {
           "text": "この"
@@ -2285,7 +2285,7 @@
           "text": "。"
         },
         {
-          "text": " B: "
+          "text": "B:"
         },
         {
           "text": "それでは"
@@ -2315,7 +2315,7 @@
       "connector_jp": "それじゃ",
       "section": "TRÌNH TỰ TG/TÌNH HUỐNG/ĐIỀU KIỆN",
       "meaning_vi": "Vậy thì… (thân mật của それでは)",
-      "example_jp": "B: それじゃ、こちらはいかがですか。",
+      "example_jp": "B:それじゃ、こちらはいかがですか。",
       "connector_ruby": [
         {
           "text": "それじゃ"
@@ -2323,7 +2323,7 @@
       ],
       "example_ruby": [
         {
-          "text": "B: "
+          "text": "B:"
         },
         {
           "text": "それじゃ"
@@ -2353,7 +2353,7 @@
       "connector_jp": "それなら",
       "section": "TRÌNH TỰ TG/TÌNH HUỐNG/ĐIỀU KIỆN",
       "meaning_vi": "Nếu thế/ nếu vậy thì…",
-      "example_jp": "A: 温泉に行きたいんですが・・・。 B: それなら、箱根がいいですよ。",
+      "example_jp": "A:温泉に行きたいんですが・・・。B:それなら、箱根がいいですよ。",
       "connector_ruby": [
         {
           "text": "それなら"
@@ -2361,7 +2361,7 @@
       ],
       "example_ruby": [
         {
-          "text": "A: "
+          "text": "A:"
         },
         {
           "text": "温泉",
@@ -2384,7 +2384,7 @@
           "text": "。"
         },
         {
-          "text": " B: "
+          "text": "B:"
         },
         {
           "text": "それなら"
@@ -2742,7 +2742,7 @@
       "connector_jp": "および",
       "section": "1 SỐ CÁCH DIỄN ĐẠT KHÁC",
       "meaning_vi": "Và = と (trang trọng)",
-      "example_jp": "ビザおよびパスポート については、以下をご覧ください。",
+      "example_jp": "ビザおよびパスポートについては、以下をご覧ください。",
       "connector_ruby": [
         {
           "text": "および"
@@ -2759,7 +2759,7 @@
           "text": "パスポート"
         },
         {
-          "text": " "
+          "text": ""
         },
         {
           "text": "については"
@@ -2800,7 +2800,7 @@
       "connector_jp": "つまり",
       "section": "1 SỐ CÁCH DIỄN ĐẠT KHÁC",
       "meaning_vi": "Nói cách khác…/Tóm lại có nghĩa là=>văn nói dùng nghĩa rộng nhất",
-      "example_jp": "昨日は出席者は 5 人、つまり、3 人欠席だったんです。",
+      "example_jp": "昨日は出席者は5人、つまり、3人欠席だったんです。",
       "connector_ruby": [
         {
           "text": "つまり"
@@ -2822,7 +2822,7 @@
           "text": "は"
         },
         {
-          "text": " 5 "
+          "text": "5"
         },
         {
           "text": "人",
@@ -2838,7 +2838,7 @@
           "text": "、"
         },
         {
-          "text": "3 "
+          "text": "3"
         },
         {
           "text": "人",
@@ -2870,7 +2870,7 @@
       "connector_jp": "こそ",
       "section": "Nói cách khác/ tức là…(k dùng để tóm tắt, đưa ra",
       "meaning_vi": "Chính~(chứ k phải cái khác)",
-      "example_jp": "今年こそ 世界一周旅行に行きたい。",
+      "example_jp": "今年こそ世界一周旅行に行きたい。",
       "connector_ruby": [
         {
           "text": "こそ"
@@ -2885,7 +2885,7 @@
           "text": "こそ"
         },
         {
-          "text": " "
+          "text": ""
         },
         {
           "text": "世界一周旅行",
@@ -2920,7 +2920,7 @@
       "connector_jp": "すなわち～",
       "section": "KẾT LUẬN)",
       "meaning_vi": "Nói cách khác / tức là… (không dùng để tóm tắt kết luận)",
-      "example_jp": "小学生、すなわち 6 歳以上子供は有料になる。",
+      "example_jp": "小学生、すなわち6歳以上子供は有料になる。",
       "connector_ruby": [
         {
           "text": "すなわち"
@@ -2941,7 +2941,7 @@
           "text": "すなわち"
         },
         {
-          "text": " 6 "
+          "text": "6"
         },
         {
           "text": "歳",

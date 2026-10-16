@@ -5,7 +5,7 @@
   "level": "N3",
   "source_file": "Sổ tay tiếng Nhật.pdf",
   "source_path": "study-materials/Sổ tay tiếng Nhật.pdf",
-  "title": "Sổ tay N3 — quán dụng ngữ & từ láy",
+  "title": "Sổ tay N3 quán dụng ngữ & từ láy",
   "page_count": 41,
   "item_count": 70,
   "content_source": "pdf_extract",
@@ -29,7 +29,7 @@
       "knowledge_id": "vocab:頭が痛い",
       "lemma_jp": "頭が痛い",
       "reading": null,
-      "meaning_vi": null,
+      "meaning_vi": "đau đầu; (nghĩa bóng) phiền toái, đau đầu vì chuyện gì",
       "example_jp": "海外で働く人にとって、子供の教育は頭の痛い問題だ。",
       "example_vi": null,
       "lemma_ruby": [
@@ -106,7 +106,16 @@
       "ruby_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": true,
-      "ai_extra": null
+      "ai_extra": null,
+      "meaning_vi_source": "dictionary_supplement",
+      "verify_reason": "PDF sổ tay cột Nghĩa trống cho mục này; lemma+ví dụ đã khớp extract trang 22; meaning_vi giữ dictionary_supplement (Jisho EN→VI diễn giải).",
+      "verified_fields": [
+        "example_jp",
+        "lemma_jp",
+        "source_page"
+      ],
+      "pdf_meaning_empty": true,
+      "meaning_vi_note": "PDF sổ tay cột Nghĩa trống. meaning_vi = diễn giải tiếng Việt từ gloss EN/JA (Jisho), không phải nghĩa VI in sẵn trên Jisho, không phải nội dung PDF."
     },
     {
       "id": "so-tay-idiom-002",
@@ -508,7 +517,7 @@
       "knowledge_id": "vocab:口が軽い",
       "lemma_jp": "口が軽い",
       "reading": null,
-      "meaning_vi": null,
+      "meaning_vi": "miệng nhẹ dạ; hay tiết lộ chuyện",
       "example_jp": "彼女は口が軽いから、すぐ人に話してしまう。",
       "example_vi": null,
       "lemma_ruby": [
@@ -573,7 +582,16 @@
       "ruby_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": true,
-      "ai_extra": null
+      "ai_extra": null,
+      "meaning_vi_source": "dictionary_supplement",
+      "verify_reason": "PDF sổ tay cột Nghĩa trống cho mục này; lemma+ví dụ đã khớp extract trang 22; meaning_vi giữ dictionary_supplement (Jisho EN→VI diễn giải).",
+      "verified_fields": [
+        "example_jp",
+        "lemma_jp",
+        "source_page"
+      ],
+      "pdf_meaning_empty": true,
+      "meaning_vi_note": "PDF sổ tay cột Nghĩa trống. meaning_vi = diễn giải tiếng Việt từ gloss EN/JA (Jisho), không phải nghĩa VI in sẵn trên Jisho, không phải nội dung PDF."
     },
     {
       "id": "so-tay-idiom-008",
@@ -1202,7 +1220,7 @@
       "knowledge_id": "vocab:手を貸す",
       "lemma_jp": "手を貸す",
       "reading": null,
-      "meaning_vi": null,
+      "meaning_vi": "giúp đỡ; đưa tay giúp",
       "example_jp": "ちょっと手を貸してもらえませんか。",
       "example_vi": null,
       "lemma_ruby": [
@@ -1243,7 +1261,16 @@
       "ruby_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": true,
-      "ai_extra": null
+      "ai_extra": null,
+      "meaning_vi_source": "dictionary_supplement",
+      "verify_reason": "PDF sổ tay cột Nghĩa trống cho mục này; lemma+ví dụ đã khớp extract trang 22; meaning_vi giữ dictionary_supplement (Jisho EN→VI diễn giải).",
+      "verified_fields": [
+        "example_jp",
+        "lemma_jp",
+        "source_page"
+      ],
+      "pdf_meaning_empty": true,
+      "meaning_vi_note": "PDF sổ tay cột Nghĩa trống. meaning_vi = diễn giải tiếng Việt từ gloss EN/JA (Jisho), không phải nghĩa VI in sẵn trên Jisho, không phải nội dung PDF."
     },
     {
       "id": "so-tay-idiom-018",
@@ -1375,7 +1402,7 @@
       "knowledge_id": "vocab:気がつく",
       "lemma_jp": "気がつく",
       "reading": null,
-      "meaning_vi": null,
+      "meaning_vi": "nhận ra; để ý; tỉnh lại",
       "example_jp": "先生がすぐそばにいることに気がつかなかった。",
       "example_vi": null,
       "lemma_ruby": [
@@ -1409,7 +1436,16 @@
       "ruby_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": true,
-      "ai_extra": null
+      "ai_extra": null,
+      "meaning_vi_source": "dictionary_supplement",
+      "verify_reason": "PDF sổ tay cột Nghĩa trống cho mục này; lemma+ví dụ đã khớp extract trang 23; meaning_vi giữ dictionary_supplement (Jisho EN→VI diễn giải).",
+      "verified_fields": [
+        "example_jp",
+        "lemma_jp",
+        "source_page"
+      ],
+      "pdf_meaning_empty": true,
+      "meaning_vi_note": "PDF sổ tay cột Nghĩa trống. meaning_vi = diễn giải tiếng Việt từ gloss EN/JA (Jisho), không phải nghĩa VI in sẵn trên Jisho, không phải nội dung PDF."
     },
     {
       "id": "so-tay-idiom-021",
@@ -1635,7 +1671,7 @@
       "knowledge_id": "vocab:気を使う",
       "lemma_jp": "気を使う",
       "reading": null,
-      "meaning_vi": null,
+      "meaning_vi": "để tâm; chiếu cố; thận trọng với cảm xúc người khác",
       "example_jp": "「何か飲まれますか」「どうぞ気を使わないでください」",
       "example_vi": null,
       "lemma_ruby": [
@@ -1690,7 +1726,16 @@
       "ruby_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": true,
-      "ai_extra": null
+      "ai_extra": null,
+      "meaning_vi_source": "dictionary_supplement",
+      "verify_reason": "PDF sổ tay cột Nghĩa trống cho mục này; lemma+ví dụ đã khớp extract trang 23; meaning_vi giữ dictionary_supplement (Jisho EN→VI diễn giải).",
+      "verified_fields": [
+        "example_jp",
+        "lemma_jp",
+        "source_page"
+      ],
+      "pdf_meaning_empty": true,
+      "meaning_vi_note": "PDF sổ tay cột Nghĩa trống. meaning_vi = diễn giải tiếng Việt từ gloss EN/JA (Jisho), không phải nghĩa VI in sẵn trên Jisho, không phải nội dung PDF."
     },
     {
       "id": "so-tay-onoma-001",
@@ -1702,7 +1747,7 @@
       "knowledge_id": "vocab:ぎっしりと",
       "lemma_jp": "ぎっしり（と）",
       "reading": null,
-      "meaning_vi": null,
+      "meaning_vi": "ken chặt; đầy ắp",
       "example_jp": "箱にはお菓子がぎっしり入っている。",
       "example_vi": null,
       "lemma_ruby": [
@@ -1748,7 +1793,16 @@
       "ruby_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": true,
-      "ai_extra": null
+      "ai_extra": null,
+      "meaning_vi_source": "dictionary_supplement",
+      "verify_reason": "PDF sổ tay cột Nghĩa trống cho mục này; lemma+ví dụ đã khớp extract trang 27; meaning_vi giữ dictionary_supplement (Jisho EN→VI diễn giải).",
+      "verified_fields": [
+        "example_jp",
+        "lemma_jp",
+        "source_page"
+      ],
+      "pdf_meaning_empty": true,
+      "meaning_vi_note": "PDF sổ tay cột Nghĩa trống. meaning_vi = diễn giải tiếng Việt từ gloss EN/JA (Jisho), không phải nghĩa VI in sẵn trên Jisho, không phải nội dung PDF."
     },
     {
       "id": "so-tay-onoma-002",
@@ -2805,7 +2859,7 @@
       "knowledge_id": "vocab:めちゃくちゃなだの",
       "lemma_jp": "めちゃくちゃ（な・だ・の）",
       "reading": null,
-      "meaning_vi": null,
+      "meaning_vi": "lung tung; hỗn loạn; (mức độ) kinh khủng",
       "example_jp": "台風の後、町はめちゃくちゃな状態だった。",
       "example_vi": null,
       "lemma_ruby": [
@@ -2870,7 +2924,16 @@
       "ruby_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": true,
-      "ai_extra": null
+      "ai_extra": null,
+      "meaning_vi_source": "dictionary_supplement",
+      "verify_reason": "PDF sổ tay cột Nghĩa trống cho mục này; lemma+ví dụ đã khớp extract trang 27; meaning_vi giữ dictionary_supplement (Jisho EN→VI diễn giải).",
+      "verified_fields": [
+        "example_jp",
+        "lemma_jp",
+        "source_page"
+      ],
+      "pdf_meaning_empty": true,
+      "meaning_vi_note": "PDF sổ tay cột Nghĩa trống. meaning_vi = diễn giải tiếng Việt từ gloss EN/JA (Jisho), không phải nghĩa VI in sẵn trên Jisho, không phải nội dung PDF."
     },
     {
       "id": "so-tay-onoma-019",
@@ -3014,7 +3077,7 @@
       "knowledge_id": "vocab:おっとりとする",
       "lemma_jp": "おっとり（と・する）",
       "reading": null,
-      "meaning_vi": null,
+      "meaning_vi": "điềm đạm; thong thả; không hấp tấp",
       "example_jp": "彼はおっとりしていて、あまり怒らない。",
       "example_vi": null,
       "lemma_ruby": [
@@ -3065,7 +3128,16 @@
       "ruby_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": true,
-      "ai_extra": null
+      "ai_extra": null,
+      "meaning_vi_source": "dictionary_supplement",
+      "verify_reason": "PDF sổ tay cột Nghĩa trống cho mục này; lemma+ví dụ đã khớp extract trang 28; meaning_vi giữ dictionary_supplement (Jisho EN→VI diễn giải).",
+      "verified_fields": [
+        "example_jp",
+        "lemma_jp",
+        "source_page"
+      ],
+      "pdf_meaning_empty": true,
+      "meaning_vi_note": "PDF sổ tay cột Nghĩa trống. meaning_vi = diễn giải tiếng Việt từ gloss EN/JA (Jisho), không phải nghĩa VI in sẵn trên Jisho, không phải nội dung PDF."
     },
     {
       "id": "so-tay-onoma-022",
@@ -3965,7 +4037,7 @@
       "knowledge_id": "vocab:ぶらぶらとする",
       "lemma_jp": "ぶらぶら（と・する）",
       "reading": null,
-      "meaning_vi": null,
+      "meaning_vi": "lang thang không mục đích; lủng lẳng; nhàn rỗi",
       "example_jp": "公園をぶらぶら（と）散歩した。",
       "example_vi": null,
       "lemma_ruby": [
@@ -4019,7 +4091,16 @@
       "ruby_source": "linguistic",
       "content_source": "pdf_extract",
       "needs_verify": true,
-      "ai_extra": null
+      "ai_extra": null,
+      "meaning_vi_source": "dictionary_supplement",
+      "verify_reason": "PDF sổ tay cột Nghĩa trống cho mục này; lemma+ví dụ đã khớp extract trang 28; meaning_vi giữ dictionary_supplement (Jisho EN→VI diễn giải).",
+      "verified_fields": [
+        "example_jp",
+        "lemma_jp",
+        "source_page"
+      ],
+      "pdf_meaning_empty": true,
+      "meaning_vi_note": "PDF sổ tay cột Nghĩa trống. meaning_vi = diễn giải tiếng Việt từ gloss EN/JA (Jisho), không phải nghĩa VI in sẵn trên Jisho, không phải nội dung PDF."
     },
     {
       "id": "so-tay-onoma-037",
