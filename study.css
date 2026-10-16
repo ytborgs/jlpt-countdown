@@ -99,8 +99,15 @@
 .study-session-actions button:disabled{opacity:.45;cursor:default}
 .study-session-next{font-weight:700}
 .study-session-next.is-ready{background:var(--accent);border-color:var(--accent);color:var(--bg)}
-.study-session-card{max-width:720px;margin:0 auto}
 body.study-session-active{padding-bottom:calc(96px + env(safe-area-inset-bottom))}
+body.study-session-active #study-list.grammar-list{
+  display:grid;
+  grid-template-columns:minmax(0,720px);
+  justify-content:center;
+  justify-items:stretch;
+  width:100%;
+}
+.study-session-card{width:100%;max-width:720px;margin:0 auto}
 .study-session-done,.study-complete,.study-empty{display:grid;gap:14px;padding:28px 22px;border:1px solid var(--line);border-radius:18px;background:var(--card);text-align:center}
 .study-session-done h2,.study-complete h2,.study-empty h2{margin:0;font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:28px}
 .study-session-done p,.study-complete p,.study-empty p{margin:0;color:var(--muted);line-height:1.6}

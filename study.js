@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '36';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '37';
 const SESSION_SHORT = 20;
 const CATALOG_STATE_KEY = 'jlpt-study-catalog-v1';
 
