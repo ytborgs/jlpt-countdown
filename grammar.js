@@ -1,7 +1,8 @@
 const STORAGE_KEY = 'jlpt-n3-previous-grammar';
+const DAILY_COUNT = 6;
 
 // Shuffle a fresh copy, excluding the previous selection when there are enough items.
-export const pickGrammar = (items, previous = [], count = 5, random = Math.random) => {
+export const pickGrammar = (items, previous = [], count = DAILY_COUNT, random = Math.random) => {
   const previousIds = new Set(previous);
   const fresh = items.filter(item => !previousIds.has(item.id));
   const pool = [...(fresh.length >= count ? fresh : items)];
@@ -77,7 +78,7 @@ const startGrammar = async () => {
     previous = selected.map(item => item.id);
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(previous)); } catch {}
     render(selected);
-    status.textContent = '5 mẫu ngẫu nhiên từ ' + items.length + ' mẫu · Chạm để xem cách dùng và ví dụ.';
+    status.textContent = selected.length + ' mẫu ngẫu nhiên từ ' + items.length + ' mẫu · Chạm để xem cách dùng và ví dụ.';
   };
   const renderLibrary = () => {
     const selected = filterGrammar(items, document.getElementById('grammar-search').value);
@@ -92,7 +93,7 @@ const startGrammar = async () => {
       const response = await fetch(new URL('./grammar.json', import.meta.url));
       if (!response.ok) throw new Error('HTTP ' + response.status);
       const data = await response.json();
-      if (!Array.isArray(data.items) || data.items.length < 5 || data.items.length !== data.total || new Set(data.items.map(item => item.id)).size !== data.items.length) throw new Error('Invalid grammar data');
+      if (!Array.isArray(data.items) || data.items.length < DAILY_COUNT || data.items.length !== data.total || new Set(data.items.map(item => item.id)).size !== data.items.length) throw new Error('Invalid grammar data');
       items = data.items;
       if (daily) refreshDaily(); else renderLibrary();
     } catch {

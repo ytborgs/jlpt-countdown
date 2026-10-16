@@ -2,7 +2,7 @@
 
 ## Ôn ngữ pháp N3
 
-Trang chính chọn ngẫu nhiên đúng 5 mẫu khác nhau từ bộ 80 mẫu trong `grammar.json` mỗi lần mở hoặc quay lại app. Các mẫu của lượt trước được bỏ qua khi chọn lượt mới. Mỗi thẻ có ý nghĩa, cấu trúc và phần mở rộng để xem cách dùng, ví dụ Nhật–Việt, cách đọc và ghi chú.
+Trang chính chọn ngẫu nhiên đúng 6 mẫu khác nhau từ bộ 80 mẫu trong `grammar.json` mỗi lần mở hoặc quay lại app. Các mẫu của lượt trước được bỏ qua khi chọn lượt mới. Mỗi thẻ có ý nghĩa, cấu trúc và phần mở rộng để xem cách dùng, ví dụ Nhật–Việt, cách đọc và ghi chú.
 
 Vào **Cài đặt → Danh sách ngữ pháp** để mở `grammar.html` và tra cứu toàn bộ 80 mẫu. Có thể tìm theo mẫu tiếng Nhật hoặc ý nghĩa tiếng Việt. Dữ liệu được giữ nguyên từ tệp người dùng cung cấp và có trong bộ nhớ offline sau khi phiên bản mới được tải đầy đủ.
 
