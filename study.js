@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '25';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '26';
 
 const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
@@ -39,6 +39,21 @@ export function hydrateStudyProgress(items, saved) {
     if (hasAnswer(item)) results.set(item.id, key === String(item.correct_answer) ? 'ok' : 'wrong');
   }
   return { selections, results };
+}
+
+export function openStudyExplanation(detail, index, trigger) {
+  const dialog = document.getElementById('study-explanation-dialog');
+  if (!dialog || dialog.open) return;
+  const title = document.getElementById('study-explanation-title');
+  const content = document.getElementById('study-explanation-content');
+  title.textContent = 'Giải thích đáp án · Câu ' + (index + 1);
+  content.replaceChildren(...[...detail.childNodes].map(node => node.cloneNode(true)));
+  dialog.addEventListener('close', () => {
+    content.replaceChildren();
+    if (trigger.isConnected) trigger.focus();
+  }, { once: true });
+  dialog.showModal();
+  content.scrollTop = 0;
 }
 
 export const createPracticeStem = (value, segments, target, hideTargetReading = false) => {
@@ -138,22 +153,12 @@ export function createStudyCard(item, index, selections = new Map(), onSelect = 
     const detail = el('section', '', 'study-explain');
     detail.setAttribute('aria-label', 'Chi tiết giải thích đáp án');
     detail.hidden = true;
-    detail.id = 'study-explain-' + index;
-    const detailToggle = el('button', 'Ẩn chi tiết', 'study-explain-toggle');
+    const detailToggle = el('button', 'Xem giải thích', 'study-explain-toggle');
     detailToggle.type = 'button';
     detailToggle.hidden = true;
-    detailToggle.setAttribute('aria-controls', detail.id);
-    detailToggle.setAttribute('aria-expanded', 'false');
-    let detailExpanded = true;
-    const updateDetailVisibility = () => {
-      detail.hidden = detailToggle.hidden || !detailExpanded;
-      detailToggle.textContent = detailExpanded ? 'Ẩn chi tiết' : 'Hiện chi tiết';
-      detailToggle.setAttribute('aria-expanded', String(!detail.hidden));
-    };
-    detailToggle.addEventListener('click', () => {
-      detailExpanded = !detailExpanded;
-      updateDetailVisibility();
-    });
+    detailToggle.setAttribute('aria-haspopup', 'dialog');
+    detailToggle.setAttribute('aria-controls', 'study-explanation-dialog');
+    detailToggle.addEventListener('click', () => openStudyExplanation(detail, index, detailToggle));
     const showExplanation = selectedKey => {
       const content = [el('h4', 'Chi tiết')];
       if (item.explanation) content.push(el('p', item.explanation, 'study-explain-summary'));
@@ -177,7 +182,7 @@ export function createStudyCard(item, index, selections = new Map(), onSelect = 
       }
       detail.replaceChildren(...content);
       detailToggle.hidden = !item.explanation && !rows.length;
-      updateDetailVisibility();
+
     };
     const keyed = hasAnswer(item);
     if (!keyed) card.append(el('small', 'Chưa có đáp án · Chọn để tự ôn, không chấm điểm.'));
@@ -237,6 +242,9 @@ async function startStudy() {
   const back = document.getElementById('study-back');
   const notice = document.getElementById('study-notice');
   const retry = document.getElementById('study-retry');
+  const dialog = document.getElementById('study-explanation-dialog');
+  document.getElementById('study-explanation-close').addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
   const cache = new Map();
   let selections = new Map(), results = new Map();
   const progress = document.getElementById('study-progress');
@@ -245,6 +253,7 @@ async function startStudy() {
   const okFill = document.getElementById('study-progress-ok');
   const badFill = document.getElementById('study-progress-bad');
   const filters = document.getElementById('study-progress-filters');
+  const progressMenu = document.getElementById('study-progress-menu');
   const retryWrong = document.getElementById('study-retry-wrong');
   const resetTopic = document.getElementById('study-reset-topic');
   let filterMode = 'all', gradable = [];
@@ -276,16 +285,16 @@ async function startStudy() {
   for (const [mode, label] of [['all', 'Tất cả'], ['todo', 'Chưa làm'], ['wrong', 'Câu sai'], ['ok', 'Câu đúng']]) {
     const button = el('button', label);
     button.type = 'button'; button.dataset.filter = mode;
-    button.addEventListener('click', () => { filterMode = mode; render(); });
+    button.addEventListener('click', () => { progressMenu.open = false; filterMode = mode; render(); });
     filters.append(button); filterButtons.push(button);
   }
   retryWrong.addEventListener('click', () => {
     for (const [id, result] of results) if (result === 'wrong') { results.delete(id); selections.delete(id); }
-    persist(); filterMode = 'todo'; render();
+    persist(); progressMenu.open = false; filterMode = 'todo'; render();
   });
   resetTopic.addEventListener('click', () => {
     if (!window.confirm('Xóa toàn bộ tiến độ của bộ tài liệu này?')) return;
-    selections.clear(); results.clear(); persist(); filterMode = 'all'; render();
+    selections.clear(); results.clear(); persist(); progressMenu.open = false; filterMode = 'all'; render();
   });
   let topics, topic, items = [], version = 0, ready = false;
   const render = () => {
@@ -305,6 +314,8 @@ async function startStudy() {
   };
   const load = async () => {
     const request = ++version;
+    if (dialog.open) dialog.close();
+    progressMenu.open = false;
     ready = false; progress.hidden = true;
     list.replaceChildren(); retry.hidden = true; notice.hidden = true;
     list.setAttribute('aria-busy', 'true');
