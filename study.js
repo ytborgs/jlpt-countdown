@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '28';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '29';
 
 const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
@@ -9,10 +9,18 @@ const el = (tag, value = '', className = '', lang) => {
   return node;
 };
 const normalize = value => String(value).normalize('NFKC').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd');
-const searchable = value => Array.isArray(value) ? value.map(searchable).join(' ') : value && typeof value === 'object' ? Object.entries(value).filter(([key]) => !/^(source|content_source|verify_reason|id|knowledge_id|ai_extra|ruby_source)/.test(key)).map(([, v]) => searchable(v)).join(' ') : typeof value === 'string' ? value : '';
+const searchable = value => Array.isArray(value) ? value.map(searchable).join(' ') : value && typeof value === 'object' ? Object.entries(value).filter(([key]) => !/^(source|content_source|verify_reason|id|knowledge_id|ai_extra|ruby_source|group|gradable|path)/.test(key)).map(([, v]) => searchable(v)).join(' ') : typeof value === 'string' ? value : '';
 export const filterStudy = (items, query) => items.filter(item => normalize(searchable(item)).includes(normalize(query.trim())));
 export const hasAnswer = item => item.correct_answer != null && item.choices.some(choice => String(choice.key) === String(item.correct_answer));
 const topicNotice = topic => (topic.notice || '').replace(/(?:Cần )?UI type=reading(?: \(xem PROMPT\))?\.\s*/g, '');
+
+export const STUDY_GROUPS = [
+  { id: 'grammar', label: 'Ngữ pháp' },
+  { id: 'vocab', label: 'Từ vựng & Hán tự' },
+  { id: 'practice', label: 'Trắc nghiệm' },
+  { id: 'tips', label: 'Mẹo & bí kíp' },
+];
+const topicGroupId = topic => STUDY_GROUPS.some(group => group.id === topic.group) ? topic.group : 'vocab';
 
 const STORAGE_KEY = 'jlpt-study-progress-v1';
 const record = value => value && typeof value === 'object' && !Array.isArray(value) ? value : {};
@@ -56,6 +64,64 @@ export function saveStudyKnown(topicId, known) {
     all[topicId] = Object.fromEntries([...known].map(id => [id, true]));
     localStorage.setItem(KNOWN_KEY, JSON.stringify(all));
   } catch { /* Keep the current session usable if local storage is unavailable. */ }
+}
+
+/** Progress chip for catalog cards — reads localStorage only (no topic JSON load). */
+export function topicCatalogProgress(topic) {
+  if (topic.group === 'practice') {
+    const saved = record(loadStudyProgress()[topic.id]);
+    const results = record(saved.results);
+    const selections = record(saved.selections);
+    const ok = Object.values(results).filter(value => value === 'ok').length;
+    const wrong = Object.values(results).filter(value => value === 'wrong').length;
+    const selected = Object.keys(selections).length;
+    if (topic.gradable === false) {
+      if (!selected) return { kind: 'idle', text: 'Chưa chọn', ratio: 0 };
+      return { kind: selected >= topic.count ? 'done' : 'partial', text: `Đã chọn ${selected} / ${topic.count}`, ratio: selected / topic.count };
+    }
+    const done = ok + wrong;
+    if (!done) return { kind: 'idle', text: 'Chưa làm', ratio: 0 };
+    return {
+      kind: done >= topic.count ? 'done' : 'partial',
+      text: `Đúng ${ok} · Sai ${wrong} · Còn ${Math.max(0, topic.count - done)}`,
+      ratio: done / topic.count,
+    };
+  }
+  const knownMap = record(loadStudyKnown()[topic.id]);
+  const done = Object.values(knownMap).filter(Boolean).length;
+  if (!done) return { kind: 'idle', text: 'Chưa đánh dấu', ratio: 0 };
+  return {
+    kind: done >= topic.count ? 'done' : 'partial',
+    text: `Đã thuộc ${done} / ${topic.count}`,
+    ratio: done / topic.count,
+  };
+}
+
+export function createTopicCard(topic) {
+  const link = el('a', '', 'grammar-card study-topic');
+  link.href = '#' + topic.id;
+  const progress = topicCatalogProgress(topic);
+  const meta = el('div', '', 'study-topic-meta');
+  meta.append(el('span', topic.count + ' ' + topic.unit, 'grammar-number'));
+  const chip = el('span', progress.text, 'study-topic-progress study-topic-progress-' + progress.kind);
+  chip.setAttribute('aria-label', 'Tiến độ: ' + progress.text);
+  meta.append(chip);
+  link.append(meta, el('h2', topic.title), el('p', topic.description));
+  if (topicNotice(topic)) link.append(el('small', topicNotice(topic)));
+  if (progress.kind !== 'idle') {
+    const bar = el('div', '', 'study-topic-bar');
+    bar.setAttribute('role', 'progressbar');
+    bar.setAttribute('aria-valuemin', '0');
+    bar.setAttribute('aria-valuemax', '100');
+    bar.setAttribute('aria-valuenow', String(Math.round(progress.ratio * 100)));
+    bar.setAttribute('aria-label', progress.text);
+    const fill = el('span', '', 'study-topic-bar-fill');
+    fill.style.width = Math.min(100, Math.round(progress.ratio * 100)) + '%';
+    bar.append(fill);
+    link.append(bar);
+  }
+  link.append(el('span', 'Mở tài liệu →', 'study-open'));
+  return link;
 }
 
 const addKnownToggle = (card, item, state) => {
@@ -389,21 +455,54 @@ async function startStudy() {
     if (!window.confirm('Xóa toàn bộ tiến độ của bộ tài liệu này?')) return;
     selections.clear(); results.clear(); persist(); progressMenu.open = false; filterMode = 'all'; render();
   });
-  let topics, topic, items = [], version = 0, ready = false;
+  let topics, topic, items = [], version = 0, ready = false, groupFilter = 'all';
+  const groupNav = document.getElementById('study-group-filters');
+  const groupButtons = [];
+  for (const [mode, label] of [['all', 'Tất cả'], ...STUDY_GROUPS.map(group => [group.id, group.label])]) {
+    const button = el('button', label);
+    button.type = 'button';
+    button.dataset.group = mode;
+    button.addEventListener('click', () => { groupFilter = mode; render(); });
+    groupNav.append(button);
+    groupButtons.push(button);
+  }
+  const updateGroupFilters = () => {
+    const catalog = !topic;
+    groupNav.hidden = !catalog;
+    for (const button of groupButtons) button.setAttribute('aria-pressed', String(button.dataset.group === groupFilter));
+  };
+  const renderCatalog = matches => {
+    const nodes = [];
+    for (const group of STUDY_GROUPS) {
+      if (groupFilter !== 'all' && groupFilter !== group.id) continue;
+      const groupTopics = matches.filter(item => topicGroupId(item) === group.id);
+      if (!groupTopics.length) continue;
+      const section = el('section', '', 'study-group');
+      section.setAttribute('aria-labelledby', 'study-group-' + group.id);
+      const heading = el('h2', group.label, 'study-group-heading');
+      heading.id = 'study-group-' + group.id;
+      const count = el('span', ' · ' + groupTopics.length + ' bộ', 'study-group-count');
+      heading.append(count);
+      const grid = el('div', '', 'study-group-list grammar-list');
+      for (const item of groupTopics) grid.append(createTopicCard(item));
+      section.append(heading, grid);
+      nodes.push(section);
+    }
+    list.replaceChildren(...nodes);
+  };
   const render = () => {
     if (!ready) return;
-    updateProgress(); updateKnownProgress();
-    const matches = filterStudy(items, search.value).filter(matchesFilter).filter(matchesKnownFilter);
-    list.replaceChildren(...matches.map(item => {
-      if (topic) return createStudyCard(item, items.indexOf(item), selections, onSelect, knownMode ? { known, onChange: onKnownChange } : undefined);
-      const link = el('a', '', 'grammar-card study-topic');
-      link.href = '#' + item.id;
-      link.append(el('span', item.count + ' ' + item.unit, 'grammar-number'), el('h2', item.title), el('p', item.description));
-      if (topicNotice(item)) link.append(el('small', topicNotice(item)));
-      link.append(el('span', 'Mở tài liệu →', 'study-open'));
-      return link;
-    }));
-    status.textContent = matches.length ? 'Hiển thị ' + matches.length + ' / ' + items.length + (topic ? ' ' + topic.unit : ' bộ tài liệu') + (search.value.trim() ? ' phù hợp.' : '.') : filterMode === 'wrong' && !gradable.some(item => results.get(item.id) === 'wrong') ? 'Không còn câu sai.' : knownMode && !search.value.trim() && knownFilter === 'unknown' ? 'Bạn đã thuộc toàn bộ nội dung của bộ này.' : knownMode && !search.value.trim() && knownFilter === 'known' ? 'Chưa có mục nào được đánh dấu đã thuộc.' : 'Không tìm thấy nội dung phù hợp. Hãy thử bộ lọc hoặc từ khóa khác.';
+    updateProgress(); updateKnownProgress(); updateGroupFilters();
+    const matches = filterStudy(items, search.value)
+      .filter(matchesFilter)
+      .filter(matchesKnownFilter)
+      .filter(item => topic || groupFilter === 'all' || topicGroupId(item) === groupFilter);
+    if (topic) {
+      list.replaceChildren(...matches.map(item => createStudyCard(item, items.indexOf(item), selections, onSelect, knownMode ? { known, onChange: onKnownChange } : undefined)));
+    } else {
+      renderCatalog(matches);
+    }
+    status.textContent = matches.length ? 'Hiển thị ' + matches.length + ' / ' + items.length + (topic ? ' ' + topic.unit : ' bộ tài liệu') + (search.value.trim() || (!topic && groupFilter !== 'all') ? ' phù hợp.' : '.') : filterMode === 'wrong' && !gradable.some(item => results.get(item.id) === 'wrong') ? 'Không còn câu sai.' : knownMode && !search.value.trim() && knownFilter === 'unknown' ? 'Bạn đã thuộc toàn bộ nội dung của bộ này.' : knownMode && !search.value.trim() && knownFilter === 'known' ? 'Chưa có mục nào được đánh dấu đã thuộc.' : !topic && groupFilter !== 'all' ? 'Không có bộ nào trong nhóm này.' : 'Không tìm thấy nội dung phù hợp. Hãy thử bộ lọc hoặc từ khóa khác.';
   };
   const load = async () => {
     const request = ++version;
@@ -446,10 +545,11 @@ async function startStudy() {
       ({ selections, results } = hydrateStudyProgress(items, topic ? loadStudyProgress()[topic.id] : {}));
       gradable = topic ? items.filter(item => item.type === 'practice' && hasAnswer(item)) : [];
       filterMode = 'all';
+      if (!topic) groupFilter = 'all';
       knownMode = !!topic && items.every(item => item.type !== 'practice') && items.some(item => ['reading', 'vocabulary', 'grammar', 'tips'].includes(item.type));
       known = knownMode ? hydrateStudyKnown(items, loadStudyKnown()[topic.id]) : new Set();
       knownFilter = 'all';
-      search.placeholder = topic ? 'Tìm tiếng Nhật hoặc nghĩa tiếng Việt…' : 'Tìm tài liệu…';
+      search.placeholder = topic ? 'Tìm tiếng Nhật hoặc nghĩa tiếng Việt…' : 'Tìm tài liệu hoặc nhóm…';
       ready = true; render();
     } catch {
       if (request !== version) return;

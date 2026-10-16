@@ -1,6 +1,7 @@
 [
   {
     "id": "grammar",
+    "group": "grammar",
     "title": "Ngữ pháp cơ bản",
     "description": "80 mẫu với cấu trúc, cách dùng và ví dụ Nhật–Việt.",
     "notice": "",
@@ -10,6 +11,7 @@
   },
   {
     "id": "grammar-set",
+    "group": "grammar",
     "title": "Ngữ pháp N3–N2 theo SET",
     "description": "Các mẫu theo nhóm SET kèm ví dụ Nhật–Việt.",
     "notice": "",
@@ -19,6 +21,7 @@
   },
   {
     "id": "bi-kip",
+    "group": "grammar",
     "title": "Bí kíp ngữ pháp N3",
     "description": "Tóm tắt mẫu hay gặp kèm ví dụ rút gọn.",
     "notice": "",
@@ -27,16 +30,8 @@
     "path": "./study-data/bi-kip.json"
   },
   {
-    "id": "bi-kip-answers",
-    "title": "Bí kíp N3 (bản đáp án)",
-    "description": "Cùng bộ mẫu bí kíp, bản có ghi chú đáp án.",
-    "notice": "",
-    "count": 30,
-    "unit": "mục",
-    "path": "./study-data/bi-kip-answers.json"
-  },
-  {
     "id": "ebook-grammar",
+    "group": "grammar",
     "title": "Ngữ pháp Ebook N3",
     "description": "Mẫu từ Ebook N3 (rút từ PDF, đã lọc mục hợp lệ).",
     "notice": "",
@@ -46,6 +41,7 @@
   },
   {
     "id": "kanji",
+    "group": "vocab",
     "title": "Hán tự N3",
     "description": "Tra Hán Việt, âm On, âm Kun và các chữ dễ nhầm.",
     "notice": "",
@@ -55,6 +51,7 @@
   },
   {
     "id": "verbs",
+    "group": "vocab",
     "title": "Động từ phức hợp",
     "description": "78 động từ phức hợp: nghĩa, furigana và ví dụ Nhật–Việt.",
     "notice": "",
@@ -64,6 +61,7 @@
   },
   {
     "id": "jido-tado",
+    "group": "vocab",
     "title": "Tự động từ / Tha động từ",
     "description": "Cặp động từ tự–tha kèm cách đọc và nghĩa.",
     "notice": "",
@@ -73,6 +71,7 @@
   },
   {
     "id": "so-tay-idioms",
+    "group": "vocab",
     "title": "Thành ngữ / tượng thanh (sổ tay)",
     "description": "Quán dụng ngữ & từ láy từ sổ tay, kèm ví dụ Nhật.",
     "notice": "",
@@ -81,52 +80,8 @@
     "path": "./study-data/so-tay-idioms.json"
   },
   {
-    "id": "kanji-quiz",
-    "title": "Trắc nghiệm Hán tự",
-    "description": "Chọn cách đọc; có chấm đáp án.",
-    "notice": "",
-    "count": 96,
-    "unit": "câu",
-    "path": "./study-data/kanji-quiz.json"
-  },
-  {
-    "id": "synonyms",
-    "title": "Từ đồng nghĩa dễ nhầm",
-    "description": "Trắc nghiệm đồng nghĩa; từ hỏi được đánh dấu.",
-    "notice": "",
-    "count": 30,
-    "unit": "câu",
-    "path": "./study-data/synonyms.json"
-  },
-  {
-    "id": "usage-quiz",
-    "title": "50 câu cách dùng từ",
-    "description": "Trắc nghiệm cách dùng từ N3.",
-    "notice": "",
-    "count": 50,
-    "unit": "câu",
-    "path": "./study-data/usage-quiz.json"
-  },
-  {
-    "id": "hard-quiz",
-    "title": "Câu hỏi khó dễ lừa",
-    "description": "Câu khó/dễ lừa JLPT N3 các năm.",
-    "notice": "Chưa có đáp án trong tài liệu — chọn để tự ôn, không chấm điểm.",
-    "count": 30,
-    "unit": "câu",
-    "path": "./study-data/hard-quiz.json"
-  },
-  {
-    "id": "near-synonyms",
-    "title": "Từ gần nghĩa các năm",
-    "description": "Trắc nghiệm từ gần nghĩa.",
-    "notice": "",
-    "count": 70,
-    "unit": "câu",
-    "path": "./study-data/near-synonyms.json"
-  },
-  {
     "id": "adverbs",
+    "group": "vocab",
     "title": "Tổng hợp phó từ N3",
     "description": "Danh sách phó từ N3.",
     "notice": "",
@@ -136,6 +91,7 @@
   },
   {
     "id": "adverb-patterns",
+    "group": "vocab",
     "title": "Phó từ với mẫu câu đặc định",
     "description": "Phó từ đi kèm mẫu câu.",
     "notice": "",
@@ -145,6 +101,7 @@
   },
   {
     "id": "connectors",
+    "group": "vocab",
     "title": "Từ nối đọc hiểu",
     "description": "Liên từ / từ nối theo nhóm chức năng, kèm ví dụ Nhật như PDF.",
     "notice": "",
@@ -153,12 +110,78 @@
     "path": "./study-data/connectors.json"
   },
   {
+    "id": "kanji-quiz",
+    "group": "practice",
+    "gradable": true,
+    "title": "Trắc nghiệm Hán tự",
+    "description": "Chọn cách đọc; có chấm đáp án.",
+    "notice": "",
+    "count": 96,
+    "unit": "câu",
+    "path": "./study-data/kanji-quiz.json"
+  },
+  {
+    "id": "synonyms",
+    "group": "practice",
+    "gradable": true,
+    "title": "Từ đồng nghĩa dễ nhầm",
+    "description": "Trắc nghiệm đồng nghĩa; từ hỏi được đánh dấu.",
+    "notice": "",
+    "count": 30,
+    "unit": "câu",
+    "path": "./study-data/synonyms.json"
+  },
+  {
+    "id": "usage-quiz",
+    "group": "practice",
+    "gradable": true,
+    "title": "50 câu cách dùng từ",
+    "description": "Trắc nghiệm cách dùng từ N3.",
+    "notice": "",
+    "count": 50,
+    "unit": "câu",
+    "path": "./study-data/usage-quiz.json"
+  },
+  {
+    "id": "near-synonyms",
+    "group": "practice",
+    "gradable": true,
+    "title": "Từ gần nghĩa các năm",
+    "description": "Trắc nghiệm từ gần nghĩa.",
+    "notice": "",
+    "count": 70,
+    "unit": "câu",
+    "path": "./study-data/near-synonyms.json"
+  },
+  {
+    "id": "hard-quiz",
+    "group": "practice",
+    "gradable": false,
+    "title": "Câu hỏi khó dễ lừa",
+    "description": "Câu khó/dễ lừa JLPT N3 các năm.",
+    "notice": "Chưa có đáp án trong tài liệu — chọn để tự ôn, không chấm điểm.",
+    "count": 30,
+    "unit": "câu",
+    "path": "./study-data/hard-quiz.json"
+  },
+  {
     "id": "exam-tips",
+    "group": "tips",
     "title": "Bí kíp trúng tủ N3",
     "description": "Mẹo kanji / ngữ pháp / chiến thuật thi (body đã điền).",
     "notice": "",
     "count": 84,
     "unit": "mục",
     "path": "./study-data/exam-tips.json"
+  },
+  {
+    "id": "bi-kip-answers",
+    "group": "tips",
+    "title": "Bí kíp N3 (bản đáp án)",
+    "description": "Cùng bộ mẫu bí kíp, bản có ghi chú đáp án.",
+    "notice": "",
+    "count": 30,
+    "unit": "mục",
+    "path": "./study-data/bi-kip-answers.json"
   }
 ]
