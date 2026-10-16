@@ -6,6 +6,8 @@
   .settings-page .intro{font-size:16px;margin-bottom:28px}
   .settings-page .section{margin-top:16px}
   .settings-page .row{min-height:116px;padding:24px}
+  .settings-page .source-section{grid-column:1 / -1;margin-top:28px}
+  .settings-page .source-section .row{min-height:88px}
   .profile-page main{max-width:640px;padding-top:40px}
   .profile-page h1{font-size:42px}
   .profile-page form{padding:28px;border:1px solid var(--line);border-radius:20px;background:var(--card)}
