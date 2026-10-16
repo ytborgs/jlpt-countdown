@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "document_id": "ebook-n3-grammar",
+  "document_id": "ebook-n3",
   "type": "grammar",
   "level": "N3",
   "source_file": "Ebook N3.pdf",
   "source_path": "study-materials/ebook-n3.pdf",
-  "title": "Ebook N3 — ngữ pháp",
+  "title": "Ebook N3 ngữ pháp",
   "page_count": 29,
   "item_count": 39,
   "content_source": "pdf_extract",
@@ -15,7 +15,7 @@
   "needs_verify_count": 0,
   "notes": [
     "Phase C: type=grammar từ Ebook.",
-    "Có thể trùng 80 mẫu — giữ source.",
+    "Có thể trùng 80 mẫu giữ source.",
     "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
   ],
   "items": [
@@ -30,7 +30,7 @@
       "pattern": "～うちに",
       "meaning": "Trong lúc",
       "structure": "～うちに",
-      "usage": "～間… :  Khi một hành động xảy ra trong một thời gian dài, một hành động khác ～間に:  Khi một hành động xảy ra trong một thời gian dài, một hành động khác",
+      "usage": "～間… : Khi một hành động xảy ra trong một thời gian dài, một hành động khác ～間に: Khi một hành động xảy ra trong một thời gian dài, một hành động khác",
       "example_jp": "お母さんが昼寝をしている間、 子どもたちはテレビを見ていた。",
       "example_vi": "Trong khi người mẹ đang ngủ trưa thì bọn trẻ ngồi xem tivi.",
       "example_hira": null,
@@ -62,7 +62,7 @@
           "reading": "かん"
         },
         {
-          "text": "、 "
+          "text": "、"
         },
         {
           "text": "子ども",
@@ -135,7 +135,7 @@
           "reading": "かん"
         },
         {
-          "text": "、 "
+          "text": "、"
         },
         {
           "text": "子ども",
@@ -499,9 +499,9 @@
       "source_page": 6,
       "knowledge_id": "grammar:～ば）～ほど /（～なら）～ほど/ ～ほど",
       "pattern": "～ば）～ほど /（～なら）～ほど/ ～ほど",
-      "meaning": "Càng - càng",
+      "meaning": "Càng càng",
       "structure": "～ば）～ほど /（～なら）～ほど/ ～ほど",
-      "usage": "Càng - càng",
+      "usage": "Càng càng",
       "example_jp": "（例は資料参照）",
       "example_vi": "Xem tài liệu gốc.",
       "example_hira": null,
@@ -623,7 +623,7 @@
           "reading": "かぎる"
         },
         {
-          "text": " …"
+          "text": "…"
         }
       ],
       "example_ruby": [
@@ -742,14 +742,14 @@
       "example_hira": null,
       "pattern_ruby": [
         {
-          "text": "～ "
+          "text": "～"
         },
         {
           "text": "一方",
           "reading": "いっぽう"
         },
         {
-          "text": " (で)…"
+          "text": "(で)…"
         }
       ],
       "example_ruby": [
@@ -2131,7 +2131,7 @@
       "pattern": "～はずだ",
       "meaning": "~ Chắc là...",
       "structure": "～はずだ",
-      "usage": "Không phải là phỏng đoán mà là suy luận, lý giải của người nói về một hiện tượng,",
+      "usage": "Không phải là phỏng đoán mà là suy luận, lý giải của người nói về một hiện tượng",
       "example_jp": "なるほど、この薬を使えば早く治るわけですね。じゃあ使ってみましょう。",
       "example_vi": "À ra là vậy, uống loại thuốc này sẽ nhanh khỏi hơn. Vậy thì tôi sẽ uống thử.",
       "example_hira": null,

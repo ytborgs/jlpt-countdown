@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "document_id": "so-tay-n3-idioms-onoma",
+  "document_id": "so-tay-tieng-nhat",
   "type": "vocabulary",
   "level": "N3",
   "source_file": "Sổ tay tiếng Nhật.pdf",
   "source_path": "study-materials/so-tay-tieng-nhat.pdf",
-  "title": "Sổ tay N3 — quán dụng & từ láy",
+  "title": "Sổ tay N3 quán dụng & từ láy",
   "page_count": null,
   "item_count": 44,
   "content_source": "visual_transcription",

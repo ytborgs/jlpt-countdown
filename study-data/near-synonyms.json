@@ -15,7 +15,8 @@
   "needs_verify_count": 0,
   "notes": [
     "PDF scanned chép từ preview; đáp án từ vòng đỏ trên ảnh.",
-    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi).",
+    "Phase v6: chỉ giữ đáp án visual_annotation/official; không linguistic."
   ],
   "items": [
     {
@@ -69,7 +70,8 @@
         {
           "text": "はとてもきつい。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p1-q27",
@@ -115,7 +117,8 @@
         {
           "text": "とてもくたびれた。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p1-q28",
@@ -175,7 +178,8 @@
         {
           "text": "します。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p1-q29",
@@ -231,7 +235,8 @@
         {
           "text": "している。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p1-q30",
@@ -280,7 +285,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p2-q26",
@@ -347,7 +353,8 @@
         {
           "text": "た。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p2-q27",
@@ -393,7 +400,8 @@
         {
           "text": "たちはキッチンにいます。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p2-q28",
@@ -453,7 +461,8 @@
         {
           "text": "ないことにした。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p2-q29",
@@ -490,7 +499,8 @@
       "answer_source": "visual_annotation",
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p2-q30",
@@ -557,7 +567,8 @@
         {
           "text": "いる。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p3-q26",
@@ -610,7 +621,8 @@
         {
           "text": "してもらいました。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p3-q27",
@@ -647,7 +659,8 @@
       "answer_source": "visual_annotation",
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p3-q28",
@@ -703,7 +716,8 @@
         {
           "text": "てみた。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p3-q29",
@@ -752,7 +766,8 @@
         {
           "text": "がぺらぺらです。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p3-q30",
@@ -808,7 +823,8 @@
         {
           "text": "になった。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p4-q26",
@@ -861,7 +877,8 @@
         {
           "text": "してください。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p4-q27",
@@ -917,7 +934,8 @@
         {
           "text": "てください。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p4-q28",
@@ -977,7 +995,8 @@
         {
           "text": "でした。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p4-q29",
@@ -1023,7 +1042,8 @@
         {
           "text": "さんにどなられた。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p4-q30",
@@ -1090,7 +1110,8 @@
         {
           "text": "た。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p5-q26",
@@ -1157,7 +1178,8 @@
         {
           "text": "すか。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p5-q27",
@@ -1213,7 +1235,8 @@
         {
           "text": "です。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p5-q28",
@@ -1273,7 +1296,8 @@
         {
           "text": "ているようだ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p5-q29",
@@ -1319,7 +1343,8 @@
         {
           "text": "があれば、やってみたいです。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p5-q30",
@@ -1372,7 +1397,8 @@
         {
           "text": "らしいよ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p6-q26",
@@ -1421,7 +1447,8 @@
         {
           "text": "はきついです。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p6-q27",
@@ -1470,7 +1497,8 @@
         {
           "text": "ですね。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p6-q28",
@@ -1523,7 +1551,8 @@
         {
           "text": "にくたびれた。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p6-q29",
@@ -1583,7 +1612,8 @@
         {
           "text": "１０キロでした。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p6-q30",
@@ -1650,7 +1680,8 @@
         {
           "text": "しています。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p7-q26",
@@ -1710,7 +1741,8 @@
         {
           "text": "ていいですね。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p7-q27",
@@ -1770,7 +1802,8 @@
         {
           "text": "ておいてください。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p7-q28",
@@ -1826,7 +1859,8 @@
         {
           "text": "た。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p7-q29",
@@ -1879,7 +1913,8 @@
         {
           "text": "てください。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p7-q30",
@@ -1932,7 +1967,8 @@
         {
           "text": "します。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p8-q26",
@@ -1989,7 +2025,8 @@
         {
           "text": "はあきらめなかった。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p8-q27",
@@ -2038,7 +2075,8 @@
         {
           "text": "、セールをしている。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p8-q28",
@@ -2091,7 +2129,8 @@
         {
           "text": "にボールをうばわれてしまった。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p8-q29",
@@ -2158,7 +2197,8 @@
         {
           "text": "てください。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p8-q30",
@@ -2214,7 +2254,8 @@
         {
           "text": "ない。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p9-q26",
@@ -2270,7 +2311,8 @@
         {
           "text": "なんです。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p9-q27",
@@ -2337,7 +2379,8 @@
         {
           "text": "です。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p9-q28",
@@ -2397,7 +2440,8 @@
         {
           "text": "があった。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p9-q29",
@@ -2457,7 +2501,8 @@
         {
           "text": "だ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p9-q30",
@@ -2510,7 +2555,8 @@
         {
           "text": "がありましたよ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p10-q26",
@@ -2570,7 +2616,8 @@
         {
           "text": "した。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p10-q27",
@@ -2607,7 +2654,8 @@
       "answer_source": "visual_annotation",
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p10-q28",
@@ -2657,7 +2705,8 @@
         {
           "text": "だった。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p10-q29",
@@ -2713,7 +2762,8 @@
         {
           "text": "はおいしい。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p10-q30",
@@ -2766,7 +2816,8 @@
         {
           "text": "てきた。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p11-q26",
@@ -2819,7 +2870,8 @@
         {
           "text": "ましたよ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p11-q27",
@@ -2886,7 +2938,8 @@
         {
           "text": "える。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p11-q28",
@@ -2942,7 +2995,8 @@
         {
           "text": "たちました。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p11-q29",
@@ -2995,7 +3049,8 @@
         {
           "text": "いきましたよ。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p11-q30",
@@ -3048,7 +3103,8 @@
         {
           "text": "つけてください。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p12-q26",
@@ -3104,7 +3160,8 @@
         {
           "text": "はありますか。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p12-q27",
@@ -3153,7 +3210,8 @@
         {
           "text": "しましたか。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p12-q28",
@@ -3202,7 +3260,8 @@
         {
           "text": "たしかめてくれませんか。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p12-q29",
@@ -3255,7 +3314,8 @@
         {
           "text": "うですね。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p12-q30",
@@ -3304,7 +3364,8 @@
         {
           "text": "ばかりしゃべっている。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p13-q26",
@@ -3360,7 +3421,8 @@
         {
           "text": "があります。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p13-q27",
@@ -3413,7 +3475,8 @@
         {
           "text": "した。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p13-q28",
@@ -3473,7 +3536,8 @@
         {
           "text": "ます。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p13-q29",
@@ -3510,7 +3574,8 @@
       "answer_source": "visual_annotation",
       "content_source": "visual_transcription",
       "needs_verify": false,
-      "ai_extra": null
+      "ai_extra": null,
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p13-q30",
@@ -3577,7 +3642,8 @@
         {
           "text": "はこれです。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p14-q26",
@@ -3637,7 +3703,8 @@
         {
           "text": "しています。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p14-q27",
@@ -3686,7 +3753,8 @@
         {
           "text": "をした。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p14-q28",
@@ -3739,7 +3807,8 @@
         {
           "text": "た。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p14-q29",
@@ -3806,7 +3875,8 @@
         {
           "text": "する。"
         }
-      ]
+      ],
+      "verify_reason": null
     },
     {
       "id": "nearsyn-p14-q30",
@@ -3852,7 +3922,8 @@
         {
           "text": "がうまくいかなかったので、やりなおした。"
         }
-      ]
+      ],
+      "verify_reason": null
     }
   ]
 }

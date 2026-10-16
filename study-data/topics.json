@@ -84,7 +84,7 @@
     "id": "kanji-quiz",
     "title": "Trắc nghiệm Hán tự",
     "description": "Chọn cách đọc; có chấm đáp án.",
-    "notice": "96/96; visual_annotation.",
+    "notice": "96/96 visual_annotation (khoanh đỏ PDF).",
     "count": 96,
     "unit": "câu",
     "path": "./study-data/kanji-quiz.json"
@@ -93,7 +93,7 @@
     "id": "synonyms",
     "title": "Từ đồng nghĩa dễ nhầm",
     "description": "Trắc nghiệm đồng nghĩa; từ hỏi được đánh dấu.",
-    "notice": "Đáp án linguistic — không official.",
+    "notice": "30/30 đáp án visual_annotation (khoanh đỏ PDF). Không linguistic.",
     "count": 30,
     "unit": "câu",
     "path": "./study-data/synonyms.json"
@@ -102,7 +102,7 @@
     "id": "usage-quiz",
     "title": "50 câu cách dùng từ",
     "description": "Trắc nghiệm cách dùng từ N3.",
-    "notice": "visual_annotation.",
+    "notice": "50/50 visual_annotation.",
     "count": 50,
     "unit": "câu",
     "path": "./study-data/usage-quiz.json"
@@ -111,7 +111,7 @@
     "id": "hard-quiz",
     "title": "Câu hỏi khó dễ lừa",
     "description": "Câu khó/dễ lừa JLPT N3 các năm.",
-    "notice": "Đáp án linguistic — không official.",
+    "notice": "Chưa có đáp án trên PDF — đã gỡ đoán linguistic. Chọn để tự ôn, không chấm.",
     "count": 30,
     "unit": "câu",
     "path": "./study-data/hard-quiz.json"
@@ -120,7 +120,7 @@
     "id": "near-synonyms",
     "title": "Từ gần nghĩa các năm",
     "description": "Trắc nghiệm từ gần nghĩa.",
-    "notice": "visual_annotation.",
+    "notice": "70/70 visual_annotation.",
     "count": 70,
     "unit": "câu",
     "path": "./study-data/near-synonyms.json"

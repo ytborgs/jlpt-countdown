@@ -12,14 +12,15 @@
   "content_source": "pdf_extract",
   "produced_at": "2026-10-16T05:28:44+00:00",
   "producer": "n3-exam-solver/linguistic",
-  "status": "verified",
-  "needs_verify_count": 0,
+  "status": "needs_verify",
+  "needs_verify_count": 30,
   "notes": [
     "Đáp án linguistic từ phân tích đề (PDF slide không in key rõ). answer_source=linguistic.",
     "Stem đã bổ sung từ text layer PDF + preview khi OCR cắt.",
     "Q8 choices chuẩn hoá 記録/記緑/紀録/記縁 (OCR trùng).",
     "Q25: sửa 中島線→中島さん theo ngữ cảnh câu.",
-    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi).",
+    "Phase v6: gỡ toàn bộ đáp án linguistic. PDF đề không có key chờ official/visual."
   ],
   "items": [
     {
@@ -50,15 +51,15 @@
           "text_jp": "かきょう"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 1,
-      "answer_source": "linguistic",
-      "explanation": "過去 = かこ. Bẫy かこう/かきょ.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "過去",
@@ -94,15 +95,15 @@
           "text_jp": "法建"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 2,
-      "answer_source": "linguistic",
-      "explanation": "ほうりつ = 法律.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "大学",
@@ -148,15 +149,15 @@
           "text_jp": "歓察"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 3,
-      "answer_source": "linguistic",
-      "explanation": "かんこう = 観光 (du lịch).",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "いつか"
@@ -198,15 +199,15 @@
           "text_jp": "港"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 4,
-      "answer_source": "linguistic",
-      "explanation": "けん (vé) = 券.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "当日",
@@ -252,15 +253,15 @@
           "text_jp": "がか"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 5,
-      "answer_source": "linguistic",
-      "explanation": "外科 = げか (ngoại khoa).",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "田中",
@@ -313,15 +314,15 @@
           "text_jp": "よこたん"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 6,
-      "answer_source": "linguistic",
-      "explanation": "横断 = おうだん.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "道路",
@@ -381,15 +382,15 @@
           "text_jp": "あいず"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 7,
-      "answer_source": "linguistic",
-      "explanation": "合図 = あいず.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "私",
@@ -442,15 +443,15 @@
           "text_jp": "記縁"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 8,
-      "answer_source": "linguistic",
-      "explanation": "きろく = 記録 (ghi chép). Bẫy 緑/紀/縁.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "会議",
@@ -492,15 +493,15 @@
           "text_jp": "増"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 9,
-      "answer_source": "linguistic",
-      "explanation": "２ばい = 倍.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "米",
@@ -557,15 +558,15 @@
           "text_jp": "けつえきがた"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 10,
-      "answer_source": "linguistic",
-      "explanation": "血液型 = けつえきがた.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "病院",
@@ -618,15 +619,15 @@
           "text_jp": "べんか"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 11,
-      "answer_source": "linguistic",
-      "explanation": "湖 = みずうみ.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "湖",
@@ -682,15 +683,15 @@
           "text_jp": "頼って"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 12,
-      "answer_source": "linguistic",
-      "explanation": "ねがう = 願う (cầu mong), không phải 頼る.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "家族",
@@ -736,15 +737,15 @@
           "text_jp": "ぶうふん"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 13,
-      "answer_source": "linguistic",
-      "explanation": "部分 = ぶぶん.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "この"
@@ -793,15 +794,15 @@
           "text_jp": "波れ"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 14,
-      "answer_source": "linguistic",
-      "explanation": "つかれ = 疲れ.",
-      "producer": "ai_solver"
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear"
     },
     {
       "id": "hard-q-015",
@@ -831,15 +832,15 @@
           "text_jp": "左曲"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 15,
-      "answer_source": "linguistic",
-      "explanation": "うせつ = 右折 (rẽ phải).",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "この"
@@ -881,15 +882,15 @@
           "text_jp": "ちあつ"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 16,
-      "answer_source": "linguistic",
-      "explanation": "血圧 = けつあつ.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "血圧",
@@ -942,15 +943,15 @@
           "text_jp": "週完記"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 17,
-      "answer_source": "linguistic",
-      "explanation": "しゅうかんし = 週刊誌.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "高橋",
@@ -996,15 +997,15 @@
           "text_jp": "浅い"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 18,
-      "answer_source": "linguistic",
-      "explanation": "あついの = thứ dày hơn (sách/áo…) → 厚い, không phải 暑い thời tiết.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "もうちょっとあついのが"
@@ -1046,15 +1047,15 @@
           "text_jp": "物話"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 19,
-      "answer_source": "linguistic",
-      "explanation": "ものがたり = 物語.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "このものがたりは"
@@ -1103,15 +1104,15 @@
           "text_jp": "め"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 20,
-      "answer_source": "linguistic",
-      "explanation": "根 = ね.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "その"
@@ -1160,15 +1161,15 @@
           "text_jp": "溶機"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 21,
-      "answer_source": "linguistic",
-      "explanation": "ようき = 容器.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "この"
@@ -1217,15 +1218,15 @@
           "text_jp": "あいず"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 22,
-      "answer_source": "linguistic",
-      "explanation": "Trùng kiểu Q7: 合図 = あいず.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "私",
@@ -1278,15 +1279,15 @@
           "text_jp": "そのゲームでは何度も遊んだので、もう興味が縮小しました。"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 23,
-      "answer_source": "linguistic",
-      "explanation": "縮小 = thu nhỏ (ảnh/bản copy). Không dùng cho tiếng nói / cục tẩy / hứng thú.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "縮小",
@@ -1322,15 +1323,15 @@
           "text_jp": "小声で笑われた"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 24,
-      "answer_source": "linguistic",
-      "explanation": "どなる = quát lớn → 大声で怒られた.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "高橋",
@@ -1369,15 +1370,15 @@
           "text_jp": "簡単な"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 25,
-      "answer_source": "linguistic",
-      "explanation": "あらゆる = mọi / tất cả → 全部の. (Tên 中島さん bị OCR thành 中島線.)",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "中島",
@@ -1437,15 +1438,15 @@
           "text_jp": "タオル"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 26,
-      "answer_source": "linguistic",
-      "explanation": "Đổ nước vào → バケツ (xô).",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "掃除",
@@ -1498,15 +1499,15 @@
           "text_jp": "沸騰"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 27,
-      "answer_source": "linguistic",
-      "explanation": "空気が乾燥している = không khí khô.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "この"
@@ -1569,15 +1570,15 @@
           "text_jp": "ございます"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 28,
-      "answer_source": "linguistic",
-      "explanation": "どちらになさいますか = quý khách chọn bên nào (kính ngữ).",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "レストランで\n客「ランチセットを一つお願いします。」\n店員「AセットとBセットのどちらに（　）か。」\n客「あ、Aセットをお願いします。」",
@@ -1613,15 +1614,15 @@
           "text_jp": "飲まなければいいんでしょうか"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 29,
-      "answer_source": "linguistic",
-      "explanation": "Bệnh nhân hỏi: khi không đau cũng phải uống chứ? → 飲まないといけないでしょうか.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "医者",
@@ -1724,15 +1725,15 @@
           "text_jp": "したがっている"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": null,
       "content_source": "pdf_extract",
-      "needs_verify": false,
-      "verify_reason": null,
+      "needs_verify": true,
+      "verify_reason": "PDF không có đáp án khoanh/key official không đoán linguistic.",
       "ai_extra": null,
       "no": 30,
-      "answer_source": "linguistic",
-      "explanation": "Muốn ông sống lâu → 長生きしてほしい.",
-      "producer": "ai_solver",
+      "answer_source": null,
+      "explanation": null,
+      "producer": "n3-study-extractor/phase-v6-clear",
       "stem_ruby": [
         {
           "text": "今日は",

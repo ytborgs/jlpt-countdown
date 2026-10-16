@@ -14,10 +14,11 @@
   "status": "verified",
   "needs_verify_count": 0,
   "notes": [
-    "Đáp án linguistic (PDF không in key). answer_source=linguistic — không phải official.",
+    "Đáp án linguistic (PDF không in key). answer_source=linguistic không phải official.",
     "Giải bằng n3-exam-solver; cập nhật practice JSON.",
     "target = từ/đoạn được hỏi đồng nghĩa trong stem (để UI đậm/gạch chân).",
-    "Furigana: enrich *_ruby linguistic (align reading / pykakasi)."
+    "Furigana: enrich *_ruby linguistic (align reading / pykakasi).",
+    "Phase v6: đáp án đối chiếu khoanh đỏ trên PDF (visual_annotation). Sửa #19/#26 3→1."
   ],
   "items": [
     {
@@ -55,7 +56,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "適当なこと",
       "stem_ruby": [
@@ -64,7 +65,7 @@
           "reading": "やまだ"
         },
         {
-          "text": "さんは "
+          "text": "さんは"
         },
         {
           "text": "適当",
@@ -117,7 +118,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "明けて",
       "stem_ruby": [
@@ -186,7 +187,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "ぬるい",
       "stem_ruby": [
@@ -237,7 +238,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "進んだ",
       "stem_ruby": [
@@ -313,7 +314,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "前もって",
       "stem_ruby": [
@@ -375,7 +376,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "そろっている",
       "stem_ruby": [
@@ -384,7 +385,7 @@
           "reading": "としょかん"
         },
         {
-          "text": "には "
+          "text": "には"
         },
         {
           "text": "文法",
@@ -441,7 +442,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "環境",
       "stem_ruby": [
@@ -513,7 +514,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "結構な",
       "stem_ruby": [
@@ -568,7 +569,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "特徴",
       "stem_ruby": [
@@ -633,7 +634,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "つかんだ",
       "stem_ruby": [
@@ -702,7 +703,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "以前",
       "stem_ruby": [
@@ -757,7 +758,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "一生懸命",
       "stem_ruby": [
@@ -823,7 +824,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "くたびれて",
       "stem_ruby": [
@@ -882,7 +883,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "あわただしい",
       "stem_ruby": [
@@ -940,7 +941,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "偶然",
       "stem_ruby": [
@@ -1009,7 +1010,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "まったく",
       "stem_ruby": [
@@ -1021,7 +1022,7 @@
           "reading": "ほん"
         },
         {
-          "text": "は "
+          "text": "は"
         },
         {
           "text": "何回",
@@ -1039,7 +1040,7 @@
           "reading": "ないよう"
         },
         {
-          "text": "がまったく "
+          "text": "がまったく"
         },
         {
           "text": "理解",
@@ -1085,7 +1086,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "たぶん",
       "stem_ruby": [
@@ -1097,7 +1098,7 @@
           "reading": "かれは"
         },
         {
-          "text": " "
+          "text": ""
         },
         {
           "text": "来ない",
@@ -1143,7 +1144,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "ただで",
       "stem_ruby": [
@@ -1195,13 +1196,13 @@
           "text_jp": "つまらない"
         }
       ],
-      "correct_answer": "3",
-      "explanation": "もったいない = lãng phí → むだだ (gần 惜しい nhưng khớp câu 'bỏ đồ còn dùng được').",
+      "correct_answer": "1",
+      "explanation": "もったいない ≈ 惜しい（đáng tiếc / lãng phí）. Đáp án khoanh trên PDF.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "もったいない",
       "stem_ruby": [
@@ -1210,7 +1211,7 @@
           "reading": "つかえ"
         },
         {
-          "text": "るものを "
+          "text": "るものを"
         },
         {
           "text": "捨て",
@@ -1256,7 +1257,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "規模",
       "stem_ruby": [
@@ -1321,7 +1322,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "乱暴な",
       "stem_ruby": [
@@ -1393,7 +1394,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "生意気な",
       "stem_ruby": [
@@ -1460,12 +1461,12 @@
         }
       ],
       "correct_answer": "4",
-      "explanation": "気の毒 = đáng thương → かわいそうだ.",
+      "explanation": null,
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "気の毒だ",
       "stem_ruby": [
@@ -1541,7 +1542,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "とりあえず",
       "stem_ruby": [
@@ -1606,7 +1607,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "わざと",
       "stem_ruby": [
@@ -1618,7 +1619,7 @@
           "reading": "にん"
         },
         {
-          "text": "は、わざと "
+          "text": "は、わざと"
         },
         {
           "text": "私",
@@ -1658,13 +1659,13 @@
           "text_jp": "つまらない"
         }
       ],
-      "correct_answer": "3",
-      "explanation": "Trùng stem với Q19: もったいない → むだだ.",
+      "correct_answer": "1",
+      "explanation": "もったいない ≈ 惜しい（đáng tiếc / lãng phí）. Đáp án khoanh trên PDF.",
       "content_source": "pdf_extract",
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "もったいない",
       "stem_ruby": [
@@ -1673,7 +1674,7 @@
           "reading": "つかえ"
         },
         {
-          "text": "るものを "
+          "text": "るものを"
         },
         {
           "text": "捨て",
@@ -1719,7 +1720,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "じっくり",
       "stem_ruby": [
@@ -1731,7 +1732,7 @@
           "reading": "たいせつ"
         },
         {
-          "text": "なことなので、じっくり "
+          "text": "なことなので、じっくり"
         },
         {
           "text": "考え",
@@ -1784,7 +1785,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "あっさりした",
       "stem_ruby": [
@@ -1839,7 +1840,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "とっくに",
       "stem_ruby": [
@@ -1894,7 +1895,7 @@
       "needs_verify": false,
       "verify_reason": null,
       "ai_extra": null,
-      "answer_source": "linguistic",
+      "answer_source": "visual_annotation",
       "producer": "ai_solver",
       "target": "しょっちゅう",
       "stem_ruby": [
