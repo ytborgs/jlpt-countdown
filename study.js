@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '23';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '24';
 
 const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
@@ -13,6 +13,33 @@ const searchable = value => Array.isArray(value) ? value.map(searchable).join(' 
 export const filterStudy = (items, query) => items.filter(item => normalize(searchable(item)).includes(normalize(query.trim())));
 export const hasAnswer = item => item.correct_answer != null && item.choices.some(choice => String(choice.key) === String(item.correct_answer));
 const topicNotice = topic => (topic.notice || '').replace(/(?:Cần )?UI type=reading(?: \(xem PROMPT\))?\.\s*/g, '');
+
+const STORAGE_KEY = 'jlpt-study-progress-v1';
+const record = value => value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+export function loadStudyProgress() {
+  try { return record(JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}')); }
+  catch { return {}; }
+}
+export function saveStudyProgress(topicId, selections, results) {
+  try {
+    const all = loadStudyProgress();
+    all[topicId] = { selections: Object.fromEntries(selections), results: Object.fromEntries(results), updatedAt: new Date().toISOString() };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
+  } catch { /* Storage may be unavailable or full; in-memory practice still works. */ }
+}
+export function hydrateStudyProgress(items, saved) {
+  const selections = new Map(), results = new Map();
+  const stored = record(record(saved).selections);
+  for (const item of items) {
+    if (item.type !== 'practice' || !Object.hasOwn(stored, item.id)) continue;
+    const key = String(stored[item.id]);
+    if (!item.choices.some(choice => String(choice.key) === key)) continue;
+    selections.set(item.id, key);
+    // Recompute from current answers instead of trusting stale stored grades.
+    if (hasAnswer(item)) results.set(item.id, key === String(item.correct_answer) ? 'ok' : 'wrong');
+  }
+  return { selections, results };
+}
 
 export const createPracticeStem = (value, segments, target, hideTargetReading = false) => {
   const start = target ? value.indexOf(target) : -1;
@@ -56,7 +83,7 @@ export const createPracticeStem = (value, segments, target, hideTargetReading = 
   return stem;
 };
 
-export function createStudyCard(item, index, selections = new Map()) {
+export function createStudyCard(item, index, selections = new Map(), onSelect = () => {}) {
   // The answer edition retains type=tips but supplies the complete grammar schema.
   const grammarTip = item.type === 'tips' && item.subtype === 'exam_tip_grammar' &&
     ['pattern', 'meaning', 'structure', 'usage', 'example_jp', 'example_vi'].every(key => typeof item[key] === 'string');
@@ -137,6 +164,7 @@ export function createStudyCard(item, index, selections = new Map()) {
     };
     const keyed = hasAnswer(item);
     if (!keyed) card.append(el('small', 'Chưa có đáp án · Chọn để tự ôn, không chấm điểm.'));
+    let restoring = false;
     for (const choice of item.choices) {
       const button = el('button', choice.key + '. ' + choice.text_jp, 'study-option', 'ja');
       button.type = 'button';
@@ -149,6 +177,7 @@ export function createStudyCard(item, index, selections = new Map()) {
         if (!keyed) {
           feedback.dataset.state = 'neutral';
           feedback.textContent = 'Đã chọn ' + choice.key + '. Tài liệu chưa cung cấp đáp án để đối chiếu.';
+          if (!restoring) onSelect(item, String(choice.key));
           return;
         }
         const answer = item.choices.find(option => String(option.key) === String(item.correct_answer));
@@ -164,12 +193,13 @@ export function createStudyCard(item, index, selections = new Map()) {
         resultBadge.hidden = false;
         feedback.textContent = (correct ? 'Chính xác. ' : 'Chưa đúng. Đáp án: ' + answer.key + '. ' + answer.text_jp + '. ') + (item.meaning_vi || '');
         showExplanation(String(choice.key));
+        if (!restoring) onSelect(item, String(choice.key));
       });
       options.append(button);
     }
     // Restore only after all options exist so the answer can be highlighted too.
     const selectedButton = [...options.children].find(button => button.dataset.key === selections.get(item.id));
-    if (selectedButton) selectedButton.click();
+    if (selectedButton) { restoring = true; selectedButton.click(); restoring = false; }
     card.append(options, feedback, detail);
     if (item.stem_gloss_vi) {
       const hint = el('details', '', 'grammar-details');
@@ -191,13 +221,62 @@ async function startStudy() {
   const notice = document.getElementById('study-notice');
   const retry = document.getElementById('study-retry');
   const cache = new Map();
-  const selections = new Map();
+  let selections = new Map(), results = new Map();
+  const progress = document.getElementById('study-progress');
+  const progressText = document.getElementById('study-progress-text');
+  const progressBar = document.getElementById('study-progress-bar');
+  const okFill = document.getElementById('study-progress-ok');
+  const badFill = document.getElementById('study-progress-bad');
+  const filters = document.getElementById('study-progress-filters');
+  const retryWrong = document.getElementById('study-retry-wrong');
+  const resetTopic = document.getElementById('study-reset-topic');
+  let filterMode = 'all', gradable = [];
+  const filterButtons = [];
+  const persist = () => { if (topic) saveStudyProgress(topic.id, selections, results); };
+  const matchesFilter = item => {
+    if (!gradable.length || item.type !== 'practice' || filterMode === 'all') return true;
+    const result = results.get(item.id);
+    return filterMode === 'todo' ? !result : result === filterMode;
+  };
+  const updateProgress = () => {
+    progress.hidden = !gradable.length;
+    const ok = gradable.filter(item => results.get(item.id) === 'ok').length;
+    const bad = gradable.filter(item => results.get(item.id) === 'wrong').length;
+    const total = gradable.length;
+    progressText.textContent = `Đúng ${ok} · Sai ${bad} · Còn ${total - ok - bad} / ${total}`;
+    progressBar.setAttribute('aria-valuenow', String(total ? Math.round((ok + bad) / total * 100) : 0));
+    progressBar.setAttribute('aria-valuetext', progressText.textContent);
+    okFill.style.width = (total ? ok / total * 100 : 0) + '%';
+    badFill.style.width = (total ? bad / total * 100 : 0) + '%';
+    for (const button of filterButtons) button.setAttribute('aria-pressed', String(button.dataset.filter === filterMode));
+    retryWrong.disabled = !bad;
+  };
+  const onSelect = (item, key) => {
+    if (hasAnswer(item)) results.set(item.id, key === String(item.correct_answer) ? 'ok' : 'wrong');
+    persist(); updateProgress();
+    if (filterMode !== 'all') render();
+  };
+  for (const [mode, label] of [['all', 'Tất cả'], ['todo', 'Chưa làm'], ['wrong', 'Câu sai'], ['ok', 'Câu đúng']]) {
+    const button = el('button', label);
+    button.type = 'button'; button.dataset.filter = mode;
+    button.addEventListener('click', () => { filterMode = mode; render(); });
+    filters.append(button); filterButtons.push(button);
+  }
+  retryWrong.addEventListener('click', () => {
+    for (const [id, result] of results) if (result === 'wrong') { results.delete(id); selections.delete(id); }
+    persist(); filterMode = 'todo'; render();
+  });
+  resetTopic.addEventListener('click', () => {
+    if (!window.confirm('Xóa toàn bộ tiến độ của bộ tài liệu này?')) return;
+    selections.clear(); results.clear(); persist(); filterMode = 'all'; render();
+  });
   let topics, topic, items = [], version = 0, ready = false;
   const render = () => {
     if (!ready) return;
-    const matches = filterStudy(items, search.value);
+    updateProgress();
+    const matches = filterStudy(items, search.value).filter(matchesFilter);
     list.replaceChildren(...matches.map(item => {
-      if (topic) return createStudyCard(item, items.indexOf(item), selections);
+      if (topic) return createStudyCard(item, items.indexOf(item), selections, onSelect);
       const link = el('a', '', 'grammar-card study-topic');
       link.href = '#' + item.id;
       link.append(el('span', item.count + ' ' + item.unit, 'grammar-number'), el('h2', item.title), el('p', item.description));
@@ -205,11 +284,11 @@ async function startStudy() {
       link.append(el('span', 'Mở tài liệu →', 'study-open'));
       return link;
     }));
-    status.textContent = matches.length ? 'Hiển thị ' + matches.length + ' / ' + items.length + (topic ? ' ' + topic.unit : ' bộ tài liệu') + (search.value.trim() ? ' phù hợp.' : '.') : 'Không tìm thấy nội dung phù hợp. Hãy thử từ khóa khác.';
+    status.textContent = matches.length ? 'Hiển thị ' + matches.length + ' / ' + items.length + (topic ? ' ' + topic.unit : ' bộ tài liệu') + (search.value.trim() ? ' phù hợp.' : '.') : filterMode === 'wrong' && !gradable.some(item => results.get(item.id) === 'wrong') ? 'Không còn câu sai.' : 'Không tìm thấy nội dung phù hợp. Hãy thử bộ lọc hoặc từ khóa khác.';
   };
   const load = async () => {
     const request = ++version;
-    ready = false;
+    ready = false; progress.hidden = true;
     list.replaceChildren(); retry.hidden = true; notice.hidden = true;
     list.setAttribute('aria-busy', 'true');
     status.textContent = 'Đang tải tài liệu…';
@@ -243,6 +322,9 @@ async function startStudy() {
         notice.hidden = !topicNotice(selected);
       } else items = topics;
       topic = selected;
+      ({ selections, results } = hydrateStudyProgress(items, topic ? loadStudyProgress()[topic.id] : {}));
+      gradable = topic ? items.filter(item => item.type === 'practice' && hasAnswer(item)) : [];
+      filterMode = 'all';
       search.placeholder = topic ? 'Tìm tiếng Nhật hoặc nghĩa tiếng Việt…' : 'Tìm tài liệu…';
       ready = true; render();
     } catch {
