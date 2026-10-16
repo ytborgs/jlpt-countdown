@@ -46,10 +46,10 @@ Trang tài liệu gồm các bộ dữ liệu sau, giữ nguyên nội dung JSON
 | Ngữ pháp cơ bản | 80 mẫu | Có cấu trúc, cách dùng, ví dụ và furigana. |
 | Hán tự N3 | 416 mục | Bản trích xuất cần đối chiếu các cột dữ liệu. |
 | Động từ phức hợp | 77/80 mục theo tên tài liệu | Chưa đủ bộ; chưa có cách đọc để tạo furigana. |
-| Trắc nghiệm Hán tự | 32/96 câu theo tên tài liệu | Có đáp án; chọn một phương án để xem phản hồi. |
-| Từ đồng nghĩa dễ nhầm | 30 câu | Chưa có đáp án; chỉ dùng để tự ôn, không chấm đúng/sai. |
+| Trắc nghiệm Hán tự | 96/96 câu | Có đáp án chép từ phần khoanh trong tài liệu (`answer_source: visual_annotation`); chọn một phương án để xem phản hồi đúng/sai. |
+| Từ đồng nghĩa dễ nhầm | 30 câu | Có đáp án suy luận ngôn ngữ (`answer_source: linguistic`), có chấm đúng/sai; không phải đáp án chính thức. |
 
-Mỗi bộ có tìm kiếm riêng và hiển thị tối đa 30 mục mỗi lượt, nhấn **Xem thêm** để mở tiếp. Các trường thiếu và đáp án chưa có không được tự suy đoán. Những nhóm chỉ có tên trong manifest nguồn nhưng chưa có JSON nội dung chưa được đưa lên trang.
+Mỗi bộ có tìm kiếm riêng và hiển thị tối đa 30 mục mỗi lượt, nhấn **Xem thêm** để mở tiếp. Ứng dụng giữ nguyên `answer_source` và chấm theo đáp án trong JSON, không coi các đáp án này là đáp án chính thức của kỳ thi. Các trường thiếu không được tự bổ sung. Những nhóm chỉ có tên trong manifest nguồn nhưng chưa có JSON nội dung chưa được đưa lên trang.
 
 ### Thêm biểu tượng trên iPhone
 

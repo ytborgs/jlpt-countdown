@@ -95,7 +95,7 @@ async function startStudy() {
       const link = el('a', '', 'grammar-card study-topic');
       link.href = '#' + item.id;
       link.append(el('span', item.count + ' ' + item.unit, 'grammar-number'), el('h2', item.title), el('p', item.description));
-      if (item.notice) link.append(el('small', item.id === 'synonyms' ? 'Chưa có đáp án' : item.id === 'kanji' ? 'Dữ liệu cần đối chiếu' : 'Dữ liệu hiện có trong tài liệu'));
+      if (item.notice) link.append(el('small', item.notice));
       link.append(el('span', 'Mở tài liệu →', 'study-open'));
       return link;
     }));

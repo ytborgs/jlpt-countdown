@@ -1,4 +1,4 @@
-const CACHE='jlpt-n3-v13';
+const CACHE='jlpt-n3-v14';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon.svg','./apple-touch-icon.png','./grammar.html','./grammar.js','./grammar.css','./grammar.json','./settings.html','./profile.html','./settings.css','./settings.js','./study.html','./study.css','./study.js','./study-data/topics.json','./study-data/grammar.json','./study-data/kanji.json','./study-data/verbs.json','./study-data/kanji-quiz.json','./study-data/synonyms.json'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));

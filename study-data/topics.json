@@ -30,16 +30,16 @@
     "id": "kanji-quiz",
     "title": "Trắc nghiệm Hán tự",
     "description": "Chọn cách đọc phù hợp và kiểm tra đáp án từng câu.",
-    "notice": "Hiện có 32 trong số 96 câu theo tên tài liệu. Đáp án được chép từ phần đánh dấu trong tài liệu.",
-    "count": 32,
+    "notice": "Đủ 96/96 câu. Đáp án chép từ phần khoanh trên tài liệu (answer_source: visual_annotation).",
+    "count": 96,
     "unit": "câu",
     "path": "./study-data/kanji-quiz.json"
   },
   {
     "id": "synonyms",
     "title": "Từ đồng nghĩa dễ nhầm",
-    "description": "Ôn câu hỏi và các lựa chọn từ đồng nghĩa.",
-    "notice": "Tài liệu chưa có đáp án. Bạn có thể chọn để tự ôn; ứng dụng không chấm đúng/sai.",
+    "description": "Ôn câu hỏi và các lựa chọn từ đồng nghĩa; có chấm đúng/sai.",
+    "notice": "Đáp án linguistic (PDF không in key) — không phải đáp án official. Có thể chọn để kiểm tra.",
     "count": 30,
     "unit": "câu",
     "path": "./study-data/synonyms.json"
