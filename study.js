@@ -1,5 +1,5 @@
 import { createGrammarCard, createRubyText } from './grammar.js';
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '32';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '33';
 const SESSION_SHORT = 20;
 
 export const parseStudyHash = (hash = typeof location !== 'undefined' ? location.hash : '') => {
@@ -453,7 +453,11 @@ async function startStudy() {
   const knownFill = document.getElementById('study-known-fill');
   const knownFilters = document.getElementById('study-known-filters');
   const flashRoot = document.getElementById('study-flash');
+  const flashFab = document.getElementById('study-flash-fab');
+  const flashFabMenu = document.getElementById('study-flash-fab-menu');
   const flashStart = document.getElementById('study-flash-start');
+  const flashFabUnknown = document.getElementById('study-flash-fab-unknown');
+  const flashFabAll = document.getElementById('study-flash-fab-all');
   const flashCounter = document.getElementById('study-flash-counter');
   const flashShuffle = document.getElementById('study-flash-shuffle');
   const flashExit = document.getElementById('study-flash-exit');
@@ -477,6 +481,10 @@ async function startStudy() {
   let known = new Set(), knownMode = false, knownFilter = 'all';
   let flashActive = false, flashQueue = [], flashIndex = 0, flashRevealed = false, flashReviewed = 0, flashAllMode = false;
   const knownFilterButtons = [];
+  const setFlashMenuOpen = open => {
+    flashFabMenu.hidden = !open;
+    flashStart.setAttribute('aria-expanded', String(open));
+  };
   const setFlashHash = enabled => {
     if (!topic) return;
     const next = '#' + topic.id + (enabled ? '?mode=flash' : '');
@@ -484,7 +492,9 @@ async function startStudy() {
   };
   const updateKnownProgress = () => {
     knownProgress.hidden = !knownMode;
-    flashStart.hidden = !knownMode || !items.length;
+    const showFab = knownMode && items.length > 0 && !flashActive;
+    flashFab.hidden = !showFab;
+    if (!showFab) setFlashMenuOpen(false);
     const total = knownMode ? items.length : 0;
     const done = knownMode ? known.size : 0;
     knownText.textContent = `Đã thuộc ${done} · Còn ${total - done} / ${total}`;
@@ -565,6 +575,7 @@ async function startStudy() {
   };
   const enterFlashMode = ({ all = false } = {}) => {
     if (!knownMode || !items.length) return;
+    setFlashMenuOpen(false);
     flashAllMode = all;
     flashQueue = buildFlashQueue({ all });
     flashIndex = 0;
@@ -602,7 +613,13 @@ async function startStudy() {
     button.addEventListener('click', () => { knownFilter = mode; render(); });
     knownFilters.append(button); knownFilterButtons.push(button);
   }
-  flashStart.addEventListener('click', () => enterFlashMode({ all: false }));
+  flashStart.addEventListener('click', () => setFlashMenuOpen(flashFabMenu.hidden));
+  flashFabUnknown.addEventListener('click', () => enterFlashMode({ all: false }));
+  flashFabAll.addEventListener('click', () => enterFlashMode({ all: true }));
+  document.addEventListener('click', event => {
+    if (flashFabMenu.hidden || flashFab.contains(event.target)) return;
+    setFlashMenuOpen(false);
+  });
   flashExit.addEventListener('click', () => exitFlashMode());
   flashBackList.addEventListener('click', () => exitFlashMode());
   flashReveal.addEventListener('click', event => { event.stopPropagation(); revealFlash(); });
@@ -918,6 +935,12 @@ async function startStudy() {
         event.preventDefault();
         exitFlashMode();
       }
+      return;
+    }
+    if (!flashFabMenu.hidden && event.key === 'Escape') {
+      event.preventDefault();
+      setFlashMenuOpen(false);
+      flashStart.focus();
       return;
     }
     if (!isPracticeTopic() || viewMode !== 'session') return;
