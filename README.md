@@ -112,7 +112,7 @@ Mở **http://localhost:8000**. Sử dụng HTTP server thay vì mở trực ti�
 | `grammar.html` | Danh sách đầy đủ và ô tìm kiếm ngữ pháp. |
 | `grammar.js`, `grammar.css` | Chọn mẫu, tìm kiếm, dựng thẻ, hiển thị furigana và định dạng ngữ pháp. |
 | `grammar.json` | Bộ dữ liệu 80 mẫu cùng các đoạn văn bản/cách đọc dùng cho furigana. |
-| `study.html`, `study.js`, `study.css` | Danh mục tài liệu, tìm kiếm, thẻ học và tương tác trắc nghiệm. Mỗi bộ có đường dẫn hash riêng. |
+| `study.html`, `study.js`, `study-*.js`, `study.css` | Danh mục tài liệu, tìm kiếm, thẻ học và tương tác trắc nghiệm. Glue `study.js` + storage/session/render/flash. Mỗi bộ có đường dẫn hash riêng. |
 | `study-data/topics.json`, `study-data/*.json` | Mục lục và 18 bộ dữ liệu học; metadata nguồn được giữ để đối chiếu. |
 | `settings.html`, `profile.html` | Danh mục Cài đặt và màn hình chỉnh sửa tên. |
 | `settings.js`, `settings.css` | Lưu tên và định dạng các trang Cài đặt. |
@@ -152,7 +152,7 @@ Khi sửa dữ liệu:
 Khi cập nhật tài nguyên được lưu offline, tăng phiên bản `CACHE` trong `sw.js`. Nếu thêm trang, CSS, JavaScript hoặc dữ liệu mới cần dùng offline, bổ sung đường dẫn vào `ASSETS`. Sau khi triển khai, tải lại ứng dụng khi có mạng để nhận phiên bản mới.
 
 
-Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=39`, `study.css?v=39` và JSON `?v=39` (pack data v10, Kanji 420). Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline dùng prefix `jlpt-n3-`. Trước khi deploy Pages, CI chạy `scripts/validate-study-data.mjs` (ruby join, count, answer key). Sticky study tối giản; Phiên = viewport shell; FAB **Ôn nhanh** / trang chủ **Học**.
+Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=40`, `study.css?v=40` và JSON `?v=40` (pack data v10, Kanji 420). Logic tách module: `study-storage.js`, `study-session.js`, `study-render.js`, `study-flash.js` (glue `study.js`). Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline dùng prefix `jlpt-n3-`. Trước khi deploy Pages, CI chạy `scripts/validate-study-data.mjs` (ruby join, count, answer key). Sticky study tối giản; Phiên = viewport shell; FAB **Ôn nhanh** / trang chủ **Học**.
 
 Giới hạn dữ liệu v8: 3 câu chưa có tóm tắt và 1 lựa chọn chưa có nghĩa VI riêng; các lý do đúng/sai vẫn được hiển thị theo JSON. Ứng dụng không tự bổ sung những trường này.
 
