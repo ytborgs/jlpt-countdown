@@ -5,226 +5,348 @@
   "level": "N3",
   "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
   "source_path": "study-materials/NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
-  "title": "Ngữ pháp N4 nâng cao (hay gặp N3)",
+  "title": "Ngữ pháp N4 nâng cao hay gặp ở N3",
   "page_count": 3,
   "item_count": 11,
   "expected_item_count": 11,
   "content_source": "pdf_text_extract",
-  "produced_at": "2026-10-28T16:03:43.775006+00:00",
-  "producer": "n3-study-extractor/l2-batch",
+  "produced_at": "2026-10-28T16:09:38+00:00",
+  "producer": "n3-study-extractor/parse_tong_hop_text_rich:grammar-n4-nang-cao",
   "status": "partial",
-  "needs_verify_count": 11,
+  "needs_verify_count": 2,
   "notes": [
-    "Parse số thứ tự; needs_verify."
+    "11 mẫu từ PDF N4 nâng cao (không có trong Minna) hay gặp JLPT N3.",
+    "OCR có thể dính っぱなし→っっぱなし; giữ text extract + needs_verify."
   ],
   "items": [
     {
-      "id": "n4nang-01",
+      "id": "grammar-n4-nc-01",
       "type": "grammar",
+      "subtype": "n4_nang_cao",
       "level": "N3",
       "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
-      "source_page": null,
-      "knowledge_id": "grammar:Vたい・ほしい＋がる／がっている：MUỐN-THÍCH",
-      "pattern": "V たい・ほしい＋がる／がっている： MUỐN-THÍCH",
-      "meaning": "※cảm xúc của NGÔI THỨ 3, K DÙNG CHO BẢN THÂN(私) うちの子どもは怖いお化けの話を聞きたがる。 Mấy đứa con nhà tôi tụi nó rất thích nghe mấy chuyện ma",
-      "structure": null,
-      "usage": null,
-      "example_jp": null,
+      "source_page": 1,
+      "knowledge_id": "grammar:V-たいほしいがるがっている",
+      "pattern": "V たい・ほしい＋がる／がっている",
+      "meaning": "MUỐN-THÍCH",
+      "structure": "V たい・ほしい＋がる／がっている",
+      "usage": "cảm xúc của NGÔI THỨ 3, K DÙNG CHO BẢN THÂN(私)",
+      "example_jp": "うちの子どもは怖いお化けの話を聞きたがる。",
       "example_hira": null,
-      "example_vi": null,
-      "note": "V たい・ほしい＋がる／がっている： MUỐN-THÍCH  \n※cảm xúc của NGÔI THỨ 3, K DÙNG CHO BẢN THÂN(私) \n うちの子どもは怖いお化けの話を聞きたがる。 \nMấy đứa con nhà tôi tụi nó rất thích nghe mấy chuyện ma",
+      "example_vi": "Mấy đứa con nhà tôi tụi nó rất thích nghe mấy chuyện ma",
+      "note": "cảm xúc của NGÔI THỨ 3, K DÙNG CHO BẢN THÂN(私)",
+      "pattern_ruby": [
+        {
+          "text": "V たい・ほしい＋がる／がっている"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "うちの子どもは怖いお化けの話を聞きたがる。"
+        }
+      ],
       "content_source": "pdf_text_extract",
-      "needs_verify": true,
+      "needs_verify": false,
       "ai_extra": null
     },
     {
-      "id": "n4nang-02",
+      "id": "grammar-n4-nc-02",
       "type": "grammar",
+      "subtype": "n4_nang_cao",
       "level": "N3",
       "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
-      "source_page": null,
-      "knowledge_id": "grammar:～てもかまわない=てもいい：ĐƯỢCPHÉPLÀM,OK",
-      "pattern": "～てもかまわない=てもいい：ĐƯỢC PHÉP LÀM, OK",
-      "meaning": "～なくてもかまわない＝なくてもいい：K CẦN PHẢI LÀM 明日は授業がないから、学校に来なくてもかまわない。 Vì ngày mai k có giờ học nên k cần phải đến trường",
-      "structure": null,
-      "usage": null,
-      "example_jp": null,
+      "source_page": 1,
+      "knowledge_id": "grammar:てもかまわないてもいい",
+      "pattern": "～てもかまわない=てもいい",
+      "meaning": "ĐƯỢC PHÉP LÀM, OK",
+      "structure": "～なくてもかまわない＝なくてもいい",
+      "usage": "K CẦN PHẢI LÀM",
+      "example_jp": "明日は授業がないから、学校に来なくてもかまわない。",
       "example_hira": null,
-      "example_vi": null,
-      "note": "～てもかまわない=てもいい：ĐƯỢC PHÉP LÀM, OK \n  ～なくてもかまわない＝なくてもいい：K CẦN PHẢI LÀM \n 明日は授業がないから、学校に来なくてもかまわない。 \nVì ngày mai k có giờ học nên k cần phải đến trường \n \n この履歴書は日本語でも、ベトナム語でもかまいません。 \nCV này tiếng nhật hay tiếng việt đều ok",
+      "example_vi": "Vì ngày mai k có giờ học nên k cần phải đến trường",
+      "note": "K CẦN PHẢI LÀM",
+      "pattern_ruby": [
+        {
+          "text": "～てもかまわない=てもいい"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "明日は授業がないから、学校に来なくてもかまわない。"
+        }
+      ],
       "content_source": "pdf_text_extract",
-      "needs_verify": true,
+      "needs_verify": false,
       "ai_extra": null
     },
     {
-      "id": "n4nang-03",
+      "id": "grammar-n4-nc-03",
       "type": "grammar",
+      "subtype": "n4_nang_cao",
       "level": "N3",
       "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
-      "source_page": null,
-      "knowledge_id": "grammar:～なければ／なくては／ないと～ならない／いけない",
+      "source_page": 1,
+      "knowledge_id": "grammar:なければなくてはないとならないいけない",
       "pattern": "～なければ／なくては／ないと～ならない／いけない",
-      "meaning": "～なきゃ／なくちゃ／ないと。 ➡PHẢI LÀM~ 図書館から借りた本は２週間以内に返さなくてはなりません。",
-      "structure": null,
-      "usage": null,
-      "example_jp": null,
+      "meaning": "PHẢI LÀM~",
+      "structure": "～なきゃ／なくちゃ／ないと。",
+      "usage": "PHẢI LÀM~",
+      "example_jp": "図書館から借りた本は２週間以内に返さなくてはなりません。",
       "example_hira": null,
-      "example_vi": null,
-      "note": "～なければ／なくては／ないと～ならない／いけない \n  ～なきゃ／なくちゃ／ないと。 \n➡PHẢI LÀM~ \n 図書館から借りた本は２週間以内に返さなくてはなりません。 \nSách mượn thư viện thì PHẢI trả lại trong vòng 2 tuần \n \n 先生に借りた本は１か月以内に返さなきゃ。 \nSách mượn của ss trong 1 thán PHẢI trả lại",
+      "example_vi": "Sách mượn thư viện thì PHẢI trả lại trong vòng 2 tuần",
+      "note": "PHẢI LÀM~",
+      "pattern_ruby": [
+        {
+          "text": "～なければ／なくては／ないと～ならない／いけない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "図書館から借りた本は２週間以内に返さなくてはなりません。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "grammar-n4-nc-04",
+      "type": "grammar",
+      "subtype": "n4_nang_cao",
+      "level": "N3",
+      "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:ずにないで",
+      "pattern": "～ず（に）＝～ないで",
+      "meaning": "mà KHÔNG~",
+      "structure": "～ず（に）＝～ないで",
+      "usage": "しないで➡せず（に）",
+      "example_jp": "急いでいたので、かぎをかけずに出かけてしまった。",
+      "example_hira": null,
+      "example_vi": "Vì vội quá nên đi ra ngoài mà KHÔNG khóa cửa",
+      "note": "しないで➡せず（に）",
+      "pattern_ruby": [
+        {
+          "text": "～ず（に）＝～ないで"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "急いでいたので、かぎをかけずに出かけてしまった。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "grammar-n4-nc-05",
+      "type": "grammar",
+      "subtype": "n4_nang_cao",
+      "level": "N3",
+      "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:V-ます出す始める続ける終わる",
+      "pattern": "V ます＋出す／始める／続ける／終わる",
+      "meaning": "BẮT ĐẦU(đột ngột)/bắt đầu/tiếp tục/kết thúc",
+      "structure": "V ます＋出す／始める／続ける／終わる",
+      "usage": "ĐỘNG TỪ PHỨC HỢP. BẮT ĐẦU(đột ngột)/bắt đầu/tiếp tục/kết thúc",
+      "example_jp": "店に行ったとき、店員が突然歌い出して、びっくりした。",
+      "example_hira": null,
+      "example_vi": "Sau khi đến cửa hàng thì nhân viêtn đột nhiên hát làm tôi giật bắn mình",
+      "note": null,
+      "pattern_ruby": [
+        {
+          "text": "V ます＋出す／始める／続ける／終わる"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "店に行ったとき、店員が突然歌い出して、びっくりした。"
+        }
+      ],
       "content_source": "pdf_text_extract",
       "needs_verify": true,
       "ai_extra": null
     },
     {
-      "id": "n4nang-04",
+      "id": "grammar-n4-nc-06",
       "type": "grammar",
+      "subtype": "n4_nang_cao",
       "level": "N3",
       "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
-      "source_page": null,
-      "knowledge_id": "grammar:～ず（に）＝～ないで:màKHÔNG~",
-      "pattern": "～ず（に）＝～ないで: mà KHÔNG~",
-      "meaning": "※しないで➡せず（に） 急いでいたので、かぎをかけずに出かけてしまった。 Vì vội quá nên đi ra ngoài mà KHÔNG khóa cửa",
-      "structure": null,
-      "usage": null,
-      "example_jp": null,
+      "source_page": 2,
+      "knowledge_id": "grammar:V-たないA-いA-なN-のまま",
+      "pattern": "V た／ない／A い／A な／N の＋まま",
+      "meaning": "CỨ ĐỂ NGUYÊN NHƯ THẾ, VẪN, MÃI~",
+      "structure": "V た／ない／A い／A な／N の＋まま",
+      "usage": "diễn tả 1 tình trạng kéo dài, liên tục, k thay đổi, vẫn cứ như thế 普段着着たまま、泳ぎました。Bơi mà mặc NGUYÊN quần áo thường",
+      "example_jp": "この靴は買ってから一度もはいていないので、新しいままだ。Đôi giầy này từ khi mua",
       "example_hira": null,
-      "example_vi": null,
-      "note": "～ず（に）＝～ないで: mà KHÔNG~ \n※しないで➡せず（に） \n 急いでいたので、かぎをかけずに出かけてしまった。 \nVì vội quá nên đi ra ngoài mà KHÔNG khóa cửa",
+      "example_vi": "chưa xỏ lần nào nên vẫn mới NGUYÊN",
+      "note": "diễn tả 1 tình trạng kéo dài, liên tục, k thay đổi, vẫn cứ như thế | 普段着着たまま、泳ぎました。Bơi mà mặc NGUYÊN quần áo thường",
+      "pattern_ruby": [
+        {
+          "text": "V た／ない／A い／A な／N の＋まま"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この靴は買ってから一度もはいていないので、新しいままだ。Đôi giầy này từ khi mua"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "grammar-n4-nc-07",
+      "type": "grammar",
+      "subtype": "n4_nang_cao",
+      "level": "N3",
+      "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:Ｖますっつぱなし",
+      "pattern": "Ｖます＋っつぱなし",
+      "meaning": "SUỐT, CỨ NGUYÊN NHƯ THẾ",
+      "structure": "Ｖます＋っつぱなし",
+      "usage": "diễn đạt những trạng thái k hay, k mong muốn (k thực hiện hành động lẽ ra phải làm)",
+      "example_jp": "道具が出しっぱなしだよ。使ったら、片づけなさい。",
+      "example_hira": null,
+      "example_vi": "Đồ đạc VẪN ĐỂ lung tung thế kia kìa. Sử dụng xong thì hãy dọn dẹp ngay đi chứ",
+      "note": "diễn đạt những trạng thái k hay, k mong muốn (k thực hiện hành động lẽ ra phải làm)",
+      "pattern_ruby": [
+        {
+          "text": "Ｖます＋っつぱなし"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "道具が出しっぱなしだよ。使ったら、片づけなさい。"
+        }
+      ],
       "content_source": "pdf_text_extract",
       "needs_verify": true,
       "ai_extra": null
     },
     {
-      "id": "n4nang-05",
+      "id": "grammar-n4-nc-08",
       "type": "grammar",
+      "subtype": "n4_nang_cao",
       "level": "N3",
       "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
-      "source_page": null,
-      "knowledge_id": "grammar:ĐỘNGTỪPHỨCHỢP",
-      "pattern": "ĐỘNG TỪ PHỨC HỢP",
-      "meaning": "V ます＋出す／始める／続ける／終わる：BẮT ĐẦU(đột ngột)/bắt đầu/tiếp tục/kết thúc 店に行ったとき、店員が突然歌い出して、びっくりした。 Sau khi đến cửa hàng thì nhân viêtn đột nhiên hát làm tôi giật bắn mình",
-      "structure": null,
-      "usage": null,
-      "example_jp": null,
+      "source_page": 2,
+      "knowledge_id": "grammar:Ｖたつもりはない",
+      "pattern": "Ｖた＋つもりはない",
+      "meaning": "K ĐỊNH LÀ, K CÓ Ý~",
+      "structure": "Ｖた＋つもりはない",
+      "usage": "Sd nhằm phủ định, hoặc giải thích/bào chữa cho những việc làm, hành động của bản thân khiến cho",
+      "example_jp": "私はそんなことを言ったつもりはない",
       "example_hira": null,
-      "example_vi": null,
-      "note": "ĐỘNG TỪ PHỨC HỢP \n         V ます＋出す／始める／続ける／終わる：BẮT ĐẦU(đột ngột)/bắt đầu/tiếp tục/kết thúc \n 店に行ったとき、店員が突然歌い出して、びっくりした。 \nSau khi đến cửa hàng thì nhân viêtn đột nhiên hát làm tôi giật bắn mình",
+      "example_vi": "Tôi k có ý nói những điều như vậy đâu",
+      "note": "Sd nhằm phủ định, hoặc giải thích/bào chữa cho những việc làm, hành động của bản thân khiến cho",
+      "pattern_ruby": [
+        {
+          "text": "Ｖた＋つもりはない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "私はそんなことを言ったつもりはない"
+        }
+      ],
       "content_source": "pdf_text_extract",
-      "needs_verify": true,
+      "needs_verify": false,
       "ai_extra": null
     },
     {
-      "id": "n4nang-06",
+      "id": "grammar-n4-nc-09",
       "type": "grammar",
+      "subtype": "n4_nang_cao",
       "level": "N3",
       "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
-      "source_page": null,
-      "knowledge_id": "grammar:Vた／ない／Aい／Aな／Nの＋まま：CỨĐỂNGUYÊNNHƯTHẾ,VẪN,M",
-      "pattern": "V た／ない／A い／A な／N の＋まま：CỨ ĐỂ NGUYÊN NHƯ THẾ, VẪN, MÃI~",
-      "meaning": "※diễn tả 1 tình trạng kéo dài, liên tục, k thay đổi, vẫn cứ như thế 普段着着たまま、泳ぎました。Bơi mà mặc NGUYÊN quần áo thường この靴は買ってから一度もはいていないので、新しいままだ。Đôi giầy này từ khi mua",
-      "structure": null,
-      "usage": null,
-      "example_jp": null,
+      "source_page": 2,
+      "knowledge_id": "grammar:つもりだったがけどのに",
+      "pattern": "～つもりだった（が・けど・のに）",
+      "meaning": "ĐÃ ĐỊNH LÀM....MÀ LẠI",
+      "structure": "～つもりだった（が・けど・のに）",
+      "usage": "ĐÃ ĐỊNH LÀM....MÀ LẠI",
+      "example_jp": "パーティーには行くつもりでしたが、ちょっと用事が出来て、・・・",
       "example_hira": null,
-      "example_vi": null,
-      "note": "V た／ない／A い／A な／N の＋まま：CỨ ĐỂ NGUYÊN NHƯ THẾ, VẪN, MÃI~ \n※diễn tả 1 tình trạng kéo dài, liên tục, k thay đổi, vẫn cứ như thế  \n 普段着着たまま、泳ぎました。Bơi mà mặc NGUYÊN quần áo thường  \n \n この靴は買ってから一度もはいていないので、新しいままだ。Đôi giầy này từ khi mua \nchưa xỏ lần nào nên vẫn mới NGUYÊN",
+      "example_vi": "ĐÃ ĐỊNH sẽ đi đến buổi party rồi nhưng lại có chút việc bận nên là....",
+      "note": null,
+      "pattern_ruby": [
+        {
+          "text": "～つもりだった（が・けど・のに）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "パーティーには行くつもりでしたが、ちょっと用事が出来て、・・・"
+        }
+      ],
       "content_source": "pdf_text_extract",
-      "needs_verify": true,
+      "needs_verify": false,
       "ai_extra": null
     },
     {
-      "id": "n4nang-07",
+      "id": "grammar-n4-nc-10",
       "type": "grammar",
+      "subtype": "n4_nang_cao",
       "level": "N3",
       "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
-      "source_page": null,
-      "knowledge_id": "grammar:Ｖます＋っつぱなし:SUỐT,CỨNGUYÊNNHƯTHẾ",
-      "pattern": "Ｖます＋っつぱなし:SUỐT, CỨ NGUYÊN NHƯ THẾ",
-      "meaning": "※diễn đạt những trạng thái k hay, k mong muốn (k thực hiện hành động lẽ ra phải làm) 道具が出しっぱなしだよ。使ったら、片づけなさい。 Đồ đạc VẪN ĐỂ lung tung thế kia kìa. Sử dụng xong thì hãy dọn dẹp ngay đi chứ",
-      "structure": null,
-      "usage": null,
-      "example_jp": null,
+      "source_page": 3,
+      "knowledge_id": "grammar:V-るているたところだ",
+      "pattern": "V る・ている・た＋ところだ",
+      "meaning": "đúng lúc SẮP/ĐANG/VỪA MỚI~",
+      "structure": "V る・ている・た＋ところだ",
+      "usage": "Ｖたところ VỪA MỚI (HOÀN THÀNH XONG TỨC THÌ):たった今、さっき ＶたばかりだVỪA MỚI (CÓ THỂ ĐÃ HOÀN THÀNH SAU 1 KHOẢNG THỜI GIAN NHẤT ĐỊNH, theo cảm quan của ng nói thời điểm đó là rất ngắn)：さっき、昨日、先週、先月、去年、3 年、10 年...",
+      "example_jp": "今から出かけるところなんです。後でこちらから電話しますね。",
       "example_hira": null,
-      "example_vi": null,
-      "note": "Ｖます＋っつぱなし:SUỐT, CỨ NGUYÊN NHƯ THẾ \n※diễn đạt những trạng thái k hay, k mong muốn (k thực hiện hành động lẽ ra phải làm) \n 道具が出しっぱなしだよ。使ったら、片づけなさい。 \nĐồ đạc VẪN ĐỂ lung tung thế kia kìa. Sử dụng xong thì hãy dọn dẹp ngay đi chứ",
+      "example_vi": "Bây giờ tôi chuẩn bị đi ra ngoài đây, tôi sẽ gọi lại sau.",
+      "note": "Ｖたところ VỪA MỚI (HOÀN THÀNH XONG TỨC THÌ):たった今、さっき | ＶたばかりだVỪA MỚI (CÓ THỂ ĐÃ HOÀN THÀNH SAU 1 KHOẢNG THỜI GIAN NHẤT ĐỊNH, theo cảm | quan của ng nói thời điểm đó là rất ngắn)：さっき、昨日、先週、先月、去年、3 年、10 年...",
+      "pattern_ruby": [
+        {
+          "text": "V る・ている・た＋ところだ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "今から出かけるところなんです。後でこちらから電話しますね。"
+        }
+      ],
       "content_source": "pdf_text_extract",
-      "needs_verify": true,
+      "needs_verify": false,
       "ai_extra": null
     },
     {
-      "id": "n4nang-08",
+      "id": "grammar-n4-nc-11",
       "type": "grammar",
+      "subtype": "n4_nang_cao",
       "level": "N3",
       "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
-      "source_page": null,
-      "knowledge_id": "grammar:Ｖた＋つもりはない：KĐỊNHLÀ,KCÓÝ~",
-      "pattern": "Ｖた＋つもりはない：K ĐỊNH LÀ, K CÓ Ý~",
-      "meaning": "※Sd nhằm phủ định, hoặc giải thích/bào chữa cho những việc làm, hành động của bản thân khiến cho đối phương hiểu lầm, hoặc hiểu sai ý của mình 私はそんなことを言ったつもりはない",
-      "structure": null,
-      "usage": null,
-      "example_jp": null,
+      "source_page": 3,
+      "knowledge_id": "grammar:V-るところだった",
+      "pattern": "V る＋ところだった",
+      "meaning": "XUÝT CHÚT NỮA THÌ~ (thực tế thì chưa~)",
+      "structure": "V る＋ところだった",
+      "usage": "XUÝT CHÚT NỮA THÌ~ (thực tế thì chưa~)",
+      "example_jp": "もう少しでぶつかるところだった。",
       "example_hira": null,
-      "example_vi": null,
-      "note": "Ｖた＋つもりはない：K ĐỊNH LÀ, K CÓ Ý~ \n※Sd nhằm phủ định, hoặc giải thích/bào chữa cho những việc làm, hành động của bản thân khiến cho \nđối phương hiểu lầm, hoặc hiểu sai ý của mình \n 私はそんなことを言ったつもりはない \nTôi k có ý nói những điều như vậy đâu",
+      "example_vi": "Xuýt nữa thì đâm nhau.",
+      "note": null,
+      "pattern_ruby": [
+        {
+          "text": "V る＋ところだった"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "もう少しでぶつかるところだった。"
+        }
+      ],
       "content_source": "pdf_text_extract",
-      "needs_verify": true,
-      "ai_extra": null
-    },
-    {
-      "id": "n4nang-09",
-      "type": "grammar",
-      "level": "N3",
-      "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
-      "source_page": null,
-      "knowledge_id": "grammar:～つもりだった（が・けど・のに）:ĐÃĐỊNHLÀM....MÀLẠI",
-      "pattern": "～つもりだった（が・けど・のに）:ĐÃ ĐỊNH LÀM....MÀ LẠI",
-      "meaning": "パーティーには行くつもりでしたが、ちょっと用事が出来て、・・・ ĐÃ ĐỊNH sẽ đi đến buổi party rồi nhưng lại có chút việc bận nên là....",
-      "structure": null,
-      "usage": null,
-      "example_jp": null,
-      "example_hira": null,
-      "example_vi": null,
-      "note": "～つもりだった（が・けど・のに）:ĐÃ ĐỊNH LÀM....MÀ LẠI \n パーティーには行くつもりでしたが、ちょっと用事が出来て、・・・ \nĐÃ ĐỊNH sẽ đi đến buổi party rồi nhưng lại có chút việc bận nên là....",
-      "content_source": "pdf_text_extract",
-      "needs_verify": true,
-      "ai_extra": null
-    },
-    {
-      "id": "n4nang-10",
-      "type": "grammar",
-      "level": "N3",
-      "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
-      "source_page": null,
-      "knowledge_id": "grammar:Vる・ている・た＋ところだ：đúnglúcSẮP/ĐANG/VỪAMỚI~",
-      "pattern": "V る・ている・た＋ところだ：đúng lúc SẮP/ĐANG/VỪA MỚI~",
-      "meaning": "今から出かけるところなんです。後でこちらから電話しますね。 Bây giờ tôi chuẩn bị đi ra ngoài đây, tôi sẽ gọi lại sau. ※Ｖたところ VỪA MỚI (HOÀN THÀNH XONG TỨC THÌ):たった今、さっき",
-      "structure": null,
-      "usage": null,
-      "example_jp": null,
-      "example_hira": null,
-      "example_vi": null,
-      "note": "V る・ている・た＋ところだ：đúng lúc SẮP/ĐANG/VỪA MỚI~ \n 今から出かけるところなんです。後でこちらから電話しますね。 \nBây giờ tôi chuẩn bị đi ra ngoài đây, tôi sẽ gọi lại sau. \n \n※Ｖたところ VỪA MỚI (HOÀN THÀNH XONG TỨC THÌ):たった今、さっき \n※ＶたばかりだVỪA MỚI (CÓ THỂ ĐÃ HOÀN THÀNH SAU 1 KHOẢNG THỜI GIAN NHẤT ĐỊNH, theo cảm \nquan của ng nói thời điểm đó là rất ngắn)：さっき、昨日、先週、先月、去年、3 年、10 年...",
-      "content_source": "pdf_text_extract",
-      "needs_verify": true,
-      "ai_extra": null
-    },
-    {
-      "id": "n4nang-11",
-      "type": "grammar",
-      "level": "N3",
-      "source_file": "NGỮ PHÁP N4 NÂNG CAO K CÓ TRONG MINNA VÀ HAY BẮT GẶP TRONG JLPT N3.pdf",
-      "source_page": null,
-      "knowledge_id": "grammar:Vる＋ところだった：XUÝTCHÚTNỮATHÌ~(thựctếthìchưa~",
-      "pattern": "V る＋ところだった：XUÝT CHÚT NỮA THÌ~ (thực tế thì chưa~)",
-      "meaning": "もう少しでぶつかるところだった。 Xuýt nữa thì đâm nhau.",
-      "structure": null,
-      "usage": null,
-      "example_jp": null,
-      "example_hira": null,
-      "example_vi": null,
-      "note": "V る＋ところだった：XUÝT CHÚT NỮA THÌ~ (thực tế thì chưa~) \n もう少しでぶつかるところだった。 \nXuýt nữa thì đâm nhau.",
-      "content_source": "pdf_text_extract",
-      "needs_verify": true,
+      "needs_verify": false,
       "ai_extra": null
     }
   ]
