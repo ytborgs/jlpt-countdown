@@ -414,5 +414,27 @@
     "path": "./study-data/dokkai-n3-pilot.json",
     "group": "practice",
     "gradable": true
+  },
+  {
+    "id": "tu-chi-phi",
+    "title": "Từ liên quan chi phí",
+    "description": "Nhóm 代・料・費・賃.",
+    "notice": "",
+    "count": 41,
+    "unit": "mục",
+    "path": "./study-data/tu-chi-phi.json",
+    "group": "vocab",
+    "gradable": false
+  },
+  {
+    "id": "so-tay-pho-tu",
+    "title": "Sổ tay phó từ N3",
+    "description": "Phó từ cần nhớ (đang bổ sung từ sổ tay).",
+    "notice": "Bản partial — đang visual đủ 6 phần.",
+    "count": 10,
+    "unit": "mục",
+    "path": "./study-data/so-tay-pho-tu.json",
+    "group": "vocab",
+    "gradable": false
   }
 ]
