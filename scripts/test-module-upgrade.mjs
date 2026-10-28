@@ -1,14 +1,13 @@
 #!/usr/bin/env node
 /**
  * Upgrade A→B regression for study module graph.
- * Proves stale child modules break new entry exports,
- * and the current versioned graph stays consistent.
+ * Uses embedded fixtures for the known broken mix (new entry + stale render),
+ * so CI shallow clones do not need historical commits.
  */
 import assert from 'assert';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
-import { execFileSync } from 'child_process';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const TMP = path.join(ROOT, '.tmp-upgrade-test');
@@ -39,16 +38,33 @@ const parseNamedImports = (source, fromFile) => {
   return out;
 };
 
-const gitShow = (rev, file) =>
-  execFileSync('git', ['show', `${rev}:${file}`], { cwd: ROOT, encoding: 'utf8' });
+// Fixture mirroring the proven failure: new study.js needed star helpers; old render lacked them.
+const FIXTURE_NEEDED = [
+  'el',
+  'escapeHtml',
+  'createRuby',
+  'createTopicCard',
+  'createStudyCard',
+  'createStarStem',
+  'buildStarExplanationNodes',
+  'filterStudy',
+  'setActiveGroupFilter',
+  'topicMatchesGroup',
+];
+const FIXTURE_OLD_EXPORTS = [
+  'el',
+  'escapeHtml',
+  'createRuby',
+  'createTopicCard',
+  'createStudyCard',
+  'filterStudy',
+  'setActiveGroupFilter',
+  'topicMatchesGroup',
+];
 
-const newStudy = gitShow('eb8901a', 'study.js');
-const oldRender = gitShow('bb07db9', 'study-render.js');
-const needed = parseNamedImports(newStudy.replace(/\?v=\d+/g, ''), 'study-render.js');
-const oldExports = parseExports(oldRender);
-const missing = needed.filter(name => !oldExports.has(name));
-assert.ok(missing.includes('buildStarExplanationNodes'), 'expected repro missing buildStarExplanationNodes');
-assert.ok(missing.includes('createStarStem'), 'expected repro missing createStarStem');
+const missing = FIXTURE_NEEDED.filter(name => !FIXTURE_OLD_EXPORTS.includes(name));
+assert.ok(missing.includes('buildStarExplanationNodes'));
+assert.ok(missing.includes('createStarStem'));
 console.log('repro A→B mismatch confirmed:', missing.join(', '));
 
 const release = fs.readFileSync(path.join(ROOT, 'release.js'), 'utf8').match(/RELEASE = '(\d+)'/)[1];
@@ -60,6 +76,10 @@ const currentNeeded = parseNamedImports(currentStudy, 'study-render.js');
 const currentExports = parseExports(currentRender);
 const currentMissing = currentNeeded.filter(name => !currentExports.has(name));
 assert.deepEqual(currentMissing, [], `current graph missing exports: ${currentMissing}`);
+for (const name of ['buildStarExplanationNodes', 'createStarStem']) {
+  assert.ok(currentExports.has(name), `current render must export ${name}`);
+  assert.ok(currentNeeded.includes(name), `current study must import ${name}`);
+}
 
 const html = fs.readFileSync(path.join(ROOT, 'study.html'), 'utf8');
 assert.match(html, /import\('\.\/study\.js\?v=\d+'\)/);
@@ -71,19 +91,16 @@ assert.doesNotMatch(html, /unregister\(/);
 
 const sw = fs.readFileSync(path.join(ROOT, 'sw.js'), 'utf8');
 assert.match(sw, /SKIP_WAITING/);
-assert.doesNotMatch(sw, /install'[\s\S]{0,200}skipWaiting\(\)/);
 const installBlock = sw.match(/addEventListener\(\s*'install'\s*,[\s\S]*?\n\}\);/);
 assert.ok(installBlock && !/skipWaiting\(\)/.test(installBlock[0]), 'install must not skipWaiting');
 
-// Live import: stale child missing the exports the new entry needs.
 fs.rmSync(TMP, { recursive: true, force: true });
 fs.mkdirSync(TMP, { recursive: true });
-const present = needed.filter(name => oldExports.has(name));
-const staleBody = present.map(name => `export const ${name} = () => null;`).join('\n') + '\n';
+const staleBody = FIXTURE_OLD_EXPORTS.map(name => `export const ${name} = () => null;`).join('\n') + '\n';
 fs.writeFileSync(path.join(TMP, 'study-render.js'), staleBody);
 fs.writeFileSync(
   path.join(TMP, 'entry.mjs'),
-  `import { ${needed.join(', ')} } from './study-render.js';\n`
+  `import { ${FIXTURE_NEEDED.join(', ')} } from './study-render.js';\n`
 );
 let mixedFailed = false;
 try {
@@ -94,12 +111,6 @@ try {
   console.log('live mixed import failed as expected');
 }
 assert.ok(mixedFailed, 'mixed A→B graph must fail to import');
-
-// Current release: versioned import specs resolve via strip-query hook for export presence.
-const consistent = present.length + missing.length === needed.length;
-assert.ok(consistent);
-assert.ok(currentExports.has('buildStarExplanationNodes'));
-assert.ok(currentExports.has('createStarStem'));
 
 fs.writeFileSync(path.join(TMP, 'result.json'), JSON.stringify({
   release,
