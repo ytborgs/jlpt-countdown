@@ -328,6 +328,12 @@ export function createStudyCard(item, index, selections = new Map(), onSelect = 
     card.append(resultBadge);
     const stemText = item.stem_jp || item.lemma_jp || '';
     const stemRuby = item.stem_ruby || (!item.stem_jp ? item.lemma_ruby : undefined);
+    if (item.subtype === 'reading_comprehension_mcq' && item.passage_jp) {
+      const passage = el('div', '', 'study-passage');
+      passage.append(el('p', item.passage_jp, 'study-passage-body', 'ja'));
+      if (item.passage_source) passage.append(el('small', item.passage_source, 'study-section'));
+      card.append(passage);
+    }
     if (isStar) {
       card.append(createStarStem(stemText, item.star_position));
       card.append(el('p', 'Chọn phương án nằm ở vị trí ★.', 'study-star-hint'));

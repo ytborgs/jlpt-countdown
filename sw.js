@@ -1,6 +1,6 @@
 const CACHE_PREFIX = 'jlpt-n3-';
-const CACHE = 'jlpt-n3-v45-list-scroll';
-const RELEASE = '44';
+const CACHE = 'jlpt-n3-v46-reading';
+const RELEASE = '45';
 const ASSETS = [
   './', './index.html', './manifest.webmanifest', './icon.svg', './apple-touch-icon.png',
   './grammar.html', './grammar.js', `./grammar.js?v=${RELEASE}`, './grammar.css', './grammar.json',

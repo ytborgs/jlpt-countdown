@@ -1,0 +1,336 @@
+{
+  "schema_version": "1.0",
+  "document_id": "dokkai-n3-pilot",
+  "type": "practice",
+  "level": "N3",
+  "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+  "source_path": "study-materials/115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+  "title": "Đọc hiểu N3 — pilot ngắn (短文)",
+  "page_count": 197,
+  "item_count": 7,
+  "expected_item_count": 250,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-28T16:06:28.219215+00:00",
+  "producer": "n3-study-extractor/l3-dokkai-pilot",
+  "status": "partial",
+  "needs_verify_count": 0,
+  "notes": [
+    "Pilot L3: schema reading_comprehension_mcq (passage_jp + stem + choices).",
+    "Đáp án từ trang 解答 sách (official_answer_key).",
+    "Đã có 2/≈250 câu; tiếp tục visual batch.",
+    "Pilot progress: 5 short-passage items."
+  ],
+  "answer_key_short_passage": {
+    "1": 4,
+    "2": 3,
+    "3": 1,
+    "4": 2,
+    "5": 3,
+    "6": 4,
+    "7": 2,
+    "8": 2,
+    "9": 1,
+    "10": 3,
+    "11": 2,
+    "12": 4,
+    "13": 2,
+    "14": 3,
+    "15": 1,
+    "16": 3,
+    "17": 4,
+    "18": 3,
+    "19": 2,
+    "20": 4,
+    "21": 4,
+    "22": 1,
+    "23": 2,
+    "24": 3,
+    "25": 3,
+    "26": 4,
+    "27": 2,
+    "28": 4,
+    "29": 1,
+    "30": 2,
+    "31": 4,
+    "32": 1,
+    "33": 3,
+    "34": 2,
+    "35": 2,
+    "36": 4,
+    "37": 1,
+    "38": 3,
+    "39": 1,
+    "40": 1,
+    "41": 2,
+    "42": 3,
+    "43": 4,
+    "44": 3,
+    "45": 4,
+    "46": 4,
+    "47": 3,
+    "48": 4,
+    "49": 4,
+    "50": 3
+  },
+  "items": [
+    {
+      "id": "dokkai-short-001",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 10,
+      "knowledge_id": "reading:dokkai-short-1",
+      "section": "短文",
+      "no": 1,
+      "passage_jp": "私たちは地球の資源を使い、さまざまな製品を作り出しています。それらの製品の多くは消費され、使い捨てられています。私たちはこれを「ごみ」と呼びますが、このごみの中には再生資源として活用できるものが多いです。\nごみを十分に再利用するためには、ごみを処理する技術の進歩が必要ですが、それとともに大切なのは、家庭でも工場でもみんなが正しく決められたとおりにごみを分けて出すということです。つまり、ごみは資源としてどれほど活用できるかは、私たちの毎日の努力によるのです。",
+      "passage_source": "日検研究所「雑文集」による",
+      "stem_jp": "この文が言いたいことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ゴミを出さないようにしよう。"
+        },
+        {
+          "key": "2",
+          "text_jp": "ゴミを分別しよう。"
+        },
+        {
+          "key": "3",
+          "text_jp": "ゴミを捨てないようにしよう。"
+        },
+        {
+          "key": "4",
+          "text_jp": "ゴミを資源にしよう。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-002",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 11,
+      "knowledge_id": "reading:dokkai-short-2",
+      "section": "短文",
+      "no": 2,
+      "passage_jp": "人を動かし、会社を動かし、社会を動かすには、いい文章が書けなければならない。いい文章とは、必ずしも有名な文章ということではない。うまい文章でなくてもよいが、達意、つまり、自分の考えを十分に伝える文章でなければならない。文章を書くということは、何かを伝えたいということである。自分が伝えたいことが、その文章を読む人に伝わらなければ何にもならない。",
+      "passage_source": null,
+      "stem_jp": "「いい文章」とあるが、筆者はそれをどのようなものと考えているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "主張を相手に伝えるうえ、関心を寄せてもらえる文章"
+        },
+        {
+          "key": "2",
+          "text_jp": "人々を感動させて社会を動かそうとする文章"
+        },
+        {
+          "key": "3",
+          "text_jp": "自分の伝えたいことが相手に十分伝わる文章"
+        },
+        {
+          "key": "4",
+          "text_jp": "有名人が書くような豊かな内容の文章"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-003",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 12,
+      "knowledge_id": "reading:dokkai-short-3",
+      "section": "短文",
+      "no": 3,
+      "passage_jp": "ある言葉の特性を考える場合、他の言語と比較するのが早道です。日本語も日本語そのものを分析しているだけでは、日本語の本当の姿は見えてきません。日本語と英語を比較して、はじめて明らかになる特性もあります。これは文法面に限らず、音声面でも言語活動の面でも同じような比較ができます。このように二つの言語を比較研究することを「対照言語研究」と言います。これによって、二つの言語の共通点の特性もわかるようになります。",
+      "passage_source": "高見澤孟「新・はじめての日本語教育1」askによる",
+      "stem_jp": "「対照言語研究」の目的は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "日本語の特性を研究すること"
+        },
+        {
+          "key": "2",
+          "text_jp": "言語活動を分析すること"
+        },
+        {
+          "key": "3",
+          "text_jp": "日本語を分析すること"
+        },
+        {
+          "key": "4",
+          "text_jp": "文法面での比較をすること"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-004",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 13,
+      "knowledge_id": "reading:dokkai-short-4",
+      "section": "短文",
+      "no": 4,
+      "passage_jp": "マナーとは、自分が接する相手や周囲の人々に対して、不快感を与えないように、思いやりの気持ちや心遣いを表現するためのものです。日本の社会ではさまざまな場面でマナーがありますが、特にビジネスの場面ではマナーが重視されます。これから皆さんがビジネス・パーソンとして仕事をしていくうえで、日本独特の慣習を理解し、マナーを身につけることは、人間関係をスムーズにし、成功への近道となると言えるでしょう。",
+      "passage_source": "海老原恭子等「ビジネスマナーと基本のことば」jaskによる",
+      "stem_jp": "どういう人に対するアドバイスか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "これから大学に入る若い学生"
+        },
+        {
+          "key": "2",
+          "text_jp": "これから日本企業で働く外国人"
+        },
+        {
+          "key": "3",
+          "text_jp": "これから新人を迎える経営者"
+        },
+        {
+          "key": "4",
+          "text_jp": "これから成功を望む会社員"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-005",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 14,
+      "knowledge_id": "reading:dokkai-short-5",
+      "section": "短文",
+      "no": 5,
+      "passage_jp": "大勢の人が集まって議論するのは難しい。意見の違う人同士がぶつかり、時には感情的になって相手の欠点を批判し合う。批判された側も引き下がらず、対立が激しくなる。そんなときは視点を変えて相手の長所を探すことだ。共通点や妥協点を見つけ、冷静に話し合えば結論にたどり着ける。",
+      "passage_source": null,
+      "stem_jp": "「議論」をする上で大切なことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "相手の欠点を批判すること"
+        },
+        {
+          "key": "2",
+          "text_jp": "自分の長所を主張すること"
+        },
+        {
+          "key": "3",
+          "text_jp": "相手の立場に立って考えること"
+        },
+        {
+          "key": "4",
+          "text_jp": "自分の立場を変えないこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-006",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 15,
+      "knowledge_id": "reading:dokkai-short-6",
+      "section": "短文",
+      "no": 6,
+      "passage_jp": "今の世の中には、独り暮らしのお年寄りにちょっと難しい機械が多くあり、これからますます高齢化社会が進む中で考えねばならない問題だと思う。\n例えば、自動券売機が複雑すぎて使えないとか、液晶テレビのリモコンのボタンが多すぎて分かりにくいとか、いろいろあるようだ。\n速くて便利なものを作るのもいいが、お年寄りも簡単に使えるものをもっと作ってくれないかなと思っている。",
+      "passage_source": "日検研究会「雑文集」による",
+      "stem_jp": "筆者は、今の「機械」についてどう言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "速くて便利で、お年寄りにもいい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "初めは難しいが、お年寄りはすぐに慣れる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "複雑すぎて、お年寄りには無理だ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "お年寄りにも簡単に扱えるのがほしい。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-007",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 16,
+      "knowledge_id": "reading:dokkai-short-7",
+      "section": "短文",
+      "no": 7,
+      "passage_jp": "最近、卒業の記念に旅に出る若者が多い。海外へ行く若者の中には、無理な日程のせいで熱を出したり、買い物をしすぎて、借金をしたりする者もいるそうだ。\nだからといって、「最近の若者は困ったものだ」という結論を出すつもりはない。子供のころから大学を出るまでの間に世話になった人たちに、旅先から葉書を出すような若者もいるはずだ。社会に出る前に広い世界を見て、自分と自分の国を外から見つめ直すのはいいことだと思う。",
+      "passage_source": "深谷久美子等「実践日本語シリーズ・動詞」専門教育出版社による",
+      "stem_jp": "筆者は「若者の海外旅行」についてどう考えているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "外国では健康に十分気を付けてほしい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "自分の国を見直す機会にしてほしい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "世話になった人に葉書を出してほしい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "「最近の若者は」と言われないようにしてほしい。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    }
+  ]
+}
