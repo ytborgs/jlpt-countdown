@@ -7,17 +7,17 @@
   "source_path": "study-materials/115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
   "title": "Đọc hiểu N3 — trung bình (中文)",
   "page_count": 197,
-  "item_count": 36,
+  "item_count": 54,
   "expected_item_count": 90,
   "content_source": "visual_transcription",
-  "produced_at": "2026-10-28T23:22:19.989800+00:00",
+  "produced_at": "2026-10-28T23:43:02.887407+00:00",
   "producer": "n3-study-extractor/l3-dokkai-medium",
   "status": "partial",
-  "needs_verify_count": 7,
+  "needs_verify_count": 25,
   "notes": [
     "L3 medium: schema reading_comprehension_mcq (passage_jp + stem + choices).",
     "Đáp án 中文 từ trang 188 (official_answer_key).",
-    "Progress: 36 medium-passage items (中文 1–36). Shorts continue in dokkai-n3-pilot.",
+    "Progress: 54 medium-passage items (中文 1–54). Shorts continue in dokkai-n3-pilot.",
     "PDF mapping: book_page N → source_page N+8."
   ],
   "answer_key_medium_passage": {
@@ -1443,6 +1443,672 @@
       "answer_source": "official_answer_key",
       "content_source": "visual_transcription",
       "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-037",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 87,
+      "knowledge_id": "reading:dokkai-medium-37",
+      "section": "中文",
+      "no": 37,
+      "passage_jp": "（注1）お盆になると、各地で盆踊りが行なわれます。今までは（注2）町内会には少し顔を出す程度でした。今年は、町内会の担当が回ってきたので、準備から後片付けまでみっちりと参加しました。\n私が住む地域は、新しい住宅地のため、近所の人たちとの付き合いはあいさつ程度で、ほとんど知らない人ばかりです。男性の近所付き合いなんてこんなものだろうと、これまでは、近所や地域のことに関心が薄かったと思います。\nしかし、自然災害時などには地域社会の助け合いが重要になります。盆踊り大会で（注3）無邪気に走り回る小さな子どもたちを見つめながら、会社や家庭のことだけでなく、地域にも、もっと目を向けなくてはと思いました。今回の盆踊り大会への参加をきっかけに、今後は近所の人たちとも、これまで以上に話をして、顔も覚えていこうと思いました。\n（楠田泰弘氏の文より）",
+      "passage_source": null,
+      "stem_jp": "「盆踊り」に参加して得たものは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "行事の楽しさを知った。"
+        },
+        {
+          "key": "2",
+          "text_jp": "子どもの笑顔に出会った。"
+        },
+        {
+          "key": "3",
+          "text_jp": "近所付き合いの大切さに気づいた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "地域の人が多いのを知った。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-038",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 87,
+      "knowledge_id": "reading:dokkai-medium-38",
+      "section": "中文",
+      "no": 38,
+      "passage_jp": "（注1）お盆になると、各地で盆踊りが行なわれます。今までは（注2）町内会には少し顔を出す程度でした。今年は、町内会の担当が回ってきたので、準備から後片付けまでみっちりと参加しました。\n私が住む地域は、新しい住宅地のため、近所の人たちとの付き合いはあいさつ程度で、ほとんど知らない人ばかりです。男性の近所付き合いなんてこんなものだろうと、これまでは、近所や地域のことに関心が薄かったと思います。\nしかし、自然災害時などには地域社会の助け合いが重要になります。盆踊り大会で（注3）無邪気に走り回る小さな子どもたちを見つめながら、会社や家庭のことだけでなく、地域にも、もっと目を向けなくてはと思いました。今回の盆踊り大会への参加をきっかけに、今後は近所の人たちとも、これまで以上に話をして、顔も覚えていこうと思いました。\n（楠田泰弘氏の文より）",
+      "passage_source": null,
+      "stem_jp": "この人のこれまでの地域に対する態度と合っていないものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あいさつをする程度。"
+        },
+        {
+          "key": "2",
+          "text_jp": "行事によく参加した。"
+        },
+        {
+          "key": "3",
+          "text_jp": "あまり関心がなかった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "近所の人たちの顔と名前を知っていた。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-039",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 87,
+      "knowledge_id": "reading:dokkai-medium-39",
+      "section": "中文",
+      "no": 39,
+      "passage_jp": "（注1）お盆になると、各地で盆踊りが行なわれます。今までは（注2）町内会には少し顔を出す程度でした。今年は、町内会の担当が回ってきたので、準備から後片付けまでみっちりと参加しました。\n私が住む地域は、新しい住宅地のため、近所の人たちとの付き合いはあいさつ程度で、ほとんど知らない人ばかりです。男性の近所付き合いなんてこんなものだろうと、これまでは、近所や地域のことに関心が薄かったと思います。\nしかし、自然災害時などには地域社会の助け合いが重要になります。盆踊り大会で（注3）無邪気に走り回る小さな子どもたちを見つめながら、会社や家庭のことだけでなく、地域にも、もっと目を向けなくてはと思いました。今回の盆踊り大会への参加をきっかけに、今後は近所の人たちとも、これまで以上に話をして、顔も覚えていこうと思いました。\n（楠田泰弘氏の文より）",
+      "passage_source": null,
+      "stem_jp": "地域の活動はどういうことに役立つと言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "自然災害の時"
+        },
+        {
+          "key": "2",
+          "text_jp": "子どもの安全"
+        },
+        {
+          "key": "3",
+          "text_jp": "家族の健康"
+        },
+        {
+          "key": "4",
+          "text_jp": "地域の経済"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-040",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 89,
+      "knowledge_id": "reading:dokkai-medium-40",
+      "section": "中文",
+      "no": 40,
+      "passage_jp": "高校1年の長男が、夜やや遅く帰宅した。私は布団に入っていたが、中学1年の長女はまだ起きていた。長男は玄関を開けると、部屋にこもっていた長女に「ちょっと来い」と声をかけ、再び外へ出た。\nいつも口げんかが絶えない二人。その日も言い争いをしたばかり。①はじめ長女は無視をしていたが、しばらくして玄関から出て行くようであった。\nその夜は中秋の名月。あまりに美しい月を帰り道で見た長男は、それを誰かに伝えたいようで、長女を誘ったのであった。\n美しい光景にあうと、誰かと分かち合いたくなる。特に親しい人なら、なおさらだ。自然に湧き上がるこの気持ちは（注）人ならではのものだろう。\n長男がその夜、いつもけんかし合う長女と並んで月を眺めた様子を想像するとあったかい気持ちになり、②情緒はちゃんと育っているなと安心したのであった。\n（石田美枝「兄妹の心通った中秋の名月」による）",
+      "passage_source": null,
+      "stem_jp": "①「はじめ長女は無視をしていた」とあるが、どうしてか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "兄とけんかをしたばかりだから"
+        },
+        {
+          "key": "2",
+          "text_jp": "まだ寝ていなかったから"
+        },
+        {
+          "key": "3",
+          "text_jp": "部屋で自分の好きなことをしていたから"
+        },
+        {
+          "key": "4",
+          "text_jp": "もう夜だいぶ遅くなったから"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-041",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 89,
+      "knowledge_id": "reading:dokkai-medium-41",
+      "section": "中文",
+      "no": 41,
+      "passage_jp": "高校1年の長男が、夜やや遅く帰宅した。私は布団に入っていたが、中学1年の長女はまだ起きていた。長男は玄関を開けると、部屋にこもっていた長女に「ちょっと来い」と声をかけ、再び外へ出た。\nいつも口げんかが絶えない二人。その日も言い争いをしたばかり。①はじめ長女は無視をしていたが、しばらくして玄関から出て行くようであった。\nその夜は中秋の名月。あまりに美しい月を帰り道で見た長男は、それを誰かに伝えたいようで、長女を誘ったのであった。\n美しい光景にあうと、誰かと分かち合いたくなる。特に親しい人なら、なおさらだ。自然に湧き上がるこの気持ちは（注）人ならではのものだろう。\n長男がその夜、いつもけんかし合う長女と並んで月を眺めた様子を想像するとあったかい気持ちになり、②情緒はちゃんと育っているなと安心したのであった。\n（石田美枝「兄妹の心通った中秋の名月」による）",
+      "passage_source": null,
+      "stem_jp": "②「情緒はちゃんと育っている」の「情緒」はこの文でどういうことを指しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "妹をかわいがること"
+        },
+        {
+          "key": "2",
+          "text_jp": "親しい人ができたこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "母のことを心配すること"
+        },
+        {
+          "key": "4",
+          "text_jp": "月を美しいと感じること"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-042",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 89,
+      "knowledge_id": "reading:dokkai-medium-42",
+      "section": "中文",
+      "no": 42,
+      "passage_jp": "高校1年の長男が、夜やや遅く帰宅した。私は布団に入っていたが、中学1年の長女はまだ起きていた。長男は玄関を開けると、部屋にこもっていた長女に「ちょっと来い」と声をかけ、再び外へ出た。\nいつも口げんかが絶えない二人。その日も言い争いをしたばかり。①はじめ長女は無視をしていたが、しばらくして玄関から出て行くようであった。\nその夜は中秋の名月。あまりに美しい月を帰り道で見た長男は、それを誰かに伝えたいようで、長女を誘ったのであった。\n美しい光景にあうと、誰かと分かち合いたくなる。特に親しい人なら、なおさらだ。自然に湧き上がるこの気持ちは（注）人ならではのものだろう。\n長男がその夜、いつもけんかし合う長女と並んで月を眺めた様子を想像するとあったかい気持ちになり、②情緒はちゃんと育っているなと安心したのであった。\n（石田美枝「兄妹の心通った中秋の名月」による）",
+      "passage_source": null,
+      "stem_jp": "「兄」が「妹」を外へ誘ったわけは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "妹と口げんかを続けたいから"
+        },
+        {
+          "key": "2",
+          "text_jp": "妹と相談したいことがあったから"
+        },
+        {
+          "key": "3",
+          "text_jp": "妹に月を見せたかったから"
+        },
+        {
+          "key": "4",
+          "text_jp": "母の目を覚ましたくなかったから"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-043",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 91,
+      "knowledge_id": "reading:dokkai-medium-43",
+      "section": "中文",
+      "no": 43,
+      "passage_jp": "記憶力がますます弱まってきた私は、よそへ行くとよく①方角が分からなくなる。何時間もうろうろしたあげく、結局警察官に助けてもらってしまう。\n考えてみると、これは年のせいというより、もともと方向音痴なのかもしれない。雑っぽく描かれた地図でもそれを頼りに行きたい所へ行ける人が羨ましい。どうしても目指す建物が見つからないと、地図を書いてくれた人を恨んだり、情けない自分を呪うことになってしまう。ある時、②とにかく落ち着こうと思って騒がしい駅のベンチに腰をかけて一休みした。そして通りかかった（注1）頼もしそうなお巡りさんに思い切って尋ねてみたところ、親切に教えてくれた。なんと探していたビルはすぐ目のまえにあったのだ。（注2）はなはだ恥ずかしい思いをした。\nしかし、それ以来、「迷うより聞け」を実行している。",
+      "passage_source": null,
+      "stem_jp": "①「方角が分からなくなる」とあるが、こうなるのは何のせいと言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "おまわりさんのせいである。"
+        },
+        {
+          "key": "2",
+          "text_jp": "年のせいである。"
+        },
+        {
+          "key": "3",
+          "text_jp": "方向音痴のせいである。"
+        },
+        {
+          "key": "4",
+          "text_jp": "地図のせいである。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-044",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 91,
+      "knowledge_id": "reading:dokkai-medium-44",
+      "section": "中文",
+      "no": 44,
+      "passage_jp": "記憶力がますます弱まってきた私は、よそへ行くとよく①方角が分からなくなる。何時間もうろうろしたあげく、結局警察官に助けてもらってしまう。\n考えてみると、これは年のせいというより、もともと方向音痴なのかもしれない。雑っぽく描かれた地図でもそれを頼りに行きたい所へ行ける人が羨ましい。どうしても目指す建物が見つからないと、地図を書いてくれた人を恨んだり、情けない自分を呪うことになってしまう。ある時、②とにかく落ち着こうと思って騒がしい駅のベンチに腰をかけて一休みした。そして通りかかった（注1）頼もしそうなお巡りさんに思い切って尋ねてみたところ、親切に教えてくれた。なんと探していたビルはすぐ目のまえにあったのだ。（注2）はなはだ恥ずかしい思いをした。\nしかし、それ以来、「迷うより聞け」を実行している。",
+      "passage_source": null,
+      "stem_jp": "②「とにかく落ち着こうと思って」とあるが、どうしてこうなったか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "おなかが空いてたまらないから"
+        },
+        {
+          "key": "2",
+          "text_jp": "会う人がなかなか来ないから"
+        },
+        {
+          "key": "3",
+          "text_jp": "ずっと頭が痛いから"
+        },
+        {
+          "key": "4",
+          "text_jp": "探しているものが見つからないから"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-045",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 91,
+      "knowledge_id": "reading:dokkai-medium-45",
+      "section": "中文",
+      "no": 45,
+      "passage_jp": "記憶力がますます弱まってきた私は、よそへ行くとよく①方角が分からなくなる。何時間もうろうろしたあげく、結局警察官に助けてもらってしまう。\n考えてみると、これは年のせいというより、もともと方向音痴なのかもしれない。雑っぽく描かれた地図でもそれを頼りに行きたい所へ行ける人が羨ましい。どうしても目指す建物が見つからないと、地図を書いてくれた人を恨んだり、情けない自分を呪うことになってしまう。ある時、②とにかく落ち着こうと思って騒がしい駅のベンチに腰をかけて一休みした。そして通りかかった（注1）頼もしそうなお巡りさんに思い切って尋ねてみたところ、親切に教えてくれた。なんと探していたビルはすぐ目のまえにあったのだ。（注2）はなはだ恥ずかしい思いをした。\nしかし、それ以来、「迷うより聞け」を実行している。",
+      "passage_source": null,
+      "stem_jp": "この人はこれからどうしようと考えたか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "外へ出るときは地図を持とう。"
+        },
+        {
+          "key": "2",
+          "text_jp": "分からなかったら人に聞こう。"
+        },
+        {
+          "key": "3",
+          "text_jp": "分かる人に一緒に行ってもらおう。"
+        },
+        {
+          "key": "4",
+          "text_jp": "とにかく自分の足で探そう。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-046",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 93,
+      "knowledge_id": "reading:dokkai-medium-46",
+      "section": "中文",
+      "no": 46,
+      "passage_jp": "最近、子どもが外でスポーツをする時間が減ってきたと思います。僕はその理由に運動できる場所が減ったことが挙げられると思います。\nサッカーがしたくて公園に行けば、サッカーや（注1）キャッチボール禁止という看板があります。違う公園に行けば、（注2）草が伸びすぎてボールが止まってできません。だから少し広い道路などに行きます。しかしコンクリートでは転ぶ場合を恐れて思い切り遊べません。\nすると周りの友だちはスポーツができなくなってつまらなくなり、外で遊ぶ回数が少しずつ減ってしまいました。\n僕は家にいるより外で運動したいので、道さえあればできるマラソンをしています。でもマラソンだけでは（注3）飽きます。だから、安全を考えながらスポーツできる公園や環境を確保してほしい。そうなれば、多くの子どもが外で遊ぼうとするのではないでしょうか。\n（関口亮太「スポーツできる公園欲しい」による）",
+      "passage_source": null,
+      "stem_jp": "「最近、子どもが外でスポーツをする時間が減ってきた」原因は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "室内ゲームが流行っているから"
+        },
+        {
+          "key": "2",
+          "text_jp": "公園の数が減っているから"
+        },
+        {
+          "key": "3",
+          "text_jp": "運動のできる場所が減っているから"
+        },
+        {
+          "key": "4",
+          "text_jp": "広い道路が危険になったから"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-047",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 93,
+      "knowledge_id": "reading:dokkai-medium-47",
+      "section": "中文",
+      "no": 47,
+      "passage_jp": "最近、子どもが外でスポーツをする時間が減ってきたと思います。僕はその理由に運動できる場所が減ったことが挙げられると思います。\nサッカーがしたくて公園に行けば、サッカーや（注1）キャッチボール禁止という看板があります。違う公園に行けば、（注2）草が伸びすぎてボールが止まってできません。だから少し広い道路などに行きます。しかしコンクリートでは転ぶ場合を恐れて思い切り遊べません。\nすると周りの友だちはスポーツができなくなってつまらなくなり、外で遊ぶ回数が少しずつ減ってしまいました。\n僕は家にいるより外で運動したいので、道さえあればできるマラソンをしています。でもマラソンだけでは（注3）飽きます。だから、安全を考えながらスポーツできる公園や環境を確保してほしい。そうなれば、多くの子どもが外で遊ぼうとするのではないでしょうか。\n（関口亮太「スポーツできる公園欲しい」による）",
+      "passage_source": null,
+      "stem_jp": "男の子は何がほしいと言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "サッカーができる場所"
+        },
+        {
+          "key": "2",
+          "text_jp": "スポーツのできる環境"
+        },
+        {
+          "key": "3",
+          "text_jp": "キャッチボールができる場所"
+        },
+        {
+          "key": "4",
+          "text_jp": "マラソンができる道路"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-048",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 93,
+      "knowledge_id": "reading:dokkai-medium-48",
+      "section": "中文",
+      "no": 48,
+      "passage_jp": "最近、子どもが外でスポーツをする時間が減ってきたと思います。僕はその理由に運動できる場所が減ったことが挙げられると思います。\nサッカーがしたくて公園に行けば、サッカーや（注1）キャッチボール禁止という看板があります。違う公園に行けば、（注2）草が伸びすぎてボールが止まってできません。だから少し広い道路などに行きます。しかしコンクリートでは転ぶ場合を恐れて思い切り遊べません。\nすると周りの友だちはスポーツができなくなってつまらなくなり、外で遊ぶ回数が少しずつ減ってしまいました。\n僕は家にいるより外で運動したいので、道さえあればできるマラソンをしています。でもマラソンだけでは（注3）飽きます。だから、安全を考えながらスポーツできる公園や環境を確保してほしい。そうなれば、多くの子どもが外で遊ぼうとするのではないでしょうか。\n（関口亮太「スポーツできる公園欲しい」による）",
+      "passage_source": null,
+      "stem_jp": "子どもがスポーツをするのに大切なものは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "指導者"
+        },
+        {
+          "key": "2",
+          "text_jp": "環境"
+        },
+        {
+          "key": "3",
+          "text_jp": "予算"
+        },
+        {
+          "key": "4",
+          "text_jp": "用具"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-049",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 95,
+      "knowledge_id": "reading:dokkai-medium-49",
+      "section": "中文",
+      "no": 49,
+      "passage_jp": "小学6年生の息子がここ2か月、初めて塾に通っている。都立の（注1）中高一貫校を受験することにしたためだ。\n息子が通う小学校では、ほとんどの子どもが受験のために塾に通っている。そんな中、できるだけ自分の力で勉強して欲しいという私の方針と、経済的理由から、①息子は塾には通わずにきた。\nだが、息子は次第に塾に通う子どもとの学力差を感じるようになった。そこで塾に通って一貫校を目指すことにしたのだ。塾が楽しくて仕方がなさそうな息子を見て、「少しでもお金を工面して通わせるべきだったか」「成長の芽を摘んだのでは」と、私自身、②複雑な気持ちになった。\nでも、息子に伝えたい。小学生の君には、自分で考える時間や遊ぶ時間をたくさん持てたことが何よりも力になったと今もママは、強く思っている、と。\n伸びやかに過ごした小学校時代を（注2）糧に、自分の道を自分で切り開く人になって欲しいと強く願っている。\n（遠藤千恵「初めての塾、母の思いは複雑」による）",
+      "passage_source": null,
+      "stem_jp": "①「息子は塾には通わずにきた」とあるが、この小学生が塾に通わなかったわけは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "行っても一貫校に入るのは無理だから"
+        },
+        {
+          "key": "2",
+          "text_jp": "ほかに行っている子どもが少なかったから"
+        },
+        {
+          "key": "3",
+          "text_jp": "「自分の力で勉強してほしい」が親の考えだから"
+        },
+        {
+          "key": "4",
+          "text_jp": "塾はつらいことが多いし、金もかかるから"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-050",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 95,
+      "knowledge_id": "reading:dokkai-medium-50",
+      "section": "中文",
+      "no": 50,
+      "passage_jp": "小学6年生の息子がここ2か月、初めて塾に通っている。都立の（注1）中高一貫校を受験することにしたためだ。\n息子が通う小学校では、ほとんどの子どもが受験のために塾に通っている。そんな中、できるだけ自分の力で勉強して欲しいという私の方針と、経済的理由から、①息子は塾には通わずにきた。\nだが、息子は次第に塾に通う子どもとの学力差を感じるようになった。そこで塾に通って一貫校を目指すことにしたのだ。塾が楽しくて仕方がなさそうな息子を見て、「少しでもお金を工面して通わせるべきだったか」「成長の芽を摘んだのでは」と、私自身、②複雑な気持ちになった。\nでも、息子に伝えたい。小学生の君には、自分で考える時間や遊ぶ時間をたくさん持てたことが何よりも力になったと今もママは、強く思っている、と。\n伸びやかに過ごした小学校時代を（注2）糧に、自分の道を自分で切り開く人になって欲しいと強く願っている。\n（遠藤千恵「初めての塾、母の思いは複雑」による）",
+      "passage_source": null,
+      "stem_jp": "②「複雑な気持ちになった」とあるが、母親はどうしてこういう気持ちになったか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子どもが行きたくないのに塾へ入れたから"
+        },
+        {
+          "key": "2",
+          "text_jp": "苦しい生活の中から子どもを塾に入れたから"
+        },
+        {
+          "key": "3",
+          "text_jp": "入れないと思っていた塾に子どもが入ってよかったと思ったから"
+        },
+        {
+          "key": "4",
+          "text_jp": "もっとはやく子どもを塾に入れてあげればよかったかもしれないと思ったから"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-051",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 95,
+      "knowledge_id": "reading:dokkai-medium-51",
+      "section": "中文",
+      "no": 51,
+      "passage_jp": "小学6年生の息子がここ2か月、初めて塾に通っている。都立の（注1）中高一貫校を受験することにしたためだ。\n息子が通う小学校では、ほとんどの子どもが受験のために塾に通っている。そんな中、できるだけ自分の力で勉強して欲しいという私の方針と、経済的理由から、①息子は塾には通わずにきた。\nだが、息子は次第に塾に通う子どもとの学力差を感じるようになった。そこで塾に通って一貫校を目指すことにしたのだ。塾が楽しくて仕方がなさそうな息子を見て、「少しでもお金を工面して通わせるべきだったか」「成長の芽を摘んだのでは」と、私自身、②複雑な気持ちになった。\nでも、息子に伝えたい。小学生の君には、自分で考える時間や遊ぶ時間をたくさん持てたことが何よりも力になったと今もママは、強く思っている、と。\n伸びやかに過ごした小学校時代を（注2）糧に、自分の道を自分で切り開く人になって欲しいと強く願っている。\n（遠藤千恵「初めての塾、母の思いは複雑」による）",
+      "passage_source": null,
+      "stem_jp": "母親が息子に願っていることは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "塾で友だちに負けないよう勉強してほしい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "自分の道を自分の力で開いてほしい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "中高一貫校に合格してほしい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "家のこと、親のことは心配しないでほしい。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-052",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 97,
+      "knowledge_id": "reading:dokkai-medium-52",
+      "section": "中文",
+      "no": 52,
+      "passage_jp": "（注1）せっかちで、慌て者の私は毎年、年賀はがきの発売（11月25日）と同時に大掃除を始めることにしている。今年もその季節になった。\nはじめはこの1年間にいただいた手紙や公共料金の領収書などを整理して大きな封筒に入れて保管する。このあと、たんすや食器棚の引き出しの整理整頓。「1年間使わないものは処分するように」と夫に言われている。だが、モノの少ない時代に育った者には①抵抗感があり、捨てようとしたものをまたしまい込むことが多い。\n②小さな個所から始めた大掃除も、（注2）日を追って、居間、和室、寝室へと進む。なかでも難しい所は台所。換気扇、照明器具は最悪の状態。こんな時、頼りになるのが夫で、日当たりの良い庭先で布を使って磨いてくれる。\n大掃除のコツは③普段からの心がけと整理整頓だ。これこそが楽しく仕上げる（注3）コツではないだろうかと思っている。\n（上田道子「大掃除のコツは普段の整頓」による）",
+      "passage_source": null,
+      "stem_jp": "①「抵抗感があり」とあるが、どんな気持ちを言っているのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "おしくない"
+        },
+        {
+          "key": "2",
+          "text_jp": "あきない"
+        },
+        {
+          "key": "3",
+          "text_jp": "もったいない"
+        },
+        {
+          "key": "4",
+          "text_jp": "あぶない"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-053",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 97,
+      "knowledge_id": "reading:dokkai-medium-53",
+      "section": "中文",
+      "no": 53,
+      "passage_jp": "（注1）せっかちで、慌て者の私は毎年、年賀はがきの発売（11月25日）と同時に大掃除を始めることにしている。今年もその季節になった。\nはじめはこの1年間にいただいた手紙や公共料金の領収書などを整理して大きな封筒に入れて保管する。このあと、たんすや食器棚の引き出しの整理整頓。「1年間使わないものは処分するように」と夫に言われている。だが、モノの少ない時代に育った者には①抵抗感があり、捨てようとしたものをまたしまい込むことが多い。\n②小さな個所から始めた大掃除も、（注2）日を追って、居間、和室、寝室へと進む。なかでも難しい所は台所。換気扇、照明器具は最悪の状態。こんな時、頼りになるのが夫で、日当たりの良い庭先で布を使って磨いてくれる。\n大掃除のコツは③普段からの心がけと整理整頓だ。これこそが楽しく仕上げる（注3）コツではないだろうかと思っている。\n（上田道子「大掃除のコツは普段の整頓」による）",
+      "passage_source": null,
+      "stem_jp": "②「小さな個所」は、この文でどこのことを言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "居間"
+        },
+        {
+          "key": "2",
+          "text_jp": "引き出し"
+        },
+        {
+          "key": "3",
+          "text_jp": "食器戸棚"
+        },
+        {
+          "key": "4",
+          "text_jp": "和室"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-054",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 97,
+      "knowledge_id": "reading:dokkai-medium-54",
+      "section": "中文",
+      "no": 54,
+      "passage_jp": "（注1）せっかちで、慌て者の私は毎年、年賀はがきの発売（11月25日）と同時に大掃除を始めることにしている。今年もその季節になった。\nはじめはこの1年間にいただいた手紙や公共料金の領収書などを整理して大きな封筒に入れて保管する。このあと、たんすや食器棚の引き出しの整理整頓。「1年間使わないものは処分するように」と夫に言われている。だが、モノの少ない時代に育った者には①抵抗感があり、捨てようとしたものをまたしまい込むことが多い。\n②小さな個所から始めた大掃除も、（注2）日を追って、居間、和室、寝室へと進む。なかでも難しい所は台所。換気扇、照明器具は最悪の状態。こんな時、頼りになるのが夫で、日当たりの良い庭先で布を使って磨いてくれる。\n大掃除のコツは③普段からの心がけと整理整頓だ。これこそが楽しく仕上げる（注3）コツではないだろうかと思っている。\n（上田道子「大掃除のコツは普段の整頓」による）",
+      "passage_source": null,
+      "stem_jp": "筆者の③「普段からの心がけ」として、できていなかったところは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "公共料金の領収書"
+        },
+        {
+          "key": "2",
+          "text_jp": "1年間使わなかった物"
+        },
+        {
+          "key": "3",
+          "text_jp": "照明器具"
+        },
+        {
+          "key": "4",
+          "text_jp": "庭先"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
       "ai_extra": null
     }
   ]
