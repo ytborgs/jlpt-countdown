@@ -9,7 +9,9 @@
         {
           "id": "chuyen-tu-vung",
           "title": "Chuyên từ vựng các năm",
-          "topicIds": []
+          "topicIds": [
+            "mondai3-vocab-p1"
+          ]
         },
         {
           "id": "han-tu",
@@ -24,12 +26,18 @@
         {
           "id": "ngu-phap",
           "title": "Ngữ pháp",
-          "topicIds": ["grammar", "star-rearrange"]
+          "topicIds": [
+            "grammar",
+            "star-rearrange"
+          ]
         },
         {
           "id": "tu-vung",
           "title": "Từ vựng",
-          "topicIds": ["usage-quiz", "near-synonyms"]
+          "topicIds": [
+            "usage-quiz",
+            "near-synonyms"
+          ]
         },
         {
           "id": "doc-hieu",

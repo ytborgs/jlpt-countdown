@@ -145,6 +145,17 @@
     "gradable": true
   },
   {
+    "id": "mondai3-vocab-p1",
+    "title": "Mondai 3 từ vựng — Phần 1",
+    "description": "80 câu điền từ (Mondai 3 P1) kèm đáp án từ bản giải.",
+    "notice": "",
+    "count": 80,
+    "unit": "câu",
+    "path": "./study-data/mondai3-vocab-p1.json",
+    "group": "vocab",
+    "gradable": true
+  },
+  {
     "id": "star-rearrange",
     "group": "practice",
     "gradable": true,
