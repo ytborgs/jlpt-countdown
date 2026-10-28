@@ -7,547 +7,1108 @@
   "source_path": "study-materials/TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
   "title": "Từ đồng âm khác nghĩa",
   "page_count": 9,
-  "item_count": 9,
-  "expected_item_count": 9,
+  "item_count": 73,
+  "expected_item_count": 73,
   "content_source": "pdf_text_extract",
-  "produced_at": "2026-10-28T16:09:38+00:00",
-  "producer": "n3-study-extractor/parse_tong_hop_text_rich:dong-am",
+  "produced_at": "2026-10-28T16:03:43.705342+00:00",
+  "producer": "n3-study-extractor/l2-batch",
   "status": "partial",
-  "needs_verify_count": 9,
+  "needs_verify_count": 73,
   "notes": [
-    "Mỗi trang PDF = 1 homophone_group; entries giữ từng hàng lemma/nghĩa từ text layer.",
-    "Không suy diễn cách đọc; emoji trong nghĩa PDF giữ nguyên + needs_verify."
+    "Cặp JP–VI theo dòng; needs_verify."
   ],
   "items": [
     {
-      "id": "dong-am-g01",
+      "id": "dongam-001",
       "type": "vocabulary",
-      "subtype": "homophone_group",
+      "subtype": "homophone",
       "level": "N3",
       "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
       "source_page": 1,
-      "knowledge_id": "vocab:dong-am-p1",
-      "lemma_jp": "移す・移る／映す・映る／写す・写る／務める／努める／勤める",
+      "knowledge_id": "vocab:移す・移る",
+      "lemma_jp": "移す・移る",
       "reading": null,
-      "meaning_vi": "移す・移る: Di chuyển; 映す・映る: Soi (gương),Chiếu(phim); 写す・写る: Chụp,sao chép; 務める: Đảm nhiệm(1 vịtrí nào đó do ng khác giao phó); 努める: Nỗlực, cốgắng (của bản thân); 勤める: Làm việc (ở đâu đó)",
-      "entries": [
-        {
-          "lemma_jp": "移す・移る",
-          "meaning_vi": "Di chuyển",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "映す・映る",
-          "meaning_vi": "Soi (gương),Chiếu(phim)",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "写す・写る",
-          "meaning_vi": "Chụp,sao chép",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "務める",
-          "meaning_vi": "Đảm nhiệm(1 vịtrí nào đó do ng khác giao phó)",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "努める",
-          "meaning_vi": "Nỗlực, cốgắng (của bản thân)",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "勤める",
-          "meaning_vi": "Làm việc (ở đâu đó)",
-          "needs_verify": false
-        }
-      ],
+      "meaning_vi": "Di chuyển",
       "content_source": "pdf_text_extract",
       "needs_verify": true,
       "ai_extra": null
     },
     {
-      "id": "dong-am-g02",
+      "id": "dongam-002",
       "type": "vocabulary",
-      "subtype": "homophone_group",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:映す・映る",
+      "lemma_jp": "映す・映る",
+      "reading": null,
+      "meaning_vi": "Soi (gương),Chiếu(phim)",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-003",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:写す・写る",
+      "lemma_jp": "写す・写る",
+      "reading": null,
+      "meaning_vi": "Chụp,sao chép",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-004",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:務める",
+      "lemma_jp": "務める",
+      "reading": null,
+      "meaning_vi": "Đảm nhiệm(1 vịtrí nào đó do ng khác giao phó)",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-005",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:努める",
+      "lemma_jp": "努める",
+      "reading": null,
+      "meaning_vi": "Nỗlực, cốgắng (của bản thân)",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-006",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:勤める",
+      "lemma_jp": "勤める",
+      "reading": null,
+      "meaning_vi": "Làm việc (ở đâu đó)",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-007",
+      "type": "vocabulary",
+      "subtype": "homophone",
       "level": "N3",
       "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
       "source_page": 2,
-      "knowledge_id": "vocab:dong-am-p2",
-      "lemma_jp": "飴／雨／異人／偉人／無職／無色",
+      "knowledge_id": "vocab:飴(trọngâm2)",
+      "lemma_jp": "飴(trọng âm 2)",
       "reading": null,
-      "meaning_vi": "飴: (trọng âm 2) Kẹo ngậm; 雨: (trọng âm 1) Mưa; 異人: Dịnhân; 偉人: Vĩ nhân; 無職: Thất nghiệp, k có việc làm; 無色: K màu, k có màu sắc",
-      "entries": [
-        {
-          "lemma_jp": "飴",
-          "meaning_vi": "(trọng âm 2) Kẹo ngậm",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "雨",
-          "meaning_vi": "(trọng âm 1) Mưa",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "異人",
-          "meaning_vi": "Dịnhân",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "偉人",
-          "meaning_vi": "Vĩ nhân",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "無職",
-          "meaning_vi": "Thất nghiệp, k có việc làm",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "無色",
-          "meaning_vi": "K màu, k có màu sắc",
-          "needs_verify": false
-        }
-      ],
+      "meaning_vi": "Kẹo ngậm",
       "content_source": "pdf_text_extract",
       "needs_verify": true,
       "ai_extra": null
     },
     {
-      "id": "dong-am-g03",
+      "id": "dongam-008",
       "type": "vocabulary",
-      "subtype": "homophone_group",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:雨(trọngâm1)",
+      "lemma_jp": "雨(trọng âm 1)",
+      "reading": null,
+      "meaning_vi": "Mưa",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-009",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:異人",
+      "lemma_jp": "異人",
+      "reading": null,
+      "meaning_vi": "Dịnhân",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-010",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:偉人",
+      "lemma_jp": "偉人",
+      "reading": null,
+      "meaning_vi": "Vĩ nhân",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-011",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:無職",
+      "lemma_jp": "無職",
+      "reading": null,
+      "meaning_vi": "Thất nghiệp, k có việc làm",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-012",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:無色",
+      "lemma_jp": "無色",
+      "reading": null,
+      "meaning_vi": "K màu, k có màu sắc",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-013",
+      "type": "vocabulary",
+      "subtype": "homophone",
       "level": "N3",
       "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
       "source_page": 3,
-      "knowledge_id": "vocab:dong-am-p3",
-      "lemma_jp": "高校／孝行／親孝行／自信／地震／自身／自分／時針",
+      "knowledge_id": "vocab:高校",
+      "lemma_jp": "高校",
       "reading": null,
-      "meaning_vi": "高校: Trường cấp 3; 孝行: Hiếu thảo; 親孝行: báo hiếu cha mẹ; 自信: Tựtin; 地震: Động đất; 自身: Bản thân, chính mình; 自分: chỉmình, 自身có thể chỉcảng khác; 時針: Kim giờ",
-      "entries": [
-        {
-          "lemma_jp": "高校",
-          "meaning_vi": "Trường cấp 3",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "孝行",
-          "meaning_vi": "Hiếu thảo",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "親孝行",
-          "meaning_vi": "báo hiếu cha mẹ",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "自信",
-          "meaning_vi": "Tựtin",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "地震",
-          "meaning_vi": "Động đất",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "自身",
-          "meaning_vi": "Bản thân, chính mình",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "自分",
-          "meaning_vi": "chỉmình, 自身có thể chỉcảng khác",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "時針",
-          "meaning_vi": "Kim giờ",
-          "needs_verify": false
-        }
-      ],
+      "meaning_vi": "Trường cấp 3",
       "content_source": "pdf_text_extract",
       "needs_verify": true,
       "ai_extra": null
     },
     {
-      "id": "dong-am-g04",
+      "id": "dongam-014",
       "type": "vocabulary",
-      "subtype": "homophone_group",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:孝行",
+      "lemma_jp": "孝行",
+      "reading": null,
+      "meaning_vi": "Hiếu thảo",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-015",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:自信",
+      "lemma_jp": "自信",
+      "reading": null,
+      "meaning_vi": "Tựtin",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-016",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:地震",
+      "lemma_jp": "地震",
+      "reading": null,
+      "meaning_vi": "Động đất",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-017",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:自身",
+      "lemma_jp": "自身",
+      "reading": null,
+      "meaning_vi": "Bản thân, chính mình",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-018",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:自分chỉmình,自身cóthể",
+      "lemma_jp": "自分chỉmình,  自身có thể",
+      "reading": null,
+      "meaning_vi": "chỉcảng khác",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-019",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:時針",
+      "lemma_jp": "時針",
+      "reading": null,
+      "meaning_vi": "Kim giờ",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-020",
+      "type": "vocabulary",
+      "subtype": "homophone",
       "level": "N3",
       "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
       "source_page": 4,
-      "knowledge_id": "vocab:dong-am-p4",
-      "lemma_jp": "去る／猿／箸／橋／申請／神聖／真正／心性",
+      "knowledge_id": "vocab:去る",
+      "lemma_jp": "去る",
       "reading": null,
-      "meaning_vi": "去る: Trước, đã qua, rời đi, ra khỏi; 猿: 🐒Con khỉ🐵; 箸: (trọng âm 1) Đũa; 橋: (trọng âm 2) Cây cầu; 申請: Xin, Đăng ký (giấy tờ, visa); 神聖: Linh thiêng; 真正: Chân chính, đoan chính; 心性: Tâm tính, bản tính",
-      "entries": [
-        {
-          "lemma_jp": "去る",
-          "meaning_vi": "Trước, đã qua, rời đi, ra khỏi",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "猿",
-          "meaning_vi": "🐒Con khỉ🐵",
-          "needs_verify": true
-        },
-        {
-          "lemma_jp": "箸",
-          "meaning_vi": "(trọng âm 1) Đũa",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "橋",
-          "meaning_vi": "(trọng âm 2) Cây cầu",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "申請",
-          "meaning_vi": "Xin, Đăng ký (giấy tờ, visa)",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "神聖",
-          "meaning_vi": "Linh thiêng",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "真正",
-          "meaning_vi": "Chân chính, đoan chính",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "心性",
-          "meaning_vi": "Tâm tính, bản tính",
-          "needs_verify": false
-        }
-      ],
+      "meaning_vi": "Trước, đã qua, rời đi, ra khỏi",
       "content_source": "pdf_text_extract",
       "needs_verify": true,
       "ai_extra": null
     },
     {
-      "id": "dong-am-g05",
+      "id": "dongam-021",
       "type": "vocabulary",
-      "subtype": "homophone_group",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:猿",
+      "lemma_jp": "猿",
+      "reading": null,
+      "meaning_vi": "🐒Con khỉ🐵",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-022",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:箸(trọngâm1)",
+      "lemma_jp": "箸(trọng âm 1)",
+      "reading": null,
+      "meaning_vi": "Đũa",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-023",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:橋(trọngâm2)",
+      "lemma_jp": "橋(trọng âm 2)",
+      "reading": null,
+      "meaning_vi": "Cây cầu",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-024",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:申請",
+      "lemma_jp": "申請",
+      "reading": null,
+      "meaning_vi": "Xin, Đăng ký (giấy tờ, visa)",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-025",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:神聖",
+      "lemma_jp": "神聖",
+      "reading": null,
+      "meaning_vi": "Linh thiêng",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-026",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:真正",
+      "lemma_jp": "真正",
+      "reading": null,
+      "meaning_vi": "Chân chính, đoan chính",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-027",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:心性",
+      "lemma_jp": "心性",
+      "reading": null,
+      "meaning_vi": "Tâm tính, bản tính",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-028",
+      "type": "vocabulary",
+      "subtype": "homophone",
       "level": "N3",
       "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
       "source_page": 5,
-      "knowledge_id": "vocab:dong-am-p5",
-      "lemma_jp": "恋／濃い／故意／鯉／蛙／帰る／買える／飼える／代える／返る／変える",
+      "knowledge_id": "vocab:恋",
+      "lemma_jp": "恋",
       "reading": null,
-      "meaning_vi": "恋: Yêu; 濃い: Đậm, đặc; 故意: Cốý=わざと; 鯉: Cá chép; 蛙: Con ếch 🐸; 帰る: Về; 買える: Mua được; 飼える: Có thểNuôi; 代える: Thay thế; 返る: Trảlại , đáp lại; 変える: Thay đổi",
-      "entries": [
-        {
-          "lemma_jp": "恋",
-          "meaning_vi": "Yêu",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "濃い",
-          "meaning_vi": "Đậm, đặc",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "故意",
-          "meaning_vi": "Cốý=わざと",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "鯉",
-          "meaning_vi": "Cá chép",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "蛙",
-          "meaning_vi": "Con ếch 🐸",
-          "needs_verify": true
-        },
-        {
-          "lemma_jp": "帰る",
-          "meaning_vi": "Về",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "買える",
-          "meaning_vi": "Mua được",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "飼える",
-          "meaning_vi": "Có thểNuôi",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "代える",
-          "meaning_vi": "Thay thế",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "返る",
-          "meaning_vi": "Trảlại , đáp lại",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "変える",
-          "meaning_vi": "Thay đổi",
-          "needs_verify": false
-        }
-      ],
+      "meaning_vi": "Yêu",
       "content_source": "pdf_text_extract",
       "needs_verify": true,
       "ai_extra": null
     },
     {
-      "id": "dong-am-g06",
+      "id": "dongam-029",
       "type": "vocabulary",
-      "subtype": "homophone_group",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:濃い",
+      "lemma_jp": "濃い",
+      "reading": null,
+      "meaning_vi": "Đậm, đặc",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-030",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:鯉",
+      "lemma_jp": "鯉",
+      "reading": null,
+      "meaning_vi": "Cá chép",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-031",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:蛙",
+      "lemma_jp": "蛙",
+      "reading": null,
+      "meaning_vi": "Con ếch 🐸",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-032",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:帰る",
+      "lemma_jp": "帰る",
+      "reading": null,
+      "meaning_vi": "Về",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-033",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:買える",
+      "lemma_jp": "買える",
+      "reading": null,
+      "meaning_vi": "Mua được",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-034",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:飼える",
+      "lemma_jp": "飼える",
+      "reading": null,
+      "meaning_vi": "Có thểNuôi",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-035",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:代える",
+      "lemma_jp": "代える",
+      "reading": null,
+      "meaning_vi": "Thay thế",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-036",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:返る",
+      "lemma_jp": "返る",
+      "reading": null,
+      "meaning_vi": "Trảlại , đáp lại",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-037",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:変える",
+      "lemma_jp": "変える",
+      "reading": null,
+      "meaning_vi": "Thay đổi",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-038",
+      "type": "vocabulary",
+      "subtype": "homophone",
       "level": "N3",
       "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
       "source_page": 6,
-      "knowledge_id": "vocab:dong-am-p6",
-      "lemma_jp": "価／値／構成／厚生／校正／後世／公正／恒星／更生",
+      "knowledge_id": "vocab:価",
+      "lemma_jp": "価",
       "reading": null,
-      "meaning_vi": "価: Chi phí; 値: Giá trị, đáng giá; 構成: Cấu trúc; 厚生: Phúc lợi; 校正: Hiệu chỉnh, đọc và sửa bản in thử; 後世: Đời sau, thếhệsau; 公正: Chân chính, k thiên vị; 恒星: Hành tinh (sao tĩnh); 更生: Cải tạo, tái tạo, làm mới lại",
-      "entries": [
-        {
-          "lemma_jp": "価",
-          "meaning_vi": "Chi phí",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "値",
-          "meaning_vi": "Giá trị, đáng giá",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "構成",
-          "meaning_vi": "Cấu trúc",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "厚生",
-          "meaning_vi": "Phúc lợi",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "校正",
-          "meaning_vi": "Hiệu chỉnh, đọc và sửa bản in thử",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "後世",
-          "meaning_vi": "Đời sau, thếhệsau",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "公正",
-          "meaning_vi": "Chân chính, k thiên vị",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "恒星",
-          "meaning_vi": "Hành tinh (sao tĩnh)",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "更生",
-          "meaning_vi": "Cải tạo, tái tạo, làm mới lại",
-          "needs_verify": false
-        }
-      ],
+      "meaning_vi": "Chi phí",
       "content_source": "pdf_text_extract",
       "needs_verify": true,
       "ai_extra": null
     },
     {
-      "id": "dong-am-g07",
+      "id": "dongam-039",
       "type": "vocabulary",
-      "subtype": "homophone_group",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:値",
+      "lemma_jp": "値",
+      "reading": null,
+      "meaning_vi": "Giá trị, đáng giá",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-040",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:構成",
+      "lemma_jp": "構成",
+      "reading": null,
+      "meaning_vi": "Cấu trúc",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-041",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:厚生",
+      "lemma_jp": "厚生",
+      "reading": null,
+      "meaning_vi": "Phúc lợi",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-042",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:校正",
+      "lemma_jp": "校正",
+      "reading": null,
+      "meaning_vi": "Hiệu chỉnh, đọc và sửa bản in thử",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-043",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:後世",
+      "lemma_jp": "後世",
+      "reading": null,
+      "meaning_vi": "Đời sau, thếhệsau",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-044",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:公正",
+      "lemma_jp": "公正",
+      "reading": null,
+      "meaning_vi": "Chân chính, k thiên vị",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-045",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:恒星",
+      "lemma_jp": "恒星",
+      "reading": null,
+      "meaning_vi": "Hành tinh (sao tĩnh)",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-046",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:更生",
+      "lemma_jp": "更生",
+      "reading": null,
+      "meaning_vi": "Cải tạo, tái tạo, làm mới lại",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-047",
+      "type": "vocabulary",
+      "subtype": "homophone",
       "level": "N3",
       "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
       "source_page": 7,
-      "knowledge_id": "vocab:dong-am-p7",
-      "lemma_jp": "参加／酸化／賛歌／惨禍／思考／志向／至高／嗜好",
+      "knowledge_id": "vocab:参加",
+      "lemma_jp": "参加",
       "reading": null,
-      "meaning_vi": "参加: Tham gia; 酸化: Ô xy hóa; 賛歌: Tán dương, ca tụng; 惨禍: Thảm khốc; 思考: Tư duy, suy nghĩ; 志向: Ý chí; 至高: Đạt tới đỉnh điểm, cao điểm; 嗜好: Yêu thích, ưa choộng =好む",
-      "entries": [
-        {
-          "lemma_jp": "参加",
-          "meaning_vi": "Tham gia",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "酸化",
-          "meaning_vi": "Ô xy hóa",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "賛歌",
-          "meaning_vi": "Tán dương, ca tụng",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "惨禍",
-          "meaning_vi": "Thảm khốc",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "思考",
-          "meaning_vi": "Tư duy, suy nghĩ",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "志向",
-          "meaning_vi": "Ý chí",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "至高",
-          "meaning_vi": "Đạt tới đỉnh điểm, cao điểm",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "嗜好",
-          "meaning_vi": "Yêu thích, ưa choộng =好む",
-          "needs_verify": false
-        }
-      ],
+      "meaning_vi": "Tham gia",
       "content_source": "pdf_text_extract",
       "needs_verify": true,
       "ai_extra": null
     },
     {
-      "id": "dong-am-g08",
+      "id": "dongam-048",
       "type": "vocabulary",
-      "subtype": "homophone_group",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:酸化",
+      "lemma_jp": "酸化",
+      "reading": null,
+      "meaning_vi": "Ô xy hóa",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-049",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:賛歌",
+      "lemma_jp": "賛歌",
+      "reading": null,
+      "meaning_vi": "Tán dương, ca tụng",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-050",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:惨禍",
+      "lemma_jp": "惨禍",
+      "reading": null,
+      "meaning_vi": "Thảm khốc",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-051",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:思考",
+      "lemma_jp": "思考",
+      "reading": null,
+      "meaning_vi": "Tư duy, suy nghĩ",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-052",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:志向",
+      "lemma_jp": "志向",
+      "reading": null,
+      "meaning_vi": "Ý chí",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-053",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:至高",
+      "lemma_jp": "至高",
+      "reading": null,
+      "meaning_vi": "Đạt tới đỉnh điểm, cao điểm",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-054",
+      "type": "vocabulary",
+      "subtype": "homophone",
       "level": "N3",
       "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
       "source_page": 8,
-      "knowledge_id": "vocab:dong-am-p8",
-      "lemma_jp": "成果／製菓／生家／聖歌／生花／考証／公証／交渉／高尚／口承",
+      "knowledge_id": "vocab:成果",
+      "lemma_jp": "成果",
       "reading": null,
-      "meaning_vi": "成果: Thành quả; 製菓: Sản xuất bánh kẹo; 生家: Nhà bốmẹ, nơi sinh ra; 聖歌: Thánh ca; 生花: Hoa thật, hoa tươi Nghệthuật cắm hoa; 考証: Khảo chứng, kiểm chứng; 公証: Công chứng; 高尚: Lịch sự, tao nhã; 口承: Truyền miệng",
-      "entries": [
-        {
-          "lemma_jp": "成果",
-          "meaning_vi": "Thành quả",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "製菓",
-          "meaning_vi": "Sản xuất bánh kẹo",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "生家",
-          "meaning_vi": "Nhà bốmẹ, nơi sinh ra",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "聖歌",
-          "meaning_vi": "Thánh ca",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "生花",
-          "meaning_vi": "Hoa thật, hoa tươi Nghệthuật cắm hoa",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "考証",
-          "meaning_vi": "Khảo chứng, kiểm chứng",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "公証",
-          "meaning_vi": "Công chứng",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "交渉",
-          "meaning_vi": null,
-          "needs_verify": true
-        },
-        {
-          "lemma_jp": "高尚",
-          "meaning_vi": "Lịch sự, tao nhã",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "口承",
-          "meaning_vi": "Truyền miệng",
-          "needs_verify": false
-        }
-      ],
+      "meaning_vi": "Thành quả",
       "content_source": "pdf_text_extract",
       "needs_verify": true,
       "ai_extra": null
     },
     {
-      "id": "dong-am-g09",
+      "id": "dongam-055",
       "type": "vocabulary",
-      "subtype": "homophone_group",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:製菓",
+      "lemma_jp": "製菓",
+      "reading": null,
+      "meaning_vi": "Sản xuất bánh kẹo",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-056",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:生家",
+      "lemma_jp": "生家",
+      "reading": null,
+      "meaning_vi": "Nhà bốmẹ, nơi sinh ra",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-057",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:聖歌",
+      "lemma_jp": "聖歌",
+      "reading": null,
+      "meaning_vi": "Thánh ca",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-058",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:生花",
+      "lemma_jp": "生花",
+      "reading": null,
+      "meaning_vi": "Hoa thật, hoa tươi, Nghệthuật cắm hoa",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-059",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:考証",
+      "lemma_jp": "考証",
+      "reading": null,
+      "meaning_vi": "Khảo chứng, kiểm chứng",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-060",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:公証",
+      "lemma_jp": "公証",
+      "reading": null,
+      "meaning_vi": "Công chứng",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-061",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:交渉",
+      "lemma_jp": "交渉",
+      "reading": null,
+      "meaning_vi": "Đàm phán, thương lượng",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-062",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:高尚",
+      "lemma_jp": "高尚",
+      "reading": null,
+      "meaning_vi": "Lịch sự, tao nhã",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-063",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:口承",
+      "lemma_jp": "口承",
+      "reading": null,
+      "meaning_vi": "Truyền miệng",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-064",
+      "type": "vocabulary",
+      "subtype": "homophone",
       "level": "N3",
       "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
       "source_page": 9,
-      "knowledge_id": "vocab:dong-am-p9",
-      "lemma_jp": "移動／異動／異同／監視／看視／漢詩／期間／機関／器官／季刊",
+      "knowledge_id": "vocab:移動",
+      "lemma_jp": "移動",
       "reading": null,
-      "meaning_vi": "移動: Chuyển động; 異動: Điều chuyển; 異同: Sựgiống nhau và khác nhau; 監視: Giám sát, quan sát; 看視: Chăm người bệnh; 漢詩: Thơ Trung Quốc; 期間: Kỳhạn; 器官: Khí quản; 季刊: Báo xuất bản theo quý(mùa) 4 lần trong năm",
-      "entries": [
-        {
-          "lemma_jp": "移動",
-          "meaning_vi": "Chuyển động",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "異動",
-          "meaning_vi": "Điều chuyển",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "異同",
-          "meaning_vi": "Sựgiống nhau và khác nhau",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "監視",
-          "meaning_vi": "Giám sát, quan sát",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "看視",
-          "meaning_vi": "Chăm người bệnh",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "漢詩",
-          "meaning_vi": "Thơ Trung Quốc",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "期間",
-          "meaning_vi": "Kỳhạn",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "機関",
-          "meaning_vi": null,
-          "needs_verify": true
-        },
-        {
-          "lemma_jp": "器官",
-          "meaning_vi": "Khí quản",
-          "needs_verify": false
-        },
-        {
-          "lemma_jp": "季刊",
-          "meaning_vi": "Báo xuất bản theo quý(mùa) 4 lần trong năm",
-          "needs_verify": false
-        }
-      ],
+      "meaning_vi": "Chuyển động",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-065",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:異動",
+      "lemma_jp": "異動",
+      "reading": null,
+      "meaning_vi": "Điều chuyển",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-066",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:異同",
+      "lemma_jp": "異同",
+      "reading": null,
+      "meaning_vi": "Sựgiống nhau và khác nhau",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-067",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:監視",
+      "lemma_jp": "監視",
+      "reading": null,
+      "meaning_vi": "Giám sát, quan sát",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-068",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:看視",
+      "lemma_jp": "看視",
+      "reading": null,
+      "meaning_vi": "Chăm người bệnh",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-069",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:漢詩",
+      "lemma_jp": "漢詩",
+      "reading": null,
+      "meaning_vi": "Thơ Trung Quốc",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-070",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:期間",
+      "lemma_jp": "期間",
+      "reading": null,
+      "meaning_vi": "Kỳhạn",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-071",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:機関",
+      "lemma_jp": "機関",
+      "reading": null,
+      "meaning_vi": "Tổchức, máy móc, phương tiện",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-072",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:器官",
+      "lemma_jp": "器官",
+      "reading": null,
+      "meaning_vi": "Khí quản",
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dongam-073",
+      "type": "vocabulary",
+      "subtype": "homophone",
+      "level": "N3",
+      "source_file": "TỪ ĐỒNG ÂM KHÁC NGHĨA.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:季刊",
+      "lemma_jp": "季刊",
+      "reading": null,
+      "meaning_vi": "Báo xuất bản theo quý(mùa) 4 lần trong năm",
       "content_source": "pdf_text_extract",
       "needs_verify": true,
       "ai_extra": null

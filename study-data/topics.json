@@ -275,10 +275,10 @@
   {
     "id": "dong-am",
     "title": "Từ đồng âm khác nghĩa",
-    "description": "9 nhóm đồng âm (theo trang PDF), mỗi nhóm có entries lemma–nghĩa.",
+    "description": "Các cặp/đồng âm dễ nhầm kèm nghĩa Việt.",
     "notice": "Extract text — nên đối chiếu PDF.",
-    "count": 9,
-    "unit": "nhóm",
+    "count": 73,
+    "unit": "mục",
     "path": "./study-data/dong-am.json",
     "group": "vocab",
     "gradable": false
