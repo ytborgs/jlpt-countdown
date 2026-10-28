@@ -11,7 +11,9 @@
           "title": "Chuyên từ vựng các năm",
           "topicIds": [
             "mondai3-vocab-p1",
-            "mondai3-vocab-p2"
+            "mondai3-vocab-p2",
+            "gan-nghia-hq-p1",
+            "gan-nghia-hq-p2"
           ]
         },
         {
@@ -54,7 +56,9 @@
         {
           "id": "doc-hieu",
           "title": "Đọc hiểu",
-          "topicIds": []
+          "topicIds": [
+            "dokkai-n3-pilot"
+          ]
         }
       ]
     }

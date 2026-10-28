@@ -167,6 +167,39 @@
     "gradable": true
   },
   {
+    "id": "cach-dung-tu-hq",
+    "title": "Cách dùng từ HQ — Mondai 5",
+    "description": "90 câu trắc nghiệm cách dùng từ (Mondai 5) kèm đáp án từ bản giải.",
+    "notice": "",
+    "count": 90,
+    "unit": "câu",
+    "path": "./study-data/cach-dung-tu-hq.json",
+    "group": "vocab",
+    "gradable": true
+  },
+  {
+    "id": "gan-nghia-hq-p1",
+    "title": "Từ gần nghĩa HQ — Phần 1",
+    "description": "90 câu Mondai 4 gần nghĩa (HQ P1) kèm đáp án từ bản giải.",
+    "notice": "",
+    "count": 90,
+    "unit": "câu",
+    "path": "./study-data/gan-nghia-hq-p1.json",
+    "group": "vocab",
+    "gradable": true
+  },
+  {
+    "id": "gan-nghia-hq-p2",
+    "title": "Từ gần nghĩa HQ — Phần 2",
+    "description": "60 câu Mondai 4 gần nghĩa (HQ P2) kèm đáp án từ bản giải.",
+    "notice": "",
+    "count": 60,
+    "unit": "câu",
+    "path": "./study-data/gan-nghia-hq-p2.json",
+    "group": "vocab",
+    "gradable": true
+  },
+  {
     "id": "star-rearrange",
     "group": "practice",
     "gradable": true,
@@ -315,5 +348,16 @@
     "path": "./study-data/pho-tu-duoi-ri.json",
     "group": "vocab",
     "gradable": false
+  },
+  {
+    "id": "dokkai-n3-pilot",
+    "title": "Đọc hiểu N3 (pilot ngắn)",
+    "description": "Bài đọc hiểu ngắn kèm đáp án — đang bổ sung dần từ sách 115 bài.",
+    "notice": "Bản pilot; chưa đủ toàn bộ 115 bài.",
+    "count": 5,
+    "unit": "câu",
+    "path": "./study-data/dokkai-n3-pilot.json",
+    "group": "practice",
+    "gradable": true
   }
 ]
