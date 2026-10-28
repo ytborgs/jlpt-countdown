@@ -7,17 +7,17 @@
   "source_path": "study-materials/115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
   "title": "Đọc hiểu N3 — trung bình (中文)",
   "page_count": 197,
-  "item_count": 54,
+  "item_count": 72,
   "expected_item_count": 90,
   "content_source": "visual_transcription",
-  "produced_at": "2026-10-28T23:43:02.887407+00:00",
+  "produced_at": "2026-10-28T23:54:37Z",
   "producer": "n3-study-extractor/l3-dokkai-medium",
   "status": "partial",
-  "needs_verify_count": 25,
+  "needs_verify_count": 43,
   "notes": [
     "L3 medium: schema reading_comprehension_mcq (passage_jp + stem + choices).",
     "Đáp án 中文 từ trang 188 (official_answer_key).",
-    "Progress: 54 medium-passage items (中文 1–54). Shorts continue in dokkai-n3-pilot.",
+    "Progress: 72 medium-passage items (中文 1–72). Shorts continue in dokkai-n3-pilot.",
     "PDF mapping: book_page N → source_page N+8."
   ],
   "answer_key_medium_passage": {
@@ -2106,6 +2106,672 @@
         }
       ],
       "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-055",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 99,
+      "knowledge_id": "reading:dokkai-medium-55",
+      "section": "中文",
+      "no": 55,
+      "passage_jp": "今年も太鼓の音が鳴り響くお祭りの時期がやって来た。\n私たちが住む町には神社がたくさんあり、神社ごとに花車やみこしを担いで町内を（注1）練り歩く。\n8歳の双子の娘たちが3歳になる頃、この街に引っ越してきた。お祭りでは、幼い子から年配の方まで、一体になって盛り上がる。太鼓の（注2）バチなど握ったこともなかった娘たちが、今では叩けるようになるまで上達した。\n娘2人は、地域の人たちから、お祭りなどを通して、礼儀などのマナーや昔の街の様子などを教わり、新しいことを日々学んでいる。核家族が多い時代になったが、そうした交流を通じて、いろいろなことを教わりながら成長できるこの環境を、ありがたく感じている。\n（小野香織「祭り通じて成長する娘たち」による）\n（注1）練り歩く：行列を作ってゆっくり歩く\n（注2）バチ：太鼓を叩くときに使う木の棒",
+      "passage_source": null,
+      "stem_jp": "二人の娘が何ができるようになったか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "花車を担ぐこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "みこしを担ぐこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "太鼓を叩くこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "手を叩くこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-056",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 99,
+      "knowledge_id": "reading:dokkai-medium-56",
+      "section": "中文",
+      "no": 56,
+      "passage_jp": "今年も太鼓の音が鳴り響くお祭りの時期がやって来た。\n私たちが住む町には神社がたくさんあり、神社ごとに花車やみこしを担いで町内を（注1）練り歩く。\n8歳の双子の娘たちが3歳になる頃、この街に引っ越してきた。お祭りでは、幼い子から年配の方まで、一体になって盛り上がる。太鼓の（注2）バチなど握ったこともなかった娘たちが、今では叩けるようになるまで上達した。\n娘2人は、地域の人たちから、お祭りなどを通して、礼儀などのマナーや昔の街の様子などを教わり、新しいことを日々学んでいる。核家族が多い時代になったが、そうした交流を通じて、いろいろなことを教わりながら成長できるこの環境を、ありがたく感じている。\n（小野香織「祭り通じて成長する娘たち」による）\n（注1）練り歩く：行列を作ってゆっくり歩く\n（注2）バチ：太鼓を叩くときに使う木の棒",
+      "passage_source": null,
+      "stem_jp": "「この環境」はこの文でどこのことを指しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "祭りのある街"
+        },
+        {
+          "key": "2",
+          "text_jp": "友だちが作れる街"
+        },
+        {
+          "key": "3",
+          "text_jp": "核家族ではない家庭"
+        },
+        {
+          "key": "4",
+          "text_jp": "年配の人が多い所"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-057",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 99,
+      "knowledge_id": "reading:dokkai-medium-57",
+      "section": "中文",
+      "no": 57,
+      "passage_jp": "今年も太鼓の音が鳴り響くお祭りの時期がやって来た。\n私たちが住む町には神社がたくさんあり、神社ごとに花車やみこしを担いで町内を（注1）練り歩く。\n8歳の双子の娘たちが3歳になる頃、この街に引っ越してきた。お祭りでは、幼い子から年配の方まで、一体になって盛り上がる。太鼓の（注2）バチなど握ったこともなかった娘たちが、今では叩けるようになるまで上達した。\n娘2人は、地域の人たちから、お祭りなどを通して、礼儀などのマナーや昔の街の様子などを教わり、新しいことを日々学んでいる。核家族が多い時代になったが、そうした交流を通じて、いろいろなことを教わりながら成長できるこの環境を、ありがたく感じている。\n（小野香織「祭り通じて成長する娘たち」による）\n（注1）練り歩く：行列を作ってゆっくり歩く\n（注2）バチ：太鼓を叩くときに使う木の棒",
+      "passage_source": null,
+      "stem_jp": "子どもたちは何を通して成長しているのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "太鼓が叩けるようになったこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "大人と話せるようになったこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "新しいことを日々学んでいること"
+        },
+        {
+          "key": "4",
+          "text_jp": "神社の祭りに参加できたこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-058",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 101,
+      "knowledge_id": "reading:dokkai-medium-58",
+      "section": "中文",
+      "no": 58,
+      "passage_jp": "未夏さん（小4）は歩き出したころから、義足で暮らしている。木野小学校という山の麓にある、1学年1クラスの小さな学校での出来事だ。\n今年5月、運動会の練習で半ズボンをはいた時、膝下に付けた義足を初めて見た1年生から「にせ物の足」と言われた。「義足を知らないだけで、悪意はないはず」と担任教諭に勧められ、①気を出して1年生の教室で、ありのままを話した。理解は広がり、未夏さんは②ショックを乗り越えた。\n1年生は今、「来年入学する子には自分たちが話すから大丈夫」と言ってくれる。「思いを伝えることができ、気持ちが楽になった。同じように悩む人が『思い切って伝えてみよう』という気持ちになってもらえれば嬉しい」と未夏さんはにっこり。\n将来の夢は作家。日々の出来事を作文に書き、9月からはバスケットボール部に所属する。パラリンピック出場が目標だ。",
+      "passage_source": null,
+      "stem_jp": "どういう①「気」なのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "義足を隠すこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "義足を外すこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "義足のことを話すこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "義足のことを相談すること"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-059",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 101,
+      "knowledge_id": "reading:dokkai-medium-59",
+      "section": "中文",
+      "no": 59,
+      "passage_jp": "未夏さん（小4）は歩き出したころから、義足で暮らしている。木野小学校という山の麓にある、1学年1クラスの小さな学校での出来事だ。\n今年5月、運動会の練習で半ズボンをはいた時、膝下に付けた義足を初めて見た1年生から「にせ物の足」と言われた。「義足を知らないだけで、悪意はないはず」と担任教諭に勧められ、①気を出して1年生の教室で、ありのままを話した。理解は広がり、未夏さんは②ショックを乗り越えた。\n1年生は今、「来年入学する子には自分たちが話すから大丈夫」と言ってくれる。「思いを伝えることができ、気持ちが楽になった。同じように悩む人が『思い切って伝えてみよう』という気持ちになってもらえれば嬉しい」と未夏さんはにっこり。\n将来の夢は作家。日々の出来事を作文に書き、9月からはバスケットボール部に所属する。パラリンピック出場が目標だ。",
+      "passage_source": null,
+      "stem_jp": "どういう②「ショック」なのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "義足を感心されたこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "義足を同情されたこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "義足をばかにされたこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "義足をしかられたこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-060",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 101,
+      "knowledge_id": "reading:dokkai-medium-60",
+      "section": "中文",
+      "no": 60,
+      "passage_jp": "未夏さん（小4）は歩き出したころから、義足で暮らしている。木野小学校という山の麓にある、1学年1クラスの小さな学校での出来事だ。\n今年5月、運動会の練習で半ズボンをはいた時、膝下に付けた義足を初めて見た1年生から「にせ物の足」と言われた。「義足を知らないだけで、悪意はないはず」と担任教諭に勧められ、①気を出して1年生の教室で、ありのままを話した。理解は広がり、未夏さんは②ショックを乗り越えた。\n1年生は今、「来年入学する子には自分たちが話すから大丈夫」と言ってくれる。「思いを伝えることができ、気持ちが楽になった。同じように悩む人が『思い切って伝えてみよう』という気持ちになってもらえれば嬉しい」と未夏さんはにっこり。\n将来の夢は作家。日々の出来事を作文に書き、9月からはバスケットボール部に所属する。パラリンピック出場が目標だ。",
+      "passage_source": null,
+      "stem_jp": "文章はどういう人のことを言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "障害者"
+        },
+        {
+          "key": "2",
+          "text_jp": "いじめられっ子"
+        },
+        {
+          "key": "3",
+          "text_jp": "貧乏人"
+        },
+        {
+          "key": "4",
+          "text_jp": "勉強のできない子"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-061",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 103,
+      "knowledge_id": "reading:dokkai-medium-61",
+      "section": "中文",
+      "no": 61,
+      "passage_jp": "昨年末に携帯電話のメールをやめることにした。携帯でメールができるようになってしばらくの約7年前から、私はその便利さに引かれ、よく友人、知人にメールを送っては楽しんでいた。しかし、昨年の夏を過ぎたころから、利用すればするだけ心が寂しくなっていく自分に気づいた。\n私の場合、指だけで作成できる（注）手軽さなので、家事など、何かの行動をしながら携帯メールを作成していることが多かった。その結果、短文を並べたメールによって、受け手との間に誤解が生じ、不快な気分になってしまうこともあった。\nそれから、年の暮れから新年にかけ、私は友人、知人とのやりとりを約2週間する。はがきや電話で、文字や声を通してのコミュニケーションを楽しんでいる。そこには、何かをしながらのメール交換では感じなかった、大きな喜びと温かさがある。\n（久高恵理子の文より）\n（注）手軽さ：やりやすく便利な様子",
+      "passage_source": null,
+      "stem_jp": "筆者が携帯メールを始めたきっかけは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "一人暮らしの退屈さ"
+        },
+        {
+          "key": "2",
+          "text_jp": "一人暮らしの寂しさ"
+        },
+        {
+          "key": "3",
+          "text_jp": "携帯メールの楽しさ"
+        },
+        {
+          "key": "4",
+          "text_jp": "携帯メールの便利さ"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-062",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 103,
+      "knowledge_id": "reading:dokkai-medium-62",
+      "section": "中文",
+      "no": 62,
+      "passage_jp": "昨年末に携帯電話のメールをやめることにした。携帯でメールができるようになってしばらくの約7年前から、私はその便利さに引かれ、よく友人、知人にメールを送っては楽しんでいた。しかし、昨年の夏を過ぎたころから、利用すればするだけ心が寂しくなっていく自分に気づいた。\n私の場合、指だけで作成できる（注）手軽さなので、家事など、何かの行動をしながら携帯メールを作成していることが多かった。その結果、短文を並べたメールによって、受け手との間に誤解が生じ、不快な気分になってしまうこともあった。\nそれから、年の暮れから新年にかけ、私は友人、知人とのやりとりを約2週間する。はがきや電話で、文字や声を通してのコミュニケーションを楽しんでいる。そこには、何かをしながらのメール交換では感じなかった、大きな喜びと温かさがある。\n（久高恵理子の文より）\n（注）手軽さ：やりやすく便利な様子",
+      "passage_source": null,
+      "stem_jp": "「心が寂しくなっていく」とあるが、どうしてこうなるか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "メールには温かさがないから"
+        },
+        {
+          "key": "2",
+          "text_jp": "メールはうそが多いから"
+        },
+        {
+          "key": "3",
+          "text_jp": "メールは1回だけのものだから"
+        },
+        {
+          "key": "4",
+          "text_jp": "メールは何かしながらするものだから"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-063",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 103,
+      "knowledge_id": "reading:dokkai-medium-63",
+      "section": "中文",
+      "no": 63,
+      "passage_jp": "昨年末に携帯電話のメールをやめることにした。携帯でメールができるようになってしばらくの約7年前から、私はその便利さに引かれ、よく友人、知人にメールを送っては楽しんでいた。しかし、昨年の夏を過ぎたころから、利用すればするだけ心が寂しくなっていく自分に気づいた。\n私の場合、指だけで作成できる（注）手軽さなので、家事など、何かの行動をしながら携帯メールを作成していることが多かった。その結果、短文を並べたメールによって、受け手との間に誤解が生じ、不快な気分になってしまうこともあった。\nそれから、年の暮れから新年にかけ、私は友人、知人とのやりとりを約2週間する。はがきや電話で、文字や声を通してのコミュニケーションを楽しんでいる。そこには、何かをしながらのメール交換では感じなかった、大きな喜びと温かさがある。\n（久高恵理子の文より）\n（注）手軽さ：やりやすく便利な様子",
+      "passage_source": null,
+      "stem_jp": "筆者は携帯メールについてどう思っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "家事をしながらできるので便利でいい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "手軽で楽しみながらできていい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "短文なので誤解が生じやすい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "年末や新年の手紙より気持ちを表しやすい。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-064",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 105,
+      "knowledge_id": "reading:dokkai-medium-64",
+      "section": "中文",
+      "no": 64,
+      "passage_jp": "私は公共のサービスの中でも、図書館は素晴らしいと思っています。本やCDやDVDが無料で借りられますし、映画も上映しています。私の家の近くには市立の立派な図書館があるので、夏休み中も、母と一緒に週に4、5回くらい出かけて、本を読んだり、宿題をしたりしていました。母は「不況のせいか、例年より利用者が多いわね」と言っていました。\nそんなお気に入りの図書館ですが、9月の5連休は21～23日と3日間続けて閉館していました。21日は月曜日で定休、22、23日は祝日だったからです。私も19、20日に行って、借りてきた本を家で読むしかありませんでした。私も含めて、連休中に図書館を利用したいと思った市民は多かったのではないでしょうか。\n図書館で働く人の事情もあるのでしょうが、世の中の様子や市民の希望に合わせて利用者の少ない平日に休みを振り替えるなどして開館し、市民にサービスをすることも必要ではないかと思いました。\n（小林万梨佳「市立図書館に注文を」による）",
+      "passage_source": null,
+      "stem_jp": "この年の5連休はいつからいつまでか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "18日～22日"
+        },
+        {
+          "key": "2",
+          "text_jp": "19日～23日"
+        },
+        {
+          "key": "3",
+          "text_jp": "20日～24日"
+        },
+        {
+          "key": "4",
+          "text_jp": "21日～25日"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-065",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 105,
+      "knowledge_id": "reading:dokkai-medium-65",
+      "section": "中文",
+      "no": 65,
+      "passage_jp": "私は公共のサービスの中でも、図書館は素晴らしいと思っています。本やCDやDVDが無料で借りられますし、映画も上映しています。私の家の近くには市立の立派な図書館があるので、夏休み中も、母と一緒に週に4、5回くらい出かけて、本を読んだり、宿題をしたりしていました。母は「不況のせいか、例年より利用者が多いわね」と言っていました。\nそんなお気に入りの図書館ですが、9月の5連休は21～23日と3日間続けて閉館していました。21日は月曜日で定休、22、23日は祝日だったからです。私も19、20日に行って、借りてきた本を家で読むしかありませんでした。私も含めて、連休中に図書館を利用したいと思った市民は多かったのではないでしょうか。\n図書館で働く人の事情もあるのでしょうが、世の中の様子や市民の希望に合わせて利用者の少ない平日に休みを振り替えるなどして開館し、市民にサービスをすることも必要ではないかと思いました。\n（小林万梨佳「市立図書館に注文を」による）",
+      "passage_source": null,
+      "stem_jp": "「世の中の様子」はどういうことを指すか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "不況"
+        },
+        {
+          "key": "2",
+          "text_jp": "気象"
+        },
+        {
+          "key": "3",
+          "text_jp": "流行"
+        },
+        {
+          "key": "4",
+          "text_jp": "物価"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-066",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 105,
+      "knowledge_id": "reading:dokkai-medium-66",
+      "section": "中文",
+      "no": 66,
+      "passage_jp": "私は公共のサービスの中でも、図書館は素晴らしいと思っています。本やCDやDVDが無料で借りられますし、映画も上映しています。私の家の近くには市立の立派な図書館があるので、夏休み中も、母と一緒に週に4、5回くらい出かけて、本を読んだり、宿題をしたりしていました。母は「不況のせいか、例年より利用者が多いわね」と言っていました。\nそんなお気に入りの図書館ですが、9月の5連休は21～23日と3日間続けて閉館していました。21日は月曜日で定休、22、23日は祝日だったからです。私も19、20日に行って、借りてきた本を家で読むしかありませんでした。私も含めて、連休中に図書館を利用したいと思った市民は多かったのではないでしょうか。\n図書館で働く人の事情もあるのでしょうが、世の中の様子や市民の希望に合わせて利用者の少ない平日に休みを振り替えるなどして開館し、市民にサービスをすることも必要ではないかと思いました。\n（小林万梨佳「市立図書館に注文を」による）",
+      "passage_source": null,
+      "stem_jp": "この人は図書館に何を注文しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "映画の上映"
+        },
+        {
+          "key": "2",
+          "text_jp": "連休中の休館"
+        },
+        {
+          "key": "3",
+          "text_jp": "貸し出しの無料化"
+        },
+        {
+          "key": "4",
+          "text_jp": "連休中の開館"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-067",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 107,
+      "knowledge_id": "reading:dokkai-medium-67",
+      "section": "中文",
+      "no": 67,
+      "passage_jp": "父は私が生まれてまもなく病気で倒れ、6ヶ月の私と4歳だった兄を残し、天国へ旅立ってしまいました。それから母は必死に働き、私たち兄妹を育ててくれています。\n私は父の顔も知らず、遊んでもらった記憶もないので、小さいころは寂しかったはずです。でも、祖父母の家族が近所に住んでいて、温かくかわいがられて大きくなりました。冬休みにアルバムを整理していたら、兄には、父と楽しそうに遊んでいる写真がいっぱいあるのに、私にはおひな様の前で父に抱かれている写真がたった1枚きりしかありませんでした。\n①ごねてると祖母が父のことを話してくれました。薬剤師の父は優しく、病気の人に信用のあったこと、産院から帰った私を大喜びで抱き、離さなかったこと、病気で入院する時、（注2）ひな祭りまでには必ず帰るとパソコンに、兄と私にメッセージを入れて行ったことなど。私は胸が熱くなりました。\n春に、私は中学生になる。中学に入ったら夢に向かって一生懸命頑張るから、②見てて、お父さん。\n（吉田真依子「春から中学 お父さん見てて」による）\n（注1）ごねる：文句を言う\n（注2）ひなまつり：三月三日に女の子のために行う行事",
+      "passage_source": null,
+      "stem_jp": "①「ごねてる」とあるが、何についてのことか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "父と写した写真が一枚もなかったこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "父が兄のように私を抱いてくれなかったこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "父と兄の写真は多いのに、私とのは少ないこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "父が私の小さいうちに死んでしまったこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-068",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 107,
+      "knowledge_id": "reading:dokkai-medium-68",
+      "section": "中文",
+      "no": 68,
+      "passage_jp": "父は私が生まれてまもなく病気で倒れ、6ヶ月の私と4歳だった兄を残し、天国へ旅立ってしまいました。それから母は必死に働き、私たち兄妹を育ててくれています。\n私は父の顔も知らず、遊んでもらった記憶もないので、小さいころは寂しかったはずです。でも、祖父母の家族が近所に住んでいて、温かくかわいがられて大きくなりました。冬休みにアルバムを整理していたら、兄には、父と楽しそうに遊んでいる写真がいっぱいあるのに、私にはおひな様の前で父に抱かれている写真がたった1枚きりしかありませんでした。\n①ごねてると祖母が父のことを話してくれました。薬剤師の父は優しく、病気の人に信用のあったこと、産院から帰った私を大喜びで抱き、離さなかったこと、病気で入院する時、（注2）ひな祭りまでには必ず帰るとパソコンに、兄と私にメッセージを入れて行ったことなど。私は胸が熱くなりました。\n春に、私は中学生になる。中学に入ったら夢に向かって一生懸命頑張るから、②見てて、お父さん。\n（吉田真依子「春から中学 お父さん見てて」による）\n（注1）ごねる：文句を言う\n（注2）ひなまつり：三月三日に女の子のために行う行事",
+      "passage_source": null,
+      "stem_jp": "②「見てて、お父さん」とあるが、父はどこから「見る」か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "天国"
+        },
+        {
+          "key": "2",
+          "text_jp": "薬局"
+        },
+        {
+          "key": "3",
+          "text_jp": "産院"
+        },
+        {
+          "key": "4",
+          "text_jp": "おひな様の前"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-069",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 107,
+      "knowledge_id": "reading:dokkai-medium-69",
+      "section": "中文",
+      "no": 69,
+      "passage_jp": "父は私が生まれてまもなく病気で倒れ、6ヶ月の私と4歳だった兄を残し、天国へ旅立ってしまいました。それから母は必死に働き、私たち兄妹を育ててくれています。\n私は父の顔も知らず、遊んでもらった記憶もないので、小さいころは寂しかったはずです。でも、祖父母の家族が近所に住んでいて、温かくかわいがられて大きくなりました。冬休みにアルバムを整理していたら、兄には、父と楽しそうに遊んでいる写真がいっぱいあるのに、私にはおひな様の前で父に抱かれている写真がたった1枚きりしかありませんでした。\n①ごねてると祖母が父のことを話してくれました。薬剤師の父は優しく、病気の人に信用のあったこと、産院から帰った私を大喜びで抱き、離さなかったこと、病気で入院する時、（注2）ひな祭りまでには必ず帰るとパソコンに、兄と私にメッセージを入れて行ったことなど。私は胸が熱くなりました。\n春に、私は中学生になる。中学に入ったら夢に向かって一生懸命頑張るから、②見てて、お父さん。\n（吉田真依子「春から中学 お父さん見てて」による）\n（注1）ごねる：文句を言う\n（注2）ひなまつり：三月三日に女の子のために行う行事",
+      "passage_source": null,
+      "stem_jp": "祖父の話で私の心に深く残ったことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "父がりっぱな薬剤師だったこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "父は私が生まれて6ヶ月でなくなったこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "父は私が生まれたことに驚いたこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "父があるメッセージを残したこと"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-070",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 109,
+      "knowledge_id": "reading:dokkai-medium-70",
+      "section": "中文",
+      "no": 70,
+      "passage_jp": "私は（注1）部活で（注2）ラグビーをしていた。その中で一番の支えになっていたのは母だった。\n私の母は専業主婦ではなく公務員で、毎日朝から夕方まで、夜9時過ぎまで頑張る日もある。そんなに働きながら、いつも私が疑問に思うのは、帰宅した時に私に疲れた表情を見せないことだ。そんな母を見て、私は母としてでなく、一人の人間としてすごく強いんだと感じている。\n母は毎朝5時ごろに起き、私に弁当を作ってくれる。母の手料理は世界一と言っていいほどおいしい。そんな母に私は申し訳ないことをしている。それは学校で弁当を食べる時に、「今日のおかずは最悪やわ」「食べる気がなくなる」などと①強がって、周りの友だちに母の弁当をまずいと言いふらしていた。だが本当は、そんなことは一度も思っていない。この場を借りて母に謝りたい。「②ごめんなさい、母ちゃんの弁当はいつも絶品でおいしいよ」と……。\n（伊木駿仁「いつも絶品 母ちゃんの弁当」による）\n（注1）部活：サークル活動、クラブ活動のこと\n（注2）ラグビー：フットボールの一種で、一組十五人でやるスポーツの一つ",
+      "passage_source": null,
+      "stem_jp": "①「強がって」いる理由は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "弁当をほめるのが恥ずかしいから"
+        },
+        {
+          "key": "2",
+          "text_jp": "弁当がまずいのが恥ずかしいから"
+        },
+        {
+          "key": "3",
+          "text_jp": "弁当を自分で作れないのが恥ずかしいから"
+        },
+        {
+          "key": "4",
+          "text_jp": "弁当の見た目が悪いのが恥ずかしいから"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-071",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 109,
+      "knowledge_id": "reading:dokkai-medium-71",
+      "section": "中文",
+      "no": 71,
+      "passage_jp": "私は（注1）部活で（注2）ラグビーをしていた。その中で一番の支えになっていたのは母だった。\n私の母は専業主婦ではなく公務員で、毎日朝から夕方まで、夜9時過ぎまで頑張る日もある。そんなに働きながら、いつも私が疑問に思うのは、帰宅した時に私に疲れた表情を見せないことだ。そんな母を見て、私は母としてでなく、一人の人間としてすごく強いんだと感じている。\n母は毎朝5時ごろに起き、私に弁当を作ってくれる。母の手料理は世界一と言っていいほどおいしい。そんな母に私は申し訳ないことをしている。それは学校で弁当を食べる時に、「今日のおかずは最悪やわ」「食べる気がなくなる」などと①強がって、周りの友だちに母の弁当をまずいと言いふらしていた。だが本当は、そんなことは一度も思っていない。この場を借りて母に謝りたい。「②ごめんなさい、母ちゃんの弁当はいつも絶品でおいしいよ」と……。\n（伊木駿仁「いつも絶品 母ちゃんの弁当」による）\n（注1）部活：サークル活動、クラブ活動のこと\n（注2）ラグビー：フットボールの一種で、一組十五人でやるスポーツの一つ",
+      "passage_source": null,
+      "stem_jp": "②「ごめんなさい」とあるが、何について謝っているのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "弁当を食べなかったこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "弁当に感謝しなかったこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "弁当をまずいと言いふらしたこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "弁当が足りないと言わなかったこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-072",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 109,
+      "knowledge_id": "reading:dokkai-medium-72",
+      "section": "中文",
+      "no": 72,
+      "passage_jp": "私は（注1）部活で（注2）ラグビーをしていた。その中で一番の支えになっていたのは母だった。\n私の母は専業主婦ではなく公務員で、毎日朝から夕方まで、夜9時過ぎまで頑張る日もある。そんなに働きながら、いつも私が疑問に思うのは、帰宅した時に私に疲れた表情を見せないことだ。そんな母を見て、私は母としてでなく、一人の人間としてすごく強いんだと感じている。\n母は毎朝5時ごろに起き、私に弁当を作ってくれる。母の手料理は世界一と言っていいほどおいしい。そんな母に私は申し訳ないことをしている。それは学校で弁当を食べる時に、「今日のおかずは最悪やわ」「食べる気がなくなる」などと①強がって、周りの友だちに母の弁当をまずいと言いふらしていた。だが本当は、そんなことは一度も思っていない。この場を借りて母に謝りたい。「②ごめんなさい、母ちゃんの弁当はいつも絶品でおいしいよ」と……。\n（伊木駿仁「いつも絶品 母ちゃんの弁当」による）\n（注1）部活：サークル活動、クラブ活動のこと\n（注2）ラグビー：フットボールの一種で、一組十五人でやるスポーツの一つ",
+      "passage_source": null,
+      "stem_jp": "この人の母はどういう人か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "専業主婦で料理が得意な人"
+        },
+        {
+          "key": "2",
+          "text_jp": "公務員で疲れた表情を見せる人"
+        },
+        {
+          "key": "3",
+          "text_jp": "専業主婦で毎日弁当を作る人"
+        },
+        {
+          "key": "4",
+          "text_jp": "公務員で「私」を支えてくれる人"
+        }
+      ],
+      "correct_answer": "4",
       "answer_source": "official_answer_key",
       "content_source": "visual_transcription",
       "needs_verify": true,
