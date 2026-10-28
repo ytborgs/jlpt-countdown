@@ -1,0 +1,783 @@
+{
+  "schema_version": "1.0",
+  "document_id": "dokkai-n3-medium",
+  "type": "practice",
+  "level": "N3",
+  "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+  "source_path": "study-materials/115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+  "title": "Đọc hiểu N3 — trung bình (中文)",
+  "page_count": 197,
+  "item_count": 18,
+  "expected_item_count": 90,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-28T16:38:48.120397+00:00",
+  "producer": "n3-study-extractor/l3-dokkai-medium",
+  "status": "partial",
+  "needs_verify_count": 1,
+  "notes": [
+    "L3 medium: schema reading_comprehension_mcq (passage_jp + stem + choices).",
+    "Đáp án 中文 từ trang 188 (official_answer_key).",
+    "Progress: 18 medium-passage items (中文). Shorts continue in dokkai-n3-pilot.",
+    "PDF mapping: book_page N → source_page N+8."
+  ],
+  "answer_key_medium_passage": {
+    "1": 3,
+    "2": 1,
+    "3": 4,
+    "4": 3,
+    "5": 1,
+    "6": 2,
+    "7": 2,
+    "8": 1,
+    "9": 4,
+    "10": 3,
+    "11": 2,
+    "12": 3,
+    "13": 2,
+    "14": 3,
+    "15": 1,
+    "16": 1,
+    "17": 4,
+    "18": 2,
+    "19": 4,
+    "20": 2,
+    "21": 2,
+    "22": 2,
+    "23": 3,
+    "24": 2,
+    "25": 4,
+    "26": 3,
+    "27": 2,
+    "28": 1,
+    "29": 4,
+    "30": 2,
+    "31": 2,
+    "32": 1,
+    "33": 3,
+    "34": 3,
+    "35": 4,
+    "36": 2,
+    "37": 3,
+    "38": 4,
+    "39": 1,
+    "40": 1,
+    "41": 4,
+    "42": 3,
+    "43": 3,
+    "44": 4,
+    "45": 2,
+    "46": 3,
+    "47": 2,
+    "48": 2,
+    "49": 3,
+    "50": 4,
+    "51": 2,
+    "52": 3,
+    "53": 2,
+    "54": 3,
+    "55": 3,
+    "56": 1,
+    "57": 3,
+    "58": 3,
+    "59": 3,
+    "60": 1,
+    "61": 4,
+    "62": 1,
+    "63": 3,
+    "64": 2,
+    "65": 1,
+    "66": 4,
+    "67": 3,
+    "68": 1,
+    "69": 4,
+    "70": 1,
+    "71": 3,
+    "72": 4,
+    "73": 3,
+    "74": 1,
+    "75": 4,
+    "76": 2,
+    "77": 3,
+    "78": 1,
+    "79": 4,
+    "80": 1,
+    "81": 2,
+    "82": 2,
+    "83": 2,
+    "84": 4,
+    "85": 1,
+    "86": 3,
+    "87": 2,
+    "88": 2,
+    "89": 4,
+    "90": 3
+  },
+  "items": [
+    {
+      "id": "dokkai-medium-001",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 63,
+      "knowledge_id": "reading:dokkai-medium-1",
+      "section": "中文",
+      "no": 1,
+      "passage_jp": "日本では「フリーター」という言葉が生まれたのは1980年の終わりである。最初はいろいろな生き方を好んで選ぶ人のことを指していたようだが、今では、正社員として就職するのではなく、短期間のパート、アルバイトなどをして生活することを言うのが一般的である。フリーターが1990年以降、急に増えてきていて、最近のフリーターの人数は、数百万人になったという。\nフリーターの増加の背景には、正社員としての拘束を嫌うといった意識変化もあるが、長く続く就職難の中で、満足できる就職ができなかったという事情も大きい。一方では、コストのかかる常用労働者を減らし、アルバイトなどの非常用雇用を増やそうとする企業側にも関係がある。",
+      "passage_source": "日検研究所「雑文集・日本のフリーター」による",
+      "stem_jp": "「フリーター」の説明として合っているものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "1980年ごろ生まれ、数百万人いた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "いろいろな生き方を選べる人という意味である。"
+        },
+        {
+          "key": "3",
+          "text_jp": "短期間のパートやアルバイトをして生活する人のことである。"
+        },
+        {
+          "key": "4",
+          "text_jp": "ピークだったのは1990年である。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-002",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 63,
+      "knowledge_id": "reading:dokkai-medium-2",
+      "section": "中文",
+      "no": 2,
+      "passage_jp": "日本では「フリーター」という言葉が生まれたのは1980年の終わりである。最初はいろいろな生き方を好んで選ぶ人のことを指していたようだが、今では、正社員として就職するのではなく、短期間のパート、アルバイトなどをして生活することを言うのが一般的である。フリーターが1990年以降、急に増えてきていて、最近のフリーターの人数は、数百万人になったという。\nフリーターの増加の背景には、正社員としての拘束を嫌うといった意識変化もあるが、長く続く就職難の中で、満足できる就職ができなかったという事情も大きい。一方では、コストのかかる常用労働者を減らし、アルバイトなどの非常用雇用を増やそうとする企業側にも関係がある。",
+      "passage_source": "日検研究所「雑文集・日本のフリーター」による",
+      "stem_jp": "「フリーター」の増加の背景は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "常用労働者の募集の減少。"
+        },
+        {
+          "key": "2",
+          "text_jp": "正社員の拘束を嫌う意識の変化。"
+        },
+        {
+          "key": "3",
+          "text_jp": "収入より自由を求める流れ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "職種が増え、自由に選べる。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-003",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 63,
+      "knowledge_id": "reading:dokkai-medium-3",
+      "section": "中文",
+      "no": 3,
+      "passage_jp": "日本では「フリーター」という言葉が生まれたのは1980年の終わりである。最初はいろいろな生き方を好んで選ぶ人のことを指していたようだが、今では、正社員として就職するのではなく、短期間のパート、アルバイトなどをして生活することを言うのが一般的である。フリーターが1990年以降、急に増えてきていて、最近のフリーターの人数は、数百万人になったという。\nフリーターの増加の背景には、正社員としての拘束を嫌うといった意識変化もあるが、長く続く就職難の中で、満足できる就職ができなかったという事情も大きい。一方では、コストのかかる常用労働者を減らし、アルバイトなどの非常用雇用を増やそうとする企業側にも関係がある。",
+      "passage_source": "日検研究所「雑文集・日本のフリーター」による",
+      "stem_jp": "企業側がフリーターを増やす目的は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "有名大学卒業を重視するため"
+        },
+        {
+          "key": "2",
+          "text_jp": "長期の労働者を求めるため"
+        },
+        {
+          "key": "3",
+          "text_jp": "経験のある中年労働者を必要としているため"
+        },
+        {
+          "key": "4",
+          "text_jp": "給料が安くてすむ非常用雇用に向かっているため"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-004",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 65,
+      "knowledge_id": "reading:dokkai-medium-4",
+      "section": "中文",
+      "no": 4,
+      "passage_jp": "「ニート」という言葉のルーツはイギリスと言われている。要するに仕事をしておらず、教育や職業訓練も受けていない若者を表す言葉で、ヨーロッパなどでは大きな社会問題となっていた。日本でも、完全に無業（仕事がない）となっているニートの存在が、このところ注目されるようになっており、政府もその自立支援に取り組み始めた。\nたとえば、国や都道府県は多くのお金を投入して「（注）ジョブカフェ」を設置し、若者に合わせておしゃれな雰囲気や無料インターネットを①売り物にしていた。しかし、ニート層の98.8%がニート支援施設を全く利用したことがないというアンケート結果もあるとおり、761億円を投資した若者の雇用対策はあまり②効果が現れていない。\nこのままでは日本に「貧困層」が生じるのではという心配もあり、早くて有効な対策が望まれている。\n（注）ジョブカフェ：ここでは、「ニート」のために設置した働く場を指す",
+      "passage_source": "日検研究所「雑文集・ニート現状と対策」による",
+      "stem_jp": "「ニート」の説明として合っているものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "自立支援が必要な人"
+        },
+        {
+          "key": "2",
+          "text_jp": "完全に「無業」の人"
+        },
+        {
+          "key": "3",
+          "text_jp": "仕事もなく教育も受けていない人"
+        },
+        {
+          "key": "4",
+          "text_jp": "雇用対策に当てはまらない人"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-005",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 65,
+      "knowledge_id": "reading:dokkai-medium-5",
+      "section": "中文",
+      "no": 5,
+      "passage_jp": "「ニート」という言葉のルーツはイギリスと言われている。要するに仕事をしておらず、教育や職業訓練も受けていない若者を表す言葉で、ヨーロッパなどでは大きな社会問題となっていた。日本でも、完全に無業（仕事がない）となっているニートの存在が、このところ注目されるようになっており、政府もその自立支援に取り組み始めた。\nたとえば、国や都道府県は多くのお金を投入して「（注）ジョブカフェ」を設置し、若者に合わせておしゃれな雰囲気や無料インターネットを①売り物にしていた。しかし、ニート層の98.8%がニート支援施設を全く利用したことがないというアンケート結果もあるとおり、761億円を投資した若者の雇用対策はあまり②効果が現れていない。\nこのままでは日本に「貧困層」が生じるのではという心配もあり、早くて有効な対策が望まれている。\n（注）ジョブカフェ：ここでは、「ニート」のために設置した働く場を指す",
+      "passage_source": "日検研究所「雑文集・ニート現状と対策」による",
+      "stem_jp": "ここの①「売り物」は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "支援施設"
+        },
+        {
+          "key": "2",
+          "text_jp": "投資金額"
+        },
+        {
+          "key": "3",
+          "text_jp": "おいしいカフェ"
+        },
+        {
+          "key": "4",
+          "text_jp": "自然食料品"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-006",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 65,
+      "knowledge_id": "reading:dokkai-medium-6",
+      "section": "中文",
+      "no": 6,
+      "passage_jp": "「ニート」という言葉のルーツはイギリスと言われている。要するに仕事をしておらず、教育や職業訓練も受けていない若者を表す言葉で、ヨーロッパなどでは大きな社会問題となっていた。日本でも、完全に無業（仕事がない）となっているニートの存在が、このところ注目されるようになっており、政府もその自立支援に取り組み始めた。\nたとえば、国や都道府県は多くのお金を投入して「（注）ジョブカフェ」を設置し、若者に合わせておしゃれな雰囲気や無料インターネットを①売り物にしていた。しかし、ニート層の98.8%がニート支援施設を全く利用したことがないというアンケート結果もあるとおり、761億円を投資した若者の雇用対策はあまり②効果が現れていない。\nこのままでは日本に「貧困層」が生じるのではという心配もあり、早くて有効な対策が望まれている。\n（注）ジョブカフェ：ここでは、「ニート」のために設置した働く場を指す",
+      "passage_source": "日検研究所「雑文集・ニート現状と対策」による",
+      "stem_jp": "②「効果が現れていない」ことによる結果は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "投資した金が無駄になる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "貧困層が生まれる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "ジョブカフェへ人が集まる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "ニートということばが流行る。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-007",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 67,
+      "knowledge_id": "reading:dokkai-medium-7",
+      "section": "中文",
+      "no": 7,
+      "passage_jp": "以前も、一部の絵を書くセンスのある人たちは版画や絵などで美しい年賀状を作っていたが、ほとんどの人は同じような内容で、同じようなデザインの年賀状を作っていた。これでは、誠意がないといわれてもしかたがない。それが、パソコンやプリンターの普及で、自分の感性と好みで年賀状のあいさつができるようになった。絵を描くセンスがなくても字が下手でも、パソコンやプリンターが楽しい絵文字やデザイン、美しい字などで①自分の弱みを見せなくしてくれる。パソコンやプリンターによって、「絵が描けない」とか「字が下手だ」とかいう劣等感から解放されたと感じている人は多いだろう。\n日本の文化を変えたといわれるパソコンであるが、②文化の継承にも力を発揮していることを示す一例といえよう。",
+      "passage_source": null,
+      "stem_jp": "①「自分の弱み」とは何を指すか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "誠意がないこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "字が下手なこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "同じようなデザインになること"
+        },
+        {
+          "key": "4",
+          "text_jp": "パソコンができないこと"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-008",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 67,
+      "knowledge_id": "reading:dokkai-medium-8",
+      "section": "中文",
+      "no": 8,
+      "passage_jp": "以前も、一部の絵を書くセンスのある人たちは版画や絵などで美しい年賀状を作っていたが、ほとんどの人は同じような内容で、同じようなデザインの年賀状を作っていた。これでは、誠意がないといわれてもしかたがない。それが、パソコンやプリンターの普及で、自分の感性と好みで年賀状のあいさつができるようになった。絵を描くセンスがなくても字が下手でも、パソコンやプリンターが楽しい絵文字やデザイン、美しい字などで①自分の弱みを見せなくしてくれる。パソコンやプリンターによって、「絵が描けない」とか「字が下手だ」とかいう劣等感から解放されたと感じている人は多いだろう。\n日本の文化を変えたといわれるパソコンであるが、②文化の継承にも力を発揮していることを示す一例といえよう。",
+      "passage_source": null,
+      "stem_jp": "②「文化の継承」とあるが、ここの「文化」は何を指すか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "年賀状を作ること"
+        },
+        {
+          "key": "2",
+          "text_jp": "絵を描くこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "パソコンを使うこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "版画を描くこと"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-009",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 67,
+      "knowledge_id": "reading:dokkai-medium-9",
+      "section": "中文",
+      "no": 9,
+      "passage_jp": "以前も、一部の絵を書くセンスのある人たちは版画や絵などで美しい年賀状を作っていたが、ほとんどの人は同じような内容で、同じようなデザインの年賀状を作っていた。これでは、誠意がないといわれてもしかたがない。それが、パソコンやプリンターの普及で、自分の感性と好みで年賀状のあいさつができるようになった。絵を描くセンスがなくても字が下手でも、パソコンやプリンターが楽しい絵文字やデザイン、美しい字などで①自分の弱みを見せなくしてくれる。パソコンやプリンターによって、「絵が描けない」とか「字が下手だ」とかいう劣等感から解放されたと感じている人は多いだろう。\n日本の文化を変えたといわれるパソコンであるが、②文化の継承にも力を発揮していることを示す一例といえよう。",
+      "passage_source": null,
+      "stem_jp": "この文章で筆者が一番言いたいことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "書くのを面倒がる人には、個性的な年賀状は作れない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "パソコンなら、さまざまな字体が書けるが、版画ではむりだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "同じようなデザインの年賀状を出すのは、相手に失礼だ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "パソコンはわれわれの生活に入り込み、大きな役割を果たしている。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-010",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 69,
+      "knowledge_id": "reading:dokkai-medium-10",
+      "section": "中文",
+      "no": 10,
+      "passage_jp": "今、電車やバスにある「優先席」は、以前は「①シルバーシート」と呼ばれていた。「シルバー」とは、髪の色が銀色の人、つまりお年寄りを意味することから付けられたものだが、のちに、席を譲るべき対象は、お年寄りだけではないはずだということになり、「優先席」という名前に変わったのだ。\nところで、この「優先席」は本当に必要なのか、「優先席」があるために、かえって②人々のモラル（道徳）が低下しているのではないかという議論がしばしば聞かれる。そもそもお年寄りや体の不自由な人を見たら、元気な人はすぐ席を譲るのが当たり前のはず。それなのに、わざわざ「優先席」を作って、「席を譲りましょう」と呼びかけるということは、普通の席に座っている元気な人は、席を譲らなくていいということになるのではないかということだ。",
+      "passage_source": "和栗雅子等「読むトレーニング」スリーエーネットワークによる",
+      "stem_jp": "「シルバーシート」はこれまでどんな意味だったのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "髪の色が銀色になったお年寄り向けの座席"
+        },
+        {
+          "key": "2",
+          "text_jp": "髪の色が銀色になったすべての人向けの座席"
+        },
+        {
+          "key": "3",
+          "text_jp": "お年寄りのために特に用意しておいた座席"
+        },
+        {
+          "key": "4",
+          "text_jp": "お年寄りの中の体が不自由な人のための座席"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-011",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 69,
+      "knowledge_id": "reading:dokkai-medium-11",
+      "section": "中文",
+      "no": 11,
+      "passage_jp": "今、電車やバスにある「優先席」は、以前は「①シルバーシート」と呼ばれていた。「シルバー」とは、髪の色が銀色の人、つまりお年寄りを意味することから付けられたものだが、のちに、席を譲るべき対象は、お年寄りだけではないはずだということになり、「優先席」という名前に変わったのだ。\nところで、この「優先席」は本当に必要なのか、「優先席」があるために、かえって②人々のモラル（道徳）が低下しているのではないかという議論がしばしば聞かれる。そもそもお年寄りや体の不自由な人を見たら、元気な人はすぐ席を譲るのが当たり前のはず。それなのに、わざわざ「優先席」を作って、「席を譲りましょう」と呼びかけるということは、普通の席に座っている元気な人は、席を譲らなくていいということになるのではないかということだ。",
+      "passage_source": "和栗雅子等「読むトレーニング」スリーエーネットワークによる",
+      "stem_jp": "「シルバーシート」が名前を変えた理由は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "シルバーは老人を軽く見る表現だから"
+        },
+        {
+          "key": "2",
+          "text_jp": "座らせてあげたいのは老人だけではないから"
+        },
+        {
+          "key": "3",
+          "text_jp": "シルバーシートでは目立たないため"
+        },
+        {
+          "key": "4",
+          "text_jp": "座らせてあげたい老人が早く座れるため"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-012",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 69,
+      "knowledge_id": "reading:dokkai-medium-12",
+      "section": "中文",
+      "no": 12,
+      "passage_jp": "今、電車やバスにある「優先席」は、以前は「①シルバーシート」と呼ばれていた。「シルバー」とは、髪の色が銀色の人、つまりお年寄りを意味することから付けられたものだが、のちに、席を譲るべき対象は、お年寄りだけではないはずだということになり、「優先席」という名前に変わったのだ。\nところで、この「優先席」は本当に必要なのか、「優先席」があるために、かえって②人々のモラル（道徳）が低下しているのではないかという議論がしばしば聞かれる。そもそもお年寄りや体の不自由な人を見たら、元気な人はすぐ席を譲るのが当たり前のはず。それなのに、わざわざ「優先席」を作って、「席を譲りましょう」と呼びかけるということは、普通の席に座っている元気な人は、席を譲らなくていいということになるのではないかということだ。",
+      "passage_source": "和栗雅子等「読むトレーニング」スリーエーネットワークによる",
+      "stem_jp": "②「人々のモラルが低下している」とあるが、筆者が「モラルの低下」と言っているのはどういうことを指しているのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "元気な人が席を譲るのは当たり前であること"
+        },
+        {
+          "key": "2",
+          "text_jp": "お年寄りや体の不自由な人が座っていること"
+        },
+        {
+          "key": "3",
+          "text_jp": "普通の席にいる元気な人が席を譲らなくなること"
+        },
+        {
+          "key": "4",
+          "text_jp": "お年寄りや体の不自由な人でも座りたくない人がいること"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-013",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 71,
+      "knowledge_id": "reading:dokkai-medium-13",
+      "section": "中文",
+      "no": 13,
+      "passage_jp": "日本ではよく人に贈り物をします。結婚、出産、入学などのお祝いや病気などのお見舞いに物やお金を贈ります。またお盆の前と年末には、いつもお世話になっている人に感謝の気持ちを込めて、食料品や日用品などを贈ります。\nまた最近では、これ以外にも①いろいろな機会にプレゼントをするようになりました。例えば5月の「母の日」、6月の「父の日」、それに12月のクリスマス、2月のバレンタインデーなどです。これらのシーズン中、デパートのプレゼント売り場はどこも人でいっぱいになります。\n手紙も日本人の生活の中で大切な役割を果たしています。7月の下旬とお正月には、友人や知人に葉書を出します。7月の葉書を「暑中見舞い」、お正月の葉書を「年賀状」といいます。特に②年賀状は一人で何百枚も出す人もいます。",
+      "passage_source": "海外技術者研修協会「新日本語の中級」スリーエーネットワークによる",
+      "stem_jp": "①「いろいろな機会」とあるが、ここの「機会」に当たらないものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "卒業"
+        },
+        {
+          "key": "2",
+          "text_jp": "転勤"
+        },
+        {
+          "key": "3",
+          "text_jp": "成人"
+        },
+        {
+          "key": "4",
+          "text_jp": "就職"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-014",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 71,
+      "knowledge_id": "reading:dokkai-medium-14",
+      "section": "中文",
+      "no": 14,
+      "passage_jp": "日本ではよく人に贈り物をします。結婚、出産、入学などのお祝いや病気などのお見舞いに物やお金を贈ります。またお盆の前と年末には、いつもお世話になっている人に感謝の気持ちを込めて、食料品や日用品などを贈ります。\nまた最近では、これ以外にも①いろいろな機会にプレゼントをするようになりました。例えば5月の「母の日」、6月の「父の日」、それに12月のクリスマス、2月のバレンタインデーなどです。これらのシーズン中、デパートのプレゼント売り場はどこも人でいっぱいになります。\n手紙も日本人の生活の中で大切な役割を果たしています。7月の下旬とお正月には、友人や知人に葉書を出します。7月の葉書を「暑中見舞い」、お正月の葉書を「年賀状」といいます。特に②年賀状は一人で何百枚も出す人もいます。",
+      "passage_source": "海外技術者研修協会「新日本語の中級」スリーエーネットワークによる",
+      "stem_jp": "②「年賀状は一人で何百枚も出す人もいます」とあるが、どういうことを言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "郵便局の収入"
+        },
+        {
+          "key": "2",
+          "text_jp": "家の支出"
+        },
+        {
+          "key": "3",
+          "text_jp": "年末の忙しさ"
+        },
+        {
+          "key": "4",
+          "text_jp": "数の自慢"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-015",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 71,
+      "knowledge_id": "reading:dokkai-medium-15",
+      "section": "中文",
+      "no": 15,
+      "passage_jp": "日本ではよく人に贈り物をします。結婚、出産、入学などのお祝いや病気などのお見舞いに物やお金を贈ります。またお盆の前と年末には、いつもお世話になっている人に感謝の気持ちを込めて、食料品や日用品などを贈ります。\nまた最近では、これ以外にも①いろいろな機会にプレゼントをするようになりました。例えば5月の「母の日」、6月の「父の日」、それに12月のクリスマス、2月のバレンタインデーなどです。これらのシーズン中、デパートのプレゼント売り場はどこも人でいっぱいになります。\n手紙も日本人の生活の中で大切な役割を果たしています。7月の下旬とお正月には、友人や知人に葉書を出します。7月の葉書を「暑中見舞い」、お正月の葉書を「年賀状」といいます。特に②年賀状は一人で何百枚も出す人もいます。",
+      "passage_source": "海外技術者研修協会「新日本語の中級」スリーエーネットワークによる",
+      "stem_jp": "この文は日本人のどういう面を表しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "礼儀正しさ"
+        },
+        {
+          "key": "2",
+          "text_jp": "行事熱心さ"
+        },
+        {
+          "key": "3",
+          "text_jp": "プレゼント好き"
+        },
+        {
+          "key": "4",
+          "text_jp": "デパートの儲け"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-016",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 73,
+      "knowledge_id": "reading:dokkai-medium-16",
+      "section": "中文",
+      "no": 16,
+      "passage_jp": "クリスマスは、どのような日か知っていますね。日本では宗教に関係なく、この日に贈り物をし合う人がたくさんいます。恋人同士、両親から小さな子供たちへ、友達同士で。\n贈り物といえば、バレンタインデー（2月14日）。日本では女から男にチョコレートを送って、愛の気持ちを伝えます。小学生でさえお気に入りの男の子に渡します。素直に喜べないチョコレートもあります。これは義理チョコと言って、女の人が会社の上司にそっとあげたりします。愛の告白ではないけれど、日ごろお世話になっているお礼でしょう。\nチョコレートをもらった人は、3月14日にそのお返しをします。白いもの、たとえばホワイトチョコレートなどをお返しするからでしょうか、その日をホワイトデーと呼んでいます。\nクリスマスもバレンタインデーも、何やらお菓子屋さんの商業主義に乗せられた感じですね。",
+      "passage_source": "芦川明子等「実践日本語シリーズ・名詞」専門出版社による",
+      "stem_jp": "「義理チョコ」を買う女の気持ちは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あげなくてもいいんだけど、あげないとまずい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "あげたくないから、いやいやあげる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "あげたいから、喜んであげる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "あげたくないけど、しかられるからあげる。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-017",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 73,
+      "knowledge_id": "reading:dokkai-medium-17",
+      "section": "中文",
+      "no": 17,
+      "passage_jp": "クリスマスは、どのような日か知っていますね。日本では宗教に関係なく、この日に贈り物をし合う人がたくさんいます。恋人同士、両親から小さな子供たちへ、友達同士で。\n贈り物といえば、バレンタインデー（2月14日）。日本では女から男にチョコレートを送って、愛の気持ちを伝えます。小学生でさえお気に入りの男の子に渡します。素直に喜べないチョコレートもあります。これは義理チョコと言って、女の人が会社の上司にそっとあげたりします。愛の告白ではないけれど、日ごろお世話になっているお礼でしょう。\nチョコレートをもらった人は、3月14日にそのお返しをします。白いもの、たとえばホワイトチョコレートなどをお返しするからでしょうか、その日をホワイトデーと呼んでいます。\nクリスマスもバレンタインデーも、何やらお菓子屋さんの商業主義に乗せられた感じですね。",
+      "passage_source": "芦川明子等「実践日本語シリーズ・名詞」専門出版社による",
+      "stem_jp": "「ホワイトデー」とは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "女の人が男の人にチョコレートをあげる日"
+        },
+        {
+          "key": "2",
+          "text_jp": "男の人が女の人にチョコレートをあげる日"
+        },
+        {
+          "key": "3",
+          "text_jp": "女の人が男の人に白いチョコレートなどをあげる日"
+        },
+        {
+          "key": "4",
+          "text_jp": "男の人が女の人に白いチョコレートなどをあげる日"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-018",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 73,
+      "knowledge_id": "reading:dokkai-medium-18",
+      "section": "中文",
+      "no": 18,
+      "passage_jp": "クリスマスは、どのような日か知っていますね。日本では宗教に関係なく、この日に贈り物をし合う人がたくさんいます。恋人同士、両親から小さな子供たちへ、友達同士で。\n贈り物といえば、バレンタインデー（2月14日）。日本では女から男にチョコレートを送って、愛の気持ちを伝えます。小学生でさえお気に入りの男の子に渡します。素直に喜べないチョコレートもあります。これは義理チョコと言って、女の人が会社の上司にそっとあげたりします。愛の告白ではないけれど、日ごろお世話になっているお礼でしょう。\nチョコレートをもらった人は、3月14日にそのお返しをします。白いもの、たとえばホワイトチョコレートなどをお返しするからでしょうか、その日をホワイトデーと呼んでいます。\nクリスマスもバレンタインデーも、何やらお菓子屋さんの商業主義に乗せられた感じですね。",
+      "passage_source": "芦川明子等「実践日本語シリーズ・名詞」専門出版社による",
+      "stem_jp": "この文から見える日本人の一面は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "甘いものを好む。"
+        },
+        {
+          "key": "2",
+          "text_jp": "行事を楽しむ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "恋人を大切に思う。"
+        },
+        {
+          "key": "4",
+          "text_jp": "菓子メーカーを助ける。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    }
+  ]
+}

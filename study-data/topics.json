@@ -427,6 +427,17 @@
     "gradable": true
   },
   {
+    "id": "dokkai-n3-medium",
+    "title": "Đọc hiểu N3 (trung bình)",
+    "description": "Bài đọc hiểu 中文 (~350 chữ) kèm đáp án — đang bổ sung từ sách 115 bài.",
+    "notice": "Bản partial; mục tiêu 90 câu 中文.",
+    "count": 18,
+    "unit": "câu",
+    "path": "./study-data/dokkai-n3-medium.json",
+    "group": "practice",
+    "gradable": true
+  },
+  {
     "id": "tu-chi-phi",
     "title": "Từ liên quan chi phí",
     "description": "Nhóm 代・料・費・賃.",
