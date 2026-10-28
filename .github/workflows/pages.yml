@@ -31,12 +31,17 @@ jobs:
           node --check study-render.js
           node --check study-flash.js
           node --check grammar.js
+          node --check release.js
           node --check sw.js
           node --check register-sw.js
+      - name: Check asset version consistency
+        run: node scripts/check-asset-versions.mjs
+      - name: Module upgrade A→B contract
+        run: node scripts/test-module-upgrade.mjs
       - name: Storage merge smoke test
-        run: node scripts/test-storage-merge.mjs
+        run: node --import ./scripts/strip-asset-query-hook.mjs scripts/test-storage-merge.mjs
       - name: Star rearrange acceptance
-        run: node scripts/test-star-rearrange.mjs
+        run: node --import ./scripts/strip-asset-query-hook.mjs scripts/test-star-rearrange.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

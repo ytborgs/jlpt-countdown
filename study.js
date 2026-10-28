@@ -4,22 +4,22 @@ import {
   loadStudyProgress, saveStudyProgress, hydrateStudyProgress,
   loadStudyKnown, hydrateStudyKnown, saveStudyKnown, patchStudyKnown,
   pruneStudyProgress, pruneStudyKnown, topicCatalogProgress,
-} from './study-storage.js';
+} from './study-storage.js?v=42';
 import {
   el, filterStudy, topicNotice, createTopicCard, createStudyCard,
   openStudyExplanation, createPracticeStem, createStarStem, buildStarExplanationNodes,
   highlightTargetInExample,
-} from './study-render.js';
+} from './study-render.js?v=42';
 import {
   hasAnswer, isPracticeAnswered, buildPracticeSessionQueue as buildQueue,
   createSessionController,
-} from './study-session.js';
+} from './study-session.js?v=42';
 import {
   shuffleItems, flashHeadForItem, flashMeaningForItem, flashExampleTarget,
   createFlashController,
-} from './study-flash.js';
+} from './study-flash.js?v=42';
 
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '41';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '42';
 const SESSION_SHORT = 20;
 
 export {
@@ -699,5 +699,29 @@ async function startStudy() {
     load({ restoreCatalog: returningToCatalog });
   });
   await load({ restoreCatalog: !parseStudyHash().id && !!loadCatalogState() });
+  if (typeof window !== 'undefined' && window.__STUDY_BOOT__) {
+    window.__STUDY_BOOT__.ready = true;
+    window.__STUDY_BOOT__.phase = 'ready';
+  }
 }
-if (typeof document !== 'undefined') startStudy();
+const markBoot = (phase, extra = {}) => {
+  if (typeof window === 'undefined' || !window.__STUDY_BOOT__) return;
+  window.__STUDY_BOOT__.phase = phase;
+  Object.assign(window.__STUDY_BOOT__, extra);
+};
+if (typeof document !== 'undefined') {
+  markBoot('starting');
+  Promise.resolve()
+    .then(() => startStudy())
+    .then(() => markBoot('ready', { ready: true }))
+    .catch(error => {
+      markBoot('error', { ready: false, errorMessage: String(error && error.message || error) });
+      console.error('[study-boot]', {
+        release: window.__STUDY_BOOT__?.release,
+        phase: 'startStudy',
+        message: String(error && error.message || error),
+        asset: import.meta.url,
+      });
+      window.dispatchEvent(new CustomEvent('study-boot-error', { detail: { phase: 'startStudy', error } }));
+    });
+}
