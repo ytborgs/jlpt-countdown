@@ -438,10 +438,21 @@
     "gradable": false
   },
   {
+    "id": "tu-noi-collection",
+    "title": "Từ nối (collection 7 trang)",
+    "description": "Bản ngắn trong folder TỪ VỰNG — khác edition 15 trang (connectors).",
+    "notice": "Edition collection 7p; không trùng id/progress với connectors. Cần đối chiếu PDF.",
+    "count": 48,
+    "unit": "mục",
+    "path": "./study-data/tu-noi-collection.json",
+    "group": "vocab",
+    "gradable": false
+  },
+  {
     "id": "so-tay-pho-tu",
     "title": "Sổ tay phó từ N3",
     "description": "Phó từ từ sổ tay (gộp phần 1–6).",
-    "notice": "Visual transcription — đối chiếu PDF nếu cần.",
+    "notice": "Visual transcription — gộp 6 phần.",
     "count": 180,
     "unit": "mục",
     "path": "./study-data/so-tay-pho-tu.json",

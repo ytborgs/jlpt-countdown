@@ -1,6 +1,6 @@
 const CACHE_PREFIX = 'jlpt-n3-';
 const CACHE = 'jlpt-n3-v46-reading';
-const RELEASE = '45';
+const RELEASE = '46';
 const ASSETS = [
   './', './index.html', './manifest.webmanifest', './icon.svg', './apple-touch-icon.png',
   './grammar.html', './grammar.js', `./grammar.js?v=${RELEASE}`, './grammar.css', './grammar.json',
