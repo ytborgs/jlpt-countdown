@@ -150,10 +150,10 @@ Khi sửa dữ liệu:
 3. Đẩy thay đổi lên nhánh `main`. Workflow **Deploy GitHub Pages** sẽ tự chạy; cũng có thể chạy thủ công từ tab **Actions**.
 4. Kiểm tra workflow thành công rồi mở [website đã triển khai](https://ytborgs.github.io/jlpt-countdown/).
 
-Khi cập nhật tài nguyên được lưu offline, tăng phiên bản `CACHE` trong `sw.js`. Nếu thêm trang, CSS, JavaScript hoặc dữ liệu mới cần dùng offline, bổ sung đường dẫn vào `ASSETS`. Sau khi triển khai, tải lại ứng dụng khi có mạng để nhận phiên bản mới.
+Khi cập nhật tài nguyên offline: tăng `RELEASE` trong `release.js`, đồng bộ `?v=` trên toàn module graph + `study.html` + `CACHE`/`ASSETS` trong `sw.js`, rồi chạy `node scripts/check-asset-versions.mjs`. Worker mới chỉ kích hoạt khi người dùng bấm **Cập nhật** (không tự `skipWaiting` lúc install).
 
 
-Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=41`, `study.css?v=41` và JSON `?v=41` (Kanji 420 + bộ dấu sao 84 câu). Logic tách module: `study-storage.js`, `study-session.js`, `study-render.js`, `study-flash.js` (glue `study.js`). Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline dùng prefix `jlpt-n3-`. Trước khi deploy Pages, CI chạy `scripts/validate-study-data.mjs` và `scripts/test-star-rearrange.mjs`. Sticky study tối giản; Phiên = viewport shell; FAB **Ôn nhanh** / trang chủ **Học**. Hash topic dấu sao: `#star-rearrange`.
+Tài nguyên trang study dùng release đồng bộ (`release.js`, hiện `v=42`): HTML/entry, mọi import trong module graph (`study-*.js`, `grammar.js`), CSS và JSON data. Service worker precache cùng URL versioned, **không** `skipWaiting` ngay — hiện banner “Đã có phiên bản mới” / Cập nhật. Study bootstrap bắt lỗi import/timeout và hiện Thử lại / Tải bản mới (không xóa tiến độ). Cache offline prefix `jlpt-n3-`. CI: `validate-study-data`, `check-asset-versions`, `test-module-upgrade`, `test-storage-merge`, `test-star-rearrange`. Hash topic dấu sao: `#star-rearrange`.
 
 Giới hạn dữ liệu v8: 3 câu chưa có tóm tắt và 1 lựa chọn chưa có nghĩa VI riêng; các lý do đúng/sai vẫn được hiển thị theo JSON. Ứng dụng không tự bổ sung những trường này.
 

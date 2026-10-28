@@ -233,3 +233,11 @@ body.study-flash-active #study-flash-fab{display:none !important}
 .study-explain-vi{color:var(--muted);margin:0 0 12px}
 .study-star-order,.study-star-position-note,.study-explain-choice-line{margin:0 0 8px}
 .study-star-grammar .study-explain-item strong{color:var(--accent)}
+
+/* Boot recovery (independent of module graph) */
+.study-boot-fallback{margin:10px 0 0;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.study-boot-fallback[hidden]{display:none!important}
+.study-boot-detail{margin:0 0 10px;font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+.study-boot-actions{display:flex;flex-wrap:wrap;gap:8px}
+.study-boot-actions button{font:inherit;font-size:14px;padding:8px 12px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text);cursor:pointer}
+.study-boot-actions #study-boot-fresh{border-color:var(--accent);color:var(--bg);background:var(--accent);font-weight:700}

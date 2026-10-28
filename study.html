@@ -7,8 +7,68 @@
   <title>Tài liệu ôn tập N3 tổng hợp</title>
   <link rel="icon" type="image/svg+xml" href="./icon.svg">
   <link rel="stylesheet" href="./grammar.css">
-  <link rel="stylesheet" href="./study.css?v=41">
-  <script type="module" src="./study.js?v=41"></script>
+  <link rel="stylesheet" href="./study.css?v=42">
+  <script>
+    window.__STUDY_BOOT__ = {
+      release: '42',
+      ready: false,
+      phase: 'html',
+      startedAt: Date.now(),
+    };
+  </script>
+  <script type="module">
+    const boot = window.__STUDY_BOOT__;
+    const statusEl = () => document.getElementById('study-status');
+    const fallback = () => document.getElementById('study-boot-fallback');
+    const detail = () => document.getElementById('study-boot-detail');
+
+    const showRecovery = (reason, error) => {
+      if (boot.ready) return;
+      boot.phase = 'recovery:' + reason;
+      const box = fallback();
+      if (box) box.hidden = false;
+      const status = statusEl();
+      if (status) status.textContent = 'Không tải được trang ôn tập. Hãy thử lại hoặc tải bản mới.';
+      if (detail()) {
+        detail().textContent = [
+          'release=' + boot.release,
+          'phase=' + reason,
+          error && error.message ? 'error=' + error.message : '',
+        ].filter(Boolean).join(' · ');
+      }
+      console.error('[study-boot]', {
+        release: boot.release,
+        phase: reason,
+        message: error && error.message,
+        name: error && error.name,
+      });
+    };
+
+    window.addEventListener('study-boot-error', event => {
+      showRecovery(event.detail?.phase || 'event', event.detail?.error);
+    });
+
+    const BOOT_TIMEOUT_MS = 15000;
+    const timer = setTimeout(() => {
+      if (!boot.ready) showRecovery('timeout');
+    }, BOOT_TIMEOUT_MS);
+
+    import('./study.js?v=42')
+      .then(() => { boot.phase = 'module-loaded'; })
+      .catch(error => {
+        clearTimeout(timer);
+        showRecovery('import', error);
+      });
+
+    const clearWhenReady = setInterval(() => {
+      if (boot.ready) {
+        clearTimeout(timer);
+        clearInterval(clearWhenReady);
+        const box = fallback();
+        if (box) box.hidden = true;
+      }
+    }, 250);
+  </script>
   <script src="./register-sw.js" defer></script>
 </head>
 <body class="grammar-library-page study-page"><main>
@@ -18,6 +78,13 @@
     <input class="grammar-search" id="study-search" type="search" placeholder="Tìm tài liệu…" autocomplete="off">
     <nav id="study-group-filters" class="study-group-filters" aria-label="Lọc theo nhóm tài liệu" hidden></nav>
     <p class="grammar-status" id="study-status" role="status">Đang tải tài liệu…</p>
+    <div id="study-boot-fallback" class="study-boot-fallback" hidden>
+      <p id="study-boot-detail" class="study-boot-detail"></p>
+      <div class="study-boot-actions">
+        <button type="button" id="study-boot-retry">Thử lại</button>
+        <button type="button" id="study-boot-fresh">Tải bản mới</button>
+      </div>
+    </div>
   <section id="study-progress" class="study-progress study-practice-progress" aria-label="Tiến độ luyện tập" hidden>
     <div class="study-practice-strip">
       <nav id="study-view-mode" class="study-view-mode" aria-label="Chế độ xem" hidden></nav>
@@ -116,5 +183,17 @@
     <div id="study-explanation-content" class="study-explain study-modal-content"></div>
   </div>
 </dialog>
+<script>
+  (() => {
+    const retry = document.getElementById('study-boot-retry');
+    const fresh = document.getElementById('study-boot-fresh');
+    if (retry) retry.addEventListener('click', () => location.reload());
+    if (fresh) fresh.addEventListener('click', () => {
+      const url = new URL(location.href);
+      url.searchParams.set('_r', String(Date.now()));
+      location.replace(url.pathname + url.search + url.hash);
+    });
+  })();
+</script>
 </body>
 </html>

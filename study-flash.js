@@ -1,7 +1,7 @@
 /** Flashcard mode helpers + controller factory. */
 
-import { createRubyText } from './grammar.js';
-import { el, highlightTargetInExample } from './study-render.js';
+import { createRubyText } from './grammar.js?v=42';
+import { el, highlightTargetInExample } from './study-render.js?v=42';
 
 export const shuffleItems = items => {
   const list = [...items];

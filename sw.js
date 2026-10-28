@@ -1,25 +1,31 @@
 const CACHE_PREFIX = 'jlpt-n3-';
-const CACHE = 'jlpt-n3-v42-star-rearrange';
+const CACHE = 'jlpt-n3-v43-module-graph';
+const RELEASE = '42';
 const ASSETS = [
   './', './index.html', './manifest.webmanifest', './icon.svg', './apple-touch-icon.png',
-  './grammar.html', './grammar.js', './grammar.css', './grammar.json',
+  './grammar.html', './grammar.js', `./grammar.js?v=${RELEASE}`, './grammar.css', './grammar.json',
   './settings.html', './profile.html', './settings.css', './settings.js',
-  './study.html', './study.css?v=41', './study.js?v=41',
-  './study-storage.js', './study-session.js', './study-render.js', './study-flash.js',
-  './register-sw.js',
-  './study-data/topics.json?v=41', './study-data/grammar.json?v=41', './study-data/kanji.json?v=41',
-  './study-data/verbs.json?v=41', './study-data/kanji-quiz.json?v=41', './study-data/synonyms.json?v=41',
-  './study-data/usage-quiz.json?v=41', './study-data/hard-quiz.json?v=41', './study-data/near-synonyms.json?v=41',
-  './study-data/star-rearrange.json?v=41',
-  './study-data/adverbs.json?v=41', './study-data/adverb-patterns.json?v=41', './study-data/bi-kip-answers.json?v=41',
-  './study-data/bi-kip.json?v=41', './study-data/connectors.json?v=41', './study-data/exam-tips.json?v=41',
-  './study-data/grammar-set.json?v=41', './study-data/jido-tado.json?v=41', './study-data/ebook-grammar.json?v=41',
-  './study-data/so-tay-idioms.json?v=41',
+  './study.html', `./study.css?v=${RELEASE}`, `./study.js?v=${RELEASE}`,
+  `./study-storage.js?v=${RELEASE}`, `./study-session.js?v=${RELEASE}`,
+  `./study-render.js?v=${RELEASE}`, `./study-flash.js?v=${RELEASE}`,
+  './release.js', './register-sw.js',
+  `./study-data/topics.json?v=${RELEASE}`, `./study-data/grammar.json?v=${RELEASE}`, `./study-data/kanji.json?v=${RELEASE}`,
+  `./study-data/verbs.json?v=${RELEASE}`, `./study-data/kanji-quiz.json?v=${RELEASE}`, `./study-data/synonyms.json?v=${RELEASE}`,
+  `./study-data/usage-quiz.json?v=${RELEASE}`, `./study-data/hard-quiz.json?v=${RELEASE}`, `./study-data/near-synonyms.json?v=${RELEASE}`,
+  `./study-data/star-rearrange.json?v=${RELEASE}`,
+  `./study-data/adverbs.json?v=${RELEASE}`, `./study-data/adverb-patterns.json?v=${RELEASE}`, `./study-data/bi-kip-answers.json?v=${RELEASE}`,
+  `./study-data/bi-kip.json?v=${RELEASE}`, `./study-data/connectors.json?v=${RELEASE}`, `./study-data/exam-tips.json?v=${RELEASE}`,
+  `./study-data/grammar-set.json?v=${RELEASE}`, `./study-data/jido-tado.json?v=${RELEASE}`, `./study-data/ebook-grammar.json?v=${RELEASE}`,
+  `./study-data/so-tay-idioms.json?v=${RELEASE}`,
 ];
 
 const isNavRequest = request =>
   request.mode === 'navigate' ||
   (request.method === 'GET' && request.headers.get('accept')?.includes('text/html'));
+
+const isScriptOrData = url =>
+  /\.(?:js|mjs|css|json|webmanifest)(?:$|\?)/i.test(url.pathname + url.search) ||
+  url.pathname.includes('/study-data/');
 
 const htmlFallback = url => {
   const path = url.pathname.replace(/\/$/, '/') || '/';
@@ -31,7 +37,12 @@ const htmlFallback = url => {
 };
 
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
+  // Precache the new release but stay in waiting until the client asks to activate.
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
+});
+
+self.addEventListener('message', event => {
+  if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
 });
 
 self.addEventListener('activate', event => {
@@ -52,15 +63,17 @@ self.addEventListener('fetch', event => {
   event.respondWith((async () => {
     try {
       const response = await fetch(event.request);
+      // Never treat error/HTML error pages as successful module/data responses.
       if (response.ok) {
         const copy = response.clone();
-        caches.open(CACHE).then(cache => cache.put(event.request, copy));
+        event.waitUntil(caches.open(CACHE).then(cache => cache.put(event.request, copy)));
       }
       return response;
     } catch {
       const cached = await caches.match(event.request);
       if (cached) return cached;
-      if (isNavRequest(event.request)) {
+      // HTML fallback only for navigations — never for JS/JSON/CSS.
+      if (isNavRequest(event.request) && !isScriptOrData(url)) {
         const fallback = await caches.match(htmlFallback(url));
         if (fallback) return fallback;
       }
