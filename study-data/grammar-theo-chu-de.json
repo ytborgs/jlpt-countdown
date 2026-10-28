@@ -1,0 +1,1102 @@
+{
+  "schema_version": "1.0",
+  "document_id": "grammar-theo-chu-de",
+  "type": "grammar",
+  "level": "N3",
+  "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+  "source_path": "study-materials/TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+  "title": "Tổng hợp NP N3 theo chủ đề (có giải thích) — pilot",
+  "page_count": 100,
+  "item_count": 24,
+  "expected_item_count": 120,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-28T23:29:33+00:00",
+  "producer": "cursor-agent/visual-transcription:grammar-theo-chu-de-pilot",
+  "status": "partial",
+  "needs_verify_count": 14,
+  "notes": [
+    "PDF scan 100 trang, text layer trống → visual_transcription.",
+    "Pilot: 24 mẫu (số 01–24) từ ~trang 1–18; bỏ trang bài tập Mondai.",
+    "expected_item_count=120 ước lượng từ nhịp đánh số mẫu (01–27/~22 trang PDF).",
+    "Render cache: $HOME/Library/Caches/n3-study/l2-grammar-theo-chu-de/",
+    "Branding nguồn đã loại khỏi item; source_path anonymized study-materials/."
+  ],
+  "items": [
+    {
+      "id": "grammar-theo-chu-de-01",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 1,
+      "theme": "理由・原因",
+      "knowledge_id": "grammar:94322c30ab",
+      "pattern": "～せい",
+      "meaning": "〜が原因で、悪い結果になった",
+      "meaning_vi": "Vì… (nguyên nhân dẫn đến kết quả xấu)",
+      "structure": "普通形（ナAだ→な／Nだ→の）＋せい（で／か／だ）",
+      "usage": "Nhấn mạnh nguyên nhân gây kết quả xấu / trách nhiệm.",
+      "example_jp": "テストの結果が悪かったのは、しっかり勉強しなかったせいだ。",
+      "example_vi": "Kết quả bài kiểm tra kém là vì tôi không học chăm chỉ.",
+      "examples": [
+        {
+          "jp": "テストの結果が悪かったのは、しっかり勉強しなかったせいだ。",
+          "vi": "Kết quả bài kiểm tra kém là vì tôi không học chăm chỉ."
+        },
+        {
+          "jp": "雨が降り続いたせいで、夏祭りが中止になった。",
+          "vi": "Vì mưa kéo dài nên lễ hội hè bị hủy."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～せい"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "テストの結果が悪かったのは、しっかり勉強しなかったせいだ。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 1 (chủ đề 理由・原因)."
+    },
+    {
+      "id": "grammar-theo-chu-de-02",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 1,
+      "theme": "理由・原因",
+      "knowledge_id": "grammar:3b827887d8",
+      "pattern": "～おかげ",
+      "meaning": "〜が原因で、いい結果になった",
+      "meaning_vi": "Nhờ… (nguyên nhân dẫn đến kết quả tốt)",
+      "structure": "普通形（ナAだ→な・である／Nだ→の・である）＋おかげ（で／か／だ）",
+      "usage": "Cảm ơn / nhờ sự giúp đỡ; kết quả tốt. ★おかげさまで",
+      "example_jp": "先生が日本語を教えてくれたおかげで、試験に合格することができた。",
+      "example_vi": "Nhờ thầy dạy tiếng Nhật mà tôi đã đỗ kỳ thi.",
+      "examples": [
+        {
+          "jp": "先生が日本語を教えてくれたおかげで、試験に合格することができた。",
+          "vi": "Nhờ thầy dạy tiếng Nhật mà tôi đã đỗ kỳ thi."
+        },
+        {
+          "jp": "こうしてプロの選手になれたのも、指導してくれた父のおかげだ。",
+          "vi": "Tôi có thể trở thành vận động viên chuyên nghiệp cũng nhờ bố đã chỉ dạy."
+        },
+        {
+          "jp": "みんなの応援のおかげで、苦しくても最後まで走ることができた。",
+          "vi": "Nhờ mọi người cổ vũ, dù khổ cũng chạy được đến cuối."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～おかげ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "先生が日本語を教えてくれたおかげで、試験に合格することができた。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 1 (chủ đề 理由・原因)."
+    },
+    {
+      "id": "grammar-theo-chu-de-03",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 2,
+      "theme": "理由・原因",
+      "knowledge_id": "grammar:272e6b1219",
+      "pattern": "～ものだから／もので／もの・もん",
+      "meaning": "〜だから",
+      "meaning_vi": "Vì… (giải thích lý do, thân mật)",
+      "structure": "普通形（ナAだ→な／Nだ→な）＋ものだから／もので；普通形＋もの／もん",
+      "usage": "Giải thích lý do; 「もん」 thân mật.",
+      "example_jp": "宿題を忘れてしまったものだから、先生に怒られてしまった。",
+      "example_vi": "Vì quên bài tập nên bị thầy giận.",
+      "examples": [
+        {
+          "jp": "宿題を忘れてしまったものだから、先生に怒られてしまった。",
+          "vi": "Vì quên bài tập nên bị thầy giận."
+        },
+        {
+          "jp": "だって、お腹空いてるんだもん。",
+          "vi": "Tại đang đói bụng mà."
+        },
+        {
+          "jp": "久しぶりの買い物だったもので、つい買い過ぎてしまいました。",
+          "vi": "Vì lâu rồi mới đi mua sắm nên mua quá nhiều."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ものだから／もので／もの・もん"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "宿題を忘れてしまったものだから、先生に怒られてしまった。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "OCR ví dụ ① có 「発生」— đã sửa thành 先生 theo ngữ cảnh VI; cần đối ảnh.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 2 (chủ đề 理由・原因)."
+    },
+    {
+      "id": "grammar-theo-chu-de-04",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 2,
+      "theme": "理由・原因",
+      "knowledge_id": "grammar:777539d380",
+      "pattern": "～ため（に／だ）",
+      "meaning": "〜なので（お知らせなど、たくさんの人に伝える場面で使う）",
+      "meaning_vi": "Vì… (thông báo / truyền đạt cho nhiều người)",
+      "structure": "普通形（ナAだ→な・である／Nだ→の・である）＋ため（に／だ）",
+      "usage": "Lý do khách quan, văn viết/thông báo.",
+      "example_jp": "急に店を休みにしたのは、冷蔵庫の調子が悪いためだ。",
+      "example_vi": "Đột ngột nghỉ cửa hàng vì tủ lạnh không ổn định.",
+      "examples": [
+        {
+          "jp": "急に店を休みにしたのは、冷蔵庫の調子が悪いためだ。",
+          "vi": "Đột ngột nghỉ cửa hàng vì tủ lạnh không ổn định."
+        },
+        {
+          "jp": "相手の気持ちを考えずに言ってしまったために、ひどく傷つけてしまった。",
+          "vi": "Vì nói mà không nghĩ cảm xúc đối phương nên đã làm tổn thương nặng."
+        },
+        {
+          "jp": "体調が悪いため、今日は仕事を休みました。",
+          "vi": "Vì sức khỏe không tốt nên hôm nay nghỉ làm."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ため（に／だ）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "急に店を休みにしたのは、冷蔵庫の調子が悪いためだ。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 2 (chủ đề 理由・原因)."
+    },
+    {
+      "id": "grammar-theo-chu-de-05",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 2,
+      "theme": "理由・原因",
+      "knowledge_id": "grammar:53560eed2b",
+      "pattern": "～のだから／のですから／んだから",
+      "meaning": "〜なので（相手もわかっていること）",
+      "meaning_vi": "Vì… (đối phương cũng đã biết lý do)",
+      "structure": "普通形（ナAだ→な／Nだ→な）＋のだから／のですから／んだから／んですから",
+      "usage": "Nhắc lý do đối phương đã biết, thường kèm lời khuyên/nhắc nhở.",
+      "example_jp": "最近ちゃんと眠れていないのですから、今日は早く寝てください。",
+      "example_vi": "Gần đây ngủ không đủ nên hôm nay hãy ngủ sớm.",
+      "examples": [
+        {
+          "jp": "最近ちゃんと眠れていないのですから、今日は早く寝てください。",
+          "vi": "Gần đây ngủ không đủ nên hôm nay hãy ngủ sớm."
+        },
+        {
+          "jp": "せっかくのパーティーなんですから、楽しんでいってくださいね。",
+          "vi": "Đã mất công mở tiệc rồi nên hãy vui vẻ nhé."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～のだから／のですから／んだから"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "最近ちゃんと眠れていないのですから、今日は早く寝てください。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Ví dụ ① trên ảnh OCR lệch nặng (茶さん/単の発許) — bỏ ví dụ đó khỏi export; chỉ giữ ②③ rõ hơn.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 2 (chủ đề 理由・原因)."
+    },
+    {
+      "id": "grammar-theo-chu-de-06",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 3,
+      "theme": "理由・原因",
+      "knowledge_id": "grammar:fe40da048f",
+      "pattern": "～をきっかけに／がきっかけで",
+      "meaning": "〜のときから、・・・を始めた",
+      "meaning_vi": "Lấy… làm cơ hội / từ khi đó bắt đầu…",
+      "structure": "Vた＋ことをきっかけに／ことがきっかけで／のをきっかけに／のがきっかけで；N＋をきっかけに／がきっかけで",
+      "usage": "Sự việc trở thành khởi điểm cho thay đổi/hành động mới.",
+      "example_jp": "仕事を辞めたのがきっかけで、世界をまわる旅をしようと思うようになった。",
+      "example_vi": "Việc nghỉ việc là cơ hội khiến tôi muốn đi du lịch vòng quanh thế giới.",
+      "examples": [
+        {
+          "jp": "仕事を辞めたのがきっかけで、世界をまわる旅をしようと思うようになった。",
+          "vi": "Việc nghỉ việc là cơ hội khiến tôi muốn đi du lịch vòng quanh thế giới."
+        },
+        {
+          "jp": "子どものころに見た映画がきっかけで、音楽を学ぶようになった。",
+          "vi": "Bộ phim xem hồi nhỏ là duyên khiến tôi học âm nhạc."
+        },
+        {
+          "jp": "パソコンを買ったのをきっかけに、書類の作り方を覚えた。",
+          "vi": "Nhân mua máy tính mà tôi học cách làm giấy tờ."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～をきっかけに／がきっかけで"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "仕事を辞めたのがきっかけで、世界をまわる旅をしようと思うようになった。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Một số Kanji OCR lệch (世中/意う/見えた); đã chỉnh theo nghĩa VI + ngữ cảnh.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 3 (chủ đề 理由・原因)."
+    },
+    {
+      "id": "grammar-theo-chu-de-07",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 3,
+      "theme": "理由・原因",
+      "knowledge_id": "grammar:07137e4147",
+      "pattern": "～わけだ",
+      "meaning": "①だから〜なんだね（納得）②〜ということだね（まとめる）",
+      "meaning_vi": "Ra là vậy / tóm lại là… (hiểu ra / tóm tắt)",
+      "structure": "普通形（ナAだ→な／Nだ→な）＋わけだ",
+      "usage": "Thể hiện sự thấu hiểu hoặc tóm tắt lời đối phương.",
+      "example_jp": "君の話をまとめると、つまり明日から一週間休みたいというわけだ。",
+      "example_vi": "Tóm lại chuyện của bạn là muốn nghỉ một tuần từ ngày mai.",
+      "examples": [
+        {
+          "jp": "君の話をまとめると、つまり明日から一週間休みたいというわけだ。",
+          "vi": "Tóm lại chuyện của bạn là muốn nghỉ một tuần từ ngày mai."
+        },
+        {
+          "jp": "佐藤さん、3年間海外で仕事をしていたんだってね。英語が上手なわけだ。",
+          "vi": "Nghe nói anh Sato làm việc ở nước ngoài 3 năm. Bảo sao tiếng Anh giỏi."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～わけだ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "君の話をまとめると、つまり明日から一週間休みたいというわけだ。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 3 (chủ đề 理由・原因)."
+    },
+    {
+      "id": "grammar-theo-chu-de-08",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 3,
+      "theme": "理由・原因",
+      "knowledge_id": "grammar:de1a9fa014",
+      "pattern": "～以来",
+      "meaning": "〜のときから、ずっと同じだ",
+      "meaning_vi": "Từ sau khi… (liên tục đến nay)",
+      "structure": "Vて／N＋以来",
+      "usage": "Mốc thời gian từ đó đến nay trạng thái kéo dài. ★あれ以来",
+      "example_jp": "彼女とは高校で出会って以来、ずっと一番の親友だ。",
+      "example_vi": "Từ khi gặp cô ấy ở trường cấp 3, vẫn là bạn thân nhất.",
+      "examples": [
+        {
+          "jp": "彼女とは高校で出会って以来、ずっと一番の親友だ。",
+          "vi": "Từ khi gặp cô ấy ở trường cấp 3, vẫn là bạn thân nhất."
+        },
+        {
+          "jp": "彼とは、あれ以来連絡を取っていない。",
+          "vi": "Từ lần đó đến nay tôi chưa liên lạc với anh ấy."
+        },
+        {
+          "jp": "初めて海外に行って以来、文化の違いに興味を持つようになった。",
+          "vi": "Từ lần đầu ra nước ngoài, tôi bắt đầu quan tâm khác biệt văn hóa."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～以来"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女とは高校で出会って以来、ずっと一番の親友だ。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "OCR 以来/文化 lệch ở ví dụ ③; đã sửa theo ngữ cảnh.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 3 (chủ đề 理由・原因)."
+    },
+    {
+      "id": "grammar-theo-chu-de-09",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 4,
+      "theme": "理由・原因",
+      "knowledge_id": "grammar:294baef39f",
+      "pattern": "～によって①（理由）",
+      "meaning": "〜が理由で",
+      "meaning_vi": "Do / vì (nguyên nhân)",
+      "structure": "N＋によって／により",
+      "usage": "Nguyên nhân khách quan gây ra kết quả.",
+      "example_jp": "病気の流行によって、生活や仕事の仕方が大きく変わった。",
+      "example_vi": "Do dịch bệnh mà cách sống và làm việc thay đổi nhiều.",
+      "examples": [
+        {
+          "jp": "病気の流行によって、生活や仕事の仕方が大きく変わった。",
+          "vi": "Do dịch bệnh mà cách sống và làm việc thay đổi nhiều."
+        },
+        {
+          "jp": "この本と出会ったことによって、本を読む楽しさがわかった。",
+          "vi": "Nhờ gặp cuốn sách này mà hiểu niềm vui đọc sách."
+        },
+        {
+          "jp": "大雪により、いくつかの道が通れなくなっている。",
+          "vi": "Do tuyết lớn, một số đường không đi được."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～によって①（理由）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "病気の流行によって、生活や仕事の仕方が大きく変わった。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "OCR ví dụ ③ thiếu 通; đã bổ sung theo nghĩa.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 4 (chủ đề 理由・原因)."
+    },
+    {
+      "id": "grammar-theo-chu-de-10",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 8,
+      "theme": "状況・変化",
+      "knowledge_id": "grammar:924413669d",
+      "pattern": "～まま",
+      "meaning": "変わらないで",
+      "meaning_vi": "Nguyên / vẫn giữ nguyên trạng",
+      "structure": "Vた／Vない／イA／ナAな＋まま；N＋のまま",
+      "usage": "Giữ nguyên trạng thái, không thay đổi. ★そのまま",
+      "example_jp": "私のふるさとの風景は、子どものころのまま変わっていない。",
+      "example_vi": "Phong cảnh quê tôi vẫn như lúc còn bé, không đổi.",
+      "examples": [
+        {
+          "jp": "私のふるさとの風景は、子どものころのまま変わっていない。",
+          "vi": "Phong cảnh quê tôi vẫn như lúc còn bé, không đổi."
+        },
+        {
+          "jp": "エアコンをつけたまま、家を出てしまった。",
+          "vi": "Tôi ra khỏi nhà mà vẫn để điều hòa bật."
+        },
+        {
+          "jp": "片付けはせず、そのままにしておいてください。",
+          "vi": "Không dọn cũng được, hãy để nguyên vậy."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～まま"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "私のふるさとの風景は、子どものころのまま変わっていない。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "OCR 風景/変わ/片付け; đã chỉnh.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 8 (chủ đề 状況・変化)."
+    },
+    {
+      "id": "grammar-theo-chu-de-11",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 8,
+      "theme": "状況・変化",
+      "knowledge_id": "grammar:6993fb5823",
+      "pattern": "～つつ",
+      "meaning": "〜ながら",
+      "meaning_vi": "Vừa… vừa… / trong khi… (văn viết)",
+      "structure": "Vます＋つつ",
+      "usage": "Đồng thời hai hành động; thường văn viết. Hay gặp ～つつも.",
+      "example_jp": "彼女が僕のことを好きではないと知りつつも、あきらめることができない。",
+      "example_vi": "Dù biết cô ấy không thích mình, vẫn không thể từ bỏ.",
+      "examples": [
+        {
+          "jp": "彼女が僕のことを好きではないと知りつつも、あきらめることができない。",
+          "vi": "Dù biết cô ấy không thích mình, vẫn không thể từ bỏ."
+        },
+        {
+          "jp": "洗濯しなければと思いつつも、疲れたせいか帰ってすぐに寝てしまった。",
+          "vi": "Đang nghĩ phải giặt đồ nhưng vì mệt về nhà ngủ luôn."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～つつ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女が僕のことを好きではないと知りつつも、あきらめることができない。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 8 (chủ đề 状況・変化)."
+    },
+    {
+      "id": "grammar-theo-chu-de-12",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 9,
+      "theme": "状況・変化",
+      "knowledge_id": "grammar:27f9defb7b",
+      "pattern": "～とともに",
+      "meaning": "〜と同時に",
+      "meaning_vi": "Cùng với… / đồng thời…",
+      "structure": "Vる／N／Nである＋とともに",
+      "usage": "Đồng thời hoặc cùng biến đổi.",
+      "example_jp": "彼女は私に日本語を教えてくれる先生であるとともに、私の友人でもある。",
+      "example_vi": "Cô ấy vừa là giáo viên dạy tôi tiếng Nhật, vừa là bạn.",
+      "examples": [
+        {
+          "jp": "彼女は私に日本語を教えてくれる先生であるとともに、私の友人でもある。",
+          "vi": "Cô ấy vừa là giáo viên dạy tôi tiếng Nhật, vừa là bạn."
+        },
+        {
+          "jp": "気温が上がるとともに、体調が悪くなる人が増えてきた。",
+          "vi": "Nhiệt độ tăng, đồng thời người sức khỏe kém cũng tăng."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～とともに"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女は私に日本語を教えてくれる先生であるとともに、私の友人でもある。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 9 (chủ đề 状況・変化)."
+    },
+    {
+      "id": "grammar-theo-chu-de-13",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 9,
+      "theme": "状況・変化",
+      "knowledge_id": "grammar:be62c387ce",
+      "pattern": "～つつある",
+      "meaning": "どんどん〜になる（少しずつ変化している様子）",
+      "meaning_vi": "Đang dần… (biến đổi tiến triển)",
+      "structure": "Vます＋つつある",
+      "usage": "Diễn tả quá trình đang biến đổi dần.",
+      "example_jp": "日本語学習者は増加しつつある。",
+      "example_vi": "Người học tiếng Nhật đang dần tăng.",
+      "examples": [
+        {
+          "jp": "日本語学習者は増加しつつある。",
+          "vi": "Người học tiếng Nhật đang dần tăng."
+        },
+        {
+          "jp": "時代の変化に合わせて、人々の働き方は変わりつつある。",
+          "vi": "Theo thay đổi thời đại, cách làm việc của mọi người đang đổi."
+        },
+        {
+          "jp": "彼の病気は治りつつあるが、まだ病院へ行かなければならないらしい。",
+          "vi": "Bệnh anh ấy đang dần khỏi nhưng hình như vẫn phải đến viện."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～つつある"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "日本語学習者は増加しつつある。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Ví dụ ②③ OCR kém; đã chỉnh theo nghĩa VI trên trang.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 9 (chủ đề 状況・変化)."
+    },
+    {
+      "id": "grammar-theo-chu-de-14",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 10,
+      "theme": "状況・変化",
+      "knowledge_id": "grammar:6deeaacb15",
+      "pattern": "～ば～ほど",
+      "meaning": "〜なら、もっと……",
+      "meaning_vi": "Càng… càng…",
+      "structure": "Vば＋Vる＋ほど；イAければ＋イA＋ほど；ナA/N＋であれば（ある）ほど",
+      "usage": "Tương quan tỷ lệ thuận.",
+      "example_jp": "マンゴーやバナナは甘ければ甘いほどいい。",
+      "example_vi": "Xoài, chuối càng ngọt càng ngon.",
+      "examples": [
+        {
+          "jp": "マンゴーやバナナは甘ければ甘いほどいい。",
+          "vi": "Xoài, chuối càng ngọt càng ngon."
+        },
+        {
+          "jp": "大変であれば大変であるほど、やり終えたときの喜びは大きい。",
+          "vi": "Càng vất vả thì niềm vui khi làm xong càng lớn."
+        },
+        {
+          "jp": "料理は作れば作るほど上手になるものだ。",
+          "vi": "Nấu ăn càng làm sẽ càng giỏi."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ば～ほど"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "マンゴーやバナナは甘ければ甘いほどいい。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Ví dụ ③ OCR lệch; đã sửa theo nghĩa VI.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 10 (chủ đề 状況・変化)."
+    },
+    {
+      "id": "grammar-theo-chu-de-15",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 10,
+      "theme": "状況・変化",
+      "knowledge_id": "grammar:220476c0b6",
+      "pattern": "～にしたがって",
+      "meaning": "〜すると、だんだんと…も変わる",
+      "meaning_vi": "Cùng với… thì dần dần… cũng đổi",
+      "structure": "Vる／N＋にしたがって",
+      "usage": "A thay đổi thì B dần thay đổi theo.",
+      "example_jp": "年を取るにしたがって、小さなことが気にならなくなる。",
+      "example_vi": "Càng lớn tuổi thì càng không để ý chuyện nhỏ.",
+      "examples": [
+        {
+          "jp": "年を取るにしたがって、小さなことが気にならなくなる。",
+          "vi": "Càng lớn tuổi thì càng không để ý chuyện nhỏ."
+        },
+        {
+          "jp": "昼間は暑いが、日が沈むにしたがって涼しくなる。",
+          "vi": "Ban ngày nóng nhưng mặt trời lặn thì dần mát hơn."
+        },
+        {
+          "jp": "春が近づくにしたがって、桜の花が咲き始める。",
+          "vi": "Mùa xuân đến gần, hoa anh đào bắt đầu nở."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～にしたがって"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "年を取るにしたがって、小さなことが気にならなくなる。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "OCR ví dụ ②③ nhiều lỗi; đã chỉnh theo VI trên trang.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 10 (chủ đề 状況・変化)."
+    },
+    {
+      "id": "grammar-theo-chu-de-16",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 11,
+      "theme": "状況・変化",
+      "knowledge_id": "grammar:9395049baa",
+      "pattern": "～ばかり①（変化・悪化）",
+      "meaning": "どんどん〜になる（悪くなる、よくならない）",
+      "meaning_vi": "Cứ dần… (thường theo hướng xấu / không khá hơn)",
+      "structure": "Vる＋ばかり（で／だ）",
+      "usage": "Xu hướng ngày càng nặng theo hướng tiêu cực.",
+      "example_jp": "給料は上がらないのに、物価は高くなるばかりだ。",
+      "example_vi": "Lương không tăng mà vật giá cứ tăng mãi.",
+      "examples": [
+        {
+          "jp": "給料は上がらないのに、物価は高くなるばかりだ。",
+          "vi": "Lương không tăng mà vật giá cứ tăng mãi."
+        },
+        {
+          "jp": "かぜをひいてしまい、体調が悪くなるばかりだ。",
+          "vi": "Bị cảm và sức khỏe cứ ngày càng kém."
+        },
+        {
+          "jp": "毎日の残業で疲れがたまるばかりだ。",
+          "vi": "Làm thêm mỗi ngày nên mệt mỏi cứ tích tụ mãi."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ばかり①（変化・悪化）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "給料は上がらないのに、物価は高くなるばかりだ。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 11 (chủ đề 状況・変化)."
+    },
+    {
+      "id": "grammar-theo-chu-de-17",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 15,
+      "theme": "立場・基準",
+      "knowledge_id": "grammar:a454143ac8",
+      "pattern": "～として",
+      "meaning": "〜の立場で",
+      "meaning_vi": "Với tư cách / với vai trò…",
+      "structure": "N＋として；N1＋としての＋N2",
+      "usage": "Nói từ lập trường/vai trò của đối tượng.",
+      "example_jp": "入学式では、新入生の代表としてみんなの前で話をした。",
+      "example_vi": "Ở lễ nhập học tôi đã nói trước mọi người với tư cách đại diện tân sinh viên.",
+      "examples": [
+        {
+          "jp": "入学式では、新入生の代表としてみんなの前で話をした。",
+          "vi": "Ở lễ nhập học tôi đã nói trước mọi người với tư cách đại diện tân sinh viên."
+        },
+        {
+          "jp": "もう少し、大人としての行動を考え直しましょう。",
+          "vi": "Hãy suy nghĩ lại hành động với tư cách người lớn."
+        },
+        {
+          "jp": "コンビニの店長として、仕事は全部できるようになるべきだ。",
+          "vi": "Với tư cách quản lý cửa hàng tiện lợi, nên làm được hết công việc."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～として"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "入学式では、新入生の代表としてみんなの前で話をした。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Ví dụ ① OCR lệch (入学式/新入生); đã sửa theo VI.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 15 (chủ đề 立場・基準)."
+    },
+    {
+      "id": "grammar-theo-chu-de-18",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 15,
+      "theme": "立場・基準",
+      "knowledge_id": "grammar:b2ad93e951",
+      "pattern": "～にとって",
+      "meaning": "〜の立場から考えて",
+      "meaning_vi": "Đối với… (suy nghĩ từ lập trường ai đó)",
+      "structure": "N＋にとって；N1＋にとっての＋N2",
+      "usage": "Đánh giá/ý nghĩa từ góc nhìn của đối tượng.",
+      "example_jp": "どんな人にとっても生活しやすい国にすることを目標にしている。",
+      "example_vi": "Đặt mục tiêu làm đất nước dễ sống với mọi người.",
+      "examples": [
+        {
+          "jp": "どんな人にとっても生活しやすい国にすることを目標にしている。",
+          "vi": "Đặt mục tiêu làm đất nước dễ sống với mọi người."
+        },
+        {
+          "jp": "私にとっての幸せとは、家族と一緒に過ごすことだ。",
+          "vi": "Hạnh phúc đối với tôi là được ở cùng gia đình."
+        },
+        {
+          "jp": "中村さんにとって一番の楽しみは、孫と一緒にご飯を食べることだそうです。",
+          "vi": "Nghe nói với anh Nakamura niềm vui lớn nhất là ăn cơm với cháu."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～にとって"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "どんな人にとっても生活しやすい国にすることを目標にしている。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 15 (chủ đề 立場・基準)."
+    },
+    {
+      "id": "grammar-theo-chu-de-19",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 16,
+      "theme": "立場・基準",
+      "knowledge_id": "grammar:689d046178",
+      "pattern": "～に基づいて",
+      "meaning": "〜をもとにして",
+      "meaning_vi": "Dựa trên… / lấy… làm cơ sở",
+      "structure": "N＋に基づいて；N1＋に基づく／に基づいた＋N2",
+      "usage": "Làm/quyết định dựa trên căn cứ.",
+      "example_jp": "この商品は、多くの人の意見に基づいて作られている。",
+      "example_vi": "Sản phẩm này được tạo dựa trên ý kiến nhiều người.",
+      "examples": [
+        {
+          "jp": "この商品は、多くの人の意見に基づいて作られている。",
+          "vi": "Sản phẩm này được tạo dựa trên ý kiến nhiều người."
+        },
+        {
+          "jp": "年の始めに決めた目標に基づいて、計画を立てる。",
+          "vi": "Dựa trên mục tiêu đầu năm để lập kế hoạch."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～に基づいて"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この商品は、多くの人の意見に基づいて作られている。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Ví dụ mục tiêu OCR thành 皆様; đã sửa theo VI.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 16 (chủ đề 立場・基準)."
+    },
+    {
+      "id": "grammar-theo-chu-de-20",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 16,
+      "theme": "立場・基準",
+      "knowledge_id": "grammar:ba57f51aa6",
+      "pattern": "～を中心に（して）／を中心として",
+      "meaning": "〜を基本に考えて",
+      "meaning_vi": "Lấy… làm trung tâm / chủ yếu quanh…",
+      "structure": "N＋を中心に（して）／を中心として",
+      "usage": "Phạm vi/hoạt động lấy N làm hạt nhân.",
+      "example_jp": "若者を中心にして、古いカメラで写真を撮ることが流行っている。",
+      "example_vi": "Lấy giới trẻ làm trung tâm, đang thịnh hành chụp ảnh bằng máy ảnh cũ.",
+      "examples": [
+        {
+          "jp": "若者を中心にして、古いカメラで写真を撮ることが流行っている。",
+          "vi": "Lấy giới trẻ làm trung tâm, đang thịnh hành chụp ảnh bằng máy ảnh cũ."
+        },
+        {
+          "jp": "この地域の人々は、中学生を中心として町のごみ拾いを行っている。",
+          "vi": "Người trong khu lấy học sinh THCS làm trung tâm để nhặt rác."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～を中心に（して）／を中心として"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "若者を中心にして、古いカメラで写真を撮ることが流行っている。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "OCR ví dụ ①③ kém; chỉ giữ 2 ví dụ đã chỉnh.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 16 (chủ đề 立場・基準)."
+    },
+    {
+      "id": "grammar-theo-chu-de-21",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 17,
+      "theme": "立場・基準",
+      "knowledge_id": "grammar:bdade875cb",
+      "pattern": "～とおり（に）／どおり（に）",
+      "meaning": "〜と同じように",
+      "meaning_vi": "Đúng như… / theo như…",
+      "structure": "Vる／Vた＋とおり（に）；N＋のとおり（に）／どおり（に）",
+      "usage": "Làm đúng theo mẫu/kế hoạch/lời nói.",
+      "example_jp": "本に書いてあるとおりにやったのに、うまくいかない。",
+      "example_vi": "Làm đúng như sách viết mà vẫn không ổn.",
+      "examples": [
+        {
+          "jp": "本に書いてあるとおりにやったのに、うまくいかない。",
+          "vi": "Làm đúng như sách viết mà vẫn không ổn."
+        },
+        {
+          "jp": "計画どおり進まないことはよくあることなので、心配しなくてもいいですよ。",
+          "vi": "Chuyện không tiến theo kế hoạch là thường, không cần lo."
+        },
+        {
+          "jp": "母が教えてくれたとおりに作ってみたが、なかなかおいしく作ることができない。",
+          "vi": "Thử làm theo mẹ chỉ nhưng mãi chưa nấu ngon được."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～とおり（に）／どおり（に）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "本に書いてあるとおりにやったのに、うまくいかない。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Ví dụ ③ OCR 類→母 theo VI.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 17 (chủ đề 立場・基準)."
+    },
+    {
+      "id": "grammar-theo-chu-de-22",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 17,
+      "theme": "立場・基準",
+      "knowledge_id": "grammar:1c995d295d",
+      "pattern": "～という／っていう／って",
+      "meaning": "〜という名前の（知らないことを説明・教えるとき）",
+      "meaning_vi": "Tên là… / gọi là… (giải thích thứ chưa biết)",
+      "structure": "N1＋という／っていう／って＋N2",
+      "usage": "Giới thiệu tên/loại chưa quen.",
+      "example_jp": "「ひたちっていう駅に行きたいんですが、どの電車に乗ればいいですか？」",
+      "example_vi": "Tôi muốn đến ga tên Hitachi thì lên tàu nào?",
+      "examples": [
+        {
+          "jp": "「ひたちっていう駅に行きたいんですが、どの電車に乗ればいいですか？」",
+          "vi": "Tôi muốn đến ga tên Hitachi thì lên tàu nào?"
+        },
+        {
+          "jp": "私は、トイプードルという種類の犬を飼っています。",
+          "vi": "Tôi đang nuôi giống chó Toy Poodle."
+        },
+        {
+          "jp": "となりに引っ越してきた加藤さんって人、知ってる？",
+          "vi": "Bạn có biết người tên Kato mới chuyển đến cạnh nhà không?"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～という／っていう／って"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "「ひたちっていう駅に行きたいんですが、どの電車に乗ればいいですか？」"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 17 (chủ đề 立場・基準)."
+    },
+    {
+      "id": "grammar-theo-chu-de-23",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 18,
+      "theme": "立場・基準",
+      "knowledge_id": "grammar:a47189051d",
+      "pattern": "～に対して①",
+      "meaning": "〜に／〜を相手に",
+      "meaning_vi": "Đối với… (hướng tới đối tượng)",
+      "structure": "N＋に対して；N1＋に対する＋N2",
+      "usage": "Hành động/thái độ hướng tới đối tượng.",
+      "example_jp": "友達からの相談に対して、なんと答えようか考えている。",
+      "example_vi": "Đang nghĩ sẽ trả lời thế nào với lời hỏi ý của bạn.",
+      "examples": [
+        {
+          "jp": "友達からの相談に対して、なんと答えようか考えている。",
+          "vi": "Đang nghĩ sẽ trả lời thế nào với lời hỏi ý của bạn."
+        },
+        {
+          "jp": "中学生になった弟は、母に対してひどいことばかり言っている。",
+          "vi": "Em trai lên THCS cứ nói những lời tệ với mẹ."
+        },
+        {
+          "jp": "あなたの仕事に対する考えを教えてください。",
+          "vi": "Hãy cho tôi biết suy nghĩ của bạn về công việc."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～に対して①"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "友達からの相談に対して、なんと答えようか考えている。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 18 (chủ đề 立場・基準)."
+    },
+    {
+      "id": "grammar-theo-chu-de-24",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 18,
+      "theme": "立場・基準",
+      "knowledge_id": "grammar:326287df77",
+      "pattern": "～について",
+      "meaning": "〜のことを（話す・考えるときに使う）",
+      "meaning_vi": "Về… (nói/nghĩ về điều gì)",
+      "structure": "N＋について",
+      "usage": "Chủ đề bàn luận/suy nghĩ.",
+      "example_jp": "父とおじさんたちが、野球の試合について話し合っている。",
+      "example_vi": "Bố và các chú đang bàn về trận bóng chày.",
+      "examples": [
+        {
+          "jp": "父とおじさんたちが、野球の試合について話し合っている。",
+          "vi": "Bố và các chú đang bàn về trận bóng chày."
+        },
+        {
+          "jp": "彼は、日本の文化についてよく知っている人だ。",
+          "vi": "Anh ấy là người biết rõ về văn hóa Nhật."
+        },
+        {
+          "jp": "ふるさとに帰ると、両親から一人暮らしの生活についてたくさん質問された。",
+          "vi": "Về quê bị bố mẹ hỏi rất nhiều về cuộc sống một mình."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～について"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "父とおじさんたちが、野球の試合について話し合っている。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "OCR ví dụ ②③ lệch; đã chỉnh theo VI.",
+      "ai_extra": null,
+      "note": "Pilot visual từ trang PDF 18 (chủ đề 立場・基準)."
+    }
+  ]
+}

@@ -394,6 +394,28 @@
     "gradable": false
   },
   {
+    "id": "grammar-pho-tu-mau",
+    "title": "Phó từ đi kèm mẫu câu đặc định",
+    "description": "第24課 — phó từ cố định với ～ない、すでに、せっかく…",
+    "notice": "Extract text 2 trang; vài ví dụ OCR cần đối chiếu. Bỏ phần luyện tập.",
+    "count": 15,
+    "unit": "nhóm",
+    "path": "./study-data/grammar-pho-tu-mau.json",
+    "group": "grammar",
+    "gradable": false
+  },
+  {
+    "id": "grammar-theo-chu-de",
+    "title": "NP N3 theo chủ đề (pilot)",
+    "description": "Pilot visual: 24 mẫu (せい、おかげ、きっかけ、まま、つつある…); đủ sách ~120.",
+    "notice": "Scan 100 trang — partial visual_transcription; nhiều mục needs_verify.",
+    "count": 24,
+    "unit": "mẫu",
+    "path": "./study-data/grammar-theo-chu-de.json",
+    "group": "grammar",
+    "gradable": false
+  },
+  {
     "id": "speed-master-n3",
     "title": "Speed Master N3 (chủ đề)",
     "description": "Từ vựng theo bài Speed Master.",
@@ -469,15 +491,5 @@
     "path": "./study-data/so-tay-pho-tu.json",
     "group": "vocab",
     "gradable": false
-  },
-  {
-    "id": "grammar-pho-tu-mau",
-    "title": "Phó từ đi kèm mẫu câu",
-    "description": "Phó từ thường đi với mẫu cố định (ない、そうだ、ても…).",
-    "notice": "",
-    "count": 15,
-    "unit": "mục",
-    "path": "./study-data/grammar-pho-tu-mau.json",
-    "group": "grammar"
   }
 ]
