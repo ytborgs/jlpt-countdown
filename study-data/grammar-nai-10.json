@@ -1,0 +1,367 @@
+{
+  "schema_version": "1.0",
+  "document_id": "grammar-nai-10",
+  "type": "grammar",
+  "level": "N3",
+  "source_file": "10 ngữ pháp có trạng thái phủ định ~ない",
+  "source_path": "study-materials/10 ngữ pháp có trạng thái phủ định ~ない",
+  "title": "10 ngữ pháp ～ない hay gặp",
+  "page_count": 10,
+  "item_count": 10,
+  "expected_item_count": 10,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-28T16:08:45+00:00",
+  "producer": "cursor-agent/visual-tip-packs",
+  "status": "partial",
+  "needs_verify_count": 2,
+  "notes": [
+    "Visual transcription từ Picture1–10 pack 10 ngữ pháp ～ない."
+  ],
+  "items": [
+    {
+      "id": "grammar-nai-01",
+      "type": "grammar",
+      "subtype": "nai_grammar",
+      "level": "N3",
+      "source_file": "10 ngữ pháp có trạng thái phủ định ~ない",
+      "source_page": 1,
+      "knowledge_id": "grammar:9f61113b",
+      "pattern": "～わけにはいかない・わけにもいかない",
+      "meaning": "Vì trái lẽ thường/lương tâm nên không thể làm",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "Vる＋わけにはいかない・わけにもいかない",
+      "usage": "Không dùng với nghĩa 'không thể' mang tính khả năng vật lý.",
+      "example_jp": "病気の子供を一人家において、仕事に行くわけにはいかない。",
+      "example_vi": "Vì con đang ốm ở nhà một mình, tôi không thể đi làm được.",
+      "examples": [
+        {
+          "jp": "病気の子供を一人家において、仕事に行くわけにはいかない。",
+          "vi": "Vì con đang ốm ở nhà một mình, tôi không thể đi làm được."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～わけにはいかない・わけにもいかない"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-nai-02",
+      "type": "grammar",
+      "subtype": "nai_grammar",
+      "level": "N3",
+      "source_file": "10 ngữ pháp có trạng thái phủ định ~ない",
+      "source_page": 2,
+      "knowledge_id": "grammar:16ff30ba",
+      "pattern": "～ようがない",
+      "meaning": "Dù muốn cũng không có cách nào làm được",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "Vます＋ようがない（bỏ ます）",
+      "usage": "Nhấn mạnh sắc thái hoàn toàn không có cách làm.",
+      "example_jp": "実力はあるのだから、今回の結果には運がなかったとしか言いようがない。",
+      "example_vi": "Vì có thực lực, nên kết quả lần này chỉ có thể nói là không may thôi.",
+      "examples": [
+        {
+          "jp": "実力はあるのだから、今回の結果には運がなかったとしか言いようがない。",
+          "vi": "Vì có thực lực, nên kết quả lần này chỉ có thể nói là không may thôi."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ようがない"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-nai-03",
+      "type": "grammar",
+      "subtype": "nai_grammar",
+      "level": "N3",
+      "source_file": "10 ngữ pháp có trạng thái phủ định ~ない",
+      "source_page": 3,
+      "knowledge_id": "grammar:35ece6ca",
+      "pattern": "～どころではない",
+      "meaning": "Không phải lúc / chẳng phải chuyện…",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "N／Vる＋どころではない",
+      "usage": "Vì tình trạng không thuận (thiếu tiền/thời gian, ồn, bệnh…) nên điều kỳ vọng không thực hiện được.",
+      "example_jp": "仕事が忙しくて、旅行どころではない。",
+      "example_vi": "Vì công việc bận rộn, không thể đi du lịch được.",
+      "examples": [
+        {
+          "jp": "仕事が忙しくて、旅行どころではない。",
+          "vi": "Vì công việc bận rộn, không thể đi du lịch được."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～どころではない"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-nai-04",
+      "type": "grammar",
+      "subtype": "nai_grammar",
+      "level": "N3",
+      "source_file": "10 ngữ pháp có trạng thái phủ định ~ない",
+      "source_page": 4,
+      "knowledge_id": "grammar:a5b48426",
+      "pattern": "～得る／～得ない",
+      "meaning": "Có thể / không thể (khả năng khách quan)",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "Vます＋得る／得ない（bỏ ます）",
+      "usage": "Khó dùng khi nói khả năng vốn có của người hoặc khả năng tình huống kiểu khả năng chia động từ.",
+      "example_jp": "がんは誰でもかかり得る病気だ。",
+      "example_vi": "Ung thư là bệnh mà ai cũng có thể mắc phải.",
+      "examples": [
+        {
+          "jp": "がんは誰でもかかり得る病気だ。",
+          "vi": "Ung thư là bệnh mà ai cũng có thể mắc phải."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～得る／～得ない"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-nai-05",
+      "type": "grammar",
+      "subtype": "nai_grammar",
+      "level": "N3",
+      "source_file": "10 ngữ pháp có trạng thái phủ định ~ない",
+      "source_page": 5,
+      "knowledge_id": "grammar:9449a2f6",
+      "pattern": "～かねない",
+      "meaning": "Có khả năng kết quả xấu xảy ra",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "Vます＋かねない（bỏ ます）",
+      "usage": "Suy từ trạng thái hiện tại thì có thể kết quả xấu xảy ra.",
+      "example_jp": "うわさはどんどん変な方向へ発展していきかねない。",
+      "example_vi": "Có khả năng tin đồn sẽ dần phát triển theo chiều hướng xấu.",
+      "examples": [
+        {
+          "jp": "うわさはどんどん変な方向へ発展していきかねない。",
+          "vi": "Có khả năng tin đồn sẽ dần phát triển theo chiều hướng xấu."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～かねない"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-nai-06",
+      "type": "grammar",
+      "subtype": "nai_grammar",
+      "level": "N3",
+      "source_file": "10 ngữ pháp có trạng thái phủ định ~ない",
+      "source_page": 6,
+      "knowledge_id": "grammar:7ab4b82c",
+      "pattern": "～に違いない・に相違ない",
+      "meaning": "Chắc chắn là… (phán đoán từ chứng cứ)",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "普通形／N＋に違いない・に相違ない",
+      "usage": "Từ chứng cứ có được để phán đoán chắc chắn.",
+      "example_jp": "日本に1年住んでいるのだから、彼も少しは生活に慣れたに違いない。",
+      "example_vi": "Đã sống ở Nhật 1 năm, anh ấy chắc hẳn đã ít nhiều quen cuộc sống rồi.",
+      "examples": [
+        {
+          "jp": "日本に1年住んでいるのだから、彼も少しは生活に慣れたに違いない。",
+          "vi": "Đã sống ở Nhật 1 năm, anh ấy chắc hẳn đã ít nhiều quen cuộc sống rồi."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～に違いない・に相違ない"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-nai-07",
+      "type": "grammar",
+      "subtype": "nai_grammar",
+      "level": "N3",
+      "source_file": "10 ngữ pháp có trạng thái phủ định ~ない",
+      "source_page": 7,
+      "knowledge_id": "grammar:80c66cf4",
+      "pattern": "～にすぎない",
+      "meaning": "Chỉ vậy / không quá",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "N／普通形＋にすぎない",
+      "usage": "Nêu suy nghĩ rằng sự việc không trọng yếu, không đặc biệt, chỉ ít.",
+      "example_jp": "調査では、お米を全く食べないと答えた人は1.2％にすぎなかった。",
+      "example_vi": "Theo điều tra, số người trả lời hoàn toàn không ăn gạo chỉ 1.2%.",
+      "examples": [
+        {
+          "jp": "調査では、お米を全く食べないと答えた人は1.2％にすぎなかった。",
+          "vi": "Theo điều tra, số người trả lời hoàn toàn không ăn gạo chỉ 1.2%."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～にすぎない"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-nai-08",
+      "type": "grammar",
+      "subtype": "nai_grammar",
+      "level": "N3",
+      "source_file": "10 ngữ pháp có trạng thái phủ định ~ない",
+      "source_page": 8,
+      "knowledge_id": "grammar:5447af3e",
+      "pattern": "～にほかならない",
+      "meaning": "Chính là / không phải gì khác",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Slide có thể thiếu を trong ということ; đã bổ sung.",
+      "ai_extra": null,
+      "structure": "N＋にほかならない",
+      "usage": "Phán đoán mang tính kết luận của người nói.",
+      "example_jp": "人間も自然の一部にほかならないということを忘れてはならない。",
+      "example_vi": "Không được quên rằng con người chính là một phần của tự nhiên.",
+      "examples": [
+        {
+          "jp": "人間も自然の一部にほかならないということを忘れてはならない。",
+          "vi": "Không được quên rằng con người chính là một phần của tự nhiên."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～にほかならない"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-nai-09",
+      "type": "grammar",
+      "subtype": "nai_grammar",
+      "level": "N3",
+      "source_file": "10 ngữ pháp có trạng thái phủ định ~ない",
+      "source_page": 9,
+      "knowledge_id": "grammar:4ee79c6f",
+      "pattern": "～に越したことはない",
+      "meaning": "Không gì bằng / tốt nhất là…",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Slide Picture 9 không có ví dụ rõ trên ảnh đã đọc; để trống example.",
+      "ai_extra": null,
+      "structure": "普通形現在＋に越したことはない",
+      "usage": "Không bắt buộc nhưng nếu được như vậy thì tốt.",
+      "example_jp": "",
+      "example_vi": "",
+      "examples": [],
+      "pattern_ruby": [
+        {
+          "text": "～に越したことはない"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-nai-10",
+      "type": "grammar",
+      "subtype": "nai_grammar",
+      "level": "N3",
+      "source_file": "10 ngữ pháp có trạng thái phủ định ~ない",
+      "source_page": 10,
+      "knowledge_id": "grammar:612bc0b9",
+      "pattern": "～しかない・よりほかない",
+      "meaning": "Không còn cách nào khác",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "Vる＋しかない／よりほかない",
+      "usage": "Chỉ còn cách làm việc đó.",
+      "example_jp": "この道は一方通行だから、戻りたくても真っ直ぐ行くしかない。",
+      "example_vi": "Đường một chiều nên dù muốn quay lại cũng chỉ còn cách đi thẳng.",
+      "examples": [
+        {
+          "jp": "この道は一方通行だから、戻りたくても真っ直ぐ行くしかない。",
+          "vi": "Đường một chiều nên dù muốn quay lại cũng chỉ còn cách đi thẳng."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～しかない・よりほかない"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    }
+  ]
+}

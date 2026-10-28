@@ -1,0 +1,620 @@
+{
+  "schema_version": "1.0",
+  "document_id": "grammar-15-mau",
+  "type": "grammar",
+  "level": "N3",
+  "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+  "source_path": "study-materials/15 MẪU dùng nhiều trong giao tiếp",
+  "title": "15 mẫu dùng nhiều khi giao tiếp",
+  "page_count": 16,
+  "item_count": 15,
+  "expected_item_count": 15,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-28T16:08:45+00:00",
+  "producer": "cursor-agent/visual-tip-packs",
+  "status": "partial",
+  "needs_verify_count": 3,
+  "notes": [
+    "Visual transcription từ Slide2–16 (bỏ bìa Slide1).",
+    "Mỗi slide → 1 mẫu grammar."
+  ],
+  "items": [
+    {
+      "id": "grammar-15-mau-01",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 2,
+      "knowledge_id": "grammar:13dd7713",
+      "pattern": "Vて＋ほしい",
+      "meaning": "Muốn đối phương làm gì đó cho mình",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "Vて＋ほしい",
+      "usage": "Dùng khi muốn người khác làm việc gì cho mình.",
+      "example_jp": "明日の飲み会に行ってほしい。",
+      "example_vi": "Tớ muốn cậu đến bữa tiệc ngày mai.",
+      "examples": [
+        {
+          "jp": "明日の飲み会に行ってほしい。",
+          "vi": "Tớ muốn cậu đến bữa tiệc ngày mai."
+        },
+        {
+          "jp": "スーパーに行ったらパンケーキを買ってほしい。",
+          "vi": "Nếu mẹ đi siêu thị thì mua bánh pancake với."
+        },
+        {
+          "jp": "私にあまり期待しないでほしい。",
+          "vi": "Xin đừng kỳ vọng vào mình nhiều quá."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "Vて＋ほしい"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-02",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 3,
+      "knowledge_id": "grammar:5da08ac0",
+      "pattern": "Vしちゃう／しちゃった",
+      "meaning": "Làm hết / lỡ làm mất rồi",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "Vてしまう（thân mật: ちゃう／ちゃった）",
+      "usage": "Thân mật: hoàn thành hoặc lỡ làm.",
+      "example_jp": "さっき、買ってくれたりんごを食べちゃった。",
+      "example_vi": "Tớ ăn hết quả táo cậu vừa mua rồi.",
+      "examples": [
+        {
+          "jp": "さっき、買ってくれたりんごを食べちゃった。",
+          "vi": "Tớ ăn hết quả táo cậu vừa mua rồi."
+        },
+        {
+          "jp": "ごめん！本を返すのを忘れちゃった。",
+          "vi": "Xin lỗi, tớ quên trả sách mất tiêu."
+        },
+        {
+          "jp": "冷蔵庫に置いてあるジュースをもう飲んじゃった。",
+          "vi": "Mình lỡ uống hết nước ngọt trong tủ lạnh rồi."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "Vしちゃう／しちゃった"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-03",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 4,
+      "knowledge_id": "grammar:7003b8c9",
+      "pattern": "みたい",
+      "meaning": "Kiểu như là / có vẻ như",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Slide có thể ghi あの方は; ngữ cảnh '10歳' → chuẩn hóa あの子は.",
+      "ai_extra": null,
+      "structure": "普通形／N＋みたい",
+      "usage": "So sánh hoặc suy đoán 'như / có vẻ'.",
+      "example_jp": "あの子は10歳なのに考え方が大人みたいだね！",
+      "example_vi": "Đứa bé đó mới 10 tuổi mà suy nghĩ như người lớn ấy nhỉ.",
+      "examples": [
+        {
+          "jp": "あの子は10歳なのに考え方が大人みたいだね！",
+          "vi": "Đứa bé đó mới 10 tuổi mà suy nghĩ như người lớn ấy nhỉ."
+        },
+        {
+          "jp": "彼は3ヶ月でJLPT N1合格したみたいよ！すごくない？",
+          "vi": "Anh ấy có vẻ đỗ N1 chỉ trong 3 tháng. Ghê thật."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "みたい"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-04",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 5,
+      "knowledge_id": "grammar:4fc839a8",
+      "pattern": "たびに",
+      "meaning": "Cứ mỗi lần / cứ hễ",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "Vる／Nの＋たびに",
+      "usage": "Mỗi khi A xảy ra thì B.",
+      "example_jp": "この曲を聞くたびに母に会いたい。",
+      "example_vi": "Cứ mỗi lần nghe bài này là tớ lại muốn gặp mẹ.",
+      "examples": [
+        {
+          "jp": "この曲を聞くたびに母に会いたい。",
+          "vi": "Cứ mỗi lần nghe bài này là tớ lại muốn gặp mẹ."
+        },
+        {
+          "jp": "勉強するたびに眠くなってくる。",
+          "vi": "Cứ mỗi lần học là lại buồn ngủ."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "たびに"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-05",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 6,
+      "knowledge_id": "grammar:66a63cda",
+      "pattern": "わけがない",
+      "meaning": "Không thể nào / làm gì có chuyện…",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "普通形＋わけがない",
+      "usage": "Phủ định mạnh khả năng/lý do.",
+      "example_jp": "こんなに仕事が残っているのに、帰るまで終わるわけがない。",
+      "example_vi": "Còn nhiều việc thế này, đến lúc về làm sao xong được.",
+      "examples": [
+        {
+          "jp": "こんなに仕事が残っているのに、帰るまで終わるわけがない。",
+          "vi": "Còn nhiều việc thế này, đến lúc về làm sao xong được."
+        },
+        {
+          "jp": "こんなにいい天気だから、雨が降るわけがないでしょ？",
+          "vi": "Trời đẹp thế này thì làm gì có chuyện mưa."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "わけがない"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-06",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 7,
+      "knowledge_id": "grammar:8a04ce36",
+      "pattern": "ところだった",
+      "meaning": "Suýt nữa thì",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Banner slide có thể ghi どころだった; ví dụ dùng ところだった — đã chọn ところだった.",
+      "ai_extra": null,
+      "structure": "Vる／Vない＋ところだった",
+      "usage": "Suýt xảy ra (thường kết quả không mong muốn).",
+      "example_jp": "ゆいちゃんが言ってくれなかったら、今日のテストをうっかり忘れるところだった。",
+      "example_vi": "Nếu Yui không nói thì tí nữa mình quên bài kiểm tra hôm nay.",
+      "examples": [
+        {
+          "jp": "ゆいちゃんが言ってくれなかったら、今日のテストをうっかり忘れるところだった。",
+          "vi": "Nếu Yui không nói thì tí nữa mình quên bài kiểm tra hôm nay."
+        },
+        {
+          "jp": "ぶつかるところだった。",
+          "vi": "Suýt nữa thì va chạm."
+        },
+        {
+          "jp": "電車に間に合わないところだった。",
+          "vi": "Suýt nữa thì không kịp tàu."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "ところだった"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-07",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 8,
+      "knowledge_id": "grammar:dd93145c",
+      "pattern": "Vてもいい・なくてもいい",
+      "meaning": "Làm V cũng được / không cần làm",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "Vて＋もいい／Vない＋くてもいい",
+      "usage": "Cho phép làm hoặc cho phép không làm.",
+      "example_jp": "明日来なくてもいい。",
+      "example_vi": "Ngày mai cậu không cần tới cũng được.",
+      "examples": [
+        {
+          "jp": "明日来なくてもいい。",
+          "vi": "Ngày mai cậu không cần tới cũng được."
+        },
+        {
+          "jp": "言いたいことがあったら、我慢しなくていいよ！早く言ってごらん。",
+          "vi": "Có gì muốn nói thì cứ nói; không cần chịu đựng đâu."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "Vてもいい・なくてもいい"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-08",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 9,
+      "knowledge_id": "grammar:bfd3cb2f",
+      "pattern": "くせに",
+      "meaning": "Thế mà / mặc dù… nhưng",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "普通形／Nの＋くせに",
+      "usage": "Trách móc / trái ngược với kỳ vọng.",
+      "example_jp": "男のくせに泣くなんて、見っともないよ！",
+      "example_vi": "Là đàn ông mà lại khóc, trông mất mặt lắm đó.",
+      "examples": [
+        {
+          "jp": "男のくせに泣くなんて、見っともないよ！",
+          "vi": "Là đàn ông mà lại khóc, trông mất mặt lắm đó."
+        },
+        {
+          "jp": "わかっているくせに教えてくれない。",
+          "vi": "Nó biết mà chẳng nói gì cả."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "くせに"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-09",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 10,
+      "knowledge_id": "grammar:716632d3",
+      "pattern": "じゃない？",
+      "meaning": "Chẳng phải là… (xác nhận)",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "普通形＋じゃない？",
+      "usage": "Xác nhận lại một cách thân mật.",
+      "example_jp": "あれ、今日君がお休みじゃない？なんでくるの？",
+      "example_vi": "Ơ, hôm nay chẳng phải ngày nghỉ của cậu à? Sao lại đến?",
+      "examples": [
+        {
+          "jp": "あれ、今日君がお休みじゃない？なんでくるの？",
+          "vi": "Ơ, hôm nay chẳng phải ngày nghỉ của cậu à? Sao lại đến?"
+        },
+        {
+          "jp": "ほら、言ったじゃない？痛かったでしょー？",
+          "vi": "Thấy chưa, chị đã nói rồi mà — đau đúng không?"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "じゃない？"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-10",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 11,
+      "knowledge_id": "grammar:c63e20d6",
+      "pattern": "たとえ／いくら～ても",
+      "meaning": "Cho dù có… đi chăng nữa",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "たとえ／いくら＋ても／でも",
+      "usage": "Nhượng bộ: dù thế nào vẫn…",
+      "example_jp": "いくら大変でも一生懸命頑張ります。",
+      "example_vi": "Cho dù vất vả đến mấy tôi vẫn cố hết sức.",
+      "examples": [
+        {
+          "jp": "いくら大変でも一生懸命頑張ります。",
+          "vi": "Cho dù vất vả đến mấy tôi vẫn cố hết sức."
+        },
+        {
+          "jp": "たとえ断られても彼女に告白する。",
+          "vi": "Cho dù bị từ chối mình vẫn tỏ tình với cô ấy."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "たとえ／いくら～ても"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-11",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 12,
+      "knowledge_id": "grammar:0b9c114b",
+      "pattern": "ついでに",
+      "meaning": "Nhân tiện / tiện thể",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "Vる／Nの＋ついでに",
+      "usage": "Làm thêm việc khác khi đang làm việc chính.",
+      "example_jp": "買い物のついでにこれをポストに出してくれない？",
+      "example_vi": "Tiện đi mua đồ thì bỏ cái này vào hòm thư dùm với.",
+      "examples": [
+        {
+          "jp": "買い物のついでにこれをポストに出してくれない？",
+          "vi": "Tiện đi mua đồ thì bỏ cái này vào hòm thư dùm với."
+        },
+        {
+          "jp": "コンビニに行くならついでにレターパック買ってほしい。",
+          "vi": "Nếu đi convenience store thì tiện mua letter pack với nhé."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "ついでに"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-12",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 13,
+      "knowledge_id": "grammar:df4b3035",
+      "pattern": "なんて／など／なんか",
+      "meaning": "Cỡ / cái kiểu / cái thứ…",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Slide có thể ghi 考えでもない; chuẩn hóa 考えられない.",
+      "ai_extra": null,
+      "structure": "N／普通形＋なんて／など／なんか",
+      "usage": "Coi nhẹ, khiêm tốn hoặc ngạc nhiên/khinh.",
+      "example_jp": "こんなにまずいピザをもう一度食べるなんて考えられない。",
+      "example_vi": "Mình chẳng bao giờ nghĩ sẽ ăn lại pizza dở thế này.",
+      "examples": [
+        {
+          "jp": "こんなにまずいピザをもう一度食べるなんて考えられない。",
+          "vi": "Mình chẳng bao giờ nghĩ sẽ ăn lại pizza dở thế này."
+        },
+        {
+          "jp": "私などまだまだです。",
+          "vi": "Tôi vẫn còn kém lắm ạ."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "なんて／など／なんか"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-13",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 14,
+      "knowledge_id": "grammar:10a947d9",
+      "pattern": "っけ",
+      "meaning": "Có phải là… không ấy nhỉ (nhớ lại)",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "普通形＋っけ",
+      "usage": "Nhắc lại / cố nhớ thông tin.",
+      "example_jp": "今日水曜日だったっけ？",
+      "example_vi": "Hôm nay có phải thứ Tư không ấy nhỉ?",
+      "examples": [
+        {
+          "jp": "今日水曜日だったっけ？",
+          "vi": "Hôm nay có phải thứ Tư không ấy nhỉ?"
+        },
+        {
+          "jp": "あちらに立っている女が君の友達だったっけ？",
+          "vi": "Cô gái đứng đằng kia có phải bạn cậu không vậy?"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "っけ"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-14",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 15,
+      "knowledge_id": "grammar:f6fb1e2d",
+      "pattern": "って",
+      "meaning": "Nói là / nghe nói",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "普通形＋って",
+      "usage": "Trích dẫn / thuật lại lời nói (thân mật).",
+      "example_jp": "彼女は大丈夫だって。",
+      "example_vi": "Cô ấy bảo không sao.",
+      "examples": [
+        {
+          "jp": "彼女は大丈夫だって。",
+          "vi": "Cô ấy bảo không sao."
+        },
+        {
+          "jp": "また連絡するって言われました。",
+          "vi": "Được bảo là sẽ liên lạc lại."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "って"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    },
+    {
+      "id": "grammar-15-mau-15",
+      "type": "grammar",
+      "subtype": "communication_grammar",
+      "level": "N3",
+      "source_file": "15 MẪU dùng nhiều trong giao tiếp",
+      "source_page": 16,
+      "knowledge_id": "grammar:1b0b6780",
+      "pattern": "おかげで",
+      "meaning": "Nhờ có…",
+      "tip": null,
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "structure": "普通形／Nの＋おかげで",
+      "usage": "Nguyên nhân tích cực.",
+      "example_jp": "一生懸命勉強したおかげで、N1に合格しました。",
+      "example_vi": "Nhờ chăm chỉ học mà mình đỗ được N1.",
+      "examples": [
+        {
+          "jp": "一生懸命勉強したおかげで、N1に合格しました。",
+          "vi": "Nhờ chăm chỉ học mà mình đỗ được N1."
+        },
+        {
+          "jp": "彼女のおかげで、毎日幸せだ。",
+          "vi": "Nhờ có cô ấy mà mình hạnh phúc hàng ngày."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "おかげで"
+        }
+      ],
+      "example_ruby": null,
+      "example_hira": null,
+      "note": "Trích từ slide/ảnh Kosei (visual_transcription).",
+      "ruby_source": null
+    }
+  ]
+}

@@ -28,7 +28,9 @@
           "id": "nghe-hieu",
           "title": "Nghe hiểu",
           "topicIds": [
-            "nghe-mondai1-tips"
+            "nghe-mondai1-tips",
+            "choukai-md4-tips",
+            "choukai-md5-tips"
           ]
         },
         {
@@ -37,7 +39,10 @@
           "topicIds": [
             "grammar",
             "star-rearrange",
-            "grammar-n4-nang-cao"
+            "grammar-n4-nang-cao",
+            "bikip-dau-sao-tips",
+            "grammar-nai-10",
+            "grammar-15-mau"
           ]
         },
         {
