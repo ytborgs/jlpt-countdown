@@ -7,17 +7,17 @@
   "source_path": "study-materials/115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
   "title": "Đọc hiểu N3 — pilot ngắn (短文)",
   "page_count": 197,
-  "item_count": 31,
+  "item_count": 50,
   "expected_item_count": 250,
   "content_source": "visual_transcription",
-  "produced_at": "2026-10-28T16:11:08.861791+00:00",
+  "produced_at": "2026-10-28T16:38:12.552644+00:00",
   "producer": "n3-study-extractor/l3-dokkai-pilot",
   "status": "partial",
   "needs_verify_count": 0,
   "notes": [
     "Pilot L3: schema reading_comprehension_mcq (passage_jp + stem + choices).",
     "Đáp án từ trang 解答 sách (official_answer_key).",
-    "Pilot progress: 31 short-passage items (短文)."
+    "短文 section complete: 50 short-passage items."
   ],
   "answer_key_short_passage": {
     "1": 4,
@@ -1214,6 +1214,709 @@
         }
       ],
       "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-032",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 41,
+      "knowledge_id": "reading:dokkai-short-32",
+      "section": "短文",
+      "no": 32,
+      "passage_jp": "少し前までは、電車やバスで席を譲られることに抵抗を感じていた。眠っていたり、本を読んだりする人の前に立つようにしていた。\nそれが、最近は席を譲ってくれる人が増えてきた。70歳の自分では、いつでも若いつもりでいても、周りの人から見ればやはり高齢者に違いないのだろう。\n若い時は、年齢を重ねることに幸せを感じるとは想像もしなかった。感謝の気持ちを素直に表現し、座れるようになったのは「老い」を受け入れられた証しだと思う。",
+      "passage_source": "河内ふみ子「席を譲られたら素直に」",
+      "stem_jp": "筆者はどうして席を譲られることに抵抗を感じたのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "人には高齢者と思われたくなかったのだ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "前の人が眠っていたり、本を読んだりしているから。"
+        },
+        {
+          "key": "3",
+          "text_jp": "譲ってくれる人が自分と同じぐらいの人なのだ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "感謝の気持ちがすなおに表現できないから。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-033",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 42,
+      "knowledge_id": "reading:dokkai-short-33",
+      "section": "短文",
+      "no": 33,
+      "passage_jp": "大学生の娘がファミリーレストランで働いている。お客さんを相手にする仕事は経験がなく、始めのころは緊張していたようだ。\nある時、娘は1人の注文をメモに取り忘れてしまい、お客様に謝ったそうだ。ところが、その方は「お仕事、大変だけど、自信を持ってください」と逆に励ましてくれた。数ヵ月後、その方は来店し、「お仕事に慣れましたか」と声を掛けてくれたそうだ。優しい心遣いがありがたかったと、娘は喜んでいた。\n娘は社会で働くことを通して、いろいろな経験を学んでいる。",
+      "passage_source": "山田弘美氏の文より",
+      "stem_jp": "この文のタイトルとして一番正しいのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ミスしてしかられた"
+        },
+        {
+          "key": "2",
+          "text_jp": "ミスしてほめられた"
+        },
+        {
+          "key": "3",
+          "text_jp": "ミスして励まされた"
+        },
+        {
+          "key": "4",
+          "text_jp": "ミスして自信を持った"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-034",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 43,
+      "knowledge_id": "reading:dokkai-short-34",
+      "section": "短文",
+      "no": 34,
+      "passage_jp": "私は若いうちにたくさんの本を読むようにしたほうがいいと思います。最初は読む時間がもったいないと思っていましたが、小学6年生の時に祖母が買ってくれた小学生向け文庫本を読んで考え方が変わりました。字が大きく、挿絵もたくさんあって、楽しく読むことができたのです。\n映像や音がないから、本はつまらないと思うかもしれません。でも、登場人物や場所が自分の好きなように想像できます。想像力がない人が多いと聞きますが、それは本を読まないからだと思います。",
+      "passage_source": "小川諒子「若いうちに読書を」による",
+      "stem_jp": "「最初は読む時間がもったいないと思っていました」とあるが、この人はどうして「もったいない」と思ったのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "小学6年生だったから"
+        },
+        {
+          "key": "2",
+          "text_jp": "映像や音がないから"
+        },
+        {
+          "key": "3",
+          "text_jp": "登場人物が少ないから"
+        },
+        {
+          "key": "4",
+          "text_jp": "文庫本だったから"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-035",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 44,
+      "knowledge_id": "reading:dokkai-short-35",
+      "section": "短文",
+      "no": 35,
+      "passage_jp": "最近、10代の若者が自殺するというニュースをよく耳にするようになり、胸を痛めています。\n実は、私も10代の頃、自殺を考えたことがありました。小学6年の時に母を亡くし、親戚に預けられました。そして、いじめにも遭い、苦しい毎日を送っていたからです。けれども、私は、「絶望のとなり」という詩に出会い、絶望の隣には希望があると知ってから、「きっと明日はいいことがある」と、希望を抱くようになりました。\nどんな苦しい毎日の中にも希望はあるはずだとみなさんに言いたいです。",
+      "passage_source": null,
+      "stem_jp": "筆者が自殺を図ろうとする人に言いたいのは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "「お母さんが悲しむよ」"
+        },
+        {
+          "key": "2",
+          "text_jp": "「希望を見失わないでください」"
+        },
+        {
+          "key": "3",
+          "text_jp": "「一人で悩まないでね」"
+        },
+        {
+          "key": "4",
+          "text_jp": "「隣に友だちがいるじゃない」"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-036",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 45,
+      "knowledge_id": "reading:dokkai-short-36",
+      "section": "短文",
+      "no": 36,
+      "passage_jp": "横浜市内で行なわれた炊き出しボランティアに学校の先生、旧友とともに参加した。\nその場所には簡易宿泊所が多く、ホームレスの人もたくさんいる。最初は参加するのが少し怖かったけれど、私が間違いだったと気が付いた。雑炊を配っていると、たくさんの人が「ありがとう」と言ってくれたり、頭を下げてくれたりした。私は嬉しくなり、やりがいも感じた。\nかつての私のように、ホームレスの人に偏見を持っている人には、そうでないことを知ってほしいと思った。",
+      "passage_source": "福田佳奈氏の文より",
+      "stem_jp": "「少し怖かった」とあるが、この人はどうして「怖かった」と思っていたか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ホームレスの数が多かったから"
+        },
+        {
+          "key": "2",
+          "text_jp": "ホームレスは家庭を持っていないから"
+        },
+        {
+          "key": "3",
+          "text_jp": "ホームレスは知らない人だから"
+        },
+        {
+          "key": "4",
+          "text_jp": "ホームレスに偏見を持っていたから"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-037",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 46,
+      "knowledge_id": "reading:dokkai-short-37",
+      "section": "短文",
+      "no": 37,
+      "passage_jp": "サラリーマン時代、約7年間の単身赴任を経験した。新幹線を利用して千葉県の自宅に戻るのは金曜の夜。勤め先に行くのは月曜早朝だった。どの車両にも、私のような単身赴任者が乗っていた。黒っぽいかばんを持ち、特に月曜朝の車内では寝ているので分かる。\n悲しいことには、単身赴任者が大勢いる車両に、元気いっぱいで大きな声でしゃべる観光客も乗っていた。職場に向かう前夜はぐっすり眠れないことがあり、少しでも車内で眠りたいのに…。あまりいい思い出ではなかった。",
+      "passage_source": "中島一浩氏の文より",
+      "stem_jp": "何についての文章か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "単身赴任の苦労"
+        },
+        {
+          "key": "2",
+          "text_jp": "単身赴任のおもしろみ"
+        },
+        {
+          "key": "3",
+          "text_jp": "新幹線車内の観光客"
+        },
+        {
+          "key": "4",
+          "text_jp": "新幹線車内のサラリーマン"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-038",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 47,
+      "knowledge_id": "reading:dokkai-short-38",
+      "section": "短文",
+      "no": 38,
+      "passage_jp": "玉ねぎはユリ科ネギ属の野菜である。高さ約50センチで、地下の鱗茎は球形または偏球形で、葉や茎は管状である。秋、白い小花が集まって球状に咲く。ペルシアの原産で、明治の初めに日本に渡来した。\n玉ねぎの中に「アリシン」という成分が入っている。アリシンは常温で空気中に出て行く性質があり、玉ねぎを切るときに飛び出す。そして、呼吸したりするときに体の中に入ってきて、涙を出させるのである。",
+      "passage_source": null,
+      "stem_jp": "「アリシン」はどういうものか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "栄養分である。"
+        },
+        {
+          "key": "2",
+          "text_jp": "味見である。"
+        },
+        {
+          "key": "3",
+          "text_jp": "涙を出させる元である。"
+        },
+        {
+          "key": "4",
+          "text_jp": "熱を出させる元である。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-039",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 48,
+      "knowledge_id": "reading:dokkai-short-39",
+      "section": "短文",
+      "no": 39,
+      "passage_jp": "メロンの実の主成分はショ糖、ブドウ糖、果糖などの糖類とカリウム。果肉には、食物繊維のペクチンが多い。赤肉メロンの場合カロテンが多い。また、スイカと同様に水分が多いウリ科の植物であり、体内の塩分（ナトリウム）を分解させるカリウムが多く含まれ、腎臓病や高血圧の予防・体内温度を下げる成分も含まれており、夏バテによる食欲不振の予防にも効果的である。また、解毒作用もあり、リューマチや神経痛の痛みやしびれの予防にも効果的である。",
+      "passage_source": null,
+      "stem_jp": "上の説明文の主題は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "メロンの成分・効能"
+        },
+        {
+          "key": "2",
+          "text_jp": "メロンの品種・利用"
+        },
+        {
+          "key": "3",
+          "text_jp": "メロンの特徴・分類"
+        },
+        {
+          "key": "4",
+          "text_jp": "メロンの分布・栽培"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-040",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 49,
+      "knowledge_id": "reading:dokkai-short-40",
+      "section": "短文",
+      "no": 40,
+      "passage_jp": "これは白亜紀（約1億4400万年前～6500万年前）の恐竜の復元図です。\n前足は小さく尾が長いのが特徴で、体長は約10メートルもあります。その小さな前足に比べて、後ろ足はよく発達しています。\n恐竜には大きく分けると、肉食竜と草食竜がありますが、これは肉食竜です。脳を見ると、ほかの恐竜より比較的大きく、知能が発達していたことが分かります。おそらく、頭のいい「ハンター」であったことでしょう。",
+      "passage_source": null,
+      "stem_jp": "この肉食竜の外見上の特徴は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "後ろ足が発達している。"
+        },
+        {
+          "key": "2",
+          "text_jp": "知能が発達している。"
+        },
+        {
+          "key": "3",
+          "text_jp": "体長はほかのより長い。"
+        },
+        {
+          "key": "4",
+          "text_jp": "走りはほかのより速い。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-041",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 50,
+      "knowledge_id": "reading:dokkai-short-41",
+      "section": "短文",
+      "no": 41,
+      "passage_jp": "下の手紙は、佐藤先生が山崎教授に送ったものである。\n\n山崎教授\n\n拝啓　すっかり秋らしくなってきました。\nご無沙汰いたしております。3月にXY日本語学校を退職いたしましたが、在職中本当にお世話になりました。実は幸運だったのですが、その後すぐに、Z大学に講師として採用されました。後期から「日本語教授法」を担当します。現場と実務の知識を生かした授業にしてほしいとのことです。これからも先生のご指導をいただくことになると思いますので、どうぞよろしくお願い申し上げます。\n近いうちにごあいさつに伺います。\n\n敬具\n\n佐藤　恵子より",
+      "passage_source": "高見澤孟「新・はじめての日本語教育2」askによる",
+      "stem_jp": "この手紙の内容は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "退職の報告と在職中の謝礼"
+        },
+        {
+          "key": "2",
+          "text_jp": "再就職の報告と指導依頼"
+        },
+        {
+          "key": "3",
+          "text_jp": "退職の報告と再就職の依頼"
+        },
+        {
+          "key": "4",
+          "text_jp": "再就職の謝礼と在職中の謝礼"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-042",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 51,
+      "knowledge_id": "reading:dokkai-short-42",
+      "section": "短文",
+      "no": 42,
+      "passage_jp": "下の手紙は、甥の雅夫さんが先生をしているおじさんに送ったものである。\n\n竜彦おじ様\n\n寒い日がまだ続いています。おじ様はお元気にお過ごしでしょうか。ぼくはこの一年間浪人してずいぶん一生懸命勉強してきました。今も、がんばって勉強していますから、寝るのは毎朝4時ごろです。大学の入学試験は2月28日ですから、後一ヵ月しかありません。受かるかどうかとても心配しています。\n実は、おじ様にお願いがあります。去年は受けませんでしたが、今年はおじ様が教えているX大学の試験を受けようと思っています。もう一年浪人することはできません。どうしたらいいでしょうか。X大学に入れるように助けてくださいませんか。ぜひお願いします。\n\n雅夫",
+      "passage_source": null,
+      "stem_jp": "何のためにこの手紙を書いたのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "入学願書を出すため"
+        },
+        {
+          "key": "2",
+          "text_jp": "入学申込を提出するため"
+        },
+        {
+          "key": "3",
+          "text_jp": "助けを求めるため"
+        },
+        {
+          "key": "4",
+          "text_jp": "あいさつを言うため"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-043",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 52,
+      "knowledge_id": "reading:dokkai-short-43",
+      "section": "短文",
+      "no": 43,
+      "passage_jp": "下のメールは、小泉さんが山下さんに送ったものである。\n\nあて先：yamashita@nihonnote.co.jp\n件名：「スポーツ用品」について\n\n東日本株式会社\n営業部　山下様\n\nいつもお世話になっております。\nさて、さっそくですが、この前よりお問い合せいただいておりますNANシリーズスポーツ用品につきまして、近日中に担当者とともに具体的なお打ち合せに参りたく、ご都合お伺いいたします。\nなお、ご訪問をする前にお電話にてご連絡いたしますので、よろしくお願い申し上げます。\n\n新大阪デパート\nスポーツ用品担当　小泉　けい子",
+      "passage_source": null,
+      "stem_jp": "小泉さんが山下さんにこのメールを送った目的は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "スポーツ用品を届けてもらいたいこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "スポーツ用品を売り出してもらいたいこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "スポーツ用品についての販売担当を頼むこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "スポーツ用品についての打ち合わせを頼むこと"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-044",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 53,
+      "knowledge_id": "reading:dokkai-short-44",
+      "section": "短文",
+      "no": 44,
+      "passage_jp": "下のメールは、山崎さんが佐藤さんに送ったものである。\n\nあて先：sato@nihonnote.co.jp\n件名：「スポーツ用品」について\n\n日光パソコン会社\n営業部　佐藤様\n\nいつもお世話になっております。\nさて、先日ご依頼のありました「3A-パソコン」のカタログを送付いたします。何とぞ詳細にご検討くださいますようお願い申し上げます。\nなお、カタログでご不明なところがありましたら、ご遠慮なくご指摘ください。当社では直ちに社員を派遣いたしますので、よろしくお願いいたします。\nまずは、ご案内まで。\n\nヤマト株式会社\n輸出入部　山崎　一郎",
+      "passage_source": null,
+      "stem_jp": "この文書は何を頼むためのものか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "カタログの送付"
+        },
+        {
+          "key": "2",
+          "text_jp": "社員の派遣"
+        },
+        {
+          "key": "3",
+          "text_jp": "カタログの検討"
+        },
+        {
+          "key": "4",
+          "text_jp": "社員の案内"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-045",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 54,
+      "knowledge_id": "reading:dokkai-short-45",
+      "section": "短文",
+      "no": 45,
+      "passage_jp": "下のビジネス文書は、牛久デパートがお客様に送った礼状である。\n\n各位様\n\n2011年2月17日\n牛久パソコン専門店\n店長　村山　和夫\n\n拝啓\nこのたびは、弊店でパソコンをお買い上げくださいまして、まことにありがとうございました。ご使用になって調子はいかがでございましょうか。\nなお、お買い上げの商品につきまして、ご不満やご要望などがございましたら、ご遠慮なくおっしゃってください。\n今後とも、弊店をご愛顧くださいますようお願い申し上げます。\n敬具",
+      "passage_source": null,
+      "stem_jp": "この文書が言いたいことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "パソコンを買ってください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "パソコンを直してあげましょう。"
+        },
+        {
+          "key": "3",
+          "text_jp": "パソコンの使い方を教えましょう。"
+        },
+        {
+          "key": "4",
+          "text_jp": "パソコンを買ってくれてありがとう。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-046",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 55,
+      "knowledge_id": "reading:dokkai-short-46",
+      "section": "短文",
+      "no": 46,
+      "passage_jp": "下は、求職者の李花香さんが富士商事へ送った文書である。\n\n平成23年2月17日\n\n富士パソコンネットワーク\n人事ご担当者様\n\n東京都千代田区東神田1-1-1\nTel: 03-1234-1234\n李花香\n\n拝啓\nこのたび、求人情報サイト「ラクラク転職」にて貴社の求人広告を拝見し、「パソコンエンジニア職」に大変興味を持ちましたので、応募させていただきます。\nつきましては、履歴書・職務経歴書をご送付いたしましたので、ご検討の上、面接の機会をいただけるよう心よりお願い申し上げます。\nなお、現在在職中ですので、ご連絡をいただく際は携帯電話にお願いできますでしょうか。どうぞよろしくお願い申し上げます。\n敬具",
+      "passage_source": null,
+      "stem_jp": "この文書の内容に合っているのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "履歴書などが届いたら、会社へ連絡してほしい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "面接の日時を決めたら、会社へ連絡してほしい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "履歴書などが届いたら、ケータイへ連絡してほしい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "面接の日時を決めたら、ケータイへ連絡してほしい。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-047",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 56,
+      "knowledge_id": "reading:dokkai-short-47",
+      "section": "短文",
+      "no": 47,
+      "passage_jp": "下は、サクラ製菓の経理が東洋商事の経理へ送った文書である。\n\n平成23年2月17日\n\n東洋商事\n経理部　前川様\n\nサクラ製菓\n経理担当　田中　久美\n\nいつもお世話になりありがとうございます。すでにお聞きしたと思いますが、間違いがあるといけませんので、改めてお支払方法について教えていただけますでしょうか。申し訳ありませんが、こちらの経理事務の都合上、できましたら、12月10日までにお知らせいただければと思います。どうぞよろしくお願い申し上げます。",
+      "passage_source": null,
+      "stem_jp": "何についてのビジネス文書か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "支払い日時の確認について"
+        },
+        {
+          "key": "2",
+          "text_jp": "支払い金額の訂正について"
+        },
+        {
+          "key": "3",
+          "text_jp": "支払い方法の確認について"
+        },
+        {
+          "key": "4",
+          "text_jp": "支払い場所の指示について"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-048",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 57,
+      "knowledge_id": "reading:dokkai-short-48",
+      "section": "短文",
+      "no": 48,
+      "passage_jp": "旧庁舎に残る物品を無償で提供します\n\n日時：2月26日（土）・27日（日）9:00～15:00\n※事前登録が必要です。登録は2月14日（月）～21日（月）の土・日を除く期間に受け付けます。\n場所：旧谷田部庁舎、旧桜庁舎、旧筑波庁舎、旧茎崎庁舎\n内容：昨年5月の庁舎移転に伴い、ロッカーや事務机など使わなくなった物品を無償で提供します。できるだけ市役所や市内の機関で再利用しましたが、まだ多くの物品が残っています。\n対象：主な活動場所が市内にある、または市内に住む・働く・学ぶ市民2名以上で構成される公共的団体（ボランティア活動団体、NPO法人、区会・町内会、子ども会など）。※個人は対象となりません。\n※2月10日（木）9:00～15:00に下見を行います。物品搬出は不可。\n※詳細は市ホームページをご覧になるか、お問い合わせください。\n問い合わせ：管財課",
+      "passage_source": null,
+      "stem_jp": "次の4つのケースの中で、このサービスを受けられるのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子供の勉強机が小さくなったので、買い換えようとしている市内在住の人"
+        },
+        {
+          "key": "2",
+          "text_jp": "近くこの市に支所を移し、ボランティア活動を始めようとしている団体"
+        },
+        {
+          "key": "3",
+          "text_jp": "お年寄りの数が増えたので、とりあえずロッカーが必要となり、2月10日までに備え付けたい老人ホーム"
+        },
+        {
+          "key": "4",
+          "text_jp": "環境問題の研究調査のため、事務用品を必要としている市内の大学生グループ"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-049",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 58,
+      "knowledge_id": "reading:dokkai-short-49",
+      "section": "短文",
+      "no": 49,
+      "passage_jp": "日本にいる外国人の皆さんへ\nお風呂の入り方\n\n日本では、大きなお風呂に大勢の人と一緒に入るという習慣があります。日本のお風呂は、体をきれいにするだけではなく、湯船でゆっくりおしゃべりをするなど、コミュニケーションの場であり、一つの文化と言えます。下のマナーを参考にして、ぜひ日本でのお風呂を楽しみましょう。\n■湯船には体をよく洗ってから入ること\n■湯船の中で体を洗ったり、せっけんを入れたりしないこと\n■タオルを湯船の中に入れないこと\n■洗い場で洗濯をしないこと\n※髪を伸ばしている人は、輪ゴムなどで束ねて湯に髪が浸らないようにすること\n※水・お湯がほかの人にかからないようにすること",
+      "passage_source": null,
+      "stem_jp": "どういうことを呼びかけているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "風呂の中ではゆっくりおしゃべりしよう。"
+        },
+        {
+          "key": "2",
+          "text_jp": "洗い場では体を洗わないようにしよう。"
+        },
+        {
+          "key": "3",
+          "text_jp": "風呂にはタオルを持って入りましょう。"
+        },
+        {
+          "key": "4",
+          "text_jp": "お湯がほかの人にかからないようにしよう。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-050",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 59,
+      "knowledge_id": "reading:dokkai-short-50",
+      "section": "短文",
+      "no": 50,
+      "passage_jp": "留学生の皆さんへ\n宿舎を探すためのポイント\n\n1. 日本語の日常会話ができないと、民間の宿舎は借りにくい\n民間の宿舎を借りるためには、不動産業者や大家さんと日本語で話し合わなければならない。この場合、日本人の友人や日本語の上手な先輩に行ってもらって手伝ってもらおう。\n\n2. 通学には普通1時間はかかる\n多くの人が学校に近い距離に住みたいと思うであろうが、特に学校がビジネス街や商業地区にある場合は難しいと思ったほうがよい。\n\n3. 契約するには、家賃の5～6ヶ月分程度の費用が必要\n日本で家を借りるときは、敷金、礼金、仲介手数料、家賃など、合わせて家賃の5～6ヶ月分程度のお金を用意しなければならない。",
+      "passage_source": null,
+      "stem_jp": "文の内容に合っているのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "日本語が話せない人が民間の宿舎を借りるには通訳が必要である。"
+        },
+        {
+          "key": "2",
+          "text_jp": "学校がビジネス街にあれば、学校から40分ぐらいの宿舎が見つかる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "日本で家を借りるには、契約時に5～6ヶ月の費用がかかる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "日本語の日常会話ができないと、民間の宿舎を借りることができない。"
+        }
+      ],
+      "correct_answer": "3",
       "answer_source": "official_answer_key",
       "content_source": "visual_transcription",
       "needs_verify": false,

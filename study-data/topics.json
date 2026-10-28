@@ -418,9 +418,9 @@
   {
     "id": "dokkai-n3-pilot",
     "title": "Đọc hiểu N3 (pilot ngắn)",
-    "description": "Bài đọc hiểu ngắn kèm đáp án — đang bổ sung dần từ sách 115 bài.",
-    "notice": "Bản pilot; chưa đủ toàn bộ 115 bài.",
-    "count": 31,
+    "description": "Bài đọc hiểu ngắn kèm đáp án — 短文 1–50 (đủ mục ngắn).",
+    "notice": "Đã đủ 短文 (50 câu); còn các mục dài hơn trong sách 115 bài.",
+    "count": 50,
     "unit": "câu",
     "path": "./study-data/dokkai-n3-pilot.json",
     "group": "practice",
