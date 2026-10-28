@@ -7,14 +7,15 @@
       "description": "Lối vào theo thư mục tài liệu tổng hợp. Các bộ đã gắn dùng chung tiến độ với danh mục chính.",
       "folders": [
         {
-          "id": "chuyen-tu-vung",
+          "id": "chuyen",
           "title": "Chuyên từ vựng các năm",
           "topicIds": [
             "mondai3-vocab-p1",
             "mondai3-vocab-p2",
             "gan-nghia-hq-p1",
             "gan-nghia-hq-p2",
-            "cach-dung-tu-hq"
+            "cach-dung-tu-hq",
+            "chuyen-kanji-p1"
           ]
         },
         {
