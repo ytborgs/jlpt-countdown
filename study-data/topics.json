@@ -469,5 +469,15 @@
     "path": "./study-data/so-tay-pho-tu.json",
     "group": "vocab",
     "gradable": false
+  },
+  {
+    "id": "grammar-pho-tu-mau",
+    "title": "Phó từ đi kèm mẫu câu",
+    "description": "Phó từ thường đi với mẫu cố định (ない、そうだ、ても…).",
+    "notice": "",
+    "count": 15,
+    "unit": "mục",
+    "path": "./study-data/grammar-pho-tu-mau.json",
+    "group": "grammar"
   }
 ]
