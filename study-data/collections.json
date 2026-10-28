@@ -24,14 +24,17 @@
         {
           "id": "nghe-hieu",
           "title": "Nghe hiểu",
-          "topicIds": []
+          "topicIds": [
+            "nghe-mondai1-tips"
+          ]
         },
         {
           "id": "ngu-phap",
           "title": "Ngữ pháp",
           "topicIds": [
             "grammar",
-            "star-rearrange"
+            "star-rearrange",
+            "grammar-n4-nang-cao"
           ]
         },
         {
@@ -39,7 +42,11 @@
           "title": "Từ vựng",
           "topicIds": [
             "usage-quiz",
-            "near-synonyms"
+            "near-synonyms",
+            "tu-lay-87",
+            "dong-am",
+            "quan-dung-ngu",
+            "tuong-thanh"
           ]
         },
         {

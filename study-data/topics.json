@@ -227,5 +227,71 @@
     "path": "./study-data/soumatome-kanji.json",
     "group": "vocab",
     "gradable": false
+  },
+  {
+    "id": "tu-lay-87",
+    "title": "87 từ láy thường gặp",
+    "description": "Danh sách từ láy JP–VI.",
+    "notice": "",
+    "count": 87,
+    "unit": "mục",
+    "path": "./study-data/tu-lay-87.json",
+    "group": "vocab",
+    "gradable": false
+  },
+  {
+    "id": "dong-am",
+    "title": "Từ đồng âm khác nghĩa",
+    "description": "Các nhóm đồng âm dễ nhầm kèm nghĩa.",
+    "notice": "Extract text — nên đối chiếu PDF.",
+    "count": 73,
+    "unit": "nhóm",
+    "path": "./study-data/dong-am.json",
+    "group": "vocab",
+    "gradable": false
+  },
+  {
+    "id": "quan-dung-ngu",
+    "title": "Quán dụng ngữ (cơ thể)",
+    "description": "Cụm quán dụng với bộ phận cơ thể.",
+    "notice": "Extract text — đối chiếu PDF.",
+    "count": 59,
+    "unit": "mục",
+    "path": "./study-data/quan-dung-ngu.json",
+    "group": "vocab",
+    "gradable": false
+  },
+  {
+    "id": "tuong-thanh",
+    "title": "Tượng thanh / tượng hình",
+    "description": "Từ tượng thanh/tượng hình hay gặp.",
+    "notice": "Extract text — đối chiếu PDF.",
+    "count": 19,
+    "unit": "mục",
+    "path": "./study-data/tuong-thanh.json",
+    "group": "vocab",
+    "gradable": false
+  },
+  {
+    "id": "nghe-mondai1-tips",
+    "title": "Tips nghe Mondai 1",
+    "description": "Điểm quan trọng khi làm nghe Mondai 1 (không kèm audio).",
+    "notice": "Không có file nghe — chỉ mẹo đọc.",
+    "count": 7,
+    "unit": "mẹo",
+    "path": "./study-data/nghe-mondai1-tips.json",
+    "group": "tips",
+    "gradable": false
+  },
+  {
+    "id": "grammar-n4-nang-cao",
+    "title": "Ngữ pháp N4 nâng cao",
+    "description": "Mẫu N4 nâng cao hay gặp trong N3.",
+    "notice": "Extract text — đối chiếu PDF.",
+    "count": 11,
+    "unit": "mẫu",
+    "path": "./study-data/grammar-n4-nang-cao.json",
+    "group": "grammar",
+    "gradable": false
   }
 ]
