@@ -222,6 +222,17 @@
     "gradable": true
   },
   {
+    "id": "chuyen-kanji-p2",
+    "title": "Chuyên Kanji — Phần 2",
+    "description": "Đọc Kanji trọng điểm các năm (Mondai 1). Pilot 40/≈190 câu; đáp án in cuối trang.",
+    "notice": "Bản pilot — còn thiếu phần sau (Mondai 1 còn lại + Mondai 2 viết Kanji). Một số stem OCR cần verify.",
+    "count": 40,
+    "unit": "câu",
+    "path": "./study-data/chuyen-kanji-p2.json",
+    "group": "practice",
+    "gradable": true
+  },
+  {
     "id": "star-rearrange",
     "group": "practice",
     "gradable": true,
