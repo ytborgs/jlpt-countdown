@@ -216,5 +216,16 @@
     "unit": "mục",
     "path": "./study-data/exam-tips.json",
     "group": "tips"
+  },
+  {
+    "id": "soumatome-kanji",
+    "title": "Soumatome N3 Kanji",
+    "description": "Hán tự theo tuần (Soumatome), trích text PDF — cần đối chiếu.",
+    "notice": "Extract tự động; HV/nghĩa có thể cần verify.",
+    "count": 282,
+    "unit": "chữ",
+    "path": "./study-data/soumatome-kanji.json",
+    "group": "vocab",
+    "gradable": false
   }
 ]

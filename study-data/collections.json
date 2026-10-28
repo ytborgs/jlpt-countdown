@@ -17,7 +17,9 @@
         {
           "id": "han-tu",
           "title": "Hán tự",
-          "topicIds": []
+          "topicIds": [
+            "soumatome-kanji"
+          ]
         },
         {
           "id": "nghe-hieu",
