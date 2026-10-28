@@ -1,0 +1,3623 @@
+{
+  "schema_version": "1.0",
+  "document_id": "mondai3-vocab-p2",
+  "type": "practice",
+  "level": "N3",
+  "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+  "source_path": "study-materials/Mondai 3 (Phần 2) Đề.pdf",
+  "title": "Mondai 3 từ vựng — Phần 2",
+  "page_count": 10,
+  "item_count": 100,
+  "expected_item_count": 100,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-28T15:54:58.462521+00:00",
+  "producer": "n3-study-extractor/l2-mondai3",
+  "status": "verified",
+  "needs_verify_count": 0,
+  "notes": [
+    "PDF scanned — chép từ kaitou PNG + đối chiếu strip đề; đáp án vòng đỏ.",
+    "100/100 câu Phần 2."
+  ],
+  "items": [
+    {
+      "id": "mondai3-p2-q001",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:発表",
+      "no": 1,
+      "lemma_jp": "発表",
+      "stem_jp": "秋に新製品を（　）する予定です。",
+      "meaning_vi": "công bố, phát biểu",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "発見"
+        },
+        {
+          "key": "2",
+          "text_jp": "発表"
+        },
+        {
+          "key": "3",
+          "text_jp": "発展"
+        },
+        {
+          "key": "4",
+          "text_jp": "発生"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q002",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:目標",
+      "no": 2,
+      "lemma_jp": "目標",
+      "stem_jp": "わたしの（　）はオリンピックで金メダルを取ることです。",
+      "meaning_vi": "mục tiêu",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "目標"
+        },
+        {
+          "key": "2",
+          "text_jp": "効果"
+        },
+        {
+          "key": "3",
+          "text_jp": "予報"
+        },
+        {
+          "key": "4",
+          "text_jp": "投票"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q003",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:別々",
+      "no": 3,
+      "lemma_jp": "別々",
+      "stem_jp": "私たちは皆、（　）の飲み物を注文した。",
+      "meaning_vi": "riêng biệt",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "続々"
+        },
+        {
+          "key": "2",
+          "text_jp": "順々"
+        },
+        {
+          "key": "3",
+          "text_jp": "次々"
+        },
+        {
+          "key": "4",
+          "text_jp": "別々"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q004",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:おもに",
+      "no": 4,
+      "lemma_jp": "おもに",
+      "stem_jp": "コンサートの参加者は（　）学生だった。",
+      "meaning_vi": "chủ yếu",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "なかなか"
+        },
+        {
+          "key": "2",
+          "text_jp": "かならず"
+        },
+        {
+          "key": "3",
+          "text_jp": "おもに"
+        },
+        {
+          "key": "4",
+          "text_jp": "じゅうぶん"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q005",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:ヒント",
+      "no": 5,
+      "lemma_jp": "ヒント",
+      "stem_jp": "遊具から（　）を得て新製品を開発した。",
+      "meaning_vi": "gợi ý, hint",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ライト"
+        },
+        {
+          "key": "2",
+          "text_jp": "カーブ"
+        },
+        {
+          "key": "3",
+          "text_jp": "ヒント"
+        },
+        {
+          "key": "4",
+          "text_jp": "セット"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q006",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:意志",
+      "no": 6,
+      "lemma_jp": "意志",
+      "stem_jp": "監督を続けたい（　）はあるが健康に自信がない。",
+      "meaning_vi": "ý chí, mong muốn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "意識"
+        },
+        {
+          "key": "2",
+          "text_jp": "意志"
+        },
+        {
+          "key": "3",
+          "text_jp": "目的"
+        },
+        {
+          "key": "4",
+          "text_jp": "目標"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q007",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:出張",
+      "no": 7,
+      "lemma_jp": "出張",
+      "stem_jp": "わたしは大阪への（　）を命じられた。",
+      "meaning_vi": "công tác",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "注文"
+        },
+        {
+          "key": "2",
+          "text_jp": "注目"
+        },
+        {
+          "key": "3",
+          "text_jp": "出張"
+        },
+        {
+          "key": "4",
+          "text_jp": "主張"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q008",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:申込書",
+      "no": 8,
+      "lemma_jp": "申込書",
+      "stem_jp": "セミナーに参加したい人は、（　）に住所、氏名、希望日を記入してください。",
+      "meaning_vi": "bản đăng ký",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "参考書"
+        },
+        {
+          "key": "2",
+          "text_jp": "証明書"
+        },
+        {
+          "key": "3",
+          "text_jp": "領収書"
+        },
+        {
+          "key": "4",
+          "text_jp": "申込書"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q009",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:あわ",
+      "no": 9,
+      "lemma_jp": "あわ",
+      "stem_jp": "（　）がグラスからあふれた。",
+      "meaning_vi": "bọt",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ひも"
+        },
+        {
+          "key": "2",
+          "text_jp": "あわ"
+        },
+        {
+          "key": "3",
+          "text_jp": "なみだ"
+        },
+        {
+          "key": "4",
+          "text_jp": "すがた"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q010",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:カタログ",
+      "no": 10,
+      "lemma_jp": "カタログ",
+      "stem_jp": "新しい車を買うために、店で（　）をもらってきた。",
+      "meaning_vi": "catalog",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "オーダー"
+        },
+        {
+          "key": "2",
+          "text_jp": "セール"
+        },
+        {
+          "key": "3",
+          "text_jp": "カタログ"
+        },
+        {
+          "key": "4",
+          "text_jp": "レシート"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q011",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:文句",
+      "no": 11,
+      "lemma_jp": "文句",
+      "stem_jp": "（　）ひとつ言わずに30年間働いてくれて感謝しています。",
+      "meaning_vi": "phàn nàn, kêu ca",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "うそ"
+        },
+        {
+          "key": "2",
+          "text_jp": "うわさ"
+        },
+        {
+          "key": "3",
+          "text_jp": "宣伝"
+        },
+        {
+          "key": "4",
+          "text_jp": "文句"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q012",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:さめても",
+      "no": 12,
+      "lemma_jp": "さめても",
+      "stem_jp": "弟は寝ても（　）サッカーのことばかり考えている。",
+      "meaning_vi": "thức",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "とめても"
+        },
+        {
+          "key": "2",
+          "text_jp": "さめても"
+        },
+        {
+          "key": "3",
+          "text_jp": "とじても"
+        },
+        {
+          "key": "4",
+          "text_jp": "ためても"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q013",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:ゆるく",
+      "no": 13,
+      "lemma_jp": "ゆるく",
+      "stem_jp": "やせてズボンが（　）なった。",
+      "meaning_vi": "lỏng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "えらく"
+        },
+        {
+          "key": "2",
+          "text_jp": "あわく"
+        },
+        {
+          "key": "3",
+          "text_jp": "ゆるく"
+        },
+        {
+          "key": "4",
+          "text_jp": "だるく"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q014",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:とじて",
+      "no": 14,
+      "lemma_jp": "とじて",
+      "stem_jp": "わたしはいつも目を（　）、深呼吸をする手軽な方法でストレスを軽減させている。",
+      "meaning_vi": "nhắm mắt",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "やめて"
+        },
+        {
+          "key": "2",
+          "text_jp": "とめて"
+        },
+        {
+          "key": "3",
+          "text_jp": "さげて"
+        },
+        {
+          "key": "4",
+          "text_jp": "とじて"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q015",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:なつかしい",
+      "no": 15,
+      "lemma_jp": "なつかしい",
+      "stem_jp": "その歌を聞くと（　）故郷のことを思い出す。",
+      "meaning_vi": "hoài niệm, nhớ nhung",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "なつかしい"
+        },
+        {
+          "key": "2",
+          "text_jp": "あやしい"
+        },
+        {
+          "key": "3",
+          "text_jp": "おそろしい"
+        },
+        {
+          "key": "4",
+          "text_jp": "すばらしい"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q016",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:わかれて",
+      "no": 16,
+      "lemma_jp": "わかれて",
+      "stem_jp": "駅で友だちと（　）家に帰りました。",
+      "meaning_vi": "chia tay",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あふれて"
+        },
+        {
+          "key": "2",
+          "text_jp": "おぼれて"
+        },
+        {
+          "key": "3",
+          "text_jp": "はずれて"
+        },
+        {
+          "key": "4",
+          "text_jp": "わかれて"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q017",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:冗談",
+      "no": 17,
+      "lemma_jp": "冗談",
+      "stem_jp": "田中さんは、よく（　）を言う面白い人です。",
+      "meaning_vi": "nói đùa",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "冗談"
+        },
+        {
+          "key": "2",
+          "text_jp": "文句"
+        },
+        {
+          "key": "3",
+          "text_jp": "感想"
+        },
+        {
+          "key": "4",
+          "text_jp": "希望"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q018",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:複雑",
+      "no": 18,
+      "lemma_jp": "複雑",
+      "stem_jp": "この計算は（　）なので、コンピューターを使っても時間がかかる。",
+      "meaning_vi": "phức tạp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "重大"
+        },
+        {
+          "key": "2",
+          "text_jp": "正常"
+        },
+        {
+          "key": "3",
+          "text_jp": "複雑"
+        },
+        {
+          "key": "4",
+          "text_jp": "意外"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q019",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:ノック",
+      "no": 19,
+      "lemma_jp": "ノック",
+      "stem_jp": "玄関のドアを（　）する音が聞こえる。",
+      "meaning_vi": "gõ cửa",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "マーク"
+        },
+        {
+          "key": "2",
+          "text_jp": "チェック"
+        },
+        {
+          "key": "3",
+          "text_jp": "インク"
+        },
+        {
+          "key": "4",
+          "text_jp": "ノック"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q020",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:感じ",
+      "no": 20,
+      "lemma_jp": "感じ",
+      "stem_jp": "山田さんの服装は、とても上品な（　）がします。",
+      "meaning_vi": "cảm giác",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "感じ"
+        },
+        {
+          "key": "2",
+          "text_jp": "考え"
+        },
+        {
+          "key": "3",
+          "text_jp": "気分"
+        },
+        {
+          "key": "4",
+          "text_jp": "関心"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q021",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:順番",
+      "no": 21,
+      "lemma_jp": "順番",
+      "stem_jp": "番号札を取って、（　）を待ってください。",
+      "meaning_vi": "theo thứ tự, lần lượt",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "順番"
+        },
+        {
+          "key": "2",
+          "text_jp": "順調"
+        },
+        {
+          "key": "3",
+          "text_jp": "調子"
+        },
+        {
+          "key": "4",
+          "text_jp": "調節"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q022",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:テーマ",
+      "no": 22,
+      "lemma_jp": "テーマ",
+      "stem_jp": "今日の話の（　）は愛です。",
+      "meaning_vi": "chủ đề",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "メリット"
+        },
+        {
+          "key": "2",
+          "text_jp": "ドラマ"
+        },
+        {
+          "key": "3",
+          "text_jp": "テーマ"
+        },
+        {
+          "key": "4",
+          "text_jp": "セミナー"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q023",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:わけて",
+      "no": 23,
+      "lemma_jp": "わけて",
+      "stem_jp": "人間の性格を血液型のタイプに（　）説明することはおかしい。",
+      "meaning_vi": "phân chia",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "のせて"
+        },
+        {
+          "key": "2",
+          "text_jp": "かれて"
+        },
+        {
+          "key": "3",
+          "text_jp": "ためて"
+        },
+        {
+          "key": "4",
+          "text_jp": "わけて"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q024",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:たたんで",
+      "no": 24,
+      "lemma_jp": "たたんで",
+      "stem_jp": "セーターを（　）箱に入れてください。",
+      "meaning_vi": "gấp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "むすんで"
+        },
+        {
+          "key": "2",
+          "text_jp": "たたんで"
+        },
+        {
+          "key": "3",
+          "text_jp": "まげて"
+        },
+        {
+          "key": "4",
+          "text_jp": "しめて"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q025",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:代金",
+      "no": 25,
+      "lemma_jp": "代金",
+      "stem_jp": "いつも買ってくれてるから、このトマトの（　）は要らないよ。",
+      "meaning_vi": "tiền phải trả",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "家賃"
+        },
+        {
+          "key": "2",
+          "text_jp": "資源"
+        },
+        {
+          "key": "3",
+          "text_jp": "会費"
+        },
+        {
+          "key": "4",
+          "text_jp": "代金"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q026",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:起きて",
+      "no": 26,
+      "lemma_jp": "起きて",
+      "stem_jp": "母は朝（　）から夜寝るまで文句を言っている。",
+      "meaning_vi": "thức dậy",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "起きて"
+        },
+        {
+          "key": "2",
+          "text_jp": "磨いて"
+        },
+        {
+          "key": "3",
+          "text_jp": "あきて"
+        },
+        {
+          "key": "4",
+          "text_jp": "とじて"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q027",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:さっそく",
+      "no": 27,
+      "lemma_jp": "さっそく",
+      "stem_jp": "電話局に電話をして聞いたら、（　）番号を調べてくれた。",
+      "meaning_vi": "ngay lập tức",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ずいぶん"
+        },
+        {
+          "key": "2",
+          "text_jp": "さっそく"
+        },
+        {
+          "key": "3",
+          "text_jp": "なるべく"
+        },
+        {
+          "key": "4",
+          "text_jp": "まもなく"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q028",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:産",
+      "no": 28,
+      "lemma_jp": "産",
+      "stem_jp": "このオレンジは日本（　）です。",
+      "meaning_vi": "xuất xứ (nông sản)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "産"
+        },
+        {
+          "key": "2",
+          "text_jp": "製"
+        },
+        {
+          "key": "3",
+          "text_jp": "作"
+        },
+        {
+          "key": "4",
+          "text_jp": "品"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q029",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:半日",
+      "no": 29,
+      "lemma_jp": "半日",
+      "stem_jp": "この本は（　）で読めます。",
+      "meaning_vi": "nửa ngày",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "半日"
+        },
+        {
+          "key": "2",
+          "text_jp": "先日"
+        },
+        {
+          "key": "3",
+          "text_jp": "半分"
+        },
+        {
+          "key": "4",
+          "text_jp": "先週"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q030",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:家賃",
+      "no": 30,
+      "lemma_jp": "家賃",
+      "stem_jp": "このあたりでアパートを借りるには、毎月の（　）として5万円必要だ。",
+      "meaning_vi": "tiền thuê nhà",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "会費"
+        },
+        {
+          "key": "2",
+          "text_jp": "物価"
+        },
+        {
+          "key": "3",
+          "text_jp": "料金"
+        },
+        {
+          "key": "4",
+          "text_jp": "家賃"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q031",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:まもる",
+      "no": 31,
+      "lemma_jp": "まもる",
+      "stem_jp": "万一の時には自分でしっかり自分の身を（　）。",
+      "meaning_vi": "bảo vệ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "まぜる"
+        },
+        {
+          "key": "2",
+          "text_jp": "まなぶ"
+        },
+        {
+          "key": "3",
+          "text_jp": "まげる"
+        },
+        {
+          "key": "4",
+          "text_jp": "まもる"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q032",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:あな",
+      "no": 32,
+      "lemma_jp": "あな",
+      "stem_jp": "彼らは道路に２メートルの（　）を掘った。",
+      "meaning_vi": "hố",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "いわ"
+        },
+        {
+          "key": "2",
+          "text_jp": "ふた"
+        },
+        {
+          "key": "3",
+          "text_jp": "きず"
+        },
+        {
+          "key": "4",
+          "text_jp": "あな"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q033",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:おいわい",
+      "no": 33,
+      "lemma_jp": "おいわい",
+      "stem_jp": "家族みんなで新年の（　）をしました。",
+      "meaning_vi": "chúc mừng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "おみまい"
+        },
+        {
+          "key": "2",
+          "text_jp": "おいわい"
+        },
+        {
+          "key": "3",
+          "text_jp": "おれい"
+        },
+        {
+          "key": "4",
+          "text_jp": "おまつり"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q034",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:おいついた",
+      "no": 34,
+      "lemma_jp": "おいついた",
+      "stem_jp": "先に出発した父にやっと（　）。",
+      "meaning_vi": "đuổi kịp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "おいついた"
+        },
+        {
+          "key": "2",
+          "text_jp": "とおりすぎた"
+        },
+        {
+          "key": "3",
+          "text_jp": "ひきうけた"
+        },
+        {
+          "key": "4",
+          "text_jp": "うちあわせた"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q035",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:片方",
+      "no": 35,
+      "lemma_jp": "片方",
+      "stem_jp": "またくつ下の（　）に穴があいてしまった。",
+      "meaning_vi": "một bên",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "大方"
+        },
+        {
+          "key": "2",
+          "text_jp": "他方"
+        },
+        {
+          "key": "3",
+          "text_jp": "片方"
+        },
+        {
+          "key": "4",
+          "text_jp": "一方"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q036",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:応援",
+      "no": 36,
+      "lemma_jp": "応援",
+      "stem_jp": "母はときどきわたしの（　）してくれる。",
+      "meaning_vi": "ủng hộ, cổ vũ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "感動"
+        },
+        {
+          "key": "2",
+          "text_jp": "応援"
+        },
+        {
+          "key": "3",
+          "text_jp": "歓迎"
+        },
+        {
+          "key": "4",
+          "text_jp": "期待"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q037",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:カーブ",
+      "no": 37,
+      "lemma_jp": "カーブ",
+      "stem_jp": "彼は飛ばしすぎていて（　）を曲がり切れずにガードレールにぶつかった。",
+      "meaning_vi": "khúc cua",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "エネルギー"
+        },
+        {
+          "key": "2",
+          "text_jp": "セット"
+        },
+        {
+          "key": "3",
+          "text_jp": "スケート"
+        },
+        {
+          "key": "4",
+          "text_jp": "カーブ"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q038",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:インタビュー",
+      "no": 38,
+      "lemma_jp": "インタビュー",
+      "stem_jp": "優勝した選手に（　）をして記事を書いた。",
+      "meaning_vi": "phỏng vấn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "スピーチ"
+        },
+        {
+          "key": "2",
+          "text_jp": "インタビュー"
+        },
+        {
+          "key": "3",
+          "text_jp": "メッセージ"
+        },
+        {
+          "key": "4",
+          "text_jp": "コミュニケーション"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q039",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:あつかって",
+      "no": 39,
+      "lemma_jp": "あつかって",
+      "stem_jp": "わたしたちの学校では遅刻3回を欠席1回として（　）いる。",
+      "meaning_vi": "đối xử / coi như",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ことわって"
+        },
+        {
+          "key": "2",
+          "text_jp": "うしなって"
+        },
+        {
+          "key": "3",
+          "text_jp": "あつかって"
+        },
+        {
+          "key": "4",
+          "text_jp": "あたえて"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q040",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:しまって",
+      "no": 40,
+      "lemma_jp": "しまって",
+      "stem_jp": "テストを始めますから、辞書はかばんの中に（　）ください。",
+      "meaning_vi": "cất vào",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "たたんで"
+        },
+        {
+          "key": "2",
+          "text_jp": "しまって"
+        },
+        {
+          "key": "3",
+          "text_jp": "とじて"
+        },
+        {
+          "key": "4",
+          "text_jp": "ためて"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q041",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:しつこく",
+      "no": 41,
+      "lemma_jp": "しつこく",
+      "stem_jp": "子どもはお菓子が欲しいと母親に（　）言った。",
+      "meaning_vi": "dai dẳng, lèo nhèo",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "きびしく"
+        },
+        {
+          "key": "2",
+          "text_jp": "しつこく"
+        },
+        {
+          "key": "3",
+          "text_jp": "くわしく"
+        },
+        {
+          "key": "4",
+          "text_jp": "こまかく"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q042",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:合計",
+      "no": 42,
+      "lemma_jp": "合計",
+      "stem_jp": "デパートで買い物をしたら（　）5万円以上にもなった。",
+      "meaning_vi": "tổng cộng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "合計"
+        },
+        {
+          "key": "2",
+          "text_jp": "制限"
+        },
+        {
+          "key": "3",
+          "text_jp": "合宿"
+        },
+        {
+          "key": "4",
+          "text_jp": "制服"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q043",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:方法",
+      "no": 43,
+      "lemma_jp": "方法",
+      "stem_jp": "山田先生と連絡をとる（　）がありますか。",
+      "meaning_vi": "phương pháp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "方法"
+        },
+        {
+          "key": "2",
+          "text_jp": "方向"
+        },
+        {
+          "key": "3",
+          "text_jp": "予約"
+        },
+        {
+          "key": "4",
+          "text_jp": "予習"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q044",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:おぼれる",
+      "no": 44,
+      "lemma_jp": "おぼれる",
+      "stem_jp": "子どもがプールで（　）という事故が多い。",
+      "meaning_vi": "đuối nước",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "かれる"
+        },
+        {
+          "key": "2",
+          "text_jp": "あきる"
+        },
+        {
+          "key": "3",
+          "text_jp": "おぼれる"
+        },
+        {
+          "key": "4",
+          "text_jp": "ぶつける"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q045",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:自動的",
+      "no": 45,
+      "lemma_jp": "自動的",
+      "stem_jp": "ドアを開けると、明かりは（　）につきます。",
+      "meaning_vi": "tự động",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "受動的"
+        },
+        {
+          "key": "2",
+          "text_jp": "自動的"
+        },
+        {
+          "key": "3",
+          "text_jp": "一般的"
+        },
+        {
+          "key": "4",
+          "text_jp": "絶対的"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q046",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:のばす",
+      "no": 46,
+      "lemma_jp": "のばす",
+      "stem_jp": "台風のため試合を翌日に（　）。",
+      "meaning_vi": "lùi, trì hoãn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ながす"
+        },
+        {
+          "key": "2",
+          "text_jp": "くらす"
+        },
+        {
+          "key": "3",
+          "text_jp": "のばす"
+        },
+        {
+          "key": "4",
+          "text_jp": "はなす"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q047",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:両替",
+      "no": 47,
+      "lemma_jp": "両替",
+      "stem_jp": "ホテルで円を韓国のウォンに（　）してもらった。",
+      "meaning_vi": "đổi tiền",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "両替"
+        },
+        {
+          "key": "2",
+          "text_jp": "両側"
+        },
+        {
+          "key": "3",
+          "text_jp": "両面"
+        },
+        {
+          "key": "4",
+          "text_jp": "両方"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q048",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:主張",
+      "no": 48,
+      "lemma_jp": "主張",
+      "stem_jp": "父はやっとわたしの（　）を受け入れてくれた。",
+      "meaning_vi": "chấp nhận ý kiến",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "命令"
+        },
+        {
+          "key": "2",
+          "text_jp": "返信"
+        },
+        {
+          "key": "3",
+          "text_jp": "主張"
+        },
+        {
+          "key": "4",
+          "text_jp": "注文"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q049",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:全",
+      "no": 49,
+      "lemma_jp": "全",
+      "stem_jp": "（　）生徒が体育館に集まった。",
+      "meaning_vi": "toàn thể",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "再"
+        },
+        {
+          "key": "2",
+          "text_jp": "全"
+        },
+        {
+          "key": "3",
+          "text_jp": "名"
+        },
+        {
+          "key": "4",
+          "text_jp": "半"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q050",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:最新",
+      "no": 50,
+      "lemma_jp": "最新",
+      "stem_jp": "日本の若者の（　）のファッションを知りたい。",
+      "meaning_vi": "mới nhất",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "最中"
+        },
+        {
+          "key": "2",
+          "text_jp": "最多"
+        },
+        {
+          "key": "3",
+          "text_jp": "最新"
+        },
+        {
+          "key": "4",
+          "text_jp": "最大"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q051",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:代表的",
+      "no": 51,
+      "lemma_jp": "代表的",
+      "stem_jp": "これはスペインの（　）な家庭料理です。",
+      "meaning_vi": "tiêu biểu, đại diện",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "定期的"
+        },
+        {
+          "key": "2",
+          "text_jp": "絶対的"
+        },
+        {
+          "key": "3",
+          "text_jp": "一方的"
+        },
+        {
+          "key": "4",
+          "text_jp": "代表的"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q052",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:くやしい",
+      "no": 52,
+      "lemma_jp": "くやしい",
+      "stem_jp": "あんなに頑張ったのに試験に落ちて（　）。",
+      "meaning_vi": "ân hận, tiếc nuối",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "まぶしい"
+        },
+        {
+          "key": "2",
+          "text_jp": "くやしい"
+        },
+        {
+          "key": "3",
+          "text_jp": "こいしい"
+        },
+        {
+          "key": "4",
+          "text_jp": "うらやましい"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q053",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:積極的",
+      "no": 53,
+      "lemma_jp": "積極的",
+      "stem_jp": "彼女は地域のボランティア活動に（　）に参加している。",
+      "meaning_vi": "tích cực",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "比較的"
+        },
+        {
+          "key": "2",
+          "text_jp": "感情的"
+        },
+        {
+          "key": "3",
+          "text_jp": "一般的"
+        },
+        {
+          "key": "4",
+          "text_jp": "積極的"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q054",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:材料",
+      "no": 54,
+      "lemma_jp": "材料",
+      "stem_jp": "母にケーキの（　）と作り方を教えてもらった。",
+      "meaning_vi": "nguyên liệu",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "成分"
+        },
+        {
+          "key": "2",
+          "text_jp": "材料"
+        },
+        {
+          "key": "3",
+          "text_jp": "仲間"
+        },
+        {
+          "key": "4",
+          "text_jp": "部品"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q055",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:かわいた",
+      "no": 55,
+      "lemma_jp": "かわいた",
+      "stem_jp": "（　）のどをうるおすにはビールがいちばんです。",
+      "meaning_vi": "khát, khô",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "かわいた"
+        },
+        {
+          "key": "2",
+          "text_jp": "すいた"
+        },
+        {
+          "key": "3",
+          "text_jp": "ぬれた"
+        },
+        {
+          "key": "4",
+          "text_jp": "おぼれた"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q056",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:ふって",
+      "no": 56,
+      "lemma_jp": "ふって",
+      "stem_jp": "お客さんが見えなくなるまで手を（　）見送ります。",
+      "meaning_vi": "vẫy tay",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "にぎって"
+        },
+        {
+          "key": "2",
+          "text_jp": "さわって"
+        },
+        {
+          "key": "3",
+          "text_jp": "かこんで"
+        },
+        {
+          "key": "4",
+          "text_jp": "ふって"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q057",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:前後",
+      "no": 57,
+      "lemma_jp": "前後",
+      "stem_jp": "事故（　）の状況をくわしく話してもらえませんか。",
+      "meaning_vi": "ngay trước/sau",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "前年"
+        },
+        {
+          "key": "2",
+          "text_jp": "前半"
+        },
+        {
+          "key": "3",
+          "text_jp": "前後"
+        },
+        {
+          "key": "4",
+          "text_jp": "前面"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q058",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:あわせて",
+      "no": 58,
+      "lemma_jp": "あわせて",
+      "stem_jp": "近所の人と力を（　）火事を消す。",
+      "meaning_vi": "hợp lực",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あわせて"
+        },
+        {
+          "key": "2",
+          "text_jp": "ながめて"
+        },
+        {
+          "key": "3",
+          "text_jp": "ためて"
+        },
+        {
+          "key": "4",
+          "text_jp": "あつかって"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q059",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:希望",
+      "no": 59,
+      "lemma_jp": "希望",
+      "stem_jp": "みんなが世界の平和を（　）している。",
+      "meaning_vi": "kỳ vọng, mong muốn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "希望"
+        },
+        {
+          "key": "2",
+          "text_jp": "目標"
+        },
+        {
+          "key": "3",
+          "text_jp": "意識"
+        },
+        {
+          "key": "4",
+          "text_jp": "理想"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q060",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:しばって",
+      "no": 60,
+      "lemma_jp": "しばって",
+      "stem_jp": "要らない新聞や雑誌を重ねて、ひもで（　）捨てた。",
+      "meaning_vi": "buộc",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "かこんで"
+        },
+        {
+          "key": "2",
+          "text_jp": "しめて"
+        },
+        {
+          "key": "3",
+          "text_jp": "あんで"
+        },
+        {
+          "key": "4",
+          "text_jp": "しばって"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q061",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:栄養",
+      "no": 61,
+      "lemma_jp": "栄養",
+      "stem_jp": "インスタント食品ばかりでは（　）にならない。",
+      "meaning_vi": "dinh dưỡng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "作法"
+        },
+        {
+          "key": "2",
+          "text_jp": "節約"
+        },
+        {
+          "key": "3",
+          "text_jp": "栄養"
+        },
+        {
+          "key": "4",
+          "text_jp": "材料"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q062",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:ぶつけて",
+      "no": 62,
+      "lemma_jp": "ぶつけて",
+      "stem_jp": "あかんぼうが机のかどに頭を（　）泣く。",
+      "meaning_vi": "va, đâm vào",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "うばって"
+        },
+        {
+          "key": "2",
+          "text_jp": "にぎって"
+        },
+        {
+          "key": "3",
+          "text_jp": "はなして"
+        },
+        {
+          "key": "4",
+          "text_jp": "ぶつけて"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q063",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:資源",
+      "no": 63,
+      "lemma_jp": "資源",
+      "stem_jp": "オーストラリアは天然（　）に恵まれている。",
+      "meaning_vi": "tài nguyên",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "貴重"
+        },
+        {
+          "key": "2",
+          "text_jp": "秘密"
+        },
+        {
+          "key": "3",
+          "text_jp": "資源"
+        },
+        {
+          "key": "4",
+          "text_jp": "満点"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q064",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:自慢",
+      "no": 64,
+      "lemma_jp": "自慢",
+      "stem_jp": "ぼくが（　）できることと言えば足が速いことくらいだ。",
+      "meaning_vi": "tự hào",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "自慢"
+        },
+        {
+          "key": "2",
+          "text_jp": "我慢"
+        },
+        {
+          "key": "3",
+          "text_jp": "評価"
+        },
+        {
+          "key": "4",
+          "text_jp": "評判"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q065",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:渋滞",
+      "no": 65,
+      "lemma_jp": "渋滞",
+      "stem_jp": "国道１号線は事故のため８キロ（　）している。",
+      "meaning_vi": "tắc đường",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "集中"
+        },
+        {
+          "key": "2",
+          "text_jp": "故障"
+        },
+        {
+          "key": "3",
+          "text_jp": "運休"
+        },
+        {
+          "key": "4",
+          "text_jp": "渋滞"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q066",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:カバー",
+      "no": 66,
+      "lemma_jp": "カバー",
+      "stem_jp": "コートに（　）をかけてたんすにしまった。",
+      "meaning_vi": "áo bọc / cover",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "マスク"
+        },
+        {
+          "key": "2",
+          "text_jp": "ケース"
+        },
+        {
+          "key": "3",
+          "text_jp": "オーバー"
+        },
+        {
+          "key": "4",
+          "text_jp": "カバー"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q067",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:影響",
+      "no": 67,
+      "lemma_jp": "影響",
+      "stem_jp": "学生たちの服装は明らかにファッション雑誌の（　）を受けている。",
+      "meaning_vi": "ảnh hưởng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "条件"
+        },
+        {
+          "key": "2",
+          "text_jp": "面倒"
+        },
+        {
+          "key": "3",
+          "text_jp": "影響"
+        },
+        {
+          "key": "4",
+          "text_jp": "内緒"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q068",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:ためて",
+      "no": 68,
+      "lemma_jp": "ためて",
+      "stem_jp": "将来のためにお金を（　）います。",
+      "meaning_vi": "tiết kiệm",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "のせて"
+        },
+        {
+          "key": "2",
+          "text_jp": "ためて"
+        },
+        {
+          "key": "3",
+          "text_jp": "くわえて"
+        },
+        {
+          "key": "4",
+          "text_jp": "かさねて"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q069",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:しばらく",
+      "no": 69,
+      "lemma_jp": "しばらく",
+      "stem_jp": "（　）彼には会っていません。",
+      "meaning_vi": "một thời gian",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "まもなく"
+        },
+        {
+          "key": "2",
+          "text_jp": "ただちに"
+        },
+        {
+          "key": "3",
+          "text_jp": "しばらく"
+        },
+        {
+          "key": "4",
+          "text_jp": "それなら"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q070",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:キャンセル",
+      "no": 70,
+      "lemma_jp": "キャンセル",
+      "stem_jp": "急に用事ができたので、レストランの予約を（　）した。",
+      "meaning_vi": "hủy",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "カット"
+        },
+        {
+          "key": "2",
+          "text_jp": "キャンセル"
+        },
+        {
+          "key": "3",
+          "text_jp": "オーダー"
+        },
+        {
+          "key": "4",
+          "text_jp": "チェックアウト"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q071",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:かくした",
+      "no": 71,
+      "lemma_jp": "かくした",
+      "stem_jp": "母が部屋に入ってきたので急いで漫画本を（　）。",
+      "meaning_vi": "giấu",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "かくした"
+        },
+        {
+          "key": "2",
+          "text_jp": "のばした"
+        },
+        {
+          "key": "3",
+          "text_jp": "くらした"
+        },
+        {
+          "key": "4",
+          "text_jp": "すごした"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q072",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:間隔",
+      "no": 72,
+      "lemma_jp": "間隔",
+      "stem_jp": "バスは10分（　）で発車します。",
+      "meaning_vi": "khoảng cách thời gian",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "規則"
+        },
+        {
+          "key": "2",
+          "text_jp": "普段"
+        },
+        {
+          "key": "3",
+          "text_jp": "間隔"
+        },
+        {
+          "key": "4",
+          "text_jp": "共通"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q073",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:印象",
+      "no": 73,
+      "lemma_jp": "印象",
+      "stem_jp": "この応募者は（　）がうすくてよく覚えていない。",
+      "meaning_vi": "ấn tượng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "購読"
+        },
+        {
+          "key": "2",
+          "text_jp": "過去"
+        },
+        {
+          "key": "3",
+          "text_jp": "経由"
+        },
+        {
+          "key": "4",
+          "text_jp": "印象"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q074",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:たって",
+      "no": 74,
+      "lemma_jp": "たって",
+      "stem_jp": "勤めてまだ2年しか（　）いない。",
+      "meaning_vi": "trôi qua",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "のびて"
+        },
+        {
+          "key": "2",
+          "text_jp": "たって"
+        },
+        {
+          "key": "3",
+          "text_jp": "かわって"
+        },
+        {
+          "key": "4",
+          "text_jp": "おって"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q075",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:おかしい",
+      "no": 75,
+      "lemma_jp": "おかしい",
+      "stem_jp": "彼女の様子が（　）のが心配だ。",
+      "meaning_vi": "kỳ lạ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "まずしい"
+        },
+        {
+          "key": "2",
+          "text_jp": "しつこい"
+        },
+        {
+          "key": "3",
+          "text_jp": "おかしい"
+        },
+        {
+          "key": "4",
+          "text_jp": "きびしい"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q076",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:想像",
+      "no": 76,
+      "lemma_jp": "想像",
+      "stem_jp": "100年後の未来を（　）してみてください。",
+      "meaning_vi": "tưởng tượng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "想像"
+        },
+        {
+          "key": "2",
+          "text_jp": "縮小"
+        },
+        {
+          "key": "3",
+          "text_jp": "確認"
+        },
+        {
+          "key": "4",
+          "text_jp": "観察"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q077",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:しっかり",
+      "no": 77,
+      "lemma_jp": "しっかり",
+      "stem_jp": "外れないようにねじを（　）しめてください。",
+      "meaning_vi": "chắc chắn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "のんびり"
+        },
+        {
+          "key": "2",
+          "text_jp": "がっかり"
+        },
+        {
+          "key": "3",
+          "text_jp": "はっきり"
+        },
+        {
+          "key": "4",
+          "text_jp": "しっかり"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q078",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:整理",
+      "no": 78,
+      "lemma_jp": "整理",
+      "stem_jp": "引っ越し後の荷物の（　）に1日かかった。",
+      "meaning_vi": "sắp xếp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "整理"
+        },
+        {
+          "key": "2",
+          "text_jp": "指導"
+        },
+        {
+          "key": "3",
+          "text_jp": "断定"
+        },
+        {
+          "key": "4",
+          "text_jp": "募集"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q079",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:まよって",
+      "no": 79,
+      "lemma_jp": "まよって",
+      "stem_jp": "種類が多くてどれを買おうか（　）しまう。",
+      "meaning_vi": "phân vân",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あわてて"
+        },
+        {
+          "key": "2",
+          "text_jp": "はかって"
+        },
+        {
+          "key": "3",
+          "text_jp": "つかれて"
+        },
+        {
+          "key": "4",
+          "text_jp": "まよって"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q080",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:向き",
+      "no": 80,
+      "lemma_jp": "向き",
+      "stem_jp": "わたしの部屋は東（　）だ。",
+      "meaning_vi": "hướng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "向き"
+        },
+        {
+          "key": "2",
+          "text_jp": "沿い"
+        },
+        {
+          "key": "3",
+          "text_jp": "込み"
+        },
+        {
+          "key": "4",
+          "text_jp": "建て"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q081",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:割合",
+      "no": 81,
+      "lemma_jp": "割合",
+      "stem_jp": "この学校は2対1の（　）で女子生徒が多い。",
+      "meaning_vi": "tỷ lệ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "分解"
+        },
+        {
+          "key": "2",
+          "text_jp": "割合"
+        },
+        {
+          "key": "3",
+          "text_jp": "比較"
+        },
+        {
+          "key": "4",
+          "text_jp": "間隔"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q082",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:くせ",
+      "no": 82,
+      "lemma_jp": "くせ",
+      "stem_jp": "いつもの（　）でわたしはつい息子たちの会話に口をはさんでしまった。",
+      "meaning_vi": "thói quen",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "くせ"
+        },
+        {
+          "key": "2",
+          "text_jp": "むき"
+        },
+        {
+          "key": "3",
+          "text_jp": "せい"
+        },
+        {
+          "key": "4",
+          "text_jp": "わけ"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q083",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:我慢",
+      "no": 83,
+      "lemma_jp": "我慢",
+      "stem_jp": "眠いのを（　）して一生懸命勉強した。",
+      "meaning_vi": "chịu đựng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "我慢"
+        },
+        {
+          "key": "2",
+          "text_jp": "自慢"
+        },
+        {
+          "key": "3",
+          "text_jp": "目標"
+        },
+        {
+          "key": "4",
+          "text_jp": "目的"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q084",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:調子",
+      "no": 84,
+      "lemma_jp": "調子",
+      "stem_jp": "今朝からおなかの（　）がおかしい。",
+      "meaning_vi": "tình trạng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "感覚"
+        },
+        {
+          "key": "2",
+          "text_jp": "感心"
+        },
+        {
+          "key": "3",
+          "text_jp": "調子"
+        },
+        {
+          "key": "4",
+          "text_jp": "調査"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q085",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:交換",
+      "no": 85,
+      "lemma_jp": "交換",
+      "stem_jp": "この機械を新しいものと（　）したい。",
+      "meaning_vi": "đổi",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "入力"
+        },
+        {
+          "key": "2",
+          "text_jp": "交換"
+        },
+        {
+          "key": "3",
+          "text_jp": "変化"
+        },
+        {
+          "key": "4",
+          "text_jp": "移動"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q086",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:むく",
+      "no": 86,
+      "lemma_jp": "むく",
+      "stem_jp": "バナナの皮を手で（　）。",
+      "meaning_vi": "bóc",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ふせぐ"
+        },
+        {
+          "key": "2",
+          "text_jp": "はぶく"
+        },
+        {
+          "key": "3",
+          "text_jp": "むく"
+        },
+        {
+          "key": "4",
+          "text_jp": "ぬく"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q087",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:ながれ",
+      "no": 87,
+      "lemma_jp": "ながれ",
+      "stem_jp": "まずはプロジェクト全体の（　）を把握することが大切です。",
+      "meaning_vi": "diễn biến, quy trình",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ながれ"
+        },
+        {
+          "key": "2",
+          "text_jp": "みのり"
+        },
+        {
+          "key": "3",
+          "text_jp": "むかい"
+        },
+        {
+          "key": "4",
+          "text_jp": "みだし"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q088",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:ながれて",
+      "no": 88,
+      "lemma_jp": "ながれて",
+      "stem_jp": "その運動選手の額から汗が（　）いた。",
+      "meaning_vi": "chảy",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "しまって"
+        },
+        {
+          "key": "2",
+          "text_jp": "かかって"
+        },
+        {
+          "key": "3",
+          "text_jp": "おぼれて"
+        },
+        {
+          "key": "4",
+          "text_jp": "ながれて"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q089",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:体力",
+      "no": 89,
+      "lemma_jp": "体力",
+      "stem_jp": "マラソンに出るためにはもう少し（　）をつけないといけない。",
+      "meaning_vi": "thể lực",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "体力"
+        },
+        {
+          "key": "2",
+          "text_jp": "分量"
+        },
+        {
+          "key": "3",
+          "text_jp": "配分"
+        },
+        {
+          "key": "4",
+          "text_jp": "動作"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q090",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 9,
+      "knowledge_id": "vocab:感動",
+      "no": 90,
+      "lemma_jp": "感動",
+      "stem_jp": "きのう映画を見たとき、（　）して泣いてしまった。",
+      "meaning_vi": "cảm động",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "期待"
+        },
+        {
+          "key": "2",
+          "text_jp": "応援"
+        },
+        {
+          "key": "3",
+          "text_jp": "歓迎"
+        },
+        {
+          "key": "4",
+          "text_jp": "感動"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q091",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 10,
+      "knowledge_id": "vocab:そっくり",
+      "no": 91,
+      "lemma_jp": "そっくり",
+      "stem_jp": "わたしは小さい頃は父親に（　）で、だんだん母に似てきたそうです。",
+      "meaning_vi": "giống y đúc",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "そっくり"
+        },
+        {
+          "key": "2",
+          "text_jp": "しっかり"
+        },
+        {
+          "key": "3",
+          "text_jp": "がっかり"
+        },
+        {
+          "key": "4",
+          "text_jp": "はっきり"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q092",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 10,
+      "knowledge_id": "vocab:ふらふら",
+      "no": 92,
+      "lemma_jp": "ふらふら",
+      "stem_jp": "彼はよっぱらいみたいに（　）と歩いて行った。",
+      "meaning_vi": "loạng choạng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "どきどき"
+        },
+        {
+          "key": "2",
+          "text_jp": "ふらふら"
+        },
+        {
+          "key": "3",
+          "text_jp": "ばらばら"
+        },
+        {
+          "key": "4",
+          "text_jp": "がらがら"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q093",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 10,
+      "knowledge_id": "vocab:記念",
+      "no": 93,
+      "lemma_jp": "記念",
+      "stem_jp": "わたしたちは卒業（　）に桜の木を植えた。",
+      "meaning_vi": "kỷ niệm",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "再会"
+        },
+        {
+          "key": "2",
+          "text_jp": "記念"
+        },
+        {
+          "key": "3",
+          "text_jp": "内容"
+        },
+        {
+          "key": "4",
+          "text_jp": "開館"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q094",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 10,
+      "knowledge_id": "vocab:とつぜん",
+      "no": 94,
+      "lemma_jp": "とつぜん",
+      "stem_jp": "（　）部屋の明かりが全部消えた。",
+      "meaning_vi": "đột nhiên",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ずいぶん"
+        },
+        {
+          "key": "2",
+          "text_jp": "さっそく"
+        },
+        {
+          "key": "3",
+          "text_jp": "なるべく"
+        },
+        {
+          "key": "4",
+          "text_jp": "とつぜん"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q095",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 10,
+      "knowledge_id": "vocab:リサイクル",
+      "no": 95,
+      "lemma_jp": "リサイクル",
+      "stem_jp": "（　）すれば、ごみは少なくなります。",
+      "meaning_vi": "tái chế",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "リサイクル"
+        },
+        {
+          "key": "2",
+          "text_jp": "キャンセル"
+        },
+        {
+          "key": "3",
+          "text_jp": "チェンジ"
+        },
+        {
+          "key": "4",
+          "text_jp": "カット"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q096",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 10,
+      "knowledge_id": "vocab:期待",
+      "no": 96,
+      "lemma_jp": "期待",
+      "stem_jp": "世界的に有名なピアニストの演奏は（　）どおりだった。",
+      "meaning_vi": "kỳ vọng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "応援"
+        },
+        {
+          "key": "2",
+          "text_jp": "期待"
+        },
+        {
+          "key": "3",
+          "text_jp": "感動"
+        },
+        {
+          "key": "4",
+          "text_jp": "歓迎"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q097",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 10,
+      "knowledge_id": "vocab:外食",
+      "no": 97,
+      "lemma_jp": "外食",
+      "stem_jp": "ひさしぶりの（　）はインドの本格的なカレーです。",
+      "meaning_vi": "ăn ngoài",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "正常"
+        },
+        {
+          "key": "2",
+          "text_jp": "外出"
+        },
+        {
+          "key": "3",
+          "text_jp": "通常"
+        },
+        {
+          "key": "4",
+          "text_jp": "外食"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q098",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 10,
+      "knowledge_id": "vocab:かかって",
+      "no": 98,
+      "lemma_jp": "かかって",
+      "stem_jp": "山田さんは重い病気に（　）います。",
+      "meaning_vi": "mắc bệnh",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ためて"
+        },
+        {
+          "key": "2",
+          "text_jp": "とまって"
+        },
+        {
+          "key": "3",
+          "text_jp": "かかって"
+        },
+        {
+          "key": "4",
+          "text_jp": "しまって"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q099",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 10,
+      "knowledge_id": "vocab:どきどき",
+      "no": 99,
+      "lemma_jp": "どきどき",
+      "stem_jp": "初めてのスピーチなのでうっかり上がってしまって（　）した。",
+      "meaning_vi": "hồi hộp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "からから"
+        },
+        {
+          "key": "2",
+          "text_jp": "どきどき"
+        },
+        {
+          "key": "3",
+          "text_jp": "ぶらぶら"
+        },
+        {
+          "key": "4",
+          "text_jp": "うろうろ"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "mondai3-p2-q100",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "Mondai 3 (Phần 2) Đề.pdf",
+      "source_page": 10,
+      "knowledge_id": "vocab:うっかり",
+      "no": 100,
+      "lemma_jp": "うっかり",
+      "stem_jp": "急いでいたので、（　）違うバスに乗ってしまった。",
+      "meaning_vi": "đãng trí",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ぐっすり"
+        },
+        {
+          "key": "2",
+          "text_jp": "がっかり"
+        },
+        {
+          "key": "3",
+          "text_jp": "うっかり"
+        },
+        {
+          "key": "4",
+          "text_jp": "ぴったり"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    }
+  ]
+}

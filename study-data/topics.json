@@ -156,6 +156,17 @@
     "gradable": true
   },
   {
+    "id": "mondai3-vocab-p2",
+    "title": "Mondai 3 từ vựng — Phần 2",
+    "description": "100 câu điền từ (Mondai 3 P2) kèm đáp án từ bản giải.",
+    "notice": "",
+    "count": 100,
+    "unit": "câu",
+    "path": "./study-data/mondai3-vocab-p2.json",
+    "group": "vocab",
+    "gradable": true
+  },
+  {
     "id": "star-rearrange",
     "group": "practice",
     "gradable": true,
