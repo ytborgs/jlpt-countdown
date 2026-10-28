@@ -273,6 +273,17 @@
     "gradable": false
   },
   {
+    "id": "tu-lay-100",
+    "title": "100 từ láy tiếng Nhật",
+    "description": "100 từ láy thông dụng kèm ví dụ và ghi chú.",
+    "notice": "Visual transcription — khác bộ 87 từ láy.",
+    "count": 100,
+    "unit": "mục",
+    "path": "./study-data/tu-lay-100.json",
+    "group": "vocab",
+    "gradable": false
+  },
+  {
     "id": "dong-am",
     "title": "Từ đồng âm khác nghĩa",
     "description": "Các cặp/đồng âm dễ nhầm kèm nghĩa Việt.",
@@ -419,7 +430,7 @@
     "id": "tu-chi-phi",
     "title": "Từ liên quan chi phí",
     "description": "Nhóm 代・料・費・賃.",
-    "notice": "",
+    "notice": "Visual transcription.",
     "count": 41,
     "unit": "mục",
     "path": "./study-data/tu-chi-phi.json",
@@ -429,9 +440,9 @@
   {
     "id": "so-tay-pho-tu",
     "title": "Sổ tay phó từ N3",
-    "description": "Phó từ cần nhớ (đang bổ sung từ sổ tay).",
-    "notice": "Bản partial — đang visual đủ 6 phần.",
-    "count": 30,
+    "description": "Phó từ từ sổ tay (gộp phần 1–6).",
+    "notice": "Visual transcription — đối chiếu PDF nếu cần.",
+    "count": 180,
     "unit": "mục",
     "path": "./study-data/so-tay-pho-tu.json",
     "group": "vocab",
