@@ -101,6 +101,17 @@
     "gradable": true
   },
   {
+    "id": "kanji-quiz-192",
+    "title": "192 câu TN Kanji N3",
+    "description": "Đọc + viết/表記 (21–26日目). Tự ôn — không chấm điểm.",
+    "notice": "Đáp án nằm ở trang 243 sách gốc — không có trong file PDF này. Không chấm điểm.",
+    "count": 192,
+    "unit": "câu",
+    "path": "./study-data/kanji-quiz-192.json",
+    "group": "practice",
+    "gradable": false
+  },
+  {
     "id": "synonyms",
     "title": "Từ đồng nghĩa dễ nhầm",
     "description": "Trắc nghiệm đồng nghĩa; từ hỏi được đánh dấu.",
