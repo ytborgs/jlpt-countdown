@@ -111,6 +111,50 @@ for (const topic of topics) {
   }
 }
 
+const collectionsPath = path.join(DIR, 'collections.json');
+if (!fs.existsSync(collectionsPath)) {
+  errors.push('collections.json missing');
+} else {
+  const collectionsDoc = readJson(collectionsPath);
+  const collections = collectionsDoc?.collections;
+  if (!Array.isArray(collections)) {
+    errors.push('collections.json: collections must be array');
+  } else {
+    const seenCollectionIds = new Set();
+    for (const collection of collections) {
+      if (!collection?.id || !collection?.title || !Array.isArray(collection.folders)) {
+        errors.push(`collection invalid: ${JSON.stringify(collection?.id)}`);
+        continue;
+      }
+      if (seenCollectionIds.has(collection.id)) errors.push(`duplicate collection id: ${collection.id}`);
+      seenCollectionIds.add(collection.id);
+      const seenFolderIds = new Set();
+      for (const folder of collection.folders) {
+        if (!folder?.id || !folder?.title || !Array.isArray(folder.topicIds)) {
+          errors.push(`folder invalid in ${collection.id}: ${JSON.stringify(folder?.id)}`);
+          continue;
+        }
+        if (seenFolderIds.has(folder.id)) errors.push(`duplicate folder id in ${collection.id}: ${folder.id}`);
+        seenFolderIds.add(folder.id);
+        const seenTopicRefs = new Set();
+        for (const topicId of folder.topicIds) {
+          if (typeof topicId !== 'string' || !topicId) {
+            errors.push(`${collection.id}/${folder.id}: invalid topicId`);
+            continue;
+          }
+          if (seenTopicRefs.has(topicId)) {
+            errors.push(`${collection.id}/${folder.id}: duplicate topicId ${topicId}`);
+          }
+          seenTopicRefs.add(topicId);
+          if (!seenTopicIds.has(topicId)) {
+            errors.push(`${collection.id}/${folder.id}: unknown topicId ${topicId}`);
+          }
+        }
+      }
+    }
+  }
+}
+
 if (errors.length) {
   console.error('validate-study-data FAIL:', errors.length);
   for (const line of errors.slice(0, 50)) console.error(' -', line);

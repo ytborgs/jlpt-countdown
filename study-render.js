@@ -1,8 +1,8 @@
 /** Study DOM builders and search helpers. */
 
-import { createGrammarCard, createRubyText } from './grammar.js?v=42';
-import { topicCatalogProgress } from './study-storage.js?v=42';
-import { hasAnswer } from './study-session.js?v=42';
+import { createGrammarCard, createRubyText } from './grammar.js?v=44';
+import { topicCatalogProgress } from './study-storage.js?v=44';
+import { hasAnswer } from './study-session.js?v=44';
 
 export const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
@@ -25,9 +25,21 @@ export const filterStudy = (items, query) =>
 export const topicNotice = topic =>
   (topic.notice || '').replace(/(?:Cần )?UI type=reading(?: \(xem PROMPT\))?\.\s*/g, '');
 
-export function createTopicCard(topic) {
+export function createTopicCard(topic, opts = {}) {
   const link = el('a', '', 'grammar-card study-topic');
   link.href = '#' + topic.id;
+  link.addEventListener('click', () => {
+    try {
+      if (opts.packReturn) {
+        sessionStorage.setItem('jlpt-study-pack-return', JSON.stringify({
+          topicId: topic.id,
+          returnHash: opts.packReturn,
+        }));
+      } else {
+        sessionStorage.removeItem('jlpt-study-pack-return');
+      }
+    } catch { /* ignore */ }
+  });
   const progress = topicCatalogProgress(topic);
   const meta = el('div', '', 'study-topic-meta');
   meta.append(el('span', topic.count + ' ' + topic.unit, 'grammar-number'));
@@ -35,6 +47,7 @@ export function createTopicCard(topic) {
   chip.setAttribute('aria-label', 'Tiến độ: ' + progress.text);
   meta.append(chip);
   link.append(meta, el('h2', topic.title), el('p', topic.description));
+  if (opts.folderLabel) link.append(el('small', 'Trong thư mục: ' + opts.folderLabel, 'study-pack-folder-hint'));
   if (topicNotice(topic)) link.append(el('small', topicNotice(topic)));
   if (progress.kind !== 'idle') {
     const bar = el('div', '', 'study-topic-bar');
@@ -49,6 +62,38 @@ export function createTopicCard(topic) {
     link.append(bar);
   }
   link.append(el('span', 'Mở tài liệu →', 'study-open'));
+  return link;
+}
+
+export function createCollectionCard(collection) {
+  const link = el('a', '', 'grammar-card study-topic study-collection-card');
+  link.href = '#pack/' + collection.id;
+  const ready = (collection.folders || []).reduce((n, folder) => n + (folder.topicIds || []).length, 0);
+  const meta = el('div', '', 'study-topic-meta');
+  meta.append(el('span', (collection.folders || []).length + ' thư mục', 'grammar-number'));
+  meta.append(el('span', ready ? (ready + ' bộ đã gắn') : 'Đang chuẩn bị', 'study-topic-progress study-topic-progress-idle'));
+  link.append(
+    meta,
+    el('h2', collection.title),
+    el('p', collection.description || 'Mở theo thư mục tài liệu tổng hợp.'),
+    el('span', 'Mở bộ sưu tập →', 'study-open'),
+  );
+  return link;
+}
+
+export function createFolderCard(collection, folder) {
+  const link = el('a', '', 'grammar-card study-topic study-folder-card');
+  link.href = '#pack/' + collection.id + '/' + folder.id;
+  const count = (folder.topicIds || []).length;
+  const meta = el('div', '', 'study-topic-meta');
+  meta.append(el('span', count + ' bộ tài liệu', 'grammar-number'));
+  if (!count) meta.append(el('span', 'Chưa có bài', 'study-topic-progress study-topic-progress-idle'));
+  link.append(
+    meta,
+    el('h2', folder.title),
+    el('p', count ? 'Mở danh sách bộ trong thư mục này.' : 'Nội dung đang được chuẩn bị.'),
+    el('span', count ? 'Mở thư mục →' : 'Xem thư mục →', 'study-open'),
+  );
   return link;
 }
 

@@ -3,24 +3,66 @@
 export const STORAGE_KEY = 'jlpt-study-progress-v1';
 export const KNOWN_KEY = 'jlpt-study-known-v1';
 export const CATALOG_STATE_KEY = 'jlpt-study-catalog-v1';
+/** Per-list UI (catalog + pack folders): scroll/search keyed by route. */
+export const LIST_STATE_KEY = 'jlpt-study-list-v1';
 
 export const record = value => value && typeof value === 'object' && !Array.isArray(value) ? value : {};
 
-export function loadCatalogState() {
+/** Stable key for list routes; empty for topic/invalid. */
+export function listRouteKey(route) {
+  if (!route || typeof route !== 'object') return '';
+  if (route.kind === 'catalog') return 'catalog';
+  if (route.kind === 'collection' && route.collectionId) return `pack/${route.collectionId}`;
+  if (route.kind === 'folder' && route.collectionId && route.folderId) {
+    return `pack/${route.collectionId}/${route.folderId}`;
+  }
+  return '';
+}
+
+const normalizeListState = saved => {
+  if (!saved || typeof saved !== 'object') return null;
+  return {
+    scrollY: Number(saved.scrollY) || 0,
+    groupFilter: typeof saved.groupFilter === 'string' ? saved.groupFilter : 'all',
+    search: typeof saved.search === 'string' ? saved.search : '',
+  };
+};
+
+export function loadListState(key) {
+  if (!key) return null;
   try {
-    const saved = JSON.parse(sessionStorage.getItem(CATALOG_STATE_KEY) || 'null');
-    if (!saved || typeof saved !== 'object') return null;
-    return {
-      scrollY: Number(saved.scrollY) || 0,
-      groupFilter: typeof saved.groupFilter === 'string' ? saved.groupFilter : 'all',
-      search: typeof saved.search === 'string' ? saved.search : '',
+    const all = record(JSON.parse(sessionStorage.getItem(LIST_STATE_KEY) || '{}'));
+    return normalizeListState(all[key]);
+  } catch {
+    return null;
+  }
+}
+
+export function saveListState(key, state) {
+  if (!key) return;
+  try {
+    const all = record(JSON.parse(sessionStorage.getItem(LIST_STATE_KEY) || '{}'));
+    all[key] = {
+      scrollY: Number(state.scrollY) || 0,
+      groupFilter: state.groupFilter || 'all',
+      search: state.search || '',
     };
+    sessionStorage.setItem(LIST_STATE_KEY, JSON.stringify(all));
+  } catch { /* Session storage may be unavailable. */ }
+}
+
+export function loadCatalogState() {
+  const fromList = loadListState('catalog');
+  if (fromList) return fromList;
+  try {
+    return normalizeListState(JSON.parse(sessionStorage.getItem(CATALOG_STATE_KEY) || 'null'));
   } catch {
     return null;
   }
 }
 
 export function saveCatalogState(state) {
+  saveListState('catalog', state);
   try {
     sessionStorage.setItem(CATALOG_STATE_KEY, JSON.stringify({
       scrollY: Number(state.scrollY) || 0,

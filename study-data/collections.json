@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "collections": [
+    {
+      "id": "tong-hop",
+      "title": "Tài liệu tổng hợp kiến thức N3",
+      "description": "Lối vào theo thư mục tài liệu tổng hợp. Các bộ đã gắn dùng chung tiến độ với danh mục chính.",
+      "folders": [
+        {
+          "id": "chuyen-tu-vung",
+          "title": "Chuyên từ vựng các năm",
+          "topicIds": []
+        },
+        {
+          "id": "han-tu",
+          "title": "Hán tự",
+          "topicIds": []
+        },
+        {
+          "id": "nghe-hieu",
+          "title": "Nghe hiểu",
+          "topicIds": []
+        },
+        {
+          "id": "ngu-phap",
+          "title": "Ngữ pháp",
+          "topicIds": ["grammar", "star-rearrange"]
+        },
+        {
+          "id": "tu-vung",
+          "title": "Từ vựng",
+          "topicIds": ["usage-quiz", "near-synonyms"]
+        },
+        {
+          "id": "doc-hieu",
+          "title": "Đọc hiểu",
+          "topicIds": []
+        }
+      ]
+    }
+  ]
+}

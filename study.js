@@ -1,45 +1,117 @@
 import {
   STORAGE_KEY, KNOWN_KEY,
+  listRouteKey, loadListState, saveListState,
   loadCatalogState, saveCatalogState,
   loadStudyProgress, saveStudyProgress, hydrateStudyProgress,
   loadStudyKnown, hydrateStudyKnown, saveStudyKnown, patchStudyKnown,
   pruneStudyProgress, pruneStudyKnown, topicCatalogProgress,
-} from './study-storage.js?v=42';
+} from './study-storage.js?v=44';
 import {
-  el, filterStudy, topicNotice, createTopicCard, createStudyCard,
-  openStudyExplanation, createPracticeStem, createStarStem, buildStarExplanationNodes,
+  el, filterStudy, topicNotice, createTopicCard, createCollectionCard, createFolderCard,
+  createStudyCard, openStudyExplanation, createPracticeStem, createStarStem, buildStarExplanationNodes,
   highlightTargetInExample,
-} from './study-render.js?v=42';
+} from './study-render.js?v=44';
 import {
   hasAnswer, isPracticeAnswered, buildPracticeSessionQueue as buildQueue,
   createSessionController,
-} from './study-session.js?v=42';
+} from './study-session.js?v=44';
 import {
   shuffleItems, flashHeadForItem, flashMeaningForItem, flashExampleTarget,
   createFlashController,
-} from './study-flash.js?v=42';
+} from './study-flash.js?v=44';
 
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '42';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '44';
 const SESSION_SHORT = 20;
 
 export {
+  listRouteKey, loadListState, saveListState,
   loadCatalogState, saveCatalogState,
   loadStudyProgress, saveStudyProgress, hydrateStudyProgress,
   loadStudyKnown, hydrateStudyKnown, saveStudyKnown, patchStudyKnown,
   pruneStudyProgress, pruneStudyKnown, topicCatalogProgress,
-  filterStudy, createTopicCard, createStudyCard,
+  filterStudy, createTopicCard, createCollectionCard, createFolderCard, createStudyCard,
   openStudyExplanation, createPracticeStem, createStarStem, buildStarExplanationNodes,
   highlightTargetInExample,
   hasAnswer, isPracticeAnswered,
   shuffleItems, flashHeadForItem, flashMeaningForItem, flashExampleTarget,
 };
 
+export const PACK_RETURN_KEY = 'jlpt-study-pack-return';
+
 export const parseStudyHash = (hash = typeof location !== 'undefined' ? location.hash : '') => {
   const raw = String(hash || '').replace(/^#/, '');
   const q = raw.indexOf('?');
-  const id = q < 0 ? raw : raw.slice(0, q);
+  const path = q < 0 ? raw : raw.slice(0, q);
   const params = new URLSearchParams(q < 0 ? '' : raw.slice(q + 1));
-  return { id, flash: params.get('mode') === 'flash' };
+  const flash = params.get('mode') === 'flash';
+  if (!path) return { kind: 'catalog', id: '', collectionId: '', folderId: '', flash };
+  if (path === 'pack' || path.startsWith('pack/')) {
+    const parts = path.split('/').filter(Boolean);
+    const collectionId = parts[1] || '';
+    const folderId = parts[2] || '';
+    if (!collectionId) return { kind: 'invalid', id: path, collectionId: '', folderId: '', flash };
+    if (!folderId) return { kind: 'collection', id: path, collectionId, folderId: '', flash };
+    return { kind: 'folder', id: path, collectionId, folderId, flash };
+  }
+  return { kind: 'topic', id: path, collectionId: '', folderId: '', flash };
+};
+
+export const clearPackReturn = () => {
+  try { sessionStorage.removeItem(PACK_RETURN_KEY); } catch { /* ignore */ }
+};
+
+/** Store pack back-context bound to one topic id (never a bare folder hash). */
+export const writePackReturn = (topicId, returnHash) => {
+  if (!topicId || !returnHash) {
+    clearPackReturn();
+    return;
+  }
+  try {
+    sessionStorage.setItem(PACK_RETURN_KEY, JSON.stringify({ topicId, returnHash }));
+  } catch { /* ignore */ }
+};
+
+export const readPackReturn = () => {
+  try {
+    const raw = sessionStorage.getItem(PACK_RETURN_KEY);
+    if (!raw) return null;
+    if (raw.startsWith('#')) {
+      // Legacy bare hash from earlier L1 draft — ignore to avoid cross-topic leaks.
+      clearPackReturn();
+      return null;
+    }
+    const data = JSON.parse(raw);
+    if (!data || typeof data.topicId !== 'string' || typeof data.returnHash !== 'string') {
+      clearPackReturn();
+      return null;
+    }
+    return data;
+  } catch {
+    clearPackReturn();
+    return null;
+  }
+};
+
+export const resolvePackReturn = (topicId, collections) => {
+  const stored = readPackReturn();
+  if (!stored) return '';
+  if (stored.topicId !== topicId) {
+    // Context belongs to another topic — drop so it cannot leak later.
+    clearPackReturn();
+    return '';
+  }
+  const parsed = parseStudyHash(stored.returnHash);
+  if (parsed.kind !== 'folder') {
+    clearPackReturn();
+    return '';
+  }
+  const collection = (collections || []).find(item => item.id === parsed.collectionId);
+  const folder = collection?.folders?.find(item => item.id === parsed.folderId);
+  if (!(folder && (folder.topicIds || []).includes(topicId))) {
+    clearPackReturn();
+    return '';
+  }
+  return stored.returnHash;
 };
 
 export function buildPracticeSessionQueue(items, selections, results, opts = {}) {
@@ -480,11 +552,52 @@ async function startStudy() {
       sessionPrev.click();
     }
   });
-  let topics, topic, items = [], version = 0, ready = false, groupFilter = 'all';
-  let restoreCatalogScroll = null;
-  const persistCatalogUi = () => {
-    if (topic || !ready) return;
-    saveCatalogState({ scrollY: window.scrollY, groupFilter, search: search.value });
+  let topics, collections = [], collectionsError = '', topic, items = [], version = 0, ready = false, groupFilter = 'all';
+  let route = parseStudyHash();
+  let activeCollection = null, activeFolder = null;
+  let restoreListScroll = null;
+  const isFlatCatalog = () => route.kind === 'catalog';
+  const isPackView = () => route.kind === 'collection' || route.kind === 'folder';
+  const isListView = r => r?.kind === 'catalog' || r?.kind === 'collection' || r?.kind === 'folder';
+  const persistListUi = (target = route) => {
+    if (!ready || !isListView(target)) return;
+    const key = listRouteKey(target);
+    if (!key) return;
+    const payload = { scrollY: window.scrollY, search: search.value, groupFilter };
+    saveListState(key, payload);
+    if (key === 'catalog') saveCatalogState(payload);
+  };
+  const persistCatalogUi = () => persistListUi({ kind: 'catalog' });
+  const topicById = id => (topics || []).find(item => item.id === id);
+  const ensureBreadcrumb = () => {
+    let nav = document.getElementById('study-breadcrumb');
+    if (nav) return nav;
+    nav = el('nav', '', 'study-breadcrumb');
+    nav.id = 'study-breadcrumb';
+    nav.setAttribute('aria-label', 'Đường dẫn');
+    title.parentElement?.after(nav);
+    return nav;
+  };
+  const renderBreadcrumb = crumbs => {
+    const nav = ensureBreadcrumb();
+    if (!crumbs.length) {
+      nav.hidden = true;
+      nav.replaceChildren();
+      return;
+    }
+    nav.hidden = false;
+    const nodes = [];
+    crumbs.forEach((crumb, index) => {
+      if (index) nodes.push(el('span', '→', 'study-breadcrumb-sep'));
+      if (crumb.href) {
+        const link = el('a', crumb.label);
+        link.href = crumb.href;
+        nodes.push(link);
+      } else {
+        nodes.push(el('span', crumb.label, 'study-breadcrumb-current'));
+      }
+    });
+    nav.replaceChildren(...nodes);
   };
   const groupNav = document.getElementById('study-group-filters');
   const groupButtons = [];
@@ -497,12 +610,31 @@ async function startStudy() {
     groupButtons.push(button);
   }
   const updateGroupFilters = () => {
-    const catalog = !topic;
-    groupNav.hidden = !catalog;
+    groupNav.hidden = !isFlatCatalog();
     for (const button of groupButtons) button.setAttribute('aria-pressed', String(button.dataset.group === groupFilter));
+  };
+  const hideStudyChrome = () => {
+    progress.hidden = true;
+    knownProgress.hidden = true;
+    if (flashCtl?.isActive()) exitFlashMode({ renderList: false, updateHash: false });
+    else flashCtl?.updateFabVisibility?.();
+    if (flashFab) flashFab.hidden = true;
   };
   const renderCatalog = matches => {
     const nodes = [];
+    if (groupFilter === 'all' && !search.value.trim()) {
+      if (collectionsError) {
+        const box = el('div', '', 'study-collection-error');
+        box.append(el('p', 'Chưa tải được mục tổng hợp. Danh mục tài liệu bên dưới vẫn dùng được.'));
+        const retryCollections = el('button', 'Thử tải mục tổng hợp', 'grammar-retry');
+        retryCollections.type = 'button';
+        retryCollections.addEventListener('click', () => load({ restoreList: true, forceCollections: true }));
+        box.append(retryCollections);
+        nodes.push(box);
+      } else {
+        for (const collection of collections) nodes.push(createCollectionCard(collection));
+      }
+    }
     for (const group of STUDY_GROUPS) {
       if (groupFilter !== 'all' && groupFilter !== group.id) continue;
       const groupTopics = matches.filter(item => topicGroupId(item) === group.id);
@@ -519,6 +651,82 @@ async function startStudy() {
       nodes.push(section);
     }
     list.replaceChildren(...nodes);
+  };
+  const renderCollectionView = () => {
+    hideStudyChrome();
+    const query = search.value.trim();
+    const folders = activeCollection?.folders || [];
+    if (!query) {
+      list.replaceChildren(...folders.map(folder => createFolderCard(activeCollection, folder)));
+      status.textContent = `Hiển thị ${folders.length} / ${folders.length} thư mục.`;
+      return;
+    }
+    const nodes = [];
+    const folderHits = filterStudy(folders.map(folder => ({ ...folder, title: folder.title })), query);
+    if (folderHits.length) {
+      const section = el('section', '', 'study-group');
+      section.append(el('h2', 'Thư mục', 'study-group-heading'));
+      const grid = el('div', '', 'study-group-list grammar-list');
+      for (const folder of folderHits) {
+        const full = folders.find(item => item.id === folder.id);
+        if (full) grid.append(createFolderCard(activeCollection, full));
+      }
+      section.append(grid);
+      nodes.push(section);
+    }
+    const topicHits = [];
+    for (const folder of folders) {
+      for (const topicId of folder.topicIds || []) {
+        const found = topicById(topicId);
+        if (!found) continue;
+        if (!filterStudy([found], query).length) continue;
+        topicHits.push({ topic: found, folder });
+      }
+    }
+    if (topicHits.length) {
+      const section = el('section', '', 'study-group');
+      section.append(el('h2', 'Bộ tài liệu', 'study-group-heading'));
+      const grid = el('div', '', 'study-group-list grammar-list');
+      for (const row of topicHits) {
+        grid.append(createTopicCard(row.topic, {
+          folderLabel: row.folder.title,
+          packReturn: '#pack/' + activeCollection.id + '/' + row.folder.id,
+        }));
+      }
+      section.append(grid);
+      nodes.push(section);
+    }
+    if (!nodes.length) {
+      list.replaceChildren(el('p', 'Không tìm thấy thư mục hoặc bộ tài liệu trong mục tổng hợp này.', 'study-empty'));
+      status.textContent = 'Không có kết quả trong mục tổng hợp.';
+      return;
+    }
+    list.replaceChildren(...nodes);
+    status.textContent = `Tìm thấy ${folderHits.length} thư mục · ${topicHits.length} bộ trong mục tổng hợp.`;
+  };
+  const renderFolderView = () => {
+    hideStudyChrome();
+    const topicIds = activeFolder?.topicIds || [];
+    const folderTopics = topicIds.map(topicById).filter(Boolean);
+    if (!topicIds.length) {
+      const empty = el('div', '', 'study-folder-empty');
+      empty.append(el('p', 'Nội dung đang được chuẩn bị.'));
+      const backLink = el('a', '← Về mục tổng hợp', 'study-folder-empty-back');
+      backLink.href = '#pack/' + activeCollection.id;
+      empty.append(backLink);
+      list.replaceChildren(empty);
+      status.textContent = 'Thư mục chưa có bộ tài liệu.';
+      return;
+    }
+    const matches = filterStudy(folderTopics, search.value);
+    if (!matches.length) {
+      list.replaceChildren(el('p', 'Không tìm thấy bộ tài liệu trong thư mục này.', 'study-empty'));
+      status.textContent = 'Không có kết quả trong thư mục.';
+      return;
+    }
+    const packReturn = '#pack/' + activeCollection.id + '/' + activeFolder.id;
+    list.replaceChildren(...matches.map(item => createTopicCard(item, { packReturn })));
+    status.textContent = `Hiển thị ${matches.length} / ${folderTopics.length} bộ tài liệu` + (search.value.trim() ? ' phù hợp.' : '.');
   };
   const renderSessionDone = () => {
     if (practiceAllDone()) {
@@ -561,6 +769,11 @@ async function startStudy() {
     }
     updateGroupFilters();
     updateViewMode();
+    if (isPackView()) {
+      if (route.kind === 'collection') renderCollectionView();
+      else renderFolderView();
+      return;
+    }
     if (isPracticeTopic() && viewMode === 'session') {
       if (!session.getQueue().length) refreshSessionQueue({ preferTodo: true });
       updateProgress();
@@ -603,20 +816,41 @@ async function startStudy() {
     }
     status.textContent = matches.length ? 'Hiển thị ' + matches.length + ' / ' + items.length + (topic ? ' ' + topic.unit : ' bộ tài liệu') + (search.value.trim() || (!topic && groupFilter !== 'all') ? ' phù hợp.' : '.') : filterMode === 'wrong' && !practiceItems.some(item => results.get(item.id) === 'wrong') ? 'Không còn câu sai.' : knownMode && !search.value.trim() && knownFilter === 'unknown' ? 'Bạn đã thuộc toàn bộ nội dung của bộ này.' : knownMode && !search.value.trim() && knownFilter === 'known' ? 'Chưa có mục nào được đánh dấu đã thuộc.' : !topic && groupFilter !== 'all' ? 'Không có bộ nào trong nhóm này.' : 'Không tìm thấy nội dung phù hợp. Hãy thử bộ lọc hoặc từ khóa khác.';
   };
-  const load = async ({ restoreCatalog = false } = {}) => {
+  const loadCollections = async getJSON => {
+    try {
+      const data = await getJSON('./study-data/collections.json');
+      if (!data || !Array.isArray(data.collections)) throw new Error('Invalid collections');
+      collections = data.collections;
+      collectionsError = '';
+    } catch (error) {
+      collections = [];
+      collectionsError = String(error && error.message || error);
+      console.warn('[study-collections]', collectionsError);
+    }
+  };
+
+  const applyRestoredScroll = () => {
+    if (restoreListScroll == null) return;
+    const y = restoreListScroll;
+    restoreListScroll = null;
+    requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo(0, y)));
+  };
+  const load = async ({ restoreList = false, forceCollections = false } = {}) => {
     const request = ++version;
     if (dialog.open) dialog.close();
     progressMenu.open = false;
     exitFlashMode({ renderList: false, updateHash: false });
     ready = false; progress.hidden = true; knownProgress.hidden = true;
-    restoreCatalogScroll = null;
+    if (flashFab) flashFab.hidden = true;
+    restoreListScroll = null;
+    activeCollection = null;
+    activeFolder = null;
     list.replaceChildren(); retry.hidden = true; notice.hidden = true;
     list.setAttribute('aria-busy', 'true');
     status.textContent = 'Đang tải tài liệu…';
-    const { id, flash: wantFlash } = parseStudyHash();
+    route = parseStudyHash();
+    const wantFlash = route.flash;
     title.textContent = 'Tài liệu ôn tập N3 tổng hợp';
-    back.href = id ? '#' : './settings.html';
-    back.setAttribute('aria-label', id ? 'Về danh mục tài liệu' : 'Về Cài đặt');
     try {
       const getJSON = async path => {
         const url = new URL(path, import.meta.url);
@@ -626,9 +860,59 @@ async function startStudy() {
         return response.json();
       };
       if (!topics) topics = await getJSON('./study-data/topics.json');
+      if ((!collections.length && !collectionsError) || forceCollections) await loadCollections(getJSON);
       if (request !== version) return;
-      const selected = topics.find(item => item.id === id);
-      if (id && !selected) throw new Error('Unknown topic');
+
+      if (route.kind === 'invalid') throw new Error('Unknown pack route');
+
+      if (route.kind === 'collection' || route.kind === 'folder') {
+        if (collectionsError) throw new Error('Collections unavailable');
+        activeCollection = collections.find(item => item.id === route.collectionId);
+        if (!activeCollection) throw new Error('Unknown collection');
+        if (route.kind === 'folder') {
+          activeFolder = (activeCollection.folders || []).find(item => item.id === route.folderId);
+          if (!activeFolder) throw new Error('Unknown folder');
+        }
+        topic = null;
+        items = [];
+        practiceItems = [];
+        gradable = [];
+        knownMode = false;
+        known = new Set();
+        title.textContent = route.kind === 'folder' ? activeFolder.title : activeCollection.title;
+        document.title = title.textContent + ' · JLPT N3';
+        back.href = route.kind === 'folder' ? '#pack/' + activeCollection.id : '#';
+        back.setAttribute('aria-label', route.kind === 'folder' ? 'Về mục tổng hợp' : 'Về danh mục tài liệu');
+        renderBreadcrumb(route.kind === 'folder'
+          ? [
+            { label: 'Tài liệu ôn tập', href: '#' },
+            { label: activeCollection.title, href: '#pack/' + activeCollection.id },
+            { label: activeFolder.title },
+          ]
+          : [
+            { label: 'Tài liệu ôn tập', href: '#' },
+            { label: activeCollection.title },
+          ]);
+        search.hidden = false;
+        document.querySelector('label[for="study-search"]')?.removeAttribute('hidden');
+        search.placeholder = route.kind === 'folder'
+          ? 'Tìm bộ tài liệu trong thư mục…'
+          : 'Tìm thư mục hoặc bộ trong mục tổng hợp…';
+        notice.hidden = true;
+        const listState = restoreList ? loadListState(listRouteKey(route)) : null;
+        if (listState) {
+          search.value = listState.search;
+          restoreListScroll = listState.scrollY;
+        }
+        ready = true;
+        hideStudyChrome();
+        render();
+        applyRestoredScroll();
+        return;
+      }
+
+      const selected = route.kind === 'topic' ? topics.find(item => item.id === route.id) : null;
+      if (route.kind === 'topic' && !selected) throw new Error('Unknown topic');
       title.textContent = selected?.title || 'Tài liệu ôn tập N3 tổng hợp';
       document.title = title.textContent + ' · JLPT N3';
       if (selected) {
@@ -641,7 +925,10 @@ async function startStudy() {
         items = cache.get(selected.id);
         notice.textContent = topicNotice(selected);
         notice.hidden = !topicNotice(selected);
-      } else items = topics;
+      } else {
+        items = topics;
+        clearPackReturn();
+      }
       topic = selected;
       if (topic) {
         pruneStudyProgress(topic.id, items);
@@ -655,13 +942,13 @@ async function startStudy() {
       session.clearQueue();
       session.setIndex(0);
       viewMode = practiceItems.length && practiceItems.length === items.length ? 'session' : 'list';
-      const catalogState = !topic ? loadCatalogState() : null;
-      if (!topic) {
+      const catalogState = isFlatCatalog() ? (restoreList ? loadListState('catalog') : loadCatalogState()) : null;
+      if (isFlatCatalog()) {
         const allowed = new Set(['all', ...STUDY_GROUPS.map(group => group.id)]);
         groupFilter = catalogState && allowed.has(catalogState.groupFilter) ? catalogState.groupFilter : 'all';
-        if (restoreCatalog && catalogState) {
+        if (restoreList && catalogState) {
           search.value = catalogState.search;
-          restoreCatalogScroll = catalogState.scrollY;
+          restoreListScroll = catalogState.scrollY;
         }
       }
       knownMode = !!topic && items.every(item => item.type !== 'practice') && items.some(item => ['reading', 'vocabulary', 'grammar', 'tips'].includes(item.type));
@@ -670,35 +957,68 @@ async function startStudy() {
       search.hidden = false;
       document.querySelector('label[for="study-search"]')?.removeAttribute('hidden');
       search.placeholder = topic ? 'Tìm tiếng Nhật hoặc nghĩa tiếng Việt…' : 'Tìm tài liệu hoặc nhóm…';
+      if (topic) {
+        const packBack = resolvePackReturn(topic.id, collections);
+        back.href = packBack || '#';
+        back.setAttribute('aria-label', packBack ? 'Về thư mục tổng hợp' : 'Về danh mục tài liệu');
+        const crumbs = [{ label: 'Tài liệu ôn tập', href: '#' }];
+        if (packBack) {
+          const parsed = parseStudyHash(packBack);
+          const collection = collections.find(item => item.id === parsed.collectionId);
+          const folder = collection?.folders?.find(item => item.id === parsed.folderId);
+          if (collection) crumbs.push({ label: collection.title, href: '#pack/' + collection.id });
+          if (folder) crumbs.push({ label: folder.title, href: packBack });
+        }
+        crumbs.push({ label: topic.title });
+        renderBreadcrumb(crumbs);
+      } else {
+        back.href = './settings.html';
+        back.setAttribute('aria-label', 'Về Cài đặt');
+        renderBreadcrumb([]);
+      }
       if (viewMode === 'session') refreshSessionQueue({ preferTodo: true });
       ready = true; render();
       if (wantFlash && knownMode) enterFlashMode({ all: false });
-      else if (restoreCatalogScroll != null) {
-        const y = restoreCatalogScroll;
-        restoreCatalogScroll = null;
-        requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo(0, y)));
-      }
+      else applyRestoredScroll();
     } catch {
       if (request !== version) return;
-      status.textContent = id && topics && !topics.some(item => item.id === id) ? 'Không tìm thấy mục này. Nhấn mũi tên để về danh mục.' : 'Chưa tải được tài liệu. Kiểm tra kết nối rồi thử lại.';
+      ready = false;
+      hideStudyChrome();
+      renderBreadcrumb([{ label: 'Tài liệu ôn tập', href: '#' }]);
+      back.href = '#';
+      back.setAttribute('aria-label', 'Về danh mục tài liệu');
+      const packMissing = route.kind === 'collection' || route.kind === 'folder' || route.kind === 'invalid';
+      const topicMissing = route.kind === 'topic' && topics && !topics.some(item => item.id === route.id);
+      status.textContent = packMissing || topicMissing
+        ? 'Không tìm thấy mục này. Hãy quay lại danh mục.'
+        : 'Chưa tải được tài liệu. Kiểm tra kết nối rồi thử lại.';
+      const home = el('a', '← Về danh mục tài liệu', 'study-folder-empty-back');
+      home.href = '#';
+      list.replaceChildren(home);
       retry.hidden = false;
     } finally { if (request === version) list.setAttribute('aria-busy', 'false'); }
   };
-  search.addEventListener('input', () => { render(); persistCatalogUi(); });
-  retry.addEventListener('click', load);
-  window.addEventListener('scroll', () => { if (!topic && ready) persistCatalogUi(); }, { passive: true });
+  search.addEventListener('input', () => { render(); persistListUi(); });
+  retry.addEventListener('click', () => load({ forceCollections: true }));
+  window.addEventListener('scroll', () => { if (ready && isListView(route)) persistListUi(); }, { passive: true });
   window.addEventListener('hashchange', () => {
-    const nextId = parseStudyHash().id;
-    const leavingCatalog = !topic && !!nextId;
-    const returningToCatalog = !!topic && !nextId;
-    if (leavingCatalog) persistCatalogUi();
-    if (!returningToCatalog) {
-      search.value = '';
+    const next = parseStudyHash();
+    const sameSearchScope = (route.kind === next.kind) &&
+      route.collectionId === next.collectionId &&
+      route.folderId === next.folderId;
+    if (isListView(route)) persistListUi(route);
+    if (!isListView(next)) {
+      // Entering topic/detail — start at top; list scroll already saved.
       window.scrollTo(0, 0);
+    } else if (!sameSearchScope) {
+      // Entering another list — restore that list's search; scroll applied after render.
+      const saved = loadListState(listRouteKey(next));
+      search.value = saved?.search || '';
     }
-    load({ restoreCatalog: returningToCatalog });
+    load({ restoreList: isListView(next) });
   });
-  await load({ restoreCatalog: !parseStudyHash().id && !!loadCatalogState() });
+  const bootRoute = parseStudyHash();
+  await load({ restoreList: isListView(bootRoute) });
   if (typeof window !== 'undefined' && window.__STUDY_BOOT__) {
     window.__STUDY_BOOT__.ready = true;
     window.__STUDY_BOOT__.phase = 'ready';

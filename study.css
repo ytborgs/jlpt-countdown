@@ -241,3 +241,18 @@ body.study-flash-active #study-flash-fab{display:none !important}
 .study-boot-actions{display:flex;flex-wrap:wrap;gap:8px}
 .study-boot-actions button{font:inherit;font-size:14px;padding:8px 12px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text);cursor:pointer}
 .study-boot-actions #study-boot-fresh{border-color:var(--accent);color:var(--bg);background:var(--accent);font-weight:700}
+
+/* Collection / folder navigation (L1) */
+.study-breadcrumb{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:8px 0 0;font-size:13px;color:var(--muted)}
+.study-breadcrumb[hidden]{display:none!important}
+.study-breadcrumb a{color:var(--accent);text-decoration:none}
+.study-breadcrumb a:hover{text-decoration:underline}
+.study-breadcrumb-sep{opacity:.55}
+.study-breadcrumb-current{color:var(--text);font-weight:650}
+.study-collection-card,.study-folder-card{border-color:color-mix(in srgb,var(--accent) 35%,var(--line))}
+.study-collection-error,.study-folder-empty{margin:8px 0;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.study-collection-error p,.study-folder-empty p{margin:0 0 10px}
+.study-folder-empty-back{color:var(--accent);font-weight:650;text-decoration:none}
+.study-folder-empty-back:hover{text-decoration:underline}
+.study-pack-folder-hint{display:block;margin-top:4px;color:var(--muted)}
+.study-empty{margin:8px 0;color:var(--muted)}

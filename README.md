@@ -153,7 +153,9 @@ Khi sửa dữ liệu:
 Khi cập nhật tài nguyên offline: tăng `RELEASE` trong `release.js`, đồng bộ `?v=` trên toàn module graph + `study.html` + `CACHE`/`ASSETS` trong `sw.js`, rồi chạy `node scripts/check-asset-versions.mjs`. Worker mới chỉ kích hoạt khi người dùng bấm **Cập nhật** (không tự `skipWaiting` lúc install).
 
 
-Tài nguyên trang study dùng release đồng bộ (`release.js`, hiện `v=42`): HTML/entry, mọi import trong module graph (`study-*.js`, `grammar.js`), CSS và JSON data. Service worker precache cùng URL versioned, **không** `skipWaiting` ngay — hiện banner “Đã có phiên bản mới” / Cập nhật. Study bootstrap bắt lỗi import/timeout và hiện Thử lại / Tải bản mới (không xóa tiến độ). Cache offline prefix `jlpt-n3-`. CI: `validate-study-data`, `check-asset-versions`, `test-module-upgrade`, `test-storage-merge`, `test-star-rearrange`. Hash topic dấu sao: `#star-rearrange`.
+Tài nguyên trang study dùng release đồng bộ (`release.js`, hiện `v=44`): HTML/entry, mọi import trong module graph (`study-*.js`, `grammar.js`), CSS và JSON data (gồm `study-data/collections.json`). Service worker precache cùng URL versioned, **không** `skipWaiting` ngay — hiện banner “Đã có phiên bản mới” / Cập nhật. Study bootstrap bắt lỗi import/timeout và hiện Thử lại / Tải bản mới (không xóa tiến độ). Cache offline prefix `jlpt-n3-`. CI: `validate-study-data`, `check-asset-versions`, `test-module-upgrade`, `test-storage-merge`, `test-star-rearrange`, `test-collections-nav`.
+
+Lối vào **Tài liệu tổng hợp kiến thức N3** (`#pack/tong-hop`): 6 thư mục theo nguồn; hiện gắn **4 bộ** đã xác minh (`grammar`, `star-rearrange`, `usage-quiz`, `near-synonyms`). Các thư mục còn lại báo “đang được chuẩn bị” — chưa extract/tích hợp. Topic vẫn mở bằng hash cũ (vd. `#star-rearrange`) và dùng chung tiến độ.
 
 Giới hạn dữ liệu v8: 3 câu chưa có tóm tắt và 1 lựa chọn chưa có nghĩa VI riêng; các lý do đúng/sai vẫn được hiển thị theo JSON. Ứng dụng không tự bổ sung những trường này.
 
