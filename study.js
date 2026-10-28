@@ -7,7 +7,8 @@ import {
 } from './study-storage.js';
 import {
   el, filterStudy, topicNotice, createTopicCard, createStudyCard,
-  openStudyExplanation, createPracticeStem, highlightTargetInExample,
+  openStudyExplanation, createPracticeStem, createStarStem, buildStarExplanationNodes,
+  highlightTargetInExample,
 } from './study-render.js';
 import {
   hasAnswer, isPracticeAnswered, buildPracticeSessionQueue as buildQueue,
@@ -18,7 +19,7 @@ import {
   createFlashController,
 } from './study-flash.js';
 
-const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '40';
+const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '41';
 const SESSION_SHORT = 20;
 
 export {
@@ -27,7 +28,8 @@ export {
   loadStudyKnown, hydrateStudyKnown, saveStudyKnown, patchStudyKnown,
   pruneStudyProgress, pruneStudyKnown, topicCatalogProgress,
   filterStudy, createTopicCard, createStudyCard,
-  openStudyExplanation, createPracticeStem, highlightTargetInExample,
+  openStudyExplanation, createPracticeStem, createStarStem, buildStarExplanationNodes,
+  highlightTargetInExample,
   hasAnswer, isPracticeAnswered,
   shuffleItems, flashHeadForItem, flashMeaningForItem, flashExampleTarget,
 };

@@ -1,0 +1,5146 @@
+{
+  "schema_version": "1.0",
+  "document_id": "200-cau-hoi-dau-sao",
+  "type": "practice",
+  "level": "N3",
+  "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+  "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+  "title": "Câu hỏi dấu sao N3 (sắp xếp ★)",
+  "page_count": 42,
+  "item_count": 84,
+  "expected_item_count": null,
+  "content_source": "pdf_extract",
+  "produced_at": "2026-10-28T12:11:43+00:00",
+  "producer": "n3-study-extractor/parse_star_questions",
+  "status": "partial",
+  "needs_verify_count": 0,
+  "notes": [
+    "PDF tên file ghi 200 câu; text layer thực tế 84 câu (phần A: 44, phần B: 40, đánh số lại từ 1).",
+    "correct_answer = key tại vị trí ★; correct_order = hoán vị đầy đủ in trong Đáp án.",
+    "answer_source=source_printed (đáp án in sẵn trong PDF ôn tập; không phải official JLPT).",
+    "Không tạo choice_analyses kiểu loại trừ cả 4 mảnh đều dùng trong câu.",
+    "Nguồn PDF gốc (máy local): 200 CÂU HỎI DẤU SAO CÓ ĐÁP ÁN CHI TIẾT_ .pdf",
+    "Fixture câu 1 (★=4): PASS"
+  ],
+  "star_contract": {
+    "subtype": "star_rearrange",
+    "correct_answer": "key of the chunk placed at ★",
+    "correct_order": "full permutation of choice keys as printed after Đáp án",
+    "star_position": "1-based index among four blank slots",
+    "invariant": "correct_order[star_position 1] == str(correct_answer)",
+    "completed_jp": "full sentence after → in source",
+    "completed_vi": "Dịch nghĩa block from source",
+    "grammar_points": [
+      "pattern",
+      "structure",
+      "meaning",
+      "notes"
+    ]
+  },
+  "items": [
+    {
+      "id": "star-q-001",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 1,
+      "section": "A",
+      "exam_q_no": 1,
+      "global_no": 1,
+      "knowledge_id": "grammar:か悩む",
+      "stem_jp": "夏休みに＿＿ ＿＿ ★ ＿＿、結局どこも行かなかった。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "旅行するか"
+        },
+        {
+          "key": "2",
+          "text_jp": "どこに"
+        },
+        {
+          "key": "3",
+          "text_jp": "あげく"
+        },
+        {
+          "key": "4",
+          "text_jp": "悩んだ"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "夏休みに、どこに旅行するか悩んだあげく、結局どこも行かなかった。",
+      "completed_vi": "Vào kỳ nghỉ hè, tôi đã băn khoăn không biết đi du lịch ở đâu, cuối cùng lại chẳng đi đâu cả.",
+      "grammar_points": [
+        {
+          "pattern": "～か悩む",
+          "structure": "Mệnh đề nghi vấn + か + 悩む",
+          "meaning": "băn khoăn, lo nghĩ không biết ~",
+          "notes": null
+        },
+        {
+          "pattern": "～あげく",
+          "structure": "V た + あげく / N の + あげく",
+          "meaning": "sau nhiều suy nghĩ, cuối cùng dẫn đến kết quả (thường không tốt)",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-002",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 1,
+      "section": "A",
+      "exam_q_no": 2,
+      "global_no": 2,
+      "knowledge_id": "grammar:たとたんに",
+      "stem_jp": "＿＿ ＿＿ ★ ＿＿、すごい風が入ってきた。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "に"
+        },
+        {
+          "key": "2",
+          "text_jp": "開けた"
+        },
+        {
+          "key": "3",
+          "text_jp": "とたん"
+        },
+        {
+          "key": "4",
+          "text_jp": "窓を"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "窓を開けたとたんに、すごい風が入ってきた。",
+      "completed_vi": "Ngay khoảnh khắc mở cửa sổ ra thì một luồng gió rất mạnh tràn vào.",
+      "grammar_points": [
+        {
+          "pattern": "～たとたん（に）",
+          "structure": "V た + とたん（に）",
+          "meaning": "ngay sau khi vừa ~ thì",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-003",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 2,
+      "section": "A",
+      "exam_q_no": 3,
+      "global_no": 3,
+      "knowledge_id": "grammar:V-た-もの",
+      "stem_jp": "人に＿＿ ＿＿ ＿＿ ★ です。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "もの"
+        },
+        {
+          "key": "2",
+          "text_jp": "ものは"
+        },
+        {
+          "key": "3",
+          "text_jp": "大切にする"
+        },
+        {
+          "key": "4",
+          "text_jp": "もらった"
+        }
+      ],
+      "star_position": 4,
+      "correct_order": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "人にもらったものは大切にするものです。",
+      "completed_vi": "Những thứ được người khác tặng thì tôi luôn trân trọng.",
+      "grammar_points": [
+        {
+          "pattern": "V た + もの",
+          "structure": "Động từ thể た + もの",
+          "meaning": "đồ vật/sự việc đã được ~",
+          "notes": null
+        },
+        {
+          "pattern": "～ものは～",
+          "structure": "N + は",
+          "meaning": "nhấn mạnh/chủ đề “đối với thứ ~ thì…”",
+          "notes": null
+        },
+        {
+          "pattern": "～を大切にする",
+          "structure": "N + を + 大切にする",
+          "meaning": "trân trọng, giữ gìn",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-004",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 2,
+      "section": "A",
+      "exam_q_no": 4,
+      "global_no": 4,
+      "knowledge_id": "grammar:ことはが",
+      "stem_jp": "昨日、＿＿ ＿＿ ★ ＿＿、んですが、もう散らかってしまいました。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "掃除を"
+        },
+        {
+          "key": "2",
+          "text_jp": "ことは"
+        },
+        {
+          "key": "3",
+          "text_jp": "する"
+        },
+        {
+          "key": "4",
+          "text_jp": "した"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "昨日、掃除をすることはしたんですが、もう散らかってしまいました。",
+      "completed_vi": "Hôm qua nói dọn thì tôi đã dọn rồi nhưng lại bừa bãi lộn xộn rồi.",
+      "grammar_points": [
+        {
+          "pattern": "～ことは～が",
+          "structure": "V る / V た + ことは + V る / V た + が",
+          "meaning": "tuy có ~ nhưng… / đúng là có ~ nhưng…",
+          "notes": null
+        },
+        {
+          "pattern": "～てしまう",
+          "structure": "V て + しまう",
+          "meaning": "lỡ, trót, hoàn toàn ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-005",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 3,
+      "section": "A",
+      "exam_q_no": 5,
+      "global_no": 5,
+      "knowledge_id": "grammar:で",
+      "stem_jp": "慣れない＿＿ ＿＿ ★ ＿＿しまった。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "世話で"
+        },
+        {
+          "key": "2",
+          "text_jp": "子どもの"
+        },
+        {
+          "key": "3",
+          "text_jp": "きって"
+        },
+        {
+          "key": "4",
+          "text_jp": "疲れ"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "子どもの世話で疲れきってしまった。",
+      "completed_vi": "Tôi đã kiệt sức vì chăm sóc con cái.",
+      "grammar_points": [
+        {
+          "pattern": "～で",
+          "structure": "N + で",
+          "meaning": "vì, do nguyên nhân",
+          "notes": null
+        },
+        {
+          "pattern": "～きる / ～きってしまう",
+          "structure": "V ます bỏ ます + きる",
+          "meaning": "hoàn toàn, đến cực điểm",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-006",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 3,
+      "section": "A",
+      "exam_q_no": 6,
+      "global_no": 6,
+      "knowledge_id": "grammar:という",
+      "stem_jp": "友だちから＿＿ ＿＿ ★ ＿＿がありました。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "約束の時間に"
+        },
+        {
+          "key": "2",
+          "text_jp": "という"
+        },
+        {
+          "key": "3",
+          "text_jp": "電話"
+        },
+        {
+          "key": "4",
+          "text_jp": "遅れる"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "4",
+        "2",
+        "3"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "友だちから「約束の時間に遅れる」という電話がありました。",
+      "completed_vi": "Tôi nhận được cuộc gọi từ bạn nói rằng sẽ đến muộn giờ hẹn.",
+      "grammar_points": [
+        {
+          "pattern": "～という",
+          "structure": "Mệnh đề + という + N",
+          "meaning": "nội dung rằng ~ / gọi là ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-007",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 4,
+      "section": "A",
+      "exam_q_no": 7,
+      "global_no": 7,
+      "knowledge_id": "grammar:かどうか",
+      "stem_jp": "＿＿ ＿＿ ★ ＿＿、世界一周旅行に興味がある。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "別にして"
+        },
+        {
+          "key": "2",
+          "text_jp": "行けるか"
+        },
+        {
+          "key": "3",
+          "text_jp": "どうかは"
+        },
+        {
+          "key": "4",
+          "text_jp": "本当に"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "本当に行けるかどうかは、別にして、世界一周旅行に興味がある。",
+      "completed_vi": "Tạm chưa bàn đến việc thực sự có thể đi được hay không, tôi có hứng thú với việc du lịch vòng quanh thế giới.",
+      "grammar_points": [
+        {
+          "pattern": "～かどうか",
+          "structure": "Mệnh đề thường + かどうか",
+          "meaning": "liệu có ~ hay không",
+          "notes": null
+        },
+        {
+          "pattern": "～は別にして",
+          "structure": "N / Mệnh đề + は別にして",
+          "meaning": "tạm gác/chưa bàn đến ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-008",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 4,
+      "section": "A",
+      "exam_q_no": 8,
+      "global_no": 8,
+      "knowledge_id": "grammar:最中に",
+      "stem_jp": "子どもは＿＿ ＿＿ ★ ＿＿呼んでも返事をしない。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ゲームを"
+        },
+        {
+          "key": "2",
+          "text_jp": "最中"
+        },
+        {
+          "key": "3",
+          "text_jp": "している"
+        },
+        {
+          "key": "4",
+          "text_jp": "は"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "子どもはゲームをしている最中は呼んでも返事をしない。",
+      "completed_vi": "Lúc đang chơi game thì trẻ con có gọi cũng không trả lời.",
+      "grammar_points": [
+        {
+          "pattern": "～最中（に）",
+          "structure": "V ている + 最中（に） / N の + 最中（に）",
+          "meaning": "đúng lúc đang ~",
+          "notes": null
+        },
+        {
+          "pattern": "～ても",
+          "structure": "V て + も",
+          "meaning": "dù có ~ thì cũng ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-009",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 5,
+      "section": "A",
+      "exam_q_no": 9,
+      "global_no": 9,
+      "knowledge_id": "grammar:というと",
+      "stem_jp": "京都＿＿ ★ ＿＿ ＿＿思い出します。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "古いお寺"
+        },
+        {
+          "key": "2",
+          "text_jp": "と"
+        },
+        {
+          "key": "3",
+          "text_jp": "を"
+        },
+        {
+          "key": "4",
+          "text_jp": "いうと"
+        }
+      ],
+      "star_position": 2,
+      "correct_order": [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "京都というと、古いお寺を思い出します。",
+      "completed_vi": "Nhắc đến Kyoto thì tôi nhớ đến những ngôi chùa cổ.",
+      "grammar_points": [
+        {
+          "pattern": "～というと",
+          "structure": "N + というと",
+          "meaning": "nhắc đến ~ thì…",
+          "notes": null
+        },
+        {
+          "pattern": "～を思い出す",
+          "structure": "N + を + 思い出す",
+          "meaning": "nhớ lại ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-010",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 5,
+      "section": "A",
+      "exam_q_no": 10,
+      "global_no": 10,
+      "knowledge_id": "grammar:わけにはいかない",
+      "stem_jp": "子どもが熱を出したら、＿＿ ＿＿ ★ ＿＿。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "わけには"
+        },
+        {
+          "key": "2",
+          "text_jp": "帰らない"
+        },
+        {
+          "key": "3",
+          "text_jp": "仕事中でも"
+        },
+        {
+          "key": "4",
+          "text_jp": "いかない"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "子どもが熱を出したら、仕事中でも帰らないわけにはいかない。",
+      "completed_vi": "Nếu con bị sốt thì dù đang trong giờ làm việc tôi cũng buộc phải về.",
+      "grammar_points": [
+        {
+          "pattern": "～わけにはいかない",
+          "structure": "V る + わけにはいかない",
+          "meaning": "không thể không ~ / buộc phải ~",
+          "notes": null
+        },
+        {
+          "pattern": "～ても",
+          "structure": "N でも",
+          "meaning": "dù là ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-011",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 6,
+      "section": "A",
+      "exam_q_no": 11,
+      "global_no": 11,
+      "knowledge_id": "grammar:てから",
+      "stem_jp": "この店は会社にいたときはよく行ったが、＿＿ ＿＿ ★ ＿＿いない。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "行って"
+        },
+        {
+          "key": "2",
+          "text_jp": "からは"
+        },
+        {
+          "key": "3",
+          "text_jp": "一度も"
+        },
+        {
+          "key": "4",
+          "text_jp": "辞めて"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "この店は会社にいたときはよく行ったが、会社を辞めてからは、一度も行っていない",
+      "completed_vi": "Từ khi nghỉ công ty đến giờ, tôi chưa đến cửa hàng này lần nào.",
+      "grammar_points": [
+        {
+          "pattern": "～てから",
+          "structure": "V て + から",
+          "meaning": "sau khi ~",
+          "notes": null
+        },
+        {
+          "pattern": "～一度も～ない",
+          "structure": "一度も + V ない",
+          "meaning": "chưa từng ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-012",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 6,
+      "section": "A",
+      "exam_q_no": 12,
+      "global_no": 12,
+      "knowledge_id": "grammar:ばかりでなく",
+      "stem_jp": "この料理は ★ ＿＿ ＿＿ ＿＿ いいそうだ。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "にも"
+        },
+        {
+          "key": "2",
+          "text_jp": "健康"
+        },
+        {
+          "key": "3",
+          "text_jp": "おいしい"
+        },
+        {
+          "key": "4",
+          "text_jp": "ばかりでなく"
+        }
+      ],
+      "star_position": 1,
+      "correct_order": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "この料理はおいしいばかりでなく、健康にもいいそうだ。",
+      "completed_vi": "Nghe nói món ăn này không chỉ ngon mà còn tốt cho sức khỏe.",
+      "grammar_points": [
+        {
+          "pattern": "～ばかりでなく",
+          "structure": "N / A / V + ばかりでなく",
+          "meaning": "không chỉ ~ mà còn ~",
+          "notes": null
+        },
+        {
+          "pattern": "～にもいい",
+          "structure": "N + にもいい",
+          "meaning": "cũng tốt cho ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-013",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 7,
+      "section": "A",
+      "exam_q_no": 13,
+      "global_no": 13,
+      "knowledge_id": "grammar:ばほど",
+      "stem_jp": "病気は＿＿ ＿＿ ★ ＿＿。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "発見が"
+        },
+        {
+          "key": "2",
+          "text_jp": "治りやすい"
+        },
+        {
+          "key": "3",
+          "text_jp": "早いほど"
+        },
+        {
+          "key": "4",
+          "text_jp": "早ければ"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "病気は発見が早ければ早いほど、治りやすい。",
+      "completed_vi": "Bệnh càng được phát hiện sớm thì càng dễ chữa.",
+      "grammar_points": [
+        {
+          "pattern": "～ば～ほど",
+          "structure": "V ば + V るほど / A ければ + A いほど",
+          "meaning": "càng ~ càng ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-014",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 7,
+      "section": "A",
+      "exam_q_no": 14,
+      "global_no": 14,
+      "knowledge_id": "grammar:といっても",
+      "stem_jp": "いくら ★ ＿＿ ＿＿ ＿＿寒くない。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "北海道"
+        },
+        {
+          "key": "2",
+          "text_jp": "といっても"
+        },
+        {
+          "key": "3",
+          "text_jp": "寒い"
+        },
+        {
+          "key": "4",
+          "text_jp": "ほど"
+        }
+      ],
+      "star_position": 1,
+      "correct_order": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "いくら寒いといっても、北海道ほど寒くない。",
+      "completed_vi": "Cho dù nói là lạnh nhưng cũng không lạnh bằng Hokkaido.",
+      "grammar_points": [
+        {
+          "pattern": "～といっても",
+          "structure": "Mệnh đề / N + といっても",
+          "meaning": "dù nói là ~ thì cũng…",
+          "notes": null
+        },
+        {
+          "pattern": "～ほど～ない",
+          "structure": "N / Mệnh đề + ほど～ない",
+          "meaning": "không ~ bằng N",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-015",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 8,
+      "section": "A",
+      "exam_q_no": 15,
+      "global_no": 15,
+      "knowledge_id": "grammar:向けの",
+      "stem_jp": "最近は＿＿ ＿＿ ★ ＿＿たくさん出ている。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "向けの"
+        },
+        {
+          "key": "2",
+          "text_jp": "料理の"
+        },
+        {
+          "key": "3",
+          "text_jp": "男性"
+        },
+        {
+          "key": "4",
+          "text_jp": "本が"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "最近は男性向けの料理の本がたくさん出ている。",
+      "completed_vi": "Gần đây có rất nhiều sách nấu ăn dành cho nam giới được xuất bản.",
+      "grammar_points": [
+        {
+          "pattern": "～向けの",
+          "structure": "N + 向けの",
+          "meaning": "dành cho ~",
+          "notes": null
+        },
+        {
+          "pattern": "～が出ている",
+          "structure": "N + が出ている",
+          "meaning": "được phát hành/xuất bản",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-016",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 8,
+      "section": "A",
+      "exam_q_no": 16,
+      "global_no": 16,
+      "knowledge_id": "grammar:だけあって",
+      "stem_jp": "＿＿ ＿＿ ★ ＿＿、どの服も安い。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "人気がある"
+        },
+        {
+          "key": "2",
+          "text_jp": "若い人に"
+        },
+        {
+          "key": "3",
+          "text_jp": "あって"
+        },
+        {
+          "key": "4",
+          "text_jp": "店だけ"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "若い人に人気がある店だけあって、どの服も安い。",
+      "completed_vi": "Đúng là cửa hàng nổi tiếng với giới trẻ nên quần áo nào cũng rẻ.",
+      "grammar_points": [
+        {
+          "pattern": "～だけあって",
+          "structure": "V / A / N + だけあって",
+          "meaning": "đúng là ~ nên quả nhiên…",
+          "notes": null
+        },
+        {
+          "pattern": "～に人気がある",
+          "structure": "N + に人気がある",
+          "meaning": "được yêu thích bởi ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-017",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 9,
+      "section": "A",
+      "exam_q_no": 17,
+      "global_no": 17,
+      "knowledge_id": "grammar:くらい",
+      "stem_jp": "大切な友だちがなくなって、＿＿ ＿＿ ★ ＿＿。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "涙が"
+        },
+        {
+          "key": "2",
+          "text_jp": "泣いた"
+        },
+        {
+          "key": "3",
+          "text_jp": "くらい"
+        },
+        {
+          "key": "4",
+          "text_jp": "出なくなる"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "大切な友だちがなくなって、涙が出なくなるくらい泣いた。",
+      "completed_vi": "Người bạn thân thiết qua đời khiến tôi khóc đến mức cạn nước mắt.",
+      "grammar_points": [
+        {
+          "pattern": "～くらい",
+          "structure": "Mệnh đề + くらい",
+          "meaning": "đến mức ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-018",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 9,
+      "section": "A",
+      "exam_q_no": 18,
+      "global_no": 18,
+      "knowledge_id": "grammar:による",
+      "stem_jp": "会議＿＿ ＿＿ ＿＿ ★ をしようと決めた。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "アンケート"
+        },
+        {
+          "key": "2",
+          "text_jp": "で"
+        },
+        {
+          "key": "3",
+          "text_jp": "による"
+        },
+        {
+          "key": "4",
+          "text_jp": "電話"
+        }
+      ],
+      "star_position": 4,
+      "correct_order": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "会議で電話によるアンケートをしようと決めた。",
+      "completed_vi": "Tôi quyết định sẽ làm khảo sát qua điện thoại trong cuộc họp.",
+      "grammar_points": [
+        {
+          "pattern": "～による",
+          "structure": "N + による + N",
+          "meaning": "bằng, dựa theo, do ~",
+          "notes": null
+        },
+        {
+          "pattern": "～ようと決める",
+          "structure": "V 意向形 + と決める",
+          "meaning": "quyết định sẽ ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-019",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 10,
+      "section": "A",
+      "exam_q_no": 19,
+      "global_no": 19,
+      "knowledge_id": "grammar:をもとに",
+      "stem_jp": "この小説は作者の＿＿ ＿＿ ★ ＿＿。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "経験を"
+        },
+        {
+          "key": "2",
+          "text_jp": "して"
+        },
+        {
+          "key": "3",
+          "text_jp": "もとに"
+        },
+        {
+          "key": "4",
+          "text_jp": "書かれている"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "この小説は作者の経験をもとにして書かれている。",
+      "completed_vi": "Cuốn tiểu thuyết này được viết dựa trên trải nghiệm của tác giả.",
+      "grammar_points": [
+        {
+          "pattern": "～をもとに",
+          "structure": "N + をもとに",
+          "meaning": "dựa trên ~",
+          "notes": null
+        },
+        {
+          "pattern": "～られている",
+          "structure": "Bị động + ている",
+          "meaning": "được ~",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-020",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 10,
+      "section": "A",
+      "exam_q_no": 20,
+      "global_no": 20,
+      "knowledge_id": "grammar:たとえても",
+      "stem_jp": "＿＿ ＿＿ ★ ＿＿、約束は守ります。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あっても"
+        },
+        {
+          "key": "2",
+          "text_jp": "何が"
+        },
+        {
+          "key": "3",
+          "text_jp": "私に"
+        },
+        {
+          "key": "4",
+          "text_jp": "たとえ"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "たとえ私に何があっても、約束は守ります。",
+      "completed_vi": "Dù có chuyện gì xảy ra với tôi thì tôi vẫn sẽ giữ lời hứa.",
+      "grammar_points": [
+        {
+          "pattern": "たとえ～ても",
+          "structure": "たとえ + V ても / N でも",
+          "meaning": "cho dù ~ thì vẫn…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-021",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 11,
+      "section": "A",
+      "exam_q_no": 21,
+      "global_no": 21,
+      "knowledge_id": "grammar:を通して",
+      "stem_jp": "私は＿＿ ＿＿ ＿★＿ ＿＿ をしていた。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "3 年間"
+        },
+        {
+          "key": "2",
+          "text_jp": "サッカー"
+        },
+        {
+          "key": "3",
+          "text_jp": "高校"
+        },
+        {
+          "key": "4",
+          "text_jp": "を通して"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "私は高校3 年間を通してサッカーをしていた。",
+      "completed_vi": "Tôi đã chơi bóng đá suốt 3 năm thời cấp ba.",
+      "grammar_points": [
+        {
+          "pattern": "～を通して",
+          "structure": "N + を通して",
+          "meaning": "xuyên suốt / trong suốt khoảng thời gian",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-022",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 11,
+      "section": "A",
+      "exam_q_no": 22,
+      "global_no": 22,
+      "knowledge_id": "grammar:とはかぎらない",
+      "stem_jp": "先生の＿＿ ＿＿ ＿★＿ ＿＿。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "かぎらない"
+        },
+        {
+          "key": "2",
+          "text_jp": "いつも"
+        },
+        {
+          "key": "3",
+          "text_jp": "正しいとは"
+        },
+        {
+          "key": "4",
+          "text_jp": "話が"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "先生の話がいつも正しいとはかぎらない。",
+      "completed_vi": "Không phải lúc nào lời của giáo viên cũng đúng.",
+      "grammar_points": [
+        {
+          "pattern": "～とはかぎらない",
+          "structure": "Thể thường + とはかぎらない",
+          "meaning": "không hẳn là…, chưa chắc…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-023",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 12,
+      "section": "A",
+      "exam_q_no": 23,
+      "global_no": 23,
+      "knowledge_id": "grammar:ようがない",
+      "stem_jp": "犬がいなくなって3 日になるが、＿＿ ＿＿ ＿★＿ ＿＿。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "行ったか"
+        },
+        {
+          "key": "2",
+          "text_jp": "どこに"
+        },
+        {
+          "key": "3",
+          "text_jp": "ない"
+        },
+        {
+          "key": "4",
+          "text_jp": "調べようが"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "犬がいなくなって3 日になるが、どこに行ったか調べようがない。",
+      "completed_vi": "Con chó mất tích đã 3 ngày rồi nhưng không có cách nào biết nó đi đâu.",
+      "grammar_points": [
+        {
+          "pattern": "～ようがない",
+          "structure": "V ます + ようがない",
+          "meaning": "không có cách nào…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-024",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 12,
+      "section": "A",
+      "exam_q_no": 24,
+      "global_no": 24,
+      "knowledge_id": "grammar:にきびしい",
+      "stem_jp": "山田さんは＿＿ ＿＿ ＿★＿ ＿＿だ。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "人"
+        },
+        {
+          "key": "2",
+          "text_jp": "に"
+        },
+        {
+          "key": "3",
+          "text_jp": "きびしい"
+        },
+        {
+          "key": "4",
+          "text_jp": "自分"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "山田さんは自分にきびしい人だ。",
+      "completed_vi": "Anh Yamada là người nghiêm khắc với bản thân.",
+      "grammar_points": [
+        {
+          "pattern": "～にきびしい",
+          "structure": "N + に + 厳しい",
+          "meaning": "nghiêm khắc với…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-025",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 13,
+      "section": "A",
+      "exam_q_no": 25,
+      "global_no": 25,
+      "knowledge_id": "grammar:しかない",
+      "stem_jp": "やると言った仕事は、大変でも＿＿ ＿＿ ＿★＿ ＿＿。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "やる"
+        },
+        {
+          "key": "2",
+          "text_jp": "まで"
+        },
+        {
+          "key": "3",
+          "text_jp": "最後"
+        },
+        {
+          "key": "4",
+          "text_jp": "しなない"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "やると言った仕事は、大変でも最後までやるしかない。",
+      "completed_vi": "Công việc đã nói sẽ làm thì dù vất vả cũng chỉ còn cách làm đến cùng.",
+      "grammar_points": [
+        {
+          "pattern": "～しかない",
+          "structure": "V る + しかない",
+          "meaning": "chỉ còn cách…",
+          "notes": null
+        },
+        {
+          "pattern": "～まで",
+          "structure": null,
+          "meaning": "đến tận…, đến cùng…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-026",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 13,
+      "section": "A",
+      "exam_q_no": 26,
+      "global_no": 26,
+      "knowledge_id": "grammar:としたら",
+      "stem_jp": "もし＿＿ ＿＿ ＿★＿ ＿＿、男がいいですか。女がいいですか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "生まれ"
+        },
+        {
+          "key": "2",
+          "text_jp": "と"
+        },
+        {
+          "key": "3",
+          "text_jp": "変わる"
+        },
+        {
+          "key": "4",
+          "text_jp": "したら"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "もし生まれ変わるとしたら、男がいいですか。女がいいですか。",
+      "completed_vi": "Nếu được sinh ra lại với giới tính khác thì bạn muốn là nam hay nữ?",
+      "grammar_points": [
+        {
+          "pattern": "～としたら",
+          "structure": "V るとしら",
+          "meaning": "giả định nếu như...vế 2 có ý chí",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-027",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 14,
+      "section": "A",
+      "exam_q_no": 27,
+      "global_no": 27,
+      "knowledge_id": "grammar:場合",
+      "stem_jp": "日本の大学で勉強する場合、＿＿ ＿＿ ＿★＿ ＿＿必要です。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "日本語は"
+        },
+        {
+          "key": "2",
+          "text_jp": "読み書きも"
+        },
+        {
+          "key": "3",
+          "text_jp": "英語の"
+        },
+        {
+          "key": "4",
+          "text_jp": "もちろん"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "日本の大学で勉強する場合、日本語はもちろん英語の読み書きも必要です。",
+      "completed_vi": "Nếu học ở đại học Nhật Bản thì tiếng Nhật là đương nhiên, cần cả kỹ năng đọc viết tiếng Anh.",
+      "grammar_points": [
+        {
+          "pattern": "～場合",
+          "structure": "V る / N の + 場合",
+          "meaning": "trong trường hợp…",
+          "notes": null
+        },
+        {
+          "pattern": "N１はもちろん、N2 も。。。",
+          "structure": null,
+          "meaning": "N1 là đương nhiên, N2 cũng...",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-028",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 14,
+      "section": "A",
+      "exam_q_no": 28,
+      "global_no": 28,
+      "knowledge_id": "grammar:とすれば",
+      "stem_jp": "1 日100 円＿＿ ＿＿ ＿★＿ ＿＿、1 か月で3 万円くらいたまります。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "すれば"
+        },
+        {
+          "key": "2",
+          "text_jp": "ためる"
+        },
+        {
+          "key": "3",
+          "text_jp": "と"
+        },
+        {
+          "key": "4",
+          "text_jp": "お金を"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "1 日100 円お金をためるとすれば、1 か月で3 万円くらいたまります。",
+      "completed_vi": "Nếu mỗi ngày tiết kiệm 100 yên thì một tháng sẽ để dành được khoảng 30 nghìn yên.",
+      "grammar_points": [
+        {
+          "pattern": "～とすれば",
+          "structure": "V る + とすれば＝としたら",
+          "meaning": "nếu, giả sử....thì...",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-029",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 15,
+      "section": "A",
+      "exam_q_no": 29,
+      "global_no": 29,
+      "knowledge_id": "grammar:とみえて",
+      "stem_jp": "弟は＿＿ ＿＿ ＿★＿ ＿＿、帰るとすぐ寝てしまう。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "と"
+        },
+        {
+          "key": "2",
+          "text_jp": "大変だ"
+        },
+        {
+          "key": "3",
+          "text_jp": "アルバイトが"
+        },
+        {
+          "key": "4",
+          "text_jp": "みえて"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "弟はアルバイトが大変だとみえて、帰るとすぐ寝てしまう。",
+      "completed_vi": "Có vẻ việc làm thêm của em trai rất vất vả nên cứ về nhà là ngủ ngay.",
+      "grammar_points": [
+        {
+          "pattern": "～とみえて",
+          "structure": "Thể thường + とみえて",
+          "meaning": "có vẻ như…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-030",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 15,
+      "section": "A",
+      "exam_q_no": 30,
+      "global_no": 30,
+      "knowledge_id": "grammar:ほど",
+      "stem_jp": "最近は＿＿ ＿＿ ＿★＿ ＿＿。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "売れている"
+        },
+        {
+          "key": "2",
+          "text_jp": "よく"
+        },
+        {
+          "key": "3",
+          "text_jp": "ほど"
+        },
+        {
+          "key": "4",
+          "text_jp": "安いもの"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "最近は、安いものほどよく売れている。",
+      "completed_vi": "Dạo gần đây đồ càng rẻ thì càng bán chạy.",
+      "grammar_points": [
+        {
+          "pattern": "～ほど",
+          "structure": "N + ほど",
+          "meaning": "càng… càng…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-031",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 16,
+      "section": "A",
+      "exam_q_no": 31,
+      "global_no": 31,
+      "knowledge_id": "grammar:次第",
+      "stem_jp": "そのことについては＿＿ ＿＿ ＿★＿ ＿＿、ご連絡ください。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "決まり"
+        },
+        {
+          "key": "2",
+          "text_jp": "くわしい"
+        },
+        {
+          "key": "3",
+          "text_jp": "ことが"
+        },
+        {
+          "key": "4",
+          "text_jp": "次第"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "そのことについてはくわしいことが決まり次第、ご連絡ください。",
+      "completed_vi": "Về việc đó, khi nào quyết định xong việc chi tiết thì hãy liên lạc với tôi.",
+      "grammar_points": [
+        {
+          "pattern": "～次第",
+          "structure": "V ます / N + 次第",
+          "meaning": "ngay sau khi…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-032",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 16,
+      "section": "A",
+      "exam_q_no": 32,
+      "global_no": 32,
+      "knowledge_id": "grammar:だけあって",
+      "stem_jp": "祖父は若いとき、テニスを＿＿ ＿＿ ＿★＿ ＿＿家族のだれより強い。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "今でも"
+        },
+        {
+          "key": "2",
+          "text_jp": "だけあって"
+        },
+        {
+          "key": "3",
+          "text_jp": "70 さいの"
+        },
+        {
+          "key": "4",
+          "text_jp": "していた"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "祖父は若いとき、テニスをしていただけあって70 さいの今でも家族のだれより強い。",
+      "completed_vi": "Ông tôi hồi trẻ từng chơi tennis nên đến giờ 70 tuổi vẫn khỏe hơn mọi người trong gia đình.",
+      "grammar_points": [
+        {
+          "pattern": "～だけあって",
+          "structure": "Thể thường + だけあって",
+          "meaning": "đúng là…, quả nhiên vì… nên…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-033",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 17,
+      "section": "A",
+      "exam_q_no": 33,
+      "global_no": 33,
+      "knowledge_id": "grammar:ついでに",
+      "stem_jp": "＿＿ ＿＿ ＿★＿ ＿＿、切手を買って来た。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ついでに"
+        },
+        {
+          "key": "2",
+          "text_jp": "買い物の"
+        },
+        {
+          "key": "3",
+          "text_jp": "よって"
+        },
+        {
+          "key": "4",
+          "text_jp": "郵便局に"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "買い物のついでに郵便局によって、切手を買って来た。",
+      "completed_vi": "Nhân tiện đi mua đồ, tôi đã ghé vàp bưu điện mua tem về.",
+      "grammar_points": [
+        {
+          "pattern": "～ついでに",
+          "structure": "V る / N の + ついでに",
+          "meaning": "tiện thể…",
+          "notes": null
+        },
+        {
+          "pattern": "～N によります",
+          "structure": null,
+          "meaning": "ghé qua…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-034",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 17,
+      "section": "A",
+      "exam_q_no": 34,
+      "global_no": 34,
+      "knowledge_id": "grammar:にかぎる",
+      "stem_jp": "風呂 ふ ろ の＿＿ ＿＿ ＿★＿ ＿＿。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ビール"
+        },
+        {
+          "key": "2",
+          "text_jp": "は"
+        },
+        {
+          "key": "3",
+          "text_jp": "あと"
+        },
+        {
+          "key": "4",
+          "text_jp": "にかぎる"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "風呂のあとはビールにかぎる。",
+      "completed_vi": "Sau khi ăn thì đúng là bia là tuyệt nhất.",
+      "grammar_points": [
+        {
+          "pattern": "～にかぎる",
+          "structure": "N / V る + にかぎる",
+          "meaning": "tốt nhất là…, không gì bằng…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-035",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 18,
+      "section": "A",
+      "exam_q_no": 35,
+      "global_no": 35,
+      "knowledge_id": "grammar:によって",
+      "stem_jp": "この絵は目の見えない＿＿ ＿＿ ＿★＿ ＿＿有名だ。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "によって"
+        },
+        {
+          "key": "2",
+          "text_jp": "ことで"
+        },
+        {
+          "key": "3",
+          "text_jp": "子どもたち"
+        },
+        {
+          "key": "4",
+          "text_jp": "かかれた"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "この絵は目の見えない子どもたちによってかかれたことで有名だ。",
+      "completed_vi": "Bức tranh này nổi tiếng vì được vẽ bởi những đứa trẻ không nhìn thấy.",
+      "grammar_points": [
+        {
+          "pattern": "～によって",
+          "structure": "N + によって",
+          "meaning": "bởi… (thể bị động)",
+          "notes": null
+        },
+        {
+          "pattern": "～ことで",
+          "structure": null,
+          "meaning": "vì việc…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-036",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 18,
+      "section": "A",
+      "exam_q_no": 36,
+      "global_no": 36,
+      "knowledge_id": "grammar:につれて",
+      "stem_jp": "＿＿ ＿＿ ＿★＿ ＿＿、日本の食べ物が好きになってきた。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "日本の"
+        },
+        {
+          "key": "2",
+          "text_jp": "長くなるに"
+        },
+        {
+          "key": "3",
+          "text_jp": "生活が"
+        },
+        {
+          "key": "4",
+          "text_jp": "つれて"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "日本の生活が長くなるにつれて、日本の食べ物が好きになってきた。",
+      "completed_vi": "Càng sống lâu ở Nhật thì tôi càng thích đồ ăn Nhật hơn.",
+      "grammar_points": [
+        {
+          "pattern": "～につれて",
+          "structure": "V る / N + につれて",
+          "meaning": "cùng với sự thay đổi…, càng… càng…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-037",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 19,
+      "section": "A",
+      "exam_q_no": 37,
+      "global_no": 37,
+      "knowledge_id": "grammar:と思うと",
+      "stem_jp": "これでもう＿＿ ＿＿ ＿★＿ ＿＿、本当に悲しい。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "彼とは"
+        },
+        {
+          "key": "2",
+          "text_jp": "思うと"
+        },
+        {
+          "key": "3",
+          "text_jp": "会えないと"
+        },
+        {
+          "key": "4",
+          "text_jp": "二度と"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "これでもう二度と彼とは会えないと思うと、本当に悲しい。",
+      "completed_vi": "Nghĩ đến việc từ giờ sẽ không bao giờ được gặp anh ấy nữa, tôi thật sự buồn.",
+      "grammar_points": [
+        {
+          "pattern": "～と思うと",
+          "structure": "Thể thường + と思うと",
+          "meaning": "khi nghĩ rằng…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-038",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 19,
+      "section": "A",
+      "exam_q_no": 38,
+      "global_no": 38,
+      "knowledge_id": "grammar:ように",
+      "stem_jp": "駅の案内は＿＿ ＿＿ ＿★＿ ＿＿います。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "わかる"
+        },
+        {
+          "key": "2",
+          "text_jp": "外国人でも"
+        },
+        {
+          "key": "3",
+          "text_jp": "書かれて"
+        },
+        {
+          "key": "4",
+          "text_jp": "ように"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "駅の案内は外国人でもわかるように書かれています。",
+      "completed_vi": "Bảng hướng dẫn ở ga được viết sao cho cả người nước ngoài cũng hiểu được.",
+      "grammar_points": [
+        {
+          "pattern": "～ように",
+          "structure": "V る + ように",
+          "meaning": "để sao cho…",
+          "notes": null
+        },
+        {
+          "pattern": "～書かれている",
+          "structure": null,
+          "meaning": "được viết…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-039",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 20,
+      "section": "A",
+      "exam_q_no": 39,
+      "global_no": 39,
+      "knowledge_id": "grammar:通りに",
+      "stem_jp": "外国語で、＿＿ ＿＿ ＿★＿ ＿＿はむずかしい。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "話す"
+        },
+        {
+          "key": "2",
+          "text_jp": "通りに"
+        },
+        {
+          "key": "3",
+          "text_jp": "思った"
+        },
+        {
+          "key": "4",
+          "text_jp": "こと"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "外国語で、思った通りに話すことはむずかしい。",
+      "completed_vi": "Rất khó để nói bằng ngoại ngữ đúng như điều mình nghĩ.",
+      "grammar_points": [
+        {
+          "pattern": "～通りに",
+          "structure": "V た・る / N の + 通りに",
+          "meaning": "đúng như…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-040",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 20,
+      "section": "A",
+      "exam_q_no": 40,
+      "global_no": 40,
+      "knowledge_id": "grammar:反面",
+      "stem_jp": "飛行場ができて＿＿ ＿＿ ＿★＿ ＿＿、観光客が増えてうるさくなった。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "反面"
+        },
+        {
+          "key": "2",
+          "text_jp": "なった"
+        },
+        {
+          "key": "3",
+          "text_jp": "に"
+        },
+        {
+          "key": "4",
+          "text_jp": "便利"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "飛行場ができて便利になった反面、観光客が増えてうるさくなった。",
+      "completed_vi": "Có sân bay nên trở nên thuận tiện hơn, nhưng mặt khác khách du lịch tăng lên làm trở nên ồn ào.",
+      "grammar_points": [
+        {
+          "pattern": "～反面",
+          "structure": "Thể thường / Na + な / N の + 反面",
+          "meaning": "mặt khác…, trái lại…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-041",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 21,
+      "section": "A",
+      "exam_q_no": 41,
+      "global_no": 41,
+      "knowledge_id": "grammar:と思っていた",
+      "stem_jp": "これは＿＿ ＿＿ ＿★＿ ＿＿なので、やらせてもらえませんか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "以前から"
+        },
+        {
+          "key": "2",
+          "text_jp": "仕事"
+        },
+        {
+          "key": "3",
+          "text_jp": "思っていた"
+        },
+        {
+          "key": "4",
+          "text_jp": "やりたいと"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "これは以前からやりたいと思っていた仕事なので、やらせてもらえませんか。",
+      "completed_vi": "Đây là công việc mà từ trước đến giờ tôi luôn muốn làm nên có thể cho tôi làm được không?",
+      "grammar_points": [
+        {
+          "pattern": "～と思っていた",
+          "structure": "V たい + と思っていた",
+          "meaning": "đã luôn nghĩ muốn…",
+          "notes": null
+        },
+        {
+          "pattern": "～させてもらう",
+          "structure": null,
+          "meaning": "được cho phép làm…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-042",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 21,
+      "section": "A",
+      "exam_q_no": 42,
+      "global_no": 42,
+      "knowledge_id": "grammar:によって",
+      "stem_jp": "＿＿ ＿＿ ＿★＿ ＿＿のは、おかしいと思う。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "男か女かに"
+        },
+        {
+          "key": "2",
+          "text_jp": "違う"
+        },
+        {
+          "key": "3",
+          "text_jp": "給料が"
+        },
+        {
+          "key": "4",
+          "text_jp": "よって"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "男か女かによって給料が違うのは、おかしいと思う。",
+      "completed_vi": "Tôi thấy việc lương khác nhau chỉ vì là nam hay nữ thì thật vô lý.",
+      "grammar_points": [
+        {
+          "pattern": "～によって",
+          "structure": "N + によって",
+          "meaning": "tùy theo…",
+          "notes": null
+        },
+        {
+          "pattern": "～のは",
+          "structure": null,
+          "meaning": "việc… thì…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-043",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 22,
+      "section": "A",
+      "exam_q_no": 43,
+      "global_no": 43,
+      "knowledge_id": "grammar:だからこそ",
+      "stem_jp": "長い間＿＿ ＿＿ ＿★＿ ＿＿、会社の悪いところは直したい。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "会社"
+        },
+        {
+          "key": "2",
+          "text_jp": "働いていた"
+        },
+        {
+          "key": "3",
+          "text_jp": "こそ"
+        },
+        {
+          "key": "4",
+          "text_jp": "だから"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "長い間働いていた会社だからこそ、会社の悪いところは直したい。",
+      "completed_vi": "Chính vì đã làm việc ở công ty lâu năm nên tôi muốn sửa những điểm chưa tốt của công ty.",
+      "grammar_points": [
+        {
+          "pattern": "～だからこそ",
+          "structure": "Thể thường + だからこそ",
+          "meaning": "chính vì… nên càng…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-044",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 22,
+      "section": "A",
+      "exam_q_no": 44,
+      "global_no": 44,
+      "knowledge_id": "grammar:つもりで",
+      "stem_jp": "＿＿ ＿＿ ＿★＿ ＿＿、彼女の話はわからなかった。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "つもりで"
+        },
+        {
+          "key": "2",
+          "text_jp": "得意な"
+        },
+        {
+          "key": "3",
+          "text_jp": "いたが"
+        },
+        {
+          "key": "4",
+          "text_jp": "英語は"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "英語は得意なつもりでいたが、彼女の話はわからなかった。",
+      "completed_vi": "Dù cứ nghĩ mình giỏi tiếng Anh nhưng tôi lại không hiểu cô ấy nói gì.",
+      "grammar_points": [
+        {
+          "pattern": "～つもりで",
+          "structure": "V た / N の + つもりで",
+          "meaning": "cứ tưởng là…, với ý định là…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-045",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 23,
+      "section": "B",
+      "exam_q_no": 1,
+      "global_no": 45,
+      "knowledge_id": "grammar:のかわりに",
+      "stem_jp": "部長が出席できないので＿＿ ＿＿ ＿★＿ ＿＿ が出席します。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "の"
+        },
+        {
+          "key": "2",
+          "text_jp": "部長"
+        },
+        {
+          "key": "3",
+          "text_jp": "私"
+        },
+        {
+          "key": "4",
+          "text_jp": "かわりに"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "部長が出席できないので、部長のかわりに私が出席します。",
+      "completed_vi": "Vì trưởng phòng không thể tham dự nên tôi sẽ tham dự thay trưởng phòng.",
+      "grammar_points": [
+        {
+          "pattern": "～のかわりに",
+          "structure": "N + のかわりに",
+          "meaning": "thay cho…, thay vì…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-046",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 23,
+      "section": "B",
+      "exam_q_no": 2,
+      "global_no": 46,
+      "knowledge_id": "grammar:に対する",
+      "stem_jp": "私は山田さんの、仕事＿＿ ＿＿ ＿★＿ ＿＿ います。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "尊敬"
+        },
+        {
+          "key": "2",
+          "text_jp": "態度を"
+        },
+        {
+          "key": "3",
+          "text_jp": "に対する"
+        },
+        {
+          "key": "4",
+          "text_jp": "考え方と"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "私は山田さんの、仕事に対する考え方と態度を尊敬しています。",
+      "completed_vi": "Tôi kính trọng thái độ và cách suy nghĩ của anh Yamada đối với công việc.",
+      "grammar_points": [
+        {
+          "pattern": "～に対する",
+          "structure": "N + に対する + N",
+          "meaning": "đối với…, liên quan đến…",
+          "notes": null
+        },
+        {
+          "pattern": "～を尊敬する",
+          "structure": null,
+          "meaning": "kính trọng…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": {
+        "choice_reading_hints": {
+          "1": "そんけいして"
+        },
+        "note": "furigana lines from PDF layout"
+      },
+      "explanation": null
+    },
+    {
+      "id": "star-q-047",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 24,
+      "section": "B",
+      "exam_q_no": 3,
+      "global_no": 47,
+      "knowledge_id": "grammar:はずがない",
+      "stem_jp": "私のような貧 びん 乏 ぼう 人 にん に＿＿ ＿＿ ＿★＿ ＿＿ じゃありませんか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "すごい車が"
+        },
+        {
+          "key": "2",
+          "text_jp": "はずがない"
+        },
+        {
+          "key": "3",
+          "text_jp": "買える"
+        },
+        {
+          "key": "4",
+          "text_jp": "あんな"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "私のような貧乏人びんぼうにんにあんなすごい車が買えるはずがないじゃありませんか。",
+      "completed_vi": "Một người nghèo như tôi thì làm gì có chuyện mua được chiếc xe tuyệt như thế chứ.",
+      "grammar_points": [
+        {
+          "pattern": "～はずがない",
+          "structure": "V る / N の + はずがない",
+          "meaning": "không thể nào…, không có lý nào…, làm gì có chuyện....",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-048",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 24,
+      "section": "B",
+      "exam_q_no": 4,
+      "global_no": 48,
+      "knowledge_id": "grammar:のに",
+      "stem_jp": "明日は＿＿ ＿＿ ＿★＿ ＿＿ いけないんだ。いやだなあ。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "休日"
+        },
+        {
+          "key": "2",
+          "text_jp": "行かなきゃ"
+        },
+        {
+          "key": "3",
+          "text_jp": "なのに"
+        },
+        {
+          "key": "4",
+          "text_jp": "会社へ"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "明日は休日なのに、会社へ行かなきゃいけないんだ。いやだなあ。",
+      "completed_vi": "Ngày mai là ngày nghỉ mà vẫn phải đi công ty. Chán thật.",
+      "grammar_points": [
+        {
+          "pattern": "～のに",
+          "structure": "Thể thường + のに",
+          "meaning": "mặc dù…, thế mà…",
+          "notes": null
+        },
+        {
+          "pattern": "～なきゃいけない",
+          "structure": null,
+          "meaning": "phải…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-049",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 25,
+      "section": "B",
+      "exam_q_no": 5,
+      "global_no": 49,
+      "knowledge_id": "grammar:のに",
+      "stem_jp": "ここの市役所はいつもこんでいる。書類を1 枚＿＿ ＿＿ ＿★＿ ＿＿ こともある。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "のに"
+        },
+        {
+          "key": "2",
+          "text_jp": "もらう"
+        },
+        {
+          "key": "3",
+          "text_jp": "待たされる"
+        },
+        {
+          "key": "4",
+          "text_jp": "1 時間も"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "ここの市役所はいつもこんでいる。書類を1 枚もらうのに、1 時間も待たされることもある。",
+      "completed_vi": "Tòa thị chính ở đây lúc nào cũng đông. Có khi chỉ để nhận một tờ giấy mà phải chờ tận 1 tiếng.",
+      "grammar_points": [
+        {
+          "pattern": "～のに",
+          "structure": "V る + のに",
+          "meaning": "để làm…",
+          "notes": null
+        },
+        {
+          "pattern": "～させられる",
+          "structure": null,
+          "meaning": "bị bắt / bị buộc phải…",
+          "notes": null
+        },
+        {
+          "pattern": "～こともある",
+          "structure": null,
+          "meaning": "cũng có khi…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-050",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 25,
+      "section": "B",
+      "exam_q_no": 6,
+      "global_no": 50,
+      "knowledge_id": "grammar:合わせて",
+      "stem_jp": "この大学に入るときは、＿＿ ＿＿ ＿★＿ ＿＿ 要る。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "合わせて"
+        },
+        {
+          "key": "2",
+          "text_jp": "授業料を"
+        },
+        {
+          "key": "3",
+          "text_jp": "多額の金が"
+        },
+        {
+          "key": "4",
+          "text_jp": "入学金と"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "この大学に入るときは、入学金と授業料を合わせて多額の金が要る。",
+      "completed_vi": "Khi vào trường đại học này thì cần một khoản tiền lớn gồm học phí và phí nhập học.",
+      "grammar_points": [
+        {
+          "pattern": "～合わせて",
+          "structure": null,
+          "meaning": "cộng lại / gộp lại…",
+          "notes": null
+        },
+        {
+          "pattern": "～が要る",
+          "structure": null,
+          "meaning": "cần…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-051",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 26,
+      "section": "B",
+      "exam_q_no": 7,
+      "global_no": 51,
+      "knowledge_id": "grammar:ほかない",
+      "stem_jp": "勉強だけに集中したいが、＿＿ ＿＿ ＿★＿ ＿＿ ほかない。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "生活費が"
+        },
+        {
+          "key": "2",
+          "text_jp": "ので"
+        },
+        {
+          "key": "3",
+          "text_jp": "足りない"
+        },
+        {
+          "key": "4",
+          "text_jp": "アルバイトする"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "勉強だけに集中したいが、生活費が足りないので、アルバイトするほかない。",
+      "completed_vi": "Tôi muốn chỉ tập trung học nhưng vì không đủ chi phí sinh hoạt nên đành phải làm thêm.",
+      "grammar_points": [
+        {
+          "pattern": "～ほかない",
+          "structure": "V る + ほかない",
+          "meaning": "không còn cách nào khác ngoài…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-052",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 26,
+      "section": "B",
+      "exam_q_no": 8,
+      "global_no": 52,
+      "knowledge_id": "grammar:せいで",
+      "stem_jp": "今日は、＿＿ ＿＿ ＿★＿ ＿＿ 、朝ご飯を食べなかった。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "遅く"
+        },
+        {
+          "key": "2",
+          "text_jp": "せいで"
+        },
+        {
+          "key": "3",
+          "text_jp": "ねぼうして"
+        },
+        {
+          "key": "4",
+          "text_jp": "なった"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "今日は、ねぼうして遅くなったせいで、朝ご飯を食べなかった。",
+      "completed_vi": "Hôm nay vì ngủ quên nên bị muộn và đã không ăn sáng.",
+      "grammar_points": [
+        {
+          "pattern": "～せいで",
+          "structure": "Thể thường + せいで",
+          "meaning": "vì…, do… (mang sắc thái tiêu cực)",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-053",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 27,
+      "section": "B",
+      "exam_q_no": 9,
+      "global_no": 53,
+      "knowledge_id": "grammar:というのは",
+      "stem_jp": "「外 がい 来 らい 語 ご 」＿＿ ＿＿ ＿★＿ ＿＿ ことです。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ことばの"
+        },
+        {
+          "key": "2",
+          "text_jp": "外国から"
+        },
+        {
+          "key": "3",
+          "text_jp": "というのは"
+        },
+        {
+          "key": "4",
+          "text_jp": "来た"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "「外来語」というのは、外国から来たことばのことです。",
+      "completed_vi": "“Ngoại ngữ” nghĩa là ngôn ngữ đến từ nước ngoài.",
+      "grammar_points": [
+        {
+          "pattern": "～というのは",
+          "structure": null,
+          "meaning": "cái gọi là…, nghĩa là…",
+          "notes": null
+        },
+        {
+          "pattern": "～ことです",
+          "structure": null,
+          "meaning": "là…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-054",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 27,
+      "section": "B",
+      "exam_q_no": 10,
+      "global_no": 54,
+      "knowledge_id": "grammar:はともかく",
+      "stem_jp": "うちの子は、＿＿ ＿＿ ＿★＿ ＿＿ から、将来を楽しみにしている。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ともかく"
+        },
+        {
+          "key": "2",
+          "text_jp": "好きだ"
+        },
+        {
+          "key": "3",
+          "text_jp": "試験の成績は"
+        },
+        {
+          "key": "4",
+          "text_jp": "数学が"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "うちの子は、試験の成績はともかく、数学が好きだから、将来を楽しみにしている。",
+      "completed_vi": "Con tôi thì không bàn đến thành tích thi cử, vì thích toán nên tôi rất mong chờ tương lai của nó.",
+      "grammar_points": [
+        {
+          "pattern": "～はともかく",
+          "structure": "N + はともかく",
+          "meaning": "tạm không bàn đến…, chưa nói đến…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-055",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 28,
+      "section": "B",
+      "exam_q_no": 11,
+      "global_no": 55,
+      "knowledge_id": "grammar:てみる",
+      "stem_jp": "沖縄の海はとてもきれいですから、＿＿ ＿＿ ＿★＿ ＿＿ ですか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "どう"
+        },
+        {
+          "key": "2",
+          "text_jp": "みたら"
+        },
+        {
+          "key": "3",
+          "text_jp": "行って"
+        },
+        {
+          "key": "4",
+          "text_jp": "ぜひ"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "沖縄の海はとてもきれいですから、ぜひ行ってみたらどうですか。",
+      "completed_vi": "Biển Okinawa rất đẹp nên bạn nhất định hãy thử đến xem sao nhé?",
+      "grammar_points": [
+        {
+          "pattern": "～てみる",
+          "structure": "V て + みる",
+          "meaning": "thử làm…",
+          "notes": null
+        },
+        {
+          "pattern": "～たらどうですか",
+          "structure": null,
+          "meaning": "sao bạn không thử…?",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-056",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 28,
+      "section": "B",
+      "exam_q_no": 12,
+      "global_no": 56,
+      "knowledge_id": "grammar:ことがある",
+      "stem_jp": "私は、ときどき＿＿ ＿＿ ＿★＿ ＿＿ ので、いつもかばんに薬を入れている。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "痛くなる"
+        },
+        {
+          "key": "2",
+          "text_jp": "ある"
+        },
+        {
+          "key": "3",
+          "text_jp": "ことが"
+        },
+        {
+          "key": "4",
+          "text_jp": "頭が"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "私は、ときどき頭が痛くなることがあるので、いつもかばんに薬を入れている。",
+      "completed_vi": "Vì thỉnh thoảng tôi bị đau đầu nên lúc nào cũng mang thuốc trong cặp.",
+      "grammar_points": [
+        {
+          "pattern": "～ことがある",
+          "structure": "V る + ことがある",
+          "meaning": "có khi…, thỉnh thoảng…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-057",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 29,
+      "section": "B",
+      "exam_q_no": 13,
+      "global_no": 57,
+      "knowledge_id": "grammar:にかかわらず",
+      "stem_jp": "試合は、雨が＿＿ ＿＿ ＿★＿ ＿＿ 行います。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "降らないに"
+        },
+        {
+          "key": "2",
+          "text_jp": "降る"
+        },
+        {
+          "key": "3",
+          "text_jp": "予定どおり"
+        },
+        {
+          "key": "4",
+          "text_jp": "かかわらず"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "試合は、雨が降る降らないにかかわらず、予定どおり行います。",
+      "completed_vi": "Trận đấu sẽ được tiến hành theo kế hoạch bất kể dù trời có mưa hay không.",
+      "grammar_points": [
+        {
+          "pattern": "～にかかわらず",
+          "structure": "V る / N + にかかわらず",
+          "meaning": "bất kể…, dù… cũng…",
+          "notes": null
+        },
+        {
+          "pattern": "～どおり",
+          "structure": null,
+          "meaning": "đúng theo…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-058",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 29,
+      "section": "B",
+      "exam_q_no": 14,
+      "global_no": 58,
+      "knowledge_id": "grammar:以来",
+      "stem_jp": "あの人とは、＿＿ ＿＿ ＿★＿ ＿＿ 機会がなかった。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "会う"
+        },
+        {
+          "key": "2",
+          "text_jp": "友人の結婚式で"
+        },
+        {
+          "key": "3",
+          "text_jp": "以来"
+        },
+        {
+          "key": "4",
+          "text_jp": "会って"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "あの人とは、友人の結婚式で会って以来、会う機会がなかった。",
+      "completed_vi": "Từ sau lần gặp người đó ở đám cưới bạn tôi thì tôi không có cơ hội gặp lại nữa.",
+      "grammar_points": [
+        {
+          "pattern": "～以来",
+          "structure": "V て + 以来",
+          "meaning": "kể từ sau khi…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-059",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 30,
+      "section": "B",
+      "exam_q_no": 15,
+      "global_no": 59,
+      "knowledge_id": "grammar:ようにしている",
+      "stem_jp": "甘いものは歯に悪いということで、子どもに＿＿ ＿＿ ＿★＿ ＿＿ 親もいるそうだ。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "食べさせない"
+        },
+        {
+          "key": "2",
+          "text_jp": "チョコレートを"
+        },
+        {
+          "key": "3",
+          "text_jp": "している"
+        },
+        {
+          "key": "4",
+          "text_jp": "ように"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "甘いものは歯に悪いということで、子どもにチョコレートを食べさせないようにしている親もいるそうだ。",
+      "completed_vi": "Nghe nói cũng có những bậc phụ huynh cố gắng không cho con ăn socola vì đồ ngọt không tốt cho răng.",
+      "grammar_points": [
+        {
+          "pattern": "～ようにしている",
+          "structure": "V ない + ようにしている",
+          "meaning": "cố gắng duy trì việc không…",
+          "notes": null
+        },
+        {
+          "pattern": "～ということで",
+          "structure": null,
+          "meaning": "vì cho rằng…, vì lý do là…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-060",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 30,
+      "section": "B",
+      "exam_q_no": 16,
+      "global_no": 60,
+      "knowledge_id": "grammar:に目を通す",
+      "stem_jp": "課長、今日の＿＿ ＿＿ ＿★＿ ＿＿ ましたか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "会議の"
+        },
+        {
+          "key": "2",
+          "text_jp": "通され"
+        },
+        {
+          "key": "3",
+          "text_jp": "目を"
+        },
+        {
+          "key": "4",
+          "text_jp": "資料に"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "課長、今日の会議の資料に目を通されましたか。",
+      "completed_vi": "Trưởng phòng đã xem qua tài liệu của cuộc họp hôm nay chưa ạ?",
+      "grammar_points": [
+        {
+          "pattern": "～に目を通す",
+          "structure": null,
+          "meaning": "xem qua / đọc lướt qua",
+          "notes": null
+        },
+        {
+          "pattern": "Kính ngữ: ～されましたか",
+          "structure": null,
+          "meaning": null,
+          "notes": "Cách nói lịch sự tôn kính"
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-061",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 31,
+      "section": "B",
+      "exam_q_no": 17,
+      "global_no": 61,
+      "knowledge_id": "grammar:ないようにする",
+      "stem_jp": "動物園で写真をとるときは、＿＿ ＿＿ ＿★＿ ＿＿ してください。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ことが"
+        },
+        {
+          "key": "2",
+          "text_jp": "驚"
+        },
+        {
+          "key": "3",
+          "text_jp": "動物を"
+        },
+        {
+          "key": "4",
+          "text_jp": "ないように"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "動物園で写真をとるときは、動物を驚おどろかせることがないようにしてください。",
+      "completed_vi": "Khi chụp ảnh ở sở thú, xin hãy chú ý đừng làm động vật hoảng sợ.",
+      "grammar_points": [
+        {
+          "pattern": "～ないようにする",
+          "structure": "V ない + ようにする",
+          "meaning": "cố gắng không…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": {
+        "choice_reading_hints": {
+          "2": "おどろかせる"
+        },
+        "note": "furigana lines from PDF layout"
+      },
+      "explanation": null
+    },
+    {
+      "id": "star-q-062",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 31,
+      "section": "B",
+      "exam_q_no": 18,
+      "global_no": 62,
+      "knowledge_id": "grammar:に比べて",
+      "stem_jp": "今年は去年に＿＿ ＿＿ ＿★＿ ＿＿ 、生活がしやすい。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "冬の間の"
+        },
+        {
+          "key": "2",
+          "text_jp": "高めなので"
+        },
+        {
+          "key": "3",
+          "text_jp": "気温が"
+        },
+        {
+          "key": "4",
+          "text_jp": "比べて"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "今年は去年に比べて、冬の間の気温が高めなので、生活がしやすい。",
+      "completed_vi": "Năm nay so với năm ngoái thì nhiệt độ mùa đông cao hơn nên dễ sinh hoạt hơn.",
+      "grammar_points": [
+        {
+          "pattern": "～に比べて",
+          "structure": "N + に比べて",
+          "meaning": "so với…",
+          "notes": null
+        },
+        {
+          "pattern": "～高め",
+          "structure": null,
+          "meaning": "hơi cao…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-063",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 32,
+      "section": "B",
+      "exam_q_no": 19,
+      "global_no": 63,
+      "knowledge_id": "grammar:らしい",
+      "stem_jp": "この数日 すうじつ はあたたかくて、＿＿ ＿＿ ＿★＿ ＿＿ が、今日はとても寒い一日だった。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "らしい"
+        },
+        {
+          "key": "2",
+          "text_jp": "続いていた"
+        },
+        {
+          "key": "3",
+          "text_jp": "天気が"
+        },
+        {
+          "key": "4",
+          "text_jp": "春"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "この数日はあたたかくて、春らしい天気が続いていたが、今日はとても寒い一日だった。",
+      "completed_vi": "Mấy ngày gần đây trời ấm áp với thời tiết giống mùa xuân, nhưng hôm nay lại là một ngày rất lạnh.",
+      "grammar_points": [
+        {
+          "pattern": "～らしい",
+          "structure": "N + らしい",
+          "meaning": "giống / mang đặc trưng của…",
+          "notes": null
+        },
+        {
+          "pattern": "～続いている",
+          "structure": null,
+          "meaning": "đang tiếp diễn…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-064",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 32,
+      "section": "B",
+      "exam_q_no": 20,
+      "global_no": 64,
+      "knowledge_id": "grammar:うかがう",
+      "stem_jp": "私が社長から＿＿ ＿＿ ＿★＿ ＿＿ でした。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "のは"
+        },
+        {
+          "key": "2",
+          "text_jp": "そのことを"
+        },
+        {
+          "key": "3",
+          "text_jp": "先週"
+        },
+        {
+          "key": "4",
+          "text_jp": "うかがった"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "私が社長からそのことをうかがったのは先週でした。",
+      "completed_vi": "Việc tôi nghe chuyện đó từ giám đốc là vào tuần trước.",
+      "grammar_points": [
+        {
+          "pattern": "うかがう",
+          "structure": null,
+          "meaning": "hỏi / nghe / đến (khiêm nhường)",
+          "notes": "Khiêm nhường ngữ của 聞く / 行く / 来る"
+        },
+        {
+          "pattern": "～のは",
+          "structure": null,
+          "meaning": null,
+          "notes": "Dùng để nhấn mạnh chủ đề / thời điểm sự việc."
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-065",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 33,
+      "section": "B",
+      "exam_q_no": 21,
+      "global_no": 65,
+      "knowledge_id": "grammar:わけではない",
+      "stem_jp": "苦いものが＿＿ ＿＿ ＿★＿ ＿＿ 食べない。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "きらいな"
+        },
+        {
+          "key": "2",
+          "text_jp": "けれど"
+        },
+        {
+          "key": "3",
+          "text_jp": "ほとんど"
+        },
+        {
+          "key": "4",
+          "text_jp": "わけではない"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "4",
+        "2",
+        "3"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "苦いものがきらいなわけではないけれど、ほとんど食べない。",
+      "completed_vi": "Không phải là tôi ghét đồ đắng, nhưng hầu như không ăn.",
+      "grammar_points": [
+        {
+          "pattern": "～わけではない",
+          "structure": "Thể thường + わけではない",
+          "meaning": "không hẳn là…, không phải là…",
+          "notes": null
+        },
+        {
+          "pattern": "～けれど",
+          "structure": null,
+          "meaning": "nhưng…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-066",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 33,
+      "section": "B",
+      "exam_q_no": 22,
+      "global_no": 66,
+      "knowledge_id": "grammar:おそれがある",
+      "stem_jp": "今年の冬は新型 しんがた の＿＿ ＿＿ ＿★＿ ＿＿ ので、注意してください。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "インフルエンザが"
+        },
+        {
+          "key": "2",
+          "text_jp": "おそれがある"
+        },
+        {
+          "key": "3",
+          "text_jp": "全国的に"
+        },
+        {
+          "key": "4",
+          "text_jp": "流行する"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "今年の冬は新型のインフルエンザが全国的に流行するおそれがあるので、注意してください。",
+      "completed_vi": "Mùa đông năm nay có nguy cơ cúm chủng mới sẽ bùng phát trên toàn quốc nên hãy chú ý.",
+      "grammar_points": [
+        {
+          "pattern": "～おそれがある",
+          "structure": "V る / N の + おそれがある",
+          "meaning": "có nguy cơ…, e rằng…",
+          "notes": null
+        },
+        {
+          "pattern": "～全国的に",
+          "structure": null,
+          "meaning": "trên phạm vi toàn quốc",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-067",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 34,
+      "section": "B",
+      "exam_q_no": 23,
+      "global_no": 67,
+      "knowledge_id": "grammar:とともに",
+      "stem_jp": "夏は＿＿ ＿＿ ＿★＿ ＿＿ 使用量が増える。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "電気の"
+        },
+        {
+          "key": "2",
+          "text_jp": "気温が"
+        },
+        {
+          "key": "3",
+          "text_jp": "とともに"
+        },
+        {
+          "key": "4",
+          "text_jp": "上がる"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "夏は気温が上がるとともに、電気の使用量が増える。",
+      "completed_vi": "Vào mùa hè, cùng với việc nhiệt độ tăng lên thì lượng điện sử dụng cũng tăng.",
+      "grammar_points": [
+        {
+          "pattern": "～とともに",
+          "structure": "V る / N + とともに",
+          "meaning": "cùng với…, đồng thời…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-068",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 34,
+      "section": "B",
+      "exam_q_no": 24,
+      "global_no": 68,
+      "knowledge_id": "grammar:お忙しいところ",
+      "stem_jp": "本日 ほんじつ は＿＿ ＿＿ ＿★＿ ＿＿ ありがとうございました。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "おいで"
+        },
+        {
+          "key": "2",
+          "text_jp": "ところ"
+        },
+        {
+          "key": "3",
+          "text_jp": "くださって"
+        },
+        {
+          "key": "4",
+          "text_jp": "お忙しい"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "本日はお忙しいところ、おいでくださってありがとうございました。",
+      "completed_vi": "Hôm nay xin cảm ơn quý vị đã đến dù đang bận rộn.",
+      "grammar_points": [
+        {
+          "pattern": "お忙しいところ",
+          "structure": null,
+          "meaning": "trong lúc bận rộn…",
+          "notes": null
+        },
+        {
+          "pattern": "～てくださる",
+          "structure": null,
+          "meaning": null,
+          "notes": "Kính ngữ, ý nghĩa: làm cho tôi/chúng tôi…"
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-069",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 35,
+      "section": "B",
+      "exam_q_no": 25,
+      "global_no": 69,
+      "knowledge_id": "grammar:による",
+      "stem_jp": "昨日からの＿＿ ＿＿ ＿★＿ ＿＿ だけでなく、東区にも広がっています。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "大雨"
+        },
+        {
+          "key": "2",
+          "text_jp": "西区"
+        },
+        {
+          "key": "3",
+          "text_jp": "による"
+        },
+        {
+          "key": "4",
+          "text_jp": "被害は"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "昨日からの大雨による被害は、西区だけでなく、東区にも広がっています。",
+      "completed_vi": "Thiệt hại do trận mưa lớn từ hôm qua không chỉ lan ở khu Tây mà còn sang cả khu Đông.",
+      "grammar_points": [
+        {
+          "pattern": "～による",
+          "structure": "N + による + N",
+          "meaning": "do…, bởi…",
+          "notes": null
+        },
+        {
+          "pattern": "～だけでなく",
+          "structure": null,
+          "meaning": "không chỉ… mà còn…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-070",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 35,
+      "section": "B",
+      "exam_q_no": 26,
+      "global_no": 70,
+      "knowledge_id": "grammar:に反して",
+      "stem_jp": "昨日は、雨が降る＿＿ ＿＿ ＿★＿ ＿＿ 天気がよかった。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "という"
+        },
+        {
+          "key": "2",
+          "text_jp": "だろう"
+        },
+        {
+          "key": "3",
+          "text_jp": "に反して"
+        },
+        {
+          "key": "4",
+          "text_jp": "予報"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "昨日は、雨が降るだろうという予報に反して、天気がよかった。",
+      "completed_vi": "Hôm qua trái với dự báo là trời sẽ mưa, thời tiết lại đẹp.",
+      "grammar_points": [
+        {
+          "pattern": "～に反して",
+          "structure": "N + に反して",
+          "meaning": "trái với…, ngược với…",
+          "notes": null
+        },
+        {
+          "pattern": "～という",
+          "structure": null,
+          "meaning": "gọi là…, rằng…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-071",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 36,
+      "section": "B",
+      "exam_q_no": 27,
+      "global_no": 71,
+      "knowledge_id": "grammar:わりには",
+      "stem_jp": "弟は＿＿ ＿＿ ＿★＿ ＿＿ ある。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "小さい"
+        },
+        {
+          "key": "2",
+          "text_jp": "体が"
+        },
+        {
+          "key": "3",
+          "text_jp": "力が"
+        },
+        {
+          "key": "4",
+          "text_jp": "わりには"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "弟は体が小さいわりには、力がある。",
+      "completed_vi": "Em trai tôi tuy người nhỏ nhưng lại khỏe.",
+      "grammar_points": [
+        {
+          "pattern": "～わりには",
+          "structure": "Thể thường + わりには",
+          "meaning": "mặc dù…, trái với tưởng tượng…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-072",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 36,
+      "section": "B",
+      "exam_q_no": 28,
+      "global_no": 72,
+      "knowledge_id": "grammar:そうな",
+      "stem_jp": "A「事故があったんですって。」 B「ええ、電車が動くまでは、かなり＿＿ ＿＿ ＿★＿ ＿＿ ですね。」",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "かかり"
+        },
+        {
+          "key": "2",
+          "text_jp": "様子"
+        },
+        {
+          "key": "3",
+          "text_jp": "そうな"
+        },
+        {
+          "key": "4",
+          "text_jp": "時間が"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "ええ、電車が動くまでは、かなり時間がかかりそうな様子ですね。",
+      "completed_vi": "Ừ, có vẻ sẽ mất khá nhiều thời gian cho đến khi tàu chạy lại nhỉ.",
+      "grammar_points": [
+        {
+          "pattern": "～そうな",
+          "structure": "V ます + そうな + N",
+          "meaning": "có vẻ…",
+          "notes": null
+        },
+        {
+          "pattern": "～様子",
+          "structure": null,
+          "meaning": "tình hình / dáng vẻ…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-073",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 37,
+      "section": "B",
+      "exam_q_no": 29,
+      "global_no": 73,
+      "knowledge_id": "grammar:ことにしている",
+      "stem_jp": "山田さんは、健康のために、毎朝＿＿ ＿＿ ＿★＿ ＿＿ そうです。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "運動を"
+        },
+        {
+          "key": "2",
+          "text_jp": "している"
+        },
+        {
+          "key": "3",
+          "text_jp": "ことに"
+        },
+        {
+          "key": "4",
+          "text_jp": "する"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "山田さんは、健康のために、毎朝運動をすることにしているそうです。",
+      "completed_vi": "Nghe nói anh Yamada quyết định duy trì việc tập thể dục mỗi sáng để giữ sức khỏe.",
+      "grammar_points": [
+        {
+          "pattern": "～ことにしている",
+          "structure": "V る + ことにしている",
+          "meaning": "quyết định duy trì việc…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-074",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 37,
+      "section": "B",
+      "exam_q_no": 30,
+      "global_no": 74,
+      "knowledge_id": "grammar:ような",
+      "stem_jp": "学生時代に＿＿ ＿＿ ＿★＿ ＿＿ 、ほんとうによかった。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "出会えて"
+        },
+        {
+          "key": "2",
+          "text_jp": "ような"
+        },
+        {
+          "key": "3",
+          "text_jp": "友人に"
+        },
+        {
+          "key": "4",
+          "text_jp": "あなたの"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "学生時代にあなたのような友人に出会えて、ほんとうによかった。",
+      "completed_vi": "Thật tốt vì thời còn là học sinh tôi đã gặp được người bạn như bạn.",
+      "grammar_points": [
+        {
+          "pattern": "～ような",
+          "structure": "N + のような + N",
+          "meaning": "giống như…",
+          "notes": null
+        },
+        {
+          "pattern": "～てよかった",
+          "structure": null,
+          "meaning": "thật tốt vì đã…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-075",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 38,
+      "section": "B",
+      "exam_q_no": 31,
+      "global_no": 75,
+      "knowledge_id": "grammar:とは",
+      "stem_jp": "あんなにおとなしい学生だった広子が＿＿ ＿＿ ＿★＿ ＿＿ 想像できなかった。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "政治家に"
+        },
+        {
+          "key": "2",
+          "text_jp": "とは"
+        },
+        {
+          "key": "3",
+          "text_jp": "まったく"
+        },
+        {
+          "key": "4",
+          "text_jp": "なる"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "4",
+        "2",
+        "3"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "あんなにおとなしい学生だった広子が政治家になるとは、まったく想像できなかった。",
+      "completed_vi": "Tôi hoàn toàn không thể tưởng tượng được Hiroko người từng là học sinh hiền lành như thế lại trở thành chính trị gia.",
+      "grammar_points": [
+        {
+          "pattern": "～とは",
+          "structure": "Thể thường + とは",
+          "meaning": "nhấn mạnh sự bất ngờ",
+          "notes": null
+        },
+        {
+          "pattern": "まったく～ない",
+          "structure": null,
+          "meaning": "hoàn toàn không…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-076",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 38,
+      "section": "B",
+      "exam_q_no": 32,
+      "global_no": 76,
+      "knowledge_id": "grammar:すぎる",
+      "stem_jp": "あの人のスピーチは、テーマが＿＿ ＿＿ ＿★＿ ＿＿ と思った。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "にくい"
+        },
+        {
+          "key": "2",
+          "text_jp": "難し"
+        },
+        {
+          "key": "3",
+          "text_jp": "わかり"
+        },
+        {
+          "key": "4",
+          "text_jp": "すぎて"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "あの人のスピーチは、テーマが難しすぎてわかりにくいと思った。",
+      "completed_vi": "Tôi thấy bài phát biểu của người đó có chủ đề quá khó nên khó hiểu.",
+      "grammar_points": [
+        {
+          "pattern": "～すぎる",
+          "structure": "V ます / Adj + すぎる",
+          "meaning": "quá…",
+          "notes": null
+        },
+        {
+          "pattern": "～にくい",
+          "structure": "V ます + にくい",
+          "meaning": "khó…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-077",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 39,
+      "section": "B",
+      "exam_q_no": 33,
+      "global_no": 77,
+      "knowledge_id": "grammar:ないで",
+      "stem_jp": "たかし君、受験生が＿＿ ＿＿ ＿★＿ ＿＿ いて、いいの？",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "勉強を"
+        },
+        {
+          "key": "2",
+          "text_jp": "遊んで"
+        },
+        {
+          "key": "3",
+          "text_jp": "しないで"
+        },
+        {
+          "key": "4",
+          "text_jp": "ばかり"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "たかし君、受験生が勉強をしないで遊んでばかりいて、いいの？",
+      "completed_vi": "Takashi à, là học sinh ôn thi mà cứ chỉ chơi không học vậy có được không?",
+      "grammar_points": [
+        {
+          "pattern": "～ないで",
+          "structure": null,
+          "meaning": "không làm… mà…",
+          "notes": null
+        },
+        {
+          "pattern": "～ばかりいる",
+          "structure": null,
+          "meaning": "toàn chỉ…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-078",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 39,
+      "section": "B",
+      "exam_q_no": 34,
+      "global_no": 78,
+      "knowledge_id": "grammar:とする",
+      "stem_jp": "母に＿＿ ＿＿ ＿★＿ ＿＿ とき、母から電話がかかってきた。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "しよう"
+        },
+        {
+          "key": "2",
+          "text_jp": "電話を"
+        },
+        {
+          "key": "3",
+          "text_jp": "した"
+        },
+        {
+          "key": "4",
+          "text_jp": "と"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "母に電話をとしようとしたとき、母から電話がかかってきた。",
+      "completed_vi": "Đúng lúc tôi định gọi điện cho mẹ thì mẹ gọi tới.",
+      "grammar_points": [
+        {
+          "pattern": "～とする",
+          "structure": "V よう + とする",
+          "meaning": "định làm… thì…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-079",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 40,
+      "section": "B",
+      "exam_q_no": 35,
+      "global_no": 79,
+      "knowledge_id": "grammar:なくてもいい",
+      "stem_jp": "もう何度もあやまったのだから、＿＿ ＿＿ ＿★＿ ＿＿ ありませんか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "いい"
+        },
+        {
+          "key": "2",
+          "text_jp": "しからなくても"
+        },
+        {
+          "key": "3",
+          "text_jp": "のでは"
+        },
+        {
+          "key": "4",
+          "text_jp": "そんなに"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "もう何度もあやまったのだから、そんなにしからなくてもいいのではありませんか。",
+      "completed_vi": "Người ta đã xin lỗi nhiều lần rồi nên có lẽ không cần mắng nhiều như vậy nữa đâu?",
+      "grammar_points": [
+        {
+          "pattern": "～なくてもいい",
+          "structure": null,
+          "meaning": "không cần phải…",
+          "notes": null
+        },
+        {
+          "pattern": "～のではありませんか",
+          "structure": null,
+          "meaning": "chẳng phải là… sao?",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-080",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 40,
+      "section": "B",
+      "exam_q_no": 36,
+      "global_no": 80,
+      "knowledge_id": "grammar:どんなにても",
+      "stem_jp": "どんなに＿＿ ＿＿ ＿★＿ ＿＿ 上手には歌えない。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "しても"
+        },
+        {
+          "key": "2",
+          "text_jp": "みたいに"
+        },
+        {
+          "key": "3",
+          "text_jp": "練習を"
+        },
+        {
+          "key": "4",
+          "text_jp": "山田さん"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "どんなに練習をしても、山田さんみたいに上手には歌えない。",
+      "completed_vi": "Dù luyện tập bao nhiêu tôi cũng không thể hát hay như anh Yamada.",
+      "grammar_points": [
+        {
+          "pattern": "どんなに～ても",
+          "structure": null,
+          "meaning": "dù có… đến đâu cũng…",
+          "notes": null
+        },
+        {
+          "pattern": "～みたいに",
+          "structure": null,
+          "meaning": "giống như…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-081",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 41,
+      "section": "B",
+      "exam_q_no": 37,
+      "global_no": 81,
+      "knowledge_id": "grammar:のではないかと思う",
+      "stem_jp": "私の家はとても古いので、＿＿ ＿＿ ＿★＿ ＿＿ ないかと思う。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "こわれる"
+        },
+        {
+          "key": "2",
+          "text_jp": "のでは"
+        },
+        {
+          "key": "3",
+          "text_jp": "来たら"
+        },
+        {
+          "key": "4",
+          "text_jp": "大きい地震が"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "correct_answer": "1",
+      "completed_jp": "私の家はとても古いので、大きい地震が来たらこわれるのではないかと思う。",
+      "completed_vi": "Vì nhà tôi rất cũ nên tôi nghĩ nếu có động đất lớn thì có thể sẽ bị sập.",
+      "grammar_points": [
+        {
+          "pattern": "～のではないかと思う",
+          "structure": null,
+          "meaning": "tôi nghĩ rằng có lẽ…",
+          "notes": null
+        },
+        {
+          "pattern": "～たら",
+          "structure": null,
+          "meaning": "nếu…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-082",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 41,
+      "section": "B",
+      "exam_q_no": 38,
+      "global_no": 82,
+      "knowledge_id": "grammar:につれて",
+      "stem_jp": "年を＿＿ ＿＿ ＿★＿ ＿＿ 変わることもある。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "につれて"
+        },
+        {
+          "key": "2",
+          "text_jp": "好きな"
+        },
+        {
+          "key": "3",
+          "text_jp": "食べ物が"
+        },
+        {
+          "key": "4",
+          "text_jp": "とる"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_answer": "2",
+      "completed_jp": "年をとるにつれて、好きな食べ物が変わることもある。",
+      "completed_vi": "Cùng với tuổi tác tăng lên thì sở thích ăn uống đôi khi cũng thay đổi.",
+      "grammar_points": [
+        {
+          "pattern": "～につれて",
+          "structure": "V る + につれて",
+          "meaning": "càng… càng… / cùng với…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-083",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 42,
+      "section": "B",
+      "exam_q_no": 39,
+      "global_no": 83,
+      "knowledge_id": "grammar:ないことには",
+      "stem_jp": "病気のときは、＿＿ ＿＿ ＿★＿ ＿＿ 、治らない。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ことには"
+        },
+        {
+          "key": "2",
+          "text_jp": "何でも"
+        },
+        {
+          "key": "3",
+          "text_jp": "食べない"
+        },
+        {
+          "key": "4",
+          "text_jp": "いいから"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correct_answer": "3",
+      "completed_jp": "病気のときは、何でもいいから食べないことには、治らない。",
+      "completed_vi": "Khi bị bệnh thì dù là gì cũng được, nếu không ăn thì sẽ không khỏi.",
+      "grammar_points": [
+        {
+          "pattern": "～ないことには",
+          "structure": "V ない + ことには",
+          "meaning": "nếu không… thì không thể…",
+          "notes": null
+        },
+        {
+          "pattern": "～てもいいから",
+          "structure": null,
+          "meaning": "dù thế nào cũng được miễn là…",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    },
+    {
+      "id": "star-q-084",
+      "type": "practice",
+      "subtype": "star_rearrange",
+      "level": "N3",
+      "source_file": "200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_path": "study-materials/200 câu hỏi dấu sao có đáp án chi tiết.pdf",
+      "source_page": 42,
+      "section": "B",
+      "exam_q_no": 40,
+      "global_no": 84,
+      "knowledge_id": "grammar:に限らず",
+      "stem_jp": "環境問題は、＿＿ ＿＿ ＿★＿ ＿＿ なっている。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "限らず"
+        },
+        {
+          "key": "2",
+          "text_jp": "大きく"
+        },
+        {
+          "key": "3",
+          "text_jp": "日本に"
+        },
+        {
+          "key": "4",
+          "text_jp": "世界中で"
+        }
+      ],
+      "star_position": 3,
+      "correct_order": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct_answer": "4",
+      "completed_jp": "環境問題は、日本に限らず世界中で大きくなっている。",
+      "completed_vi": "Vấn đề môi trường không chỉ ở Nhật mà đang trở nên nghiêm trọng trên toàn thế giới.",
+      "grammar_points": [
+        {
+          "pattern": "～に限らず",
+          "structure": "N + に限らず",
+          "meaning": "không chỉ… mà còn…",
+          "notes": null
+        },
+        {
+          "pattern": "世界中で",
+          "structure": null,
+          "meaning": "trên toàn thế giới",
+          "notes": null
+        }
+      ],
+      "answer_source": "source_printed",
+      "content_source": "pdf_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "producer": "n3-study-extractor/parse_star_questions",
+      "ai_extra": null,
+      "explanation": null
+    }
+  ]
+}

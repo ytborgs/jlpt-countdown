@@ -35,6 +35,8 @@ jobs:
           node --check register-sw.js
       - name: Storage merge smoke test
         run: node scripts/test-storage-merge.mjs
+      - name: Star rearrange acceptance
+        run: node scripts/test-star-rearrange.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -6,7 +6,8 @@
     "notice": "",
     "count": 80,
     "unit": "mục",
-    "path": "./study-data/grammar.json"
+    "path": "./study-data/grammar.json",
+    "group": "grammar"
   },
   {
     "id": "grammar-set",
@@ -15,7 +16,8 @@
     "notice": "",
     "count": 42,
     "unit": "mục",
-    "path": "./study-data/grammar-set.json"
+    "path": "./study-data/grammar-set.json",
+    "group": "grammar"
   },
   {
     "id": "bi-kip",
@@ -24,7 +26,8 @@
     "notice": "",
     "count": 30,
     "unit": "mục",
-    "path": "./study-data/bi-kip.json"
+    "path": "./study-data/bi-kip.json",
+    "group": "grammar"
   },
   {
     "id": "bi-kip-answers",
@@ -33,7 +36,8 @@
     "notice": "",
     "count": 30,
     "unit": "mục",
-    "path": "./study-data/bi-kip-answers.json"
+    "path": "./study-data/bi-kip-answers.json",
+    "group": "tips"
   },
   {
     "id": "ebook-grammar",
@@ -42,7 +46,8 @@
     "notice": "",
     "count": 39,
     "unit": "mục",
-    "path": "./study-data/ebook-grammar.json"
+    "path": "./study-data/ebook-grammar.json",
+    "group": "grammar"
   },
   {
     "id": "kanji",
@@ -51,7 +56,8 @@
     "notice": "",
     "count": 420,
     "unit": "mục",
-    "path": "./study-data/kanji.json"
+    "path": "./study-data/kanji.json",
+    "group": "vocab"
   },
   {
     "id": "verbs",
@@ -60,7 +66,8 @@
     "notice": "",
     "count": 78,
     "unit": "mục",
-    "path": "./study-data/verbs.json"
+    "path": "./study-data/verbs.json",
+    "group": "vocab"
   },
   {
     "id": "jido-tado",
@@ -69,7 +76,8 @@
     "notice": "",
     "count": 141,
     "unit": "mục",
-    "path": "./study-data/jido-tado.json"
+    "path": "./study-data/jido-tado.json",
+    "group": "vocab"
   },
   {
     "id": "so-tay-idioms",
@@ -78,7 +86,8 @@
     "notice": "",
     "count": 70,
     "unit": "mục",
-    "path": "./study-data/so-tay-idioms.json"
+    "path": "./study-data/so-tay-idioms.json",
+    "group": "vocab"
   },
   {
     "id": "kanji-quiz",
@@ -87,7 +96,9 @@
     "notice": "",
     "count": 96,
     "unit": "câu",
-    "path": "./study-data/kanji-quiz.json"
+    "path": "./study-data/kanji-quiz.json",
+    "group": "practice",
+    "gradable": true
   },
   {
     "id": "synonyms",
@@ -96,7 +107,9 @@
     "notice": "",
     "count": 30,
     "unit": "câu",
-    "path": "./study-data/synonyms.json"
+    "path": "./study-data/synonyms.json",
+    "group": "practice",
+    "gradable": true
   },
   {
     "id": "usage-quiz",
@@ -105,7 +118,9 @@
     "notice": "",
     "count": 50,
     "unit": "câu",
-    "path": "./study-data/usage-quiz.json"
+    "path": "./study-data/usage-quiz.json",
+    "group": "practice",
+    "gradable": true
   },
   {
     "id": "hard-quiz",
@@ -114,7 +129,9 @@
     "notice": "Chưa có đáp án trong tài liệu — chọn để tự ôn, không chấm điểm.",
     "count": 30,
     "unit": "câu",
-    "path": "./study-data/hard-quiz.json"
+    "path": "./study-data/hard-quiz.json",
+    "group": "practice",
+    "gradable": false
   },
   {
     "id": "near-synonyms",
@@ -123,7 +140,20 @@
     "notice": "",
     "count": 70,
     "unit": "câu",
-    "path": "./study-data/near-synonyms.json"
+    "path": "./study-data/near-synonyms.json",
+    "group": "practice",
+    "gradable": true
+  },
+  {
+    "id": "star-rearrange",
+    "group": "practice",
+    "gradable": true,
+    "title": "84 câu sắp xếp dấu sao N3",
+    "description": "Chọn phương án đúng tại vị trí ★. Có đáp án in sẵn, câu hoàn chỉnh và ngữ pháp trọng điểm.",
+    "notice": "Chấm theo phương án nằm ở ★ (không phải thứ tự ô). Phần A: 44 câu, phần B: 40 câu.",
+    "count": 84,
+    "unit": "câu",
+    "path": "./study-data/star-rearrange.json"
   },
   {
     "id": "adverbs",
@@ -132,7 +162,8 @@
     "notice": "",
     "count": 81,
     "unit": "mục",
-    "path": "./study-data/adverbs.json"
+    "path": "./study-data/adverbs.json",
+    "group": "vocab"
   },
   {
     "id": "adverb-patterns",
@@ -141,7 +172,8 @@
     "notice": "",
     "count": 25,
     "unit": "mục",
-    "path": "./study-data/adverb-patterns.json"
+    "path": "./study-data/adverb-patterns.json",
+    "group": "vocab"
   },
   {
     "id": "connectors",
@@ -150,7 +182,8 @@
     "notice": "",
     "count": 43,
     "unit": "mục",
-    "path": "./study-data/connectors.json"
+    "path": "./study-data/connectors.json",
+    "group": "vocab"
   },
   {
     "id": "exam-tips",
@@ -159,6 +192,7 @@
     "notice": "",
     "count": 84,
     "unit": "mục",
-    "path": "./study-data/exam-tips.json"
+    "path": "./study-data/exam-tips.json",
+    "group": "tips"
   }
 ]

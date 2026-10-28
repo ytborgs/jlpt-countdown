@@ -223,3 +223,13 @@ body.study-flash-active #study-flash-fab{display:none !important}
   .study-flash-card{min-height:min(52dvh,480px);padding:22px 16px;border-radius:14px}
   .study-flash-actions button{min-height:44px}
 }
+
+/* Star rearrange (dấu sao) */
+.study-star-hint{margin:0 0 8px;font-size:13px;color:var(--muted)}
+.study-star-stem{letter-spacing:.01em}
+.study-star-slot{display:inline-block;min-width:2.2em;margin:0 .12em;padding:0 .18em;border-bottom:2px solid var(--line);text-align:center;font-weight:650;color:var(--muted);line-height:1.4}
+.study-star-slot.is-star{color:var(--accent);border-bottom-color:var(--accent);font-size:1.05em}
+.study-explain-completed{font-size:16px;line-height:1.9;margin:0 0 8px}
+.study-explain-vi{color:var(--muted);margin:0 0 12px}
+.study-star-order,.study-star-position-note,.study-explain-choice-line{margin:0 0 8px}
+.study-star-grammar .study-explain-item strong{color:var(--accent)}

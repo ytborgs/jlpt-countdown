@@ -16,7 +16,7 @@ const normalize = value => String(value).normalize('NFKC').toLowerCase().normali
 const searchable = value => Array.isArray(value)
   ? value.map(searchable).join(' ')
   : value && typeof value === 'object'
-    ? Object.entries(value).filter(([key]) => !/^(source|content_source|verify_reason|id|knowledge_id|ai_extra|ruby_source|group|gradable|path)/.test(key)).map(([, v]) => searchable(v)).join(' ')
+    ? Object.entries(value).filter(([key]) => !/^(source|content_source|verify_reason|id|knowledge_id|ai_extra|ruby_source|group|gradable|path|correct_order|correct_answer|completed_jp|completed_vi|grammar_points|explanation|star_contract|producer|verify_reason)$/.test(key)).map(([, v]) => searchable(v)).join(' ')
     : typeof value === 'string' ? value : '';
 
 export const filterStudy = (items, query) =>
@@ -102,6 +102,88 @@ export const createPracticeStem = (value, segments, target, hideTargetReading = 
     });
   }
   return markRubyTarget(createRubyText('p', value, segments, 'study-stem'), value, target);
+};
+
+/** Render stem blanks + ★ slots without revealing order/answers. */
+export const createStarStem = (stemJp, starPosition) => {
+  const p = el('p', '', 'study-stem study-star-stem');
+  p.lang = 'ja';
+  const text = String(stemJp || '');
+  const re = /＿★＿|＿＿|★/g;
+  let last = 0;
+  let slot = 0;
+  let match;
+  while ((match = re.exec(text))) {
+    if (match.index > last) p.append(document.createTextNode(text.slice(last, match.index)));
+    slot += 1;
+    const isStar = match[0].includes('★');
+    const slotEl = el('span', isStar ? '★' : '＿＿', 'study-star-slot' + (isStar ? ' is-star' : ''));
+    slotEl.dataset.slot = String(slot);
+    if (isStar) {
+      slotEl.setAttribute('aria-label', `Vị trí sao · ô ${slot}`);
+      if (starPosition != null && Number(starPosition) !== slot) {
+        // Keep visual ★ from source; do not move it for whitespace quirks.
+        slotEl.dataset.starSource = 'stem';
+      }
+    } else {
+      slotEl.setAttribute('aria-label', `Ô trống ${slot}`);
+    }
+    p.append(slotEl);
+    last = match.index + match[0].length;
+  }
+  if (last < text.length) p.append(document.createTextNode(text.slice(last)));
+  return p;
+};
+
+export const buildStarExplanationNodes = (item, selectedKey) => {
+  const byKey = Object.fromEntries((item.choices || []).map(choice => [String(choice.key), choice.text_jp]));
+  const answerKey = String(item.correct_answer);
+  const order = Array.isArray(item.correct_order) ? item.correct_order.map(String) : [];
+  const nodes = [el('h4', 'Chi tiết sắp xếp ★')];
+  nodes.push(el('p', `Đáp án tại ★: ${answerKey}. ${byKey[answerKey] || ''}`.trim(), 'study-explain-summary'));
+  if (order.length) {
+    nodes.push(el('p', `Thứ tự đầy đủ: ${order.join(' → ')}.`, 'study-star-order'));
+    if (item.star_position != null) {
+      nodes.push(el(
+        'p',
+        `★ nằm ở vị trí ${item.star_position} trong bốn ô → phương án ${order[item.star_position - 1] || answerKey}.`,
+        'study-star-position-note'
+      ));
+    }
+  }
+  if (selectedKey != null) {
+    nodes.push(el('p', `Bạn chọn: ${selectedKey}. ${byKey[String(selectedKey)] || ''}`.trim(), 'study-explain-choice-line'));
+  }
+  if (item.completed_jp) {
+    nodes.push(el('h4', 'Câu hoàn chỉnh'));
+    const completed = Array.isArray(item.completed_ruby)
+      ? createRubyText('p', item.completed_jp, item.completed_ruby, 'study-explain-completed')
+      : el('p', item.completed_jp, 'study-explain-completed', 'ja');
+    nodes.push(completed);
+  }
+  if (item.completed_vi) {
+    nodes.push(el('p', item.completed_vi, 'study-explain-vi'));
+  }
+  const points = Array.isArray(item.grammar_points) ? item.grammar_points : [];
+  if (points.length) {
+    nodes.push(el('h4', 'Ngữ pháp trọng điểm'));
+    const list = el('ul', '', 'study-explain-list study-star-grammar');
+    for (const point of points) {
+      if (!point || typeof point !== 'object') continue;
+      const li = el('li', '', 'study-explain-item');
+      li.append(el('strong', point.pattern || 'Mẫu', '', 'ja'));
+      if (point.structure) li.append(el('p', 'Kết hợp: ' + point.structure));
+      if (point.meaning) li.append(el('p', 'Ý nghĩa: ' + point.meaning));
+      if (point.notes) li.append(el('p', point.notes));
+      list.append(li);
+    }
+    nodes.push(list);
+  }
+  if (item.explanation) {
+    nodes.push(el('h4', 'Ghi chú'));
+    nodes.push(el('p', item.explanation, 'study-explain-summary'));
+  }
+  return nodes;
 };
 
 const markRubyTarget = (element, value, target, className = '') => {
@@ -195,12 +277,21 @@ export function createStudyCard(item, index, selections = new Map(), onSelect = 
     card.append(el('p', hasBody ? item.body : 'Nội dung đang đối chiếu từ PDF', 'study-tip-body'));
     if (!hasBody) card.append(el('span', 'Cần đối chiếu', 'study-badge'));
   } else if (item.type === 'practice') {
+    const isStar = item.subtype === 'star_rearrange';
     const resultBadge = el('span', '', 'study-result');
     resultBadge.hidden = true;
     card.append(resultBadge);
     const stemText = item.stem_jp || item.lemma_jp || '';
     const stemRuby = item.stem_ruby || (!item.stem_jp ? item.lemma_ruby : undefined);
-    card.append(createPracticeStem(stemText, stemRuby, item.target, item.subtype === 'kanji_reading_mcq'));
+    if (isStar) {
+      card.append(createStarStem(stemText, item.star_position));
+      card.append(el('p', 'Chọn phương án nằm ở vị trí ★.', 'study-star-hint'));
+      if (item.section && item.exam_q_no != null) {
+        card.append(el('small', `Phần ${item.section} · Câu nguồn ${item.exam_q_no}`, 'study-section'));
+      }
+    } else {
+      card.append(createPracticeStem(stemText, stemRuby, item.target, item.subtype === 'kanji_reading_mcq'));
+    }
     const options = el('div', '', 'study-options');
     options.setAttribute('role', 'group');
     options.setAttribute('aria-label', 'Lựa chọn cho câu ' + (index + 1));
@@ -216,6 +307,12 @@ export function createStudyCard(item, index, selections = new Map(), onSelect = 
     detailToggle.setAttribute('aria-controls', 'study-explanation-dialog');
     detailToggle.addEventListener('click', () => openStudyExplanation(detail, index, detailToggle));
     const showExplanation = selectedKey => {
+      if (isStar) {
+        const content = buildStarExplanationNodes(item, selectedKey);
+        detail.replaceChildren(...content);
+        detailToggle.hidden = content.length <= 1;
+        return;
+      }
       const content = [el('h4', 'Chi tiết')];
       if (item.explanation) content.push(el('p', item.explanation, 'study-explain-summary'));
       const rows = Array.isArray(item.choice_analyses) ? [...item.choice_analyses] : [];
@@ -268,7 +365,10 @@ export function createStudyCard(item, index, selections = new Map(), onSelect = 
         resultBadge.className = 'study-result ' + (correct ? 'study-result-ok' : 'study-result-bad');
         resultBadge.textContent = correct ? '✓ Đúng' : '✗ Sai';
         resultBadge.hidden = false;
-        feedback.textContent = (correct ? 'Chính xác. ' : 'Chưa đúng. Đáp án: ' + answer.key + '. ' + answer.text_jp + '. ') + (item.meaning_vi || '');
+        const answerLead = isStar
+          ? (correct ? 'Chính xác. Phương án tại ★: ' : 'Chưa đúng. Phương án tại ★: ')
+          : (correct ? 'Chính xác. ' : 'Chưa đúng. Đáp án: ');
+        feedback.textContent = answerLead + answer.key + '. ' + answer.text_jp + '. ' + (item.meaning_vi || '');
         showExplanation(String(choice.key));
         if (!restoring) onSelect(item, String(choice.key));
       });
