@@ -293,5 +293,27 @@
     "path": "./study-data/grammar-n4-nang-cao.json",
     "group": "grammar",
     "gradable": false
+  },
+  {
+    "id": "speed-master-n3",
+    "title": "Speed Master N3 (chủ đề)",
+    "description": "Từ vựng theo bài Speed Master.",
+    "notice": "Extract text — đối chiếu PDF.",
+    "count": 952,
+    "unit": "mục",
+    "path": "./study-data/speed-master-n3.json",
+    "group": "vocab",
+    "gradable": false
+  },
+  {
+    "id": "pho-tu-duoi-ri",
+    "title": "Phó từ đuôi り",
+    "description": "Phó từ N3 dạng ～り.",
+    "notice": "Extract text — đối chiếu PDF.",
+    "count": 19,
+    "unit": "mục",
+    "path": "./study-data/pho-tu-duoi-ri.json",
+    "group": "vocab",
+    "gradable": false
   }
 ]
