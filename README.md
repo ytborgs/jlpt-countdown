@@ -43,7 +43,7 @@ Nhấn biểu tượng **⚙** ở góc trên trang countdown:
 
 ### Tài liệu ôn tập N3 tổng hợp
 
-Trang tài liệu gồm các bộ dữ liệu sau, giữ nguyên nội dung JSON từ gói `n3-study-data-for-jlpt-countdown-v9.zip` và không công bố thư mục xử lý nội bộ `_work`. Có 18 bộ tài liệu, mỗi mục trong `topics.json` có `group` (`grammar` / `vocab` / `practice` / `tips`); bộ trắc nghiệm thêm `gradable` để phân biệt chấm điểm và chỉ chọn. Danh mục hiển thị tiến độ từ `localStorage` (không tải lại toàn bộ JSON bộ):
+Trang tài liệu gồm các bộ dữ liệu sau (pack study-data; không công bố `_work`). Có 19 bộ tài liệu, mỗi mục trong `topics.json` có `group` (`grammar` / `vocab` / `practice` / `tips`); bộ trắc nghiệm thêm `gradable` để phân biệt chấm điểm và chỉ chọn. Danh mục hiển thị tiến độ từ `localStorage` (không tải lại toàn bộ JSON bộ):
 
 | Bộ tài liệu | Dữ liệu hiện có | Trạng thái |
 | --- | --- | --- |
@@ -62,6 +62,7 @@ Trang tài liệu gồm các bộ dữ liệu sau, giữ nguyên nội dung JSON
 | Cách dùng từ | 50 câu | Có đáp án `visual_annotation`. |
 | Câu hỏi khó dễ lừa | 30 câu | PDF chưa có key; đáp án để null, chỉ chọn để tự ôn và không chấm đúng/sai. |
 | Từ gần nghĩa các năm | 70 câu | Có đáp án `visual_annotation`, đánh dấu từ cần hỏi khi có. |
+| 84 câu sắp xếp dấu sao N3 | 84 câu | `subtype=star_rearrange`: chọn phương án tại ★; `correct_answer` = key ở `star_position`; có `correct_order`, câu hoàn chỉnh, dịch VI và `grammar_points`. `answer_source=source_printed` (phần A 44 + phần B 40). |
 | Tổng hợp phó từ N3 | 81 mục | Phó từ, cách đọc khi có và nghĩa tiếng Việt. |
 | Phó từ với mẫu câu đặc định | 25 mục | Phó từ, mẫu đi kèm và nghĩa tiếng Việt. |
 | Từ nối đọc hiểu | 43 mục | Thẻ `type=reading`: từ nối, nhóm chức năng, nghĩa và đủ 43 ví dụ tiếng Nhật. |
@@ -152,7 +153,7 @@ Khi sửa dữ liệu:
 Khi cập nhật tài nguyên được lưu offline, tăng phiên bản `CACHE` trong `sw.js`. Nếu thêm trang, CSS, JavaScript hoặc dữ liệu mới cần dùng offline, bổ sung đường dẫn vào `ASSETS`. Sau khi triển khai, tải lại ứng dụng khi có mạng để nhận phiên bản mới.
 
 
-Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=40`, `study.css?v=40` và JSON `?v=40` (pack data v10, Kanji 420). Logic tách module: `study-storage.js`, `study-session.js`, `study-render.js`, `study-flash.js` (glue `study.js`). Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline dùng prefix `jlpt-n3-`. Trước khi deploy Pages, CI chạy `scripts/validate-study-data.mjs` (ruby join, count, answer key). Sticky study tối giản; Phiên = viewport shell; FAB **Ôn nhanh** / trang chủ **Học**.
+Tài nguyên trang study dùng phiên bản URL đồng bộ: `study.js?v=41`, `study.css?v=41` và JSON `?v=41` (Kanji 420 + bộ dấu sao 84 câu). Logic tách module: `study-storage.js`, `study-session.js`, `study-render.js`, `study-flash.js` (glue `study.js`). Script lấy phiên bản từ URL module và truyền sang các lần tải JSON; cache offline dùng prefix `jlpt-n3-`. Trước khi deploy Pages, CI chạy `scripts/validate-study-data.mjs` và `scripts/test-star-rearrange.mjs`. Sticky study tối giản; Phiên = viewport shell; FAB **Ôn nhanh** / trang chủ **Học**. Hash topic dấu sao: `#star-rearrange`.
 
 Giới hạn dữ liệu v8: 3 câu chưa có tóm tắt và 1 lựa chọn chưa có nghĩa VI riêng; các lý do đúng/sai vẫn được hiển thị theo JSON. Ứng dụng không tự bổ sung những trường này.
 

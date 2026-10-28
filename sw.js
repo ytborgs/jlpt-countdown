@@ -1,19 +1,20 @@
 const CACHE_PREFIX = 'jlpt-n3-';
-const CACHE = 'jlpt-n3-v41-study-modules';
+const CACHE = 'jlpt-n3-v42-star-rearrange';
 const ASSETS = [
   './', './index.html', './manifest.webmanifest', './icon.svg', './apple-touch-icon.png',
   './grammar.html', './grammar.js', './grammar.css', './grammar.json',
   './settings.html', './profile.html', './settings.css', './settings.js',
-  './study.html', './study.css?v=40', './study.js?v=40',
+  './study.html', './study.css?v=41', './study.js?v=41',
   './study-storage.js', './study-session.js', './study-render.js', './study-flash.js',
   './register-sw.js',
-  './study-data/topics.json?v=40', './study-data/grammar.json?v=40', './study-data/kanji.json?v=40',
-  './study-data/verbs.json?v=40', './study-data/kanji-quiz.json?v=40', './study-data/synonyms.json?v=40',
-  './study-data/usage-quiz.json?v=40', './study-data/hard-quiz.json?v=40', './study-data/near-synonyms.json?v=40',
-  './study-data/adverbs.json?v=40', './study-data/adverb-patterns.json?v=40', './study-data/bi-kip-answers.json?v=40',
-  './study-data/bi-kip.json?v=40', './study-data/connectors.json?v=40', './study-data/exam-tips.json?v=40',
-  './study-data/grammar-set.json?v=40', './study-data/jido-tado.json?v=40', './study-data/ebook-grammar.json?v=40',
-  './study-data/so-tay-idioms.json?v=40',
+  './study-data/topics.json?v=41', './study-data/grammar.json?v=41', './study-data/kanji.json?v=41',
+  './study-data/verbs.json?v=41', './study-data/kanji-quiz.json?v=41', './study-data/synonyms.json?v=41',
+  './study-data/usage-quiz.json?v=41', './study-data/hard-quiz.json?v=41', './study-data/near-synonyms.json?v=41',
+  './study-data/star-rearrange.json?v=41',
+  './study-data/adverbs.json?v=41', './study-data/adverb-patterns.json?v=41', './study-data/bi-kip-answers.json?v=41',
+  './study-data/bi-kip.json?v=41', './study-data/connectors.json?v=41', './study-data/exam-tips.json?v=41',
+  './study-data/grammar-set.json?v=41', './study-data/jido-tado.json?v=41', './study-data/ebook-grammar.json?v=41',
+  './study-data/so-tay-idioms.json?v=41',
 ];
 
 const isNavRequest = request =>

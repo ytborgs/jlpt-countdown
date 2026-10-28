@@ -86,6 +86,27 @@ for (const topic of topics) {
           }
         }
       }
+      if (item.subtype === 'star_rearrange') {
+        const order = item.correct_order;
+        const star = item.star_position;
+        if (!Array.isArray(order) || order.length !== 4) {
+          errors.push(`${topic.id}/${item.id}: star correct_order must be length 4`);
+        } else if ([...order].map(String).sort().join() !== [...keys].sort().join()) {
+          errors.push(`${topic.id}/${item.id}: correct_order must permute choice keys`);
+        }
+        if (!Number.isInteger(star) || star < 1 || star > 4) {
+          errors.push(`${topic.id}/${item.id}: invalid star_position ${star}`);
+        } else if (Array.isArray(order) && item.correct_answer != null &&
+            String(order[star - 1]) !== String(item.correct_answer)) {
+          errors.push(`${topic.id}/${item.id}: correct_answer != key at ★`);
+        }
+        if (!item.completed_jp || !item.completed_vi) {
+          errors.push(`${topic.id}/${item.id}: missing completed_jp/vi`);
+        }
+        if (!Array.isArray(item.grammar_points) || !item.grammar_points.length) {
+          errors.push(`${topic.id}/${item.id}: missing grammar_points`);
+        }
+      }
     }
   }
 }
