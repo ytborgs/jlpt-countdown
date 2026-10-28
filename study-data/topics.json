@@ -431,7 +431,7 @@
     "title": "Sổ tay phó từ N3",
     "description": "Phó từ cần nhớ (đang bổ sung từ sổ tay).",
     "notice": "Bản partial — đang visual đủ 6 phần.",
-    "count": 10,
+    "count": 30,
     "unit": "mục",
     "path": "./study-data/so-tay-pho-tu.json",
     "group": "vocab",
