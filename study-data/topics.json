@@ -317,6 +317,28 @@
     "gradable": false
   },
   {
+    "id": "choukai-md4-tips",
+    "title": "Bí kíp Choukai Mondai 4",
+    "description": "Mẹo dạng xin phép / nhờ vả / hỏi cách / thông báo (Mondai 4).",
+    "notice": "Tips only — không kèm audio nghe.",
+    "count": 8,
+    "unit": "mẹo",
+    "path": "./study-data/choukai-md4-tips.json",
+    "group": "tips",
+    "gradable": false
+  },
+  {
+    "id": "choukai-md5-tips",
+    "title": "Bí kíp Choukai Mondai 5",
+    "description": "Trả lời gián tiếp, いいよ, và cặp đáp đặc định.",
+    "notice": "Tips only — không kèm audio nghe.",
+    "count": 4,
+    "unit": "mẹo",
+    "path": "./study-data/choukai-md5-tips.json",
+    "group": "tips",
+    "gradable": false
+  },
+  {
     "id": "grammar-n4-nang-cao",
     "title": "Ngữ pháp N4 nâng cao hay gặp ở N3",
     "description": "11 mẫu N4 nâng cao (không có trong Minna) hay gặp JLPT N3.",
@@ -324,6 +346,39 @@
     "count": 11,
     "unit": "mẫu",
     "path": "./study-data/grammar-n4-nang-cao.json",
+    "group": "grammar",
+    "gradable": false
+  },
+  {
+    "id": "bikip-dau-sao-tips",
+    "title": "Bí kíp bài dấu sao",
+    "description": "3 mẹo ghép từ loại / ngữ pháp / kiểm tra lại.",
+    "notice": "Visual tips — khác bộ 84 câu luyện ★.",
+    "count": 5,
+    "unit": "mẹo",
+    "path": "./study-data/bikip-dau-sao-tips.json",
+    "group": "tips",
+    "gradable": false
+  },
+  {
+    "id": "grammar-nai-10",
+    "title": "10 ngữ pháp ～ない hay gặp",
+    "description": "わけにはいかない, ようがない, どころではない…",
+    "notice": "Trích slide ảnh; vài mục cần đối chiếu.",
+    "count": 10,
+    "unit": "mẫu",
+    "path": "./study-data/grammar-nai-10.json",
+    "group": "grammar",
+    "gradable": false
+  },
+  {
+    "id": "grammar-15-mau",
+    "title": "15 mẫu giao tiếp hay dùng",
+    "description": "ほしい, しちゃう, みたい, たびに… kèm ví dụ JP–VI.",
+    "notice": "Trích slide ảnh; vài mục cần đối chiếu.",
+    "count": 15,
+    "unit": "mẫu",
+    "path": "./study-data/grammar-15-mau.json",
     "group": "grammar",
     "gradable": false
   },
