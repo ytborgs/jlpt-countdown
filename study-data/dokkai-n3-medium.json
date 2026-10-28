@@ -7,17 +7,17 @@
   "source_path": "study-materials/115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
   "title": "Đọc hiểu N3 — trung bình (中文)",
   "page_count": 197,
-  "item_count": 18,
+  "item_count": 36,
   "expected_item_count": 90,
   "content_source": "visual_transcription",
-  "produced_at": "2026-10-28T16:38:48.120397+00:00",
+  "produced_at": "2026-10-28T23:22:19.989800+00:00",
   "producer": "n3-study-extractor/l3-dokkai-medium",
   "status": "partial",
-  "needs_verify_count": 1,
+  "needs_verify_count": 7,
   "notes": [
     "L3 medium: schema reading_comprehension_mcq (passage_jp + stem + choices).",
     "Đáp án 中文 từ trang 188 (official_answer_key).",
-    "Progress: 18 medium-passage items (中文). Shorts continue in dokkai-n3-pilot.",
+    "Progress: 36 medium-passage items (中文 1–36). Shorts continue in dokkai-n3-pilot.",
     "PDF mapping: book_page N → source_page N+8."
   ],
   "answer_key_medium_passage": {
@@ -771,6 +771,672 @@
         {
           "key": "4",
           "text_jp": "菓子メーカーを助ける。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-019",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 75,
+      "knowledge_id": "reading:dokkai-medium-19",
+      "section": "中文",
+      "no": 19,
+      "passage_jp": "政治家は、たいてい社交的な人が多い。いつも人の意見を聞かなくてはいけないからである。そして、色々な人と話し、テレビに出たり、新聞に書かれたりして、注目されたいと思っている。しかし、注目されるだけではだめである。応援してくれる人たちのために仕事をしなくてはいけない。たとえば、経済がよくなるように新しいビジネスを持ってきたり、学校をよくしたりしなくてはいけない。もしいい仕事をしなければ、その政治家の評判は悪くなり、（注1）当てにならないといわれるだろう。\n政治家と違うタイプの人は、芸術家である。芸術家は個性的な人が多い。中には、頑固で（注2）融通が利かない人もいる。しかし、芸術家の仕事は、ほかの人が言うことより自分の考えのほうが大事だから、頑固でもかまわない。ほかの人の意見を聞きすぎると、平凡な芸術家になってしまう。そして、平凡な芸術家の作ったものはあまりおもしろくない。",
+      "passage_source": "「政治家と芸術家」による",
+      "stem_jp": "政治家についての正しい説明はどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "政治家は注目されることをしてはいけない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "政治家は評判を気にしてはいけない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "政治家は社交的でなければならない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "政治家は人のためになることをしなければならない。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-020",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 75,
+      "knowledge_id": "reading:dokkai-medium-20",
+      "section": "中文",
+      "no": 20,
+      "passage_jp": "政治家は、たいてい社交的な人が多い。いつも人の意見を聞かなくてはいけないからである。そして、色々な人と話し、テレビに出たり、新聞に書かれたりして、注目されたいと思っている。しかし、注目されるだけではだめである。応援してくれる人たちのために仕事をしなくてはいけない。たとえば、経済がよくなるように新しいビジネスを持ってきたり、学校をよくしたりしなくてはいけない。もしいい仕事をしなければ、その政治家の評判は悪くなり、（注1）当てにならないといわれるだろう。\n政治家と違うタイプの人は、芸術家である。芸術家は個性的な人が多い。中には、頑固で（注2）融通が利かない人もいる。しかし、芸術家の仕事は、ほかの人が言うことより自分の考えのほうが大事だから、頑固でもかまわない。ほかの人の意見を聞きすぎると、平凡な芸術家になってしまう。そして、平凡な芸術家の作ったものはあまりおもしろくない。",
+      "passage_source": "「政治家と芸術家」による",
+      "stem_jp": "芸術家についての正しい説明はどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "芸術家はいい評判をもらえなくてもいい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "芸術家は個性的で自分の考えを大切にしている。"
+        },
+        {
+          "key": "3",
+          "text_jp": "芸術家も政治家から何かを習わなければならない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "芸術家も経済やビジネスを考える必要がある。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-021",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 75,
+      "knowledge_id": "reading:dokkai-medium-21",
+      "section": "中文",
+      "no": 21,
+      "passage_jp": "政治家は、たいてい社交的な人が多い。いつも人の意見を聞かなくてはいけないからである。そして、色々な人と話し、テレビに出たり、新聞に書かれたりして、注目されたいと思っている。しかし、注目されるだけではだめである。応援してくれる人たちのために仕事をしなくてはいけない。たとえば、経済がよくなるように新しいビジネスを持ってきたり、学校をよくしたりしなくてはいけない。もしいい仕事をしなければ、その政治家の評判は悪くなり、（注1）当てにならないといわれるだろう。\n政治家と違うタイプの人は、芸術家である。芸術家は個性的な人が多い。中には、頑固で（注2）融通が利かない人もいる。しかし、芸術家の仕事は、ほかの人が言うことより自分の考えのほうが大事だから、頑固でもかまわない。ほかの人の意見を聞きすぎると、平凡な芸術家になってしまう。そして、平凡な芸術家の作ったものはあまりおもしろくない。",
+      "passage_source": "「政治家と芸術家」による",
+      "stem_jp": "文の内容に合っているものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "政治家はよくテレビに出る。"
+        },
+        {
+          "key": "2",
+          "text_jp": "政治家は社交的である。"
+        },
+        {
+          "key": "3",
+          "text_jp": "芸術家はテレビを嫌う。"
+        },
+        {
+          "key": "4",
+          "text_jp": "芸術家は融通が利かない人間である。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-022",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 77,
+      "knowledge_id": "reading:dokkai-medium-22",
+      "section": "中文",
+      "no": 22,
+      "passage_jp": "人より一歩早く豊かになった中国の家庭でも「夫はソト、妻はウチ」という傾向が強まるようになった。従来の「共稼ぎ」という枠組みが徐々に崩れ始めた。そのため、子供の勉強は妻に任せ、夫はもっぱらソトで獲物（金）を狩猟する枠組みはだんだんと確立され始めた。しかし、子供たちの勉強の時間や学力向上の程度は母親の学歴と直接に関係していることはだれもが知っていることだが、どれだけ関係しているかはっきり説明できる人は少ないだろう。それで、今年の春、「日本語検定試験研究会」は母親の学歴と子供の勉強時間の関係を調査するアンケートを行った。\n下のグラフから、「うちではあまり勉強しない」と答えた生徒の割合は母親の学歴が高いほど少ない。それに対して、「2時間ぐらい」「2時間半ぐらい」「2時間以上」と答えた生徒の割合は母親の学歴が高いほど伸びているということが分かる。",
+      "passage_source": "日本語検定試験研究会『モデルグラフ集』による",
+      "stem_jp": "「中国の家庭でも「夫はソト、妻はウチ」という傾向が強まるようになった」とあるが、このような傾向はどうして現れたのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "女性の学歴が高くなったから"
+        },
+        {
+          "key": "2",
+          "text_jp": "男性の収入が増えたから"
+        },
+        {
+          "key": "3",
+          "text_jp": "パソコンを使う仕事ばかりだから"
+        },
+        {
+          "key": "4",
+          "text_jp": "企業が女性を雇わなくなったから"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-023",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 77,
+      "knowledge_id": "reading:dokkai-medium-23",
+      "section": "中文",
+      "no": 23,
+      "passage_jp": "人より一歩早く豊かになった中国の家庭でも「夫はソト、妻はウチ」という傾向が強まるようになった。従来の「共稼ぎ」という枠組みが徐々に崩れ始めた。そのため、子供の勉強は妻に任せ、夫はもっぱらソトで獲物（金）を狩猟する枠組みはだんだんと確立され始めた。しかし、子供たちの勉強の時間や学力向上の程度は母親の学歴と直接に関係していることはだれもが知っていることだが、どれだけ関係しているかはっきり説明できる人は少ないだろう。それで、今年の春、「日本語検定試験研究会」は母親の学歴と子供の勉強時間の関係を調査するアンケートを行った。\n下のグラフから、「うちではあまり勉強しない」と答えた生徒の割合は母親の学歴が高いほど少ない。それに対して、「2時間ぐらい」「2時間半ぐらい」「2時間以上」と答えた生徒の割合は母親の学歴が高いほど伸びているということが分かる。",
+      "passage_source": "日本語検定試験研究会『モデルグラフ集』による",
+      "stem_jp": "母親の学歴と子どもの成績はどうなっているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "関係があるともないとも言えない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "関係がない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "関係がある。"
+        },
+        {
+          "key": "4",
+          "text_jp": "関係がないとは言えない。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-024",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 77,
+      "knowledge_id": "reading:dokkai-medium-24",
+      "section": "中文",
+      "no": 24,
+      "passage_jp": "人より一歩早く豊かになった中国の家庭でも「夫はソト、妻はウチ」という傾向が強まるようになった。従来の「共稼ぎ」という枠組みが徐々に崩れ始めた。そのため、子供の勉強は妻に任せ、夫はもっぱらソトで獲物（金）を狩猟する枠組みはだんだんと確立され始めた。しかし、子供たちの勉強の時間や学力向上の程度は母親の学歴と直接に関係していることはだれもが知っていることだが、どれだけ関係しているかはっきり説明できる人は少ないだろう。それで、今年の春、「日本語検定試験研究会」は母親の学歴と子供の勉強時間の関係を調査するアンケートを行った。\n下のグラフから、「うちではあまり勉強しない」と答えた生徒の割合は母親の学歴が高いほど少ない。それに対して、「2時間ぐらい」「2時間半ぐらい」「2時間以上」と答えた生徒の割合は母親の学歴が高いほど伸びているということが分かる。",
+      "passage_source": "日本語検定試験研究会『モデルグラフ集』による",
+      "stem_jp": "このグラフから言えることは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "母親の学歴が低いほど、子どもの勉強時間は多くなる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "母親の学歴が高いほど、子どもの勉強時間は多くなる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "母親の学歴と関係なく、子どもの勉強時間は少なくなる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "母親の学歴と関係なく、子どもの勉強時間は少なくなる。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-025",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 79,
+      "knowledge_id": "reading:dokkai-medium-25",
+      "section": "中文",
+      "no": 25,
+      "passage_jp": "先日、地震防災の訓練に参加した時、司会の方から「先生がおみえになっているので、あいさつがあります」との発言があった。「誰かなあ」と思っていたら、地域の市議会議員さんでした。「①一生懸命やってみえるなあ」とは思いましたが、あまり好感をもつことはできませんでした。\n総選挙で新人議員が「先生と言われない存在で、何でも気楽に話してもらえるような存在でいたい」と述べていました。議員は国民の代表という存在なのだと思います。\n②先生という呼び方は、やめたほうがいいと思います。はじめは③謙虚にと思っていても、人間は弱い者です。「先生、先生」と言われ続ければ、「上から（注2）目線」で見て対等な関係が保たれなくなってくるものです。",
+      "passage_source": "渡辺千鶴子「議員を先生と呼ぶのはやめよう」により、一部改",
+      "stem_jp": "①「一生懸命やってみえるなあ」とあるが、誰のことを言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "筆者"
+        },
+        {
+          "key": "2",
+          "text_jp": "参加者"
+        },
+        {
+          "key": "3",
+          "text_jp": "司会"
+        },
+        {
+          "key": "4",
+          "text_jp": "市議会議員"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-026",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 79,
+      "knowledge_id": "reading:dokkai-medium-26",
+      "section": "中文",
+      "no": 26,
+      "passage_jp": "先日、地震防災の訓練に参加した時、司会の方から「先生がおみえになっているので、あいさつがあります」との発言があった。「誰かなあ」と思っていたら、地域の市議会議員さんでした。「①一生懸命やってみえるなあ」とは思いましたが、あまり好感をもつことはできませんでした。\n総選挙で新人議員が「先生と言われない存在で、何でも気楽に話してもらえるような存在でいたい」と述べていました。議員は国民の代表という存在なのだと思います。\n②先生という呼び方は、やめたほうがいいと思います。はじめは③謙虚にと思っていても、人間は弱い者です。「先生、先生」と言われ続ければ、「上から（注2）目線」で見て対等な関係が保たれなくなってくるものです。",
+      "passage_source": "渡辺千鶴子「議員を先生と呼ぶのはやめよう」により、一部改",
+      "stem_jp": "筆者が②「先生という呼び方は、やめたほうがいい」と思う根拠は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あいさつをしたくなるから"
+        },
+        {
+          "key": "2",
+          "text_jp": "新人議員だから"
+        },
+        {
+          "key": "3",
+          "text_jp": "議員は国民の代表だから"
+        },
+        {
+          "key": "4",
+          "text_jp": "みんな好感を持てないから"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-027",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 79,
+      "knowledge_id": "reading:dokkai-medium-27",
+      "section": "中文",
+      "no": 27,
+      "passage_jp": "先日、地震防災の訓練に参加した時、司会の方から「先生がおみえになっているので、あいさつがあります」との発言があった。「誰かなあ」と思っていたら、地域の市議会議員さんでした。「①一生懸命やってみえるなあ」とは思いましたが、あまり好感をもつことはできませんでした。\n総選挙で新人議員が「先生と言われない存在で、何でも気楽に話してもらえるような存在でいたい」と述べていました。議員は国民の代表という存在なのだと思います。\n②先生という呼び方は、やめたほうがいいと思います。はじめは③謙虚にと思っていても、人間は弱い者です。「先生、先生」と言われ続ければ、「上から（注2）目線」で見て対等な関係が保たれなくなってくるものです。",
+      "passage_source": "渡辺千鶴子「議員を先生と呼ぶのはやめよう」により、一部改",
+      "stem_jp": "③「謙虚」とは、この場合ではどういうことか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "一生懸命やっていること"
+        },
+        {
+          "key": "2",
+          "text_jp": "気楽に話してもらえること"
+        },
+        {
+          "key": "3",
+          "text_jp": "先生と言われる存在"
+        },
+        {
+          "key": "4",
+          "text_jp": "上からの目線"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-028",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 81,
+      "knowledge_id": "reading:dokkai-medium-28",
+      "section": "中文",
+      "no": 28,
+      "passage_jp": "憧れの俳優に会えるなんて、夢を見ているようで感激だった。でも後で友だちから、あるドラマの話を聞いて考えさせられた。主人公の少女は、その素敵なスターが実はこっそり整形手術を施していたことをちっとも知らず、自分もあの人そっくりになりたいばかりに、親には（注1）内緒で顔を細く見せる手術をしたわけよ。めっきりきれいになったけど、なんだか①皮肉な話じゃない？という感じがした。少女は手術代の高さにびっくり、自分のお小遣いでは全然足りない。そこでいきなり自分の血を売って手術代を稼ごうとしたわけよ。まあ、②そこまではいいとして、その後がね。注射針から感染してかわいそうに、なんとエイズ患者になってしまったのよ。ほんとに哀れなお話ね。スターへの憧れも、（注2）ほどほどにしないとね。③友だちはしみじみと話してくれた。",
+      "passage_source": null,
+      "stem_jp": "①「皮肉な話」はどういうことを指しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "スターが整形手術をしていたこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "スターが細い顔ではなかったこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "手術代が予想より高かったこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "自分がきれいにならなかったこと"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-029",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 81,
+      "knowledge_id": "reading:dokkai-medium-29",
+      "section": "中文",
+      "no": 29,
+      "passage_jp": "憧れの俳優に会えるなんて、夢を見ているようで感激だった。でも後で友だちから、あるドラマの話を聞いて考えさせられた。主人公の少女は、その素敵なスターが実はこっそり整形手術を施していたことをちっとも知らず、自分もあの人そっくりになりたいばかりに、親には（注1）内緒で顔を細く見せる手術をしたわけよ。めっきりきれいになったけど、なんだか①皮肉な話じゃない？という感じがした。少女は手術代の高さにびっくり、自分のお小遣いでは全然足りない。そこでいきなり自分の血を売って手術代を稼ごうとしたわけよ。まあ、②そこまではいいとして、その後がね。注射針から感染してかわいそうに、なんとエイズ患者になってしまったのよ。ほんとに哀れなお話ね。スターへの憧れも、（注2）ほどほどにしないとね。③友だちはしみじみと話してくれた。",
+      "passage_source": null,
+      "stem_jp": "②「そこ」はどこを指すか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "手術をする。"
+        },
+        {
+          "key": "2",
+          "text_jp": "きれいになる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "小遣いがなくなる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "血を売る。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-030",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 81,
+      "knowledge_id": "reading:dokkai-medium-30",
+      "section": "中文",
+      "no": 30,
+      "passage_jp": "憧れの俳優に会えるなんて、夢を見ているようで感激だった。でも後で友だちから、あるドラマの話を聞いて考えさせられた。主人公の少女は、その素敵なスターが実はこっそり整形手術を施していたことをちっとも知らず、自分もあの人そっくりになりたいばかりに、親には（注1）内緒で顔を細く見せる手術をしたわけよ。めっきりきれいになったけど、なんだか①皮肉な話じゃない？という感じがした。少女は手術代の高さにびっくり、自分のお小遣いでは全然足りない。そこでいきなり自分の血を売って手術代を稼ごうとしたわけよ。まあ、②そこまではいいとして、その後がね。注射針から感染してかわいそうに、なんとエイズ患者になってしまったのよ。ほんとに哀れなお話ね。スターへの憧れも、（注2）ほどほどにしないとね。③友だちはしみじみと話してくれた。",
+      "passage_source": null,
+      "stem_jp": "③「友だちはしみじみと話してくれた」とあるが、「友だち」はどう言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "きれいになるための手術はしないほうがいい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "手術をしてもいいけど、病気になってはいけない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "手術をするときは上手な医者を選んだらいい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "手術をするなら安い病院を探すのがいい。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-031",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 83,
+      "knowledge_id": "reading:dokkai-medium-31",
+      "section": "中文",
+      "no": 31,
+      "passage_jp": "2年前、市主催の親子（注1）省エネ教室に孫と参加したのをきっかけに、市の「①八王子省エネ国」に登録している。参加すると、家庭で省エネ活動に取り組み、どれくらいの成果があったか分かるのだ。\n毎月の電気、ガス、水道、灯油などの消費量と料金を記入したチェックシートを市に送ると、各家庭の（注2）エコ状況が円グラフや棒グラフになって返却されてくる仕組みだ。2009年度の我が家は、前年度に比べると、二酸化炭素で221キログラム、料金に換算すると2万4772円も減っていた。\nシルバー世代の2人暮らし。削れるところは少ないと思っていたが、省エネ型の冷蔵庫に買い換えたほか、ためた水による食器の下洗いや、風呂は続けて入ることなど、身近で②ささやかな取り組みで、孫たちのお年玉の半額分を節約できた。具体的な数字を知ると、継続しなければと思う。",
+      "passage_source": "斉藤正子「我が家の省エネ効果」による",
+      "stem_jp": "①「八王子省エネ国」の目的は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "老人家庭の家計を助けること"
+        },
+        {
+          "key": "2",
+          "text_jp": "市民に省エネに関心を持たせること"
+        },
+        {
+          "key": "3",
+          "text_jp": "電力会社に料金の値下げを求めること"
+        },
+        {
+          "key": "4",
+          "text_jp": "市のサービスをPRすること"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-032",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 83,
+      "knowledge_id": "reading:dokkai-medium-32",
+      "section": "中文",
+      "no": 32,
+      "passage_jp": "2年前、市主催の親子（注1）省エネ教室に孫と参加したのをきっかけに、市の「①八王子省エネ国」に登録している。参加すると、家庭で省エネ活動に取り組み、どれくらいの成果があったか分かるのだ。\n毎月の電気、ガス、水道、灯油などの消費量と料金を記入したチェックシートを市に送ると、各家庭の（注2）エコ状況が円グラフや棒グラフになって返却されてくる仕組みだ。2009年度の我が家は、前年度に比べると、二酸化炭素で221キログラム、料金に換算すると2万4772円も減っていた。\nシルバー世代の2人暮らし。削れるところは少ないと思っていたが、省エネ型の冷蔵庫に買い換えたほか、ためた水による食器の下洗いや、風呂は続けて入ることなど、身近で②ささやかな取り組みで、孫たちのお年玉の半額分を節約できた。具体的な数字を知ると、継続しなければと思う。",
+      "passage_source": "斉藤正子「我が家の省エネ効果」による",
+      "stem_jp": "②「ささやかな取り組み」はどんなことを言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "風呂は続けて入る。"
+        },
+        {
+          "key": "2",
+          "text_jp": "お年玉の半分を節約できた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "省エネ型冷蔵庫に買い換えた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "料金を2万4772円減らした。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-033",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 83,
+      "knowledge_id": "reading:dokkai-medium-33",
+      "section": "中文",
+      "no": 33,
+      "passage_jp": "2年前、市主催の親子（注1）省エネ教室に孫と参加したのをきっかけに、市の「①八王子省エネ国」に登録している。参加すると、家庭で省エネ活動に取り組み、どれくらいの成果があったか分かるのだ。\n毎月の電気、ガス、水道、灯油などの消費量と料金を記入したチェックシートを市に送ると、各家庭の（注2）エコ状況が円グラフや棒グラフになって返却されてくる仕組みだ。2009年度の我が家は、前年度に比べると、二酸化炭素で221キログラム、料金に換算すると2万4772円も減っていた。\nシルバー世代の2人暮らし。削れるところは少ないと思っていたが、省エネ型の冷蔵庫に買い換えたほか、ためた水による食器の下洗いや、風呂は続けて入ることなど、身近で②ささやかな取り組みで、孫たちのお年玉の半額分を節約できた。具体的な数字を知ると、継続しなければと思う。",
+      "passage_source": "斉藤正子「我が家の省エネ効果」による",
+      "stem_jp": "市の取り組みの特徴は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "老人や子どもを対象にしている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "省エネ家電を紹介している。"
+        },
+        {
+          "key": "3",
+          "text_jp": "結果や数字やグラフで知らせる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "水を大切に使うことを教えている。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-034",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 85,
+      "knowledge_id": "reading:dokkai-medium-34",
+      "section": "中文",
+      "no": 34,
+      "passage_jp": "日本の経済がよくなってきたのは、日本のサラリーマンがよく働くからであるという意見がある。確かに、そういうことができる。しかし、日本のサラリーマンにはあまり自分の時間がないとも言える。\n例えば、若いサラリーマンには①デートをする時間のない人がいるそうである。これは大きな悩みである。だから、デートの相手を紹介してくれる会社が最近流行っているようである。日本には昔から（注）見合い結婚があるが、こんな会社を使うのは新しい見合いのしかたと言えるかもしれない。\nそれだけでなく、スポーツを楽しむ時間もあまりない。学生の時、スポーツが好きだった人も太って運動神経が鈍くなってしまうかもしれない。こうなると、趣味を楽しむなど、②夢のまた夢で、アパートと会社の往復で1年が終わってしまう。定年後の生活が心配である。",
+      "passage_source": null,
+      "stem_jp": "①「デートをする時間のない」若者はどうするか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "見合い結婚をする。"
+        },
+        {
+          "key": "2",
+          "text_jp": "デート相手を紹介する会社で働く。"
+        },
+        {
+          "key": "3",
+          "text_jp": "新しい形の見合いをする。"
+        },
+        {
+          "key": "4",
+          "text_jp": "見合いも結婚もしない。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-035",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 85,
+      "knowledge_id": "reading:dokkai-medium-35",
+      "section": "中文",
+      "no": 35,
+      "passage_jp": "日本の経済がよくなってきたのは、日本のサラリーマンがよく働くからであるという意見がある。確かに、そういうことができる。しかし、日本のサラリーマンにはあまり自分の時間がないとも言える。\n例えば、若いサラリーマンには①デートをする時間のない人がいるそうである。これは大きな悩みである。だから、デートの相手を紹介してくれる会社が最近流行っているようである。日本には昔から（注）見合い結婚があるが、こんな会社を使うのは新しい見合いのしかたと言えるかもしれない。\nそれだけでなく、スポーツを楽しむ時間もあまりない。学生の時、スポーツが好きだった人も太って運動神経が鈍くなってしまうかもしれない。こうなると、趣味を楽しむなど、②夢のまた夢で、アパートと会社の往復で1年が終わってしまう。定年後の生活が心配である。",
+      "passage_source": null,
+      "stem_jp": "②「夢のまた夢」の意味の説明として正しいものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "次から次へ夢を見続ける。"
+        },
+        {
+          "key": "2",
+          "text_jp": "夢は必ず実現する。"
+        },
+        {
+          "key": "3",
+          "text_jp": "夢のような楽しい生活をする。"
+        },
+        {
+          "key": "4",
+          "text_jp": "夢だから実現することはない。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-036",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 85,
+      "knowledge_id": "reading:dokkai-medium-36",
+      "section": "中文",
+      "no": 36,
+      "passage_jp": "日本の経済がよくなってきたのは、日本のサラリーマンがよく働くからであるという意見がある。確かに、そういうことができる。しかし、日本のサラリーマンにはあまり自分の時間がないとも言える。\n例えば、若いサラリーマンには①デートをする時間のない人がいるそうである。これは大きな悩みである。だから、デートの相手を紹介してくれる会社が最近流行っているようである。日本には昔から（注）見合い結婚があるが、こんな会社を使うのは新しい見合いのしかたと言えるかもしれない。\nそれだけでなく、スポーツを楽しむ時間もあまりない。学生の時、スポーツが好きだった人も太って運動神経が鈍くなってしまうかもしれない。こうなると、趣味を楽しむなど、②夢のまた夢で、アパートと会社の往復で1年が終わってしまう。定年後の生活が心配である。",
+      "passage_source": null,
+      "stem_jp": "筆者は、日本の若者についてどう言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "経済をよくするため働いているから偉い。"
+        },
+        {
+          "key": "2",
+          "text_jp": "自分の時間を持てなくてかわいそうだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "趣味を楽しんでいて、うらやましい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "太っている人が多くて、心配だ。"
         }
       ],
       "correct_answer": "2",
