@@ -5,20 +5,20 @@ import {
   loadStudyProgress, saveStudyProgress, hydrateStudyProgress,
   loadStudyKnown, hydrateStudyKnown, saveStudyKnown, patchStudyKnown,
   pruneStudyProgress, pruneStudyKnown, topicCatalogProgress,
-} from './study-storage.js?v=44';
+} from './study-storage.js?v=46';
 import {
   el, filterStudy, topicNotice, createTopicCard, createCollectionCard, createFolderCard,
   createStudyCard, openStudyExplanation, createPracticeStem, createStarStem, buildStarExplanationNodes,
   highlightTargetInExample,
-} from './study-render.js?v=44';
+} from './study-render.js?v=46';
 import {
   hasAnswer, isPracticeAnswered, buildPracticeSessionQueue as buildQueue,
   createSessionController,
-} from './study-session.js?v=44';
+} from './study-session.js?v=46';
 import {
   shuffleItems, flashHeadForItem, flashMeaningForItem, flashExampleTarget,
   createFlashController,
-} from './study-flash.js?v=44';
+} from './study-flash.js?v=46';
 
 const DATA_VERSION = new URL(import.meta.url).searchParams.get('v') || '44';
 const SESSION_SHORT = 20;
