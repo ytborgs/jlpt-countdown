@@ -504,6 +504,17 @@
     "gradable": true
   },
   {
+    "id": "dokkai-n3-info",
+    "title": "Đọc hiểu N3 (tìm thông tin)",
+    "description": "Bài đọc hiểu 情報検索 (thông báo/bảng) kèm đáp án — partial 1–18 / 30.",
+    "notice": "Bản partial (18/30). Còn backlog 19–30.",
+    "count": 18,
+    "unit": "câu",
+    "path": "./study-data/dokkai-n3-info.json",
+    "group": "practice",
+    "gradable": true
+  },
+  {
     "id": "tu-chi-phi",
     "title": "Từ liên quan chi phí",
     "description": "Nhóm 代・料・費・賃.",

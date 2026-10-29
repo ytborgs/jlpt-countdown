@@ -75,7 +75,8 @@
           "topicIds": [
             "dokkai-n3-pilot",
             "dokkai-n3-medium",
-            "dokkai-n3-long"
+            "dokkai-n3-long",
+            "dokkai-n3-info"
           ]
         }
       ]

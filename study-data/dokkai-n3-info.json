@@ -1,0 +1,725 @@
+{
+  "schema_version": "1.0",
+  "document_id": "dokkai-n3-info",
+  "type": "practice",
+  "level": "N3",
+  "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+  "source_path": "study-materials/115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+  "title": "Đọc hiểu N3 — tìm thông tin (情報検索)",
+  "page_count": 197,
+  "item_count": 18,
+  "expected_item_count": 30,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-29T01:17:39Z",
+  "producer": "n3-study-extractor/l3-dokkai-info",
+  "status": "partial",
+  "needs_verify_count": 10,
+  "notes": [
+    "L3 info search: schema reading_comprehension_mcq (notice/table text in passage_jp + stem + choices).",
+    "Đáp án 情報検索 từ trang 189 (official_answer_key) — answer_key_info_search size 30.",
+    "Partial pilot: items 1–18 (問題1–9 / ~9 notices). Backlog 19–30.",
+    "PDF mapping: book_page N → source_page N+8. 情報検索 starts ~book-158.",
+    "OCR corrections applied (常識的修正); needs_verify where glyph/table uncertain.",
+    "Shorts → dokkai-n3-pilot; medium 中文 → dokkai-n3-medium; long 長文 → dokkai-n3-long."
+  ],
+  "answer_key_info_search": {
+    "1": 4,
+    "2": 2,
+    "3": 4,
+    "4": 2,
+    "5": 3,
+    "6": 4,
+    "7": 3,
+    "8": 2,
+    "9": 2,
+    "10": 4,
+    "11": 2,
+    "12": 3,
+    "13": 4,
+    "14": 2,
+    "15": 4,
+    "16": 1,
+    "17": 1,
+    "18": 2,
+    "19": 4,
+    "20": 4,
+    "21": 2,
+    "22": 3,
+    "23": 2,
+    "24": 3,
+    "25": 4,
+    "26": 1,
+    "27": 3,
+    "28": 4,
+    "29": 2,
+    "30": 4
+  },
+  "items": [
+    {
+      "id": "dokkai-info-001",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 166,
+      "knowledge_id": "reading:dokkai-info-1",
+      "section": "情報検索",
+      "no": 1,
+      "passage_jp": "投書・イラスト募集\n●第63回新聞週間が10月15日から始まります。\n●今年の標語は「きっかけは小さな記事の一行だった」です。\n●新聞週間に合わせて、読売新聞社は、読者の皆さんからの投書とイラストを募集します。\n●ネット時代での新聞に期待する役割や、もっと取り上げてほしい情報、親しみやすい紙面づくりなどに関する意見をお寄せください。新聞を題材にしたイラストもお待ちしています。\n▶投書は360字程度で、「新聞に望む」を明記\n▶郵便番号、住所、氏名、年齢、職業、電話番号を明記\n▶締め切りは10月5日。採用分には薄謝進呈\n▶宛て先は、気流係と同じです。電子メールは添付とせずメール本文としてお送りください。\n読売新聞のホームページ「ヨミウリ・オンライン」（www.yomiuri.co.jp）の「気流への投稿」からも受け付けます。",
+      "passage_source": "参考資料：読売新聞による",
+      "stem_jp": "投書をしようとする人が注意しなければならないことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "文章は一行目の字数を超えないように"
+        },
+        {
+          "key": "2",
+          "text_jp": "投書と同時にイラストを忘れないように"
+        },
+        {
+          "key": "3",
+          "text_jp": "メールを使わず、郵送するように"
+        },
+        {
+          "key": "4",
+          "text_jp": "決まった字数、決まった締切日までに送るように"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-002",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 166,
+      "knowledge_id": "reading:dokkai-info-2",
+      "section": "情報検索",
+      "no": 2,
+      "passage_jp": "投書・イラスト募集\n●第63回新聞週間が10月15日から始まります。\n●今年の標語は「きっかけは小さな記事の一行だった」です。\n●新聞週間に合わせて、読売新聞社は、読者の皆さんからの投書とイラストを募集します。\n●ネット時代での新聞に期待する役割や、もっと取り上げてほしい情報、親しみやすい紙面づくりなどに関する意見をお寄せください。新聞を題材にしたイラストもお待ちしています。\n▶投書は360字程度で、「新聞に望む」を明記\n▶郵便番号、住所、氏名、年齢、職業、電話番号を明記\n▶締め切りは10月5日。採用分には薄謝進呈\n▶宛て先は、気流係と同じです。電子メールは添付とせずメール本文としてお送りください。\n読売新聞のホームページ「ヨミウリ・オンライン」（www.yomiuri.co.jp）の「気流への投稿」からも受け付けます。",
+      "passage_source": "参考資料：読売新聞による",
+      "stem_jp": "情報の内容で合っているのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "投書する人は必ず新聞社にアドバイスをしてください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "新聞社に何かご希望やご意見を出してください。"
+        },
+        {
+          "key": "3",
+          "text_jp": "採用不採用に関係なく、少ないながら報酬を支払う。"
+        },
+        {
+          "key": "4",
+          "text_jp": "投書の採用か不採用か、1週間のうちに決める。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-003",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 168,
+      "knowledge_id": "reading:dokkai-info-3",
+      "section": "情報検索",
+      "no": 3,
+      "passage_jp": "つくば市スポーツセンター\n室内プールの利用案内\n利用時間：午前10時～午後5時\n※予約すれば夜間（7時～9時）も利用できる。ただし小学生は不可。\n利用料金：大人500円　子供（小学生以下）200円\n対象：市内在住の人\n申し込み：往復ハガキに利用日時、人数を記入してスポーツセンターに申し込んでください。\n注意事項：\n①小学生には保護者の同伴をお願いします。\n②水着、キャップ、タオルなどは各自用意してください。\n③髪の毛の長い男性と女性はキャップを被ってください。\n④プールに入る前に必ずシャワーで体を流してください。\n⑤場内での飲酒喫煙は禁止されています。\n⑥プールサイドでの飲食はご遠慮ください。休憩コーナーでお願いします。\n⑦周りの人の迷惑になるようなことはしないこと（特にお子さん）。",
+      "passage_source": null,
+      "stem_jp": "「案内」に合っているのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "市内に住んでいる人なら、だれでも夜間の利用ができる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "申し込みは日時や人数をハガキに書いて行なう。"
+        },
+        {
+          "key": "3",
+          "text_jp": "飲酒喫煙はプールサイドではなく、休憩コーナーでできる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "髪の長い人はキャップを被ってプールに入ること。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-004",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 168,
+      "knowledge_id": "reading:dokkai-info-4",
+      "section": "情報検索",
+      "no": 4,
+      "passage_jp": "つくば市スポーツセンター\n室内プールの利用案内\n利用時間：午前10時～午後5時\n※予約すれば夜間（7時～9時）も利用できる。ただし小学生は不可。\n利用料金：大人500円　子供（小学生以下）200円\n対象：市内在住の人\n申し込み：往復ハガキに利用日時、人数を記入してスポーツセンターに申し込んでください。\n注意事項：\n①小学生には保護者の同伴をお願いします。\n②水着、キャップ、タオルなどは各自用意してください。\n③髪の毛の長い男性と女性はキャップを被ってください。\n④プールに入る前に必ずシャワーで体を流してください。\n⑤場内での飲酒喫煙は禁止されています。\n⑥プールサイドでの飲食はご遠慮ください。休憩コーナーでお願いします。\n⑦周りの人の迷惑になるようなことはしないこと（特にお子さん）。",
+      "passage_source": null,
+      "stem_jp": "保護者として注意しなければならないことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "プールに入る前に子供をトイレに行かせる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "プールの中で子供にふざけたり騒いだりさせない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "女の子にジュースや菓子を持たせない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "男の子にはキャップを被らせる。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-005",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 170,
+      "knowledge_id": "reading:dokkai-info-5",
+      "section": "情報検索",
+      "no": 5,
+      "passage_jp": "千代田区第5回児童絵画展　作品募集\n作品テーマ：「働く人」\n募集期間：2011年8月1日～10月15日\n応募資格：千代田区の小学校に通う児童\n応募先：千代田区教育委員会文化部\n出展上の注意事項\n●自分で製作した作品であること\n●未発表の作品であること\n●応募は1人1点に限る\n●街へ出て知らない人を写生する\n●色鉛筆またはクレヨンで描く\n●サイズは20号まで\n賞：1等賞（1名）図書券1万円／2等賞（2名）図書券7千円／3等賞（3名）図書券5千円／参加賞（全員）記念シール\nお問い合わせ：千代田区第5回児童絵画展実行委員会　Tel: 03-3545-1122　ホームページ：www.tdt5.jp",
+      "passage_source": null,
+      "stem_jp": "応募できる絵に合っているものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "老人が犬を連れ、散歩している絵"
+        },
+        {
+          "key": "2",
+          "text_jp": "母親が台所で料理している絵"
+        },
+        {
+          "key": "3",
+          "text_jp": "男の人が工場で自動車の修理をしている絵"
+        },
+        {
+          "key": "4",
+          "text_jp": "先生が黒板の前で教えている絵"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-006",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 170,
+      "knowledge_id": "reading:dokkai-info-6",
+      "section": "情報検索",
+      "no": 6,
+      "passage_jp": "千代田区第5回児童絵画展　作品募集\n作品テーマ：「働く人」\n募集期間：2011年8月1日～10月15日\n応募資格：千代田区の小学校に通う児童\n応募先：千代田区教育委員会文化部\n出展上の注意事項\n●自分で製作した作品であること\n●未発表の作品であること\n●応募は1人1点に限る\n●街へ出て知らない人を写生する\n●色鉛筆またはクレヨンで描く\n●サイズは20号まで\n賞：1等賞（1名）図書券1万円／2等賞（2名）図書券7千円／3等賞（3名）図書券5千円／参加賞（全員）記念シール\nお問い合わせ：千代田区第5回児童絵画展実行委員会　Tel: 03-3545-1122　ホームページ：www.tdt5.jp",
+      "passage_source": null,
+      "stem_jp": "この絵画展の情報内容に合っているのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "働いている人なら、マンガで描いてもよい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "参加者全員に賞金が出る。"
+        },
+        {
+          "key": "3",
+          "text_jp": "兄弟で出品することはできる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "色鉛筆で描いた15号サイズの絵。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-007",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 172,
+      "knowledge_id": "reading:dokkai-info-7",
+      "section": "情報検索",
+      "no": 7,
+      "passage_jp": "＊「東北桜めぐり」旅行情報＊（新幹線で一泊二日）\n東北にも春が参りました。桜が咲き、魚のおいしい季節です。新幹線でいっそう近くなった東北へ旅してみませんか。お湯の豊かな温泉と温かい人情があなたをお迎えします。当社では、日にち限定の4コースを特別料金でご用意いたしました。\n【コース案内】\nA：出発4月10日（金）東京駅発19:00（はやぶさ10号）／特色：温泉、桜並木、夜景／料金48,300円／備考：1名様でも同じ料金\nB：出発4月17日（金）東京駅発10:00（はやぶさ4号）／特色：商店街、お寺や神社、桜の名木／料金45,200円／備考：申込はお早めに\nC：出発4月24日（金）東京駅発19:00（はやぶさ10号）／特色：五つ星ホテル、海鮮料理、樹齢800年もの桜／料金51,500円／備考：宿のタオル、ゆかたをサービス\nD：出発5月1日（金）東京駅発10:00（はやぶさ4号）／特色：城を囲む公園、3000本もの桜、日本一のショッピングセンター／料金44,900円／備考：市内バス無料券、女性に人気",
+      "passage_source": null,
+      "stem_jp": "サラリーマンの岩さん（男）は勤めの帰りに新幹線に乗り、温泉で体を休めたいと思っている。花を見るより、おいしいものをというタイプだが、夜景だけは見たいと思っている。岩さんはどのコースを選ぶか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "Aコース"
+        },
+        {
+          "key": "2",
+          "text_jp": "Bコース"
+        },
+        {
+          "key": "3",
+          "text_jp": "Cコース"
+        },
+        {
+          "key": "4",
+          "text_jp": "Dコース"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-008",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 172,
+      "knowledge_id": "reading:dokkai-info-8",
+      "section": "情報検索",
+      "no": 8,
+      "passage_jp": "＊「東北桜めぐり」旅行情報＊（新幹線で一泊二日）\n東北にも春が参りました。桜が咲き、魚のおいしい季節です。新幹線でいっそう近くなった東北へ旅してみませんか。お湯の豊かな温泉と温かい人情があなたをお迎えします。当社では、日にち限定の4コースを特別料金でご用意いたしました。\n【コース案内】\nA：出発4月10日（金）東京駅発19:00（はやぶさ10号）／特色：温泉、桜並木、夜景／料金48,300円／備考：1名様でも同じ料金\nB：出発4月17日（金）東京駅発10:00（はやぶさ4号）／特色：商店街、お寺や神社、桜の名木／料金45,200円／備考：申込はお早めに\nC：出発4月24日（金）東京駅発19:00（はやぶさ10号）／特色：五つ星ホテル、海鮮料理、樹齢800年もの桜／料金51,500円／備考：宿のタオル、ゆかたをサービス\nD：出発5月1日（金）東京駅発10:00（はやぶさ4号）／特色：城を囲む公園、3000本もの桜、日本一のショッピングセンター／料金44,900円／備考：市内バス無料券、女性に人気",
+      "passage_source": null,
+      "stem_jp": "来さん（女）はこの秋に結婚する友だちとゆっくり桜を見たり、ショッピングをしたいと思っている。5月のゴールデンウィークは込むので、避けたいと思っている。来さんが選ぶコースはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "Aコース"
+        },
+        {
+          "key": "2",
+          "text_jp": "Bコース"
+        },
+        {
+          "key": "3",
+          "text_jp": "Cコース"
+        },
+        {
+          "key": "4",
+          "text_jp": "Dコース"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-009",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 174,
+      "knowledge_id": "reading:dokkai-info-9",
+      "section": "情報検索",
+      "no": 9,
+      "passage_jp": "京都中日言語学院（日本語教育振興協会認定校）\n2012年春季入学募集要項\n設置コース・定員：進学2年コース90名／進学1.5年コース75名／進学1年コース15名　計180名\n特色：\n1. クラス定員最大15名の少人数制により、発話に重点を置いた授業形態\n2. 国際色豊かなクラス編成による異文化交流\n3. 教職員と学生が一体となった家族的な雰囲気\n4. 大学進学希望者に対する日本留学試験対策講座、数学等の授業の実施\n5. 日本語能力試験受験希望者に対する対策講座の実施\n6. 国民健康保険・傷害保険加入による医療費負担軽減（歯科を除く）\n7. 課外活動並びに卒業旅行の実施\n8. 大学・専門学校の推薦指定校及び進路指導実施\n学生寮：設備あり。二人一部屋。保証金30,000円、家賃30,000円／月\n費用：選考料20,000円／入学金50,000円／授業料600,000円／教材費20,000円／施設費20,000円／その他30,000円　合計738,000円\n入学時期：4月（9月1日から願書受付）／10月（3月1日から願書受付）\n受験条件：日本語レベル4級以上または、日本語学習歴150時間以上",
+      "passage_source": null,
+      "stem_jp": "この「言語学院」の特徴として合っていないものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "クラスの定員が決まっていて、期間も最長2年になっている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "少人数クラスで、国別にクラスが分けられている。"
+        },
+        {
+          "key": "3",
+          "text_jp": "家族的雰囲気だが、受験対策は充実している。"
+        },
+        {
+          "key": "4",
+          "text_jp": "課外活動や保健サービスが充実している。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-010",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 174,
+      "knowledge_id": "reading:dokkai-info-10",
+      "section": "情報検索",
+      "no": 10,
+      "passage_jp": "京都中日言語学院（日本語教育振興協会認定校）\n2012年春季入学募集要項\n設置コース・定員：進学2年コース90名／進学1.5年コース75名／進学1年コース15名　計180名\n特色：\n1. クラス定員最大15名の少人数制により、発話に重点を置いた授業形態\n2. 国際色豊かなクラス編成による異文化交流\n3. 教職員と学生が一体となった家族的な雰囲気\n4. 大学進学希望者に対する日本留学試験対策講座、数学等の授業の実施\n5. 日本語能力試験受験希望者に対する対策講座の実施\n6. 国民健康保険・傷害保険加入による医療費負担軽減（歯科を除く）\n7. 課外活動並びに卒業旅行の実施\n8. 大学・専門学校の推薦指定校及び進路指導実施\n学生寮：設備あり。二人一部屋。保証金30,000円、家賃30,000円／月\n費用：選考料20,000円／入学金50,000円／授業料600,000円／教材費20,000円／施設費20,000円／その他30,000円　合計738,000円\n入学時期：4月（9月1日から願書受付）／10月（3月1日から願書受付）\n受験条件：日本語レベル4級以上または、日本語学習歴150時間以上",
+      "passage_source": null,
+      "stem_jp": "この「要項」に書いていないものは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "入学条件"
+        },
+        {
+          "key": "2",
+          "text_jp": "入学金"
+        },
+        {
+          "key": "3",
+          "text_jp": "日本語能力"
+        },
+        {
+          "key": "4",
+          "text_jp": "選考方法"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-011",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 176,
+      "knowledge_id": "reading:dokkai-info-11",
+      "section": "情報検索",
+      "no": 11,
+      "passage_jp": "一、在留期間の更新申請\n在留期間満了日の2ヶ月前から、当日までに申請を行うことができる。申請の当日は受理されるだけ→後日、審査結果の通知がくる。\n申請に必要な書類：①在留期間更新許可申請書（入国管理局の窓口にある）②旅券（パスポート）③外国人登録証④在学証明書⑤成績証明書（※就学生の場合は出席状況を記載した成績証明）⑥日本での学費・生活費の支弁能力を証明するもの⑦手数料\n※在留期間の更新が許可された後、パスポートと外国人登録証をもって、14日以内に住んでいる地域の区役所・市役所に届け出る。\n二、在留資格の変更申請\n「就学」資格で日本語学校に在籍し、大学・専修学校に進学が決まったら→「留学」資格への変更申請をする。\n申請に必要な書類：①在留資格変更許可申請書（入国管理局の窓口にある）②旅券（パスポート）③外国人登録証④入学許可書のコピー⑤日本での学費・生活費の支弁能力を証明するもの⑥手数料\n※許可後、パスポートと外国人登録証をもって、14日以内に区役所・市役所に届け出る。",
+      "passage_source": null,
+      "stem_jp": "「一」の「在留期間の更新申請」をする人はどこへ行くか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "学校→入国管理局"
+        },
+        {
+          "key": "2",
+          "text_jp": "入国管理局→区役所・市役所"
+        },
+        {
+          "key": "3",
+          "text_jp": "区役所・市役所→入国管理局"
+        },
+        {
+          "key": "4",
+          "text_jp": "学校→区役所・市役所"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-012",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 176,
+      "knowledge_id": "reading:dokkai-info-12",
+      "section": "情報検索",
+      "no": 12,
+      "passage_jp": "一、在留期間の更新申請\n在留期間満了日の2ヶ月前から、当日までに申請を行うことができる。申請の当日は受理されるだけ→後日、審査結果の通知がくる。\n申請に必要な書類：①在留期間更新許可申請書（入国管理局の窓口にある）②旅券（パスポート）③外国人登録証④在学証明書⑤成績証明書（※就学生の場合は出席状況を記載した成績証明）⑥日本での学費・生活費の支弁能力を証明するもの⑦手数料\n※在留期間の更新が許可された後、パスポートと外国人登録証をもって、14日以内に住んでいる地域の区役所・市役所に届け出る。\n二、在留資格の変更申請\n「就学」資格で日本語学校に在籍し、大学・専修学校に進学が決まったら→「留学」資格への変更申請をする。\n申請に必要な書類：①在留資格変更許可申請書（入国管理局の窓口にある）②旅券（パスポート）③外国人登録証④入学許可書のコピー⑤日本での学費・生活費の支弁能力を証明するもの⑥手数料\n※許可後、パスポートと外国人登録証をもって、14日以内に区役所・市役所に届け出る。",
+      "passage_source": null,
+      "stem_jp": "「二」を申請する時にだけ必要なものは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "パスポート"
+        },
+        {
+          "key": "2",
+          "text_jp": "外国人登録証"
+        },
+        {
+          "key": "3",
+          "text_jp": "入学許可のコピー"
+        },
+        {
+          "key": "4",
+          "text_jp": "手数料"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-013",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 178,
+      "knowledge_id": "reading:dokkai-info-13",
+      "section": "情報検索",
+      "no": 13,
+      "passage_jp": "留学生のための奨学金案内\n名称｜支給金額（月額）｜支給期間｜地域｜対象\n(財)田中教育協会｜50,000円｜1年間｜アジア諸国から来日した私費留学生｜大学学部の在学者\n(財)鈴木奨学会｜30,000円｜1年間｜東南アジア諸国から来日した私費留学生｜学部・大学院（修士課程）の在学者\n(財)山田国際奨学財団｜40,000円｜2年間｜アフリカや中東諸国から来日した私費留学生｜修士・博士課程在学者\n東日本銀行奨学金｜150,000円｜4年間（学部4年／大学院2年）｜諸国から来日した私費留学生｜修士・博士課程在学者\n新大阪銀行支援奨学金｜100,000円｜4年間（学部4年／大学院2年）｜アフリカ・南米・西アジアから来日した私費留学生｜学部生・修士課程在学者\n婦人の会奨学金｜60,000円｜4年間｜南米から来日した私費留学生｜医学・看護学・教育学を専攻とする在学者\n21世紀国際奨学基金｜50,000円｜2年間｜タイ・ベトナム・インドネシア出身者｜大学学部の在学者",
+      "passage_source": null,
+      "stem_jp": "アフリカ出身のコート君は修士課程で学んでいて、できるだけ長期の奨学金を望んでいる。彼が申し込むのはどの団体の奨学金か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "21世紀国際奨学基金"
+        },
+        {
+          "key": "2",
+          "text_jp": "（財）鈴木奨学会"
+        },
+        {
+          "key": "3",
+          "text_jp": "山田国際奨学財団"
+        },
+        {
+          "key": "4",
+          "text_jp": "新大阪銀行支援奨学金"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-014",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 178,
+      "knowledge_id": "reading:dokkai-info-14",
+      "section": "情報検索",
+      "no": 14,
+      "passage_jp": "留学生のための奨学金案内\n名称｜支給金額（月額）｜支給期間｜地域｜対象\n(財)田中教育協会｜50,000円｜1年間｜アジア諸国から来日した私費留学生｜大学学部の在学者\n(財)鈴木奨学会｜30,000円｜1年間｜東南アジア諸国から来日した私費留学生｜学部・大学院（修士課程）の在学者\n(財)山田国際奨学財団｜40,000円｜2年間｜アフリカや中東諸国から来日した私費留学生｜修士・博士課程在学者\n東日本銀行奨学金｜150,000円｜4年間（学部4年／大学院2年）｜諸国から来日した私費留学生｜修士・博士課程在学者\n新大阪銀行支援奨学金｜100,000円｜4年間（学部4年／大学院2年）｜アフリカ・南米・西アジアから来日した私費留学生｜学部生・修士課程在学者\n婦人の会奨学金｜60,000円｜4年間｜南米から来日した私費留学生｜医学・看護学・教育学を専攻とする在学者\n21世紀国際奨学基金｜50,000円｜2年間｜タイ・ベトナム・インドネシア出身者｜大学学部の在学者",
+      "passage_source": null,
+      "stem_jp": "マレーシア出身のミニさんは大学院の修士課程で学んでいる。彼女が申し込むのはどの団体の奨学金か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "21世紀国際奨学基金"
+        },
+        {
+          "key": "2",
+          "text_jp": "（財）鈴木奨学会"
+        },
+        {
+          "key": "3",
+          "text_jp": "山田国際奨学財団"
+        },
+        {
+          "key": "4",
+          "text_jp": "新大阪銀行支援奨学金"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-015",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 180,
+      "knowledge_id": "reading:dokkai-info-15",
+      "section": "情報検索",
+      "no": 15,
+      "passage_jp": "ゴミの出し方\n日本では、家庭から出るゴミは、決められた方式で分け、決められた日時に、決められた場所に置かなければゴミの収集車が集めてくれない。ゴミの分別方法と収集日時は地域によって多少違いがあるので、いずれも確認しよう。\n【可燃ゴミ】種類：魚・野菜などの台所のくず、紙、吸殻、生理用品、衣類など／出し方：推奨のポリ袋に入れ、口を縛って匂いが漏れないようにして出す\n【不燃ゴミ】種類：ビニール、プラスチック、金属、ガラス、陶器、電球、スプレー缶など／出し方：中身が見える透明な袋に入れて出す。針は瓶や缶などに入れてふたをし、電球やガラスの破片などは紙に包んで「キケン」と書いて出す。スプレー缶は必ず使い切ってから出す（使い切れない場合は穴をあけてガスを抜く）。\n【粗大ゴミ】種類：家具、電化製品（家電リサイクル法対象品は除く）など、30センチ以上1.8メートル以下のもの。有料・申込制（例：ふとん約200円、自転車約500円など）。※エアコン・テレビ・冷蔵庫・洗濯機は購入店または家電リサイクル受付センターへ。\n※資源として再利用するため、古紙（新聞、雑誌、ダンボール）、缶、ビン、ペットボトル、紙パック、乾電池などを別途に集める地域もある。",
+      "passage_source": null,
+      "stem_jp": "「新聞紙」は何のゴミに入っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "可燃ゴミ"
+        },
+        {
+          "key": "2",
+          "text_jp": "不燃ゴミ"
+        },
+        {
+          "key": "3",
+          "text_jp": "粗大ゴミ"
+        },
+        {
+          "key": "4",
+          "text_jp": "資源ゴミ"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-016",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 180,
+      "knowledge_id": "reading:dokkai-info-16",
+      "section": "情報検索",
+      "no": 16,
+      "passage_jp": "ゴミの出し方\n日本では、家庭から出るゴミは、決められた方式で分け、決められた日時に、決められた場所に置かなければゴミの収集車が集めてくれない。ゴミの分別方法と収集日時は地域によって多少違いがあるので、いずれも確認しよう。\n【可燃ゴミ】種類：魚・野菜などの台所のくず、紙、吸殻、生理用品、衣類など／出し方：推奨のポリ袋に入れ、口を縛って匂いが漏れないようにして出す\n【不燃ゴミ】種類：ビニール、プラスチック、金属、ガラス、陶器、電球、スプレー缶など／出し方：中身が見える透明な袋に入れて出す。針は瓶や缶などに入れてふたをし、電球やガラスの破片などは紙に包んで「キケン」と書いて出す。スプレー缶は必ず使い切ってから出す（使い切れない場合は穴をあけてガスを抜く）。\n【粗大ゴミ】種類：家具、電化製品（家電リサイクル法対象品は除く）など、30センチ以上1.8メートル以下のもの。有料・申込制（例：ふとん約200円、自転車約500円など）。※エアコン・テレビ・冷蔵庫・洗濯機は購入店または家電リサイクル受付センターへ。\n※資源として再利用するため、古紙（新聞、雑誌、ダンボール）、缶、ビン、ペットボトル、紙パック、乾電池などを別途に集める地域もある。",
+      "passage_source": null,
+      "stem_jp": "「ゴミの出し方」が間違っているのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "スプレー缶は不燃ゴミに入れてはいけない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "テレビは粗大ゴミではなく、リサイクルゴミである。"
+        },
+        {
+          "key": "3",
+          "text_jp": "自転車は粗大ゴミとして有料で回収する。"
+        },
+        {
+          "key": "4",
+          "text_jp": "セーターなどは可燃ゴミに入る。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-017",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 182,
+      "knowledge_id": "reading:dokkai-info-17",
+      "section": "情報検索",
+      "no": 17,
+      "passage_jp": "東京中央図書館　館内ツアー\n学校では、上手に図書館を生かし、あなたの勉強に役立たせることが大切です。このたび、東京中央図書館にて行われる「館内ツアー」に参加していただき、必要な情報をすばやく手に入れる方法を身につけますよう祈っております。みなさんのために図書館の職員が丁寧に図書館内をご案内します。　東京中央図書館館長\n日時：11月3日（土）\n内容：\nA：絵本・童話コース　— 日本の昔話から西洋の童話まで絵本で揃っています。読み方の工夫も指導します。\nB：名作コース　— 読んでおきたい古典から現代文学の傑作まで数十万点が揃っています。電子書籍でも紹介します。\nC：検索コース　— ボタン一つで何でも知ることができるパソコンの時代です。より早くより正確に、という技術指導も行ないます。\nD：映像コース　— こんなものまであるのかと驚くようなDVDが揃っています。論文やレポートに貸し出しもします。\n集合場所：希望コースの開始10分前までに図書館ロビーへ\n定員：200名／1日\n参加できる方：高校、大学在学者（留学生を含む）\n締め切り：10月15日（月）\n申し込み方法：往復ハガキ\n※一日に午前と午後1回ずつ分けて案内します。（午前10:00、午後14:00）\n※一回の所要時間は約90分です。\n※当日、必ず学生証を持ってきてください。\n※案内者は日本語で説明しますが、英語のできる通訳が付いているので、日本語がまだ上手ではない留学生も気軽に参加できます。",
+      "passage_source": null,
+      "stem_jp": "読書が好きな高校生春香さんは将来保育所で働くつもりである。午後も趣味を生かすコースを取ろうと思っている。春香さんの取れるコースはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "AとB"
+        },
+        {
+          "key": "2",
+          "text_jp": "AとC"
+        },
+        {
+          "key": "3",
+          "text_jp": "BとD"
+        },
+        {
+          "key": "4",
+          "text_jp": "BとC"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-info-018",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 182,
+      "knowledge_id": "reading:dokkai-info-18",
+      "section": "情報検索",
+      "no": 18,
+      "passage_jp": "東京中央図書館　館内ツアー\n学校では、上手に図書館を生かし、あなたの勉強に役立たせることが大切です。このたび、東京中央図書館にて行われる「館内ツアー」に参加していただき、必要な情報をすばやく手に入れる方法を身につけますよう祈っております。みなさんのために図書館の職員が丁寧に図書館内をご案内します。　東京中央図書館館長\n日時：11月3日（土）\n内容：\nA：絵本・童話コース　— 日本の昔話から西洋の童話まで絵本で揃っています。読み方の工夫も指導します。\nB：名作コース　— 読んでおきたい古典から現代文学の傑作まで数十万点が揃っています。電子書籍でも紹介します。\nC：検索コース　— ボタン一つで何でも知ることができるパソコンの時代です。より早くより正確に、という技術指導も行ないます。\nD：映像コース　— こんなものまであるのかと驚くようなDVDが揃っています。論文やレポートに貸し出しもします。\n集合場所：希望コースの開始10分前までに図書館ロビーへ\n定員：200名／1日\n参加できる方：高校、大学在学者（留学生を含む）\n締め切り：10月15日（月）\n申し込み方法：往復ハガキ\n※一日に午前と午後1回ずつ分けて案内します。（午前10:00、午後14:00）\n※一回の所要時間は約90分です。\n※当日、必ず学生証を持ってきてください。\n※案内者は日本語で説明しますが、英語のできる通訳が付いているので、日本語がまだ上手ではない留学生も気軽に参加できます。",
+      "passage_source": null,
+      "stem_jp": "この資料を作った男の人と館長の女の人が話している。男の人はこれから何を追加するか。\nF：持ってくるものは学生証だけでよかったかしら。\nM：そうですね。ああ、午後も取りたい人もいるかもしれませんから、弁当のことですかね。\nF：お弁当は売店もあるし、外で食事してもいいんですから。どっちにしろ、午後までの人から少しお金をいただくわね。\nM：あっ、そうでした。さっそく追加します。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "弁当"
+        },
+        {
+          "key": "2",
+          "text_jp": "参加費"
+        },
+        {
+          "key": "3",
+          "text_jp": "定員"
+        },
+        {
+          "key": "4",
+          "text_jp": "昼食時間"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    }
+  ]
+}
