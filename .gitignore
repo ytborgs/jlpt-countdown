@@ -2,3 +2,6 @@ node_modules/
 .tmp-upgrade-test/
 .tmp-ab-http/
 .DS_Store
+
+# Local OCR / extract scratch (do not ship)
+_work/
