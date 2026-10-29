@@ -493,6 +493,17 @@
     "gradable": true
   },
   {
+    "id": "dokkai-n3-long",
+    "title": "Đọc hiểu N3 (dài)",
+    "description": "Bài đọc hiểu 長文 kèm đáp án — pilot 1–18 / 80.",
+    "notice": "Bản pilot partial (18/80). Còn backlog 19–80.",
+    "count": 18,
+    "unit": "câu",
+    "path": "./study-data/dokkai-n3-long.json",
+    "group": "practice",
+    "gradable": true
+  },
+  {
     "id": "tu-chi-phi",
     "title": "Từ liên quan chi phí",
     "description": "Nhóm 代・料・費・賃.",
