@@ -495,9 +495,9 @@
   {
     "id": "dokkai-n3-long",
     "title": "Đọc hiểu N3 (dài)",
-    "description": "Bài đọc hiểu 長文 kèm đáp án — pilot 1–18 / 80.",
-    "notice": "Bản pilot partial (18/80). Còn backlog 19–80.",
-    "count": 18,
+    "description": "Bài đọc hiểu 長文 kèm đáp án — pilot 1–36 / 80.",
+    "notice": "Bản pilot partial (36/80). Còn backlog 37–80.",
+    "count": 36,
     "unit": "câu",
     "path": "./study-data/dokkai-n3-long.json",
     "group": "practice",
