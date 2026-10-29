@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "document_id": "choukai-md5-tips",
+  "type": "tips",
+  "level": "N3",
+  "source_file": "BÍ KÍP CHOUKAI MONDAI 5",
+  "source_path": "study-materials/BÍ KÍP CHOUKAI MONDAI 5",
+  "title": "Bí kíp Choukai Mondai 5",
+  "page_count": 4,
+  "item_count": 4,
+  "expected_item_count": 4,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-28T16:08:45+00:00",
+  "producer": "cursor-agent/visual-tip-packs",
+  "status": "partial",
+  "needs_verify_count": 2,
+  "notes": [
+    "Visual transcription từ PNG pack BÍ KÍP CHOUKAI MONDAI 5.",
+    "Tips only — không audio."
+  ],
+  "items": [
+    {
+      "id": "choukai-md5-01",
+      "type": "tips",
+      "subtype": "choukai_md5_tip",
+      "level": "N3",
+      "source_file": "BÍ KÍP CHOUKAI MONDAI 5",
+      "source_page": 4,
+      "knowledge_id": "tip:a8ed48a9",
+      "label": "Những điểm lưu ý khi nghe Mondai 5",
+      "body": "(1) Xác định ai là người thực hiện hành động.\n(2) Chú ý cách diễn đạt kính ngữ, khiêm nhường ngữ, từ lịch sự.\n(3) Cách chào hỏi hay dùng trong hội thoại.\n(4) Các diễn tả gián tiếp.",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null
+    },
+    {
+      "id": "choukai-md5-02",
+      "type": "tips",
+      "subtype": "choukai_md5_tip",
+      "level": "N3",
+      "source_file": "BÍ KÍP CHOUKAI MONDAI 5",
+      "source_page": 1,
+      "knowledge_id": "tip:7d4430e9",
+      "label": "Cách trả lời gián tiếp",
+      "body": "Mondai 5 hay dùng trả lời gián tiếp: khen/khó khăn → ngụ ý đồng ý/từ chối; câu nói thói quen chung thường là nhiễu.\n\nVí dụ:\n1) この本、読む？ → 面白いそうだね。\n   Quyển sách này đọc không? → Có vẻ thú vị nhỉ. (〇 → sẽ đọc)\n2) この本、読む？ → 漢字が難しいね。\n   → Có nhiều kanji khó nhỉ. (〇 → không đọc)\n3) この本、読む？ → 1週間に2、3冊読んでるよ。\n   → Mỗi tuần đọc 2–3 cuốn. (× câu nhiễu)",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Slide có thể ghi 面白いそだね; chuẩn hóa thành 面白いそうだね.",
+      "ai_extra": null,
+      "examples": [
+        {
+          "jp": "この本、読む？ → 面白いそうだね。",
+          "vi": "Quyển sách này đọc không? → Có vẻ thú vị nhỉ. (〇 → sẽ đọc)"
+        },
+        {
+          "jp": "この本、読む？ → 漢字が難しいね。",
+          "vi": "→ Có nhiều kanji khó nhỉ. (〇 → không đọc)"
+        },
+        {
+          "jp": "この本、読む？ → 1週間に2、3冊読んでるよ。",
+          "vi": "→ Mỗi tuần đọc 2–3 cuốn. (× câu nhiễu)"
+        }
+      ]
+    },
+    {
+      "id": "choukai-md5-03",
+      "type": "tips",
+      "subtype": "choukai_md5_tip",
+      "level": "N3",
+      "source_file": "BÍ KÍP CHOUKAI MONDAI 5",
+      "source_page": 2,
+      "knowledge_id": "tip:546228db",
+      "label": "いいよ — đồng ý hoặc từ chối tùy ngữ cảnh",
+      "body": "「いいよ」có thể là đồng ý giúp hoặc từ chối đề nghị tùy câu trước/sau.\n\nVí dụ:\n1) ちょっと手伝ってよ。→ いいよ。何すればいい？\n   Giúp mình một chút nhé. → Được thôi, làm gì đây? (Đồng ý)\n2) 上着着ていったらどう？→ いいよ。そんなに寒くないから。\n   Mặc áo khoác đi xem? → Không cần. Không lạnh đến thế đâu. (Từ chối)",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "examples": [
+        {
+          "jp": "ちょっと手伝ってよ。→ いいよ。何すればいい？",
+          "vi": "Giúp mình một chút nhé. → Được thôi, làm gì đây? (Đồng ý)"
+        },
+        {
+          "jp": "上着着ていったらどう？→ いいよ。そんなに寒くないから。",
+          "vi": "Mặc áo khoác đi xem? → Không cần. Không lạnh đến thế đâu. (Từ chối)"
+        }
+      ]
+    },
+    {
+      "id": "choukai-md5-04",
+      "type": "tips",
+      "subtype": "choukai_md5_tip",
+      "level": "N3",
+      "source_file": "BÍ KÍP CHOUKAI MONDAI 5",
+      "source_page": 3,
+      "knowledge_id": "tip:06773b81",
+      "label": "Các cách trả lời đặc định (cặp chào hỏi)",
+      "body": "Một số cặp lời nói – đáp thường gặp trong Mondai 5:\n・お先に失礼します → お疲れ様でした\n・すみません／失礼しました → いいえ／どういたしまして\n・いらっしゃい → おじゃまします\n・おじゃましました → またいらしてください／またいらっしゃってください\n・ごめんください → はい、どちら様ですか／どなたですか\n・お時間、ありますか／今、ちょっとよろしいですか → ええ、何でしょうか\n・お元気ですか → ええ、おかげさまで\n・お世話になります → いいえ、こちらこそ\n・どうぞおかけください／お入りください → 失礼します\n・どうぞごゆっくり → ありがとうございます\n・お口に合うかどうか／コーヒーでもいかがですか → どうぞおかまいなく／いただきます",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Cặp ごめんください↔どちら様ですか trên slide dễ nhầm với もしもし (điện thoại); cần đối chiếu ảnh gốc.",
+      "ai_extra": null
+    }
+  ]
+}

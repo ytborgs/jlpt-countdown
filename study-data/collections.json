@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "collections": [
+    {
+      "id": "tong-hop",
+      "title": "Tài liệu tổng hợp kiến thức N3",
+      "description": "Lối vào theo thư mục tài liệu tổng hợp. Các bộ đã gắn dùng chung tiến độ với danh mục chính.",
+      "folders": [
+        {
+          "id": "chuyen",
+          "title": "Chuyên từ vựng các năm",
+          "topicIds": [
+            "mondai3-vocab-p1",
+            "mondai3-vocab-p2",
+            "gan-nghia-hq-p1",
+            "gan-nghia-hq-p2",
+            "cach-dung-tu-hq",
+            "chuyen-kanji-p1",
+            "chuyen-kanji-p2"
+          ]
+        },
+        {
+          "id": "han-tu",
+          "title": "Hán tự",
+          "topicIds": [
+            "soumatome-kanji",
+            "kanji-quiz-192"
+          ]
+        },
+        {
+          "id": "nghe-hieu",
+          "title": "Nghe hiểu",
+          "topicIds": [
+            "nghe-mondai1-tips",
+            "choukai-md4-tips",
+            "choukai-md5-tips"
+          ]
+        },
+        {
+          "id": "ngu-phap",
+          "title": "Ngữ pháp",
+          "topicIds": [
+            "grammar",
+            "star-rearrange",
+            "grammar-n4-nang-cao",
+            "bikip-dau-sao-tips",
+            "grammar-nai-10",
+            "grammar-15-mau",
+            "grammar-pho-tu-mau",
+            "grammar-theo-chu-de"
+          ]
+        },
+        {
+          "id": "tu-vung",
+          "title": "Từ vựng",
+          "topicIds": [
+            "usage-quiz",
+            "near-synonyms",
+            "tu-lay-87",
+            "tu-lay-100",
+            "dong-am",
+            "quan-dung-ngu",
+            "tuong-thanh",
+            "speed-master-n3",
+            "pho-tu-duoi-ri",
+            "tu-chi-phi",
+            "tu-noi-collection",
+            "so-tay-pho-tu"
+          ]
+        },
+        {
+          "id": "doc-hieu",
+          "title": "Đọc hiểu",
+          "topicIds": [
+            "dokkai-n3-pilot",
+            "dokkai-n3-medium",
+            "dokkai-n3-long",
+            "dokkai-n3-info"
+          ]
+        }
+      ]
+    }
+  ]
+}

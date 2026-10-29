@@ -47,6 +47,9 @@ for (const name of ['study.js', 'study-render.js', 'study-storage.js', 'study-se
     errors.push(`sw.js ASSETS missing versioned ${name}`);
   }
 }
+if (!sw.includes('collections.json?v=${RELEASE}') && !sw.includes(`collections.json?v=${RELEASE}`)) {
+  errors.push('sw.js ASSETS missing versioned collections.json');
+}
 if (/skipWaiting\(\)/.test(sw) && !/SKIP_WAITING/.test(sw)) {
   errors.push('sw.js still auto skipWaiting without message gate');
 }

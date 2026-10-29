@@ -1,0 +1,740 @@
+{
+  "schema_version": "1.0",
+  "document_id": "grammar-pho-tu-mau",
+  "type": "grammar",
+  "level": "N3",
+  "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+  "source_path": "study-materials/PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+  "title": "Phó từ đi kèm mẫu câu đặc định",
+  "page_count": 2,
+  "item_count": 15,
+  "expected_item_count": 15,
+  "content_source": "pdf_text_extract",
+  "produced_at": "2026-10-28T22:55:31+00:00",
+  "producer": "n3-study-extractor/parse_tong_hop_text:grammar-pho-tu-mau",
+  "status": "partial",
+  "needs_verify_count": 4,
+  "notes": [
+    "Extract text layer 2 trang (第24課 決まった表現の副詞).",
+    "Gộp theo nhóm phó từ + mẫu đi kèm; bỏ phần 練習問題 (quiz) — không đưa đáp án bịa.",
+    "Một số ví dụ OCR lệch → needs_verify."
+  ],
+  "items": [
+    {
+      "id": "grammar-pho-tu-mau-01",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:c9aea7c5b8",
+      "pattern": "全く／少しも／そんなに／そう／たいして／決して／めったに＋～ない",
+      "meaning": "Phó từ nhấn mạnh phủ định (hoàn toàn / hầu như không…)",
+      "meaning_vi": "Phó từ đi kèm ～ない: hoàn toàn không / hầu như không / không đến mức…",
+      "structure": "副詞＋～ない",
+      "usage": "Các phó từ cố định hay đi với phủ định.",
+      "adverbs": [
+        "全く",
+        "少しも",
+        "そんなに",
+        "そう",
+        "たいして",
+        "決して",
+        "めったに"
+      ],
+      "example_jp": "私は、全く英語がとくいではありません。",
+      "example_vi": "Tôi hoàn toàn không giỏi tiếng Anh.",
+      "examples": [
+        {
+          "jp": "私は、全く英語がとくいではありません。",
+          "vi": "Tôi hoàn toàn không giỏi tiếng Anh."
+        },
+        {
+          "jp": "僕はそんなこと少しもわからない。",
+          "vi": "Tôi chẳng hiểu chút nào về chuyện đó."
+        },
+        {
+          "jp": "ベトナム語はそんなに難しくないよ。",
+          "vi": "Tiếng Việt đâu có khó đến thế đâu."
+        },
+        {
+          "jp": "明日の試験のことはそう心配する必要はないよ。",
+          "vi": "Không cần lo đến thế về kỳ thi ngày mai đâu."
+        },
+        {
+          "jp": "この資料はたいして重要ではなかった。",
+          "vi": "Tài liệu này không quan trọng đến mức đó."
+        },
+        {
+          "jp": "決してあの人の話を信じないでください。",
+          "vi": "Tuyệt đối đừng tin lời người đó."
+        },
+        {
+          "jp": "わたしはめったに俗に手紙を書かない。",
+          "vi": "Tôi hầu như không viết thư (cần verify OCR 「は俗に」)."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "全く／少しも／そんなに／そう／たいして／決して／めったに＋～ない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "私は、全く英語がとくいではありません。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "verify_reason": "Ví dụ めったに: extract có 「はめったには俗に」— có thể OCR lỗi; giữ needs_verify.",
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-02",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:f952ce3133",
+      "pattern": "すでに＋～た／～ている／～てある",
+      "meaning": "Đã rồi / sẵn rồi",
+      "meaning_vi": "Đã hoàn thành / đã sẵn sàng từ trước",
+      "structure": "すでに＋～た・～ている・～てある",
+      "usage": "Nhấn mạnh việc đã xảy ra hoặc đã xong trước thời điểm nói.",
+      "adverbs": [
+        "すでに"
+      ],
+      "example_jp": "宿題をすでにやってしまった。",
+      "example_vi": "Bài tập về nhà tôi đã làm xong rồi.",
+      "examples": [
+        {
+          "jp": "宿題をすでにやってしまった。",
+          "vi": "Bài tập về nhà tôi đã làm xong rồi."
+        },
+        {
+          "jp": "すでに食事の準備はできている。",
+          "vi": "Chuẩn bị bữa ăn đã xong rồi."
+        },
+        {
+          "jp": "レストランはすでに予約してある？",
+          "vi": "Nhà hàng đã đặt chỗ sẵn chưa?"
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "すでに＋～た／～ている／～てある"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "宿題をすでにやってしまった。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-03",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:c36f1f0f77",
+      "pattern": "少しずつ／次第に／ますます＋変化",
+      "meaning": "Dần dần / ngày càng (biến đổi)",
+      "meaning_vi": "Biến đổi từng chút / dần dần / ngày càng hơn",
+      "structure": "少しずつ・次第に・ますます＋～くなる・増える・やせる…",
+      "usage": "Đi với động từ/tính từ biểu thị sự thay đổi.",
+      "adverbs": [
+        "少しずつ",
+        "次第に",
+        "ますます"
+      ],
+      "example_jp": "料理が少しずつ上手になってきた。",
+      "example_vi": "Nấu ăn dần dần khá hơn.",
+      "examples": [
+        {
+          "jp": "料理が少しずつ上手になってきた。",
+          "vi": "Nấu ăn dần dần khá hơn."
+        },
+        {
+          "jp": "午後から次第に天気は回復してきました。",
+          "vi": "Từ chiều thời tiết dần hồi phục."
+        },
+        {
+          "jp": "ますます暖かくなってきています。",
+          "vi": "Trời ngày càng ấm hơn."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "少しずつ／次第に／ますます＋変化"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "料理が少しずつ上手になってきた。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-04",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:84416770cf",
+      "pattern": "そのうち／今に＋動きの動詞",
+      "meaning": "Chẳng bao lâu nữa / rồi sẽ…",
+      "meaning_vi": "Chẳng mấy chốc / rồi sẽ (diễn biến)",
+      "structure": "そのうち・今に＋動きを表わす動詞",
+      "usage": "Dự đoán sự việc sẽ xảy ra trong tương lai gần.",
+      "adverbs": [
+        "そのうち",
+        "今に"
+      ],
+      "example_jp": "そのうち事実がわかるだろう。",
+      "example_vi": "Chẳng bao lâu nữa sẽ rõ sự thật thôi.",
+      "examples": [
+        {
+          "jp": "そのうち事実がわかるだろう。",
+          "vi": "Chẳng bao lâu nữa sẽ rõ sự thật thôi."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "そのうち／今に＋動きの動詞"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "そのうち事実がわかるだろう。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "verify_reason": "Bảng ghi 今に nhưng ví dụ kế bên là 今にも…そうだ (mục riêng). Chỉ lấy ví dụ そのうち từ extract.",
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-05",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:bcb6fcf65a",
+      "pattern": "もしかしたら／もしかすると＋～かもしれない／～のではないか",
+      "meaning": "Biết đâu / có lẽ",
+      "meaning_vi": "Biết đâu / có thể là…",
+      "structure": "もしかしたら・もしかすると＋～かもしれない・～のではないか・～のではないだろうか",
+      "usage": "Đưa ra phỏng đoán không chắc chắn.",
+      "adverbs": [
+        "もしかしたら",
+        "もしかすると"
+      ],
+      "example_jp": "もしかしたら明日雨になるかもしれない。",
+      "example_vi": "Biết đâu ngày mai mưa.",
+      "examples": [
+        {
+          "jp": "もしかしたら明日雨になるかもしれない。",
+          "vi": "Biết đâu ngày mai mưa."
+        },
+        {
+          "jp": "もしかすると田村さんが来ないのではないか。",
+          "vi": "Biết đâu anh Tamura không đến thì sao."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "もしかしたら／もしかすると＋～かもしれない／～のではないか"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "もしかしたら明日雨になるかもしれない。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-06",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:402f9e4725",
+      "pattern": "おそらく＋～だろう／～と思う",
+      "meaning": "Chắc là / có lẽ (độ tin khá cao)",
+      "meaning_vi": "Có lẽ / chắc rằng…",
+      "structure": "おそらく＋～だろう・～と思う・～のではないか",
+      "usage": "Phỏng đoán với độ tin tương đối cao.",
+      "adverbs": [
+        "おそらく"
+      ],
+      "example_jp": "この仕事はおそらく私一人でできないだろう。",
+      "example_vi": "Công việc này chắc một mình tôi không làm nổi.",
+      "examples": [
+        {
+          "jp": "この仕事はおそらく私一人でできないだろう。",
+          "vi": "Công việc này chắc một mình tôi không làm nổi."
+        },
+        {
+          "jp": "これはおそらく1000年ぐらい前の皿だと思う。",
+          "vi": "Tôi nghĩ cái đĩa này chắc khoảng 1000 năm trước."
+        },
+        {
+          "jp": "おそらく彼は秘密を隠すのではないだろうか。",
+          "vi": "Chắc anh ấy đang giấu bí mật thì phải."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "おそらく＋～だろう／～と思う"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この仕事はおそらく私一人でできないだろう。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "verify_reason": "Ví dụ 3 extract: 「秘密隠す」— có thể thiếu を.",
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-07",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:82223291e5",
+      "pattern": "どうも＋～ようだ／～らしい",
+      "meaning": "Hình như / có vẻ (cảm nhận)",
+      "meaning_vi": "Hình như / dường như…",
+      "structure": "どうも＋～ようだ・～らしい",
+      "usage": "Nhận định dựa trên cảm nhận/dấu hiệu.",
+      "adverbs": [
+        "どうも"
+      ],
+      "example_jp": "どうも道が間違っているようだ。",
+      "example_vi": "Hình như đang đi nhầm đường.",
+      "examples": [
+        {
+          "jp": "どうも道が間違っているようだ。",
+          "vi": "Hình như đang đi nhầm đường."
+        },
+        {
+          "jp": "彼はどうもこのケーキが好きではないらしい。",
+          "vi": "Hình như anh ấy không thích bánh này."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "どうも＋～ようだ／～らしい"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "どうも道が間違っているようだ。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-08",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:271ed880f8",
+      "pattern": "今にも＋～そうだ",
+      "meaning": "Suýt nữa / sắp… đến nơi",
+      "meaning_vi": "Sắp sửa / gần như sắp xảy ra ngay",
+      "structure": "今にも＋～そうだ",
+      "usage": "Diễn tả việc sắp xảy ra ngay lập tức.",
+      "adverbs": [
+        "今にも"
+      ],
+      "example_jp": "今にも雪が降りそうだ。",
+      "example_vi": "Trông như sắp đổ tuyết đến nơi.",
+      "examples": [
+        {
+          "jp": "今にも雪が降りそうだ。",
+          "vi": "Trông như sắp đổ tuyết đến nơi."
+        },
+        {
+          "jp": "机に置いてある本が今にも落ちそうだ。",
+          "vi": "Quyển sách trên bàn sắp rơi đến nơi."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "今にも＋～そうだ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "今にも雪が降りそうだ。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-09",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:2f1b149138",
+      "pattern": "まるで／ちょうど＋～ようだ／～みたいだ",
+      "meaning": "Cứ như / đúng như",
+      "meaning_vi": "Y như / giống như thể…",
+      "structure": "まるで・ちょうど＋～ようだ・～みたいだ",
+      "usage": "So sánh ví von.",
+      "adverbs": [
+        "まるで",
+        "ちょうど"
+      ],
+      "example_jp": "祖父はまるで子供のようにわがままを言う。",
+      "example_vi": "Ông nội cứ như trẻ con đòi hỏi.",
+      "examples": [
+        {
+          "jp": "祖父はまるで子供のようにわがままを言う。",
+          "vi": "Ông nội cứ như trẻ con đòi hỏi."
+        },
+        {
+          "jp": "宝くじが当たるなんて、まるで夢のようだ。",
+          "vi": "Trúng số ấy cứ như trong mơ."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "まるで／ちょうど＋～ようだ／～みたいだ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "祖父はまるで子供のようにわがままを言う。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": true,
+      "verify_reason": "Bảng có ちょうど nhưng extract không có ví dụ ちょうど riêng trên trang 1.",
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-10",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:0713345a0f",
+      "pattern": "ぜひ／なんとかして＋～てください／～たい／～てほしい",
+      "meaning": "Nhất định / bằng mọi cách (mong muốn mạnh)",
+      "meaning_vi": "Nhất định muốn / cố làm sao để…",
+      "structure": "ぜひ・なんとかして＋～てください・～たい・～てほしい",
+      "usage": "Nhấn mạnh mong muốn hoặc lời mời/khẩn cầu.",
+      "adverbs": [
+        "ぜひ",
+        "なんとかして"
+      ],
+      "example_jp": "ぜひ今度わたしの家に遊びに来てください。",
+      "example_vi": "Lần này nhất định hãy đến chơi nhà tôi.",
+      "examples": [
+        {
+          "jp": "ぜひ今度わたしの家に遊びに来てください。",
+          "vi": "Lần này nhất định hãy đến chơi nhà tôi."
+        },
+        {
+          "jp": "ぜひ君が作った曲を聞きたいです。",
+          "vi": "Tôi rất muốn nghe bài bạn làm."
+        },
+        {
+          "jp": "彼女は結婚しても仕事を続けたいと言っているので、ぜひ続けてほしい。",
+          "vi": "Cô ấy nói muốn tiếp tục làm việc dù đã kết hôn, nên tôi rất muốn cô ấy tiếp tục."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "ぜひ／なんとかして＋～てください／～たい／～てほしい"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ぜひ今度わたしの家に遊びに来てください。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-11",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:f2461ca74f",
+      "pattern": "どうか＋～てください／～てほしい",
+      "meaning": "Xin hãy… (cầu khẩn lịch sự)",
+      "meaning_vi": "Xin hãy / làm ơn…",
+      "structure": "どうか＋～てください・～てほしい",
+      "usage": "Lời cầu xin lịch sự, cảm xúc.",
+      "adverbs": [
+        "どうか"
+      ],
+      "example_jp": "どうかわたしの願いを聞いてください。",
+      "example_vi": "Xin hãy lắng nghe nguyện vọng của tôi.",
+      "examples": [
+        {
+          "jp": "どうかわたしの願いを聞いてください。",
+          "vi": "Xin hãy lắng nghe nguyện vọng của tôi."
+        },
+        {
+          "jp": "いい店を知っていれば、どうか教えてほしい。",
+          "vi": "Nếu biết quán ngon, xin hãy chỉ cho tôi."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "どうか＋～てください／～てほしい"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "どうかわたしの願いを聞いてください。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-12",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:7bb77b2bd5",
+      "pattern": "せっかく＋～のに／～ても／～のだから",
+      "meaning": "Công/đi mất công mà… / đã lỡ… thì",
+      "meaning_vi": "Đã mất công / đã có dịp thì…",
+      "structure": "せっかく＋～のに・～ても／～でも・～のだから",
+      "usage": "Nhấn mạnh công sức/dịp hiếm; thường đi với tiếc nuối hoặc khuyến khích tận dụng.",
+      "adverbs": [
+        "せっかく"
+      ],
+      "example_jp": "せっかく会いに行ったのに、友達はいなかった。",
+      "example_vi": "Đã mất công đến gặp mà bạn không có ở đó.",
+      "examples": [
+        {
+          "jp": "せっかく会いに行ったのに、友達はいなかった。",
+          "vi": "Đã mất công đến gặp mà bạn không có ở đó."
+        },
+        {
+          "jp": "せっかく歌っても、誰にも聞いてくれない。",
+          "vi": "Dù đã cố hát, chẳng ai nghe."
+        },
+        {
+          "jp": "せっかく温泉に来たのだから、のんびりしたい。",
+          "vi": "Đã lỡ đến onsen rồi thì muốn thong thả."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "せっかく＋～のに／～ても／～のだから"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "せっかく会いに行ったのに、友達はいなかった。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-13",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:e893357d3a",
+      "pattern": "もしも／万一／万が一＋～ば／～たら／～なら／～場合は",
+      "meaning": "Nếu như / phòng khi (giả định)",
+      "meaning_vi": "Nếu chẳng may / phòng trường hợp…",
+      "structure": "もしも・万一・万が一＋～ば・～たら・～なら・～場合は・～ても",
+      "usage": "Giả định, đặc biệt tình huống ít xảy ra / khẩn cấp.",
+      "adverbs": [
+        "もしも",
+        "万一",
+        "万が一"
+      ],
+      "example_jp": "もしも空飛ぶ車が開発できたら、私たちの生活はどのように変化するのだろう。",
+      "example_vi": "Nếu xe bay được phát triển, cuộc sống chúng ta sẽ đổi ra sao?",
+      "examples": [
+        {
+          "jp": "もしも空飛ぶ車が開発できたら、私たちの生活はどのように変化するのだろう。",
+          "vi": "Nếu xe bay được phát triển, cuộc sống chúng ta sẽ đổi ra sao?"
+        },
+        {
+          "jp": "万一、問題が起こる場合は、連絡してください。",
+          "vi": "Phòng khi có vấn đề, hãy liên lạc."
+        },
+        {
+          "jp": "万が一、道で車の事故を見つけたら、すぐに救急車を呼びましょう。",
+          "vi": "Nếu chẳng may thấy tai nạn trên đường, hãy gọi xe cứu thương ngay."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "もしも／万一／万が一＋～ば／～たら／～なら／～場合は"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "もしも空飛ぶ車が開発できたら、私たちの生活はどのように変化するのだろう。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-14",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:3536c3f3cd",
+      "pattern": "どんなに／いくら／たとえ＋～ても／～でも",
+      "meaning": "Dù cho… đến đâu / cho dù",
+      "meaning_vi": "Dù thế nào / dù có… vẫn…",
+      "structure": "どんなに・いくら・たとえ＋～ても／～でも",
+      "usage": "Nhượng bộ giả định.",
+      "adverbs": [
+        "どんなに",
+        "いくら",
+        "たとえ"
+      ],
+      "example_jp": "どんなにつまらなくても、最後まで見ないと。",
+      "example_vi": "Dù nhàm chán đến đâu cũng phải xem đến hết.",
+      "examples": [
+        {
+          "jp": "どんなにつまらなくても、最後まで見ないと。",
+          "vi": "Dù nhàm chán đến đâu cũng phải xem đến hết."
+        },
+        {
+          "jp": "いくら大変でも、がんばって働きます。",
+          "vi": "Dù vất vả đến mấy cũng cố gắng làm việc."
+        },
+        {
+          "jp": "たとえ反対されても思い通りに進むつもりだ。",
+          "vi": "Cho dù bị phản đối vẫn định làm theo ý mình."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "どんなに／いくら／たとえ＋～ても／～でも"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "どんなにつまらなくても、最後まで見ないと。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    },
+    {
+      "id": "grammar-pho-tu-mau-15",
+      "type": "grammar",
+      "subtype": "adverb_collocation",
+      "level": "N3",
+      "source_file": "PHÓ TỪ ĐI KÈM CÁC MẪU CÂU ĐẶC ĐỊNH.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:074a41e777",
+      "pattern": "ただ＋～だけ",
+      "meaning": "Chỉ / đơn giản chỉ là…",
+      "meaning_vi": "Chỉ … thôi",
+      "structure": "ただ＋～だけ",
+      "usage": "Nhấn mạnh giới hạn phạm vi.",
+      "adverbs": [
+        "ただ"
+      ],
+      "example_jp": "ただ君と約束を守りたいだけなんだ。",
+      "example_vi": "Tôi chỉ muốn giữ lời hứa với cậu thôi.",
+      "examples": [
+        {
+          "jp": "ただ君と約束を守りたいだけなんだ。",
+          "vi": "Tôi chỉ muốn giữ lời hứa với cậu thôi."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "ただ＋～だけ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ただ君と約束を守りたいだけなんだ。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Phó từ đi kèm mẫu câu cố định (第24課)."
+    }
+  ]
+}

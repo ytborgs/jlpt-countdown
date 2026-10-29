@@ -1,0 +1,1926 @@
+{
+  "schema_version": "1.0",
+  "document_id": "dokkai-n3-pilot",
+  "type": "practice",
+  "level": "N3",
+  "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+  "source_path": "study-materials/115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+  "title": "Đọc hiểu N3 — pilot ngắn (短文)",
+  "page_count": 197,
+  "item_count": 50,
+  "expected_item_count": 250,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-28T16:38:12.552644+00:00",
+  "producer": "n3-study-extractor/l3-dokkai-pilot",
+  "status": "partial",
+  "needs_verify_count": 0,
+  "notes": [
+    "Pilot L3: schema reading_comprehension_mcq (passage_jp + stem + choices).",
+    "Đáp án từ trang 解答 sách (official_answer_key).",
+    "短文 section complete: 50 short-passage items."
+  ],
+  "answer_key_short_passage": {
+    "1": 4,
+    "2": 3,
+    "3": 1,
+    "4": 2,
+    "5": 3,
+    "6": 4,
+    "7": 2,
+    "8": 2,
+    "9": 1,
+    "10": 3,
+    "11": 2,
+    "12": 4,
+    "13": 2,
+    "14": 3,
+    "15": 1,
+    "16": 3,
+    "17": 4,
+    "18": 3,
+    "19": 2,
+    "20": 4,
+    "21": 4,
+    "22": 1,
+    "23": 2,
+    "24": 3,
+    "25": 3,
+    "26": 4,
+    "27": 2,
+    "28": 4,
+    "29": 1,
+    "30": 2,
+    "31": 4,
+    "32": 1,
+    "33": 3,
+    "34": 2,
+    "35": 2,
+    "36": 4,
+    "37": 1,
+    "38": 3,
+    "39": 1,
+    "40": 1,
+    "41": 2,
+    "42": 3,
+    "43": 4,
+    "44": 3,
+    "45": 4,
+    "46": 4,
+    "47": 3,
+    "48": 4,
+    "49": 4,
+    "50": 3
+  },
+  "items": [
+    {
+      "id": "dokkai-short-001",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 10,
+      "knowledge_id": "reading:dokkai-short-1",
+      "section": "短文",
+      "no": 1,
+      "passage_jp": "私たちは地球の資源を使い、さまざまな製品を作り出しています。それらの製品の多くは消費され、使い捨てられています。私たちはこれを「ごみ」と呼びますが、このごみの中には再生資源として活用できるものが多いです。\nごみを十分に再利用するためには、ごみを処理する技術の進歩が必要ですが、それとともに大切なのは、家庭でも工場でもみんなが正しく決められたとおりにごみを分けて出すということです。つまり、ごみは資源としてどれほど活用できるかは、私たちの毎日の努力によるのです。",
+      "passage_source": "日検研究所「雑文集」による",
+      "stem_jp": "この文が言いたいことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ゴミを出さないようにしよう。"
+        },
+        {
+          "key": "2",
+          "text_jp": "ゴミを分別しよう。"
+        },
+        {
+          "key": "3",
+          "text_jp": "ゴミを捨てないようにしよう。"
+        },
+        {
+          "key": "4",
+          "text_jp": "ゴミを資源にしよう。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-002",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 11,
+      "knowledge_id": "reading:dokkai-short-2",
+      "section": "短文",
+      "no": 2,
+      "passage_jp": "人を動かし、会社を動かし、社会を動かすには、いい文章が書けなければならない。いい文章とは、必ずしも有名な文章ということではない。うまい文章でなくてもよいが、達意、つまり、自分の考えを十分に伝える文章でなければならない。文章を書くということは、何かを伝えたいということである。自分が伝えたいことが、その文章を読む人に伝わらなければ何にもならない。",
+      "passage_source": null,
+      "stem_jp": "「いい文章」とあるが、筆者はそれをどのようなものと考えているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "主張を相手に伝えるうえ、関心を寄せてもらえる文章"
+        },
+        {
+          "key": "2",
+          "text_jp": "人々を感動させて社会を動かそうとする文章"
+        },
+        {
+          "key": "3",
+          "text_jp": "自分の伝えたいことが相手に十分伝わる文章"
+        },
+        {
+          "key": "4",
+          "text_jp": "有名人が書くような豊かな内容の文章"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-003",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 12,
+      "knowledge_id": "reading:dokkai-short-3",
+      "section": "短文",
+      "no": 3,
+      "passage_jp": "ある言葉の特性を考える場合、他の言語と比較するのが早道です。日本語も日本語そのものを分析しているだけでは、日本語の本当の姿は見えてきません。日本語と英語を比較して、はじめて明らかになる特性もあります。これは文法面に限らず、音声面でも言語活動の面でも同じような比較ができます。このように二つの言語を比較研究することを「対照言語研究」と言います。これによって、二つの言語の共通点の特性もわかるようになります。",
+      "passage_source": "高見澤孟「新・はじめての日本語教育1」askによる",
+      "stem_jp": "「対照言語研究」の目的は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "日本語の特性を研究すること"
+        },
+        {
+          "key": "2",
+          "text_jp": "言語活動を分析すること"
+        },
+        {
+          "key": "3",
+          "text_jp": "日本語を分析すること"
+        },
+        {
+          "key": "4",
+          "text_jp": "文法面での比較をすること"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-004",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 13,
+      "knowledge_id": "reading:dokkai-short-4",
+      "section": "短文",
+      "no": 4,
+      "passage_jp": "マナーとは、自分が接する相手や周囲の人々に対して、不快感を与えないように、思いやりの気持ちや心遣いを表現するためのものです。日本の社会ではさまざまな場面でマナーがありますが、特にビジネスの場面ではマナーが重視されます。これから皆さんがビジネス・パーソンとして仕事をしていくうえで、日本独特の慣習を理解し、マナーを身につけることは、人間関係をスムーズにし、成功への近道となると言えるでしょう。",
+      "passage_source": "海老原恭子等「ビジネスマナーと基本のことば」jaskによる",
+      "stem_jp": "どういう人に対するアドバイスか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "これから大学に入る若い学生"
+        },
+        {
+          "key": "2",
+          "text_jp": "これから日本企業で働く外国人"
+        },
+        {
+          "key": "3",
+          "text_jp": "これから新人を迎える経営者"
+        },
+        {
+          "key": "4",
+          "text_jp": "これから成功を望む会社員"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-005",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 14,
+      "knowledge_id": "reading:dokkai-short-5",
+      "section": "短文",
+      "no": 5,
+      "passage_jp": "大勢の人が集まって議論するのは難しい。意見の違う人同士がぶつかり、時には感情的になって相手の欠点を批判し合う。批判された側も引き下がらず、対立が激しくなる。そんなときは視点を変えて相手の長所を探すことだ。共通点や妥協点を見つけ、冷静に話し合えば結論にたどり着ける。",
+      "passage_source": null,
+      "stem_jp": "「議論」をする上で大切なことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "相手の欠点を批判すること"
+        },
+        {
+          "key": "2",
+          "text_jp": "自分の長所を主張すること"
+        },
+        {
+          "key": "3",
+          "text_jp": "相手の立場に立って考えること"
+        },
+        {
+          "key": "4",
+          "text_jp": "自分の立場を変えないこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-006",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 15,
+      "knowledge_id": "reading:dokkai-short-6",
+      "section": "短文",
+      "no": 6,
+      "passage_jp": "今の世の中には、独り暮らしのお年寄りにちょっと難しい機械が多くあり、これからますます高齢化社会が進む中で考えねばならない問題だと思う。\n例えば、自動券売機が複雑すぎて使えないとか、液晶テレビのリモコンのボタンが多すぎて分かりにくいとか、いろいろあるようだ。\n速くて便利なものを作るのもいいが、お年寄りも簡単に使えるものをもっと作ってくれないかなと思っている。",
+      "passage_source": "日検研究会「雑文集」による",
+      "stem_jp": "筆者は、今の「機械」についてどう言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "速くて便利で、お年寄りにもいい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "初めは難しいが、お年寄りはすぐに慣れる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "複雑すぎて、お年寄りには無理だ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "お年寄りにも簡単に扱えるのがほしい。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-007",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 16,
+      "knowledge_id": "reading:dokkai-short-7",
+      "section": "短文",
+      "no": 7,
+      "passage_jp": "最近、卒業の記念に旅に出る若者が多い。海外へ行く若者の中には、無理な日程のせいで熱を出したり、買い物をしすぎて、借金をしたりする者もいるそうだ。\nだからといって、「最近の若者は困ったものだ」という結論を出すつもりはない。子供のころから大学を出るまでの間に世話になった人たちに、旅先から葉書を出すような若者もいるはずだ。社会に出る前に広い世界を見て、自分と自分の国を外から見つめ直すのはいいことだと思う。",
+      "passage_source": "深谷久美子等「実践日本語シリーズ・動詞」専門教育出版社による",
+      "stem_jp": "筆者は「若者の海外旅行」についてどう考えているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "外国では健康に十分気を付けてほしい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "自分の国を見直す機会にしてほしい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "世話になった人に葉書を出してほしい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "「最近の若者は」と言われないようにしてほしい。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-008",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 17,
+      "knowledge_id": "reading:dokkai-short-8",
+      "section": "短文",
+      "no": 8,
+      "passage_jp": "最近の若い人は、目上の人に対して敬語をあまり使わないように感じる。社会に出てから、苦労するのではないかと心配になる。\n私は、会社では上司に対して敬語を使うのが当然だし、気持ちよくコミュニケーションを図る意味で、同僚や部下にもなるべく敬語で話したほうが良いと思う。\n敬語を使わずに話すと、親しくなれそうだが、社会人としてはどうだろうか。いくら愛想が良くても、敬語を使えなければ周囲の人から距離を置かれることもある。私は今のうちに敬語を身につけたい。",
+      "passage_source": "高校生 枡沢優子「社会人に敬語必須」",
+      "stem_jp": "筆者は、「敬語」についてどう言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "目上の人にだけ使えばよい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "社会人として必要である。"
+        },
+        {
+          "key": "3",
+          "text_jp": "人と親しくなるのに役立つ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "若い人はコミュニケーションとして使う。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-009",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 18,
+      "knowledge_id": "reading:dokkai-short-9",
+      "section": "短文",
+      "no": 9,
+      "passage_jp": "異常な暑さが続いている。こんな猛暑は70年以上生きてきて初めてだ。\n土蔵の整理をしていたら、小学校時代の夏休み日記が出てきた。30度と記されたのは数日しかなかった。それでも30度の日はとても暑かったと記されていた。現在は35度前後が続いている。この原因が少しでも私たち人間にあるのなら、子や孫のために、温暖化防止に真剣に取り組まねばならないと思う。なんとか、夏は風、冬は太陽の恵みを十分に活用して暮らしたいものだ。",
+      "passage_source": "中山秀男氏の文より",
+      "stem_jp": "この文のタイトルとして最も正しいのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "温暖化防止"
+        },
+        {
+          "key": "2",
+          "text_jp": "少年時代の夏"
+        },
+        {
+          "key": "3",
+          "text_jp": "70年ぶりの暑さ"
+        },
+        {
+          "key": "4",
+          "text_jp": "子どもと孫"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-010",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 19,
+      "knowledge_id": "reading:dokkai-short-10",
+      "section": "短文",
+      "no": 10,
+      "passage_jp": "食中毒の発生しやすい季節がやって来た。そこで気になるのが食品の賞味期限だ。店内では期限を守って陳列されていると思って安心して買った食品でも、うっかり冷蔵庫に置き忘れてしまい、あわてて賞味期限の確認をすることがある。\nしかし、私のような高齢者にとっては、賞味期限が記された文字は小さくて見づらく、袋の表裏、上下、左右といらいらして探すことも多い。なぜ大切な表示が目立たないようになっているのだろうか。メーカーに、どの食品も一目で分かるように表示してほしい。",
+      "passage_source": "坂井靖子氏の文より",
+      "stem_jp": "筆者は「賞味期限」について、どうしてほしいと言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "表示する位置を決める。"
+        },
+        {
+          "key": "2",
+          "text_jp": "陳列する場所を決める。"
+        },
+        {
+          "key": "3",
+          "text_jp": "文字を大きくする。"
+        },
+        {
+          "key": "4",
+          "text_jp": "色で表示する。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-011",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 20,
+      "knowledge_id": "reading:dokkai-short-11",
+      "section": "短文",
+      "no": 11,
+      "passage_jp": "最近、街を見回すと、痩せた女性が増えた気がする。私も体形が気になり始め、ダイエットに挑戦してみた。\n食事量を減らすと確かに体重は減った。しかし、体がだるくて、授業中の集中力もなくなった。風邪を引くことも増えた。体が心配になり、しっかりご飯を食べるようにすると、体調はすぐに回復した。\n高校生の私でも体を壊しかけたのに、最近は成長期の小学生でさえダイエットをしていると聞く。そんな小学生が私の年齢になった時、どうなるのか不安だ。",
+      "passage_source": "井沢悠「ダイエット　体だるく」による",
+      "stem_jp": "「どうなるのか不安だ」とあるが、どういうことが「不安」になるのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ご飯を食べないこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "体調を崩すこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "太っていくこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "痩せてくること"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-012",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 21,
+      "knowledge_id": "reading:dokkai-short-12",
+      "section": "短文",
+      "no": 12,
+      "passage_jp": "先日、33回目の結婚記念日を迎え、夫婦で大好きなドライブに出かけた。特に楽しいのは、車中でのおしゃべりだ。自宅では、テレビを見たり、食事をしたりしながらの会話となりがちだ。車中では2人きりで、会話そのものに集中できる。子供や孫のこと、仕事や老後のことなど、話は尽きない。ゆとりがあるせいか、互いの考えも素直に受け入れることができる。",
+      "passage_source": "三輪正子「記念日ドライブ　夫婦で会話楽しむ」による",
+      "stem_jp": "この文のテーマとして、一番適当なものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "大好きなドライブ"
+        },
+        {
+          "key": "2",
+          "text_jp": "ゆとりある暮らし"
+        },
+        {
+          "key": "3",
+          "text_jp": "仕事や老後のこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "車中でのおしゃべり"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-013",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 22,
+      "knowledge_id": "reading:dokkai-short-13",
+      "section": "短文",
+      "no": 13,
+      "passage_jp": "プロ野球の観戦をしていた時のことです。応援していたチームの選手がエラーをしてしまいました。すると、相手チームを応援していた人が「お前に捕れるわけないだろ！」とヤジを飛ばしていました。\nぼくも野球をやっていますが、何より言われた人が一番傷つくはずです。マナーを守らない人も嫌です。スポーツが好きなら、そういうことはやめてもらいたいと思います。",
+      "passage_source": "渡辺悠太郎「観戦はマナー守って」",
+      "stem_jp": "「そういうこと」とは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "選手がエラーをすること"
+        },
+        {
+          "key": "2",
+          "text_jp": "応援の人がヤジを飛ばすこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "野球のルールを知らないこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "マナーを守らないこと"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-014",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 23,
+      "knowledge_id": "reading:dokkai-short-14",
+      "section": "短文",
+      "no": 14,
+      "passage_jp": "私の学校にオーストラリアの姉妹校から生徒26人が研修に訪れ、1人の女子生徒が我が家にホームステイしました。同年齢で1週間、一緒に通学しました。彼女は、街中に自動販売機がたくさんあることや犬に服を着せて散歩させていることなどに関心を持ちました。私が見ている当たり前の風景が外国人には興味深いことであると分かりました。\n彼女と過ごしたことで、文化の異なる世界の国をもっと知りたいと思いました。",
+      "passage_source": "竹村琴音「文化の違い 面白い」による",
+      "stem_jp": "外国人から見た日本はどんな日本か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "便利な国"
+        },
+        {
+          "key": "2",
+          "text_jp": "優しい国"
+        },
+        {
+          "key": "3",
+          "text_jp": "異文化の国"
+        },
+        {
+          "key": "4",
+          "text_jp": "技術の国"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-015",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 24,
+      "knowledge_id": "reading:dokkai-short-15",
+      "section": "短文",
+      "no": 15,
+      "passage_jp": "高校生の兄が1月にバイク事故に遭って、5か月ほど入院した。死んでいたかもしれない大きな事故だったが、その時、僕は、何とも思わなかった。僕のことをすぐ怒り、手を上げる兄が、とても嫌いだったからだ。\n少したってから何となく寂しくなり、家の中は、静かになっていった。兄が家にいなくなってはじめて、家族の大切さに気付いた。僕にとって、家族の存在は、とても大きいと思った。",
+      "passage_source": "石川睦「兄弟の大切さ気付く」",
+      "stem_jp": "なぜ「何とも思わなかった」のか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "兄が嫌いだったから"
+        },
+        {
+          "key": "2",
+          "text_jp": "兄のけがが軽かったから"
+        },
+        {
+          "key": "3",
+          "text_jp": "兄が静かな人だったから"
+        },
+        {
+          "key": "4",
+          "text_jp": "兄のほかに兄がいたから"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-016",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 25,
+      "knowledge_id": "reading:dokkai-short-16",
+      "section": "短文",
+      "no": 16,
+      "passage_jp": "私は古里の新潟県・佐渡へ年に数回、帰省しています。その際、港から乗るバスでは、下校中の小学生とよく一緒になります。子どもたちは、バスを降りるとき、必ず運転手さんに「ありがとうございました」とお辞儀をします。運転手さんも「ありがとう」と言葉を返します。\n子どもたちは、横断歩道では、止まってくれた車に向かっておじぎをし、渡り終わるとまた、おじぎをしていました。\n本当に温かく、うれしい気持ちになります。",
+      "passage_source": "萩原照子氏の文より",
+      "stem_jp": "筆者は何を言いたいのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "地方の人は明るく暖かい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "あいさつする小学生は礼儀正しい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "お互いを思いやる気持ちを大切にしよう。"
+        },
+        {
+          "key": "4",
+          "text_jp": "みんなで交通ルールを守ろう。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-017",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 26,
+      "knowledge_id": "reading:dokkai-short-17",
+      "section": "短文",
+      "no": 17,
+      "passage_jp": "最近、車体一面に広告を描いたバスをよく見かけます。デザインや色彩が派手すぎるものもあり、私のように不快感や圧迫感を抱きながら利用する人もいるのではないでしょうか。街中を走り回るバスはPR効果が高く、企業が期待するのは分かります。ただ余りに過剰だと、街の景観に合わないことだし、決してプラスにはならないと思います。\n街の景観とよく調和した広告と幅広く市民に愛されるバスになってほしいと思うからです。",
+      "passage_source": "峯尾賢一「派手な広告バス　景観壊し不快」",
+      "stem_jp": "「プラスにはならない」とあるが、ここの「プラス」はどういうことか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "街の中で目立つこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "街の風景に調和すること"
+        },
+        {
+          "key": "3",
+          "text_jp": "利用者が楽しむこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "企業のＰＲになること"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-018",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 27,
+      "knowledge_id": "reading:dokkai-short-18",
+      "section": "短文",
+      "no": 18,
+      "passage_jp": "我が家では、夫婦で毎日3回の食事に何を食べたか、献立をノートに書き留めています。これは、漢字を忘れないためでもあります。お互い、なるべく漢字を使うようにして、分からない字は辞書を引くようにしています。朝食や昼食を書き忘れ、夜になって思い出せない時は、夫のをカンニングすることたまにあります。\n新聞で夫が読めない漢字を私が読めた時は、「やったー」と心の中で喜んでいます。認知症予防にもつながると期待しつつ、頑張って書き続けています。",
+      "passage_source": "木村和子「夫婦で献立つづる　漢字忘れないコツ」",
+      "stem_jp": "この夫婦にとって漢字を忘れないコツは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "夫婦で読めない漢字を教え合う。"
+        },
+        {
+          "key": "2",
+          "text_jp": "相手のをカンニングする。"
+        },
+        {
+          "key": "3",
+          "text_jp": "できるだけ多くの漢字を使って毎日の献立を記録する。"
+        },
+        {
+          "key": "4",
+          "text_jp": "漢字の勉強を通して、認知症予防につなげる。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-019",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 28,
+      "knowledge_id": "reading:dokkai-short-19",
+      "section": "短文",
+      "no": 19,
+      "passage_jp": "間違えて近くの大型スーパーに開店1時間前に着いてしまった時のことです。\n見ていると、従業員専用の出入り口から、数十人出てきました。皆、手には袋を持ち、敷地の外に出ると、黙々と道路のゴミを拾い始めました。\nこうした活動があったからこそ、きれいな外観が保たれているのでしょう。\n店の外にも気を配る従業員の方の清掃活動を見て、家の周りの掃除で自宅の敷地外は誰かがやるだろうと、つい見て見ぬふりをしていた自分が少し恥ずかしくなりました。",
+      "passage_source": "浜畑和代「敷地外もきれいに　見習うべき気配り」による",
+      "stem_jp": "「自分が少し恥ずかしくなりました」とあるが、筆者は何が「恥ずかしい」のか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "時間を間違えて、スーパーに行ったこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "家の前の通りを掃除しなかったこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "スーパー従業員が仕事を始めていたこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "家の前の通りを掃除した人を知らなかったこと"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-020",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 29,
+      "knowledge_id": "reading:dokkai-short-20",
+      "section": "短文",
+      "no": 20,
+      "passage_jp": "山の頂上近くにある我が家は、自然がいっぱいだ。そのせいか、家を建てた30年ほど前から、ヤモリ「家守」が住み着いている。最近は数が増えている。\n最初に見たときは、びっくりしたが、特に悪さはしないし、動作がかわいらしかった。「家を守ってくれる」との言い伝えを信じ、長い間大事に見守ってきた。\n虫好きの孫はヤモリも好きなようで、楽しそうに見ている。外のガラス窓に張り付いているヤモリは、家族団らんにもってこいの宝物だ。",
+      "passage_source": "小沢ツチノ氏の文より、一部改",
+      "stem_jp": "この家ではどうしてヤモリを大事に見守ってきたのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "建物を守ってくれるから"
+        },
+        {
+          "key": "2",
+          "text_jp": "人の命を守ってくれるから"
+        },
+        {
+          "key": "3",
+          "text_jp": "美しい自然を作ってくれるから"
+        },
+        {
+          "key": "4",
+          "text_jp": "我が家を和ませてくれるから"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-021",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 30,
+      "knowledge_id": "reading:dokkai-short-21",
+      "section": "短文",
+      "no": 21,
+      "passage_jp": "待望の孫が生まれました。お出かけ用のマントやベストを編んであげようと思い、寸法などを調べるための本を図書館で借りてきました。本を開くと、落書きしてあったり、ページが折られたりしており、とてもショックを受けました。\n図書館の本は、みんなが利用するものです。どうしても必要な部分は、コピーできると思います。公共のものは、みんなが気持ちよく利用できるようにすることが大切です。最低限のエチケットは守ってほしいと思います。",
+      "passage_source": "霜田玲子氏の文より",
+      "stem_jp": "筆者の言いたいのに合っているのは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "必要なところはコピーして読んでほしい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "他の人も利用するのだから、家に持ち帰らないでほしい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "実用的な本は本屋でだけ買ってほしい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "エチケットを守り、図書館の本を大切にしてほしい。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-022",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 31,
+      "knowledge_id": "reading:dokkai-short-22",
+      "section": "短文",
+      "no": 22,
+      "passage_jp": "京都駅ビルでのことです。手押し車で歩くおばあさんが手動のドアを開けようと苦労しているのを目にしました。私はとっさにドアを開けてあげました。\nおばあさんは「あなたのような方がたくさんいれば、日本はもっとよくなる」と言い、私を優しく抱きしめてくれました。ほんの少し優しさがあれば、みんなで助け合い、気持ちよく生活できることを身をもって実感しました。\n来春、社会人になる予定です。社会に出ても、優しさであふれる日本を作る一員になろうと心に誓いました。",
+      "passage_source": "吉村優氏の文より",
+      "stem_jp": "この人はこれから何を目指したいと言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "優しさのあふれる日本にしたい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "豊かで平和な日本にしたい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "老人の住みやすい社会にしたい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "若者として老人を大切にしたい。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-023",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 32,
+      "knowledge_id": "reading:dokkai-short-23",
+      "section": "短文",
+      "no": 23,
+      "passage_jp": "登下校中、制服をわざと着崩した学生をよく見かけます。シャツの第1ボタンを外し、スカート丈をとても短くしていますが、私は制服を着崩すことに反対です。人から見て気持ちのよいものではなく、だらしなく見えるからです。そんな格好をしている友人は「流行だし、涼しくていい」と言っていましたが、自分がよければそれでいいという考えには賛成できません。\n制服をきちんと着ることで、気持ちが引き締まり、よい一日のスタートを切ることができます。また、服装にはその人の人柄が表れると思います。",
+      "passage_source": "寺地美歩氏の文より",
+      "stem_jp": "この人の服装に対する考え方と違うものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "人が見るものだから、気を付ける。"
+        },
+        {
+          "key": "2",
+          "text_jp": "個性の表れだから、自由にすればいい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "人柄を表すものだから、きちんとする。"
+        },
+        {
+          "key": "4",
+          "text_jp": "その日の気分に影響するから整える。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-024",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 33,
+      "knowledge_id": "reading:dokkai-short-24",
+      "section": "短文",
+      "no": 24,
+      "passage_jp": "私は、生まれつき足に障害があり、普段は車いすで生活しています。車いすからだと、友だちの目には映っているものが、私には見えないことがよくあります。それが、とても嫌で仕方がありませんでした。\nでも、大学生になって、考えが少し変わりました。車いすで道を歩いていると、素通りされてしまう小さな花を見つけることもできるのです。友だちが見ることができない世界もあるのではないかと思っています。地上1メートルの世界も悪くないです。",
+      "passage_source": "石田江里氏の文より",
+      "stem_jp": "この文のタイトルとして一番適当なものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "車いすの生活"
+        },
+        {
+          "key": "2",
+          "text_jp": "友だちの世界"
+        },
+        {
+          "key": "3",
+          "text_jp": "地上1メートルの世界"
+        },
+        {
+          "key": "4",
+          "text_jp": "目に見えない世界"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-025",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 34,
+      "knowledge_id": "reading:dokkai-short-25",
+      "section": "短文",
+      "no": 25,
+      "passage_jp": "この春から、幼稚園年中組にいる次女のPTAでクラス委員をやっている。クラス委員は1クラス4人。私がやるのは、長女の時も含めると、もう5回目だ。\nこれまで、ほかのクラスの委員などとの連絡はメールで行なっていたが、今後はできるだけ会って話そうということになり、3回ほど昼食を兼ねて話をしました。メールの言葉遣いや表現で誤解を招いたり、不快に思われたりしたことがあったからだ。\n携帯電話の普及で電話やメールが便利になったが、会って話すことも大切だと感じた。",
+      "passage_source": "矢野加代子氏の文より",
+      "stem_jp": "女の人が「昼食を兼ねた」話し合いを持った理由は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "会話が楽しくなるから"
+        },
+        {
+          "key": "2",
+          "text_jp": "メールでの連絡をやめたから"
+        },
+        {
+          "key": "3",
+          "text_jp": "メールでは正しく伝わらないから"
+        },
+        {
+          "key": "4",
+          "text_jp": "5回も委員をしているから"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-026",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 35,
+      "knowledge_id": "reading:dokkai-short-26",
+      "section": "短文",
+      "no": 26,
+      "passage_jp": "髪を染めている人が本当に多くなったと感じる。私は染めていないのだが、生まれつき、日に当たると茶色に見える髪なので、染めているように見られることがある。\n高校では髪を染めてはいけないと校則で決まっていた。先生が「染めているのか」と聞いてきたことがあり、とても不愉快な思いをした。\n先生にしてみれば、何気なく言ったのだろうが、私は髪を染めている人を見るとそのことを思い出す。教師のひと言は生徒にとって時には一生忘れられないひと言になるのだ。",
+      "passage_source": "山本真美氏の文より",
+      "stem_jp": "筆者は先生に聞かれたことにどんな気持ちを持っていたか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "力づよく感じた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "心細く感じた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "幸せに感じた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "不愉快に感じた。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-027",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 36,
+      "knowledge_id": "reading:dokkai-short-27",
+      "section": "短文",
+      "no": 27,
+      "passage_jp": "夏休みに故郷に帰った。帰る目的は、4月に重い病気で倒れ、今も入院中の祖父の見舞いだった。祖父はとても痩せて、呼びかけても、こちらを見るのがやっとの状態で、胸が痛んだ。\n私は、祖父母に世話になって育った。祖父母のおかげで、幼い頃、寂しい思いをせず、また、さまざまなことを学べた。現在、日本の世帯の多くが核家族というが、私は、親と一緒に子育てをしたい。子どもには、自分のように、祖父母の愛を受けて育ってほしいからだ。",
+      "passage_source": "牧田悠平「学びたい3世代家族」による",
+      "stem_jp": "筆者は「核家族」についてどういう考えを持っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "住宅事情があるからやむをえない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "子どもにとって望ましいことではない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "家族は親子だから当然だ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "祖父母が寂しがるから好ましくない。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-028",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 37,
+      "knowledge_id": "reading:dokkai-short-28",
+      "section": "短文",
+      "no": 28,
+      "passage_jp": "大学の講義の中間休みに、学生が先生に「わかんないから教えて」と話しかける時がある。友だちと話すような言葉遣いで、失礼ではないかと感じる。\nアルバイト先の店でも客に対し、ぞんざいな話し方をする学生がいる。\n最近の若者は敬語を知らないとよく批判されるが、これでは無理もないだろう。同じ年代の者として残念に思う。\n言葉遣いは学生の間に磨かなければ、社会人になった時、（　　）思いをするだろう。",
+      "passage_source": "土屋寛子「敬語使えない若者　言葉遣い磨くべき」による",
+      "stem_jp": "（　　）に入るのに一番適当なものは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "うれしい"
+        },
+        {
+          "key": "2",
+          "text_jp": "なつかしい"
+        },
+        {
+          "key": "3",
+          "text_jp": "くるしい"
+        },
+        {
+          "key": "4",
+          "text_jp": "はずかしい"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-029",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 38,
+      "knowledge_id": "reading:dokkai-short-29",
+      "section": "短文",
+      "no": 29,
+      "passage_jp": "今、私の住んでいる都市は毎晩、地上の光が明るくて夜空の暗さが足りない。そのため、星はたった一つ見えるだけだ。きらめく満天の星々は全然見えない。私の生まれた故郷では、澄み切った夜空に星のきらめきがはっきり見える。昔の子どもたちは空の星を眺め、夜の自然を感じてきた。今、見上げる夜空のない子どもはどうすればいいのだろう。\n都市の子どもたちが見上げる夜空にもきらめく星が見られるように、なんとかしてくれないかと祈っている。",
+      "passage_source": "日検研究会「雑文集」による",
+      "stem_jp": "この人が「祈っている」ことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "地上の明かりを減らすこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "子どもを故郷に戻すこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "空気をきれいにすること"
+        },
+        {
+          "key": "4",
+          "text_jp": "夜空を明るくすること"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-030",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 39,
+      "knowledge_id": "reading:dokkai-short-30",
+      "section": "短文",
+      "no": 30,
+      "passage_jp": "私は歌うことが大好きだ。3年前、いとこの結婚式で、歌をプレゼントした。特別、歌の才能があるわけではないが、いとこや親類、祖父母の目に涙があふれ、真剣に聞いてくれているのが分かった。この時、音楽が持つ力のすごさや、可能性を実感した。\n今は大学で看護の勉強をしている。近年、音楽療法などが注目されているが、病室にもっと音楽が流れてもいいと思う。私もいつか患者さんと歌ったりする楽しみを分かち合えればいいなと思いながら、日々、努力している。",
+      "passage_source": "佐藤瞳「音楽で癒したい」による",
+      "stem_jp": "この人はどういう人か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "歌が好きで、歌手になろうと思っている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "音楽を生かした看護の仕事をしようと思っている。"
+        },
+        {
+          "key": "3",
+          "text_jp": "親類祖父母の喜ぶ歌を作ろうと思っている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "医者になり、患者と一緒に歌おうと思っている。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-031",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 40,
+      "knowledge_id": "reading:dokkai-short-31",
+      "section": "短文",
+      "no": 31,
+      "passage_jp": "ようやく過ごしやすい季節になりました。最近のことですが、朝起きて窓を開けると、キンモクセイの香りが部屋の中に漂ってきました。\n私は、朝起きるのがとても苦手です。しかし、キンモクセイの香りは、私の朝の唯一の楽しみになりました。私は朝起きるのが好きになりました。空はきれいだし、生きているんだなと感じることもできます。これまで、どうして毎朝、きれいな空と花の香りに包まれながら起きられなかったのか、もったいない思いがしています。",
+      "passage_source": "塚田萌絵「朝起き　楽しみに」による",
+      "stem_jp": "この人が朝起きるようになったのはなぜか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "朝寝坊を反省したから"
+        },
+        {
+          "key": "2",
+          "text_jp": "キンモクセイの夢を見たから"
+        },
+        {
+          "key": "3",
+          "text_jp": "生きていると感じたから"
+        },
+        {
+          "key": "4",
+          "text_jp": "窓を開け、キンモクセイの香りをかいたから"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-032",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 41,
+      "knowledge_id": "reading:dokkai-short-32",
+      "section": "短文",
+      "no": 32,
+      "passage_jp": "少し前までは、電車やバスで席を譲られることに抵抗を感じていた。眠っていたり、本を読んだりする人の前に立つようにしていた。\nそれが、最近は席を譲ってくれる人が増えてきた。70歳の自分では、いつでも若いつもりでいても、周りの人から見ればやはり高齢者に違いないのだろう。\n若い時は、年齢を重ねることに幸せを感じるとは想像もしなかった。感謝の気持ちを素直に表現し、座れるようになったのは「老い」を受け入れられた証しだと思う。",
+      "passage_source": "河内ふみ子「席を譲られたら素直に」",
+      "stem_jp": "筆者はどうして席を譲られることに抵抗を感じたのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "人には高齢者と思われたくなかったのだ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "前の人が眠っていたり、本を読んだりしているから。"
+        },
+        {
+          "key": "3",
+          "text_jp": "譲ってくれる人が自分と同じぐらいの人なのだ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "感謝の気持ちがすなおに表現できないから。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-033",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 42,
+      "knowledge_id": "reading:dokkai-short-33",
+      "section": "短文",
+      "no": 33,
+      "passage_jp": "大学生の娘がファミリーレストランで働いている。お客さんを相手にする仕事は経験がなく、始めのころは緊張していたようだ。\nある時、娘は1人の注文をメモに取り忘れてしまい、お客様に謝ったそうだ。ところが、その方は「お仕事、大変だけど、自信を持ってください」と逆に励ましてくれた。数ヵ月後、その方は来店し、「お仕事に慣れましたか」と声を掛けてくれたそうだ。優しい心遣いがありがたかったと、娘は喜んでいた。\n娘は社会で働くことを通して、いろいろな経験を学んでいる。",
+      "passage_source": "山田弘美氏の文より",
+      "stem_jp": "この文のタイトルとして一番正しいのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ミスしてしかられた"
+        },
+        {
+          "key": "2",
+          "text_jp": "ミスしてほめられた"
+        },
+        {
+          "key": "3",
+          "text_jp": "ミスして励まされた"
+        },
+        {
+          "key": "4",
+          "text_jp": "ミスして自信を持った"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-034",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 43,
+      "knowledge_id": "reading:dokkai-short-34",
+      "section": "短文",
+      "no": 34,
+      "passage_jp": "私は若いうちにたくさんの本を読むようにしたほうがいいと思います。最初は読む時間がもったいないと思っていましたが、小学6年生の時に祖母が買ってくれた小学生向け文庫本を読んで考え方が変わりました。字が大きく、挿絵もたくさんあって、楽しく読むことができたのです。\n映像や音がないから、本はつまらないと思うかもしれません。でも、登場人物や場所が自分の好きなように想像できます。想像力がない人が多いと聞きますが、それは本を読まないからだと思います。",
+      "passage_source": "小川諒子「若いうちに読書を」による",
+      "stem_jp": "「最初は読む時間がもったいないと思っていました」とあるが、この人はどうして「もったいない」と思ったのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "小学6年生だったから"
+        },
+        {
+          "key": "2",
+          "text_jp": "映像や音がないから"
+        },
+        {
+          "key": "3",
+          "text_jp": "登場人物が少ないから"
+        },
+        {
+          "key": "4",
+          "text_jp": "文庫本だったから"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-035",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 44,
+      "knowledge_id": "reading:dokkai-short-35",
+      "section": "短文",
+      "no": 35,
+      "passage_jp": "最近、10代の若者が自殺するというニュースをよく耳にするようになり、胸を痛めています。\n実は、私も10代の頃、自殺を考えたことがありました。小学6年の時に母を亡くし、親戚に預けられました。そして、いじめにも遭い、苦しい毎日を送っていたからです。けれども、私は、「絶望のとなり」という詩に出会い、絶望の隣には希望があると知ってから、「きっと明日はいいことがある」と、希望を抱くようになりました。\nどんな苦しい毎日の中にも希望はあるはずだとみなさんに言いたいです。",
+      "passage_source": null,
+      "stem_jp": "筆者が自殺を図ろうとする人に言いたいのは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "「お母さんが悲しむよ」"
+        },
+        {
+          "key": "2",
+          "text_jp": "「希望を見失わないでください」"
+        },
+        {
+          "key": "3",
+          "text_jp": "「一人で悩まないでね」"
+        },
+        {
+          "key": "4",
+          "text_jp": "「隣に友だちがいるじゃない」"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-036",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 45,
+      "knowledge_id": "reading:dokkai-short-36",
+      "section": "短文",
+      "no": 36,
+      "passage_jp": "横浜市内で行なわれた炊き出しボランティアに学校の先生、旧友とともに参加した。\nその場所には簡易宿泊所が多く、ホームレスの人もたくさんいる。最初は参加するのが少し怖かったけれど、私が間違いだったと気が付いた。雑炊を配っていると、たくさんの人が「ありがとう」と言ってくれたり、頭を下げてくれたりした。私は嬉しくなり、やりがいも感じた。\nかつての私のように、ホームレスの人に偏見を持っている人には、そうでないことを知ってほしいと思った。",
+      "passage_source": "福田佳奈氏の文より",
+      "stem_jp": "「少し怖かった」とあるが、この人はどうして「怖かった」と思っていたか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ホームレスの数が多かったから"
+        },
+        {
+          "key": "2",
+          "text_jp": "ホームレスは家庭を持っていないから"
+        },
+        {
+          "key": "3",
+          "text_jp": "ホームレスは知らない人だから"
+        },
+        {
+          "key": "4",
+          "text_jp": "ホームレスに偏見を持っていたから"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-037",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 46,
+      "knowledge_id": "reading:dokkai-short-37",
+      "section": "短文",
+      "no": 37,
+      "passage_jp": "サラリーマン時代、約7年間の単身赴任を経験した。新幹線を利用して千葉県の自宅に戻るのは金曜の夜。勤め先に行くのは月曜早朝だった。どの車両にも、私のような単身赴任者が乗っていた。黒っぽいかばんを持ち、特に月曜朝の車内では寝ているので分かる。\n悲しいことには、単身赴任者が大勢いる車両に、元気いっぱいで大きな声でしゃべる観光客も乗っていた。職場に向かう前夜はぐっすり眠れないことがあり、少しでも車内で眠りたいのに…。あまりいい思い出ではなかった。",
+      "passage_source": "中島一浩氏の文より",
+      "stem_jp": "何についての文章か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "単身赴任の苦労"
+        },
+        {
+          "key": "2",
+          "text_jp": "単身赴任のおもしろみ"
+        },
+        {
+          "key": "3",
+          "text_jp": "新幹線車内の観光客"
+        },
+        {
+          "key": "4",
+          "text_jp": "新幹線車内のサラリーマン"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-038",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 47,
+      "knowledge_id": "reading:dokkai-short-38",
+      "section": "短文",
+      "no": 38,
+      "passage_jp": "玉ねぎはユリ科ネギ属の野菜である。高さ約50センチで、地下の鱗茎は球形または偏球形で、葉や茎は管状である。秋、白い小花が集まって球状に咲く。ペルシアの原産で、明治の初めに日本に渡来した。\n玉ねぎの中に「アリシン」という成分が入っている。アリシンは常温で空気中に出て行く性質があり、玉ねぎを切るときに飛び出す。そして、呼吸したりするときに体の中に入ってきて、涙を出させるのである。",
+      "passage_source": null,
+      "stem_jp": "「アリシン」はどういうものか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "栄養分である。"
+        },
+        {
+          "key": "2",
+          "text_jp": "味見である。"
+        },
+        {
+          "key": "3",
+          "text_jp": "涙を出させる元である。"
+        },
+        {
+          "key": "4",
+          "text_jp": "熱を出させる元である。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-039",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 48,
+      "knowledge_id": "reading:dokkai-short-39",
+      "section": "短文",
+      "no": 39,
+      "passage_jp": "メロンの実の主成分はショ糖、ブドウ糖、果糖などの糖類とカリウム。果肉には、食物繊維のペクチンが多い。赤肉メロンの場合カロテンが多い。また、スイカと同様に水分が多いウリ科の植物であり、体内の塩分（ナトリウム）を分解させるカリウムが多く含まれ、腎臓病や高血圧の予防・体内温度を下げる成分も含まれており、夏バテによる食欲不振の予防にも効果的である。また、解毒作用もあり、リューマチや神経痛の痛みやしびれの予防にも効果的である。",
+      "passage_source": null,
+      "stem_jp": "上の説明文の主題は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "メロンの成分・効能"
+        },
+        {
+          "key": "2",
+          "text_jp": "メロンの品種・利用"
+        },
+        {
+          "key": "3",
+          "text_jp": "メロンの特徴・分類"
+        },
+        {
+          "key": "4",
+          "text_jp": "メロンの分布・栽培"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-040",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 49,
+      "knowledge_id": "reading:dokkai-short-40",
+      "section": "短文",
+      "no": 40,
+      "passage_jp": "これは白亜紀（約1億4400万年前～6500万年前）の恐竜の復元図です。\n前足は小さく尾が長いのが特徴で、体長は約10メートルもあります。その小さな前足に比べて、後ろ足はよく発達しています。\n恐竜には大きく分けると、肉食竜と草食竜がありますが、これは肉食竜です。脳を見ると、ほかの恐竜より比較的大きく、知能が発達していたことが分かります。おそらく、頭のいい「ハンター」であったことでしょう。",
+      "passage_source": null,
+      "stem_jp": "この肉食竜の外見上の特徴は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "後ろ足が発達している。"
+        },
+        {
+          "key": "2",
+          "text_jp": "知能が発達している。"
+        },
+        {
+          "key": "3",
+          "text_jp": "体長はほかのより長い。"
+        },
+        {
+          "key": "4",
+          "text_jp": "走りはほかのより速い。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-041",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 50,
+      "knowledge_id": "reading:dokkai-short-41",
+      "section": "短文",
+      "no": 41,
+      "passage_jp": "下の手紙は、佐藤先生が山崎教授に送ったものである。\n\n山崎教授\n\n拝啓　すっかり秋らしくなってきました。\nご無沙汰いたしております。3月にXY日本語学校を退職いたしましたが、在職中本当にお世話になりました。実は幸運だったのですが、その後すぐに、Z大学に講師として採用されました。後期から「日本語教授法」を担当します。現場と実務の知識を生かした授業にしてほしいとのことです。これからも先生のご指導をいただくことになると思いますので、どうぞよろしくお願い申し上げます。\n近いうちにごあいさつに伺います。\n\n敬具\n\n佐藤　恵子より",
+      "passage_source": "高見澤孟「新・はじめての日本語教育2」askによる",
+      "stem_jp": "この手紙の内容は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "退職の報告と在職中の謝礼"
+        },
+        {
+          "key": "2",
+          "text_jp": "再就職の報告と指導依頼"
+        },
+        {
+          "key": "3",
+          "text_jp": "退職の報告と再就職の依頼"
+        },
+        {
+          "key": "4",
+          "text_jp": "再就職の謝礼と在職中の謝礼"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-042",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 51,
+      "knowledge_id": "reading:dokkai-short-42",
+      "section": "短文",
+      "no": 42,
+      "passage_jp": "下の手紙は、甥の雅夫さんが先生をしているおじさんに送ったものである。\n\n竜彦おじ様\n\n寒い日がまだ続いています。おじ様はお元気にお過ごしでしょうか。ぼくはこの一年間浪人してずいぶん一生懸命勉強してきました。今も、がんばって勉強していますから、寝るのは毎朝4時ごろです。大学の入学試験は2月28日ですから、後一ヵ月しかありません。受かるかどうかとても心配しています。\n実は、おじ様にお願いがあります。去年は受けませんでしたが、今年はおじ様が教えているX大学の試験を受けようと思っています。もう一年浪人することはできません。どうしたらいいでしょうか。X大学に入れるように助けてくださいませんか。ぜひお願いします。\n\n雅夫",
+      "passage_source": null,
+      "stem_jp": "何のためにこの手紙を書いたのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "入学願書を出すため"
+        },
+        {
+          "key": "2",
+          "text_jp": "入学申込を提出するため"
+        },
+        {
+          "key": "3",
+          "text_jp": "助けを求めるため"
+        },
+        {
+          "key": "4",
+          "text_jp": "あいさつを言うため"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-043",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 52,
+      "knowledge_id": "reading:dokkai-short-43",
+      "section": "短文",
+      "no": 43,
+      "passage_jp": "下のメールは、小泉さんが山下さんに送ったものである。\n\nあて先：yamashita@nihonnote.co.jp\n件名：「スポーツ用品」について\n\n東日本株式会社\n営業部　山下様\n\nいつもお世話になっております。\nさて、さっそくですが、この前よりお問い合せいただいておりますNANシリーズスポーツ用品につきまして、近日中に担当者とともに具体的なお打ち合せに参りたく、ご都合お伺いいたします。\nなお、ご訪問をする前にお電話にてご連絡いたしますので、よろしくお願い申し上げます。\n\n新大阪デパート\nスポーツ用品担当　小泉　けい子",
+      "passage_source": null,
+      "stem_jp": "小泉さんが山下さんにこのメールを送った目的は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "スポーツ用品を届けてもらいたいこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "スポーツ用品を売り出してもらいたいこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "スポーツ用品についての販売担当を頼むこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "スポーツ用品についての打ち合わせを頼むこと"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-044",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 53,
+      "knowledge_id": "reading:dokkai-short-44",
+      "section": "短文",
+      "no": 44,
+      "passage_jp": "下のメールは、山崎さんが佐藤さんに送ったものである。\n\nあて先：sato@nihonnote.co.jp\n件名：「スポーツ用品」について\n\n日光パソコン会社\n営業部　佐藤様\n\nいつもお世話になっております。\nさて、先日ご依頼のありました「3A-パソコン」のカタログを送付いたします。何とぞ詳細にご検討くださいますようお願い申し上げます。\nなお、カタログでご不明なところがありましたら、ご遠慮なくご指摘ください。当社では直ちに社員を派遣いたしますので、よろしくお願いいたします。\nまずは、ご案内まで。\n\nヤマト株式会社\n輸出入部　山崎　一郎",
+      "passage_source": null,
+      "stem_jp": "この文書は何を頼むためのものか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "カタログの送付"
+        },
+        {
+          "key": "2",
+          "text_jp": "社員の派遣"
+        },
+        {
+          "key": "3",
+          "text_jp": "カタログの検討"
+        },
+        {
+          "key": "4",
+          "text_jp": "社員の案内"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-045",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 54,
+      "knowledge_id": "reading:dokkai-short-45",
+      "section": "短文",
+      "no": 45,
+      "passage_jp": "下のビジネス文書は、牛久デパートがお客様に送った礼状である。\n\n各位様\n\n2011年2月17日\n牛久パソコン専門店\n店長　村山　和夫\n\n拝啓\nこのたびは、弊店でパソコンをお買い上げくださいまして、まことにありがとうございました。ご使用になって調子はいかがでございましょうか。\nなお、お買い上げの商品につきまして、ご不満やご要望などがございましたら、ご遠慮なくおっしゃってください。\n今後とも、弊店をご愛顧くださいますようお願い申し上げます。\n敬具",
+      "passage_source": null,
+      "stem_jp": "この文書が言いたいことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "パソコンを買ってください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "パソコンを直してあげましょう。"
+        },
+        {
+          "key": "3",
+          "text_jp": "パソコンの使い方を教えましょう。"
+        },
+        {
+          "key": "4",
+          "text_jp": "パソコンを買ってくれてありがとう。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-046",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 55,
+      "knowledge_id": "reading:dokkai-short-46",
+      "section": "短文",
+      "no": 46,
+      "passage_jp": "下は、求職者の李花香さんが富士商事へ送った文書である。\n\n平成23年2月17日\n\n富士パソコンネットワーク\n人事ご担当者様\n\n東京都千代田区東神田1-1-1\nTel: 03-1234-1234\n李花香\n\n拝啓\nこのたび、求人情報サイト「ラクラク転職」にて貴社の求人広告を拝見し、「パソコンエンジニア職」に大変興味を持ちましたので、応募させていただきます。\nつきましては、履歴書・職務経歴書をご送付いたしましたので、ご検討の上、面接の機会をいただけるよう心よりお願い申し上げます。\nなお、現在在職中ですので、ご連絡をいただく際は携帯電話にお願いできますでしょうか。どうぞよろしくお願い申し上げます。\n敬具",
+      "passage_source": null,
+      "stem_jp": "この文書の内容に合っているのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "履歴書などが届いたら、会社へ連絡してほしい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "面接の日時を決めたら、会社へ連絡してほしい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "履歴書などが届いたら、ケータイへ連絡してほしい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "面接の日時を決めたら、ケータイへ連絡してほしい。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-047",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 56,
+      "knowledge_id": "reading:dokkai-short-47",
+      "section": "短文",
+      "no": 47,
+      "passage_jp": "下は、サクラ製菓の経理が東洋商事の経理へ送った文書である。\n\n平成23年2月17日\n\n東洋商事\n経理部　前川様\n\nサクラ製菓\n経理担当　田中　久美\n\nいつもお世話になりありがとうございます。すでにお聞きしたと思いますが、間違いがあるといけませんので、改めてお支払方法について教えていただけますでしょうか。申し訳ありませんが、こちらの経理事務の都合上、できましたら、12月10日までにお知らせいただければと思います。どうぞよろしくお願い申し上げます。",
+      "passage_source": null,
+      "stem_jp": "何についてのビジネス文書か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "支払い日時の確認について"
+        },
+        {
+          "key": "2",
+          "text_jp": "支払い金額の訂正について"
+        },
+        {
+          "key": "3",
+          "text_jp": "支払い方法の確認について"
+        },
+        {
+          "key": "4",
+          "text_jp": "支払い場所の指示について"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-048",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 57,
+      "knowledge_id": "reading:dokkai-short-48",
+      "section": "短文",
+      "no": 48,
+      "passage_jp": "旧庁舎に残る物品を無償で提供します\n\n日時：2月26日（土）・27日（日）9:00～15:00\n※事前登録が必要です。登録は2月14日（月）～21日（月）の土・日を除く期間に受け付けます。\n場所：旧谷田部庁舎、旧桜庁舎、旧筑波庁舎、旧茎崎庁舎\n内容：昨年5月の庁舎移転に伴い、ロッカーや事務机など使わなくなった物品を無償で提供します。できるだけ市役所や市内の機関で再利用しましたが、まだ多くの物品が残っています。\n対象：主な活動場所が市内にある、または市内に住む・働く・学ぶ市民2名以上で構成される公共的団体（ボランティア活動団体、NPO法人、区会・町内会、子ども会など）。※個人は対象となりません。\n※2月10日（木）9:00～15:00に下見を行います。物品搬出は不可。\n※詳細は市ホームページをご覧になるか、お問い合わせください。\n問い合わせ：管財課",
+      "passage_source": null,
+      "stem_jp": "次の4つのケースの中で、このサービスを受けられるのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子供の勉強机が小さくなったので、買い換えようとしている市内在住の人"
+        },
+        {
+          "key": "2",
+          "text_jp": "近くこの市に支所を移し、ボランティア活動を始めようとしている団体"
+        },
+        {
+          "key": "3",
+          "text_jp": "お年寄りの数が増えたので、とりあえずロッカーが必要となり、2月10日までに備え付けたい老人ホーム"
+        },
+        {
+          "key": "4",
+          "text_jp": "環境問題の研究調査のため、事務用品を必要としている市内の大学生グループ"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-049",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 58,
+      "knowledge_id": "reading:dokkai-short-49",
+      "section": "短文",
+      "no": 49,
+      "passage_jp": "日本にいる外国人の皆さんへ\nお風呂の入り方\n\n日本では、大きなお風呂に大勢の人と一緒に入るという習慣があります。日本のお風呂は、体をきれいにするだけではなく、湯船でゆっくりおしゃべりをするなど、コミュニケーションの場であり、一つの文化と言えます。下のマナーを参考にして、ぜひ日本でのお風呂を楽しみましょう。\n■湯船には体をよく洗ってから入ること\n■湯船の中で体を洗ったり、せっけんを入れたりしないこと\n■タオルを湯船の中に入れないこと\n■洗い場で洗濯をしないこと\n※髪を伸ばしている人は、輪ゴムなどで束ねて湯に髪が浸らないようにすること\n※水・お湯がほかの人にかからないようにすること",
+      "passage_source": null,
+      "stem_jp": "どういうことを呼びかけているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "風呂の中ではゆっくりおしゃべりしよう。"
+        },
+        {
+          "key": "2",
+          "text_jp": "洗い場では体を洗わないようにしよう。"
+        },
+        {
+          "key": "3",
+          "text_jp": "風呂にはタオルを持って入りましょう。"
+        },
+        {
+          "key": "4",
+          "text_jp": "お湯がほかの人にかからないようにしよう。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-short-050",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 59,
+      "knowledge_id": "reading:dokkai-short-50",
+      "section": "短文",
+      "no": 50,
+      "passage_jp": "留学生の皆さんへ\n宿舎を探すためのポイント\n\n1. 日本語の日常会話ができないと、民間の宿舎は借りにくい\n民間の宿舎を借りるためには、不動産業者や大家さんと日本語で話し合わなければならない。この場合、日本人の友人や日本語の上手な先輩に行ってもらって手伝ってもらおう。\n\n2. 通学には普通1時間はかかる\n多くの人が学校に近い距離に住みたいと思うであろうが、特に学校がビジネス街や商業地区にある場合は難しいと思ったほうがよい。\n\n3. 契約するには、家賃の5～6ヶ月分程度の費用が必要\n日本で家を借りるときは、敷金、礼金、仲介手数料、家賃など、合わせて家賃の5～6ヶ月分程度のお金を用意しなければならない。",
+      "passage_source": null,
+      "stem_jp": "文の内容に合っているのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "日本語が話せない人が民間の宿舎を借りるには通訳が必要である。"
+        },
+        {
+          "key": "2",
+          "text_jp": "学校がビジネス街にあれば、学校から40分ぐらいの宿舎が見つかる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "日本で家を借りるには、契約時に5～6ヶ月の費用がかかる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "日本語の日常会話ができないと、民間の宿舎を借りることができない。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    }
+  ]
+}

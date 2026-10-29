@@ -1,0 +1,1470 @@
+{
+  "schema_version": "1.0",
+  "document_id": "chuyen-kanji-p1",
+  "type": "practice",
+  "level": "N3",
+  "source_file": "KANJI PHẦN 1.pdf",
+  "source_path": "study-materials/KANJI PHAN 1.pdf",
+  "title": "Chuyên Kanji — Phần 1",
+  "page_count": 26,
+  "item_count": 40,
+  "expected_item_count": 260,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-28T23:48:34.343864+00:00",
+  "producer": "n3-study-extractor/l2-chuyen-kanji-p1",
+  "status": "partial",
+  "needs_verify_count": 3,
+  "notes": [
+    "Pilot trang 1–4 (Mondai 1 đọc Kanji, 40 câu). PDF scan 26 trang.",
+    "KAITOU/Bản sao của KANJI PHẦN 1.pdf SHA-identical với đề — không có vòng đỏ riêng.",
+    "Đáp án lấy từ dòng in cuối trang (①②③④) trên đề/KAITOU → answer_source=source_printed (không bịa; không gán official_answer_key vì kaitou≡đề).",
+    "OCR: macOS Vision (Swift VNRecognizeTextRequest ja-JP accurate) trên PNG pymupdf.",
+    "expected_item_count≈260 (26×10 Mondai 1-style); còn lại backlog.",
+    "Không xuất branding Sensei/trung tâm vào items."
+  ],
+  "items": [
+    {
+      "id": "chuyen-kanji-p1-q001",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 1,
+      "knowledge_id": "kanji:調査",
+      "mondai": 1,
+      "no": 1,
+      "stem_jp": "その町の人口を調査します。",
+      "target": "調査",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ちょうさ"
+        },
+        {
+          "key": "2",
+          "text_jp": "ちょうさつ"
+        },
+        {
+          "key": "3",
+          "text_jp": "ちょさ"
+        },
+        {
+          "key": "4",
+          "text_jp": "ちょさつ"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q002",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 1,
+      "knowledge_id": "kanji:預",
+      "mondai": 1,
+      "no": 2,
+      "stem_jp": "入り口でコートを預けた。",
+      "target": "預けた",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あすけた"
+        },
+        {
+          "key": "2",
+          "text_jp": "とどけた"
+        },
+        {
+          "key": "3",
+          "text_jp": "あずけた"
+        },
+        {
+          "key": "4",
+          "text_jp": "ととけた"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q003",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 1,
+      "knowledge_id": "kanji:裏",
+      "mondai": 1,
+      "no": 3,
+      "stem_jp": "わたしの家の裏は幼稚園です。",
+      "target": "裏",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "うら"
+        },
+        {
+          "key": "2",
+          "text_jp": "よこ"
+        },
+        {
+          "key": "3",
+          "text_jp": "かげ"
+        },
+        {
+          "key": "4",
+          "text_jp": "そば"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q004",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 1,
+      "knowledge_id": "kanji:若",
+      "mondai": 1,
+      "no": 4,
+      "stem_jp": "若く見られることはいいことばかりではない。",
+      "target": "若く",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "さむく"
+        },
+        {
+          "key": "2",
+          "text_jp": "わかく"
+        },
+        {
+          "key": "3",
+          "text_jp": "こわく"
+        },
+        {
+          "key": "4",
+          "text_jp": "わるく"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q005",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 1,
+      "knowledge_id": "kanji:相談",
+      "mondai": 1,
+      "no": 5,
+      "stem_jp": "留学について両親に相談した。",
+      "target": "相談",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "しょうたん"
+        },
+        {
+          "key": "2",
+          "text_jp": "しょうだん"
+        },
+        {
+          "key": "3",
+          "text_jp": "そうたん"
+        },
+        {
+          "key": "4",
+          "text_jp": "そうだん"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q006",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 1,
+      "knowledge_id": "kanji:命令",
+      "mondai": 1,
+      "no": 6,
+      "stem_jp": "そういう命令するような言い方はやめてほしい。",
+      "target": "命令",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "めれん"
+        },
+        {
+          "key": "2",
+          "text_jp": "めいれん"
+        },
+        {
+          "key": "3",
+          "text_jp": "めれい"
+        },
+        {
+          "key": "4",
+          "text_jp": "めいれい"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q007",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 1,
+      "knowledge_id": "kanji:燃",
+      "mondai": 1,
+      "no": 7,
+      "stem_jp": "これはよく燃えます。",
+      "target": "燃えます",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "にえます"
+        },
+        {
+          "key": "2",
+          "text_jp": "ひえます"
+        },
+        {
+          "key": "3",
+          "text_jp": "きえます"
+        },
+        {
+          "key": "4",
+          "text_jp": "もえます"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q008",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 1,
+      "knowledge_id": "kanji:下線",
+      "mondai": 1,
+      "no": 8,
+      "stem_jp": "重要な所に赤で下線を引いてください。",
+      "target": "下線",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "かぜん"
+        },
+        {
+          "key": "2",
+          "text_jp": "かせん"
+        },
+        {
+          "key": "3",
+          "text_jp": "げぜん"
+        },
+        {
+          "key": "4",
+          "text_jp": "げせん"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q009",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 1,
+      "knowledge_id": "kanji:払",
+      "mondai": 1,
+      "no": 9,
+      "stem_jp": "会費は山下くんに払ってください。",
+      "target": "払って",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ひろって"
+        },
+        {
+          "key": "2",
+          "text_jp": "くばって"
+        },
+        {
+          "key": "3",
+          "text_jp": "はらって"
+        },
+        {
+          "key": "4",
+          "text_jp": "かざって"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q010",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 1,
+      "knowledge_id": "kanji:個人",
+      "mondai": 1,
+      "no": 10,
+      "stem_jp": "これは個人の力でできるものではない。",
+      "target": "個人",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "こうじん"
+        },
+        {
+          "key": "2",
+          "text_jp": "こじん"
+        },
+        {
+          "key": "3",
+          "text_jp": "こにん"
+        },
+        {
+          "key": "4",
+          "text_jp": "こうにん"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q011",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 2,
+      "knowledge_id": "kanji:種類",
+      "mondai": 1,
+      "no": 11,
+      "stem_jp": "この店はケーキの種類が多い。",
+      "target": "種類",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "しゅれい"
+        },
+        {
+          "key": "2",
+          "text_jp": "じゅれい"
+        },
+        {
+          "key": "3",
+          "text_jp": "しゅるい"
+        },
+        {
+          "key": "4",
+          "text_jp": "じゅるい"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q012",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 2,
+      "knowledge_id": "kanji:疑",
+      "mondai": 1,
+      "no": 12,
+      "stem_jp": "わたしは自分の目を疑った。",
+      "target": "疑った",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ことわった"
+        },
+        {
+          "key": "2",
+          "text_jp": "うたがった"
+        },
+        {
+          "key": "3",
+          "text_jp": "きらった"
+        },
+        {
+          "key": "4",
+          "text_jp": "おこった"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q013",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 2,
+      "knowledge_id": "kanji:悲",
+      "mondai": 1,
+      "no": 13,
+      "stem_jp": "「結婚なんかしない」と言ったら母は悲しそうだった。",
+      "target": "悲しそう",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "やさしそう"
+        },
+        {
+          "key": "2",
+          "text_jp": "きびしそう"
+        },
+        {
+          "key": "3",
+          "text_jp": "さびしそう"
+        },
+        {
+          "key": "4",
+          "text_jp": "かなしそう"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q014",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 2,
+      "knowledge_id": "kanji:助",
+      "mondai": 1,
+      "no": 14,
+      "stem_jp": "彼は市民を助けて市政を再建した。",
+      "target": "助けて",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "うけて"
+        },
+        {
+          "key": "2",
+          "text_jp": "とどけて"
+        },
+        {
+          "key": "3",
+          "text_jp": "たすけて"
+        },
+        {
+          "key": "4",
+          "text_jp": "かたづけて"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null,
+      "verify_reason": "Stem OCR noisy (市長/市民/市政); target 助けて + answer 3 confirmed from footer"
+    },
+    {
+      "id": "chuyen-kanji-p1-q015",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 2,
+      "knowledge_id": "kanji:遊",
+      "mondai": 1,
+      "no": 15,
+      "stem_jp": "今は遊ぶ気分じゃない。",
+      "target": "遊ぶ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "よぶ"
+        },
+        {
+          "key": "2",
+          "text_jp": "あそぶ"
+        },
+        {
+          "key": "3",
+          "text_jp": "まなぶ"
+        },
+        {
+          "key": "4",
+          "text_jp": "さけぶ"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q016",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 2,
+      "knowledge_id": "kanji:休日",
+      "mondai": 1,
+      "no": 16,
+      "stem_jp": "山田さんはときどき休日出勤します。",
+      "target": "休日",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "しゅくじつ"
+        },
+        {
+          "key": "2",
+          "text_jp": "きゅうじつ"
+        },
+        {
+          "key": "3",
+          "text_jp": "きゅうにち"
+        },
+        {
+          "key": "4",
+          "text_jp": "しゅくにち"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q017",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 2,
+      "knowledge_id": "kanji:計算",
+      "mondai": 1,
+      "no": 17,
+      "stem_jp": "母は店の売り上げを計算している。",
+      "target": "計算",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "けいかく"
+        },
+        {
+          "key": "2",
+          "text_jp": "けいざん"
+        },
+        {
+          "key": "3",
+          "text_jp": "けいさん"
+        },
+        {
+          "key": "4",
+          "text_jp": "けいがく"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q018",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 2,
+      "knowledge_id": "kanji:冷",
+      "mondai": 1,
+      "no": 18,
+      "stem_jp": "このビールはまだ冷えていないよ。",
+      "target": "冷えて",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ひえて"
+        },
+        {
+          "key": "2",
+          "text_jp": "うえて"
+        },
+        {
+          "key": "3",
+          "text_jp": "もえて"
+        },
+        {
+          "key": "4",
+          "text_jp": "にえて"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q019",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 2,
+      "knowledge_id": "kanji:訓練",
+      "mondai": 1,
+      "no": 19,
+      "stem_jp": "彼はパイロットになるための訓練を受けた。",
+      "target": "訓練",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ぐんれい"
+        },
+        {
+          "key": "2",
+          "text_jp": "ぐんれん"
+        },
+        {
+          "key": "3",
+          "text_jp": "くんれい"
+        },
+        {
+          "key": "4",
+          "text_jp": "くんれん"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q020",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 2,
+      "knowledge_id": "kanji:申込",
+      "mondai": 1,
+      "no": 20,
+      "stem_jp": "チケットの申し込みをインターネットで行った。",
+      "target": "申し込み",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "もしくみ"
+        },
+        {
+          "key": "2",
+          "text_jp": "もしこみ"
+        },
+        {
+          "key": "3",
+          "text_jp": "もうしくみ"
+        },
+        {
+          "key": "4",
+          "text_jp": "もうしこみ"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q021",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 3,
+      "knowledge_id": "kanji:岩",
+      "mondai": 1,
+      "no": 21,
+      "stem_jp": "岩の多い山に登りました。",
+      "target": "岩",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "かい"
+        },
+        {
+          "key": "2",
+          "text_jp": "いわ"
+        },
+        {
+          "key": "3",
+          "text_jp": "すな"
+        },
+        {
+          "key": "4",
+          "text_jp": "どろ"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q022",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 3,
+      "knowledge_id": "kanji:留守",
+      "mondai": 1,
+      "no": 22,
+      "stem_jp": "しばらく旅行で留守にします。",
+      "target": "留守",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "りゅうす"
+        },
+        {
+          "key": "2",
+          "text_jp": "しゅうしゅ"
+        },
+        {
+          "key": "3",
+          "text_jp": "るす"
+        },
+        {
+          "key": "4",
+          "text_jp": "るしゅ"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q023",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 3,
+      "knowledge_id": "kanji:未来",
+      "mondai": 1,
+      "no": 23,
+      "stem_jp": "未来には人類は月に住むようになるかもしれない。",
+      "target": "未来",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "みいらい"
+        },
+        {
+          "key": "2",
+          "text_jp": "みらい"
+        },
+        {
+          "key": "3",
+          "text_jp": "しょうらい"
+        },
+        {
+          "key": "4",
+          "text_jp": "しょらい"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q024",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 3,
+      "knowledge_id": "kanji:各駅",
+      "mondai": 1,
+      "no": 24,
+      "stem_jp": "この列車は各駅に停車する。",
+      "target": "各駅",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "かくえき"
+        },
+        {
+          "key": "2",
+          "text_jp": "がくえき"
+        },
+        {
+          "key": "3",
+          "text_jp": "きゃくえき"
+        },
+        {
+          "key": "4",
+          "text_jp": "ぎゃくえき"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null,
+      "verify_reason": "Stem verb OCR (停車/残筆); 各駅 target + answer 1 confirmed"
+    },
+    {
+      "id": "chuyen-kanji-p1-q025",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 3,
+      "knowledge_id": "kanji:換",
+      "mondai": 1,
+      "no": 25,
+      "stem_jp": "窓を開けて空気を換えてください。",
+      "target": "換えて",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "つたえて"
+        },
+        {
+          "key": "2",
+          "text_jp": "くわえて"
+        },
+        {
+          "key": "3",
+          "text_jp": "つかまえて"
+        },
+        {
+          "key": "4",
+          "text_jp": "かえて"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q026",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 3,
+      "knowledge_id": "kanji:得意",
+      "mondai": 1,
+      "no": 26,
+      "stem_jp": "山本さんは数学が得意です。",
+      "target": "得意",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "とくい"
+        },
+        {
+          "key": "2",
+          "text_jp": "とうい"
+        },
+        {
+          "key": "3",
+          "text_jp": "どくい"
+        },
+        {
+          "key": "4",
+          "text_jp": "どうい"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q027",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 3,
+      "knowledge_id": "kanji:結",
+      "mondai": 1,
+      "no": 27,
+      "stem_jp": "これをリボンで結んでください。",
+      "target": "結んで",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "たたんで"
+        },
+        {
+          "key": "2",
+          "text_jp": "むすんで"
+        },
+        {
+          "key": "3",
+          "text_jp": "つつんで"
+        },
+        {
+          "key": "4",
+          "text_jp": "ならんで"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q028",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 3,
+      "knowledge_id": "kanji:汚",
+      "mondai": 1,
+      "no": 28,
+      "stem_jp": "川の水はごみで汚くなっています。",
+      "target": "汚く",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "せまく"
+        },
+        {
+          "key": "2",
+          "text_jp": "うるさく"
+        },
+        {
+          "key": "3",
+          "text_jp": "くさく"
+        },
+        {
+          "key": "4",
+          "text_jp": "きたなく"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q029",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 3,
+      "knowledge_id": "kanji:税金",
+      "mondai": 1,
+      "no": 29,
+      "stem_jp": "その国は税金が高い。",
+      "target": "税金",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "せいきん"
+        },
+        {
+          "key": "2",
+          "text_jp": "せっきん"
+        },
+        {
+          "key": "3",
+          "text_jp": "ぜいきん"
+        },
+        {
+          "key": "4",
+          "text_jp": "ぜっきん"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q030",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 3,
+      "knowledge_id": "kanji:独立",
+      "mondai": 1,
+      "no": 30,
+      "stem_jp": "姉は親から独立して生計を立てている。",
+      "target": "独立",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "どくりつ"
+        },
+        {
+          "key": "2",
+          "text_jp": "とくりつ"
+        },
+        {
+          "key": "3",
+          "text_jp": "どくれつ"
+        },
+        {
+          "key": "4",
+          "text_jp": "とくれつ"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q031",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 4,
+      "knowledge_id": "kanji:印象",
+      "mondai": 1,
+      "no": 31,
+      "stem_jp": "この絵を見て強い印象を受けた。",
+      "target": "印象",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "いんしょう"
+        },
+        {
+          "key": "2",
+          "text_jp": "いんしょ"
+        },
+        {
+          "key": "3",
+          "text_jp": "いんそう"
+        },
+        {
+          "key": "4",
+          "text_jp": "いんぞう"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q032",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 4,
+      "knowledge_id": "kanji:交流",
+      "mondai": 1,
+      "no": 32,
+      "stem_jp": "あの人たちとは交流がない。",
+      "target": "交流",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ごうりゅ"
+        },
+        {
+          "key": "2",
+          "text_jp": "こうりゅう"
+        },
+        {
+          "key": "3",
+          "text_jp": "こうりゅ"
+        },
+        {
+          "key": "4",
+          "text_jp": "ごうりゅう"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q033",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 4,
+      "knowledge_id": "kanji:勝",
+      "mondai": 1,
+      "no": 33,
+      "stem_jp": "ぼくはどんなけんかにも勝ったことがない。",
+      "target": "勝った",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "かった"
+        },
+        {
+          "key": "2",
+          "text_jp": "かざった"
+        },
+        {
+          "key": "3",
+          "text_jp": "おった"
+        },
+        {
+          "key": "4",
+          "text_jp": "のこった"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q034",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 4,
+      "knowledge_id": "kanji:駐車",
+      "mondai": 1,
+      "no": 34,
+      "stem_jp": "駐車は30分以内です。",
+      "target": "駐車",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "しゅうしゃ"
+        },
+        {
+          "key": "2",
+          "text_jp": "しゅしゃ"
+        },
+        {
+          "key": "3",
+          "text_jp": "ちゅしゃ"
+        },
+        {
+          "key": "4",
+          "text_jp": "ちゅうしゃ"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q035",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 4,
+      "knowledge_id": "kanji:制服",
+      "mondai": 1,
+      "no": 35,
+      "stem_jp": "そのレストランの人はみんな同じ制服を着ている。",
+      "target": "制服",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "せいふう"
+        },
+        {
+          "key": "2",
+          "text_jp": "せいふく"
+        },
+        {
+          "key": "3",
+          "text_jp": "ようふう"
+        },
+        {
+          "key": "4",
+          "text_jp": "ようふく"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q036",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 4,
+      "knowledge_id": "kanji:改札",
+      "mondai": 1,
+      "no": 36,
+      "stem_jp": "改札の前で待ってるよ。",
+      "target": "改札",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "かいさつ"
+        },
+        {
+          "key": "2",
+          "text_jp": "かいせつ"
+        },
+        {
+          "key": "3",
+          "text_jp": "けいさつ"
+        },
+        {
+          "key": "4",
+          "text_jp": "けいせつ"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q037",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 4,
+      "knowledge_id": "kanji:直接",
+      "mondai": 1,
+      "no": 37,
+      "stem_jp": "社長に直接お目にかかりたいのですが。",
+      "target": "直接",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ちょうぜつ"
+        },
+        {
+          "key": "2",
+          "text_jp": "ちょくせつ"
+        },
+        {
+          "key": "3",
+          "text_jp": "ちょくぜつ"
+        },
+        {
+          "key": "4",
+          "text_jp": "ちょうせつ"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q038",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 4,
+      "knowledge_id": "kanji:早退",
+      "mondai": 1,
+      "no": 38,
+      "stem_jp": "体調が悪いので早退します。",
+      "target": "早退",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "そうてい"
+        },
+        {
+          "key": "2",
+          "text_jp": "ぞうたい"
+        },
+        {
+          "key": "3",
+          "text_jp": "そうたい"
+        },
+        {
+          "key": "4",
+          "text_jp": "ぞうてい"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "chuyen-kanji-p1-q039",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 4,
+      "knowledge_id": "kanji:到着",
+      "mondai": 1,
+      "no": 39,
+      "stem_jp": "列車は8時に東京駅に到着した。",
+      "target": "到着",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "とうつく"
+        },
+        {
+          "key": "2",
+          "text_jp": "とつく"
+        },
+        {
+          "key": "3",
+          "text_jp": "とうちゃく"
+        },
+        {
+          "key": "4",
+          "text_jp": "とちゃく"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null,
+      "verify_reason": "Stem OCR (列車/東京駅) partially noisy; answer 3 とうちゃく confirmed"
+    },
+    {
+      "id": "chuyen-kanji-p1-q040",
+      "type": "practice",
+      "subtype": "kanji_reading_mcq",
+      "level": "N3",
+      "source_file": "KANJI PHẦN 1.pdf",
+      "source_page": 4,
+      "knowledge_id": "kanji:測",
+      "mondai": 1,
+      "no": 40,
+      "stem_jp": "昨日体重を測った。",
+      "target": "測った",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "まもった"
+        },
+        {
+          "key": "2",
+          "text_jp": "したがった"
+        },
+        {
+          "key": "3",
+          "text_jp": "しまった"
+        },
+        {
+          "key": "4",
+          "text_jp": "はかった"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "source_printed",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    }
+  ]
+}

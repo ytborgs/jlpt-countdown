@@ -1,0 +1,1273 @@
+{
+  "schema_version": "1.0",
+  "document_id": "tu-noi-collection",
+  "type": "reading",
+  "level": "N3",
+  "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+  "source_path": "study-materials/TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+  "title": "Từ nối (bản collection 7 trang)",
+  "page_count": 7,
+  "item_count": 48,
+  "expected_item_count": 46,
+  "content_source": "pdf_text_extract",
+  "produced_at": "2026-10-28T16:24:30+00:00",
+  "producer": "n3-study-extractor/parse_tu_noi_collection:tu-noi-collection",
+  "status": "partial",
+  "needs_verify_count": 0,
+  "notes": [
+    "Edition collection 7 trang — khác bản root 15 trang (topic `connectors`).",
+    "Trùng chủ đề từ nối; không thay / không merge id với connectors.",
+    "content_source=pdf_text_extract; whitelist headword (tránh OCR furigana).",
+    "needs_verify cho mục thiếu nghĩa/ví dụ hoặc example còn dính furigana dump."
+  ],
+  "items": [
+    {
+      "id": "tu-noi-col-001-だから",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:だから",
+      "connector_jp": "だから",
+      "section": "⓵ 原因・理由 NGUYÊN NHÂN/LÝ DO",
+      "meaning_vi": "Vì vậy, do vậy (dùng khi nói)",
+      "example_jp": "私は中国に長い間住んでいました。だから、中国語が分かります。",
+      "connector_ruby": [
+        {
+          "text": "だから"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "私は中国に長い間住んでいました。だから、中国語が分かります。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-002-それで",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:それで",
+      "connector_jp": "それで～",
+      "section": "⓵ 原因・理由 NGUYÊN NHÂN/LÝ DO",
+      "meaning_vi": "Vì vậy, chính vì thế (trong giao tiếp được rút gọn thành で)",
+      "example_jp": "前の駅で人身事故がありました。それで、電車が止まっています。",
+      "connector_ruby": [
+        {
+          "text": "それで～"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "前の駅で人身事故がありました。それで、電車が止まっています。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-003-そのため",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:そのため",
+      "connector_jp": "そのため",
+      "section": "⓵ 原因・理由 NGUYÊN NHÂN/LÝ DO",
+      "meaning_vi": "Vì vậy, do vậy =それで＝だから",
+      "example_jp": "台風が接近しています。そのため、明日の旅行は中止となりました。",
+      "connector_ruby": [
+        {
+          "text": "そのため"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "台風が接近しています。そのため、明日の旅行は中止となりました。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-004-したがって",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:したがって",
+      "connector_jp": "したがって～",
+      "section": "⓵ 原因・理由 NGUYÊN NHÂN/LÝ DO",
+      "meaning_vi": "Vì vậy, theo đó (văn viết của だから)",
+      "example_jp": "ダム建設に賛成23 票。反対11 票。したがって、ダム建設は承認された。",
+      "connector_ruby": [
+        {
+          "text": "したがって～"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ダム建設に賛成23 票。反対11 票。したがって、ダム建設は承認された。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-005-なぜならからだ",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:なぜならからだ",
+      "connector_jp": "なぜなら～からだ",
+      "section": "⓵ 原因・理由 NGUYÊN NHÂN/LÝ DO",
+      "meaning_vi": "Nếu hỏi tại sao…thì là bởi vì… (văn viết của だって, kiểu cách, trang trọng)",
+      "example_jp": "彼は肉は食べません。なぜなら、アレルギーがあるからです。",
+      "connector_ruby": [
+        {
+          "text": "なぜなら～からだ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼は肉は食べません。なぜなら、アレルギーがあるからです。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-006-だって",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:だって",
+      "connector_jp": "だって",
+      "section": "⓵ 原因・理由 NGUYÊN NHÂN/LÝ DO",
+      "meaning_vi": "Chả là vì, do là… (văn nói của なぜなら)",
+      "example_jp": "A:どうして食べないの？ B:だって、おいしくないんだもん。",
+      "connector_ruby": [
+        {
+          "text": "だって"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "A:どうして食べないの？ B:だって、おいしくないんだもん。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-007-というのは",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:というのは",
+      "connector_jp": "というのは～",
+      "section": "⓵ 原因・理由 NGUYÊN NHÂN/LÝ DO",
+      "meaning_vi": "Nói như vậy là vì…",
+      "example_jp": "私は家から出ることができません。というのは一か月前にけがをしました。",
+      "connector_ruby": [
+        {
+          "text": "というのは～"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "私は家から出ることができません。というのは一か月前にけがをしました。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-008-から",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:から",
+      "connector_jp": "～から",
+      "section": "⓵ 原因・理由 NGUYÊN NHÂN/LÝ DO",
+      "meaning_vi": "Vì~",
+      "example_jp": "今回はあまり勉強しなかったから、テストの点が悪かった。",
+      "connector_ruby": [
+        {
+          "text": "～から"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "今回はあまり勉強しなかったから、テストの点が悪かった。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-009-ので",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 1,
+      "knowledge_id": "grammar:ので",
+      "connector_jp": "～ので",
+      "section": "⓵ 原因・理由 NGUYÊN NHÂN/LÝ DO",
+      "meaning_vi": "Vì~",
+      "example_jp": "明日は朝、面接があるので、早く寝ます。",
+      "connector_ruby": [
+        {
+          "text": "～ので"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "明日は朝、面接があるので、早く寝ます。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-010-A-それともB",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:A-それともB",
+      "connector_jp": "A それともB",
+      "section": "SỰ LỰA CHỌN",
+      "meaning_vi": "Hay là (Chỉ dùng trong câu nghi vấn) Chỉ chọn A hoặc chỉ chọn B",
+      "example_jp": "コーヒーがいいですか。それとも、紅茶がいいですか。",
+      "connector_ruby": [
+        {
+          "text": "A それともB"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "コーヒーがいいですか。それとも、紅茶がいいですか。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-011-A-あるいはB",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:A-あるいはB",
+      "connector_jp": "A あるいはB",
+      "section": "SỰ LỰA CHỌN",
+      "meaning_vi": "Hoặc/ hay ＝または (A hoặc B đều được)",
+      "example_jp": "奈良へは新幹線、あるいは高速バスで行くことができます。",
+      "connector_ruby": [
+        {
+          "text": "A あるいはB"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "奈良へは新幹線、あるいは高速バスで行くことができます。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-012-A-またはB",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 2,
+      "knowledge_id": "grammar:A-またはB",
+      "connector_jp": "A またはB",
+      "section": "SỰ LỰA CHỌN",
+      "meaning_vi": "Hoặc/ hay ＝あるいは (A hoặc B đều được)",
+      "example_jp": "黒、または青のボールペンで記入してください。",
+      "connector_ruby": [
+        {
+          "text": "A またはB"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "黒、または青のボールペンで記入してください。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-013-しかし",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:しかし",
+      "connector_jp": "しかし",
+      "section": "⓷ 逆接 LIÊN KẾT NGHỊCH/ ĐỐI LẬP",
+      "meaning_vi": "Tuy nhiên",
+      "example_jp": "彼女は美しくて勉強もできる。しかし、性格があまり良くない。",
+      "connector_ruby": [
+        {
+          "text": "しかし"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女は美しくて勉強もできる。しかし、性格があまり良くない。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-014-けれども",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:けれども",
+      "connector_jp": "けれども",
+      "section": "⓷ 逆接 LIÊN KẾT NGHỊCH/ ĐỐI LẬP",
+      "meaning_vi": "Tuy nhiên＝しかし＝だけど",
+      "example_jp": "アカギのスーツはかなり安い。けれども、あまり丈夫ではない。",
+      "connector_ruby": [
+        {
+          "text": "けれども"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "アカギのスーツはかなり安い。けれども、あまり丈夫ではない。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-015-だけど",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:だけど",
+      "connector_jp": "だけど",
+      "section": "⓷ 逆接 LIÊN KẾT NGHỊCH/ ĐỐI LẬP",
+      "meaning_vi": "Tuy nhiên/ thế nhưng =しかし＝けれども",
+      "example_jp": "ハワイ旅行に行きたいな。だけど、お金がないんだよ。",
+      "connector_ruby": [
+        {
+          "text": "だけど"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ハワイ旅行に行きたいな。だけど、お金がないんだよ。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-016-だが",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:だが",
+      "connector_jp": "だが",
+      "section": "⓷ 逆接 LIÊN KẾT NGHỊCH/ ĐỐI LẬP",
+      "meaning_vi": "Nhưng/tuy nhiên=だけど",
+      "example_jp": "彼女はダイエットした。だが、ちっともやせなかったそうだ。",
+      "connector_ruby": [
+        {
+          "text": "だが"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女はダイエットした。だが、ちっともやせなかったそうだ。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-017-でも",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:でも",
+      "connector_jp": "でも",
+      "section": "⓷ 逆接 LIÊN KẾT NGHỊCH/ ĐỐI LẬP",
+      "meaning_vi": "Tuy nhiên/ mặc dù vậy",
+      "example_jp": "映画も見たいし、美術館へも行きたい。でも、時間がなくて、無理。",
+      "connector_ruby": [
+        {
+          "text": "でも"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "映画も見たいし、美術館へも行きたい。でも、時間がなくて、無理。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-018-それなのに",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:それなのに",
+      "connector_jp": "それなのに",
+      "section": "⓷ 逆接 LIÊN KẾT NGHỊCH/ ĐỐI LẬP",
+      "meaning_vi": "Ấy vậy mà",
+      "example_jp": "彼は必ず来ると約束した。それなのに、いくら待っても来なかった。",
+      "connector_ruby": [
+        {
+          "text": "それなのに"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼は必ず来ると約束した。それなのに、いくら待っても来なかった。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-019-それでも",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:それでも",
+      "connector_jp": "それでも",
+      "section": "⓷ 逆接 LIÊN KẾT NGHỊCH/ ĐỐI LẬP",
+      "meaning_vi": "Mặc dù vậy",
+      "example_jp": "医者にタバコを止めるように言われた。それでもタバコは止められない。",
+      "connector_ruby": [
+        {
+          "text": "それでも"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "医者にタバコを止めるように言われた。それでもタバコは止められない。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-020-ところが",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 3,
+      "knowledge_id": "grammar:ところが",
+      "connector_jp": "ところが",
+      "section": "⓷ 逆接 LIÊN KẾT NGHỊCH/ ĐỐI LẬP",
+      "meaning_vi": "Vậy mà/tuy nhiên(trái với dự đoán)",
+      "example_jp": "A：彼、国へ帰ってお父さんの会社に入ったかな。 B：ところが、あの会社、倒 産 しちゃったんだって。",
+      "connector_ruby": [
+        {
+          "text": "ところが"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "A：彼、国へ帰ってお父さんの会社に入ったかな。 B：ところが、あの会社、倒 産 しちゃったんだって。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-021-それに",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:それに",
+      "connector_jp": "それに",
+      "section": "⓸ 付",
+      "meaning_vi": "Hơn nữa ＝しかも＝そのうえ＝さらに",
+      "example_jp": "せきも出るし、鼻水も出る。それに、熱もある。",
+      "connector_ruby": [
+        {
+          "text": "それに"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "せきも出るし、鼻水も出る。それに、熱もある。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-022-そのうえ",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:そのうえ",
+      "connector_jp": "そのうえ",
+      "section": "⓸ 付",
+      "meaning_vi": "Ngoài ra còn/ hơn nữa",
+      "example_jp": "風邪をひいて、頭が痛い。そのうえ、熱まで出てきた。",
+      "connector_ruby": [
+        {
+          "text": "そのうえ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "風邪をひいて、頭が痛い。そのうえ、熱まで出てきた。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-023-それから",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:それから",
+      "connector_jp": "それから",
+      "section": "⓸ 付",
+      "meaning_vi": "Thêm nữa/hơn nữa＃そして",
+      "example_jp": "彼はピアノが弾けます。それから、バイオリンも弾けます。",
+      "connector_ruby": [
+        {
+          "text": "それから"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼はピアノが弾けます。それから、バイオリンも弾けます。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-024-あと",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:あと",
+      "connector_jp": "あと",
+      "section": "⓸ 付",
+      "meaning_vi": "Thêm nữa",
+      "example_jp": "卵を買ってきてください。あと、牛乳もお願いします。",
+      "connector_ruby": [
+        {
+          "text": "あと"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "卵を買ってきてください。あと、牛乳もお願いします。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-025-なお",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:なお",
+      "connector_jp": "なお",
+      "section": "⓸ 付",
+      "meaning_vi": "Ngoài ra/ hơn nữa",
+      "example_jp": "製品に関する説明は以上です。なお、詳細は説明書をご覧ください。",
+      "connector_ruby": [
+        {
+          "text": "なお"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "製品に関する説明は以上です。なお、詳細は説明書をご覧ください。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-026-すると",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:すると",
+      "connector_jp": "すると",
+      "section": "ĐỘNG TÁC/ TRẠNG THÁI XẢY RA TIẾP SAU",
+      "meaning_vi": "Khi đó ngay lập tức/và thế là/rồi thì… (Vế sau k biểu thị ý chí của người nói)",
+      "example_jp": "ドアを叩く音がしたので開けた。すると、知らない女の人が立っていた。窓を開けた。すると、何匹の鳥が飛び込んだ。",
+      "connector_ruby": [
+        {
+          "text": "すると"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ドアを叩く音がしたので開けた。すると、知らない女の人が立っていた。窓を開けた。すると、何匹の鳥が飛び込んだ。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-027-そこで",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 4,
+      "knowledge_id": "grammar:そこで",
+      "connector_jp": "そこで",
+      "section": "ĐỘNG TÁC/ TRẠNG THÁI XẢY RA TIẾP SAU",
+      "meaning_vi": "Do vậy/do đó A そこでB: đưa ra vấn đề A=>B giải quyết vấn đề (vế sau mang ý chí) A どれでB: nguyên nhân A=> B là hành động/kết quả",
+      "example_jp": "事故で電車が止まった。そこで、タクシーに乗ることにした。突然大雨が降った。そこで約束をキャンセルして、家にいた。",
+      "connector_ruby": [
+        {
+          "text": "そこで"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "事故で電車が止まった。そこで、タクシーに乗ることにした。突然大雨が降った。そこで約束をキャンセルして、家にいた。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-028-ただ",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:ただ",
+      "connector_jp": "ただ",
+      "section": "⓺ 前の文に、何かを付け加える時に使う",
+      "meaning_vi": "Chỉ có điều/ ngoại trừ 1 điều là (dùng để nối câu, mang nghĩa bổ sung cho vế trước, chứ k mang hàm ý trái ngược như が、でも)",
+      "example_jp": "彼は頭がよくて、ハンサムで、そのうえ性格もいい。ただ、びんぼうなんだ。",
+      "connector_ruby": [
+        {
+          "text": "ただ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼は頭がよくて、ハンサムで、そのうえ性格もいい。ただ、びんぼうなんだ。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-029-ただし",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:ただし",
+      "connector_jp": "ただし",
+      "section": "⓺ 前の文に、何かを付け加える時に使う",
+      "meaning_vi": "Tuy nhiên/ngoài ra (CHỈ NGOẠI LỆ) ただし: tuy nhiên( vế sau bổ nghĩa vế trước) しかし:Nhưng(vế sau ngược nghĩa vế trước)",
+      "example_jp": "ここは駐車禁止です。ただし、前に許可が取ってある場合は別です。",
+      "connector_ruby": [
+        {
+          "text": "ただし"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ここは駐車禁止です。ただし、前に許可が取ってある場合は別です。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-030-もっとも",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:もっとも",
+      "connector_jp": "もっとも",
+      "section": "⓺ 前の文に、何かを付け加える時に使う",
+      "meaning_vi": "Thế nhưng/ Tuy nhiên/Đương nhiên (Phủ định 1 phần/ đính chính lại phần trong câu văn trước)",
+      "example_jp": "明日の会議には全員出席すること。もっとも、インフルエンザの場合は別 ですが。",
+      "connector_ruby": [
+        {
+          "text": "もっとも"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "明日の会議には全員出席すること。もっとも、インフルエンザの場合は別 ですが。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-031-それで",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:それで",
+      "connector_jp": "それで",
+      "section": "⓻ 話を進める THÚC ĐẨY, XÚC TIẾN hội thoại",
+      "meaning_vi": "Rồi sao?",
+      "example_jp": "「わたし、会社を辞める。」「えっ、それで、これからどうするの？」",
+      "connector_ruby": [
+        {
+          "text": "それで"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "「わたし、会社を辞める。」「えっ、それで、これからどうするの？」"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-032-で",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 5,
+      "knowledge_id": "grammar:で",
+      "connector_jp": "で",
+      "section": "⓻ 話を進める THÚC ĐẨY, XÚC TIẾN hội thoại",
+      "meaning_vi": "Trong giao tiếp で là dạng rút gọn của それで",
+      "example_jp": "「わたし、結婚するの。」「で、相手はどんな人なの？」",
+      "connector_ruby": [
+        {
+          "text": "で"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "「わたし、結婚するの。」「で、相手はどんな人なの？」"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-033-それから",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:それから",
+      "connector_jp": "それから",
+      "section": "⓼ 時間・場合・条件 TRÌNH TỰ THỜI GIAN/TÌNH HUỐNG/ĐIỀU KIỆN",
+      "meaning_vi": "Sau đó",
+      "example_jp": "友達とレストランで食事をしました。それから、映画を見ました。",
+      "connector_ruby": [
+        {
+          "text": "それから"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "友達とレストランで食事をしました。それから、映画を見ました。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-034-ではじゃ",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:ではじゃ",
+      "connector_jp": "では／じゃ",
+      "section": "⓼ 時間・場合・条件 TRÌNH TỰ THỜI GIAN/TÌNH HUỐNG/ĐIỀU KIỆN",
+      "meaning_vi": "Ngay sau đây/Vậy thì…",
+      "example_jp": "今日の授業はここまでです。では、終わりにしましょう。",
+      "connector_ruby": [
+        {
+          "text": "では／じゃ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "今日の授業はここまでです。では、終わりにしましょう。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-035-それでは",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:それでは",
+      "connector_jp": "それでは",
+      "section": "⓼ 時間・場合・条件 TRÌNH TỰ THỜI GIAN/TÌNH HUỐNG/ĐIỀU KIỆN",
+      "meaning_vi": "Vậy thì…(chuyển chủ đề)",
+      "example_jp": "A:このスカートはちょっと・・・ B:それでは、こちらはいかがですか。",
+      "connector_ruby": [
+        {
+          "text": "それでは"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "A:このスカートはちょっと・・・ B:それでは、こちらはいかがですか。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-036-それじゃ",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:それじゃ",
+      "connector_jp": "それじゃ",
+      "section": "⓼ 時間・場合・条件 TRÌNH TỰ THỜI GIAN/TÌNH HUỐNG/ĐIỀU KIỆN",
+      "meaning_vi": "Vậy thì…(chuyển chủ đề)",
+      "example_jp": "A:このスカートはちょっと・・・ B:それでは、こちらはいかがですか。",
+      "connector_ruby": [
+        {
+          "text": "それじゃ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "A:このスカートはちょっと・・・ B:それでは、こちらはいかがですか。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-037-それなら",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:それなら",
+      "connector_jp": "それなら",
+      "section": "⓼ 時間・場合・条件 TRÌNH TỰ THỜI GIAN/TÌNH HUỐNG/ĐIỀU KIỆN",
+      "meaning_vi": "Nếu thế/ nếu vậy thì…",
+      "example_jp": "A:温泉に行きたいんですが・・・。 B:それなら、箱根がいいですよ。",
+      "connector_ruby": [
+        {
+          "text": "それなら"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "A:温泉に行きたいんですが・・・。 B:それなら、箱根がいいですよ。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-038-それでも",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:それでも",
+      "connector_jp": "それでも",
+      "section": "⓼ 時間・場合・条件 TRÌNH TỰ THỜI GIAN/TÌNH HUỐNG/ĐIỀU KIỆN",
+      "meaning_vi": "Mặc dù vậy/ vậy mà…",
+      "example_jp": "そこは非常に危険な場所だよ。それでも、あなたは行くと言うのか。",
+      "connector_ruby": [
+        {
+          "text": "それでも"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "そこは非常に危険な場所だよ。それでも、あなたは行くと言うのか。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-039-そして",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:そして",
+      "connector_jp": "そして",
+      "section": "⓽ 述べて言う TRÌNH BÀY",
+      "meaning_vi": "Rồi thì/ và",
+      "example_jp": "日本の地下鉄はとてもきれいです。そして、便利です。",
+      "connector_ruby": [
+        {
+          "text": "そして"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "日本の地下鉄はとてもきれいです。そして、便利です。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-040-また",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 6,
+      "knowledge_id": "grammar:また",
+      "connector_jp": "また",
+      "section": "⓽ 述べて言う TRÌNH BÀY",
+      "meaning_vi": "Và lại còn là",
+      "example_jp": "彼女は妻であり。母親であり、また芸術家でもある。",
+      "connector_ruby": [
+        {
+          "text": "また"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女は妻であり。母親であり、また芸術家でもある。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-041-ところで",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:ところで",
+      "connector_jp": "ところで",
+      "section": "⓾ 話題を変える ĐỔI ĐỀ TÀI",
+      "meaning_vi": "À này/ mà này/ nhân đây",
+      "example_jp": "もうすぐ冬休みだね。ところで、君、今年で何歳になるんだったけ。",
+      "connector_ruby": [
+        {
+          "text": "ところで"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "もうすぐ冬休みだね。ところで、君、今年で何歳になるんだったけ。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-042-さて",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:さて",
+      "connector_jp": "さて",
+      "section": "⓾ 話題を変える ĐỔI ĐỀ TÀI",
+      "meaning_vi": "Và sau đây, và bây giờ là…",
+      "example_jp": "やっと仕事が終わった。さて、今日の晩ご飯は何にしようかな。",
+      "connector_ruby": [
+        {
+          "text": "さて"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "やっと仕事が終わった。さて、今日の晩ご飯は何にしようかな。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-043-そういえば",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:そういえば",
+      "connector_jp": "そういえば",
+      "section": "⓾ 話題を変える ĐỔI ĐỀ TÀI",
+      "meaning_vi": "Nhắc mới nhớ…",
+      "example_jp": "あ、いけない。そういえば今日は妻の誕生日だった。",
+      "connector_ruby": [
+        {
+          "text": "そういえば"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "あ、いけない。そういえば今日は妻の誕生日だった。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-044-および",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:および",
+      "connector_jp": "および",
+      "section": "⑪ 1 SỐ CÁCH DIỄN ĐẠT KHÁC",
+      "meaning_vi": "Và=と（dùng trong trường hợp trang trọng）",
+      "example_jp": "ビザおよびパスポートについては、以下をご覧ください。",
+      "connector_ruby": [
+        {
+          "text": "および"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "ビザおよびパスポートについては、以下をご覧ください。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-045-つまり",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:つまり",
+      "connector_jp": "つまり",
+      "section": "⑪ 1 SỐ CÁCH DIỄN ĐẠT KHÁC",
+      "meaning_vi": "Nói cách khác…/Tóm lại có nghĩa là=>văn nói dùng nghĩa rộng nhất",
+      "example_jp": "昨日は出席者は5 人、つまり、3 人欠席だったんです。",
+      "connector_ruby": [
+        {
+          "text": "つまり"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "昨日は出席者は5 人、つまり、3 人欠席だったんです。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-046-こそ",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:こそ",
+      "connector_jp": "こそ",
+      "section": "⑪ 1 SỐ CÁCH DIỄN ĐẠT KHÁC",
+      "meaning_vi": "Chính~(chứ k phải cái khác)",
+      "example_jp": "今年こそ世界一周旅行に行きたい。",
+      "connector_ruby": [
+        {
+          "text": "こそ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "今年こそ世界一周旅行に行きたい。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-047-すなわち",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:すなわち",
+      "connector_jp": "すなわち～",
+      "section": "⑪ 1 SỐ CÁCH DIỄN ĐẠT KHÁC",
+      "meaning_vi": "Nói cách khác/ tức là…(k dùng để tóm tắt, đưa ra KẾT LUẬN)",
+      "example_jp": "小学生、すなわち6 歳以上子供は有料になる。要",
+      "connector_ruby": [
+        {
+          "text": "すなわち～"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "小学生、すなわち6 歳以上子供は有料になる。要"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "tu-noi-col-048-要するに",
+      "type": "reading",
+      "subtype": "connector",
+      "level": "N3",
+      "source_file": "TỪ NỐI CHÌA KHÓA GIẢI ĐỌC HIỂU N3.pdf",
+      "source_page": 7,
+      "knowledge_id": "grammar:要するに",
+      "connector_jp": "要するに～",
+      "section": "⑪ 1 SỐ CÁCH DIỄN ĐẠT KHÁC",
+      "meaning_vi": "Nói ngắn gọn(giải thích đơn giản nội dung câu văn trước)",
+      "example_jp": "色々な意見が出たが、要するに皆、私の意見に反対なのだ。",
+      "connector_ruby": [
+        {
+          "text": "要するに～"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "色々な意見が出たが、要するに皆、私の意見に反対なのだ。"
+        }
+      ],
+      "content_source": "pdf_text_extract",
+      "needs_verify": false,
+      "ai_extra": null
+    }
+  ]
+}

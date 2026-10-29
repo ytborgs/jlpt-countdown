@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0",
+  "document_id": "choukai-md4-tips",
+  "type": "tips",
+  "level": "N3",
+  "source_file": "BÍ KÍP CHOUKAI MD4",
+  "source_path": "study-materials/BÍ KÍP CHOUKAI MD4",
+  "title": "Bí kíp Choukai Mondai 4",
+  "page_count": 9,
+  "item_count": 8,
+  "expected_item_count": 8,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-28T16:08:45+00:00",
+  "producer": "cursor-agent/visual-tip-packs",
+  "status": "partial",
+  "needs_verify_count": 1,
+  "notes": [
+    "Visual transcription từ PNG pack BÍ KÍP CHOUKAI MD4.",
+    "Bỏ slide bìa (1-01). Tips only — không audio."
+  ],
+  "items": [
+    {
+      "id": "choukai-md4-01",
+      "type": "tips",
+      "subtype": "choukai_md4_tip",
+      "level": "N3",
+      "source_file": "BÍ KÍP CHOUKAI MD4",
+      "source_page": 2,
+      "knowledge_id": "tip:ad4440fb",
+      "label": "Dạng 1: Xin phép (người nói làm) — mẫu tình huống",
+      "body": "Câu xin phép / giải thích tình huống khi người nói tự làm hành động.\nMẫu trọng điểm: ～Vたい ・ ～Vてあげる.\n\nVí dụ:\n1) 友達の消しゴムを使いたいです。\n   Tôi muốn mượn cục tẩy của bạn.\n2) 友達が疲れたので、運転を変わってあげます。\n   Vì bạn mệt rồi nên để tôi thay bạn lái xe cho.\n3) きれいな着物を着ている人の写真を撮りたいです。\n   Tôi muốn chụp ảnh người mặc bộ kimono đẹp.",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "examples": [
+        {
+          "jp": "友達の消しゴムを使いたいです。",
+          "vi": "Tôi muốn mượn cục tẩy của bạn."
+        },
+        {
+          "jp": "友達が疲れたので、運転を変わってあげます。",
+          "vi": "Vì bạn mệt rồi nên để tôi thay bạn lái xe cho."
+        },
+        {
+          "jp": "きれいな着物を着ている人の写真を撮りたいです。",
+          "vi": "Tôi muốn chụp ảnh người mặc bộ kimono đẹp."
+        }
+      ]
+    },
+    {
+      "id": "choukai-md4-02",
+      "type": "tips",
+      "subtype": "choukai_md4_tip",
+      "level": "N3",
+      "source_file": "BÍ KÍP CHOUKAI MD4",
+      "source_page": 5,
+      "knowledge_id": "tip:a76650c6",
+      "label": "Dạng 1: Xin phép — đuôi câu & đáp án",
+      "body": "Đuôi câu dạng xin phép thường gặp:\n・～てもいいですか / ～いいでしょうか / ～よろしいでしょうか\n・～させて＋らえる？／もらえませんか／いただきたいんですが／くれる？／くれませんか／ください／くださいませんか／ほしいんだけど\n・～たいんですが / ～たいんですけど\nTrường hợp đặc biệt: muốn dùng (使いたい) → ～ありますか／使えますか; muốn ngồi (座りたい) → ここにいいですか／空いていますか／誰かいますか。",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null
+    },
+    {
+      "id": "choukai-md4-03",
+      "type": "tips",
+      "subtype": "choukai_md4_tip",
+      "level": "N3",
+      "source_file": "BÍ KÍP CHOUKAI MD4",
+      "source_page": 6,
+      "knowledge_id": "tip:07f2bb82",
+      "label": "Dạng 2: Nhờ vả (người nghe làm) — mẫu tình huống",
+      "body": "Câu nhờ vả khi muốn người nghe thực hiện hành động.\nMẫu trọng điểm: ～Vてもらい ・ ～Vてほしい.\n\nVí dụ:\n1) 友達に自転車を貸してもらいます。\n   Tôi được bạn cho mượn xe đạp.\n2) 先生に作文の間違いを直してほしいです。\n   Tôi muốn thầy sửa lỗi sai trong bài luận giúp tôi.\n3) 駅までの道がわかりません。\n   Tôi không biết đường đến nhà ga. → muốn người khác chỉ đường.",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Slide có thể ghi 友達のに; đã chuẩn hóa thành 友達に.",
+      "ai_extra": null,
+      "examples": [
+        {
+          "jp": "友達に自転車を貸してもらいます。",
+          "vi": "Tôi được bạn cho mượn xe đạp."
+        },
+        {
+          "jp": "先生に作文の間違いを直してほしいです。",
+          "vi": "Tôi muốn thầy sửa lỗi sai trong bài luận giúp tôi."
+        },
+        {
+          "jp": "駅までの道がわかりません。",
+          "vi": "Tôi không biết đường đến nhà ga. → muốn người khác chỉ đường."
+        }
+      ]
+    },
+    {
+      "id": "choukai-md4-04",
+      "type": "tips",
+      "subtype": "choukai_md4_tip",
+      "level": "N3",
+      "source_file": "BÍ KÍP CHOUKAI MD4",
+      "source_page": 7,
+      "knowledge_id": "tip:e97cd716",
+      "label": "Dạng 2: Nhờ vả — đuôi câu & đáp án",
+      "body": "Đuôi câu nhờ vả thường gặp:\n・～てもらえる？ / ～てもらえませんか / ～ていただきたいんですが\n・～てくれる？ / ～てくれませんか / ～てください / ～てくださいませんか\n・～てほしいんだけど",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null
+    },
+    {
+      "id": "choukai-md4-05",
+      "type": "tips",
+      "subtype": "choukai_md4_tip",
+      "level": "N3",
+      "source_file": "BÍ KÍP CHOUKAI MD4",
+      "source_page": 8,
+      "knowledge_id": "tip:0adad1da",
+      "label": "Dạng 3: Hỏi phương pháp / lời khuyên (người nói làm)",
+      "body": "Đuôi câu hỏi phương pháp / lời khuyên:\n・どう～ばいいでしょうか / どう～たらいいですか\n・～方がわからないんですが / ～がわからないんですけど\n・～たいんですが / ～たいんですけど\n\nVí dụ:\n1) 駅までの道がわかりません。→ 駅にはどう行けばいいでしょうか？\n   Tôi không biết đường đến ga. → Muốn đến ga thì đi thế nào?",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "examples": [
+        {
+          "jp": "駅までの道がわかりません。→ 駅にはどう行けばいいでしょうか？",
+          "vi": "Tôi không biết đường đến ga. → Muốn đến ga thì đi thế nào?"
+        }
+      ]
+    },
+    {
+      "id": "choukai-md4-06",
+      "type": "tips",
+      "subtype": "choukai_md4_tip",
+      "level": "N3",
+      "source_file": "BÍ KÍP CHOUKAI MD4",
+      "source_page": 3,
+      "knowledge_id": "tip:970a8f45",
+      "label": "Dạng 4: Thông báo / đề nghị (1) — liên quan người nói",
+      "body": "Thông báo liên quan đến người nói: ～んですが ・ ～んですけど.\n\nVí dụ:\n1) 忘れ物をしたんですが。\n   Tôi quên đồ mất rồi.\n2) エアコンが働かないんですが。\n   Điều hòa không hoạt động…\n3) いすが壊れているんですが。\n   Cái ghế này bị hỏng rồi.",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "examples": [
+        {
+          "jp": "忘れ物をしたんですが。",
+          "vi": "Tôi quên đồ mất rồi."
+        },
+        {
+          "jp": "エアコンが働かないんですが。",
+          "vi": "Điều hòa không hoạt động…"
+        },
+        {
+          "jp": "いすが壊れているんですが。",
+          "vi": "Cái ghế này bị hỏng rồi."
+        }
+      ]
+    },
+    {
+      "id": "choukai-md4-07",
+      "type": "tips",
+      "subtype": "choukai_md4_tip",
+      "level": "N3",
+      "source_file": "BÍ KÍP CHOUKAI MD4",
+      "source_page": 4,
+      "knowledge_id": "tip:7ca2e58f",
+      "label": "Dạng 4: Thông báo / đề nghị (2) — liên quan người nghe",
+      "body": "Thông báo liên quan đến người nghe: ～よ ・ ～じゃない ・ ～てるよ ・ ～ていますよ.\n\nVí dụ:\n1) ハンカチ、落ちましたよ。\n   Khăn tay bạn làm rơi này.\n2) 傘、忘れていますよ。\n   Ô bạn để quên này.\n3) 服に何かついてるよ。\n   Có cái gì trên áo bạn này.",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "examples": [
+        {
+          "jp": "ハンカチ、落ちましたよ。",
+          "vi": "Khăn tay bạn làm rơi này."
+        },
+        {
+          "jp": "傘、忘れていますよ。",
+          "vi": "Ô bạn để quên này."
+        },
+        {
+          "jp": "服に何かついてるよ。",
+          "vi": "Có cái gì trên áo bạn này."
+        }
+      ]
+    },
+    {
+      "id": "choukai-md4-08",
+      "type": "tips",
+      "subtype": "choukai_md4_tip",
+      "level": "N3",
+      "source_file": "BÍ KÍP CHOUKAI MD4",
+      "source_page": 9,
+      "knowledge_id": "tip:d4ce57f8",
+      "label": "Dạng 4: Thông báo / đề nghị (3) — đề nghị giúp đỡ",
+      "body": "Đề nghị giúp đỡ người nghe: ～ましょうか ・ ～ましょう ・ ～ようか ・ ～ますね.\n\nVí dụ:\n1) 手伝いましょうか。\n   Để tôi giúp bạn nhé!\n2) 一緒に運ぼうか。\n   Để mình bê cùng nhé!\n3) これ、持っていきますね。\n   Cái này, để tớ mang cho nhé!",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "examples": [
+        {
+          "jp": "手伝いましょうか。",
+          "vi": "Để tôi giúp bạn nhé!"
+        },
+        {
+          "jp": "一緒に運ぼうか。",
+          "vi": "Để mình bê cùng nhé!"
+        },
+        {
+          "jp": "これ、持っていきますね。",
+          "vi": "Cái này, để tớ mang cho nhé!"
+        }
+      ]
+    }
+  ]
+}

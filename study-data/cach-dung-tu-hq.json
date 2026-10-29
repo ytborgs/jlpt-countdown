@@ -1,0 +1,3196 @@
+{
+  "schema_version": "1.0",
+  "document_id": "cach-dung-tu-hq",
+  "type": "practice",
+  "level": "N3",
+  "source_file": "cach-dung-tu-hq.pdf",
+  "source_path": "study-materials/cach-dung-tu-hq.pdf",
+  "title": "Cách dùng từ HQ — Mondai 5",
+  "page_count": 20,
+  "item_count": 90,
+  "expected_item_count": 90,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-28T16:06:48.696395+00:00",
+  "producer": "n3-study-extractor/l2-cach-dung-tu-hq",
+  "status": "verified",
+  "needs_verify_count": 0,
+  "notes": [
+    "PDF scanned — chép từ preview PNG đề/kaitou; đáp án từ vòng đỏ + 답.",
+    "MCQ pages: 1–8, 11–20 (18×5=90). Word-list pages 9–10 skipped.",
+    "Đã lấy 90/90 câu."
+  ],
+  "page_classification": {
+    "1": "mcq",
+    "2": "mcq",
+    "3": "mcq",
+    "4": "mcq",
+    "5": "mcq",
+    "6": "mcq",
+    "7": "mcq",
+    "8": "mcq",
+    "11": "mcq",
+    "12": "mcq",
+    "13": "mcq",
+    "14": "mcq",
+    "15": "mcq",
+    "16": "mcq",
+    "17": "mcq",
+    "18": "mcq",
+    "19": "mcq",
+    "20": "mcq",
+    "9": "word_list",
+    "10": "word_list"
+  },
+  "items": [
+    {
+      "id": "cach-dung-tu-hq-q01",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:割引",
+      "no": 1,
+      "lemma_jp": "割引",
+      "meaning_vi": "giảm giá, chiết khấu",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "その市の人口は10年間で20万人から18万人に割引された。"
+        },
+        {
+          "key": "2",
+          "text_jp": "あの店にこのクーポンを持っていけば500円割引になる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "山田さんは軽い割引でその仕事を引き受けた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "つまが髪を割引したのに中村さんは気づかなかった。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q02",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:オーバー",
+      "no": 2,
+      "lemma_jp": "オーバー",
+      "meaning_vi": "vượt quá",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "中央線で30分程度のオーバーが発生している。"
+        },
+        {
+          "key": "2",
+          "text_jp": "その講義は予定の時間をはるかにオーバーした。"
+        },
+        {
+          "key": "3",
+          "text_jp": "父が亡くなってから５年がオーバーした。"
+        },
+        {
+          "key": "4",
+          "text_jp": "このセミナーの参加者は前回に比べ30パーセントオーバーした。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q03",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:消費",
+      "no": 3,
+      "lemma_jp": "消費",
+      "meaning_vi": "tiêu thụ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "日ごろからこまめに運動してカロリーの消費に努めている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "一度消費されたデータは復元できませんのでご注意ください。"
+        },
+        {
+          "key": "3",
+          "text_jp": "山本さんは多忙なスケジュールを予定どおり消費している。"
+        },
+        {
+          "key": "4",
+          "text_jp": "この問題の消費をあやまると私は苦しい立場になる。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q04",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:追いつく",
+      "no": 4,
+      "lemma_jp": "追いつく",
+      "meaning_vi": "đuổi kịp, bắt kịp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "その棚は高い所にあるので私には手が追いつかない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "ひどい風邪をひいて、レポートの締切りに追いつかなかった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "あちこち迷ってわれわれはようやくコンサートホールへ追いついた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "小林さんは一生懸命勉強してクラスのみんなに追いついた。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q05",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 1,
+      "knowledge_id": "vocab:どきどき",
+      "no": 5,
+      "lemma_jp": "どきどき",
+      "meaning_vi": "tim đập thình thịch, hồi hộp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "初めて彼女の手を握ったときは胸がどきどきした。"
+        },
+        {
+          "key": "2",
+          "text_jp": "シャンデリアがどきどき揺れていると思ったら地震だった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "病気になると体がどきどきすることがある。"
+        },
+        {
+          "key": "4",
+          "text_jp": "部屋がとても静かなので、時計のどきどきする音が聞こえる。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q06",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:気づく",
+      "no": 6,
+      "lemma_jp": "気づく",
+      "meaning_vi": "nhận ra, để ý, phát hiện ra",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "多くの人が近い将来また大地震が来るのではと気づいている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "わたしは小さい時、看護師になりたいと気づいていた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "家に着いた時、財布がなくなっているのに気づいた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "この写真を見ると日本で過ごした日々に気づく。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q07",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:欠点",
+      "no": 7,
+      "lemma_jp": "欠点",
+      "meaning_vi": "khuyết điểm, điểm yếu",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "欠点と言うほどではないが、この車はややハンドルが甘い。"
+        },
+        {
+          "key": "2",
+          "text_jp": "生徒たちの無関心が目標達成の欠点となっている。"
+        },
+        {
+          "key": "3",
+          "text_jp": "台風の接近にともない飛行機の欠点が相次いでいる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "アメリカの友だちは私が書いた英文の欠点を訂正してくれた。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q08",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:建築",
+      "no": 8,
+      "lemma_jp": "建築",
+      "meaning_vi": "xây dựng (nhà cửa, công trình); kiến trúc",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "その芸術家によって建築された絵画に、約80億円の値がついて話題となっている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "昨日見学した工場では、毎日自動車が100台以上建築されているそうだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "社員が働きやすい環境を建築するための取り組みをご紹介します。"
+        },
+        {
+          "key": "4",
+          "text_jp": "あの美術館は60年前に建築されたそうで、今修理が行われている。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q09",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:減少",
+      "no": 9,
+      "lemma_jp": "減少",
+      "meaning_vi": "giảm xuống, suy giảm",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "過去10年間この市の人口は絶えず減少してきた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "わたしの成績はクラスで15番まで減少してしまった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "日本旅行のために今おこづかいを減少している。"
+        },
+        {
+          "key": "4",
+          "text_jp": "豊作のおかげでキャベツの値段が減少した。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q10",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 2,
+      "knowledge_id": "vocab:沸騰",
+      "no": 10,
+      "lemma_jp": "沸騰",
+      "meaning_vi": "sôi (nước); (nghĩa bóng) sôi nổi",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "昼ごろから具合が悪くなり熱も沸騰してきたので病院に行った。"
+        },
+        {
+          "key": "2",
+          "text_jp": "お湯が沸騰したら、ネギを入れて火を少し弱くしてください。"
+        },
+        {
+          "key": "3",
+          "text_jp": "部屋の温度が沸騰しやすい家には、様々な構造上の要因が考えられる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "朝からどんどん暑くなり、昼には気温が36度まで沸騰した。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q11",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:ふらふら",
+      "no": 11,
+      "lemma_jp": "ふらふら",
+      "meaning_vi": "loạng choạng, choáng váng (mệt/bệnh)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あの店のカレーは舌がふらふらするほど辛い。"
+        },
+        {
+          "key": "2",
+          "text_jp": "長いこと病気で寝ていたのでまだ足がふらふらする。"
+        },
+        {
+          "key": "3",
+          "text_jp": "緊張のあまり口の中がふらふらなので、うまくスピーチできなかった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "暑い中で仕事をしたので汗で体中がふらふらだ。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q12",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:中旬",
+      "no": 12,
+      "lemma_jp": "中旬",
+      "meaning_vi": "trung tuần (khoảng ngày 11–20 của tháng)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "次の大会ではこの若い選手たちがチームの中旬になります。"
+        },
+        {
+          "key": "2",
+          "text_jp": "この会社の社員はほとんどが20代か50代で中旬がいません。"
+        },
+        {
+          "key": "3",
+          "text_jp": "妹は７月中旬に日本へ帰国します。"
+        },
+        {
+          "key": "4",
+          "text_jp": "湖の中旬に小さな島があります。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q13",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:知り合う",
+      "no": 13,
+      "lemma_jp": "知り合う",
+      "meaning_vi": "quen biết, làm quen với ai",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "この取扱説明書をよく読んで知り合ってから本品を使用してください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "この近くにこんな大きな公園があるとはつい２、３日前まで知り合わなかった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "山下さんとはピアノ教室で知り合った。"
+        },
+        {
+          "key": "4",
+          "text_jp": "田中さんに手を振ったけれど、田中さんは知り合わなかった。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q14",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:断る",
+      "no": 14,
+      "lemma_jp": "断る",
+      "meaning_vi": "từ chối",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "どんなにつらくても希望を断ってはいけない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "わたしは50歳の時、勤めていた銀行を断って、農業を始めた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "半年間も行方不明だった息子が生きて帰ってきた時には、自分の目が断られなかった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "彼はひどい格好をしていたので、レストランに入るのを断られた。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q15",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 3,
+      "knowledge_id": "vocab:募集",
+      "no": 15,
+      "lemma_jp": "募集",
+      "meaning_vi": "tuyển, chiêu mộ, kêu gọi đăng ký",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "現在、テニス部では部員を募集しています。"
+        },
+        {
+          "key": "2",
+          "text_jp": "その資料はあとで募集しますので、持ち帰らないでください。"
+        },
+        {
+          "key": "3",
+          "text_jp": "わたしの町では毎週火曜と土曜にごみを募集しに来ます。"
+        },
+        {
+          "key": "4",
+          "text_jp": "わたしの趣味は、いろいろなおもちゃを募集することです。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q16",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:滞在",
+      "no": 16,
+      "lemma_jp": "滞在",
+      "meaning_vi": "lưu trú, ở lại (một nơi trong một khoảng thời gian)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "この列車は仙台で３分間滞在します。"
+        },
+        {
+          "key": "2",
+          "text_jp": "少し疲れたので木の下で10分間滞在した。"
+        },
+        {
+          "key": "3",
+          "text_jp": "私たちは朝子どもを両親に滞在してから仕事に出かける。"
+        },
+        {
+          "key": "4",
+          "text_jp": "あすから２週間、仕事で大阪に滞在します。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q17",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:親しい",
+      "no": 17,
+      "lemma_jp": "親しい",
+      "meaning_vi": "thân thiết, gần gũi",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "箸を使うのは最初は難しかったが少しずつ親しくなってきた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "私は入り口にいちばん親しいところにある絵が気に入った。"
+        },
+        {
+          "key": "3",
+          "text_jp": "私の父は彼の父親と親しくしている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "上達するにつれ英会話の授業が親しくなってきた。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q18",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:盛ん",
+      "no": 18,
+      "lemma_jp": "盛ん",
+      "meaning_vi": "phát triển mạnh, sôi nổi, hưng thịnh",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "一人っ子のぼくは盛んな家庭がうらやましかった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "子供たちが盛んな教育を受けられない国が世界にはたくさんある。"
+        },
+        {
+          "key": "3",
+          "text_jp": "盛んに勉強したので、昨日のテストはよくできた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "わたしのふるさとは漁業が盛んだ。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q19",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:分類",
+      "no": 19,
+      "lemma_jp": "分類",
+      "meaning_vi": "phân loại",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "エアコンの代金を６回に分類して払うことにした。"
+        },
+        {
+          "key": "2",
+          "text_jp": "この辺りは、歩道と車道が分類されていない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "インフルエンザウイルスはA型、B型、C型の３つに分類される。"
+        },
+        {
+          "key": "4",
+          "text_jp": "人間と動物を分類しているものの一つは言語の使用だ。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q20",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 4,
+      "knowledge_id": "vocab:空",
+      "no": 20,
+      "lemma_jp": "空",
+      "meaning_vi": "rỗng, trống (から)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "テレビを見る空があるなら、部屋の片付けでもしなさい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "飲み終わって空になった缶やペットボトルは、この箱に入れてください。"
+        },
+        {
+          "key": "3",
+          "text_jp": "空の計画では工事はとっくに終わっているはずだった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "砂糖やミルクを入れた紅茶もおいしいけど、わたしは空の紅茶の方が好きだ。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q21",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:似合う",
+      "no": 21,
+      "lemma_jp": "似合う",
+      "meaning_vi": "hợp, phù hợp (quần áo…)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "土曜日ならみんなの予定が似合うので、その日にパーティーをしましょう。"
+        },
+        {
+          "key": "2",
+          "text_jp": "われわれは彼が有能な教師だという認識で似合っている。"
+        },
+        {
+          "key": "3",
+          "text_jp": "この税制改革案について彼らは首相と意見が似合わなかった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "そのスカーフ、小林さんによく似合っていますね。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q22",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:身につける",
+      "no": 22,
+      "lemma_jp": "身につける",
+      "meaning_vi": "học được, trang bị (kiến thức, kỹ năng)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ちちは再就職するために何か技術を身につけたいと言っている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "卒業する生徒たちはみな手に花束を身につけていた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "彼女は毎日2度、犬を身につけて散歩に出る。"
+        },
+        {
+          "key": "4",
+          "text_jp": "わたしは栄養を身につけているので、とても健康だ。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q23",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:栄養",
+      "no": 23,
+      "lemma_jp": "栄養",
+      "meaning_vi": "dinh dưỡng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "この自動車は、スピードは速いが、とても多くの栄養がかかる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "人形についてなら彼女はとても栄養がゆたかだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "栄養が偏った食事をしないように気をつけてください。"
+        },
+        {
+          "key": "4",
+          "text_jp": "その会社は新商品発売が成功し、どんどん栄養が増えている。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q24",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:ほえる",
+      "no": 24,
+      "lemma_jp": "ほえる",
+      "meaning_vi": "sủa (chó, sói…)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ベルがほえると鈴木さんは玄関へ飛んでいった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "夜中に犬がきゃんきゃんほえて目が覚めた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "待合室には静かで心地よい音楽がほえている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "スズメのちゅんちゅんほえる声で目が覚めた。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q25",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 5,
+      "knowledge_id": "vocab:延期",
+      "no": 25,
+      "lemma_jp": "延期",
+      "meaning_vi": "hoãn, dời lại",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "いつもより延期して勉強したので、今回の成績は上がった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "天気が悪かったので運動会は延期された。"
+        },
+        {
+          "key": "3",
+          "text_jp": "チェックアウトの時間を午後１時まで延期できますか。"
+        },
+        {
+          "key": "4",
+          "text_jp": "今朝は具合が悪かったので、会社に行く時間を３時間延期した。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q26",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:出張",
+      "no": 26,
+      "lemma_jp": "出張",
+      "meaning_vi": "đi công tác",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "おじは年に数回海外へ出張します。"
+        },
+        {
+          "key": "2",
+          "text_jp": "山田先生の講義はいつも出張する生徒が多いです。"
+        },
+        {
+          "key": "3",
+          "text_jp": "両親は箱根の温泉地へ2泊3日の出張に行きました。"
+        },
+        {
+          "key": "4",
+          "text_jp": "勝つことではなく出張することに意義があります。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q27",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:慰める",
+      "no": 27,
+      "lemma_jp": "慰める",
+      "meaning_vi": "an ủi, động viên",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "本当はやりたくなかったが、慰めて仕事を引き受けることにした。"
+        },
+        {
+          "key": "2",
+          "text_jp": "わたしが芸能界に入ることについて父は反対だったが、母は慰めてくれた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "失敗したが、初めてなのだからしょうがないと自分を慰めた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "私たちは結婚10周年を慰めてシャンパンで乾杯した。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q28",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:支給",
+      "no": 28,
+      "lemma_jp": "支給",
+      "meaning_vi": "chi trả, cấp phát (trợ cấp, phụ cấp…)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "病院に行くときは必ず健康保険証を支給してください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "先月の支給は収入を3万円超過していました。"
+        },
+        {
+          "key": "3",
+          "text_jp": "先月でやっと住宅ローンの支給が終わった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "給料のほかに交通費が支給されます。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q29",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:埋める",
+      "no": 29,
+      "lemma_jp": "埋める",
+      "meaning_vi": "chôn, lấp",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "熱帯の植物は日本に持ってきて埋めてもたいていはよく育たない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "このセーターを全部埋めるには引き出しが小さすぎる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "山田さんの家では、生ごみを庭に埋めているそうだ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "手袋を埋めたままではドアのかぎを開けられない。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q30",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 6,
+      "knowledge_id": "vocab:かれる",
+      "no": 30,
+      "lemma_jp": "かれる",
+      "meaning_vi": "héo, khô héo (cây cối, hoa lá)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "1週間以上も水やりを忘れたので、庭の花がかれてしまった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "もうすぐおもちがかれるから、待っていてください。"
+        },
+        {
+          "key": "3",
+          "text_jp": "息子が作った雪だるまも夕方にはかれてしまった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "このコピー機はかれているので、あちらにあるのを使ってください。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q31",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:重大",
+      "no": 31,
+      "lemma_jp": "重大",
+      "meaning_vi": "nghiêm trọng, trọng đại",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "夫婦間の争いは子どもの精神形成に重大な影響を及ぼす。"
+        },
+        {
+          "key": "2",
+          "text_jp": "池田さんは健康のために重大なことは何もしていないそうだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "重大な時間を使ってアンケートに協力してくださり、ありがとうございます。"
+        },
+        {
+          "key": "4",
+          "text_jp": "息子が入試前の重大な時なので、うちは旅行に行かないことにした。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q32",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:区別",
+      "no": 32,
+      "lemma_jp": "区別",
+      "meaning_vi": "phân biệt",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "自分に合った学校を区別するのはほんとうに難しい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "姉よりこんなにおこづかいが少ないのは区別だと思う。"
+        },
+        {
+          "key": "3",
+          "text_jp": "男女の区別に関係なく同等の機会が与えられている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "大学では授業を自由に区別することができる。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q33",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:引き受ける",
+      "no": 33,
+      "lemma_jp": "引き受ける",
+      "meaning_vi": "nhận đảm nhận, nhận lời làm",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "きみの風邪を引き受けたようで、わたしも熱が出た。"
+        },
+        {
+          "key": "2",
+          "text_jp": "忘年会の幹事を引き受けることにした。"
+        },
+        {
+          "key": "3",
+          "text_jp": "わたしの学校では遅刻をきびしく引き受けている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "あらゆる製品は出荷される前に入念な検査を引き受ける。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q34",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:詰める",
+      "no": 34,
+      "lemma_jp": "詰める",
+      "meaning_vi": "nhét đầy, đóng gói, xếp chặt vào",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "スーツケースにうまく荷物を詰める方法を教えてください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "おうかがいするときには子どもたちを家に詰めてまいります。"
+        },
+        {
+          "key": "3",
+          "text_jp": "書類の記入は鉛筆ではなく、ボールペンで詰めてください。"
+        },
+        {
+          "key": "4",
+          "text_jp": "パーティーに私も詰めてくださってほんとうにありがとうございます。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q35",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 7,
+      "knowledge_id": "vocab:発生",
+      "no": 35,
+      "lemma_jp": "発生",
+      "meaning_vi": "phát sinh, xảy ra (chi phí, tai nạn, sự cố…)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ルールがわかるようになったら、アメフトに対する興味が発生した。"
+        },
+        {
+          "key": "2",
+          "text_jp": "その店にはいろいろな商品が発生している。"
+        },
+        {
+          "key": "3",
+          "text_jp": "当日キャンセルされますとキャンセル料が発生します。"
+        },
+        {
+          "key": "4",
+          "text_jp": "この化学薬品はもう発生されていない。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q36",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:かき混ぜる",
+      "no": 36,
+      "lemma_jp": "かき混ぜる",
+      "meaning_vi": "khuấy, trộn đều",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "パーティーの出席者はほとんどが男性で、数名だけ女性がかき混ぜていた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "コーヒーに砂糖を入れスプーンでゆっくりかき混ぜた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "きみの捜していた書類がわたしのファイルにかき混ぜていた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "この大学は３つの学部がかき混ぜられている。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q37",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:満員",
+      "no": 37,
+      "lemma_jp": "満員",
+      "meaning_vi": "đông kín người, hết chỗ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "講座は満員を越したので受け付けを締め切った。"
+        },
+        {
+          "key": "2",
+          "text_jp": "コンピューターの故障で仕事が満員している。"
+        },
+        {
+          "key": "3",
+          "text_jp": "彼の家の辺りは細い道が満員でわかりにくい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "電車が満員で乗れなかった。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q38",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:活動",
+      "no": 38,
+      "lemma_jp": "活動",
+      "meaning_vi": "hoạt động (tổ chức, đoàn thể, phong trào…)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "当店の活動は午後６時から11時までです。"
+        },
+        {
+          "key": "2",
+          "text_jp": "わたしの同僚は活動のために埼玉から東京まで自転車で通勤している。"
+        },
+        {
+          "key": "3",
+          "text_jp": "山本さんは環境保護運動で活発に活動している。"
+        },
+        {
+          "key": "4",
+          "text_jp": "大雨のために列車の活動が止まっているらしい。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q39",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:距離",
+      "no": 39,
+      "lemma_jp": "距離",
+      "meaning_vi": "khoảng cách",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "２台の車は５センチもないくらいの距離ですれ違った。"
+        },
+        {
+          "key": "2",
+          "text_jp": "何秒かの距離で最終電車に乗り遅れてしまった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "京都から奈良までの距離はどれくらいありますか。"
+        },
+        {
+          "key": "4",
+          "text_jp": "スカートの距離を３センチ短くしてもらった。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q40",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 8,
+      "knowledge_id": "vocab:中古",
+      "no": 40,
+      "lemma_jp": "中古",
+      "meaning_vi": "đồ đã qua sử dụng, hàng cũ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "池田さんは大学ではわたしより２年中古でした。"
+        },
+        {
+          "key": "2",
+          "text_jp": "昨日、店で中古のパソコンをとても安く買った。"
+        },
+        {
+          "key": "3",
+          "text_jp": "石原さんは小学校時代からの中古の友だちです。"
+        },
+        {
+          "key": "4",
+          "text_jp": "同じ高校を卒業した２人は中古の友情で結ばれている。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q41",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 11,
+      "knowledge_id": "vocab:移動する",
+      "no": 41,
+      "lemma_jp": "移動する",
+      "meaning_vi": "di chuyển, chuyển vị trí",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ここで予定を移動して最新のニュースをお伝えします。"
+        },
+        {
+          "key": "2",
+          "text_jp": "そのつくえを左へ移動してください。"
+        },
+        {
+          "key": "3",
+          "text_jp": "祖父は若いころブラジルに移動した。"
+        },
+        {
+          "key": "4",
+          "text_jp": "来週、事務所を移動します。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q42",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 11,
+      "knowledge_id": "vocab:活動",
+      "no": 42,
+      "lemma_jp": "活動",
+      "meaning_vi": "hoạt động (làm việc, sinh hoạt tích cực)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "辞書をもっと活動してください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "朝早くから活動すると気持ちがいい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "毎朝犬に活動させることにしている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "彼は平和な活動を送っている。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q43",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 11,
+      "knowledge_id": "vocab:ことわる",
+      "no": 43,
+      "lemma_jp": "ことわる",
+      "meaning_vi": "từ chối",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "頼まれた仕事をことわった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "兄弟でも個々の性格はまったくことわる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "いつもとことわって今日はとても静かだ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "年齢をことわるにつれ疲れやすくなる。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q44",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 11,
+      "knowledge_id": "vocab:指示",
+      "no": 44,
+      "lemma_jp": "指示",
+      "meaning_vi": "chỉ thị, ra lệnh",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "「トイレはどこにありますか」と店員に指示した。"
+        },
+        {
+          "key": "2",
+          "text_jp": "「あした映画を見に行こうよ」と友だちに指示した。"
+        },
+        {
+          "key": "3",
+          "text_jp": "「この書類、25部コピーしておいて」と秘書に指示した。"
+        },
+        {
+          "key": "4",
+          "text_jp": "「この作文を見ていただけませんか」と先生に指示した。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q45",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 11,
+      "knowledge_id": "vocab:落ち着く",
+      "no": 45,
+      "lemma_jp": "落ち着く",
+      "meaning_vi": "bình tĩnh, ổn định, lắng xuống",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "電車が駅に落ち着いたら電話をください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "あわてないで落ち着いて話してください。"
+        },
+        {
+          "key": "3",
+          "text_jp": "家のかぎが穴に落ち着いた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "この商品は人気がなくて、棚にずっと落ち着いている。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q46",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 12,
+      "knowledge_id": "vocab:新鮮",
+      "no": 46,
+      "lemma_jp": "新鮮",
+      "meaning_vi": "tươi, mới",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ボランティアは新鮮な気持ちだけでは続かない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "新鮮な気持ちで言ったが相手にされなかった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "両親が新鮮な顔で先生と相談している。"
+        },
+        {
+          "key": "4",
+          "text_jp": "新鮮な食材を使った料理はとても味が良い。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q47",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 12,
+      "knowledge_id": "vocab:内容",
+      "no": 47,
+      "lemma_jp": "内容",
+      "meaning_vi": "nội dung",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "息子はよい内容とつき合っている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "静岡は東京と名古屋の内容に位置する。"
+        },
+        {
+          "key": "3",
+          "text_jp": "内容でばかり遊ぶ子どもたちが増えた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "わたしたちは内容の充実した講演を期待する。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q48",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 12,
+      "knowledge_id": "vocab:ゆるい",
+      "no": 48,
+      "lemma_jp": "ゆるい",
+      "meaning_vi": "lỏng, rộng, không chặt",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "暑さと湿度で彼女はゆるくなった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "やせてズボンがゆるくなった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "彼女は夫にいつもゆるいことを言う。"
+        },
+        {
+          "key": "4",
+          "text_jp": "係の人がゆるく説明してくれた。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q49",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 12,
+      "knowledge_id": "vocab:見送る",
+      "no": 49,
+      "lemma_jp": "見送る",
+      "meaning_vi": "tiễn ai đó; nhìn theo đến khi khuất",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "電車の窓から景色を見送るのが好きだ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "何ページか見送ってみたが、難しくてわからなかった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "毎日かならずメールを見送るようにしている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "姿が見えなくなるまで恋人を見送った。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q50",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 12,
+      "knowledge_id": "vocab:回収",
+      "no": 50,
+      "lemma_jp": "回収",
+      "meaning_vi": "thu hồi, thu gom",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "彼女はわたしの質問に手紙で回収した。"
+        },
+        {
+          "key": "2",
+          "text_jp": "疲労回収のためにオレンジジュースを飲んだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "答案用紙はすべて回収した。"
+        },
+        {
+          "key": "4",
+          "text_jp": "その会社は今、事務員を回収している。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q51",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 13,
+      "knowledge_id": "vocab:清潔",
+      "no": 51,
+      "lemma_jp": "清潔",
+      "meaning_vi": "sạch sẽ, vệ sinh",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "自分の気持ちを清潔に伝えるのはむずかしい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "治安もよく、道路も常に掃除されていて清潔だ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "手術後２週間で清潔な健康状態に戻った。"
+        },
+        {
+          "key": "4",
+          "text_jp": "その夜なにをしていたかの清潔な記憶がない。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q52",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 13,
+      "knowledge_id": "vocab:発展",
+      "no": 52,
+      "lemma_jp": "発展",
+      "meaning_vi": "phát triển, mở rộng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "彼女の新作の発展は遅れている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "雪で列車の発展が数時間遅れた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "それは大きな政治事件へと発展した。"
+        },
+        {
+          "key": "4",
+          "text_jp": "このレストランからは飛行機の発展がみえる。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q53",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 13,
+      "knowledge_id": "vocab:性格",
+      "no": 53,
+      "lemma_jp": "性格",
+      "meaning_vi": "tính cách",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "数学は予想以上に性格がよかった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "彼女はりっぱな性格の持ち主だ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "そんな人に教師をする性格はない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "彼女はおなかをこわしやすい性格だ。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q54",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 13,
+      "knowledge_id": "vocab:植える",
+      "no": 54,
+      "lemma_jp": "植える",
+      "meaning_vi": "trồng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "道に電灯を植えたので明るくなった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "この空港は海に土を植えて造られた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "近所の公園にはいろいろな花が植えてある。"
+        },
+        {
+          "key": "4",
+          "text_jp": "ケーキにいちごやクリームをたくさん植えた。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q55",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 13,
+      "knowledge_id": "vocab:はかる",
+      "no": 55,
+      "lemma_jp": "はかる",
+      "meaning_vi": "đo / cân / tính (測る・量る・計る)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "八百屋はスイカを一つ一つ手で重さをはかった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "りんごの数をはかってみたら、12個あった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "この宿題は１時間ぐらいで終わるとはかっている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "先月の生活費を電卓ではかってみた。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q56",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 14,
+      "knowledge_id": "vocab:あずける",
+      "no": 56,
+      "lemma_jp": "あずける",
+      "meaning_vi": "gửi, ký gửi, giao cho ai giữ hộ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "部下がかぎをわたしにあずけたまま取りに来ない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "田舎の親類が新鮮な野菜をあずけてくれた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "困った時、友達にずいぶんあずけてもらった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "雑誌で紹介されたレストランをあずけた。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q57",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 14,
+      "knowledge_id": "vocab:つたわる",
+      "no": 57,
+      "lemma_jp": "つたわる",
+      "meaning_vi": "được truyền đạt, truyền tới",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "通訳の難しい試験に見事につたわった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "話の輪に皆がつたわってにぎやかになった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "合格者の中にはわたしもつたわっている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "受話器を通して喜ぶ気配がつたわって来る。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q58",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 14,
+      "knowledge_id": "vocab:受け入れる",
+      "no": 58,
+      "lemma_jp": "受け入れる",
+      "meaning_vi": "tiếp nhận, chấp nhận, thu nhận",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "フランスは多くの難民を受け入れた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "学生たちには成績を個々に受け入れてある。"
+        },
+        {
+          "key": "3",
+          "text_jp": "現地の天候を前もって受け入れて出かける。"
+        },
+        {
+          "key": "4",
+          "text_jp": "手数料も受け入れると全部で10万円になる。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q59",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 14,
+      "knowledge_id": "vocab:正直",
+      "no": 59,
+      "lemma_jp": "正直",
+      "meaning_vi": "trung thực, thành thật",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "この商品の正直な使い方をこれから説明します。"
+        },
+        {
+          "key": "2",
+          "text_jp": "この問題は正直な答えがわかりません。"
+        },
+        {
+          "key": "3",
+          "text_jp": "内田さんは正直な人で、決してうそは言いません。"
+        },
+        {
+          "key": "4",
+          "text_jp": "正直な距離は分かりませんが、10キロぐらいだと思います。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q60",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 14,
+      "knowledge_id": "vocab:ユーモア",
+      "no": 60,
+      "lemma_jp": "ユーモア",
+      "meaning_vi": "sự hài hước, khiếu hài hước",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "山田さんはユーモアがあって、いっしょにいると楽しい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "わたしは映画が好きで、ユーモアした映画をよく見る。"
+        },
+        {
+          "key": "3",
+          "text_jp": "きのう友達が貸してくれた本はとてもユーモアだった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "彼はユーモアに自己紹介をして、名前を覚えてもらった。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q61",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 15,
+      "knowledge_id": "vocab:まぜる",
+      "no": 61,
+      "lemma_jp": "まぜる",
+      "meaning_vi": "trộn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "実験は失敗をまぜた結果、ついに中止された。"
+        },
+        {
+          "key": "2",
+          "text_jp": "贈り物をリボンでまぜてきれいに飾った。"
+        },
+        {
+          "key": "3",
+          "text_jp": "国内産に外国産の米をまぜて売っている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "小説の最後を印象的な場面でまぜている。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q62",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 15,
+      "knowledge_id": "vocab:どなる",
+      "no": 62,
+      "lemma_jp": "どなる",
+      "meaning_vi": "hét to, quát tháo",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "夕方になると市場は次第に活気をどなってくる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "電話がどなって目が覚めた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "怪我人を見て「救急車を呼べ」とどなった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "どなったことに開店と同時に全部売れたそうだ。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q63",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 15,
+      "knowledge_id": "vocab:緊張",
+      "no": 63,
+      "lemma_jp": "緊張",
+      "meaning_vi": "căng thẳng",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "緊張のときの連絡先を決める。"
+        },
+        {
+          "key": "2",
+          "text_jp": "試合時間が近づくにつれて緊張が高まった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "彼はあくまで自分は正しいと緊張した。"
+        },
+        {
+          "key": "4",
+          "text_jp": "みなが君の将来に緊張している。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q64",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 15,
+      "knowledge_id": "vocab:そろそろ",
+      "no": 64,
+      "lemma_jp": "そろそろ",
+      "meaning_vi": "sắp đến lúc…",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "美術関係の本をそろそろ持っている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "そろそろ昼食にしようか。"
+        },
+        {
+          "key": "3",
+          "text_jp": "息子もそろそろ大人になった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "外はそろそろ雪だった。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q65",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 15,
+      "knowledge_id": "vocab:区切る",
+      "no": 65,
+      "lemma_jp": "区切る",
+      "meaning_vi": "chia, phân chia",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "一部屋を棚で区切って二人で使う。"
+        },
+        {
+          "key": "2",
+          "text_jp": "母が来たのであわてて日記を区切った。"
+        },
+        {
+          "key": "3",
+          "text_jp": "ずっと店を区切ったまま商売をしていない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "運転手が車のドアを区切ってくれた。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q66",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 16,
+      "knowledge_id": "vocab:期限",
+      "no": 66,
+      "lemma_jp": "期限",
+      "meaning_vi": "kỳ hạn, thời hạn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "このきっぷは有効期限を過ぎている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "わたしにできることはこれが期限だ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "今日は期限のたつのが遅く感じる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "われわれはすでに体力の期限に達していた。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q67",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 16,
+      "knowledge_id": "vocab:だるい",
+      "no": 67,
+      "lemma_jp": "だるい",
+      "meaning_vi": "mệt rã rời",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "風邪をひいてとてもだるくなった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "今学期の成績にはとてもだるかった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "窓ガラスがだるいから磨いてください。"
+        },
+        {
+          "key": "4",
+          "text_jp": "川の流れはこのあたりではだるい。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q68",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 16,
+      "knowledge_id": "vocab:行き先",
+      "no": 68,
+      "lemma_jp": "行き先",
+      "meaning_vi": "đích đến, nơi đến",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "何かあったら行き先に連絡してください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "かならず行き先を言って行ってください。"
+        },
+        {
+          "key": "3",
+          "text_jp": "インフルエンザが広い行き先で流行した。"
+        },
+        {
+          "key": "4",
+          "text_jp": "娘は会社の行き先にアパートを借りている。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q69",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 16,
+      "knowledge_id": "vocab:暗記",
+      "no": 69,
+      "lemma_jp": "暗記",
+      "meaning_vi": "ghi nhớ, học thuộc",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "わたしは７歳のときから暗記をつけている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "価格はふたの上に暗記してある。"
+        },
+        {
+          "key": "3",
+          "text_jp": "バスの中で英単語を暗記した。"
+        },
+        {
+          "key": "4",
+          "text_jp": "その通信文は暗記で書かれていた。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q70",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 16,
+      "knowledge_id": "vocab:未来",
+      "no": 70,
+      "lemma_jp": "未来",
+      "meaning_vi": "tương lai",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "内田さんは未来何になりたいですか。"
+        },
+        {
+          "key": "2",
+          "text_jp": "未来の今ごろ、大学が建つ予定だ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "いつ来られるか、未来の都合を教えてください。"
+        },
+        {
+          "key": "4",
+          "text_jp": "このままではわれわれに未来はない。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q71",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 17,
+      "knowledge_id": "vocab:たまる",
+      "no": 71,
+      "lemma_jp": "たまる",
+      "meaning_vi": "tích tụ, chất đống",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "仕事が早くすんで半日たまった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "つくえの上に古い雑誌がたまっている。"
+        },
+        {
+          "key": "3",
+          "text_jp": "ぶつかったが車には傷がたまらなかった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "渋滞で車の列がたまったまま動かない。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q72",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 17,
+      "knowledge_id": "vocab:早退",
+      "no": 72,
+      "lemma_jp": "早退",
+      "meaning_vi": "về sớm (khỏi công ty/trường)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "きのうは熱っぽいので会社を早退した。"
+        },
+        {
+          "key": "2",
+          "text_jp": "2週間前に早退して体調もよくなってきた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "早退後は妻とのんびり田舎で暮らすつもりだ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "仕事が忙しくて早退時間になっても帰れない。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q73",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 17,
+      "knowledge_id": "vocab:経由",
+      "no": 73,
+      "lemma_jp": "経由",
+      "meaning_vi": "đi qua (điểm trung chuyển)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "悲しみは時の経由とともに消えていく。"
+        },
+        {
+          "key": "2",
+          "text_jp": "髪を短く切った特別な経由はない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "学生時代の失恋はいい経由になった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "彼女は成田経由でハワイへ行った。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q74",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 17,
+      "knowledge_id": "vocab:通り過ぎる",
+      "no": 74,
+      "lemma_jp": "通り過ぎる",
+      "meaning_vi": "đi qua, đi ngang qua",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "学校の運動場へ車を通り過ぎないでください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "急がないと最終の電車に通り過ぎるよ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "このホテルはサービスが通り過ぎている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "台風が通り過ぎた後はさわやかに晴れ上がった。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q75",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 17,
+      "knowledge_id": "vocab:修理",
+      "no": 75,
+      "lemma_jp": "修理",
+      "meaning_vi": "sửa chữa (máy móc, xe cộ…)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "仕事に行く途中で車が修理してしまった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "うちの会社でも人員の修理が始まった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "この機械は修理できないほどこわれている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "この料理は修理にたいへん手間がかかる。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q76",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 18,
+      "knowledge_id": "vocab:縮小",
+      "no": 76,
+      "lemma_jp": "縮小",
+      "meaning_vi": "thu hẹp, thu nhỏ lại",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "妻が髪を縮小したのに彼は気づかなかった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "飛行機に乗るのが縮小するという人もいる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "工場の規模を縮小する必要がある。"
+        },
+        {
+          "key": "4",
+          "text_jp": "労働時間の縮小は仕事の効率を高める。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q77",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 18,
+      "knowledge_id": "vocab:進歩",
+      "no": 77,
+      "lemma_jp": "進歩",
+      "meaning_vi": "tiến bộ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "建設工事の進歩は当初の計画どおりだ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "担任の先生のところに進歩相談に行った。"
+        },
+        {
+          "key": "3",
+          "text_jp": "日本の自動車産業は海外各地に進歩している。"
+        },
+        {
+          "key": "4",
+          "text_jp": "彼の英語を話す力はかなり進歩した。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q78",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 18,
+      "knowledge_id": "vocab:建設",
+      "no": 78,
+      "lemma_jp": "建設",
+      "meaning_vi": "xây dựng, kiến thiết",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "家に太陽熱暖房を建設してもらった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "海外で建設された車を買った。"
+        },
+        {
+          "key": "3",
+          "text_jp": "新しい体育館が建設された。"
+        },
+        {
+          "key": "4",
+          "text_jp": "この工場では車の部品を建設している。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q79",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 18,
+      "knowledge_id": "vocab:翻訳",
+      "no": 79,
+      "lemma_jp": "翻訳",
+      "meaning_vi": "biên dịch",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "このひらがなをカタカナに翻訳してください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "その小説は日本語の翻訳で読んだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "2人は翻訳を交わさず目と目で合図した。"
+        },
+        {
+          "key": "4",
+          "text_jp": "そんなことは遅刻の翻訳にならない。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q80",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 18,
+      "knowledge_id": "vocab:なだらか",
+      "no": 80,
+      "lemma_jp": "なだらか",
+      "meaning_vi": "thoai thoải (đồi, dốc, núi)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "なだらかに見える山だが、実際は岩だらけだ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "このなしは口当たりのよい甘さとなだらかな食感が特長だ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "冷房の利いた室内はなだらかで、外の暑さがうそのようだ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "親にとってわが子がいちばんかわいいのはなだらかだ。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q81",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 19,
+      "knowledge_id": "vocab:制限",
+      "no": 81,
+      "lemma_jp": "制限",
+      "meaning_vi": "giới hạn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "その地方には独特の家族制限が残っている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "女子高に行くならおしゃれな制限のところがよい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "むすめは母親の制限を振り切って家を出た。"
+        },
+        {
+          "key": "4",
+          "text_jp": "今回の求人募集に年齢の制限はない。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q82",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 19,
+      "knowledge_id": "vocab:あまる",
+      "no": 82,
+      "lemma_jp": "あまる",
+      "meaning_vi": "dư thừa",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あまったパンは捨てず鳥にやる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "このデパートは夜8時半にあまる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "広場にはおおぜいの人があまっている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "気がついたら時計があまっていた。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q83",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 19,
+      "knowledge_id": "vocab:身につける",
+      "no": 83,
+      "lemma_jp": "身につける",
+      "meaning_vi": "trang bị (kỹ năng)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "頭にボールを身につけてけがをした。"
+        },
+        {
+          "key": "2",
+          "text_jp": "むかしのことをよく身につけている。"
+        },
+        {
+          "key": "3",
+          "text_jp": "コンピューターの技術を身につけたい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "彼女はあかんぼうを身につけていた。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q84",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 19,
+      "knowledge_id": "vocab:訪問",
+      "no": 84,
+      "lemma_jp": "訪問",
+      "meaning_vi": "ghé thăm",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ここ数年で通信手段は驚くほど訪問した。"
+        },
+        {
+          "key": "2",
+          "text_jp": "会議は訪問より30分早く終わった。"
+        },
+        {
+          "key": "3",
+          "text_jp": "わたしたちはまだ訪問の答えをもらっていない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "彼は就職のための会社訪問を始めた。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q85",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 19,
+      "knowledge_id": "vocab:そっくり",
+      "no": 85,
+      "lemma_jp": "そっくり",
+      "meaning_vi": "giống y đúc",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "夫と息子は顔だけでなく声までもそっくりだ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "わたしの祖母の誕生日はそっくりだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "父は毎朝そっくりの時間に会社に行く。"
+        },
+        {
+          "key": "4",
+          "text_jp": "わたしにそっくりのサイズの服が見つかった。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q86",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 20,
+      "knowledge_id": "vocab:話しかける",
+      "no": 86,
+      "lemma_jp": "話しかける",
+      "meaning_vi": "bắt chuyện",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "警察に事故を話しかけてください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "人とあいさつを話しかけてください。"
+        },
+        {
+          "key": "3",
+          "text_jp": "いま忙しいから、話しかけないでください。"
+        },
+        {
+          "key": "4",
+          "text_jp": "友だちと話しかけ、授業に遅れてしまった。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q87",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 20,
+      "knowledge_id": "vocab:はなす",
+      "no": 87,
+      "lemma_jp": "はなす",
+      "meaning_vi": "để cách ra, đặt xa nhau",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "試験の時は机をはなして並べた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "病気が治るまで結婚式をはなした。"
+        },
+        {
+          "key": "3",
+          "text_jp": "地震で愛する家族をはなした。"
+        },
+        {
+          "key": "4",
+          "text_jp": "進んでいる時計の針を５分はなす。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q88",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 20,
+      "knowledge_id": "vocab:発生する",
+      "no": 88,
+      "lemma_jp": "発生する",
+      "meaning_vi": "phát sinh, xuất hiện (quyền/nghĩa vụ…)",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "駅前にスーパーが発生するらしい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "春になると白い花が庭に発生する。"
+        },
+        {
+          "key": "3",
+          "text_jp": "65歳で年金を受け取る権利が発生する。"
+        },
+        {
+          "key": "4",
+          "text_jp": "友だちの活躍が新聞に発生している。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q89",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 20,
+      "knowledge_id": "vocab:募集",
+      "no": 89,
+      "lemma_jp": "募集",
+      "meaning_vi": "tuyển dụng, chiêu mộ",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "午前10時に公園に募集してください。"
+        },
+        {
+          "key": "2",
+          "text_jp": "彼女は北海道へ植物募集に行った。"
+        },
+        {
+          "key": "3",
+          "text_jp": "人口が東京およびその周辺に募集している。"
+        },
+        {
+          "key": "4",
+          "text_jp": "われわれは新入部員を募集している。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "cach-dung-tu-hq-q90",
+      "type": "practice",
+      "subtype": "vocab_usage_mcq",
+      "level": "N3",
+      "source_file": "cach-dung-tu-hq.pdf",
+      "source_page": 20,
+      "knowledge_id": "vocab:まずしい",
+      "no": 90,
+      "lemma_jp": "まずしい",
+      "meaning_vi": "nghèo nàn",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "彼女は息子をまずしくしかった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "彼女はまずしい家に生まれた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "この料理はまずくて食べたくない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "ダイヤはまずしいほどきらきらと輝いた。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "visual_annotation",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    }
+  ]
+}

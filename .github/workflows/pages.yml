@@ -42,6 +42,8 @@ jobs:
         run: node --import ./scripts/strip-asset-query-hook.mjs scripts/test-storage-merge.mjs
       - name: Star rearrange acceptance
         run: node --import ./scripts/strip-asset-query-hook.mjs scripts/test-star-rearrange.mjs
+      - name: Collections navigation contract
+        run: node --import ./scripts/strip-asset-query-hook.mjs scripts/test-collections-nav.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

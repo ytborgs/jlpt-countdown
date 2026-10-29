@@ -1,0 +1,3448 @@
+{
+  "schema_version": "1.0",
+  "document_id": "dokkai-n3-medium",
+  "type": "practice",
+  "level": "N3",
+  "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+  "source_path": "study-materials/115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+  "title": "Đọc hiểu N3 — trung bình (中文)",
+  "page_count": 197,
+  "item_count": 90,
+  "expected_item_count": 90,
+  "content_source": "visual_transcription",
+  "produced_at": "2026-10-29T00:08:34Z",
+  "producer": "n3-study-extractor/l3-dokkai-medium",
+  "status": "complete",
+  "needs_verify_count": 61,
+  "notes": [
+    "L3 medium: schema reading_comprehension_mcq (passage_jp + stem + choices).",
+    "Đáp án 中文 từ trang 188 (official_answer_key).",
+    "Progress: 90 medium-passage items (中文 1–90) — medium complete. Shorts continue in dokkai-n3-pilot.",
+    "PDF mapping: book_page N → source_page N+8.",
+    "Items 73–90: OCR corrections applied (常識的修正); needs_verify where glyph uncertain."
+  ],
+  "answer_key_medium_passage": {
+    "1": 3,
+    "2": 1,
+    "3": 4,
+    "4": 3,
+    "5": 1,
+    "6": 2,
+    "7": 2,
+    "8": 1,
+    "9": 4,
+    "10": 3,
+    "11": 2,
+    "12": 3,
+    "13": 2,
+    "14": 3,
+    "15": 1,
+    "16": 1,
+    "17": 4,
+    "18": 2,
+    "19": 4,
+    "20": 2,
+    "21": 2,
+    "22": 2,
+    "23": 3,
+    "24": 2,
+    "25": 4,
+    "26": 3,
+    "27": 2,
+    "28": 1,
+    "29": 4,
+    "30": 2,
+    "31": 2,
+    "32": 1,
+    "33": 3,
+    "34": 3,
+    "35": 4,
+    "36": 2,
+    "37": 3,
+    "38": 4,
+    "39": 1,
+    "40": 1,
+    "41": 4,
+    "42": 3,
+    "43": 3,
+    "44": 4,
+    "45": 2,
+    "46": 3,
+    "47": 2,
+    "48": 2,
+    "49": 3,
+    "50": 4,
+    "51": 2,
+    "52": 3,
+    "53": 2,
+    "54": 3,
+    "55": 3,
+    "56": 1,
+    "57": 3,
+    "58": 3,
+    "59": 3,
+    "60": 1,
+    "61": 4,
+    "62": 1,
+    "63": 3,
+    "64": 2,
+    "65": 1,
+    "66": 4,
+    "67": 3,
+    "68": 1,
+    "69": 4,
+    "70": 1,
+    "71": 3,
+    "72": 4,
+    "73": 3,
+    "74": 1,
+    "75": 4,
+    "76": 2,
+    "77": 3,
+    "78": 1,
+    "79": 4,
+    "80": 1,
+    "81": 2,
+    "82": 2,
+    "83": 2,
+    "84": 4,
+    "85": 1,
+    "86": 3,
+    "87": 2,
+    "88": 2,
+    "89": 4,
+    "90": 3
+  },
+  "items": [
+    {
+      "id": "dokkai-medium-001",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 63,
+      "knowledge_id": "reading:dokkai-medium-1",
+      "section": "中文",
+      "no": 1,
+      "passage_jp": "日本では「フリーター」という言葉が生まれたのは1980年の終わりである。最初はいろいろな生き方を好んで選ぶ人のことを指していたようだが、今では、正社員として就職するのではなく、短期間のパート、アルバイトなどをして生活することを言うのが一般的である。フリーターが1990年以降、急に増えてきていて、最近のフリーターの人数は、数百万人になったという。\nフリーターの増加の背景には、正社員としての拘束を嫌うといった意識変化もあるが、長く続く就職難の中で、満足できる就職ができなかったという事情も大きい。一方では、コストのかかる常用労働者を減らし、アルバイトなどの非常用雇用を増やそうとする企業側にも関係がある。",
+      "passage_source": "日検研究所「雑文集・日本のフリーター」による",
+      "stem_jp": "「フリーター」の説明として合っているものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "1980年ごろ生まれ、数百万人いた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "いろいろな生き方を選べる人という意味である。"
+        },
+        {
+          "key": "3",
+          "text_jp": "短期間のパートやアルバイトをして生活する人のことである。"
+        },
+        {
+          "key": "4",
+          "text_jp": "ピークだったのは1990年である。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-002",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 63,
+      "knowledge_id": "reading:dokkai-medium-2",
+      "section": "中文",
+      "no": 2,
+      "passage_jp": "日本では「フリーター」という言葉が生まれたのは1980年の終わりである。最初はいろいろな生き方を好んで選ぶ人のことを指していたようだが、今では、正社員として就職するのではなく、短期間のパート、アルバイトなどをして生活することを言うのが一般的である。フリーターが1990年以降、急に増えてきていて、最近のフリーターの人数は、数百万人になったという。\nフリーターの増加の背景には、正社員としての拘束を嫌うといった意識変化もあるが、長く続く就職難の中で、満足できる就職ができなかったという事情も大きい。一方では、コストのかかる常用労働者を減らし、アルバイトなどの非常用雇用を増やそうとする企業側にも関係がある。",
+      "passage_source": "日検研究所「雑文集・日本のフリーター」による",
+      "stem_jp": "「フリーター」の増加の背景は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "常用労働者の募集の減少。"
+        },
+        {
+          "key": "2",
+          "text_jp": "正社員の拘束を嫌う意識の変化。"
+        },
+        {
+          "key": "3",
+          "text_jp": "収入より自由を求める流れ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "職種が増え、自由に選べる。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-003",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 63,
+      "knowledge_id": "reading:dokkai-medium-3",
+      "section": "中文",
+      "no": 3,
+      "passage_jp": "日本では「フリーター」という言葉が生まれたのは1980年の終わりである。最初はいろいろな生き方を好んで選ぶ人のことを指していたようだが、今では、正社員として就職するのではなく、短期間のパート、アルバイトなどをして生活することを言うのが一般的である。フリーターが1990年以降、急に増えてきていて、最近のフリーターの人数は、数百万人になったという。\nフリーターの増加の背景には、正社員としての拘束を嫌うといった意識変化もあるが、長く続く就職難の中で、満足できる就職ができなかったという事情も大きい。一方では、コストのかかる常用労働者を減らし、アルバイトなどの非常用雇用を増やそうとする企業側にも関係がある。",
+      "passage_source": "日検研究所「雑文集・日本のフリーター」による",
+      "stem_jp": "企業側がフリーターを増やす目的は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "有名大学卒業を重視するため"
+        },
+        {
+          "key": "2",
+          "text_jp": "長期の労働者を求めるため"
+        },
+        {
+          "key": "3",
+          "text_jp": "経験のある中年労働者を必要としているため"
+        },
+        {
+          "key": "4",
+          "text_jp": "給料が安くてすむ非常用雇用に向かっているため"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-004",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 65,
+      "knowledge_id": "reading:dokkai-medium-4",
+      "section": "中文",
+      "no": 4,
+      "passage_jp": "「ニート」という言葉のルーツはイギリスと言われている。要するに仕事をしておらず、教育や職業訓練も受けていない若者を表す言葉で、ヨーロッパなどでは大きな社会問題となっていた。日本でも、完全に無業（仕事がない）となっているニートの存在が、このところ注目されるようになっており、政府もその自立支援に取り組み始めた。\nたとえば、国や都道府県は多くのお金を投入して「（注）ジョブカフェ」を設置し、若者に合わせておしゃれな雰囲気や無料インターネットを①売り物にしていた。しかし、ニート層の98.8%がニート支援施設を全く利用したことがないというアンケート結果もあるとおり、761億円を投資した若者の雇用対策はあまり②効果が現れていない。\nこのままでは日本に「貧困層」が生じるのではという心配もあり、早くて有効な対策が望まれている。\n（注）ジョブカフェ：ここでは、「ニート」のために設置した働く場を指す",
+      "passage_source": "日検研究所「雑文集・ニート現状と対策」による",
+      "stem_jp": "「ニート」の説明として合っているものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "自立支援が必要な人"
+        },
+        {
+          "key": "2",
+          "text_jp": "完全に「無業」の人"
+        },
+        {
+          "key": "3",
+          "text_jp": "仕事もなく教育も受けていない人"
+        },
+        {
+          "key": "4",
+          "text_jp": "雇用対策に当てはまらない人"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-005",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 65,
+      "knowledge_id": "reading:dokkai-medium-5",
+      "section": "中文",
+      "no": 5,
+      "passage_jp": "「ニート」という言葉のルーツはイギリスと言われている。要するに仕事をしておらず、教育や職業訓練も受けていない若者を表す言葉で、ヨーロッパなどでは大きな社会問題となっていた。日本でも、完全に無業（仕事がない）となっているニートの存在が、このところ注目されるようになっており、政府もその自立支援に取り組み始めた。\nたとえば、国や都道府県は多くのお金を投入して「（注）ジョブカフェ」を設置し、若者に合わせておしゃれな雰囲気や無料インターネットを①売り物にしていた。しかし、ニート層の98.8%がニート支援施設を全く利用したことがないというアンケート結果もあるとおり、761億円を投資した若者の雇用対策はあまり②効果が現れていない。\nこのままでは日本に「貧困層」が生じるのではという心配もあり、早くて有効な対策が望まれている。\n（注）ジョブカフェ：ここでは、「ニート」のために設置した働く場を指す",
+      "passage_source": "日検研究所「雑文集・ニート現状と対策」による",
+      "stem_jp": "ここの①「売り物」は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "支援施設"
+        },
+        {
+          "key": "2",
+          "text_jp": "投資金額"
+        },
+        {
+          "key": "3",
+          "text_jp": "おいしいカフェ"
+        },
+        {
+          "key": "4",
+          "text_jp": "自然食料品"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-006",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 65,
+      "knowledge_id": "reading:dokkai-medium-6",
+      "section": "中文",
+      "no": 6,
+      "passage_jp": "「ニート」という言葉のルーツはイギリスと言われている。要するに仕事をしておらず、教育や職業訓練も受けていない若者を表す言葉で、ヨーロッパなどでは大きな社会問題となっていた。日本でも、完全に無業（仕事がない）となっているニートの存在が、このところ注目されるようになっており、政府もその自立支援に取り組み始めた。\nたとえば、国や都道府県は多くのお金を投入して「（注）ジョブカフェ」を設置し、若者に合わせておしゃれな雰囲気や無料インターネットを①売り物にしていた。しかし、ニート層の98.8%がニート支援施設を全く利用したことがないというアンケート結果もあるとおり、761億円を投資した若者の雇用対策はあまり②効果が現れていない。\nこのままでは日本に「貧困層」が生じるのではという心配もあり、早くて有効な対策が望まれている。\n（注）ジョブカフェ：ここでは、「ニート」のために設置した働く場を指す",
+      "passage_source": "日検研究所「雑文集・ニート現状と対策」による",
+      "stem_jp": "②「効果が現れていない」ことによる結果は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "投資した金が無駄になる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "貧困層が生まれる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "ジョブカフェへ人が集まる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "ニートということばが流行る。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-007",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 67,
+      "knowledge_id": "reading:dokkai-medium-7",
+      "section": "中文",
+      "no": 7,
+      "passage_jp": "以前も、一部の絵を書くセンスのある人たちは版画や絵などで美しい年賀状を作っていたが、ほとんどの人は同じような内容で、同じようなデザインの年賀状を作っていた。これでは、誠意がないといわれてもしかたがない。それが、パソコンやプリンターの普及で、自分の感性と好みで年賀状のあいさつができるようになった。絵を描くセンスがなくても字が下手でも、パソコンやプリンターが楽しい絵文字やデザイン、美しい字などで①自分の弱みを見せなくしてくれる。パソコンやプリンターによって、「絵が描けない」とか「字が下手だ」とかいう劣等感から解放されたと感じている人は多いだろう。\n日本の文化を変えたといわれるパソコンであるが、②文化の継承にも力を発揮していることを示す一例といえよう。",
+      "passage_source": null,
+      "stem_jp": "①「自分の弱み」とは何を指すか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "誠意がないこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "字が下手なこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "同じようなデザインになること"
+        },
+        {
+          "key": "4",
+          "text_jp": "パソコンができないこと"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-008",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 67,
+      "knowledge_id": "reading:dokkai-medium-8",
+      "section": "中文",
+      "no": 8,
+      "passage_jp": "以前も、一部の絵を書くセンスのある人たちは版画や絵などで美しい年賀状を作っていたが、ほとんどの人は同じような内容で、同じようなデザインの年賀状を作っていた。これでは、誠意がないといわれてもしかたがない。それが、パソコンやプリンターの普及で、自分の感性と好みで年賀状のあいさつができるようになった。絵を描くセンスがなくても字が下手でも、パソコンやプリンターが楽しい絵文字やデザイン、美しい字などで①自分の弱みを見せなくしてくれる。パソコンやプリンターによって、「絵が描けない」とか「字が下手だ」とかいう劣等感から解放されたと感じている人は多いだろう。\n日本の文化を変えたといわれるパソコンであるが、②文化の継承にも力を発揮していることを示す一例といえよう。",
+      "passage_source": null,
+      "stem_jp": "②「文化の継承」とあるが、ここの「文化」は何を指すか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "年賀状を作ること"
+        },
+        {
+          "key": "2",
+          "text_jp": "絵を描くこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "パソコンを使うこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "版画を描くこと"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-009",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 67,
+      "knowledge_id": "reading:dokkai-medium-9",
+      "section": "中文",
+      "no": 9,
+      "passage_jp": "以前も、一部の絵を書くセンスのある人たちは版画や絵などで美しい年賀状を作っていたが、ほとんどの人は同じような内容で、同じようなデザインの年賀状を作っていた。これでは、誠意がないといわれてもしかたがない。それが、パソコンやプリンターの普及で、自分の感性と好みで年賀状のあいさつができるようになった。絵を描くセンスがなくても字が下手でも、パソコンやプリンターが楽しい絵文字やデザイン、美しい字などで①自分の弱みを見せなくしてくれる。パソコンやプリンターによって、「絵が描けない」とか「字が下手だ」とかいう劣等感から解放されたと感じている人は多いだろう。\n日本の文化を変えたといわれるパソコンであるが、②文化の継承にも力を発揮していることを示す一例といえよう。",
+      "passage_source": null,
+      "stem_jp": "この文章で筆者が一番言いたいことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "書くのを面倒がる人には、個性的な年賀状は作れない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "パソコンなら、さまざまな字体が書けるが、版画ではむりだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "同じようなデザインの年賀状を出すのは、相手に失礼だ。"
+        },
+        {
+          "key": "4",
+          "text_jp": "パソコンはわれわれの生活に入り込み、大きな役割を果たしている。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-010",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 69,
+      "knowledge_id": "reading:dokkai-medium-10",
+      "section": "中文",
+      "no": 10,
+      "passage_jp": "今、電車やバスにある「優先席」は、以前は「①シルバーシート」と呼ばれていた。「シルバー」とは、髪の色が銀色の人、つまりお年寄りを意味することから付けられたものだが、のちに、席を譲るべき対象は、お年寄りだけではないはずだということになり、「優先席」という名前に変わったのだ。\nところで、この「優先席」は本当に必要なのか、「優先席」があるために、かえって②人々のモラル（道徳）が低下しているのではないかという議論がしばしば聞かれる。そもそもお年寄りや体の不自由な人を見たら、元気な人はすぐ席を譲るのが当たり前のはず。それなのに、わざわざ「優先席」を作って、「席を譲りましょう」と呼びかけるということは、普通の席に座っている元気な人は、席を譲らなくていいということになるのではないかということだ。",
+      "passage_source": "和栗雅子等「読むトレーニング」スリーエーネットワークによる",
+      "stem_jp": "「シルバーシート」はこれまでどんな意味だったのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "髪の色が銀色になったお年寄り向けの座席"
+        },
+        {
+          "key": "2",
+          "text_jp": "髪の色が銀色になったすべての人向けの座席"
+        },
+        {
+          "key": "3",
+          "text_jp": "お年寄りのために特に用意しておいた座席"
+        },
+        {
+          "key": "4",
+          "text_jp": "お年寄りの中の体が不自由な人のための座席"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-011",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 69,
+      "knowledge_id": "reading:dokkai-medium-11",
+      "section": "中文",
+      "no": 11,
+      "passage_jp": "今、電車やバスにある「優先席」は、以前は「①シルバーシート」と呼ばれていた。「シルバー」とは、髪の色が銀色の人、つまりお年寄りを意味することから付けられたものだが、のちに、席を譲るべき対象は、お年寄りだけではないはずだということになり、「優先席」という名前に変わったのだ。\nところで、この「優先席」は本当に必要なのか、「優先席」があるために、かえって②人々のモラル（道徳）が低下しているのではないかという議論がしばしば聞かれる。そもそもお年寄りや体の不自由な人を見たら、元気な人はすぐ席を譲るのが当たり前のはず。それなのに、わざわざ「優先席」を作って、「席を譲りましょう」と呼びかけるということは、普通の席に座っている元気な人は、席を譲らなくていいということになるのではないかということだ。",
+      "passage_source": "和栗雅子等「読むトレーニング」スリーエーネットワークによる",
+      "stem_jp": "「シルバーシート」が名前を変えた理由は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "シルバーは老人を軽く見る表現だから"
+        },
+        {
+          "key": "2",
+          "text_jp": "座らせてあげたいのは老人だけではないから"
+        },
+        {
+          "key": "3",
+          "text_jp": "シルバーシートでは目立たないため"
+        },
+        {
+          "key": "4",
+          "text_jp": "座らせてあげたい老人が早く座れるため"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-012",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 69,
+      "knowledge_id": "reading:dokkai-medium-12",
+      "section": "中文",
+      "no": 12,
+      "passage_jp": "今、電車やバスにある「優先席」は、以前は「①シルバーシート」と呼ばれていた。「シルバー」とは、髪の色が銀色の人、つまりお年寄りを意味することから付けられたものだが、のちに、席を譲るべき対象は、お年寄りだけではないはずだということになり、「優先席」という名前に変わったのだ。\nところで、この「優先席」は本当に必要なのか、「優先席」があるために、かえって②人々のモラル（道徳）が低下しているのではないかという議論がしばしば聞かれる。そもそもお年寄りや体の不自由な人を見たら、元気な人はすぐ席を譲るのが当たり前のはず。それなのに、わざわざ「優先席」を作って、「席を譲りましょう」と呼びかけるということは、普通の席に座っている元気な人は、席を譲らなくていいということになるのではないかということだ。",
+      "passage_source": "和栗雅子等「読むトレーニング」スリーエーネットワークによる",
+      "stem_jp": "②「人々のモラルが低下している」とあるが、筆者が「モラルの低下」と言っているのはどういうことを指しているのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "元気な人が席を譲るのは当たり前であること"
+        },
+        {
+          "key": "2",
+          "text_jp": "お年寄りや体の不自由な人が座っていること"
+        },
+        {
+          "key": "3",
+          "text_jp": "普通の席にいる元気な人が席を譲らなくなること"
+        },
+        {
+          "key": "4",
+          "text_jp": "お年寄りや体の不自由な人でも座りたくない人がいること"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-013",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 71,
+      "knowledge_id": "reading:dokkai-medium-13",
+      "section": "中文",
+      "no": 13,
+      "passage_jp": "日本ではよく人に贈り物をします。結婚、出産、入学などのお祝いや病気などのお見舞いに物やお金を贈ります。またお盆の前と年末には、いつもお世話になっている人に感謝の気持ちを込めて、食料品や日用品などを贈ります。\nまた最近では、これ以外にも①いろいろな機会にプレゼントをするようになりました。例えば5月の「母の日」、6月の「父の日」、それに12月のクリスマス、2月のバレンタインデーなどです。これらのシーズン中、デパートのプレゼント売り場はどこも人でいっぱいになります。\n手紙も日本人の生活の中で大切な役割を果たしています。7月の下旬とお正月には、友人や知人に葉書を出します。7月の葉書を「暑中見舞い」、お正月の葉書を「年賀状」といいます。特に②年賀状は一人で何百枚も出す人もいます。",
+      "passage_source": "海外技術者研修協会「新日本語の中級」スリーエーネットワークによる",
+      "stem_jp": "①「いろいろな機会」とあるが、ここの「機会」に当たらないものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "卒業"
+        },
+        {
+          "key": "2",
+          "text_jp": "転勤"
+        },
+        {
+          "key": "3",
+          "text_jp": "成人"
+        },
+        {
+          "key": "4",
+          "text_jp": "就職"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-014",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 71,
+      "knowledge_id": "reading:dokkai-medium-14",
+      "section": "中文",
+      "no": 14,
+      "passage_jp": "日本ではよく人に贈り物をします。結婚、出産、入学などのお祝いや病気などのお見舞いに物やお金を贈ります。またお盆の前と年末には、いつもお世話になっている人に感謝の気持ちを込めて、食料品や日用品などを贈ります。\nまた最近では、これ以外にも①いろいろな機会にプレゼントをするようになりました。例えば5月の「母の日」、6月の「父の日」、それに12月のクリスマス、2月のバレンタインデーなどです。これらのシーズン中、デパートのプレゼント売り場はどこも人でいっぱいになります。\n手紙も日本人の生活の中で大切な役割を果たしています。7月の下旬とお正月には、友人や知人に葉書を出します。7月の葉書を「暑中見舞い」、お正月の葉書を「年賀状」といいます。特に②年賀状は一人で何百枚も出す人もいます。",
+      "passage_source": "海外技術者研修協会「新日本語の中級」スリーエーネットワークによる",
+      "stem_jp": "②「年賀状は一人で何百枚も出す人もいます」とあるが、どういうことを言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "郵便局の収入"
+        },
+        {
+          "key": "2",
+          "text_jp": "家の支出"
+        },
+        {
+          "key": "3",
+          "text_jp": "年末の忙しさ"
+        },
+        {
+          "key": "4",
+          "text_jp": "数の自慢"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-015",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 71,
+      "knowledge_id": "reading:dokkai-medium-15",
+      "section": "中文",
+      "no": 15,
+      "passage_jp": "日本ではよく人に贈り物をします。結婚、出産、入学などのお祝いや病気などのお見舞いに物やお金を贈ります。またお盆の前と年末には、いつもお世話になっている人に感謝の気持ちを込めて、食料品や日用品などを贈ります。\nまた最近では、これ以外にも①いろいろな機会にプレゼントをするようになりました。例えば5月の「母の日」、6月の「父の日」、それに12月のクリスマス、2月のバレンタインデーなどです。これらのシーズン中、デパートのプレゼント売り場はどこも人でいっぱいになります。\n手紙も日本人の生活の中で大切な役割を果たしています。7月の下旬とお正月には、友人や知人に葉書を出します。7月の葉書を「暑中見舞い」、お正月の葉書を「年賀状」といいます。特に②年賀状は一人で何百枚も出す人もいます。",
+      "passage_source": "海外技術者研修協会「新日本語の中級」スリーエーネットワークによる",
+      "stem_jp": "この文は日本人のどういう面を表しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "礼儀正しさ"
+        },
+        {
+          "key": "2",
+          "text_jp": "行事熱心さ"
+        },
+        {
+          "key": "3",
+          "text_jp": "プレゼント好き"
+        },
+        {
+          "key": "4",
+          "text_jp": "デパートの儲け"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-016",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 73,
+      "knowledge_id": "reading:dokkai-medium-16",
+      "section": "中文",
+      "no": 16,
+      "passage_jp": "クリスマスは、どのような日か知っていますね。日本では宗教に関係なく、この日に贈り物をし合う人がたくさんいます。恋人同士、両親から小さな子供たちへ、友達同士で。\n贈り物といえば、バレンタインデー（2月14日）。日本では女から男にチョコレートを送って、愛の気持ちを伝えます。小学生でさえお気に入りの男の子に渡します。素直に喜べないチョコレートもあります。これは義理チョコと言って、女の人が会社の上司にそっとあげたりします。愛の告白ではないけれど、日ごろお世話になっているお礼でしょう。\nチョコレートをもらった人は、3月14日にそのお返しをします。白いもの、たとえばホワイトチョコレートなどをお返しするからでしょうか、その日をホワイトデーと呼んでいます。\nクリスマスもバレンタインデーも、何やらお菓子屋さんの商業主義に乗せられた感じですね。",
+      "passage_source": "芦川明子等「実践日本語シリーズ・名詞」専門出版社による",
+      "stem_jp": "「義理チョコ」を買う女の気持ちは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あげなくてもいいんだけど、あげないとまずい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "あげたくないから、いやいやあげる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "あげたいから、喜んであげる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "あげたくないけど、しかられるからあげる。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-017",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 73,
+      "knowledge_id": "reading:dokkai-medium-17",
+      "section": "中文",
+      "no": 17,
+      "passage_jp": "クリスマスは、どのような日か知っていますね。日本では宗教に関係なく、この日に贈り物をし合う人がたくさんいます。恋人同士、両親から小さな子供たちへ、友達同士で。\n贈り物といえば、バレンタインデー（2月14日）。日本では女から男にチョコレートを送って、愛の気持ちを伝えます。小学生でさえお気に入りの男の子に渡します。素直に喜べないチョコレートもあります。これは義理チョコと言って、女の人が会社の上司にそっとあげたりします。愛の告白ではないけれど、日ごろお世話になっているお礼でしょう。\nチョコレートをもらった人は、3月14日にそのお返しをします。白いもの、たとえばホワイトチョコレートなどをお返しするからでしょうか、その日をホワイトデーと呼んでいます。\nクリスマスもバレンタインデーも、何やらお菓子屋さんの商業主義に乗せられた感じですね。",
+      "passage_source": "芦川明子等「実践日本語シリーズ・名詞」専門出版社による",
+      "stem_jp": "「ホワイトデー」とは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "女の人が男の人にチョコレートをあげる日"
+        },
+        {
+          "key": "2",
+          "text_jp": "男の人が女の人にチョコレートをあげる日"
+        },
+        {
+          "key": "3",
+          "text_jp": "女の人が男の人に白いチョコレートなどをあげる日"
+        },
+        {
+          "key": "4",
+          "text_jp": "男の人が女の人に白いチョコレートなどをあげる日"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-018",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 73,
+      "knowledge_id": "reading:dokkai-medium-18",
+      "section": "中文",
+      "no": 18,
+      "passage_jp": "クリスマスは、どのような日か知っていますね。日本では宗教に関係なく、この日に贈り物をし合う人がたくさんいます。恋人同士、両親から小さな子供たちへ、友達同士で。\n贈り物といえば、バレンタインデー（2月14日）。日本では女から男にチョコレートを送って、愛の気持ちを伝えます。小学生でさえお気に入りの男の子に渡します。素直に喜べないチョコレートもあります。これは義理チョコと言って、女の人が会社の上司にそっとあげたりします。愛の告白ではないけれど、日ごろお世話になっているお礼でしょう。\nチョコレートをもらった人は、3月14日にそのお返しをします。白いもの、たとえばホワイトチョコレートなどをお返しするからでしょうか、その日をホワイトデーと呼んでいます。\nクリスマスもバレンタインデーも、何やらお菓子屋さんの商業主義に乗せられた感じですね。",
+      "passage_source": "芦川明子等「実践日本語シリーズ・名詞」専門出版社による",
+      "stem_jp": "この文から見える日本人の一面は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "甘いものを好む。"
+        },
+        {
+          "key": "2",
+          "text_jp": "行事を楽しむ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "恋人を大切に思う。"
+        },
+        {
+          "key": "4",
+          "text_jp": "菓子メーカーを助ける。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-019",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 75,
+      "knowledge_id": "reading:dokkai-medium-19",
+      "section": "中文",
+      "no": 19,
+      "passage_jp": "政治家は、たいてい社交的な人が多い。いつも人の意見を聞かなくてはいけないからである。そして、色々な人と話し、テレビに出たり、新聞に書かれたりして、注目されたいと思っている。しかし、注目されるだけではだめである。応援してくれる人たちのために仕事をしなくてはいけない。たとえば、経済がよくなるように新しいビジネスを持ってきたり、学校をよくしたりしなくてはいけない。もしいい仕事をしなければ、その政治家の評判は悪くなり、（注1）当てにならないといわれるだろう。\n政治家と違うタイプの人は、芸術家である。芸術家は個性的な人が多い。中には、頑固で（注2）融通が利かない人もいる。しかし、芸術家の仕事は、ほかの人が言うことより自分の考えのほうが大事だから、頑固でもかまわない。ほかの人の意見を聞きすぎると、平凡な芸術家になってしまう。そして、平凡な芸術家の作ったものはあまりおもしろくない。",
+      "passage_source": "「政治家と芸術家」による",
+      "stem_jp": "政治家についての正しい説明はどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "政治家は注目されることをしてはいけない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "政治家は評判を気にしてはいけない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "政治家は社交的でなければならない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "政治家は人のためになることをしなければならない。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-020",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 75,
+      "knowledge_id": "reading:dokkai-medium-20",
+      "section": "中文",
+      "no": 20,
+      "passage_jp": "政治家は、たいてい社交的な人が多い。いつも人の意見を聞かなくてはいけないからである。そして、色々な人と話し、テレビに出たり、新聞に書かれたりして、注目されたいと思っている。しかし、注目されるだけではだめである。応援してくれる人たちのために仕事をしなくてはいけない。たとえば、経済がよくなるように新しいビジネスを持ってきたり、学校をよくしたりしなくてはいけない。もしいい仕事をしなければ、その政治家の評判は悪くなり、（注1）当てにならないといわれるだろう。\n政治家と違うタイプの人は、芸術家である。芸術家は個性的な人が多い。中には、頑固で（注2）融通が利かない人もいる。しかし、芸術家の仕事は、ほかの人が言うことより自分の考えのほうが大事だから、頑固でもかまわない。ほかの人の意見を聞きすぎると、平凡な芸術家になってしまう。そして、平凡な芸術家の作ったものはあまりおもしろくない。",
+      "passage_source": "「政治家と芸術家」による",
+      "stem_jp": "芸術家についての正しい説明はどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "芸術家はいい評判をもらえなくてもいい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "芸術家は個性的で自分の考えを大切にしている。"
+        },
+        {
+          "key": "3",
+          "text_jp": "芸術家も政治家から何かを習わなければならない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "芸術家も経済やビジネスを考える必要がある。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-021",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 75,
+      "knowledge_id": "reading:dokkai-medium-21",
+      "section": "中文",
+      "no": 21,
+      "passage_jp": "政治家は、たいてい社交的な人が多い。いつも人の意見を聞かなくてはいけないからである。そして、色々な人と話し、テレビに出たり、新聞に書かれたりして、注目されたいと思っている。しかし、注目されるだけではだめである。応援してくれる人たちのために仕事をしなくてはいけない。たとえば、経済がよくなるように新しいビジネスを持ってきたり、学校をよくしたりしなくてはいけない。もしいい仕事をしなければ、その政治家の評判は悪くなり、（注1）当てにならないといわれるだろう。\n政治家と違うタイプの人は、芸術家である。芸術家は個性的な人が多い。中には、頑固で（注2）融通が利かない人もいる。しかし、芸術家の仕事は、ほかの人が言うことより自分の考えのほうが大事だから、頑固でもかまわない。ほかの人の意見を聞きすぎると、平凡な芸術家になってしまう。そして、平凡な芸術家の作ったものはあまりおもしろくない。",
+      "passage_source": "「政治家と芸術家」による",
+      "stem_jp": "文の内容に合っているものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "政治家はよくテレビに出る。"
+        },
+        {
+          "key": "2",
+          "text_jp": "政治家は社交的である。"
+        },
+        {
+          "key": "3",
+          "text_jp": "芸術家はテレビを嫌う。"
+        },
+        {
+          "key": "4",
+          "text_jp": "芸術家は融通が利かない人間である。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-022",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 77,
+      "knowledge_id": "reading:dokkai-medium-22",
+      "section": "中文",
+      "no": 22,
+      "passage_jp": "人より一歩早く豊かになった中国の家庭でも「夫はソト、妻はウチ」という傾向が強まるようになった。従来の「共稼ぎ」という枠組みが徐々に崩れ始めた。そのため、子供の勉強は妻に任せ、夫はもっぱらソトで獲物（金）を狩猟する枠組みはだんだんと確立され始めた。しかし、子供たちの勉強の時間や学力向上の程度は母親の学歴と直接に関係していることはだれもが知っていることだが、どれだけ関係しているかはっきり説明できる人は少ないだろう。それで、今年の春、「日本語検定試験研究会」は母親の学歴と子供の勉強時間の関係を調査するアンケートを行った。\n下のグラフから、「うちではあまり勉強しない」と答えた生徒の割合は母親の学歴が高いほど少ない。それに対して、「2時間ぐらい」「2時間半ぐらい」「2時間以上」と答えた生徒の割合は母親の学歴が高いほど伸びているということが分かる。",
+      "passage_source": "日本語検定試験研究会『モデルグラフ集』による",
+      "stem_jp": "「中国の家庭でも「夫はソト、妻はウチ」という傾向が強まるようになった」とあるが、このような傾向はどうして現れたのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "女性の学歴が高くなったから"
+        },
+        {
+          "key": "2",
+          "text_jp": "男性の収入が増えたから"
+        },
+        {
+          "key": "3",
+          "text_jp": "パソコンを使う仕事ばかりだから"
+        },
+        {
+          "key": "4",
+          "text_jp": "企業が女性を雇わなくなったから"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-023",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 77,
+      "knowledge_id": "reading:dokkai-medium-23",
+      "section": "中文",
+      "no": 23,
+      "passage_jp": "人より一歩早く豊かになった中国の家庭でも「夫はソト、妻はウチ」という傾向が強まるようになった。従来の「共稼ぎ」という枠組みが徐々に崩れ始めた。そのため、子供の勉強は妻に任せ、夫はもっぱらソトで獲物（金）を狩猟する枠組みはだんだんと確立され始めた。しかし、子供たちの勉強の時間や学力向上の程度は母親の学歴と直接に関係していることはだれもが知っていることだが、どれだけ関係しているかはっきり説明できる人は少ないだろう。それで、今年の春、「日本語検定試験研究会」は母親の学歴と子供の勉強時間の関係を調査するアンケートを行った。\n下のグラフから、「うちではあまり勉強しない」と答えた生徒の割合は母親の学歴が高いほど少ない。それに対して、「2時間ぐらい」「2時間半ぐらい」「2時間以上」と答えた生徒の割合は母親の学歴が高いほど伸びているということが分かる。",
+      "passage_source": "日本語検定試験研究会『モデルグラフ集』による",
+      "stem_jp": "母親の学歴と子どもの成績はどうなっているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "関係があるともないとも言えない。"
+        },
+        {
+          "key": "2",
+          "text_jp": "関係がない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "関係がある。"
+        },
+        {
+          "key": "4",
+          "text_jp": "関係がないとは言えない。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-024",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 77,
+      "knowledge_id": "reading:dokkai-medium-24",
+      "section": "中文",
+      "no": 24,
+      "passage_jp": "人より一歩早く豊かになった中国の家庭でも「夫はソト、妻はウチ」という傾向が強まるようになった。従来の「共稼ぎ」という枠組みが徐々に崩れ始めた。そのため、子供の勉強は妻に任せ、夫はもっぱらソトで獲物（金）を狩猟する枠組みはだんだんと確立され始めた。しかし、子供たちの勉強の時間や学力向上の程度は母親の学歴と直接に関係していることはだれもが知っていることだが、どれだけ関係しているかはっきり説明できる人は少ないだろう。それで、今年の春、「日本語検定試験研究会」は母親の学歴と子供の勉強時間の関係を調査するアンケートを行った。\n下のグラフから、「うちではあまり勉強しない」と答えた生徒の割合は母親の学歴が高いほど少ない。それに対して、「2時間ぐらい」「2時間半ぐらい」「2時間以上」と答えた生徒の割合は母親の学歴が高いほど伸びているということが分かる。",
+      "passage_source": "日本語検定試験研究会『モデルグラフ集』による",
+      "stem_jp": "このグラフから言えることは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "母親の学歴が低いほど、子どもの勉強時間は多くなる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "母親の学歴が高いほど、子どもの勉強時間は多くなる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "母親の学歴と関係なく、子どもの勉強時間は少なくなる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "母親の学歴と関係なく、子どもの勉強時間は少なくなる。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-025",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 79,
+      "knowledge_id": "reading:dokkai-medium-25",
+      "section": "中文",
+      "no": 25,
+      "passage_jp": "先日、地震防災の訓練に参加した時、司会の方から「先生がおみえになっているので、あいさつがあります」との発言があった。「誰かなあ」と思っていたら、地域の市議会議員さんでした。「①一生懸命やってみえるなあ」とは思いましたが、あまり好感をもつことはできませんでした。\n総選挙で新人議員が「先生と言われない存在で、何でも気楽に話してもらえるような存在でいたい」と述べていました。議員は国民の代表という存在なのだと思います。\n②先生という呼び方は、やめたほうがいいと思います。はじめは③謙虚にと思っていても、人間は弱い者です。「先生、先生」と言われ続ければ、「上から（注2）目線」で見て対等な関係が保たれなくなってくるものです。",
+      "passage_source": "渡辺千鶴子「議員を先生と呼ぶのはやめよう」により、一部改",
+      "stem_jp": "①「一生懸命やってみえるなあ」とあるが、誰のことを言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "筆者"
+        },
+        {
+          "key": "2",
+          "text_jp": "参加者"
+        },
+        {
+          "key": "3",
+          "text_jp": "司会"
+        },
+        {
+          "key": "4",
+          "text_jp": "市議会議員"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-026",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 79,
+      "knowledge_id": "reading:dokkai-medium-26",
+      "section": "中文",
+      "no": 26,
+      "passage_jp": "先日、地震防災の訓練に参加した時、司会の方から「先生がおみえになっているので、あいさつがあります」との発言があった。「誰かなあ」と思っていたら、地域の市議会議員さんでした。「①一生懸命やってみえるなあ」とは思いましたが、あまり好感をもつことはできませんでした。\n総選挙で新人議員が「先生と言われない存在で、何でも気楽に話してもらえるような存在でいたい」と述べていました。議員は国民の代表という存在なのだと思います。\n②先生という呼び方は、やめたほうがいいと思います。はじめは③謙虚にと思っていても、人間は弱い者です。「先生、先生」と言われ続ければ、「上から（注2）目線」で見て対等な関係が保たれなくなってくるものです。",
+      "passage_source": "渡辺千鶴子「議員を先生と呼ぶのはやめよう」により、一部改",
+      "stem_jp": "筆者が②「先生という呼び方は、やめたほうがいい」と思う根拠は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あいさつをしたくなるから"
+        },
+        {
+          "key": "2",
+          "text_jp": "新人議員だから"
+        },
+        {
+          "key": "3",
+          "text_jp": "議員は国民の代表だから"
+        },
+        {
+          "key": "4",
+          "text_jp": "みんな好感を持てないから"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-027",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 79,
+      "knowledge_id": "reading:dokkai-medium-27",
+      "section": "中文",
+      "no": 27,
+      "passage_jp": "先日、地震防災の訓練に参加した時、司会の方から「先生がおみえになっているので、あいさつがあります」との発言があった。「誰かなあ」と思っていたら、地域の市議会議員さんでした。「①一生懸命やってみえるなあ」とは思いましたが、あまり好感をもつことはできませんでした。\n総選挙で新人議員が「先生と言われない存在で、何でも気楽に話してもらえるような存在でいたい」と述べていました。議員は国民の代表という存在なのだと思います。\n②先生という呼び方は、やめたほうがいいと思います。はじめは③謙虚にと思っていても、人間は弱い者です。「先生、先生」と言われ続ければ、「上から（注2）目線」で見て対等な関係が保たれなくなってくるものです。",
+      "passage_source": "渡辺千鶴子「議員を先生と呼ぶのはやめよう」により、一部改",
+      "stem_jp": "③「謙虚」とは、この場合ではどういうことか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "一生懸命やっていること"
+        },
+        {
+          "key": "2",
+          "text_jp": "気楽に話してもらえること"
+        },
+        {
+          "key": "3",
+          "text_jp": "先生と言われる存在"
+        },
+        {
+          "key": "4",
+          "text_jp": "上からの目線"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-028",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 81,
+      "knowledge_id": "reading:dokkai-medium-28",
+      "section": "中文",
+      "no": 28,
+      "passage_jp": "憧れの俳優に会えるなんて、夢を見ているようで感激だった。でも後で友だちから、あるドラマの話を聞いて考えさせられた。主人公の少女は、その素敵なスターが実はこっそり整形手術を施していたことをちっとも知らず、自分もあの人そっくりになりたいばかりに、親には（注1）内緒で顔を細く見せる手術をしたわけよ。めっきりきれいになったけど、なんだか①皮肉な話じゃない？という感じがした。少女は手術代の高さにびっくり、自分のお小遣いでは全然足りない。そこでいきなり自分の血を売って手術代を稼ごうとしたわけよ。まあ、②そこまではいいとして、その後がね。注射針から感染してかわいそうに、なんとエイズ患者になってしまったのよ。ほんとに哀れなお話ね。スターへの憧れも、（注2）ほどほどにしないとね。③友だちはしみじみと話してくれた。",
+      "passage_source": null,
+      "stem_jp": "①「皮肉な話」はどういうことを指しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "スターが整形手術をしていたこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "スターが細い顔ではなかったこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "手術代が予想より高かったこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "自分がきれいにならなかったこと"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-029",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 81,
+      "knowledge_id": "reading:dokkai-medium-29",
+      "section": "中文",
+      "no": 29,
+      "passage_jp": "憧れの俳優に会えるなんて、夢を見ているようで感激だった。でも後で友だちから、あるドラマの話を聞いて考えさせられた。主人公の少女は、その素敵なスターが実はこっそり整形手術を施していたことをちっとも知らず、自分もあの人そっくりになりたいばかりに、親には（注1）内緒で顔を細く見せる手術をしたわけよ。めっきりきれいになったけど、なんだか①皮肉な話じゃない？という感じがした。少女は手術代の高さにびっくり、自分のお小遣いでは全然足りない。そこでいきなり自分の血を売って手術代を稼ごうとしたわけよ。まあ、②そこまではいいとして、その後がね。注射針から感染してかわいそうに、なんとエイズ患者になってしまったのよ。ほんとに哀れなお話ね。スターへの憧れも、（注2）ほどほどにしないとね。③友だちはしみじみと話してくれた。",
+      "passage_source": null,
+      "stem_jp": "②「そこ」はどこを指すか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "手術をする。"
+        },
+        {
+          "key": "2",
+          "text_jp": "きれいになる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "小遣いがなくなる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "血を売る。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-030",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 81,
+      "knowledge_id": "reading:dokkai-medium-30",
+      "section": "中文",
+      "no": 30,
+      "passage_jp": "憧れの俳優に会えるなんて、夢を見ているようで感激だった。でも後で友だちから、あるドラマの話を聞いて考えさせられた。主人公の少女は、その素敵なスターが実はこっそり整形手術を施していたことをちっとも知らず、自分もあの人そっくりになりたいばかりに、親には（注1）内緒で顔を細く見せる手術をしたわけよ。めっきりきれいになったけど、なんだか①皮肉な話じゃない？という感じがした。少女は手術代の高さにびっくり、自分のお小遣いでは全然足りない。そこでいきなり自分の血を売って手術代を稼ごうとしたわけよ。まあ、②そこまではいいとして、その後がね。注射針から感染してかわいそうに、なんとエイズ患者になってしまったのよ。ほんとに哀れなお話ね。スターへの憧れも、（注2）ほどほどにしないとね。③友だちはしみじみと話してくれた。",
+      "passage_source": null,
+      "stem_jp": "③「友だちはしみじみと話してくれた」とあるが、「友だち」はどう言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "きれいになるための手術はしないほうがいい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "手術をしてもいいけど、病気になってはいけない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "手術をするときは上手な医者を選んだらいい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "手術をするなら安い病院を探すのがいい。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-031",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 83,
+      "knowledge_id": "reading:dokkai-medium-31",
+      "section": "中文",
+      "no": 31,
+      "passage_jp": "2年前、市主催の親子（注1）省エネ教室に孫と参加したのをきっかけに、市の「①八王子省エネ国」に登録している。参加すると、家庭で省エネ活動に取り組み、どれくらいの成果があったか分かるのだ。\n毎月の電気、ガス、水道、灯油などの消費量と料金を記入したチェックシートを市に送ると、各家庭の（注2）エコ状況が円グラフや棒グラフになって返却されてくる仕組みだ。2009年度の我が家は、前年度に比べると、二酸化炭素で221キログラム、料金に換算すると2万4772円も減っていた。\nシルバー世代の2人暮らし。削れるところは少ないと思っていたが、省エネ型の冷蔵庫に買い換えたほか、ためた水による食器の下洗いや、風呂は続けて入ることなど、身近で②ささやかな取り組みで、孫たちのお年玉の半額分を節約できた。具体的な数字を知ると、継続しなければと思う。",
+      "passage_source": "斉藤正子「我が家の省エネ効果」による",
+      "stem_jp": "①「八王子省エネ国」の目的は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "老人家庭の家計を助けること"
+        },
+        {
+          "key": "2",
+          "text_jp": "市民に省エネに関心を持たせること"
+        },
+        {
+          "key": "3",
+          "text_jp": "電力会社に料金の値下げを求めること"
+        },
+        {
+          "key": "4",
+          "text_jp": "市のサービスをPRすること"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-032",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 83,
+      "knowledge_id": "reading:dokkai-medium-32",
+      "section": "中文",
+      "no": 32,
+      "passage_jp": "2年前、市主催の親子（注1）省エネ教室に孫と参加したのをきっかけに、市の「①八王子省エネ国」に登録している。参加すると、家庭で省エネ活動に取り組み、どれくらいの成果があったか分かるのだ。\n毎月の電気、ガス、水道、灯油などの消費量と料金を記入したチェックシートを市に送ると、各家庭の（注2）エコ状況が円グラフや棒グラフになって返却されてくる仕組みだ。2009年度の我が家は、前年度に比べると、二酸化炭素で221キログラム、料金に換算すると2万4772円も減っていた。\nシルバー世代の2人暮らし。削れるところは少ないと思っていたが、省エネ型の冷蔵庫に買い換えたほか、ためた水による食器の下洗いや、風呂は続けて入ることなど、身近で②ささやかな取り組みで、孫たちのお年玉の半額分を節約できた。具体的な数字を知ると、継続しなければと思う。",
+      "passage_source": "斉藤正子「我が家の省エネ効果」による",
+      "stem_jp": "②「ささやかな取り組み」はどんなことを言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "風呂は続けて入る。"
+        },
+        {
+          "key": "2",
+          "text_jp": "お年玉の半分を節約できた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "省エネ型冷蔵庫に買い換えた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "料金を2万4772円減らした。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-033",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 83,
+      "knowledge_id": "reading:dokkai-medium-33",
+      "section": "中文",
+      "no": 33,
+      "passage_jp": "2年前、市主催の親子（注1）省エネ教室に孫と参加したのをきっかけに、市の「①八王子省エネ国」に登録している。参加すると、家庭で省エネ活動に取り組み、どれくらいの成果があったか分かるのだ。\n毎月の電気、ガス、水道、灯油などの消費量と料金を記入したチェックシートを市に送ると、各家庭の（注2）エコ状況が円グラフや棒グラフになって返却されてくる仕組みだ。2009年度の我が家は、前年度に比べると、二酸化炭素で221キログラム、料金に換算すると2万4772円も減っていた。\nシルバー世代の2人暮らし。削れるところは少ないと思っていたが、省エネ型の冷蔵庫に買い換えたほか、ためた水による食器の下洗いや、風呂は続けて入ることなど、身近で②ささやかな取り組みで、孫たちのお年玉の半額分を節約できた。具体的な数字を知ると、継続しなければと思う。",
+      "passage_source": "斉藤正子「我が家の省エネ効果」による",
+      "stem_jp": "市の取り組みの特徴は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "老人や子どもを対象にしている。"
+        },
+        {
+          "key": "2",
+          "text_jp": "省エネ家電を紹介している。"
+        },
+        {
+          "key": "3",
+          "text_jp": "結果や数字やグラフで知らせる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "水を大切に使うことを教えている。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-034",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 85,
+      "knowledge_id": "reading:dokkai-medium-34",
+      "section": "中文",
+      "no": 34,
+      "passage_jp": "日本の経済がよくなってきたのは、日本のサラリーマンがよく働くからであるという意見がある。確かに、そういうことができる。しかし、日本のサラリーマンにはあまり自分の時間がないとも言える。\n例えば、若いサラリーマンには①デートをする時間のない人がいるそうである。これは大きな悩みである。だから、デートの相手を紹介してくれる会社が最近流行っているようである。日本には昔から（注）見合い結婚があるが、こんな会社を使うのは新しい見合いのしかたと言えるかもしれない。\nそれだけでなく、スポーツを楽しむ時間もあまりない。学生の時、スポーツが好きだった人も太って運動神経が鈍くなってしまうかもしれない。こうなると、趣味を楽しむなど、②夢のまた夢で、アパートと会社の往復で1年が終わってしまう。定年後の生活が心配である。",
+      "passage_source": null,
+      "stem_jp": "①「デートをする時間のない」若者はどうするか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "見合い結婚をする。"
+        },
+        {
+          "key": "2",
+          "text_jp": "デート相手を紹介する会社で働く。"
+        },
+        {
+          "key": "3",
+          "text_jp": "新しい形の見合いをする。"
+        },
+        {
+          "key": "4",
+          "text_jp": "見合いも結婚もしない。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-035",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 85,
+      "knowledge_id": "reading:dokkai-medium-35",
+      "section": "中文",
+      "no": 35,
+      "passage_jp": "日本の経済がよくなってきたのは、日本のサラリーマンがよく働くからであるという意見がある。確かに、そういうことができる。しかし、日本のサラリーマンにはあまり自分の時間がないとも言える。\n例えば、若いサラリーマンには①デートをする時間のない人がいるそうである。これは大きな悩みである。だから、デートの相手を紹介してくれる会社が最近流行っているようである。日本には昔から（注）見合い結婚があるが、こんな会社を使うのは新しい見合いのしかたと言えるかもしれない。\nそれだけでなく、スポーツを楽しむ時間もあまりない。学生の時、スポーツが好きだった人も太って運動神経が鈍くなってしまうかもしれない。こうなると、趣味を楽しむなど、②夢のまた夢で、アパートと会社の往復で1年が終わってしまう。定年後の生活が心配である。",
+      "passage_source": null,
+      "stem_jp": "②「夢のまた夢」の意味の説明として正しいものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "次から次へ夢を見続ける。"
+        },
+        {
+          "key": "2",
+          "text_jp": "夢は必ず実現する。"
+        },
+        {
+          "key": "3",
+          "text_jp": "夢のような楽しい生活をする。"
+        },
+        {
+          "key": "4",
+          "text_jp": "夢だから実現することはない。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-036",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 85,
+      "knowledge_id": "reading:dokkai-medium-36",
+      "section": "中文",
+      "no": 36,
+      "passage_jp": "日本の経済がよくなってきたのは、日本のサラリーマンがよく働くからであるという意見がある。確かに、そういうことができる。しかし、日本のサラリーマンにはあまり自分の時間がないとも言える。\n例えば、若いサラリーマンには①デートをする時間のない人がいるそうである。これは大きな悩みである。だから、デートの相手を紹介してくれる会社が最近流行っているようである。日本には昔から（注）見合い結婚があるが、こんな会社を使うのは新しい見合いのしかたと言えるかもしれない。\nそれだけでなく、スポーツを楽しむ時間もあまりない。学生の時、スポーツが好きだった人も太って運動神経が鈍くなってしまうかもしれない。こうなると、趣味を楽しむなど、②夢のまた夢で、アパートと会社の往復で1年が終わってしまう。定年後の生活が心配である。",
+      "passage_source": null,
+      "stem_jp": "筆者は、日本の若者についてどう言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "経済をよくするため働いているから偉い。"
+        },
+        {
+          "key": "2",
+          "text_jp": "自分の時間を持てなくてかわいそうだ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "趣味を楽しんでいて、うらやましい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "太っている人が多くて、心配だ。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-037",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 87,
+      "knowledge_id": "reading:dokkai-medium-37",
+      "section": "中文",
+      "no": 37,
+      "passage_jp": "（注1）お盆になると、各地で盆踊りが行なわれます。今までは（注2）町内会には少し顔を出す程度でした。今年は、町内会の担当が回ってきたので、準備から後片付けまでみっちりと参加しました。\n私が住む地域は、新しい住宅地のため、近所の人たちとの付き合いはあいさつ程度で、ほとんど知らない人ばかりです。男性の近所付き合いなんてこんなものだろうと、これまでは、近所や地域のことに関心が薄かったと思います。\nしかし、自然災害時などには地域社会の助け合いが重要になります。盆踊り大会で（注3）無邪気に走り回る小さな子どもたちを見つめながら、会社や家庭のことだけでなく、地域にも、もっと目を向けなくてはと思いました。今回の盆踊り大会への参加をきっかけに、今後は近所の人たちとも、これまで以上に話をして、顔も覚えていこうと思いました。\n（楠田泰弘氏の文より）",
+      "passage_source": null,
+      "stem_jp": "「盆踊り」に参加して得たものは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "行事の楽しさを知った。"
+        },
+        {
+          "key": "2",
+          "text_jp": "子どもの笑顔に出会った。"
+        },
+        {
+          "key": "3",
+          "text_jp": "近所付き合いの大切さに気づいた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "地域の人が多いのを知った。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-038",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 87,
+      "knowledge_id": "reading:dokkai-medium-38",
+      "section": "中文",
+      "no": 38,
+      "passage_jp": "（注1）お盆になると、各地で盆踊りが行なわれます。今までは（注2）町内会には少し顔を出す程度でした。今年は、町内会の担当が回ってきたので、準備から後片付けまでみっちりと参加しました。\n私が住む地域は、新しい住宅地のため、近所の人たちとの付き合いはあいさつ程度で、ほとんど知らない人ばかりです。男性の近所付き合いなんてこんなものだろうと、これまでは、近所や地域のことに関心が薄かったと思います。\nしかし、自然災害時などには地域社会の助け合いが重要になります。盆踊り大会で（注3）無邪気に走り回る小さな子どもたちを見つめながら、会社や家庭のことだけでなく、地域にも、もっと目を向けなくてはと思いました。今回の盆踊り大会への参加をきっかけに、今後は近所の人たちとも、これまで以上に話をして、顔も覚えていこうと思いました。\n（楠田泰弘氏の文より）",
+      "passage_source": null,
+      "stem_jp": "この人のこれまでの地域に対する態度と合っていないものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "あいさつをする程度。"
+        },
+        {
+          "key": "2",
+          "text_jp": "行事によく参加した。"
+        },
+        {
+          "key": "3",
+          "text_jp": "あまり関心がなかった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "近所の人たちの顔と名前を知っていた。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-039",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 87,
+      "knowledge_id": "reading:dokkai-medium-39",
+      "section": "中文",
+      "no": 39,
+      "passage_jp": "（注1）お盆になると、各地で盆踊りが行なわれます。今までは（注2）町内会には少し顔を出す程度でした。今年は、町内会の担当が回ってきたので、準備から後片付けまでみっちりと参加しました。\n私が住む地域は、新しい住宅地のため、近所の人たちとの付き合いはあいさつ程度で、ほとんど知らない人ばかりです。男性の近所付き合いなんてこんなものだろうと、これまでは、近所や地域のことに関心が薄かったと思います。\nしかし、自然災害時などには地域社会の助け合いが重要になります。盆踊り大会で（注3）無邪気に走り回る小さな子どもたちを見つめながら、会社や家庭のことだけでなく、地域にも、もっと目を向けなくてはと思いました。今回の盆踊り大会への参加をきっかけに、今後は近所の人たちとも、これまで以上に話をして、顔も覚えていこうと思いました。\n（楠田泰弘氏の文より）",
+      "passage_source": null,
+      "stem_jp": "地域の活動はどういうことに役立つと言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "自然災害の時"
+        },
+        {
+          "key": "2",
+          "text_jp": "子どもの安全"
+        },
+        {
+          "key": "3",
+          "text_jp": "家族の健康"
+        },
+        {
+          "key": "4",
+          "text_jp": "地域の経済"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-040",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 89,
+      "knowledge_id": "reading:dokkai-medium-40",
+      "section": "中文",
+      "no": 40,
+      "passage_jp": "高校1年の長男が、夜やや遅く帰宅した。私は布団に入っていたが、中学1年の長女はまだ起きていた。長男は玄関を開けると、部屋にこもっていた長女に「ちょっと来い」と声をかけ、再び外へ出た。\nいつも口げんかが絶えない二人。その日も言い争いをしたばかり。①はじめ長女は無視をしていたが、しばらくして玄関から出て行くようであった。\nその夜は中秋の名月。あまりに美しい月を帰り道で見た長男は、それを誰かに伝えたいようで、長女を誘ったのであった。\n美しい光景にあうと、誰かと分かち合いたくなる。特に親しい人なら、なおさらだ。自然に湧き上がるこの気持ちは（注）人ならではのものだろう。\n長男がその夜、いつもけんかし合う長女と並んで月を眺めた様子を想像するとあったかい気持ちになり、②情緒はちゃんと育っているなと安心したのであった。\n（石田美枝「兄妹の心通った中秋の名月」による）",
+      "passage_source": null,
+      "stem_jp": "①「はじめ長女は無視をしていた」とあるが、どうしてか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "兄とけんかをしたばかりだから"
+        },
+        {
+          "key": "2",
+          "text_jp": "まだ寝ていなかったから"
+        },
+        {
+          "key": "3",
+          "text_jp": "部屋で自分の好きなことをしていたから"
+        },
+        {
+          "key": "4",
+          "text_jp": "もう夜だいぶ遅くなったから"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-041",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 89,
+      "knowledge_id": "reading:dokkai-medium-41",
+      "section": "中文",
+      "no": 41,
+      "passage_jp": "高校1年の長男が、夜やや遅く帰宅した。私は布団に入っていたが、中学1年の長女はまだ起きていた。長男は玄関を開けると、部屋にこもっていた長女に「ちょっと来い」と声をかけ、再び外へ出た。\nいつも口げんかが絶えない二人。その日も言い争いをしたばかり。①はじめ長女は無視をしていたが、しばらくして玄関から出て行くようであった。\nその夜は中秋の名月。あまりに美しい月を帰り道で見た長男は、それを誰かに伝えたいようで、長女を誘ったのであった。\n美しい光景にあうと、誰かと分かち合いたくなる。特に親しい人なら、なおさらだ。自然に湧き上がるこの気持ちは（注）人ならではのものだろう。\n長男がその夜、いつもけんかし合う長女と並んで月を眺めた様子を想像するとあったかい気持ちになり、②情緒はちゃんと育っているなと安心したのであった。\n（石田美枝「兄妹の心通った中秋の名月」による）",
+      "passage_source": null,
+      "stem_jp": "②「情緒はちゃんと育っている」の「情緒」はこの文でどういうことを指しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "妹をかわいがること"
+        },
+        {
+          "key": "2",
+          "text_jp": "親しい人ができたこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "母のことを心配すること"
+        },
+        {
+          "key": "4",
+          "text_jp": "月を美しいと感じること"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-042",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 89,
+      "knowledge_id": "reading:dokkai-medium-42",
+      "section": "中文",
+      "no": 42,
+      "passage_jp": "高校1年の長男が、夜やや遅く帰宅した。私は布団に入っていたが、中学1年の長女はまだ起きていた。長男は玄関を開けると、部屋にこもっていた長女に「ちょっと来い」と声をかけ、再び外へ出た。\nいつも口げんかが絶えない二人。その日も言い争いをしたばかり。①はじめ長女は無視をしていたが、しばらくして玄関から出て行くようであった。\nその夜は中秋の名月。あまりに美しい月を帰り道で見た長男は、それを誰かに伝えたいようで、長女を誘ったのであった。\n美しい光景にあうと、誰かと分かち合いたくなる。特に親しい人なら、なおさらだ。自然に湧き上がるこの気持ちは（注）人ならではのものだろう。\n長男がその夜、いつもけんかし合う長女と並んで月を眺めた様子を想像するとあったかい気持ちになり、②情緒はちゃんと育っているなと安心したのであった。\n（石田美枝「兄妹の心通った中秋の名月」による）",
+      "passage_source": null,
+      "stem_jp": "「兄」が「妹」を外へ誘ったわけは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "妹と口げんかを続けたいから"
+        },
+        {
+          "key": "2",
+          "text_jp": "妹と相談したいことがあったから"
+        },
+        {
+          "key": "3",
+          "text_jp": "妹に月を見せたかったから"
+        },
+        {
+          "key": "4",
+          "text_jp": "母の目を覚ましたくなかったから"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-043",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 91,
+      "knowledge_id": "reading:dokkai-medium-43",
+      "section": "中文",
+      "no": 43,
+      "passage_jp": "記憶力がますます弱まってきた私は、よそへ行くとよく①方角が分からなくなる。何時間もうろうろしたあげく、結局警察官に助けてもらってしまう。\n考えてみると、これは年のせいというより、もともと方向音痴なのかもしれない。雑っぽく描かれた地図でもそれを頼りに行きたい所へ行ける人が羨ましい。どうしても目指す建物が見つからないと、地図を書いてくれた人を恨んだり、情けない自分を呪うことになってしまう。ある時、②とにかく落ち着こうと思って騒がしい駅のベンチに腰をかけて一休みした。そして通りかかった（注1）頼もしそうなお巡りさんに思い切って尋ねてみたところ、親切に教えてくれた。なんと探していたビルはすぐ目のまえにあったのだ。（注2）はなはだ恥ずかしい思いをした。\nしかし、それ以来、「迷うより聞け」を実行している。",
+      "passage_source": null,
+      "stem_jp": "①「方角が分からなくなる」とあるが、こうなるのは何のせいと言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "おまわりさんのせいである。"
+        },
+        {
+          "key": "2",
+          "text_jp": "年のせいである。"
+        },
+        {
+          "key": "3",
+          "text_jp": "方向音痴のせいである。"
+        },
+        {
+          "key": "4",
+          "text_jp": "地図のせいである。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-044",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 91,
+      "knowledge_id": "reading:dokkai-medium-44",
+      "section": "中文",
+      "no": 44,
+      "passage_jp": "記憶力がますます弱まってきた私は、よそへ行くとよく①方角が分からなくなる。何時間もうろうろしたあげく、結局警察官に助けてもらってしまう。\n考えてみると、これは年のせいというより、もともと方向音痴なのかもしれない。雑っぽく描かれた地図でもそれを頼りに行きたい所へ行ける人が羨ましい。どうしても目指す建物が見つからないと、地図を書いてくれた人を恨んだり、情けない自分を呪うことになってしまう。ある時、②とにかく落ち着こうと思って騒がしい駅のベンチに腰をかけて一休みした。そして通りかかった（注1）頼もしそうなお巡りさんに思い切って尋ねてみたところ、親切に教えてくれた。なんと探していたビルはすぐ目のまえにあったのだ。（注2）はなはだ恥ずかしい思いをした。\nしかし、それ以来、「迷うより聞け」を実行している。",
+      "passage_source": null,
+      "stem_jp": "②「とにかく落ち着こうと思って」とあるが、どうしてこうなったか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "おなかが空いてたまらないから"
+        },
+        {
+          "key": "2",
+          "text_jp": "会う人がなかなか来ないから"
+        },
+        {
+          "key": "3",
+          "text_jp": "ずっと頭が痛いから"
+        },
+        {
+          "key": "4",
+          "text_jp": "探しているものが見つからないから"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-045",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 91,
+      "knowledge_id": "reading:dokkai-medium-45",
+      "section": "中文",
+      "no": 45,
+      "passage_jp": "記憶力がますます弱まってきた私は、よそへ行くとよく①方角が分からなくなる。何時間もうろうろしたあげく、結局警察官に助けてもらってしまう。\n考えてみると、これは年のせいというより、もともと方向音痴なのかもしれない。雑っぽく描かれた地図でもそれを頼りに行きたい所へ行ける人が羨ましい。どうしても目指す建物が見つからないと、地図を書いてくれた人を恨んだり、情けない自分を呪うことになってしまう。ある時、②とにかく落ち着こうと思って騒がしい駅のベンチに腰をかけて一休みした。そして通りかかった（注1）頼もしそうなお巡りさんに思い切って尋ねてみたところ、親切に教えてくれた。なんと探していたビルはすぐ目のまえにあったのだ。（注2）はなはだ恥ずかしい思いをした。\nしかし、それ以来、「迷うより聞け」を実行している。",
+      "passage_source": null,
+      "stem_jp": "この人はこれからどうしようと考えたか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "外へ出るときは地図を持とう。"
+        },
+        {
+          "key": "2",
+          "text_jp": "分からなかったら人に聞こう。"
+        },
+        {
+          "key": "3",
+          "text_jp": "分かる人に一緒に行ってもらおう。"
+        },
+        {
+          "key": "4",
+          "text_jp": "とにかく自分の足で探そう。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-046",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 93,
+      "knowledge_id": "reading:dokkai-medium-46",
+      "section": "中文",
+      "no": 46,
+      "passage_jp": "最近、子どもが外でスポーツをする時間が減ってきたと思います。僕はその理由に運動できる場所が減ったことが挙げられると思います。\nサッカーがしたくて公園に行けば、サッカーや（注1）キャッチボール禁止という看板があります。違う公園に行けば、（注2）草が伸びすぎてボールが止まってできません。だから少し広い道路などに行きます。しかしコンクリートでは転ぶ場合を恐れて思い切り遊べません。\nすると周りの友だちはスポーツができなくなってつまらなくなり、外で遊ぶ回数が少しずつ減ってしまいました。\n僕は家にいるより外で運動したいので、道さえあればできるマラソンをしています。でもマラソンだけでは（注3）飽きます。だから、安全を考えながらスポーツできる公園や環境を確保してほしい。そうなれば、多くの子どもが外で遊ぼうとするのではないでしょうか。\n（関口亮太「スポーツできる公園欲しい」による）",
+      "passage_source": null,
+      "stem_jp": "「最近、子どもが外でスポーツをする時間が減ってきた」原因は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "室内ゲームが流行っているから"
+        },
+        {
+          "key": "2",
+          "text_jp": "公園の数が減っているから"
+        },
+        {
+          "key": "3",
+          "text_jp": "運動のできる場所が減っているから"
+        },
+        {
+          "key": "4",
+          "text_jp": "広い道路が危険になったから"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-047",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 93,
+      "knowledge_id": "reading:dokkai-medium-47",
+      "section": "中文",
+      "no": 47,
+      "passage_jp": "最近、子どもが外でスポーツをする時間が減ってきたと思います。僕はその理由に運動できる場所が減ったことが挙げられると思います。\nサッカーがしたくて公園に行けば、サッカーや（注1）キャッチボール禁止という看板があります。違う公園に行けば、（注2）草が伸びすぎてボールが止まってできません。だから少し広い道路などに行きます。しかしコンクリートでは転ぶ場合を恐れて思い切り遊べません。\nすると周りの友だちはスポーツができなくなってつまらなくなり、外で遊ぶ回数が少しずつ減ってしまいました。\n僕は家にいるより外で運動したいので、道さえあればできるマラソンをしています。でもマラソンだけでは（注3）飽きます。だから、安全を考えながらスポーツできる公園や環境を確保してほしい。そうなれば、多くの子どもが外で遊ぼうとするのではないでしょうか。\n（関口亮太「スポーツできる公園欲しい」による）",
+      "passage_source": null,
+      "stem_jp": "男の子は何がほしいと言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "サッカーができる場所"
+        },
+        {
+          "key": "2",
+          "text_jp": "スポーツのできる環境"
+        },
+        {
+          "key": "3",
+          "text_jp": "キャッチボールができる場所"
+        },
+        {
+          "key": "4",
+          "text_jp": "マラソンができる道路"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-048",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 93,
+      "knowledge_id": "reading:dokkai-medium-48",
+      "section": "中文",
+      "no": 48,
+      "passage_jp": "最近、子どもが外でスポーツをする時間が減ってきたと思います。僕はその理由に運動できる場所が減ったことが挙げられると思います。\nサッカーがしたくて公園に行けば、サッカーや（注1）キャッチボール禁止という看板があります。違う公園に行けば、（注2）草が伸びすぎてボールが止まってできません。だから少し広い道路などに行きます。しかしコンクリートでは転ぶ場合を恐れて思い切り遊べません。\nすると周りの友だちはスポーツができなくなってつまらなくなり、外で遊ぶ回数が少しずつ減ってしまいました。\n僕は家にいるより外で運動したいので、道さえあればできるマラソンをしています。でもマラソンだけでは（注3）飽きます。だから、安全を考えながらスポーツできる公園や環境を確保してほしい。そうなれば、多くの子どもが外で遊ぼうとするのではないでしょうか。\n（関口亮太「スポーツできる公園欲しい」による）",
+      "passage_source": null,
+      "stem_jp": "子どもがスポーツをするのに大切なものは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "指導者"
+        },
+        {
+          "key": "2",
+          "text_jp": "環境"
+        },
+        {
+          "key": "3",
+          "text_jp": "予算"
+        },
+        {
+          "key": "4",
+          "text_jp": "用具"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-049",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 95,
+      "knowledge_id": "reading:dokkai-medium-49",
+      "section": "中文",
+      "no": 49,
+      "passage_jp": "小学6年生の息子がここ2か月、初めて塾に通っている。都立の（注1）中高一貫校を受験することにしたためだ。\n息子が通う小学校では、ほとんどの子どもが受験のために塾に通っている。そんな中、できるだけ自分の力で勉強して欲しいという私の方針と、経済的理由から、①息子は塾には通わずにきた。\nだが、息子は次第に塾に通う子どもとの学力差を感じるようになった。そこで塾に通って一貫校を目指すことにしたのだ。塾が楽しくて仕方がなさそうな息子を見て、「少しでもお金を工面して通わせるべきだったか」「成長の芽を摘んだのでは」と、私自身、②複雑な気持ちになった。\nでも、息子に伝えたい。小学生の君には、自分で考える時間や遊ぶ時間をたくさん持てたことが何よりも力になったと今もママは、強く思っている、と。\n伸びやかに過ごした小学校時代を（注2）糧に、自分の道を自分で切り開く人になって欲しいと強く願っている。\n（遠藤千恵「初めての塾、母の思いは複雑」による）",
+      "passage_source": null,
+      "stem_jp": "①「息子は塾には通わずにきた」とあるが、この小学生が塾に通わなかったわけは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "行っても一貫校に入るのは無理だから"
+        },
+        {
+          "key": "2",
+          "text_jp": "ほかに行っている子どもが少なかったから"
+        },
+        {
+          "key": "3",
+          "text_jp": "「自分の力で勉強してほしい」が親の考えだから"
+        },
+        {
+          "key": "4",
+          "text_jp": "塾はつらいことが多いし、金もかかるから"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-050",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 95,
+      "knowledge_id": "reading:dokkai-medium-50",
+      "section": "中文",
+      "no": 50,
+      "passage_jp": "小学6年生の息子がここ2か月、初めて塾に通っている。都立の（注1）中高一貫校を受験することにしたためだ。\n息子が通う小学校では、ほとんどの子どもが受験のために塾に通っている。そんな中、できるだけ自分の力で勉強して欲しいという私の方針と、経済的理由から、①息子は塾には通わずにきた。\nだが、息子は次第に塾に通う子どもとの学力差を感じるようになった。そこで塾に通って一貫校を目指すことにしたのだ。塾が楽しくて仕方がなさそうな息子を見て、「少しでもお金を工面して通わせるべきだったか」「成長の芽を摘んだのでは」と、私自身、②複雑な気持ちになった。\nでも、息子に伝えたい。小学生の君には、自分で考える時間や遊ぶ時間をたくさん持てたことが何よりも力になったと今もママは、強く思っている、と。\n伸びやかに過ごした小学校時代を（注2）糧に、自分の道を自分で切り開く人になって欲しいと強く願っている。\n（遠藤千恵「初めての塾、母の思いは複雑」による）",
+      "passage_source": null,
+      "stem_jp": "②「複雑な気持ちになった」とあるが、母親はどうしてこういう気持ちになったか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子どもが行きたくないのに塾へ入れたから"
+        },
+        {
+          "key": "2",
+          "text_jp": "苦しい生活の中から子どもを塾に入れたから"
+        },
+        {
+          "key": "3",
+          "text_jp": "入れないと思っていた塾に子どもが入ってよかったと思ったから"
+        },
+        {
+          "key": "4",
+          "text_jp": "もっとはやく子どもを塾に入れてあげればよかったかもしれないと思ったから"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-051",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 95,
+      "knowledge_id": "reading:dokkai-medium-51",
+      "section": "中文",
+      "no": 51,
+      "passage_jp": "小学6年生の息子がここ2か月、初めて塾に通っている。都立の（注1）中高一貫校を受験することにしたためだ。\n息子が通う小学校では、ほとんどの子どもが受験のために塾に通っている。そんな中、できるだけ自分の力で勉強して欲しいという私の方針と、経済的理由から、①息子は塾には通わずにきた。\nだが、息子は次第に塾に通う子どもとの学力差を感じるようになった。そこで塾に通って一貫校を目指すことにしたのだ。塾が楽しくて仕方がなさそうな息子を見て、「少しでもお金を工面して通わせるべきだったか」「成長の芽を摘んだのでは」と、私自身、②複雑な気持ちになった。\nでも、息子に伝えたい。小学生の君には、自分で考える時間や遊ぶ時間をたくさん持てたことが何よりも力になったと今もママは、強く思っている、と。\n伸びやかに過ごした小学校時代を（注2）糧に、自分の道を自分で切り開く人になって欲しいと強く願っている。\n（遠藤千恵「初めての塾、母の思いは複雑」による）",
+      "passage_source": null,
+      "stem_jp": "母親が息子に願っていることは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "塾で友だちに負けないよう勉強してほしい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "自分の道を自分の力で開いてほしい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "中高一貫校に合格してほしい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "家のこと、親のことは心配しないでほしい。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-052",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 97,
+      "knowledge_id": "reading:dokkai-medium-52",
+      "section": "中文",
+      "no": 52,
+      "passage_jp": "（注1）せっかちで、慌て者の私は毎年、年賀はがきの発売（11月25日）と同時に大掃除を始めることにしている。今年もその季節になった。\nはじめはこの1年間にいただいた手紙や公共料金の領収書などを整理して大きな封筒に入れて保管する。このあと、たんすや食器棚の引き出しの整理整頓。「1年間使わないものは処分するように」と夫に言われている。だが、モノの少ない時代に育った者には①抵抗感があり、捨てようとしたものをまたしまい込むことが多い。\n②小さな個所から始めた大掃除も、（注2）日を追って、居間、和室、寝室へと進む。なかでも難しい所は台所。換気扇、照明器具は最悪の状態。こんな時、頼りになるのが夫で、日当たりの良い庭先で布を使って磨いてくれる。\n大掃除のコツは③普段からの心がけと整理整頓だ。これこそが楽しく仕上げる（注3）コツではないだろうかと思っている。\n（上田道子「大掃除のコツは普段の整頓」による）",
+      "passage_source": null,
+      "stem_jp": "①「抵抗感があり」とあるが、どんな気持ちを言っているのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "おしくない"
+        },
+        {
+          "key": "2",
+          "text_jp": "あきない"
+        },
+        {
+          "key": "3",
+          "text_jp": "もったいない"
+        },
+        {
+          "key": "4",
+          "text_jp": "あぶない"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-053",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 97,
+      "knowledge_id": "reading:dokkai-medium-53",
+      "section": "中文",
+      "no": 53,
+      "passage_jp": "（注1）せっかちで、慌て者の私は毎年、年賀はがきの発売（11月25日）と同時に大掃除を始めることにしている。今年もその季節になった。\nはじめはこの1年間にいただいた手紙や公共料金の領収書などを整理して大きな封筒に入れて保管する。このあと、たんすや食器棚の引き出しの整理整頓。「1年間使わないものは処分するように」と夫に言われている。だが、モノの少ない時代に育った者には①抵抗感があり、捨てようとしたものをまたしまい込むことが多い。\n②小さな個所から始めた大掃除も、（注2）日を追って、居間、和室、寝室へと進む。なかでも難しい所は台所。換気扇、照明器具は最悪の状態。こんな時、頼りになるのが夫で、日当たりの良い庭先で布を使って磨いてくれる。\n大掃除のコツは③普段からの心がけと整理整頓だ。これこそが楽しく仕上げる（注3）コツではないだろうかと思っている。\n（上田道子「大掃除のコツは普段の整頓」による）",
+      "passage_source": null,
+      "stem_jp": "②「小さな個所」は、この文でどこのことを言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "居間"
+        },
+        {
+          "key": "2",
+          "text_jp": "引き出し"
+        },
+        {
+          "key": "3",
+          "text_jp": "食器戸棚"
+        },
+        {
+          "key": "4",
+          "text_jp": "和室"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-054",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 97,
+      "knowledge_id": "reading:dokkai-medium-54",
+      "section": "中文",
+      "no": 54,
+      "passage_jp": "（注1）せっかちで、慌て者の私は毎年、年賀はがきの発売（11月25日）と同時に大掃除を始めることにしている。今年もその季節になった。\nはじめはこの1年間にいただいた手紙や公共料金の領収書などを整理して大きな封筒に入れて保管する。このあと、たんすや食器棚の引き出しの整理整頓。「1年間使わないものは処分するように」と夫に言われている。だが、モノの少ない時代に育った者には①抵抗感があり、捨てようとしたものをまたしまい込むことが多い。\n②小さな個所から始めた大掃除も、（注2）日を追って、居間、和室、寝室へと進む。なかでも難しい所は台所。換気扇、照明器具は最悪の状態。こんな時、頼りになるのが夫で、日当たりの良い庭先で布を使って磨いてくれる。\n大掃除のコツは③普段からの心がけと整理整頓だ。これこそが楽しく仕上げる（注3）コツではないだろうかと思っている。\n（上田道子「大掃除のコツは普段の整頓」による）",
+      "passage_source": null,
+      "stem_jp": "筆者の③「普段からの心がけ」として、できていなかったところは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "公共料金の領収書"
+        },
+        {
+          "key": "2",
+          "text_jp": "1年間使わなかった物"
+        },
+        {
+          "key": "3",
+          "text_jp": "照明器具"
+        },
+        {
+          "key": "4",
+          "text_jp": "庭先"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-055",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 99,
+      "knowledge_id": "reading:dokkai-medium-55",
+      "section": "中文",
+      "no": 55,
+      "passage_jp": "今年も太鼓の音が鳴り響くお祭りの時期がやって来た。\n私たちが住む町には神社がたくさんあり、神社ごとに花車やみこしを担いで町内を（注1）練り歩く。\n8歳の双子の娘たちが3歳になる頃、この街に引っ越してきた。お祭りでは、幼い子から年配の方まで、一体になって盛り上がる。太鼓の（注2）バチなど握ったこともなかった娘たちが、今では叩けるようになるまで上達した。\n娘2人は、地域の人たちから、お祭りなどを通して、礼儀などのマナーや昔の街の様子などを教わり、新しいことを日々学んでいる。核家族が多い時代になったが、そうした交流を通じて、いろいろなことを教わりながら成長できるこの環境を、ありがたく感じている。\n（小野香織「祭り通じて成長する娘たち」による）\n（注1）練り歩く：行列を作ってゆっくり歩く\n（注2）バチ：太鼓を叩くときに使う木の棒",
+      "passage_source": null,
+      "stem_jp": "二人の娘が何ができるようになったか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "花車を担ぐこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "みこしを担ぐこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "太鼓を叩くこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "手を叩くこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-056",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 99,
+      "knowledge_id": "reading:dokkai-medium-56",
+      "section": "中文",
+      "no": 56,
+      "passage_jp": "今年も太鼓の音が鳴り響くお祭りの時期がやって来た。\n私たちが住む町には神社がたくさんあり、神社ごとに花車やみこしを担いで町内を（注1）練り歩く。\n8歳の双子の娘たちが3歳になる頃、この街に引っ越してきた。お祭りでは、幼い子から年配の方まで、一体になって盛り上がる。太鼓の（注2）バチなど握ったこともなかった娘たちが、今では叩けるようになるまで上達した。\n娘2人は、地域の人たちから、お祭りなどを通して、礼儀などのマナーや昔の街の様子などを教わり、新しいことを日々学んでいる。核家族が多い時代になったが、そうした交流を通じて、いろいろなことを教わりながら成長できるこの環境を、ありがたく感じている。\n（小野香織「祭り通じて成長する娘たち」による）\n（注1）練り歩く：行列を作ってゆっくり歩く\n（注2）バチ：太鼓を叩くときに使う木の棒",
+      "passage_source": null,
+      "stem_jp": "「この環境」はこの文でどこのことを指しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "祭りのある街"
+        },
+        {
+          "key": "2",
+          "text_jp": "友だちが作れる街"
+        },
+        {
+          "key": "3",
+          "text_jp": "核家族ではない家庭"
+        },
+        {
+          "key": "4",
+          "text_jp": "年配の人が多い所"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-057",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 99,
+      "knowledge_id": "reading:dokkai-medium-57",
+      "section": "中文",
+      "no": 57,
+      "passage_jp": "今年も太鼓の音が鳴り響くお祭りの時期がやって来た。\n私たちが住む町には神社がたくさんあり、神社ごとに花車やみこしを担いで町内を（注1）練り歩く。\n8歳の双子の娘たちが3歳になる頃、この街に引っ越してきた。お祭りでは、幼い子から年配の方まで、一体になって盛り上がる。太鼓の（注2）バチなど握ったこともなかった娘たちが、今では叩けるようになるまで上達した。\n娘2人は、地域の人たちから、お祭りなどを通して、礼儀などのマナーや昔の街の様子などを教わり、新しいことを日々学んでいる。核家族が多い時代になったが、そうした交流を通じて、いろいろなことを教わりながら成長できるこの環境を、ありがたく感じている。\n（小野香織「祭り通じて成長する娘たち」による）\n（注1）練り歩く：行列を作ってゆっくり歩く\n（注2）バチ：太鼓を叩くときに使う木の棒",
+      "passage_source": null,
+      "stem_jp": "子どもたちは何を通して成長しているのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "太鼓が叩けるようになったこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "大人と話せるようになったこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "新しいことを日々学んでいること"
+        },
+        {
+          "key": "4",
+          "text_jp": "神社の祭りに参加できたこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-058",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 101,
+      "knowledge_id": "reading:dokkai-medium-58",
+      "section": "中文",
+      "no": 58,
+      "passage_jp": "未夏さん（小4）は歩き出したころから、義足で暮らしている。木野小学校という山の麓にある、1学年1クラスの小さな学校での出来事だ。\n今年5月、運動会の練習で半ズボンをはいた時、膝下に付けた義足を初めて見た1年生から「にせ物の足」と言われた。「義足を知らないだけで、悪意はないはず」と担任教諭に勧められ、①気を出して1年生の教室で、ありのままを話した。理解は広がり、未夏さんは②ショックを乗り越えた。\n1年生は今、「来年入学する子には自分たちが話すから大丈夫」と言ってくれる。「思いを伝えることができ、気持ちが楽になった。同じように悩む人が『思い切って伝えてみよう』という気持ちになってもらえれば嬉しい」と未夏さんはにっこり。\n将来の夢は作家。日々の出来事を作文に書き、9月からはバスケットボール部に所属する。パラリンピック出場が目標だ。",
+      "passage_source": null,
+      "stem_jp": "どういう①「気」なのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "義足を隠すこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "義足を外すこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "義足のことを話すこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "義足のことを相談すること"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-059",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 101,
+      "knowledge_id": "reading:dokkai-medium-59",
+      "section": "中文",
+      "no": 59,
+      "passage_jp": "未夏さん（小4）は歩き出したころから、義足で暮らしている。木野小学校という山の麓にある、1学年1クラスの小さな学校での出来事だ。\n今年5月、運動会の練習で半ズボンをはいた時、膝下に付けた義足を初めて見た1年生から「にせ物の足」と言われた。「義足を知らないだけで、悪意はないはず」と担任教諭に勧められ、①気を出して1年生の教室で、ありのままを話した。理解は広がり、未夏さんは②ショックを乗り越えた。\n1年生は今、「来年入学する子には自分たちが話すから大丈夫」と言ってくれる。「思いを伝えることができ、気持ちが楽になった。同じように悩む人が『思い切って伝えてみよう』という気持ちになってもらえれば嬉しい」と未夏さんはにっこり。\n将来の夢は作家。日々の出来事を作文に書き、9月からはバスケットボール部に所属する。パラリンピック出場が目標だ。",
+      "passage_source": null,
+      "stem_jp": "どういう②「ショック」なのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "義足を感心されたこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "義足を同情されたこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "義足をばかにされたこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "義足をしかられたこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-060",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 101,
+      "knowledge_id": "reading:dokkai-medium-60",
+      "section": "中文",
+      "no": 60,
+      "passage_jp": "未夏さん（小4）は歩き出したころから、義足で暮らしている。木野小学校という山の麓にある、1学年1クラスの小さな学校での出来事だ。\n今年5月、運動会の練習で半ズボンをはいた時、膝下に付けた義足を初めて見た1年生から「にせ物の足」と言われた。「義足を知らないだけで、悪意はないはず」と担任教諭に勧められ、①気を出して1年生の教室で、ありのままを話した。理解は広がり、未夏さんは②ショックを乗り越えた。\n1年生は今、「来年入学する子には自分たちが話すから大丈夫」と言ってくれる。「思いを伝えることができ、気持ちが楽になった。同じように悩む人が『思い切って伝えてみよう』という気持ちになってもらえれば嬉しい」と未夏さんはにっこり。\n将来の夢は作家。日々の出来事を作文に書き、9月からはバスケットボール部に所属する。パラリンピック出場が目標だ。",
+      "passage_source": null,
+      "stem_jp": "文章はどういう人のことを言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "障害者"
+        },
+        {
+          "key": "2",
+          "text_jp": "いじめられっ子"
+        },
+        {
+          "key": "3",
+          "text_jp": "貧乏人"
+        },
+        {
+          "key": "4",
+          "text_jp": "勉強のできない子"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-061",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 103,
+      "knowledge_id": "reading:dokkai-medium-61",
+      "section": "中文",
+      "no": 61,
+      "passage_jp": "昨年末に携帯電話のメールをやめることにした。携帯でメールができるようになってしばらくの約7年前から、私はその便利さに引かれ、よく友人、知人にメールを送っては楽しんでいた。しかし、昨年の夏を過ぎたころから、利用すればするだけ心が寂しくなっていく自分に気づいた。\n私の場合、指だけで作成できる（注）手軽さなので、家事など、何かの行動をしながら携帯メールを作成していることが多かった。その結果、短文を並べたメールによって、受け手との間に誤解が生じ、不快な気分になってしまうこともあった。\nそれから、年の暮れから新年にかけ、私は友人、知人とのやりとりを約2週間する。はがきや電話で、文字や声を通してのコミュニケーションを楽しんでいる。そこには、何かをしながらのメール交換では感じなかった、大きな喜びと温かさがある。\n（久高恵理子の文より）\n（注）手軽さ：やりやすく便利な様子",
+      "passage_source": null,
+      "stem_jp": "筆者が携帯メールを始めたきっかけは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "一人暮らしの退屈さ"
+        },
+        {
+          "key": "2",
+          "text_jp": "一人暮らしの寂しさ"
+        },
+        {
+          "key": "3",
+          "text_jp": "携帯メールの楽しさ"
+        },
+        {
+          "key": "4",
+          "text_jp": "携帯メールの便利さ"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-062",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 103,
+      "knowledge_id": "reading:dokkai-medium-62",
+      "section": "中文",
+      "no": 62,
+      "passage_jp": "昨年末に携帯電話のメールをやめることにした。携帯でメールができるようになってしばらくの約7年前から、私はその便利さに引かれ、よく友人、知人にメールを送っては楽しんでいた。しかし、昨年の夏を過ぎたころから、利用すればするだけ心が寂しくなっていく自分に気づいた。\n私の場合、指だけで作成できる（注）手軽さなので、家事など、何かの行動をしながら携帯メールを作成していることが多かった。その結果、短文を並べたメールによって、受け手との間に誤解が生じ、不快な気分になってしまうこともあった。\nそれから、年の暮れから新年にかけ、私は友人、知人とのやりとりを約2週間する。はがきや電話で、文字や声を通してのコミュニケーションを楽しんでいる。そこには、何かをしながらのメール交換では感じなかった、大きな喜びと温かさがある。\n（久高恵理子の文より）\n（注）手軽さ：やりやすく便利な様子",
+      "passage_source": null,
+      "stem_jp": "「心が寂しくなっていく」とあるが、どうしてこうなるか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "メールには温かさがないから"
+        },
+        {
+          "key": "2",
+          "text_jp": "メールはうそが多いから"
+        },
+        {
+          "key": "3",
+          "text_jp": "メールは1回だけのものだから"
+        },
+        {
+          "key": "4",
+          "text_jp": "メールは何かしながらするものだから"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-063",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 103,
+      "knowledge_id": "reading:dokkai-medium-63",
+      "section": "中文",
+      "no": 63,
+      "passage_jp": "昨年末に携帯電話のメールをやめることにした。携帯でメールができるようになってしばらくの約7年前から、私はその便利さに引かれ、よく友人、知人にメールを送っては楽しんでいた。しかし、昨年の夏を過ぎたころから、利用すればするだけ心が寂しくなっていく自分に気づいた。\n私の場合、指だけで作成できる（注）手軽さなので、家事など、何かの行動をしながら携帯メールを作成していることが多かった。その結果、短文を並べたメールによって、受け手との間に誤解が生じ、不快な気分になってしまうこともあった。\nそれから、年の暮れから新年にかけ、私は友人、知人とのやりとりを約2週間する。はがきや電話で、文字や声を通してのコミュニケーションを楽しんでいる。そこには、何かをしながらのメール交換では感じなかった、大きな喜びと温かさがある。\n（久高恵理子の文より）\n（注）手軽さ：やりやすく便利な様子",
+      "passage_source": null,
+      "stem_jp": "筆者は携帯メールについてどう思っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "家事をしながらできるので便利でいい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "手軽で楽しみながらできていい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "短文なので誤解が生じやすい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "年末や新年の手紙より気持ちを表しやすい。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-064",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 105,
+      "knowledge_id": "reading:dokkai-medium-64",
+      "section": "中文",
+      "no": 64,
+      "passage_jp": "私は公共のサービスの中でも、図書館は素晴らしいと思っています。本やCDやDVDが無料で借りられますし、映画も上映しています。私の家の近くには市立の立派な図書館があるので、夏休み中も、母と一緒に週に4、5回くらい出かけて、本を読んだり、宿題をしたりしていました。母は「不況のせいか、例年より利用者が多いわね」と言っていました。\nそんなお気に入りの図書館ですが、9月の5連休は21～23日と3日間続けて閉館していました。21日は月曜日で定休、22、23日は祝日だったからです。私も19、20日に行って、借りてきた本を家で読むしかありませんでした。私も含めて、連休中に図書館を利用したいと思った市民は多かったのではないでしょうか。\n図書館で働く人の事情もあるのでしょうが、世の中の様子や市民の希望に合わせて利用者の少ない平日に休みを振り替えるなどして開館し、市民にサービスをすることも必要ではないかと思いました。\n（小林万梨佳「市立図書館に注文を」による）",
+      "passage_source": null,
+      "stem_jp": "この年の5連休はいつからいつまでか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "18日～22日"
+        },
+        {
+          "key": "2",
+          "text_jp": "19日～23日"
+        },
+        {
+          "key": "3",
+          "text_jp": "20日～24日"
+        },
+        {
+          "key": "4",
+          "text_jp": "21日～25日"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-065",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 105,
+      "knowledge_id": "reading:dokkai-medium-65",
+      "section": "中文",
+      "no": 65,
+      "passage_jp": "私は公共のサービスの中でも、図書館は素晴らしいと思っています。本やCDやDVDが無料で借りられますし、映画も上映しています。私の家の近くには市立の立派な図書館があるので、夏休み中も、母と一緒に週に4、5回くらい出かけて、本を読んだり、宿題をしたりしていました。母は「不況のせいか、例年より利用者が多いわね」と言っていました。\nそんなお気に入りの図書館ですが、9月の5連休は21～23日と3日間続けて閉館していました。21日は月曜日で定休、22、23日は祝日だったからです。私も19、20日に行って、借りてきた本を家で読むしかありませんでした。私も含めて、連休中に図書館を利用したいと思った市民は多かったのではないでしょうか。\n図書館で働く人の事情もあるのでしょうが、世の中の様子や市民の希望に合わせて利用者の少ない平日に休みを振り替えるなどして開館し、市民にサービスをすることも必要ではないかと思いました。\n（小林万梨佳「市立図書館に注文を」による）",
+      "passage_source": null,
+      "stem_jp": "「世の中の様子」はどういうことを指すか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "不況"
+        },
+        {
+          "key": "2",
+          "text_jp": "気象"
+        },
+        {
+          "key": "3",
+          "text_jp": "流行"
+        },
+        {
+          "key": "4",
+          "text_jp": "物価"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-066",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 105,
+      "knowledge_id": "reading:dokkai-medium-66",
+      "section": "中文",
+      "no": 66,
+      "passage_jp": "私は公共のサービスの中でも、図書館は素晴らしいと思っています。本やCDやDVDが無料で借りられますし、映画も上映しています。私の家の近くには市立の立派な図書館があるので、夏休み中も、母と一緒に週に4、5回くらい出かけて、本を読んだり、宿題をしたりしていました。母は「不況のせいか、例年より利用者が多いわね」と言っていました。\nそんなお気に入りの図書館ですが、9月の5連休は21～23日と3日間続けて閉館していました。21日は月曜日で定休、22、23日は祝日だったからです。私も19、20日に行って、借りてきた本を家で読むしかありませんでした。私も含めて、連休中に図書館を利用したいと思った市民は多かったのではないでしょうか。\n図書館で働く人の事情もあるのでしょうが、世の中の様子や市民の希望に合わせて利用者の少ない平日に休みを振り替えるなどして開館し、市民にサービスをすることも必要ではないかと思いました。\n（小林万梨佳「市立図書館に注文を」による）",
+      "passage_source": null,
+      "stem_jp": "この人は図書館に何を注文しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "映画の上映"
+        },
+        {
+          "key": "2",
+          "text_jp": "連休中の休館"
+        },
+        {
+          "key": "3",
+          "text_jp": "貸し出しの無料化"
+        },
+        {
+          "key": "4",
+          "text_jp": "連休中の開館"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-067",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 107,
+      "knowledge_id": "reading:dokkai-medium-67",
+      "section": "中文",
+      "no": 67,
+      "passage_jp": "父は私が生まれてまもなく病気で倒れ、6ヶ月の私と4歳だった兄を残し、天国へ旅立ってしまいました。それから母は必死に働き、私たち兄妹を育ててくれています。\n私は父の顔も知らず、遊んでもらった記憶もないので、小さいころは寂しかったはずです。でも、祖父母の家族が近所に住んでいて、温かくかわいがられて大きくなりました。冬休みにアルバムを整理していたら、兄には、父と楽しそうに遊んでいる写真がいっぱいあるのに、私にはおひな様の前で父に抱かれている写真がたった1枚きりしかありませんでした。\n①ごねてると祖母が父のことを話してくれました。薬剤師の父は優しく、病気の人に信用のあったこと、産院から帰った私を大喜びで抱き、離さなかったこと、病気で入院する時、（注2）ひな祭りまでには必ず帰るとパソコンに、兄と私にメッセージを入れて行ったことなど。私は胸が熱くなりました。\n春に、私は中学生になる。中学に入ったら夢に向かって一生懸命頑張るから、②見てて、お父さん。\n（吉田真依子「春から中学 お父さん見てて」による）\n（注1）ごねる：文句を言う\n（注2）ひなまつり：三月三日に女の子のために行う行事",
+      "passage_source": null,
+      "stem_jp": "①「ごねてる」とあるが、何についてのことか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "父と写した写真が一枚もなかったこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "父が兄のように私を抱いてくれなかったこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "父と兄の写真は多いのに、私とのは少ないこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "父が私の小さいうちに死んでしまったこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-068",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 107,
+      "knowledge_id": "reading:dokkai-medium-68",
+      "section": "中文",
+      "no": 68,
+      "passage_jp": "父は私が生まれてまもなく病気で倒れ、6ヶ月の私と4歳だった兄を残し、天国へ旅立ってしまいました。それから母は必死に働き、私たち兄妹を育ててくれています。\n私は父の顔も知らず、遊んでもらった記憶もないので、小さいころは寂しかったはずです。でも、祖父母の家族が近所に住んでいて、温かくかわいがられて大きくなりました。冬休みにアルバムを整理していたら、兄には、父と楽しそうに遊んでいる写真がいっぱいあるのに、私にはおひな様の前で父に抱かれている写真がたった1枚きりしかありませんでした。\n①ごねてると祖母が父のことを話してくれました。薬剤師の父は優しく、病気の人に信用のあったこと、産院から帰った私を大喜びで抱き、離さなかったこと、病気で入院する時、（注2）ひな祭りまでには必ず帰るとパソコンに、兄と私にメッセージを入れて行ったことなど。私は胸が熱くなりました。\n春に、私は中学生になる。中学に入ったら夢に向かって一生懸命頑張るから、②見てて、お父さん。\n（吉田真依子「春から中学 お父さん見てて」による）\n（注1）ごねる：文句を言う\n（注2）ひなまつり：三月三日に女の子のために行う行事",
+      "passage_source": null,
+      "stem_jp": "②「見てて、お父さん」とあるが、父はどこから「見る」か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "天国"
+        },
+        {
+          "key": "2",
+          "text_jp": "薬局"
+        },
+        {
+          "key": "3",
+          "text_jp": "産院"
+        },
+        {
+          "key": "4",
+          "text_jp": "おひな様の前"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-069",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 107,
+      "knowledge_id": "reading:dokkai-medium-69",
+      "section": "中文",
+      "no": 69,
+      "passage_jp": "父は私が生まれてまもなく病気で倒れ、6ヶ月の私と4歳だった兄を残し、天国へ旅立ってしまいました。それから母は必死に働き、私たち兄妹を育ててくれています。\n私は父の顔も知らず、遊んでもらった記憶もないので、小さいころは寂しかったはずです。でも、祖父母の家族が近所に住んでいて、温かくかわいがられて大きくなりました。冬休みにアルバムを整理していたら、兄には、父と楽しそうに遊んでいる写真がいっぱいあるのに、私にはおひな様の前で父に抱かれている写真がたった1枚きりしかありませんでした。\n①ごねてると祖母が父のことを話してくれました。薬剤師の父は優しく、病気の人に信用のあったこと、産院から帰った私を大喜びで抱き、離さなかったこと、病気で入院する時、（注2）ひな祭りまでには必ず帰るとパソコンに、兄と私にメッセージを入れて行ったことなど。私は胸が熱くなりました。\n春に、私は中学生になる。中学に入ったら夢に向かって一生懸命頑張るから、②見てて、お父さん。\n（吉田真依子「春から中学 お父さん見てて」による）\n（注1）ごねる：文句を言う\n（注2）ひなまつり：三月三日に女の子のために行う行事",
+      "passage_source": null,
+      "stem_jp": "祖父の話で私の心に深く残ったことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "父がりっぱな薬剤師だったこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "父は私が生まれて6ヶ月でなくなったこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "父は私が生まれたことに驚いたこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "父があるメッセージを残したこと"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-070",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 109,
+      "knowledge_id": "reading:dokkai-medium-70",
+      "section": "中文",
+      "no": 70,
+      "passage_jp": "私は（注1）部活で（注2）ラグビーをしていた。その中で一番の支えになっていたのは母だった。\n私の母は専業主婦ではなく公務員で、毎日朝から夕方まで、夜9時過ぎまで頑張る日もある。そんなに働きながら、いつも私が疑問に思うのは、帰宅した時に私に疲れた表情を見せないことだ。そんな母を見て、私は母としてでなく、一人の人間としてすごく強いんだと感じている。\n母は毎朝5時ごろに起き、私に弁当を作ってくれる。母の手料理は世界一と言っていいほどおいしい。そんな母に私は申し訳ないことをしている。それは学校で弁当を食べる時に、「今日のおかずは最悪やわ」「食べる気がなくなる」などと①強がって、周りの友だちに母の弁当をまずいと言いふらしていた。だが本当は、そんなことは一度も思っていない。この場を借りて母に謝りたい。「②ごめんなさい、母ちゃんの弁当はいつも絶品でおいしいよ」と……。\n（伊木駿仁「いつも絶品 母ちゃんの弁当」による）\n（注1）部活：サークル活動、クラブ活動のこと\n（注2）ラグビー：フットボールの一種で、一組十五人でやるスポーツの一つ",
+      "passage_source": null,
+      "stem_jp": "①「強がって」いる理由は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "弁当をほめるのが恥ずかしいから"
+        },
+        {
+          "key": "2",
+          "text_jp": "弁当がまずいのが恥ずかしいから"
+        },
+        {
+          "key": "3",
+          "text_jp": "弁当を自分で作れないのが恥ずかしいから"
+        },
+        {
+          "key": "4",
+          "text_jp": "弁当の見た目が悪いのが恥ずかしいから"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-071",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 109,
+      "knowledge_id": "reading:dokkai-medium-71",
+      "section": "中文",
+      "no": 71,
+      "passage_jp": "私は（注1）部活で（注2）ラグビーをしていた。その中で一番の支えになっていたのは母だった。\n私の母は専業主婦ではなく公務員で、毎日朝から夕方まで、夜9時過ぎまで頑張る日もある。そんなに働きながら、いつも私が疑問に思うのは、帰宅した時に私に疲れた表情を見せないことだ。そんな母を見て、私は母としてでなく、一人の人間としてすごく強いんだと感じている。\n母は毎朝5時ごろに起き、私に弁当を作ってくれる。母の手料理は世界一と言っていいほどおいしい。そんな母に私は申し訳ないことをしている。それは学校で弁当を食べる時に、「今日のおかずは最悪やわ」「食べる気がなくなる」などと①強がって、周りの友だちに母の弁当をまずいと言いふらしていた。だが本当は、そんなことは一度も思っていない。この場を借りて母に謝りたい。「②ごめんなさい、母ちゃんの弁当はいつも絶品でおいしいよ」と……。\n（伊木駿仁「いつも絶品 母ちゃんの弁当」による）\n（注1）部活：サークル活動、クラブ活動のこと\n（注2）ラグビー：フットボールの一種で、一組十五人でやるスポーツの一つ",
+      "passage_source": null,
+      "stem_jp": "②「ごめんなさい」とあるが、何について謝っているのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "弁当を食べなかったこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "弁当に感謝しなかったこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "弁当をまずいと言いふらしたこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "弁当が足りないと言わなかったこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-072",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 109,
+      "knowledge_id": "reading:dokkai-medium-72",
+      "section": "中文",
+      "no": 72,
+      "passage_jp": "私は（注1）部活で（注2）ラグビーをしていた。その中で一番の支えになっていたのは母だった。\n私の母は専業主婦ではなく公務員で、毎日朝から夕方まで、夜9時過ぎまで頑張る日もある。そんなに働きながら、いつも私が疑問に思うのは、帰宅した時に私に疲れた表情を見せないことだ。そんな母を見て、私は母としてでなく、一人の人間としてすごく強いんだと感じている。\n母は毎朝5時ごろに起き、私に弁当を作ってくれる。母の手料理は世界一と言っていいほどおいしい。そんな母に私は申し訳ないことをしている。それは学校で弁当を食べる時に、「今日のおかずは最悪やわ」「食べる気がなくなる」などと①強がって、周りの友だちに母の弁当をまずいと言いふらしていた。だが本当は、そんなことは一度も思っていない。この場を借りて母に謝りたい。「②ごめんなさい、母ちゃんの弁当はいつも絶品でおいしいよ」と……。\n（伊木駿仁「いつも絶品 母ちゃんの弁当」による）\n（注1）部活：サークル活動、クラブ活動のこと\n（注2）ラグビー：フットボールの一種で、一組十五人でやるスポーツの一つ",
+      "passage_source": null,
+      "stem_jp": "この人の母はどういう人か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "専業主婦で料理が得意な人"
+        },
+        {
+          "key": "2",
+          "text_jp": "公務員で疲れた表情を見せる人"
+        },
+        {
+          "key": "3",
+          "text_jp": "専業主婦で毎日弁当を作る人"
+        },
+        {
+          "key": "4",
+          "text_jp": "公務員で「私」を支えてくれる人"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-073",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 111,
+      "knowledge_id": "reading:dokkai-medium-73",
+      "section": "中文",
+      "no": 73,
+      "passage_jp": "先日、区内のホールで、0歳から入場できるピアノコンサートがありました。\n演奏はすばらしかったのですが、①一部の人のマナーの悪さにはがっかりしました。\n演奏中なのに、ホールに頻繁に出入りしたり、子どもの声が幾度となく響いたり。前方の男性が、曲の（注2）合間に2度も振り返って「静かにしてください」と注意したほどで、ピアニストの方には本当に気の毒でした。\n私は、この貴重な企画を子どもにマナーを教える場としてぜひ活用してほしいと思います。子どもには、演奏中は静かにするようきちんと伝えます。もしも静かにできなくなったときはすぐに退場すること。子どもは経験を重ねれば分かります。実際、当日も静かにしていた子どもは何人もいたのです。そして、親子用に出入りしやすい通路よりの席を用意するなど、主催者側にもご配慮いただきたいと思います。このすばらしい企画が、誰もが満足できる形で、長続きするよう願っています。\n（西山美佐「親子で音楽鑑賞 マナー大切」による）\n（注1）幾度となく：何回も何回も\n（注2）合間：一つのことが行なわれるまでの短い時間",
+      "passage_source": null,
+      "stem_jp": "①「一部の人のマナーの悪さ」とあるが、どういうことを指しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ある男性が注意したこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "出入り口近くに座る人がいたこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "子どもを騒がせる親がいたこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "ピアニストが怒ったこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-074",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 111,
+      "knowledge_id": "reading:dokkai-medium-74",
+      "section": "中文",
+      "no": 74,
+      "passage_jp": "先日、区内のホールで、0歳から入場できるピアノコンサートがありました。\n演奏はすばらしかったのですが、①一部の人のマナーの悪さにはがっかりしました。\n演奏中なのに、ホールに頻繁に出入りしたり、子どもの声が幾度となく響いたり。前方の男性が、曲の（注2）合間に2度も振り返って「静かにしてください」と注意したほどで、ピアニストの方には本当に気の毒でした。\n私は、この貴重な企画を子どもにマナーを教える場としてぜひ活用してほしいと思います。子どもには、演奏中は静かにするようきちんと伝えます。もしも静かにできなくなったときはすぐに退場すること。子どもは経験を重ねれば分かります。実際、当日も静かにしていた子どもは何人もいたのです。そして、親子用に出入りしやすい通路よりの席を用意するなど、主催者側にもご配慮いただきたいと思います。このすばらしい企画が、誰もが満足できる形で、長続きするよう願っています。\n（西山美佐「親子で音楽鑑賞 マナー大切」による）\n（注1）幾度となく：何回も何回も\n（注2）合間：一つのことが行なわれるまでの短い時間",
+      "passage_source": null,
+      "stem_jp": "演奏会を子どものどういう場にしたいと筆者は言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "マナーを覚える場"
+        },
+        {
+          "key": "2",
+          "text_jp": "音楽を味わう場"
+        },
+        {
+          "key": "3",
+          "text_jp": "時間を守る習慣を付ける場"
+        },
+        {
+          "key": "4",
+          "text_jp": "親子が触れ合う場"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-075",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 111,
+      "knowledge_id": "reading:dokkai-medium-75",
+      "section": "中文",
+      "no": 75,
+      "passage_jp": "先日、区内のホールで、0歳から入場できるピアノコンサートがありました。\n演奏はすばらしかったのですが、①一部の人のマナーの悪さにはがっかりしました。\n演奏中なのに、ホールに頻繁に出入りしたり、子どもの声が幾度となく響いたり。前方の男性が、曲の（注2）合間に2度も振り返って「静かにしてください」と注意したほどで、ピアニストの方には本当に気の毒でした。\n私は、この貴重な企画を子どもにマナーを教える場としてぜひ活用してほしいと思います。子どもには、演奏中は静かにするようきちんと伝えます。もしも静かにできなくなったときはすぐに退場すること。子どもは経験を重ねれば分かります。実際、当日も静かにしていた子どもは何人もいたのです。そして、親子用に出入りしやすい通路よりの席を用意するなど、主催者側にもご配慮いただきたいと思います。このすばらしい企画が、誰もが満足できる形で、長続きするよう願っています。\n（西山美佐「親子で音楽鑑賞 マナー大切」による）\n（注1）幾度となく：何回も何回も\n（注2）合間：一つのことが行なわれるまでの短い時間",
+      "passage_source": null,
+      "stem_jp": "この人は「主催者側」に何を希望しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子どもを入れないでほしい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "「静かに」をアナウンスしてほしい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "マナーの悪い人を退場させてほしい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "親子用の席を用意してほしい。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-076",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 113,
+      "knowledge_id": "reading:dokkai-medium-76",
+      "section": "中文",
+      "no": 76,
+      "passage_jp": "新学期が始まり、家の前の通学路を子供たちが楽しそうに通っていく。女の子たちの話は、小鳥のさえずりのように絶え間がない。夫も私も子供が好きだから、外に出て「行ってらっしゃい」と声をかける。\n3年前、町内会の役員をしていた時に、「①子供110番の家」を引き受けた。子供たちが通学途中に立ち寄ることはめったにないが、用件がないのは地域が安全である証拠だから喜ばしいことである。\n時たま女の子が、「トイレを貸してください」と駆け込むようにして入ってくる。夏には、「水をください」と男の子も立ち寄る。\n秋は夕暮れが早い。「おじちゃん、暗くなって怖いから家まで送って」と言うので、夫が自転車で送って行くと、②途中で迎えに来られた家族の方と会え、安心したことも。通学路の土手は、大人たちの散歩道にもなっている。\n（六車スエカの文より）",
+      "passage_source": null,
+      "stem_jp": "①「子供110番の家」はどんな所か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子どもが立ち寄る所"
+        },
+        {
+          "key": "2",
+          "text_jp": "子どもの安全を守る所"
+        },
+        {
+          "key": "3",
+          "text_jp": "子どもが集まって遊ぶ所"
+        },
+        {
+          "key": "4",
+          "text_jp": "トイレや水道を使わせる所"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-077",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 113,
+      "knowledge_id": "reading:dokkai-medium-77",
+      "section": "中文",
+      "no": 77,
+      "passage_jp": "新学期が始まり、家の前の通学路を子供たちが楽しそうに通っていく。女の子たちの話は、小鳥のさえずりのように絶え間がない。夫も私も子供が好きだから、外に出て「行ってらっしゃい」と声をかける。\n3年前、町内会の役員をしていた時に、「①子供110番の家」を引き受けた。子供たちが通学途中に立ち寄ることはめったにないが、用件がないのは地域が安全である証拠だから喜ばしいことである。\n時たま女の子が、「トイレを貸してください」と駆け込むようにして入ってくる。夏には、「水をください」と男の子も立ち寄る。\n秋は夕暮れが早い。「おじちゃん、暗くなって怖いから家まで送って」と言うので、夫が自転車で送って行くと、②途中で迎えに来られた家族の方と会え、安心したことも。通学路の土手は、大人たちの散歩道にもなっている。\n（六車スエカの文より）",
+      "passage_source": null,
+      "stem_jp": "②「途中」は何を指しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子供たちの登校の途中"
+        },
+        {
+          "key": "2",
+          "text_jp": "この夫婦の散歩の途中"
+        },
+        {
+          "key": "3",
+          "text_jp": "子供たちの下校の途中"
+        },
+        {
+          "key": "4",
+          "text_jp": "この夫婦の町内会行きの途中"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-078",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 113,
+      "knowledge_id": "reading:dokkai-medium-78",
+      "section": "中文",
+      "no": 78,
+      "passage_jp": "新学期が始まり、家の前の通学路を子供たちが楽しそうに通っていく。女の子たちの話は、小鳥のさえずりのように絶え間がない。夫も私も子供が好きだから、外に出て「行ってらっしゃい」と声をかける。\n3年前、町内会の役員をしていた時に、「①子供110番の家」を引き受けた。子供たちが通学途中に立ち寄ることはめったにないが、用件がないのは地域が安全である証拠だから喜ばしいことである。\n時たま女の子が、「トイレを貸してください」と駆け込むようにして入ってくる。夏には、「水をください」と男の子も立ち寄る。\n秋は夕暮れが早い。「おじちゃん、暗くなって怖いから家まで送って」と言うので、夫が自転車で送って行くと、②途中で迎えに来られた家族の方と会え、安心したことも。通学路の土手は、大人たちの散歩道にもなっている。\n（六車スエカの文より）",
+      "passage_source": null,
+      "stem_jp": "この夫婦はどんなことをする人か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "通学路を通る子どもたちにあいさつをする。"
+        },
+        {
+          "key": "2",
+          "text_jp": "「子供110番の家」を引き受けたけど、大変だ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "毎日散歩しながら、子供たちを眺めている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "「子供の110番の家」を順番なので、引き受けた。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-079",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 115,
+      "knowledge_id": "reading:dokkai-medium-79",
+      "section": "中文",
+      "no": 79,
+      "passage_jp": "私が中学1年の時の①英語の教師は、（注）社会科担当なのに英語も受け持ち、熱意はまったく感じられなかった。\n発音に自信がないので授業の声は小さく、発音指導もなかった。宿題も単語100回ずつ書くといったものばかりだった。2年生で英語専門の教師に変わり、授業内容の差に驚いた。\n私たちは、発音記号も読めず文法も分からず、しばらく授業に付いていけなかった。それ以来、苦手意識が生まれてしまい、受験は暗記で乗り越えたが、「聞く」「話す」といったコミュニケーションについては今も劣等感がある。\n現在、自信を持って英語を教えられる小学校教師はどれぐらいいるのだろうか。自信のない教師に教えられても子供は伸びないだろう。教師の質が確保できないなら、②必修にはしないでほしい。5年後、わが子が小学生になるころはどうなっているのだろうか。どうか③私たちの経験した教育だけはしてほしくない。\n（石井浩子の文より、一部改）\n（注）社会科：授業コースの一つで、人文地理や歴史などを教える学科",
+      "passage_source": null,
+      "stem_jp": "①「英語の教師」についての説明に合っているのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "社会科の担当だったが、大きな声で教えた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "文法を中心にして熱心に生徒に教えた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "宿題だけで授業では何も教えなかった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "発音指導はしなかったが、単語は教えた。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-080",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 115,
+      "knowledge_id": "reading:dokkai-medium-80",
+      "section": "中文",
+      "no": 80,
+      "passage_jp": "私が中学1年の時の①英語の教師は、（注）社会科担当なのに英語も受け持ち、熱意はまったく感じられなかった。\n発音に自信がないので授業の声は小さく、発音指導もなかった。宿題も単語100回ずつ書くといったものばかりだった。2年生で英語専門の教師に変わり、授業内容の差に驚いた。\n私たちは、発音記号も読めず文法も分からず、しばらく授業に付いていけなかった。それ以来、苦手意識が生まれてしまい、受験は暗記で乗り越えたが、「聞く」「話す」といったコミュニケーションについては今も劣等感がある。\n現在、自信を持って英語を教えられる小学校教師はどれぐらいいるのだろうか。自信のない教師に教えられても子供は伸びないだろう。教師の質が確保できないなら、②必修にはしないでほしい。5年後、わが子が小学生になるころはどうなっているのだろうか。どうか③私たちの経験した教育だけはしてほしくない。\n（石井浩子の文より、一部改）\n（注）社会科：授業コースの一つで、人文地理や歴史などを教える学科",
+      "passage_source": null,
+      "stem_jp": "②「必修にはしないでほしい」と言っている理由は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "教師の質が下がっているから"
+        },
+        {
+          "key": "2",
+          "text_jp": "小学生には早すぎるから"
+        },
+        {
+          "key": "3",
+          "text_jp": "「聞く」「話す」を教えないから"
+        },
+        {
+          "key": "4",
+          "text_jp": "苦手意識が自然に生じるから"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-081",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 115,
+      "knowledge_id": "reading:dokkai-medium-81",
+      "section": "中文",
+      "no": 81,
+      "passage_jp": "私が中学1年の時の①英語の教師は、（注）社会科担当なのに英語も受け持ち、熱意はまったく感じられなかった。\n発音に自信がないので授業の声は小さく、発音指導もなかった。宿題も単語100回ずつ書くといったものばかりだった。2年生で英語専門の教師に変わり、授業内容の差に驚いた。\n私たちは、発音記号も読めず文法も分からず、しばらく授業に付いていけなかった。それ以来、苦手意識が生まれてしまい、受験は暗記で乗り越えたが、「聞く」「話す」といったコミュニケーションについては今も劣等感がある。\n現在、自信を持って英語を教えられる小学校教師はどれぐらいいるのだろうか。自信のない教師に教えられても子供は伸びないだろう。教師の質が確保できないなら、②必修にはしないでほしい。5年後、わが子が小学生になるころはどうなっているのだろうか。どうか③私たちの経験した教育だけはしてほしくない。\n（石井浩子の文より、一部改）\n（注）社会科：授業コースの一つで、人文地理や歴史などを教える学科",
+      "passage_source": null,
+      "stem_jp": "③「私たちの経験した教育」はどういう教育だったか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "英語専門の教師に教えられた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "自信のない教師に英語を教えられた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "子供を伸ばす英語教師に教えられた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "発音記号が読めない教師に英語を教えられた。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-082",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 117,
+      "knowledge_id": "reading:dokkai-medium-82",
+      "section": "中文",
+      "no": 82,
+      "passage_jp": "果物の皮を剥くことにかけては、猿は人間に負けないらしい。\nいたずら好きな見物の一人が、たまたまラッキョウ（辣韮）を投げ与えたりすると大変なことになる。まず目の早い子供の猿が一番早く見付け、ゆっくりと歩いていって、そっと手で取り、不思議そうに見る。今まで一度も見たことがないらしく、縦から横から一通り見回し、やっと安心したようで、ゆっくりと横向きに皮を剥き始める。一枚また一枚。なかなか実が出てこないので、いらいらするらしく、今度はせっせと指を動かす。やっぱり出てこない。がっかりしてうっかり手を休めているところへ、いきなり別の一匹が現れ、小さくなったラッキョウを奪い取り、さっさと逃げ出す。びっくりした前の猿が慌てて追い駆ける。たちまち他の小猿たちも飛び掛かるように一斉に後を追う。そんな騒ぎを親猿は岩場の上をのんびりと移動しながら、ちらりと眺めている。\n見物の皆さんにくれぐれもお願いします。猿が食べないものを与えないでください。",
+      "passage_source": null,
+      "stem_jp": "「不思議そうに見る」とあるが、どうしてか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "なぜ与えてくれるか分からないから"
+        },
+        {
+          "key": "2",
+          "text_jp": "何を与えてくれたか分からないから"
+        },
+        {
+          "key": "3",
+          "text_jp": "どのように皮を剥くか分からないから"
+        },
+        {
+          "key": "4",
+          "text_jp": "何のために皮のままにしたのか分からないから"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-083",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 117,
+      "knowledge_id": "reading:dokkai-medium-83",
+      "section": "中文",
+      "no": 83,
+      "passage_jp": "果物の皮を剥くことにかけては、猿は人間に負けないらしい。\nいたずら好きな見物の一人が、たまたまラッキョウ（辣韮）を投げ与えたりすると大変なことになる。まず目の早い子供の猿が一番早く見付け、ゆっくりと歩いていって、そっと手で取り、不思議そうに見る。今まで一度も見たことがないらしく、縦から横から一通り見回し、やっと安心したようで、ゆっくりと横向きに皮を剥き始める。一枚また一枚。なかなか実が出てこないので、いらいらするらしく、今度はせっせと指を動かす。やっぱり出てこない。がっかりしてうっかり手を休めているところへ、いきなり別の一匹が現れ、小さくなったラッキョウを奪い取り、さっさと逃げ出す。びっくりした前の猿が慌てて追い駆ける。たちまち他の小猿たちも飛び掛かるように一斉に後を追う。そんな騒ぎを親猿は岩場の上をのんびりと移動しながら、ちらりと眺めている。\n見物の皆さんにくれぐれもお願いします。猿が食べないものを与えないでください。",
+      "passage_source": null,
+      "stem_jp": "この観察から分かったことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "猿は物を奪い合うこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "猿は果物の皮を剥くこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "猿は小さい者を追うこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "猿はラッキョウを食べないこと"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-084",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 117,
+      "knowledge_id": "reading:dokkai-medium-84",
+      "section": "中文",
+      "no": 84,
+      "passage_jp": "果物の皮を剥くことにかけては、猿は人間に負けないらしい。\nいたずら好きな見物の一人が、たまたまラッキョウ（辣韮）を投げ与えたりすると大変なことになる。まず目の早い子供の猿が一番早く見付け、ゆっくりと歩いていって、そっと手で取り、不思議そうに見る。今まで一度も見たことがないらしく、縦から横から一通り見回し、やっと安心したようで、ゆっくりと横向きに皮を剥き始める。一枚また一枚。なかなか実が出てこないので、いらいらするらしく、今度はせっせと指を動かす。やっぱり出てこない。がっかりしてうっかり手を休めているところへ、いきなり別の一匹が現れ、小さくなったラッキョウを奪い取り、さっさと逃げ出す。びっくりした前の猿が慌てて追い駆ける。たちまち他の小猿たちも飛び掛かるように一斉に後を追う。そんな騒ぎを親猿は岩場の上をのんびりと移動しながら、ちらりと眺めている。\n見物の皆さんにくれぐれもお願いします。猿が食べないものを与えないでください。",
+      "passage_source": null,
+      "stem_jp": "筆者の感想として一番適当なのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "猿がラッキョウを食べるのを見るのはおもしろい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "猿がどんどん集まってくるのが楽しい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "親猿の子供の育て方は参考になる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "猿にラッキョウをやるのはかわいそうだ。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-085",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 119,
+      "knowledge_id": "reading:dokkai-medium-85",
+      "section": "中文",
+      "no": 85,
+      "passage_jp": "小学生のころ、知らないおばあさんに道を尋ねられました。しかし、母から「知らない人とはしゃべっちゃだめ」と言われていたので、「知りません」というのが精いっぱいでした。\n連れ去り事件が多く起きているため、母の教えは身を守るためと分かっていても、寂しそうなおばあさんの顔が忘れられません。\nそのころの私と同じくらいの年の弟は「犯罪者は、子供の方からあいさつされると、殺意が萎む」という情報を得て、一人であいさつ運動を始めました。\n登下校の時、すれ違った大人にあいさつすると、必ず返事が戻ってくるそうです。最近は「行ってらっしゃい」「今日は寒いね」といった言葉もかけてくる、とうれしそうでした。\n「声をかけても逃げる」と寂しい思いをされる大人は多いと思いますが、逃げる子どももつらいのです。安心して声をかけ合える世の中になればと思います。\n（山下千晴の文より）",
+      "passage_source": null,
+      "stem_jp": "「姉と弟」の説明として合っているものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "姉は声をかけないし、かけられたら逃げる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "弟は声をかけるが、かけられたら逃げる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "姉は声をかけるし、かけられても逃げない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "弟は声をかけないが、かけられたら逃げない。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-086",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 119,
+      "knowledge_id": "reading:dokkai-medium-86",
+      "section": "中文",
+      "no": 86,
+      "passage_jp": "小学生のころ、知らないおばあさんに道を尋ねられました。しかし、母から「知らない人とはしゃべっちゃだめ」と言われていたので、「知りません」というのが精いっぱいでした。\n連れ去り事件が多く起きているため、母の教えは身を守るためと分かっていても、寂しそうなおばあさんの顔が忘れられません。\nそのころの私と同じくらいの年の弟は「犯罪者は、子供の方からあいさつされると、殺意が萎む」という情報を得て、一人であいさつ運動を始めました。\n登下校の時、すれ違った大人にあいさつすると、必ず返事が戻ってくるそうです。最近は「行ってらっしゃい」「今日は寒いね」といった言葉もかけてくる、とうれしそうでした。\n「声をかけても逃げる」と寂しい思いをされる大人は多いと思いますが、逃げる子どももつらいのです。安心して声をかけ合える世の中になればと思います。\n（山下千晴の文より）",
+      "passage_source": null,
+      "stem_jp": "「逃げる子どももつらいのです」とあるが、どういうことを言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "「行ってらっしゃい」と言えないこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "母の教えを守ること"
+        },
+        {
+          "key": "3",
+          "text_jp": "寂しそうなおばあさんを見ること"
+        },
+        {
+          "key": "4",
+          "text_jp": "連れ去り事件が多いこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-087",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 119,
+      "knowledge_id": "reading:dokkai-medium-87",
+      "section": "中文",
+      "no": 87,
+      "passage_jp": "小学生のころ、知らないおばあさんに道を尋ねられました。しかし、母から「知らない人とはしゃべっちゃだめ」と言われていたので、「知りません」というのが精いっぱいでした。\n連れ去り事件が多く起きているため、母の教えは身を守るためと分かっていても、寂しそうなおばあさんの顔が忘れられません。\nそのころの私と同じくらいの年の弟は「犯罪者は、子供の方からあいさつされると、殺意が萎む」という情報を得て、一人であいさつ運動を始めました。\n登下校の時、すれ違った大人にあいさつすると、必ず返事が戻ってくるそうです。最近は「行ってらっしゃい」「今日は寒いね」といった言葉もかけてくる、とうれしそうでした。\n「声をかけても逃げる」と寂しい思いをされる大人は多いと思いますが、逃げる子どももつらいのです。安心して声をかけ合える世の中になればと思います。\n（山下千晴の文より）",
+      "passage_source": null,
+      "stem_jp": "この女の子はどういう世の中を願っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子供が大人にあいさつをする世の中"
+        },
+        {
+          "key": "2",
+          "text_jp": "犯罪者のいない世の中"
+        },
+        {
+          "key": "3",
+          "text_jp": "大人が子供に声をかける世の中"
+        },
+        {
+          "key": "4",
+          "text_jp": "豊かで元気のある世の中"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-088",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 121,
+      "knowledge_id": "reading:dokkai-medium-88",
+      "section": "中文",
+      "no": 88,
+      "passage_jp": "A国とB国はもう何年も激しい戦争を続けています。毎日、何十万人もの人が死んでいます。\nその日はクリスマスでした。A国軍から数名の兵士が手に白い旗とワインの瓶を持って出てきました。「おい、B国さん、一緒にクリスマスを楽しまないか」。すると、B国軍からもワインや焼肉を持って兵士が出てきます。A国の兵士もB国の兵士も地面に座り、飲んだり食べたり歌ったりしました。人の数はどんどん増えていきます。\nA国の兵士が言いました。「戦争なんかしないで、サッカーの試合をして勝ったほうを勝ちにすればいいんだ」。B国の兵士も言います。「バスケットボールなら負けないぞ」。その日、A国とB国の間でサッカーとバスケの試合が行なわれました。サッカーではA国が、バスケではB国が勝ちました。\nもちろん、その日、死んだ人は一人もいませんでした。",
+      "passage_source": null,
+      "stem_jp": "この文の中の「白旗」は何を意味しているのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "「こっちはワインを持っているぞ」"
+        },
+        {
+          "key": "2",
+          "text_jp": "「こっちは武器を持ってないぞ」"
+        },
+        {
+          "key": "3",
+          "text_jp": "「おまえたちは負けたぞ」"
+        },
+        {
+          "key": "4",
+          "text_jp": "「おれたちが負けたぞ」"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-089",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 121,
+      "knowledge_id": "reading:dokkai-medium-89",
+      "section": "中文",
+      "no": 89,
+      "passage_jp": "A国とB国はもう何年も激しい戦争を続けています。毎日、何十万人もの人が死んでいます。\nその日はクリスマスでした。A国軍から数名の兵士が手に白い旗とワインの瓶を持って出てきました。「おい、B国さん、一緒にクリスマスを楽しまないか」。すると、B国軍からもワインや焼肉を持って兵士が出てきます。A国の兵士もB国の兵士も地面に座り、飲んだり食べたり歌ったりしました。人の数はどんどん増えていきます。\nA国の兵士が言いました。「戦争なんかしないで、サッカーの試合をして勝ったほうを勝ちにすればいいんだ」。B国の兵士も言います。「バスケットボールなら負けないぞ」。その日、A国とB国の間でサッカーとバスケの試合が行なわれました。サッカーではA国が、バスケではB国が勝ちました。\nもちろん、その日、死んだ人は一人もいませんでした。",
+      "passage_source": null,
+      "stem_jp": "「戦争」についてどう言いたいのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "両国とも勝つ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "戦争に勝ち負けはない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "戦争は勝つまで続ける。"
+        },
+        {
+          "key": "4",
+          "text_jp": "戦争はたくさんだ。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-090",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 121,
+      "knowledge_id": "reading:dokkai-medium-90",
+      "section": "中文",
+      "no": 90,
+      "passage_jp": "A国とB国はもう何年も激しい戦争を続けています。毎日、何十万人もの人が死んでいます。\nその日はクリスマスでした。A国軍から数名の兵士が手に白い旗とワインの瓶を持って出てきました。「おい、B国さん、一緒にクリスマスを楽しまないか」。すると、B国軍からもワインや焼肉を持って兵士が出てきます。A国の兵士もB国の兵士も地面に座り、飲んだり食べたり歌ったりしました。人の数はどんどん増えていきます。\nA国の兵士が言いました。「戦争なんかしないで、サッカーの試合をして勝ったほうを勝ちにすればいいんだ」。B国の兵士も言います。「バスケットボールなら負けないぞ」。その日、A国とB国の間でサッカーとバスケの試合が行なわれました。サッカーではA国が、バスケではB国が勝ちました。\nもちろん、その日、死んだ人は一人もいませんでした。",
+      "passage_source": null,
+      "stem_jp": "この話では何が言いたいのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "戦争中でもクリスマスは行なった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "スポーツは戦争より楽だ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "戦争は人の手でやめられる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "仲良くするならワインだ。"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    }
+  ]
+}
