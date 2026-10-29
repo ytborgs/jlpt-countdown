@@ -62,19 +62,20 @@ assert.equal(pack.id, 'tong-hop');
 assert.equal(pack.folders.length, 6);
 assert.deepEqual(
   pack.folders.map(folder => folder.id),
-  ['chuyen-tu-vung', 'han-tu', 'nghe-hieu', 'ngu-phap', 'tu-vung', 'doc-hieu'],
+  ['chuyen', 'han-tu', 'nghe-hieu', 'ngu-phap', 'tu-vung', 'doc-hieu'],
 );
 
-const allowed = new Set(['grammar', 'star-rearrange', 'usage-quiz', 'near-synonyms']);
 const seen = [];
 for (const folder of pack.folders) {
+  assert.ok(folder.topicIds.length > 0, `empty folder ${folder.id}`);
   for (const topicId of folder.topicIds) {
     assert.ok(topicIds.has(topicId), `missing topic ${topicId}`);
-    assert.ok(allowed.has(topicId), `unexpected L1 topic ${topicId}`);
+    assert.notEqual(topicId, 'mimikara-880', 'Mimikara must stay out of tong-hop');
     seen.push(topicId);
   }
 }
-assert.deepEqual([...seen].sort(), [...allowed].sort());
+assert.equal(seen.length, new Set(seen).size, 'duplicate topicIds across folders');
+assert.ok(seen.length >= 30, `expected tong-hop to ship many topics, got ${seen.length}`);
 
 const collections = collectionsDoc.collections;
 writePackReturn('grammar', '#pack/tong-hop/ngu-phap');
