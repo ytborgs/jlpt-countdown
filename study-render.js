@@ -1,8 +1,8 @@
 /** Study DOM builders and search helpers. */
 
-import { createGrammarCard, createRubyText } from './grammar.js?v=44';
-import { topicCatalogProgress } from './study-storage.js?v=44';
-import { hasAnswer } from './study-session.js?v=44';
+import { createGrammarCard, createRubyText } from './grammar.js?v=46';
+import { topicCatalogProgress } from './study-storage.js?v=46';
+import { hasAnswer } from './study-session.js?v=46';
 
 export const el = (tag, value = '', className = '', lang) => {
   const node = document.createElement(tag);
