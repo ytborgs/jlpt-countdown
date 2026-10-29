@@ -535,5 +535,16 @@
     "path": "./study-data/so-tay-pho-tu.json",
     "group": "vocab",
     "gradable": false
+  },
+  {
+    "id": "mimikara-880",
+    "title": "Mimikara N3 — 880 từ (flashcard)",
+    "description": "Flashcard Mimikara 880 từ vựng N3 (pilot partial).",
+    "notice": "Pilot STT 1–90 / 880. PDF flashcard scanned — còn backlog.",
+    "count": 90,
+    "unit": "từ",
+    "path": "./study-data/mimikara-880.json",
+    "group": "vocab",
+    "gradable": false
   }
 ]
