@@ -7,18 +7,19 @@
   "source_path": "study-materials/115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
   "title": "Đọc hiểu N3 — trung bình (中文)",
   "page_count": 197,
-  "item_count": 72,
+  "item_count": 90,
   "expected_item_count": 90,
   "content_source": "visual_transcription",
-  "produced_at": "2026-10-28T23:54:37Z",
+  "produced_at": "2026-10-29T00:08:34Z",
   "producer": "n3-study-extractor/l3-dokkai-medium",
-  "status": "partial",
-  "needs_verify_count": 43,
+  "status": "complete",
+  "needs_verify_count": 61,
   "notes": [
     "L3 medium: schema reading_comprehension_mcq (passage_jp + stem + choices).",
     "Đáp án 中文 từ trang 188 (official_answer_key).",
-    "Progress: 72 medium-passage items (中文 1–72). Shorts continue in dokkai-n3-pilot.",
-    "PDF mapping: book_page N → source_page N+8."
+    "Progress: 90 medium-passage items (中文 1–90) — medium complete. Shorts continue in dokkai-n3-pilot.",
+    "PDF mapping: book_page N → source_page N+8.",
+    "Items 73–90: OCR corrections applied (常識的修正); needs_verify where glyph uncertain."
   ],
   "answer_key_medium_passage": {
     "1": 3,
@@ -2772,6 +2773,672 @@
         }
       ],
       "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-073",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 111,
+      "knowledge_id": "reading:dokkai-medium-73",
+      "section": "中文",
+      "no": 73,
+      "passage_jp": "先日、区内のホールで、0歳から入場できるピアノコンサートがありました。\n演奏はすばらしかったのですが、①一部の人のマナーの悪さにはがっかりしました。\n演奏中なのに、ホールに頻繁に出入りしたり、子どもの声が幾度となく響いたり。前方の男性が、曲の（注2）合間に2度も振り返って「静かにしてください」と注意したほどで、ピアニストの方には本当に気の毒でした。\n私は、この貴重な企画を子どもにマナーを教える場としてぜひ活用してほしいと思います。子どもには、演奏中は静かにするようきちんと伝えます。もしも静かにできなくなったときはすぐに退場すること。子どもは経験を重ねれば分かります。実際、当日も静かにしていた子どもは何人もいたのです。そして、親子用に出入りしやすい通路よりの席を用意するなど、主催者側にもご配慮いただきたいと思います。このすばらしい企画が、誰もが満足できる形で、長続きするよう願っています。\n（西山美佐「親子で音楽鑑賞 マナー大切」による）\n（注1）幾度となく：何回も何回も\n（注2）合間：一つのことが行なわれるまでの短い時間",
+      "passage_source": null,
+      "stem_jp": "①「一部の人のマナーの悪さ」とあるが、どういうことを指しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "ある男性が注意したこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "出入り口近くに座る人がいたこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "子どもを騒がせる親がいたこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "ピアニストが怒ったこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-074",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 111,
+      "knowledge_id": "reading:dokkai-medium-74",
+      "section": "中文",
+      "no": 74,
+      "passage_jp": "先日、区内のホールで、0歳から入場できるピアノコンサートがありました。\n演奏はすばらしかったのですが、①一部の人のマナーの悪さにはがっかりしました。\n演奏中なのに、ホールに頻繁に出入りしたり、子どもの声が幾度となく響いたり。前方の男性が、曲の（注2）合間に2度も振り返って「静かにしてください」と注意したほどで、ピアニストの方には本当に気の毒でした。\n私は、この貴重な企画を子どもにマナーを教える場としてぜひ活用してほしいと思います。子どもには、演奏中は静かにするようきちんと伝えます。もしも静かにできなくなったときはすぐに退場すること。子どもは経験を重ねれば分かります。実際、当日も静かにしていた子どもは何人もいたのです。そして、親子用に出入りしやすい通路よりの席を用意するなど、主催者側にもご配慮いただきたいと思います。このすばらしい企画が、誰もが満足できる形で、長続きするよう願っています。\n（西山美佐「親子で音楽鑑賞 マナー大切」による）\n（注1）幾度となく：何回も何回も\n（注2）合間：一つのことが行なわれるまでの短い時間",
+      "passage_source": null,
+      "stem_jp": "演奏会を子どものどういう場にしたいと筆者は言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "マナーを覚える場"
+        },
+        {
+          "key": "2",
+          "text_jp": "音楽を味わう場"
+        },
+        {
+          "key": "3",
+          "text_jp": "時間を守る習慣を付ける場"
+        },
+        {
+          "key": "4",
+          "text_jp": "親子が触れ合う場"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-075",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 111,
+      "knowledge_id": "reading:dokkai-medium-75",
+      "section": "中文",
+      "no": 75,
+      "passage_jp": "先日、区内のホールで、0歳から入場できるピアノコンサートがありました。\n演奏はすばらしかったのですが、①一部の人のマナーの悪さにはがっかりしました。\n演奏中なのに、ホールに頻繁に出入りしたり、子どもの声が幾度となく響いたり。前方の男性が、曲の（注2）合間に2度も振り返って「静かにしてください」と注意したほどで、ピアニストの方には本当に気の毒でした。\n私は、この貴重な企画を子どもにマナーを教える場としてぜひ活用してほしいと思います。子どもには、演奏中は静かにするようきちんと伝えます。もしも静かにできなくなったときはすぐに退場すること。子どもは経験を重ねれば分かります。実際、当日も静かにしていた子どもは何人もいたのです。そして、親子用に出入りしやすい通路よりの席を用意するなど、主催者側にもご配慮いただきたいと思います。このすばらしい企画が、誰もが満足できる形で、長続きするよう願っています。\n（西山美佐「親子で音楽鑑賞 マナー大切」による）\n（注1）幾度となく：何回も何回も\n（注2）合間：一つのことが行なわれるまでの短い時間",
+      "passage_source": null,
+      "stem_jp": "この人は「主催者側」に何を希望しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子どもを入れないでほしい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "「静かに」をアナウンスしてほしい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "マナーの悪い人を退場させてほしい。"
+        },
+        {
+          "key": "4",
+          "text_jp": "親子用の席を用意してほしい。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-076",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 113,
+      "knowledge_id": "reading:dokkai-medium-76",
+      "section": "中文",
+      "no": 76,
+      "passage_jp": "新学期が始まり、家の前の通学路を子供たちが楽しそうに通っていく。女の子たちの話は、小鳥のさえずりのように絶え間がない。夫も私も子供が好きだから、外に出て「行ってらっしゃい」と声をかける。\n3年前、町内会の役員をしていた時に、「①子供110番の家」を引き受けた。子供たちが通学途中に立ち寄ることはめったにないが、用件がないのは地域が安全である証拠だから喜ばしいことである。\n時たま女の子が、「トイレを貸してください」と駆け込むようにして入ってくる。夏には、「水をください」と男の子も立ち寄る。\n秋は夕暮れが早い。「おじちゃん、暗くなって怖いから家まで送って」と言うので、夫が自転車で送って行くと、②途中で迎えに来られた家族の方と会え、安心したことも。通学路の土手は、大人たちの散歩道にもなっている。\n（六車スエカの文より）",
+      "passage_source": null,
+      "stem_jp": "①「子供110番の家」はどんな所か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子どもが立ち寄る所"
+        },
+        {
+          "key": "2",
+          "text_jp": "子どもの安全を守る所"
+        },
+        {
+          "key": "3",
+          "text_jp": "子どもが集まって遊ぶ所"
+        },
+        {
+          "key": "4",
+          "text_jp": "トイレや水道を使わせる所"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-077",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 113,
+      "knowledge_id": "reading:dokkai-medium-77",
+      "section": "中文",
+      "no": 77,
+      "passage_jp": "新学期が始まり、家の前の通学路を子供たちが楽しそうに通っていく。女の子たちの話は、小鳥のさえずりのように絶え間がない。夫も私も子供が好きだから、外に出て「行ってらっしゃい」と声をかける。\n3年前、町内会の役員をしていた時に、「①子供110番の家」を引き受けた。子供たちが通学途中に立ち寄ることはめったにないが、用件がないのは地域が安全である証拠だから喜ばしいことである。\n時たま女の子が、「トイレを貸してください」と駆け込むようにして入ってくる。夏には、「水をください」と男の子も立ち寄る。\n秋は夕暮れが早い。「おじちゃん、暗くなって怖いから家まで送って」と言うので、夫が自転車で送って行くと、②途中で迎えに来られた家族の方と会え、安心したことも。通学路の土手は、大人たちの散歩道にもなっている。\n（六車スエカの文より）",
+      "passage_source": null,
+      "stem_jp": "②「途中」は何を指しているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子供たちの登校の途中"
+        },
+        {
+          "key": "2",
+          "text_jp": "この夫婦の散歩の途中"
+        },
+        {
+          "key": "3",
+          "text_jp": "子供たちの下校の途中"
+        },
+        {
+          "key": "4",
+          "text_jp": "この夫婦の町内会行きの途中"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-078",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 113,
+      "knowledge_id": "reading:dokkai-medium-78",
+      "section": "中文",
+      "no": 78,
+      "passage_jp": "新学期が始まり、家の前の通学路を子供たちが楽しそうに通っていく。女の子たちの話は、小鳥のさえずりのように絶え間がない。夫も私も子供が好きだから、外に出て「行ってらっしゃい」と声をかける。\n3年前、町内会の役員をしていた時に、「①子供110番の家」を引き受けた。子供たちが通学途中に立ち寄ることはめったにないが、用件がないのは地域が安全である証拠だから喜ばしいことである。\n時たま女の子が、「トイレを貸してください」と駆け込むようにして入ってくる。夏には、「水をください」と男の子も立ち寄る。\n秋は夕暮れが早い。「おじちゃん、暗くなって怖いから家まで送って」と言うので、夫が自転車で送って行くと、②途中で迎えに来られた家族の方と会え、安心したことも。通学路の土手は、大人たちの散歩道にもなっている。\n（六車スエカの文より）",
+      "passage_source": null,
+      "stem_jp": "この夫婦はどんなことをする人か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "通学路を通る子どもたちにあいさつをする。"
+        },
+        {
+          "key": "2",
+          "text_jp": "「子供110番の家」を引き受けたけど、大変だ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "毎日散歩しながら、子供たちを眺めている。"
+        },
+        {
+          "key": "4",
+          "text_jp": "「子供の110番の家」を順番なので、引き受けた。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-079",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 115,
+      "knowledge_id": "reading:dokkai-medium-79",
+      "section": "中文",
+      "no": 79,
+      "passage_jp": "私が中学1年の時の①英語の教師は、（注）社会科担当なのに英語も受け持ち、熱意はまったく感じられなかった。\n発音に自信がないので授業の声は小さく、発音指導もなかった。宿題も単語100回ずつ書くといったものばかりだった。2年生で英語専門の教師に変わり、授業内容の差に驚いた。\n私たちは、発音記号も読めず文法も分からず、しばらく授業に付いていけなかった。それ以来、苦手意識が生まれてしまい、受験は暗記で乗り越えたが、「聞く」「話す」といったコミュニケーションについては今も劣等感がある。\n現在、自信を持って英語を教えられる小学校教師はどれぐらいいるのだろうか。自信のない教師に教えられても子供は伸びないだろう。教師の質が確保できないなら、②必修にはしないでほしい。5年後、わが子が小学生になるころはどうなっているのだろうか。どうか③私たちの経験した教育だけはしてほしくない。\n（石井浩子の文より、一部改）\n（注）社会科：授業コースの一つで、人文地理や歴史などを教える学科",
+      "passage_source": null,
+      "stem_jp": "①「英語の教師」についての説明に合っているのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "社会科の担当だったが、大きな声で教えた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "文法を中心にして熱心に生徒に教えた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "宿題だけで授業では何も教えなかった。"
+        },
+        {
+          "key": "4",
+          "text_jp": "発音指導はしなかったが、単語は教えた。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-080",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 115,
+      "knowledge_id": "reading:dokkai-medium-80",
+      "section": "中文",
+      "no": 80,
+      "passage_jp": "私が中学1年の時の①英語の教師は、（注）社会科担当なのに英語も受け持ち、熱意はまったく感じられなかった。\n発音に自信がないので授業の声は小さく、発音指導もなかった。宿題も単語100回ずつ書くといったものばかりだった。2年生で英語専門の教師に変わり、授業内容の差に驚いた。\n私たちは、発音記号も読めず文法も分からず、しばらく授業に付いていけなかった。それ以来、苦手意識が生まれてしまい、受験は暗記で乗り越えたが、「聞く」「話す」といったコミュニケーションについては今も劣等感がある。\n現在、自信を持って英語を教えられる小学校教師はどれぐらいいるのだろうか。自信のない教師に教えられても子供は伸びないだろう。教師の質が確保できないなら、②必修にはしないでほしい。5年後、わが子が小学生になるころはどうなっているのだろうか。どうか③私たちの経験した教育だけはしてほしくない。\n（石井浩子の文より、一部改）\n（注）社会科：授業コースの一つで、人文地理や歴史などを教える学科",
+      "passage_source": null,
+      "stem_jp": "②「必修にはしないでほしい」と言っている理由は何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "教師の質が下がっているから"
+        },
+        {
+          "key": "2",
+          "text_jp": "小学生には早すぎるから"
+        },
+        {
+          "key": "3",
+          "text_jp": "「聞く」「話す」を教えないから"
+        },
+        {
+          "key": "4",
+          "text_jp": "苦手意識が自然に生じるから"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-081",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 115,
+      "knowledge_id": "reading:dokkai-medium-81",
+      "section": "中文",
+      "no": 81,
+      "passage_jp": "私が中学1年の時の①英語の教師は、（注）社会科担当なのに英語も受け持ち、熱意はまったく感じられなかった。\n発音に自信がないので授業の声は小さく、発音指導もなかった。宿題も単語100回ずつ書くといったものばかりだった。2年生で英語専門の教師に変わり、授業内容の差に驚いた。\n私たちは、発音記号も読めず文法も分からず、しばらく授業に付いていけなかった。それ以来、苦手意識が生まれてしまい、受験は暗記で乗り越えたが、「聞く」「話す」といったコミュニケーションについては今も劣等感がある。\n現在、自信を持って英語を教えられる小学校教師はどれぐらいいるのだろうか。自信のない教師に教えられても子供は伸びないだろう。教師の質が確保できないなら、②必修にはしないでほしい。5年後、わが子が小学生になるころはどうなっているのだろうか。どうか③私たちの経験した教育だけはしてほしくない。\n（石井浩子の文より、一部改）\n（注）社会科：授業コースの一つで、人文地理や歴史などを教える学科",
+      "passage_source": null,
+      "stem_jp": "③「私たちの経験した教育」はどういう教育だったか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "英語専門の教師に教えられた。"
+        },
+        {
+          "key": "2",
+          "text_jp": "自信のない教師に英語を教えられた。"
+        },
+        {
+          "key": "3",
+          "text_jp": "子供を伸ばす英語教師に教えられた。"
+        },
+        {
+          "key": "4",
+          "text_jp": "発音記号が読めない教師に英語を教えられた。"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-082",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 117,
+      "knowledge_id": "reading:dokkai-medium-82",
+      "section": "中文",
+      "no": 82,
+      "passage_jp": "果物の皮を剥くことにかけては、猿は人間に負けないらしい。\nいたずら好きな見物の一人が、たまたまラッキョウ（辣韮）を投げ与えたりすると大変なことになる。まず目の早い子供の猿が一番早く見付け、ゆっくりと歩いていって、そっと手で取り、不思議そうに見る。今まで一度も見たことがないらしく、縦から横から一通り見回し、やっと安心したようで、ゆっくりと横向きに皮を剥き始める。一枚また一枚。なかなか実が出てこないので、いらいらするらしく、今度はせっせと指を動かす。やっぱり出てこない。がっかりしてうっかり手を休めているところへ、いきなり別の一匹が現れ、小さくなったラッキョウを奪い取り、さっさと逃げ出す。びっくりした前の猿が慌てて追い駆ける。たちまち他の小猿たちも飛び掛かるように一斉に後を追う。そんな騒ぎを親猿は岩場の上をのんびりと移動しながら、ちらりと眺めている。\n見物の皆さんにくれぐれもお願いします。猿が食べないものを与えないでください。",
+      "passage_source": null,
+      "stem_jp": "「不思議そうに見る」とあるが、どうしてか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "なぜ与えてくれるか分からないから"
+        },
+        {
+          "key": "2",
+          "text_jp": "何を与えてくれたか分からないから"
+        },
+        {
+          "key": "3",
+          "text_jp": "どのように皮を剥くか分からないから"
+        },
+        {
+          "key": "4",
+          "text_jp": "何のために皮のままにしたのか分からないから"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-083",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 117,
+      "knowledge_id": "reading:dokkai-medium-83",
+      "section": "中文",
+      "no": 83,
+      "passage_jp": "果物の皮を剥くことにかけては、猿は人間に負けないらしい。\nいたずら好きな見物の一人が、たまたまラッキョウ（辣韮）を投げ与えたりすると大変なことになる。まず目の早い子供の猿が一番早く見付け、ゆっくりと歩いていって、そっと手で取り、不思議そうに見る。今まで一度も見たことがないらしく、縦から横から一通り見回し、やっと安心したようで、ゆっくりと横向きに皮を剥き始める。一枚また一枚。なかなか実が出てこないので、いらいらするらしく、今度はせっせと指を動かす。やっぱり出てこない。がっかりしてうっかり手を休めているところへ、いきなり別の一匹が現れ、小さくなったラッキョウを奪い取り、さっさと逃げ出す。びっくりした前の猿が慌てて追い駆ける。たちまち他の小猿たちも飛び掛かるように一斉に後を追う。そんな騒ぎを親猿は岩場の上をのんびりと移動しながら、ちらりと眺めている。\n見物の皆さんにくれぐれもお願いします。猿が食べないものを与えないでください。",
+      "passage_source": null,
+      "stem_jp": "この観察から分かったことは何か。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "猿は物を奪い合うこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "猿は果物の皮を剥くこと"
+        },
+        {
+          "key": "3",
+          "text_jp": "猿は小さい者を追うこと"
+        },
+        {
+          "key": "4",
+          "text_jp": "猿はラッキョウを食べないこと"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-084",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 117,
+      "knowledge_id": "reading:dokkai-medium-84",
+      "section": "中文",
+      "no": 84,
+      "passage_jp": "果物の皮を剥くことにかけては、猿は人間に負けないらしい。\nいたずら好きな見物の一人が、たまたまラッキョウ（辣韮）を投げ与えたりすると大変なことになる。まず目の早い子供の猿が一番早く見付け、ゆっくりと歩いていって、そっと手で取り、不思議そうに見る。今まで一度も見たことがないらしく、縦から横から一通り見回し、やっと安心したようで、ゆっくりと横向きに皮を剥き始める。一枚また一枚。なかなか実が出てこないので、いらいらするらしく、今度はせっせと指を動かす。やっぱり出てこない。がっかりしてうっかり手を休めているところへ、いきなり別の一匹が現れ、小さくなったラッキョウを奪い取り、さっさと逃げ出す。びっくりした前の猿が慌てて追い駆ける。たちまち他の小猿たちも飛び掛かるように一斉に後を追う。そんな騒ぎを親猿は岩場の上をのんびりと移動しながら、ちらりと眺めている。\n見物の皆さんにくれぐれもお願いします。猿が食べないものを与えないでください。",
+      "passage_source": null,
+      "stem_jp": "筆者の感想として一番適当なのはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "猿がラッキョウを食べるのを見るのはおもしろい。"
+        },
+        {
+          "key": "2",
+          "text_jp": "猿がどんどん集まってくるのが楽しい。"
+        },
+        {
+          "key": "3",
+          "text_jp": "親猿の子供の育て方は参考になる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "猿にラッキョウをやるのはかわいそうだ。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-085",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 119,
+      "knowledge_id": "reading:dokkai-medium-85",
+      "section": "中文",
+      "no": 85,
+      "passage_jp": "小学生のころ、知らないおばあさんに道を尋ねられました。しかし、母から「知らない人とはしゃべっちゃだめ」と言われていたので、「知りません」というのが精いっぱいでした。\n連れ去り事件が多く起きているため、母の教えは身を守るためと分かっていても、寂しそうなおばあさんの顔が忘れられません。\nそのころの私と同じくらいの年の弟は「犯罪者は、子供の方からあいさつされると、殺意が萎む」という情報を得て、一人であいさつ運動を始めました。\n登下校の時、すれ違った大人にあいさつすると、必ず返事が戻ってくるそうです。最近は「行ってらっしゃい」「今日は寒いね」といった言葉もかけてくる、とうれしそうでした。\n「声をかけても逃げる」と寂しい思いをされる大人は多いと思いますが、逃げる子どももつらいのです。安心して声をかけ合える世の中になればと思います。\n（山下千晴の文より）",
+      "passage_source": null,
+      "stem_jp": "「姉と弟」の説明として合っているものはどれか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "姉は声をかけないし、かけられたら逃げる。"
+        },
+        {
+          "key": "2",
+          "text_jp": "弟は声をかけるが、かけられたら逃げる。"
+        },
+        {
+          "key": "3",
+          "text_jp": "姉は声をかけるし、かけられても逃げない。"
+        },
+        {
+          "key": "4",
+          "text_jp": "弟は声をかけないが、かけられたら逃げない。"
+        }
+      ],
+      "correct_answer": "1",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-086",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 119,
+      "knowledge_id": "reading:dokkai-medium-86",
+      "section": "中文",
+      "no": 86,
+      "passage_jp": "小学生のころ、知らないおばあさんに道を尋ねられました。しかし、母から「知らない人とはしゃべっちゃだめ」と言われていたので、「知りません」というのが精いっぱいでした。\n連れ去り事件が多く起きているため、母の教えは身を守るためと分かっていても、寂しそうなおばあさんの顔が忘れられません。\nそのころの私と同じくらいの年の弟は「犯罪者は、子供の方からあいさつされると、殺意が萎む」という情報を得て、一人であいさつ運動を始めました。\n登下校の時、すれ違った大人にあいさつすると、必ず返事が戻ってくるそうです。最近は「行ってらっしゃい」「今日は寒いね」といった言葉もかけてくる、とうれしそうでした。\n「声をかけても逃げる」と寂しい思いをされる大人は多いと思いますが、逃げる子どももつらいのです。安心して声をかけ合える世の中になればと思います。\n（山下千晴の文より）",
+      "passage_source": null,
+      "stem_jp": "「逃げる子どももつらいのです」とあるが、どういうことを言っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "「行ってらっしゃい」と言えないこと"
+        },
+        {
+          "key": "2",
+          "text_jp": "母の教えを守ること"
+        },
+        {
+          "key": "3",
+          "text_jp": "寂しそうなおばあさんを見ること"
+        },
+        {
+          "key": "4",
+          "text_jp": "連れ去り事件が多いこと"
+        }
+      ],
+      "correct_answer": "3",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-087",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 119,
+      "knowledge_id": "reading:dokkai-medium-87",
+      "section": "中文",
+      "no": 87,
+      "passage_jp": "小学生のころ、知らないおばあさんに道を尋ねられました。しかし、母から「知らない人とはしゃべっちゃだめ」と言われていたので、「知りません」というのが精いっぱいでした。\n連れ去り事件が多く起きているため、母の教えは身を守るためと分かっていても、寂しそうなおばあさんの顔が忘れられません。\nそのころの私と同じくらいの年の弟は「犯罪者は、子供の方からあいさつされると、殺意が萎む」という情報を得て、一人であいさつ運動を始めました。\n登下校の時、すれ違った大人にあいさつすると、必ず返事が戻ってくるそうです。最近は「行ってらっしゃい」「今日は寒いね」といった言葉もかけてくる、とうれしそうでした。\n「声をかけても逃げる」と寂しい思いをされる大人は多いと思いますが、逃げる子どももつらいのです。安心して声をかけ合える世の中になればと思います。\n（山下千晴の文より）",
+      "passage_source": null,
+      "stem_jp": "この女の子はどういう世の中を願っているか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "子供が大人にあいさつをする世の中"
+        },
+        {
+          "key": "2",
+          "text_jp": "犯罪者のいない世の中"
+        },
+        {
+          "key": "3",
+          "text_jp": "大人が子供に声をかける世の中"
+        },
+        {
+          "key": "4",
+          "text_jp": "豊かで元気のある世の中"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-088",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 121,
+      "knowledge_id": "reading:dokkai-medium-88",
+      "section": "中文",
+      "no": 88,
+      "passage_jp": "A国とB国はもう何年も激しい戦争を続けています。毎日、何十万人もの人が死んでいます。\nその日はクリスマスでした。A国軍から数名の兵士が手に白い旗とワインの瓶を持って出てきました。「おい、B国さん、一緒にクリスマスを楽しまないか」。すると、B国軍からもワインや焼肉を持って兵士が出てきます。A国の兵士もB国の兵士も地面に座り、飲んだり食べたり歌ったりしました。人の数はどんどん増えていきます。\nA国の兵士が言いました。「戦争なんかしないで、サッカーの試合をして勝ったほうを勝ちにすればいいんだ」。B国の兵士も言います。「バスケットボールなら負けないぞ」。その日、A国とB国の間でサッカーとバスケの試合が行なわれました。サッカーではA国が、バスケではB国が勝ちました。\nもちろん、その日、死んだ人は一人もいませんでした。",
+      "passage_source": null,
+      "stem_jp": "この文の中の「白旗」は何を意味しているのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "「こっちはワインを持っているぞ」"
+        },
+        {
+          "key": "2",
+          "text_jp": "「こっちは武器を持ってないぞ」"
+        },
+        {
+          "key": "3",
+          "text_jp": "「おまえたちは負けたぞ」"
+        },
+        {
+          "key": "4",
+          "text_jp": "「おれたちが負けたぞ」"
+        }
+      ],
+      "correct_answer": "2",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-089",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 121,
+      "knowledge_id": "reading:dokkai-medium-89",
+      "section": "中文",
+      "no": 89,
+      "passage_jp": "A国とB国はもう何年も激しい戦争を続けています。毎日、何十万人もの人が死んでいます。\nその日はクリスマスでした。A国軍から数名の兵士が手に白い旗とワインの瓶を持って出てきました。「おい、B国さん、一緒にクリスマスを楽しまないか」。すると、B国軍からもワインや焼肉を持って兵士が出てきます。A国の兵士もB国の兵士も地面に座り、飲んだり食べたり歌ったりしました。人の数はどんどん増えていきます。\nA国の兵士が言いました。「戦争なんかしないで、サッカーの試合をして勝ったほうを勝ちにすればいいんだ」。B国の兵士も言います。「バスケットボールなら負けないぞ」。その日、A国とB国の間でサッカーとバスケの試合が行なわれました。サッカーではA国が、バスケではB国が勝ちました。\nもちろん、その日、死んだ人は一人もいませんでした。",
+      "passage_source": null,
+      "stem_jp": "「戦争」についてどう言いたいのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "両国とも勝つ。"
+        },
+        {
+          "key": "2",
+          "text_jp": "戦争に勝ち負けはない。"
+        },
+        {
+          "key": "3",
+          "text_jp": "戦争は勝つまで続ける。"
+        },
+        {
+          "key": "4",
+          "text_jp": "戦争はたくさんだ。"
+        }
+      ],
+      "correct_answer": "4",
+      "answer_source": "official_answer_key",
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "ai_extra": null
+    },
+    {
+      "id": "dokkai-medium-090",
+      "type": "practice",
+      "subtype": "reading_comprehension_mcq",
+      "level": "N3",
+      "source_file": "115 Bài Đọc Hiểu N3 日本语能力考试N3-读解.pdf",
+      "source_page": 121,
+      "knowledge_id": "reading:dokkai-medium-90",
+      "section": "中文",
+      "no": 90,
+      "passage_jp": "A国とB国はもう何年も激しい戦争を続けています。毎日、何十万人もの人が死んでいます。\nその日はクリスマスでした。A国軍から数名の兵士が手に白い旗とワインの瓶を持って出てきました。「おい、B国さん、一緒にクリスマスを楽しまないか」。すると、B国軍からもワインや焼肉を持って兵士が出てきます。A国の兵士もB国の兵士も地面に座り、飲んだり食べたり歌ったりしました。人の数はどんどん増えていきます。\nA国の兵士が言いました。「戦争なんかしないで、サッカーの試合をして勝ったほうを勝ちにすればいいんだ」。B国の兵士も言います。「バスケットボールなら負けないぞ」。その日、A国とB国の間でサッカーとバスケの試合が行なわれました。サッカーではA国が、バスケではB国が勝ちました。\nもちろん、その日、死んだ人は一人もいませんでした。",
+      "passage_source": null,
+      "stem_jp": "この話では何が言いたいのか。",
+      "choices": [
+        {
+          "key": "1",
+          "text_jp": "戦争中でもクリスマスは行なった。"
+        },
+        {
+          "key": "2",
+          "text_jp": "スポーツは戦争より楽だ。"
+        },
+        {
+          "key": "3",
+          "text_jp": "戦争は人の手でやめられる。"
+        },
+        {
+          "key": "4",
+          "text_jp": "仲良くするならワインだ。"
+        }
+      ],
+      "correct_answer": "3",
       "answer_source": "official_answer_key",
       "content_source": "visual_transcription",
       "needs_verify": true,

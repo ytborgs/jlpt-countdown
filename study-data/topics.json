@@ -484,9 +484,9 @@
   {
     "id": "dokkai-n3-medium",
     "title": "Đọc hiểu N3 (trung bình)",
-    "description": "Bài đọc hiểu 中文 (~350 chữ) kèm đáp án — đang bổ sung từ sách 115 bài.",
-    "notice": "Bản partial; mục tiêu 90 câu 中文.",
-    "count": 72,
+    "description": "Bài đọc hiểu 中文 (~350 chữ) kèm đáp án — đủ 90 câu.",
+    "notice": "Bản đủ 90 câu 中文 (medium complete).",
+    "count": 90,
     "unit": "câu",
     "path": "./study-data/dokkai-n3-medium.json",
     "group": "practice",
