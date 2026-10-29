@@ -439,10 +439,10 @@
   },
   {
     "id": "grammar-theo-chu-de",
-    "title": "NP N3 theo chủ đề (pilot)",
-    "description": "Pilot visual: 24 mẫu (せい、おかげ、きっかけ、まま、つつある…); đủ sách ~120.",
+    "title": "NP N3 theo chủ đề (partial)",
+    "description": "Visual: 48 mẫu (せい…がる); đủ sách ~120.",
     "notice": "Scan 100 trang — partial visual_transcription; nhiều mục needs_verify.",
-    "count": 24,
+    "count": 48,
     "unit": "mẫu",
     "path": "./study-data/grammar-theo-chu-de.json",
     "group": "grammar",

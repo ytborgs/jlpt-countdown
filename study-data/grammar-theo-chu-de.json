@@ -5,19 +5,20 @@
   "level": "N3",
   "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
   "source_path": "study-materials/TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
-  "title": "Tổng hợp NP N3 theo chủ đề (có giải thích) — pilot",
+  "title": "Tổng hợp NP N3 theo chủ đề (có giải thích) — partial",
   "page_count": 100,
-  "item_count": 24,
+  "item_count": 48,
   "expected_item_count": 120,
   "content_source": "visual_transcription",
-  "produced_at": "2026-10-28T23:29:33+00:00",
-  "producer": "cursor-agent/visual-transcription:grammar-theo-chu-de-pilot",
+  "produced_at": "2026-10-29T01:42:59+00:00",
+  "producer": "cursor-agent/visual-transcription:grammar-theo-chu-de-chunk2",
   "status": "partial",
-  "needs_verify_count": 14,
+  "needs_verify_count": 19,
   "notes": [
     "PDF scan 100 trang, text layer trống → visual_transcription.",
-    "Pilot: 24 mẫu (số 01–24) từ ~trang 1–18; bỏ trang bài tập Mondai.",
-    "expected_item_count=120 ước lượng từ nhịp đánh số mẫu (01–27/~22 trang PDF).",
+    "Chunk: 48 mẫu (số 01–48); bỏ trang bài tập Mondai.",
+    "Pages covered (explanation): [1, 2, 3, 4, 8, 9, 10, 11, 15, 16, 17, 18, 22, 23, 24, 25, 31, 32, 33, 34, 35, 39].",
+    "expected_item_count=120 ước lượng từ nhịp đánh số mẫu.",
     "Render cache: $HOME/Library/Caches/n3-study/l2-grammar-theo-chu-de/",
     "Branding nguồn đã loại khỏi item; source_path anonymized study-materials/."
   ],
@@ -1097,6 +1098,1110 @@
       "verify_reason": "OCR ví dụ ②③ lệch; đã chỉnh theo VI.",
       "ai_extra": null,
       "note": "Pilot visual từ trang PDF 18 (chủ đề 立場・基準)."
+    },
+    {
+      "id": "grammar-theo-chu-de-25",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 18,
+      "theme": "立場・基準",
+      "knowledge_id": "grammar:e7790652e1",
+      "pattern": "～に関して",
+      "meaning": "〜について",
+      "meaning_vi": "Liên quan đến… / về…",
+      "structure": "N＋に関して；N1＋に関する／に関しての＋N2",
+      "usage": "Nói về chủ đề/liên quan (hơi trang trọng hơn ～について).",
+      "example_jp": "アフリカに行った目的は、文化に関する研究をするためだった。",
+      "example_vi": "Mục đích đến châu Phi là để nghiên cứu liên quan đến văn hóa.",
+      "examples": [
+        {
+          "jp": "アフリカに行った目的は、文化に関する研究をするためだった。",
+          "vi": "Mục đích đến châu Phi là để nghiên cứu liên quan đến văn hóa."
+        },
+        {
+          "jp": "その場にいた人から、事件に関しての話を聞き出した。",
+          "vi": "Tôi đã nghe câu chuyện liên quan đến sự việc từ những người có mặt."
+        },
+        {
+          "jp": "植物に関して、父はかなり詳しい。",
+          "vi": "Bố tôi biết khá rõ về thực vật."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～に関して"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "アフリカに行った目的は、文化に関する研究をするためだった。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 18 (chủ đề 立場・基準)."
+    },
+    {
+      "id": "grammar-theo-chu-de-26",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 22,
+      "theme": "逆接・否定",
+      "knowledge_id": "grammar:51fb970718",
+      "pattern": "～わけではない",
+      "meaning": "はっきり〜とは言えない",
+      "meaning_vi": "Không phải là… (không khẳng định tuyệt đối)",
+      "structure": "普通形（ナAだ→な／Nだ→な）＋わけではない／わけじゃない",
+      "usage": "Phủ định một phần / làm dịu khẳng định.",
+      "example_jp": "すしは嫌いなわけではないんですが、好きでもないです。",
+      "example_vi": "Không phải tôi ghét sushi nhưng cũng không đến mức thích.",
+      "examples": [
+        {
+          "jp": "すしは嫌いなわけではないんですが、好きでもないです。",
+          "vi": "Không phải tôi ghét sushi nhưng cũng không đến mức thích."
+        },
+        {
+          "jp": "彼はいつも明るいけど、悩みがないわけじゃないと思うよ。",
+          "vi": "Anh ấy lúc nào cũng vui vẻ nhưng tôi nghĩ không phải là không có ưu phiền."
+        },
+        {
+          "jp": "行けないわけではないんですが、到着がぎりぎりになると思います。",
+          "vi": "Không phải là tôi không thể đi nhưng nghĩ sẽ đến sát giờ."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～わけではない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "すしは嫌いなわけではないんですが、好きでもないです。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 22 (chủ đề 逆接・否定)."
+    },
+    {
+      "id": "grammar-theo-chu-de-27",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 22,
+      "theme": "逆接・否定",
+      "knowledge_id": "grammar:28a1390897",
+      "pattern": "～ながら（も）",
+      "meaning": "〜けれども",
+      "meaning_vi": "Thế nhưng… / dù…",
+      "structure": "Vます／イA／ナA／N＋ながら（も）；ナA／N＋でありながら（も）",
+      "usage": "Nghịch tiếp (khác ～ながら = vừa… vừa…). ★しかしながら",
+      "example_jp": "残念ながら、田中商店は来月末でお店を閉めることにしました。",
+      "example_vi": "Tiếc nuối nhưng cửa hàng Tanaka quyết định đóng cửa cuối tháng tới.",
+      "examples": [
+        {
+          "jp": "残念ながら、田中商店は来月末でお店を閉めることにしました。",
+          "vi": "Tiếc nuối nhưng cửa hàng Tanaka quyết định đóng cửa cuối tháng tới."
+        },
+        {
+          "jp": "赤ちゃんは、小さな体でありながらも一生懸命生きている。",
+          "vi": "Em bé dù thân thể nhỏ bé vẫn cố gắng sống."
+        },
+        {
+          "jp": "恥ずかしくないと言いながら、彼の顔は真っ赤になっていた。",
+          "vi": "Nói là không xấu hổ nhưng mặt anh ấy đỏ bừng."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ながら（も）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "残念ながら、田中商店は来月末でお店を閉めることにしました。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Phân biệt nghĩa nghịch tiếp vs đồng thời; ví dụ ③ OCR từng lệch — đã đối ảnh p22.",
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 22 (chủ đề 逆接・否定)."
+    },
+    {
+      "id": "grammar-theo-chu-de-28",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 23,
+      "theme": "逆接・否定",
+      "knowledge_id": "grammar:aedebe3f4d",
+      "pattern": "～かわりに①",
+      "meaning": "〜はいいところと、悪いところがある",
+      "meaning_vi": "Đổi lại / bù lại… (có mặt tốt–mặt xấu)",
+      "structure": "普通形（ナAだ→な・である）＋かわりに；★そのかわりに（※Nは使えない）",
+      "usage": "Đổi lấy / thay vào đó; nhấn mạnh trade-off.",
+      "example_jp": "この薬は、効果があるかわりにとても苦いです。",
+      "example_vi": "Thuốc này có hiệu quả nhưng đổi lại rất đắng.",
+      "examples": [
+        {
+          "jp": "この薬は、効果があるかわりにとても苦いです。",
+          "vi": "Thuốc này có hiệu quả nhưng đổi lại rất đắng."
+        },
+        {
+          "jp": "明日は仕事を休んでもいいですよ。そのかわりに、来週の土曜日は出勤してください。",
+          "vi": "Ngày mai nghỉ làm cũng được. Thay vào đó hãy đi làm thứ Bảy tuần sau."
+        },
+        {
+          "jp": "明日はいつもより早く出勤するかわりに、早く帰れることになった。",
+          "vi": "Ngày mai đi làm sớm hơn thường thì được về sớm."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～かわりに①"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "この薬は、効果があるかわりにとても苦いです。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 23 (chủ đề 逆接・否定)."
+    },
+    {
+      "id": "grammar-theo-chu-de-29",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 23,
+      "theme": "逆接・否定",
+      "knowledge_id": "grammar:4cba1a1aeb",
+      "pattern": "～反面",
+      "meaning": "〜なところがあるが、反対に…",
+      "meaning_vi": "Mặt khác…",
+      "structure": "普通形（ナAだ→な・である／Nだ→の・である）＋反面",
+      "usage": "Hai mặt đối lập của cùng một sự việc.",
+      "example_jp": "日本では、都会に住む若者が増えている反面、地方に住む若者は減っている。",
+      "example_vi": "Ở Nhật, người trẻ sống ở thành phố tăng, mặt khác ở địa phương lại giảm.",
+      "examples": [
+        {
+          "jp": "日本では、都会に住む若者が増えている反面、地方に住む若者は減っている。",
+          "vi": "Ở Nhật, người trẻ sống ở thành phố tăng, mặt khác ở địa phương lại giảm."
+        },
+        {
+          "jp": "今の仕事は忙しくて大変である反面、人のためになるいい仕事だと思う。",
+          "vi": "Công việc hiện tại bận và vất vả, mặt khác tôi nghĩ là việc tốt giúp người khác."
+        },
+        {
+          "jp": "この家は広い反面、掃除するのが大変だ。",
+          "vi": "Nhà này rộng nhưng mặt khác dọn dẹp rất vất vả."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～反面"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "日本では、都会に住む若者が増えている反面、地方に住む若者は減っている。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 23 (chủ đề 逆接・否定)."
+    },
+    {
+      "id": "grammar-theo-chu-de-30",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 24,
+      "theme": "逆接・否定",
+      "knowledge_id": "grammar:1f8f1cce92",
+      "pattern": "～ようがない",
+      "meaning": "〜する方法がない",
+      "meaning_vi": "Không có cách nào… / không thể…",
+      "structure": "Vます＋ようがない",
+      "usage": "Không còn phương pháp/khả năng thực hiện.",
+      "example_jp": "携帯電話を水でぬらしてしまったら、もう直しようがない。",
+      "example_vi": "Điện thoại bị ướt nước rồi thì không còn cách sửa.",
+      "examples": [
+        {
+          "jp": "携帯電話を水でぬらしてしまったら、もう直しようがない。",
+          "vi": "Điện thoại bị ướt nước rồi thì không còn cách sửa."
+        },
+        {
+          "jp": "こんなに点数を入れられてしまっては、相手に勝ちようがない。",
+          "vi": "Bị ghi bàn nhiều thế này thì không có cách thắng đối thủ."
+        },
+        {
+          "jp": "何度教えても仕事を覚えないので、もう教えようがない。",
+          "vi": "Dạy bao nhiêu lần cũng không nhớ việc nên không còn cách dạy."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ようがない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "携帯電話を水でぬらしてしまったら、もう直しようがない。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 24 (chủ đề 逆接・否定)."
+    },
+    {
+      "id": "grammar-theo-chu-de-31",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 24,
+      "theme": "逆接・否定",
+      "knowledge_id": "grammar:bdb1c4b5ce",
+      "pattern": "～がたい",
+      "meaning": "〜するのが難しい",
+      "meaning_vi": "Khó… (khó làm / khó chấp nhận)",
+      "structure": "Vます＋がたい",
+      "usage": "Khó về cảm xúc/nhận thức (tin, quên, tha thứ…).",
+      "example_jp": "あの優しい先生が大きな声で怒るなんて、信じがたい話だ。",
+      "example_vi": "Thầy hiền thế mà lớn tiếng giận — chuyện khó tin.",
+      "examples": [
+        {
+          "jp": "あの優しい先生が大きな声で怒るなんて、信じがたい話だ。",
+          "vi": "Thầy hiền thế mà lớn tiếng giận — chuyện khó tin."
+        },
+        {
+          "jp": "受け入れがたい悲しいニュースが流れていた。",
+          "vi": "Tin buồn khó chấp nhận đang lan truyền."
+        },
+        {
+          "jp": "私にとって、うそをつかれることは許しがたいことである。",
+          "vi": "Với tôi, bị nói dối là điều khó tha thứ."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～がたい"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "あの優しい先生が大きな声で怒るなんて、信じがたい話だ。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 24 (chủ đề 逆接・否定)."
+    },
+    {
+      "id": "grammar-theo-chu-de-32",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 24,
+      "theme": "逆接・否定",
+      "knowledge_id": "grammar:ee18f7a668",
+      "pattern": "～ずに",
+      "meaning": "〜しないで",
+      "meaning_vi": "Không… mà / mà không làm…",
+      "structure": "Vない＋ず（に）；※しない→せず（に）",
+      "usage": "Phủ định dạng văn viết hơn ～ないで.",
+      "example_jp": "財布を持たずに家を出てしまったので、急いで家に戻った。",
+      "example_vi": "Ra khỏi nhà không mang ví nên vội quay về.",
+      "examples": [
+        {
+          "jp": "財布を持たずに家を出てしまったので、急いで家に戻った。",
+          "vi": "Ra khỏi nhà không mang ví nên vội quay về."
+        },
+        {
+          "jp": "体調が悪いのであれば、今日は無理せず帰ってください。",
+          "vi": "Nếu sức khỏe kém thì hôm nay đừng cố, hãy về."
+        },
+        {
+          "jp": "旅行の前日に何も準備をせずに寝てしまい、集合時間に遅刻した。",
+          "vi": "Đêm trước chuyến đi ngủ mà không chuẩn bị gì nên đến muộn giờ tập trung."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ずに"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "財布を持たずに家を出てしまったので、急いで家に戻った。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 24 (chủ đề 逆接・否定)."
+    },
+    {
+      "id": "grammar-theo-chu-de-33",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 25,
+      "theme": "逆接・否定",
+      "knowledge_id": "grammar:40606990fd",
+      "pattern": "～はずがない／～わけがない",
+      "meaning": "絶対に～ない（はっきりとはわからないけど、そう信じている）",
+      "meaning_vi": "Chắc chắn không…",
+      "structure": "普通形（ナAだ→な・である／Nだ→の・である）＋はずがない／わけがない",
+      "usage": "Phủ định mạnh dựa trên niềm tin/lý lẽ.",
+      "example_jp": "いつも正直な彼女が、うそをつくわけがない。",
+      "example_vi": "Cô ấy lúc nào cũng thành thật thì chắc chắn không nói dối.",
+      "examples": [
+        {
+          "jp": "いつも正直な彼女が、うそをつくわけがない。",
+          "vi": "Cô ấy lúc nào cũng thành thật thì chắc chắn không nói dối."
+        },
+        {
+          "jp": "遊んでばかりいる弟が、東京大学に受かるはずがない。",
+          "vi": "Em trai suốt ngày chơi chắc chắn không đỗ Đại học Tokyo."
+        },
+        {
+          "jp": "あんなにたくさん勉強したんだ。試験に落ちるわけがない。",
+          "vi": "Đã học nhiều thế. Chắc chắn không trượt kỳ thi đâu."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～はずがない／～わけがない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "いつも正直な彼女が、うそをつくわけがない。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 25 (chủ đề 逆接・否定)."
+    },
+    {
+      "id": "grammar-theo-chu-de-34",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 31,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:b1825d8f06",
+      "pattern": "～くらい／ぐらい",
+      "meaning": "〜と同じ程度だ（例を出して、自分の気持ちを話す）",
+      "meaning_vi": "Tới mức / đến mức… (ví dụ mức độ + cảm xúc)",
+      "structure": "普通形（ナAだ→な）＋くらい／ぐらい",
+      "usage": "Nói mức độ qua ví dụ; hơi thân mật hơn ～ほど.",
+      "example_jp": "出発する前に、痛いくらいしっかりと抱き合った。",
+      "example_vi": "Trước khi xuất phát, ôm chặt đến mức thấy đau.",
+      "examples": [
+        {
+          "jp": "出発する前に、痛いくらいしっかりと抱き合った。",
+          "vi": "Trước khi xuất phát, ôm chặt đến mức thấy đau."
+        },
+        {
+          "jp": "おもしろいテレビをみて、涙が出るくらい笑った。",
+          "vi": "Xem TV vui cười đến mức chảy nước mắt."
+        },
+        {
+          "jp": "彼女は部屋にいるだけで、みんなが笑顔になるくらい明るい人だ。",
+          "vi": "Chỉ cần cô ấy trong phòng là mọi người cười — sáng sủa đến thế."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～くらい／ぐらい"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "出発する前に、痛いくらいしっかりと抱き合った。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 31 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-35",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 31,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:7e21d1dc60",
+      "pattern": "～ほど①（程度）",
+      "meaning": "〜と同じ程度だ（「〜くらい」よりかたい表現）",
+      "meaning_vi": "Tới mức / đến mức… (cứng hơn ～くらい)",
+      "structure": "普通形（ナAだ→な）＋ほど",
+      "usage": "Mức độ tương đương; văn phong cứng hơn くらい.",
+      "example_jp": "父は、一人では持ちきれないほどたくさんのお土産を持って帰ってきた。",
+      "example_vi": "Bố mang về nhiều quà đến mức một mình không cầm hết.",
+      "examples": [
+        {
+          "jp": "父は、一人では持ちきれないほどたくさんのお土産を持って帰ってきた。",
+          "vi": "Bố mang về nhiều quà đến mức một mình không cầm hết."
+        },
+        {
+          "jp": "会場には、びっくりするほど人が集まった。",
+          "vi": "Người tụ họp ở hội trường đông đến mức phải ngạc nhiên."
+        },
+        {
+          "jp": "昨日の夜は、電話で友達と死ぬほど笑った。",
+          "vi": "Tối qua cười với bạn trên điện thoại đến mức muốn chết."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ほど①（程度）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "父は、一人では持ちきれないほどたくさんのお土産を持って帰ってきた。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 31 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-36",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 31,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:ec077ac5e4",
+      "pattern": "～だらけ",
+      "meaning": "〜がたくさんある、〜がたくさんついている（悪いことや、汚いもの）",
+      "meaning_vi": "Toàn là… (thường xấu/bẩn)",
+      "structure": "N＋だらけ",
+      "usage": "Nhiều thứ tiêu cực/bẩn bám đầy.",
+      "example_jp": "仕事からの帰り道、きずだらけの猫を拾った。",
+      "example_vi": "Trên đường về, nhặt được mèo đầy vết thương.",
+      "examples": [
+        {
+          "jp": "仕事からの帰り道、きずだらけの猫を拾った。",
+          "vi": "Trên đường về, nhặt được mèo đầy vết thương."
+        },
+        {
+          "jp": "ほこりだらけの箱から、なつかしい写真がたくさん出てきた。",
+          "vi": "Từ hộp đầy bụi lấy ra nhiều ảnh kỷ niệm."
+        },
+        {
+          "jp": "庭に植えていた植物の葉っぱが、虫に食べられて穴だらけになっていた。",
+          "vi": "Lá cây trong vườn bị sâu ăn thành đầy lỗ."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～だらけ"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "仕事からの帰り道、きずだらけの猫を拾った。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 31 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-37",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 32,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:3ba118d97c",
+      "pattern": "～やすい",
+      "meaning": "簡単に〜できる",
+      "meaning_vi": "Dễ…",
+      "structure": "Vます＋やすい",
+      "usage": "Dễ thực hiện / thuận tiện.",
+      "example_jp": "私の高校は、駅の目の前にあるので通いやすい。",
+      "example_vi": "Trường cấp 3 trước ga nên dễ đi lại.",
+      "examples": [
+        {
+          "jp": "私の高校は、駅の目の前にあるので通いやすい。",
+          "vi": "Trường cấp 3 trước ga nên dễ đi lại."
+        },
+        {
+          "jp": "村上先生の授業はわかりやすくて、楽しく勉強することができる。",
+          "vi": "Bài thầy Murakami dễ hiểu nên học vui."
+        },
+        {
+          "jp": "彼女が書く文字は大きくてきれいなので、とても読みやすい。",
+          "vi": "Chữ cô ấy to và đẹp nên rất dễ đọc."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～やすい"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "私の高校は、駅の目の前にあるので通いやすい。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "OCR trang 32 thiếu ví dụ ③ ở một lần đọc; đã bổ sung theo visual description — cần đối ảnh lại nếu lệch.",
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 32 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-38",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 32,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:9f9b6fce85",
+      "pattern": "～はず",
+      "meaning": "絶対に〜だ",
+      "meaning_vi": "Chắc chắn là… / lẽ ra…",
+      "structure": "普通形（ナAだ→な・である／Nだ→の・である）＋はず（だ）",
+      "usage": "Khẳng định dựa trên lý lẽ/kỳ vọng (強調).",
+      "example_jp": "友達みんなで行く旅行なんて、絶対に楽しいはずだ。",
+      "example_vi": "Chuyến đi cả nhóm bạn chắc chắn sẽ vui.",
+      "examples": [
+        {
+          "jp": "友達みんなで行く旅行なんて、絶対に楽しいはずだ。",
+          "vi": "Chuyến đi cả nhóm bạn chắc chắn sẽ vui."
+        },
+        {
+          "jp": "しっかり勉強をしたので、今回の試験では満点を取れたはずだ。",
+          "vi": "Đã học chăm nên lần thi này lẽ ra được điểm tuyệt đối."
+        },
+        {
+          "jp": "確か、文房具はこの棚に置いてあったはずだ。",
+          "vi": "Chắc văn phòng phẩm được đặt trên giá này."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～はず"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "友達みんなで行く旅行なんて、絶対に楽しいはずだ。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 32 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-39",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 32,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:9781422bd4",
+      "pattern": "～ずにはいられない",
+      "meaning": "どうしても〜してしまう",
+      "meaning_vi": "Dù thế nào cũng… / không thể không…",
+      "structure": "Vない＋ずにはいられない；※しない→せずにはいられない",
+      "usage": "Không kìm được hành động/cảm xúc.",
+      "example_jp": "好きな作家の本が発売されると、買わずにはいられない。",
+      "example_vi": "Sách tác giả yêu thích ra là không thể không mua.",
+      "examples": [
+        {
+          "jp": "好きな作家の本が発売されると、買わずにはいられない。",
+          "vi": "Sách tác giả yêu thích ra là không thể không mua."
+        },
+        {
+          "jp": "頑張っている人を見ると、応援せずにはいられない。",
+          "vi": "Thấy người đang cố gắng thì không thể không cổ vũ."
+        },
+        {
+          "jp": "暑くなってくると、夏の歌を聴かずにはいられない。",
+          "vi": "Trời nóng lên thì không thể không nghe bài hát mùa hè."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ずにはいられない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "好きな作家の本が発売されると、買わずにはいられない。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 32 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-40",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 33,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:d52239a891",
+      "pattern": "～くらい～はない",
+      "meaning": "〜がいちばん〜だ",
+      "meaning_vi": "Không có gì bằng… / … là nhất",
+      "structure": "N1＋くらい／ぐらい＋N2＋はない",
+      "usage": "Nhấn mạnh mức độ cực đại bằng so sánh.",
+      "example_jp": "私は、日本語の勉強くらい楽しいことはないと思っています。",
+      "example_vi": "Tôi nghĩ không có gì vui bằng học tiếng Nhật.",
+      "examples": [
+        {
+          "jp": "私は、日本語の勉強くらい楽しいことはないと思っています。",
+          "vi": "Tôi nghĩ không có gì vui bằng học tiếng Nhật."
+        },
+        {
+          "jp": "村上さんくらいきれいな女性はどこを探してもいないだろう。",
+          "vi": "Dù tìm đâu cũng khó có ai xinh như Murakami."
+        },
+        {
+          "jp": "あの店くらいおいしいカレー屋さんは他にありません。",
+          "vi": "Không có quán cà ri nào ngon như quán kia."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～くらい～はない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "私は、日本語の勉強くらい楽しいことはないと思っています。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 33 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-41",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 33,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:48ec587a6b",
+      "pattern": "～まで（強調）",
+      "meaning": "〜も（たくさんある、十分だ、ということを強調して言う）",
+      "meaning_vi": "Đến cả… (nhấn mạnh mức độ)",
+      "structure": "N＋まで",
+      "usage": "Nhấn mạnh phạm vi rộng / bất ngờ.",
+      "example_jp": "料理が上手な彼女は、ケーキまで作ることができる。",
+      "example_vi": "Cô ấy giỏi nấu ăn, đến cả bánh kem cũng làm được.",
+      "examples": [
+        {
+          "jp": "料理が上手な彼女は、ケーキまで作ることができる。",
+          "vi": "Cô ấy giỏi nấu ăn, đến cả bánh kem cũng làm được."
+        },
+        {
+          "jp": "日本語能力試験では、見て解く問題だけでなく聞いて解く問題まである。",
+          "vi": "Trong JLPT không chỉ có câu đọc mà đến cả câu nghe."
+        },
+        {
+          "jp": "このレストランは料理がとてもおいしい。そのうえ、値段まで安い。",
+          "vi": "Nhà hàng này đồ ăn ngon. Hơn nữa đến cả giá cũng rẻ."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～まで（強調）"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "料理が上手な彼女は、ケーキまで作ることができる。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "Ví dụ ③ OCR trang 33 cắt ngang; đã ghép theo visual — cần đối ảnh.",
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 33 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-42",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 33,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:ec2216d65d",
+      "pattern": "～ほど～はない",
+      "meaning": "〜がいちばん〜だ",
+      "meaning_vi": "Không có gì bằng… / … là nhất",
+      "structure": "N1＋ほど＋N2＋はない",
+      "usage": "Tương tự ～くらい～はない; cứng hơn một chút.",
+      "example_jp": "彼女ほど絵が上手な人は、他にいません。",
+      "example_vi": "Không ai khác vẽ giỏi như cô ấy.",
+      "examples": [
+        {
+          "jp": "彼女ほど絵が上手な人は、他にいません。",
+          "vi": "Không ai khác vẽ giỏi như cô ấy."
+        },
+        {
+          "jp": "日本では、富士山ほど高くて有名な山はない。",
+          "vi": "Ở Nhật không có núi nào cao và nổi tiếng như Phú Sĩ."
+        },
+        {
+          "jp": "彼ほど優しくて頼りになる人はいません。",
+          "vi": "Không ai hiền lành và đáng tin như anh ấy."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～ほど～はない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼女ほど絵が上手な人は、他にいません。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 33 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-43",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 34,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:c10d578815",
+      "pattern": "～てしかたがない／～てしょうがない",
+      "meaning": "とても〜だ（気持ちを表現する言葉と一緒に使う）",
+      "meaning_vi": "Rất / vô cùng… (cảm xúc)",
+      "structure": "Vたい／イAい＋くてしかたがない／くてしょうがない；ナA＋でしかたがない／でしょうがない",
+      "usage": "Cường điệu cảm xúc không kìm được.",
+      "example_jp": "外国に住んでいると、ときどき家族に会いたくてしょうがなくなる。",
+      "example_vi": "Sống ở nước ngoài thì đôi khi rất muốn gặp gia đình.",
+      "examples": [
+        {
+          "jp": "外国に住んでいると、ときどき家族に会いたくてしょうがなくなる。",
+          "vi": "Sống ở nước ngoài thì đôi khi rất muốn gặp gia đình."
+        },
+        {
+          "jp": "あんなにかっこいい彼と付き合えるなんて、友達がうらやましくてしかたがない。",
+          "vi": "Hẹn hò với anh ấy ngầu thế, bạn bè ghen tị vô cùng."
+        },
+        {
+          "jp": "いらいらしているときは、ビールが飲みたくてしかたがなくなる。",
+          "vi": "Lúc bực mình thì rất muốn uống bia."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～てしかたがない／～てしょうがない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "外国に住んでいると、ときどき家族に会いたくてしょうがなくなる。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "OCR ví dụ ③ có 「しかたがなくなる」— giữ theo visual description; đối ảnh nếu cần.",
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 34 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-44",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 34,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:6f08baa3e1",
+      "pattern": "～に違いない",
+      "meaning": "絶対に〜だ、きっと〜だ",
+      "meaning_vi": "Chắc chắn là… / chắc là…",
+      "structure": "普通形（ナAだ／Nだ）＋に違いない；ナA／N＋であるに違いない；★そうに違いない",
+      "usage": "Kết luận chắc chắn từ dấu hiệu.",
+      "example_jp": "昨日買ったお菓子がもうないのは、妻が食べたからに違いない。",
+      "example_vi": "Bánh mua hôm qua hết rồi — chắc vợ đã ăn.",
+      "examples": [
+        {
+          "jp": "昨日買ったお菓子がもうないのは、妻が食べたからに違いない。",
+          "vi": "Bánh mua hôm qua hết rồi — chắc vợ đã ăn."
+        },
+        {
+          "jp": "何度もお願い事をしてしまっては、相手に迷惑であるに違いない。",
+          "vi": "Nhờ nhiều lần thế chắc đã làm phiền đối phương."
+        },
+        {
+          "jp": "この服は彼女に似合うに違いない。",
+          "vi": "Bộ quần áo này chắc hợp với cô ấy."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～に違いない"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "昨日買ったお菓子がもうないのは、妻が食べたからに違いない。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": true,
+      "verify_reason": "OCR ví dụ ①② rất lệch; đã chỉnh theo visual description p34.",
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 34 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-45",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 35,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:a9e536364d",
+      "pattern": "～に対して②",
+      "meaning": "〜と比べて考えると",
+      "meaning_vi": "Trái với / trái lại… (so sánh)",
+      "structure": "普通形（ナAだ→な・である／Nだ→な・である）＋のに対して；N＋に対して",
+      "usage": "Đối chiếu hai sự việc/đối tượng (khác nghĩa ① hướng tới đối tượng).",
+      "example_jp": "私の国の言葉は発音が難しいのに対して、日本語は文法が難しい。",
+      "example_vi": "Tiếng nước tôi phát âm khó, trái lại tiếng Nhật ngữ pháp khó.",
+      "examples": [
+        {
+          "jp": "私の国の言葉は発音が難しいのに対して、日本語は文法が難しい。",
+          "vi": "Tiếng nước tôi phát âm khó, trái lại tiếng Nhật ngữ pháp khó."
+        },
+        {
+          "jp": "日本は夜の10時であるのに対して、アメリカは朝の8時だそうだ。",
+          "vi": "Nghe nói Nhật đang 10 giờ tối thì Mỹ là 8 giờ sáng."
+        },
+        {
+          "jp": "とても優しい父に対して、母はかなり厳しい人だ。",
+          "vi": "Bố rất hiền, trái lại mẹ khá nghiêm khắc."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～に対して②"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "私の国の言葉は発音が難しいのに対して、日本語は文法が難しい。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 35 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-46",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 35,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:5905a1a1b0",
+      "pattern": "～どころか",
+      "meaning": "〜よりもっと（比較して強調するときに使う）",
+      "meaning_vi": "Đâu phải (chỉ)… / nói chi…",
+      "structure": "普通形（ナAだ→な／Nだ）＋どころか",
+      "usage": "Phủ nhận mức thấp hơn để nhấn mạnh mức cao hơn.",
+      "example_jp": "昔の携帯電話は、写真を撮るどころかメッセージを送ることもできなかった。",
+      "example_vi": "Điện thoại ngày xưa đâu phải chỉ không chụp được ảnh — gửi tin cũng không.",
+      "examples": [
+        {
+          "jp": "昔の携帯電話は、写真を撮るどころかメッセージを送ることもできなかった。",
+          "vi": "Điện thoại ngày xưa đâu phải chỉ không chụp được ảnh — gửi tin cũng không."
+        },
+        {
+          "jp": "私と彼が付き合っているということは、クラスの友達どころか先生も親もみんな知っている。",
+          "vi": "Chuyện chúng tôi hẹn hò đâu chỉ bạn lớp — thầy và bố mẹ ai cũng biết."
+        },
+        {
+          "jp": "この子犬は、病気が原因で最初は歩くどころか立つこともできなかった。",
+          "vi": "Chó con ốm nên ban đầu đâu chỉ không đi — đứng cũng không nổi."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～どころか"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "昔の携帯電話は、写真を撮るどころかメッセージを送ることもできなかった。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 35 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-47",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 35,
+      "theme": "程度・強調・比較",
+      "knowledge_id": "grammar:05e198d232",
+      "pattern": "～に比べて",
+      "meaning": "〜より",
+      "meaning_vi": "So với…",
+      "structure": "N＋に／と＋比べて／比べると",
+      "usage": "So sánh A với B.",
+      "example_jp": "私の子どものころに比べて、ここ数年、雪が降ることが少なくなった。",
+      "example_vi": "So với lúc tôi còn bé, mấy năm nay tuyết rơi ít hơn.",
+      "examples": [
+        {
+          "jp": "私の子どものころに比べて、ここ数年、雪が降ることが少なくなった。",
+          "vi": "So với lúc tôi còn bé, mấy năm nay tuyết rơi ít hơn."
+        },
+        {
+          "jp": "日本の料理は韓国の料理に比べて、そんなに辛くない。",
+          "vi": "Món Nhật so với món Hàn thì không cay lắm."
+        },
+        {
+          "jp": "兄は昔に比べて、料理がとてもうまくなったと思う。",
+          "vi": "Anh tôi so với trước thì nấu ăn giỏi hơn nhiều."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～に比べて"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "私の子どものころに比べて、ここ数年、雪が降ることが少なくなった。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 35 (chủ đề 程度・強調・比較)."
+    },
+    {
+      "id": "grammar-theo-chu-de-48",
+      "type": "grammar",
+      "subtype": "theo_chu_de",
+      "level": "N3",
+      "source_file": "TỔNG HỢP NP N3 THEO CHỦ ĐỀ CÓ GIẢI THÍCH.pdf",
+      "source_page": 39,
+      "theme": "想像・予想",
+      "knowledge_id": "grammar:3ed5fb5456",
+      "pattern": "～がる",
+      "meaning": "〜と感じているようだ（他の人の様子を言うときに使う）",
+      "meaning_vi": "Tỏ ra… (cảm nhận của người khác)",
+      "structure": "イAい／ナA＋がる",
+      "usage": "Mô tả cảm xúc/thái độ của người thứ ba (không dùng cho bản thân).",
+      "example_jp": "彼は私のことをこわがっているのか、目を合わせようともしない。",
+      "example_vi": "Anh ấy có vẻ sợ tôi, không chịu nhìn vào mắt.",
+      "examples": [
+        {
+          "jp": "彼は私のことをこわがっているのか、目を合わせようともしない。",
+          "vi": "Anh ấy có vẻ sợ tôi, không chịu nhìn vào mắt."
+        },
+        {
+          "jp": "鈴木さんが会社を辞めると聞いて、みんな残念がっていたよ。",
+          "vi": "Nghe Suzuki nghỉ việc, mọi người tỏ ra tiếc nuối."
+        },
+        {
+          "jp": "娘の誕生日は、前から欲しがっていた人形をプレゼントしてあげよう。",
+          "vi": "Sinh nhật con gái sẽ tặng búp bê mà bé vẫn thèm từ trước."
+        }
+      ],
+      "pattern_ruby": [
+        {
+          "text": "～がる"
+        }
+      ],
+      "example_ruby": [
+        {
+          "text": "彼は私のことをこわがっているのか、目を合わせようともしない。"
+        }
+      ],
+      "content_source": "visual_transcription",
+      "needs_verify": false,
+      "verify_reason": null,
+      "ai_extra": null,
+      "note": "Chunk2 visual từ trang PDF 39 (chủ đề 想像・予想)."
     }
   ]
 }
