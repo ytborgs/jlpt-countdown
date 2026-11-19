@@ -1,5 +1,5 @@
-:root{color-scheme:dark;--bg:#0b1729;--card:#13243c;--line:#304662;--text:#f5f2e9;--muted:#a9b6c8;--accent:#eabb76;--green:#a8d6ba;--red:#e8a0a0;--red-bg:rgba(232,160,160,.12);--green-bg:rgba(168,214,186,.12)}
-@media(prefers-color-scheme:light){:root{color-scheme:light;--bg:#f5f0e6;--card:#fffbf4;--line:#d9d6cb;--text:#18283b;--muted:#617084;--accent:#a2611e;--green:#44745c;--red:#a94442;--red-bg:rgba(169,68,66,.1);--green-bg:rgba(68,116,92,.1)}}
+
+
 .study-page .grammar-list{align-items:start}
 .study-page #study-list:has(.study-group){display:flex;flex-direction:column;gap:28px}
 .study-group{display:flex;flex-direction:column;gap:14px;min-width:0}

@@ -162,3 +162,7 @@ Giới hạn dữ liệu v8: 3 câu chưa có tóm tắt và 1 lựa chọn chư
 Tiến độ các bộ practice được lưu trong localStorage của trình duyệt: đếm Đúng/Sai/Còn, lọc Tất cả/Chưa làm/Câu sai/Câu đúng, làm lại riêng câu sai hoặc xóa tiến độ bộ hiện tại. Không đồng bộ lên server; hard-quiz không chấm điểm.
 
 Sau khi trả lời câu hỏi có đáp án, nút “Xem giải thích” mở modal phân tích từng lựa chọn; đóng bằng nút Đóng, phím Escape hoặc chạm nền bên ngoài. Thanh tiến độ và bộ lọc nằm trong header cố định khi cuộn; mobile dùng bố cục gọn, các thao tác làm lại/xóa nằm trong menu ⋯.
+
+### Giao diện
+
+Trong Cài đặt, chọn **Theo hệ thống**, **Sáng** hoặc **Tối**. Lựa chọn áp dụng ngay trên mọi trang, được lưu trên thiết bị và đồng bộ giữa các tab; không ảnh hưởng tiến độ học.

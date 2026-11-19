@@ -41,6 +41,15 @@ if (!html.includes(`study.css?v=${RELEASE}`)) errors.push(`study.html missing st
 if (!html.includes(`release: '${RELEASE}'`)) errors.push('study.html boot release mismatch');
 
 const sw = read('sw.js');
+for (const file of ['index.html', 'settings.html', 'profile.html', 'grammar.html', 'study.html']) {
+  const page = read(file);
+  for (const asset of ['theme.js', 'theme.css']) {
+    if (!page.includes(`${asset}?v=${RELEASE}`)) errors.push(`${file}: theme release mismatch for ${asset}`);
+  }
+}
+for (const asset of ['theme.js', 'theme.css', 'settings.css']) {
+  if (!sw.includes(`${asset}?v=\${RELEASE}`)) errors.push(`sw.js missing versioned ${asset}`);
+}
 if (!sw.includes(`const RELEASE = '${RELEASE}'`)) errors.push('sw.js RELEASE mismatch');
 for (const name of ['study.js', 'study-render.js', 'study-storage.js', 'study-session.js', 'study-flash.js', 'grammar.js']) {
   if (!sw.includes(`${name}?v=\${RELEASE}`) && !sw.includes(`${name}?v=${RELEASE}`)) {

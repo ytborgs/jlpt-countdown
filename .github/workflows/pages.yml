@@ -36,6 +36,8 @@ jobs:
           node --check register-sw.js
       - name: Check asset version consistency
         run: node scripts/check-asset-versions.mjs
+      - name: Theme preference regression
+        run: node scripts/test-theme.mjs
       - name: Module upgrade A→B contract
         run: node scripts/test-module-upgrade.mjs
       - name: Storage merge smoke test

@@ -1,14 +1,15 @@
 const CACHE_PREFIX = 'jlpt-n3-';
-const CACHE = 'jlpt-n3-v46-reading';
-const RELEASE = '46';
+const CACHE = 'jlpt-n3-v47-theme';
+const RELEASE = '47';
 const ASSETS = [
   './', './index.html', './manifest.webmanifest', './icon.svg', './apple-touch-icon.png',
   './grammar.html', './grammar.js', `./grammar.js?v=${RELEASE}`, './grammar.css', './grammar.json',
-  './settings.html', './profile.html', './settings.css', './settings.js',
+  './settings.html', './profile.html', `./settings.css?v=${RELEASE}`, './settings.js',
   './study.html', `./study.css?v=${RELEASE}`, `./study.js?v=${RELEASE}`,
   `./study-storage.js?v=${RELEASE}`, `./study-session.js?v=${RELEASE}`,
   `./study-render.js?v=${RELEASE}`, `./study-flash.js?v=${RELEASE}`,
   './release.js', './register-sw.js',
+  `./theme.js?v=${RELEASE}`, `./theme.css?v=${RELEASE}`,
   `./study-data/topics.json?v=${RELEASE}`,
   `./study-data/collections.json?v=${RELEASE}`, `./study-data/grammar.json?v=${RELEASE}`, `./study-data/kanji.json?v=${RELEASE}`,
   `./study-data/verbs.json?v=${RELEASE}`, `./study-data/kanji-quiz.json?v=${RELEASE}`, `./study-data/synonyms.json?v=${RELEASE}`,

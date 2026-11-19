@@ -3,14 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#11223a">
+  <meta name="theme-color" content="#0b1729">
+  <script src="./theme.js?v=47"></script>
+  <link rel="stylesheet" href="./theme.css?v=47">
   <title>Tài liệu ôn tập N3 tổng hợp</title>
   <link rel="icon" type="image/svg+xml" href="./icon.svg">
   <link rel="stylesheet" href="./grammar.css">
-  <link rel="stylesheet" href="./study.css?v=46">
+  <link rel="stylesheet" href="./study.css?v=47">
   <script>
     window.__STUDY_BOOT__ = {
-      release: '46',
+      release: '47',
       ready: false,
       phase: 'html',
       startedAt: Date.now(),
@@ -53,7 +55,7 @@
       if (!boot.ready) showRecovery('timeout');
     }, BOOT_TIMEOUT_MS);
 
-    import('./study.js?v=46')
+    import('./study.js?v=47')
       .then(() => { boot.phase = 'module-loaded'; })
       .catch(error => {
         clearTimeout(timer);
